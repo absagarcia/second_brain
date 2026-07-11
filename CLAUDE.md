@@ -37,6 +37,7 @@ frontmatter:
 - `agave-startup` — disease detection in agave plants, on-device ML
 - `freelance` — client/project notes (be careful with confidentiality,
   never put sensitive client data in without anonymizing it)
+- `finance` — personal investment, ETFs, market concepts
 
 A page can belong to more than one domain. Those are exactly the most
 valuable pages — where something from one project illuminates another.
