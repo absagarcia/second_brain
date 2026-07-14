@@ -38,6 +38,9 @@ frontmatter:
 - `freelance` — client/project notes (be careful with confidentiality,
   never put sensitive client data in without anonymizing it)
 - `finance` — personal investment, ETFs, market concepts
+- `reflections` — conversations or conceptual ideas that cross projects
+  (talks with colleagues, reflections on AI/product/thinking patterns)
+  that don't belong to a specific client or product
 
 A page can belong to more than one domain. Those are exactly the most
 valuable pages — where something from one project illuminates another.
@@ -98,12 +101,54 @@ type: entity | concept | comparison
 domain: [athletix, masters]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-sources: [raw/masters/paper-x.pdf]
+sources:
+  - path: raw/masters/paper-x.pdf
+    fact_date: YYYY-MM-DD      # when the thing it describes happened/was published
+    ingest_date: YYYY-MM-DD    # when it was added to the wiki (can be much later)
+    confidence: high | medium | low  # how authoritative the source is
 ---
 ```
 
+`fact_date` vs `ingest_date` matter separately: a 2023 data point ingested
+today doesn't become "recent" just because it was just written into the
+wiki. `confidence` is your own judgment of the source (e.g. a peer-reviewed
+paper = high, a Medium article with no sources = medium/low, your own
+unvalidated opinion = low until proven).
+
 Internal links in `[[other-page-name]]` style (compatible with Obsidian
 if you ever open it as a vault).
+
+## Temporal and epistemic integrity
+
+Three real risks of this pattern that must be actively mitigated:
+
+1. **Retrospective contamination (hindsight bias).** When you write or
+   update a page, don't rewrite the past with what you know now. If an
+   old source said X and it was later found to be incorrect, the page
+   should show "as of [date], X was believed; as of [later date],
+   [new source] showed Y" — not delete the fact that X was once believed.
+   What was known at the time it was generated matters as much as the
+   current state.
+
+2. **The compressor's point of view.** Every time you summarize or
+   compress a source, you (the LLM) decide what's important according to
+   your own judgment — and that may not be what the user would have
+   prioritized. When ingesting something long or dense, before
+   summarizing ask yourself: what perspective am I applying when deciding
+   what stays and what gets dropped? If it isn't obvious, ask the user
+   which angle matters most to them before compressing, instead of
+   silently assuming it.
+
+3. **Uneven temporal value depending on the type of information.** Not
+   everything decays the same way: a market price loses value in days, a
+   software architecture principle can last years. When writing a page,
+   indicate whether the content is short-lived (data/figure that will
+   change) or long-lived (principle/pattern), so whoever reads it knows
+   how much to trust that it's still valid.
+
+Git already helps partially (commit history shows when each thing
+changed) — but that doesn't replace explicitly stating these three points
+within the page's content.
 
 ## Hard rules
 
