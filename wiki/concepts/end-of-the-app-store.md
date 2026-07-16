@@ -3,7 +3,7 @@ title: End of the App Store (LLM-generated software thesis)
 type: concept
 domain: [reflections]
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-15
 sources:
   - path: raw/notes-ai/call-daniel-2026-07-XX.vtt
     fact_date: 2026-07-XX
@@ -43,3 +43,13 @@ moved from *content creation* (scarce when cameras/internet were rare) to
 cost keeps falling (AI-generated music etc.) — paralleled to software,
 where the same shift from "building the app" to "selecting/generating the
 right features for you" is argued to be underway.
+
+## Cross-linked (2026-07-15)
+
+This page's "network effects survive" counter-point turned out to be one
+of three independent sources making closely related claims about network
+effects as a moat — see [[network-effects-as-moat]], which also draws on
+[[de-cero-a-uno]], [[read-write-own]], and [[the-saas-playbook]]. This
+page remains the only unsourced/speculative one of the four (an opinion
+from a conversation, not a book), so it's linked from that page rather
+than treated as equally authoritative.

@@ -41,6 +41,7 @@ frontmatter:
 - `reflections` — conversations or conceptual ideas that cross projects
   (talks with colleagues, reflections on AI/product/thinking patterns)
   that don't belong to a specific client or product
+- `books` — notes, summaries, and ideas extracted from books read
 
 A page can belong to more than one domain. Those are exactly the most
 valuable pages — where something from one project illuminates another.

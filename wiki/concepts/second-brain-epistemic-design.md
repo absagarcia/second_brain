@@ -3,7 +3,7 @@ title: Second Brain / Wiki Epistemic Design Principles
 type: concept
 domain: [reflections]
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-15
 sources:
   - path: raw/notes-ai/call-daniel-2026-07-XX.vtt
     fact_date: 2026-07-XX
@@ -48,6 +48,19 @@ Three risks raised, and why they matter:
    all). Git history was noted as a partial but insufficient solution —
    it captures *when a page changed* but not *when the underlying fact
    was true* or *how authoritative the source is*.
+
+## Related but independent: Building a Second Brain (2026-07-15)
+
+[[building-a-second-brain]] (Tiago Forte's book, ingested separately) is
+the same genre of idea — a personal knowledge-management system meant to
+compound over time — but its CODE method
+([[code-method-second-brain]]) is a workflow framework, not an epistemic
+one. It doesn't address any of the three risks above (retrospective
+contamination, the compressor's point of view, provenance/decay). Worth
+keeping both pages distinct rather than merging: this page is about what
+can go epistemically wrong when compressing knowledge; that one is about
+the mechanical steps of a capture-to-creation pipeline. Nothing indicates
+Daniel used this specific book as his source.
 
 Additional context from Daniel's own second-brain build: he prompted
 Claude Code directly to design a personal wiki, ended up on a Git-backed
