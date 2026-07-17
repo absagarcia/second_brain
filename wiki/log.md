@@ -281,3 +281,20 @@ User clarified "apply everything suggested" was meant to include items
   corroborated by [[dinero-domina-el-juego]]), and not-yet-evaluated
   (the five focus questions, intro definition of success, loyalty/
   forgiveness chapters).
+
+## [2026-07-16] advisor | Content strategy for Absadev — blackicelabs
+First `blackicelabs`-domain content and first non-book/non-athletix
+material in the wiki. Advisor session (not a raw ingest): built a social-
+media growth strategy from the user's own account + shared YouTube Studio
+and TikTok analytics screenshots. Created entity [[absadev]] (personal
+dev-content brand — YouTube @Absadev / TikTok absa.dev; creator profile,
+goals, and a 2026-07-16 stats baseline flagged as SHORT-LIVED data) and
+concept [[estrategia-contenido-absadev]] (v1 strategy, `medium` confidence
+= working hypothesis, not proven results). Core diagnosis from the user's
+own words: 9 years of content but "nunca he sido consistente" (→ #1 lever)
+and a conversation problem (1 comment / 60 days on TikTok). Signature
+format identified: comparisons (Flutter vs React Native — top-3 by views
+AND the video that felt most like him). Confirmed the Absadev creator is
+the same person as [[eliecer-garcia-romo]] and added a reciprocal link
+from that page. Locked constraints: Spanish/LatAm, community+monetization,
+YouTube+repurpose, 4-6 h/week.

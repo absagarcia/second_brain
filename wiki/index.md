@@ -29,6 +29,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Sapiens. De animales a dioses](entities/sapiens.md) — Harari's history of humankind; imagined orders, luxury/necessity ratchet, happiness ceiling — books, reflections
 - [The SaaS Playbook](entities/the-saas-playbook.md) — Rob Walling's bootstrapped-SaaS playbook (PMF, pricing, moat-via-integrations, metrics, founder burnout) — books, athletix
 - [Sin Esfuerzo (Effortless)](entities/sin-esfuerzo.md) — Greg McKeown's sequel to Essentialism; effortless-action technique + startup-mythology pushback — books, reflections, athletix
+- [Absadev](entities/absadev.md) — the user's personal dev-content brand (YouTube @Absadev + TikTok absa.dev); creator profile, goals, and 2026-07-16 stats baseline — blackicelabs
 
 ## Concepts
 
@@ -51,6 +52,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Imagined Orders / Shared Fictions](concepts/imagined-orders-shared-fictions.md) — Harari's mechanism for large-scale human cooperation via shared myths — books, reflections
 - [Effortless Action Principles](concepts/effortless-action-principles.md) — McKeown's define-done/simplify/courage-to-be-bad/pace technique layer — books, reflections, athletix
 - [Environment, Rituals, and Systems Over Willpower](concepts/systems-over-willpower.md) — consolidates 6 independent books (Atomic Habits, Deep Work, Dinero: domina el juego, Building a Second Brain, Mindset, Sin Esfuerzo) on willpower being unreliable vs. system/ritual design — books, reflections
+- [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — v1 content strategy for the Absadev channel: diagnosis (consistency + conversation), positioning, 4 pillars, cadence for 4-6h/week — blackicelabs
 
 ## Comparisons
 

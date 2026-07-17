@@ -15,3 +15,6 @@ the "García Romo Brothers" founding team, alongside
 
 See [[founder-mental-health-startup-risk]] — a pattern noted from outside
 reading, not a claim about this person specifically.
+
+Also runs the personal dev-content brand [[absadev]] (YouTube/TikTok) — his
+own creator identity, separate from the ATHLETIX work.
