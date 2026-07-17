@@ -298,3 +298,15 @@ AND the video that felt most like him). Confirmed the Absadev creator is
 the same person as [[eliecer-garcia-romo]] and added a reciprocal link
 from that page. Locked constraints: Spanish/LatAm, community+monetization,
 YouTube+repurpose, 4-6 h/week.
+
+## [2026-07-16] advisor | Absadev — first batch defined + anecdote captured — blackicelabs
+Updated [[estrategia-contenido-absadev]]: closed the open "which
+comparisons to batch first" item with a concrete 3-video first batch
+(Flutter vs React Native / Amo Flutter y voy a aprender Swift / Lo que
+aprendí presentando en inglés con gringos), each with hook + postura +
+closing question. Captured the user's real "trabajo gringo" anecdote in
+his own words ("el mexicano le pone mucha salsa a sus tacos" → directo sin
+choro, no pedir permiso de más, entregar > calentar la silla) as a
+reusable content seed for that pillar. Added a "Measurement" note: pick
+batch #2 topics from what actually performs (views + comments), to review
+with the user next week.

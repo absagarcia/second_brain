@@ -91,10 +91,43 @@ de Dev a AI Engineer" — the strategy is to actually exploit it.
   first stretch is streak-kept, not views.** Better to start smaller and
   never miss than to launch big and abandon.
 
+## First batch — week of 2026-07-16 (3 videos to start the streak)
+
+Portfolio logic: one proven/safe, one personal/journey, one
+differentiator/growth. Recorded in one batch day, published dom/mié/vie.
+**Success metric for this week = shipped, not views** (habit first, given
+the 9-year inconsistency).
+
+1. **"Flutter vs React Native en 2026"** (proven anchor — was top-3 by
+   views). Postura: RN gana en conseguir chamba, Flutter gana en disfrutar
+   programando. Cierre: *"¿Tú por cuál te vas: chamba o gusto?"*
+2. **"Amo Flutter y aun así voy a aprender Swift"** (personal / learning in
+   public). Postura: Flutter resuelve el 90% multiplataforma pero no
+   entiendes iOS de verdad sin tocar nativo. Cierre pide consejo a la
+   comunidad (comment magnet): *"¿Ya sabes Swift? Dime UNA cosa que ojalá
+   te hubieran dicho antes."*
+3. **"Lo que aprendí presentando en inglés con gringos"** (differentiator —
+   his unique lane). Anécdota real, en sus palabras: *"el mexicano le pone
+   mucha salsa a sus tacos"* — los latinos le ponen choro/rodeo/"con
+   permiso" formal; con gringos eso se lee como inseguridad. El shift que
+   hizo: ir directo (resultado primero, sin choro), no pedir permiso de
+   más, y entender que **valoran que ENTREGUES, no que calientes la silla
+   10 horas.** Cierre: *"¿cuál fue su choque cultural más fuerte?"* This
+   anecdote is a reusable content seed for the "trabajo gringo" pillar,
+   not just this one video.
+
+## Measurement — track results before batch #2
+
+Next batch's topics should be chosen from **what actually performed** here
+(views + especially comments/conversation, per the diagnosis). To be
+reviewed with the user before picking the next 3. Baseline stats live on
+[[absadev]] (2026-07-16 snapshot).
+
 ## Open / to refine
 
 - Exact minimum-viable cadence he can *guarantee* (habit before volume).
-- Which specific comparison topics to batch first.
+- ~~Which specific comparison topics to batch first.~~ → resolved above
+  (first batch defined 2026-07-16).
 - When/whether to introduce the first monetization surface (product vs
   sponsorship vs client funnel).
 
