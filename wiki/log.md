@@ -310,3 +310,77 @@ choro, no pedir permiso de más, entregar > calentar la silla) as a
 reusable content seed for that pillar. Added a "Measurement" note: pick
 batch #2 topics from what actually performs (views + comments), to review
 with the user next week.
+
+## [2026-07-21] advisor | Absadev — growth diagnosis, reference creators, 8 series, content calendar — blackicelabs
+Large update to [[estrategia-contenido-absadev]] across one session.
+
+- **Milestone recorded:** the user broke a 9-year inconsistency streak —
+  recorded the first batch of 3 and scheduled them (2026-07-21/23/25).
+  Framed via [[four-laws-of-behavior-change]] (identity-based habits) as
+  the real win, independent of those videos' numbers.
+- **Growth diagnosis:** mapped [[aarrr-growth-metrics]] onto the channel.
+  Acquisition and Referral are healthy; **Activation and Retention are
+  where it leaks** (1 comment/60 days; +7 subs on 34.5K views). Conclusion
+  recorded: **10k subs is a retention problem, not a reach problem** —
+  hence named/numbered series as the core mechanism. Also recorded the
+  honest math (+7/28 days ⇒ 25 years; needs a step change).
+- **Reference creators analyzed** at the user's request (@devcaress,
+  @pikacodes). TikTok blocks direct fetch — profile pages return only
+  "Please wait…" — so findings came from web search and are cited as such,
+  with the first @pikacodes pass explicitly flagged as too thin before a
+  second round filled it in. Extracted transferable mechanics: numbered
+  series, the "Replying to @user" comment→content loop, question-titles,
+  employability-over-tutorials (devcaress); journey/identity storytelling,
+  coding-for-fun, AI-for-productivity (pikacodes). Recorded the strategic
+  read that Absadev should **not** compete with devcaress on "how to GET
+  the remote job" (per [[monopoly-vs-competition-zero-to-one]]) but own
+  the unserved adjacent layer: **how to SURVIVE it**.
+- **Eight series defined.** 1-4 (utility/devcaress-shaped) and 5-8
+  (identity/joy/pikacodes-shaped), plus the devcaress↔pikacodes contrast
+  table explaining why the identity half is the more urgent fix for the
+  diagnosed comments leak.
+- **Content calendar** for 2026-07-28 → 08-08 with a hard-dated
+  constraint (the Swift follow-up must publish 07-30 or its "una semana
+  después" premise breaks), plus a long-form "Sobrevivir la chamba
+  gringa" scheduled ~week of 08-11 for the shorts to funnel into.
+- **Flagship video scripted:** "Llevo desde 2017 haciendo contenido y no
+  lo he logrado" — arc, craft rules (vulnerability with agency, no
+  subscribe CTA), and why it's judged his most important video this year.
+- Caught a neglected asset: the user mentioned in the first session that
+  he runs, and it had gone entirely unused — now Series 8.
+
+Sources for this entry are the advisor conversation itself plus public
+web-search data on the two reference creators; no `raw/` file exists for
+it, so it is recorded at the confidence levels stated on the page.
+
+## [2026-07-21] advisor | Absadev — streak broken, growth diagnosis, 4 series + calendar — blackicelabs
+Major update to [[estrategia-contenido-absadev]]. **Milestone: the user
+actually recorded and scheduled the first batch of 3** (Tue/Thu/Sat this
+week) — the first break in 9 years of self-described inconsistency;
+recorded against [[four-laws-of-behavior-change]]'s identity-based-habits
+mechanism (behavior → belief), with the explicit note that the next batch
+matters more than these 3 videos' numbers.
+
+Applied two of the user's own concept pages as the growth analysis rather
+than generic advice — the cross-domain payoff this wiki is built for:
+- [[aarrr-growth-metrics]] mapped onto the channel → **10k subs is a
+  RETENTION problem, not a reach problem** (34.5K views but +7 subs and 1
+  comment/60 days; the funnel leaks at stage 3). Math: +7/28 days ⇒ 25
+  years to 10k, so a step change is required, not optimization.
+- [[monopoly-vs-competition-zero-to-one]] → don't compete head-on with
+  reference creator @devcaress (184K) on "how to GET the remote job";
+  take the unoccupied adjacent layer, **"how to SURVIVE the gringo job"**.
+
+Reference-creator analysis: @devcaress verified via web search (TikTok
+blocks direct fetch) — numbered series, "Replying to @user" comment→content
+loop, question-titles, employability-over-tutorials. @pikacodes **flagged
+as thin data** (one confirmed caption only) — explicitly not analyzed
+further rather than inferred; user to supply examples.
+
+Defined four series (Sobrevivir la chamba gringa / Camino a AI Engineer /
+Comparaciones sin choro / Respondiendo comentarios-as-mechanic) and a
+concrete 2026-07-28 → 08-08 calendar with a batch-record day (07-26), one
+hard-dated episode (Swift follow-up must land 07-30 or its "una semana
+después" premise breaks), and a single long-form video for ~08-11 that the
+series-1 shorts funnel into. Review point 2026-08-08: subs-per-video by
+series decides the next slots.

@@ -52,7 +52,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Imagined Orders / Shared Fictions](concepts/imagined-orders-shared-fictions.md) — Harari's mechanism for large-scale human cooperation via shared myths — books, reflections
 - [Effortless Action Principles](concepts/effortless-action-principles.md) — McKeown's define-done/simplify/courage-to-be-bad/pace technique layer — books, reflections, athletix
 - [Environment, Rituals, and Systems Over Willpower](concepts/systems-over-willpower.md) — consolidates 6 independent books (Atomic Habits, Deep Work, Dinero: domina el juego, Building a Second Brain, Mindset, Sin Esfuerzo) on willpower being unreliable vs. system/ritual design — books, reflections
-- [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — v1 content strategy for the Absadev channel: diagnosis (consistency + conversation), positioning, 4 pillars, cadence for 4-6h/week — blackicelabs
+- [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — content strategy for the Absadev channel: AARRR retention diagnosis, positioning vs. reference creators (@devcaress/@pikacodes), 8 series, content calendar and scripts — blackicelabs
 
 ## Comparisons
 
