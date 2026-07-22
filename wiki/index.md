@@ -30,6 +30,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [The SaaS Playbook](entities/the-saas-playbook.md) — Rob Walling's bootstrapped-SaaS playbook (PMF, pricing, moat-via-integrations, metrics, founder burnout) — books, athletix
 - [Sin Esfuerzo (Effortless)](entities/sin-esfuerzo.md) — Greg McKeown's sequel to Essentialism; effortless-action technique + startup-mythology pushback — books, reflections, athletix
 - [Absadev](entities/absadev.md) — the user's personal dev-content brand (YouTube @Absadev + TikTok absa.dev); creator profile, goals, and 2026-07-16 stats baseline — blackicelabs
+- [Absa Garcia (absa.garcia)](entities/absa-garcia.md) — the user's non-tech lifestyle/running creator brand + podcast history (Café con Absa, closed by Spotify; Absa con Café); now with real YouTube 28-day data (26,293 views → 3 net subs, 92% from World Cup content) + rumbo 2026 (running/medio maratón/boda como arco, San Gabriel descartado) — blackicelabs
 
 ## Concepts
 

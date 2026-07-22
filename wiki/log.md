@@ -353,6 +353,43 @@ Sources for this entry are the advisor conversation itself plus public
 web-search data on the two reference creators; no `raw/` file exists for
 it, so it is recorded at the confidence levels stated on the page.
 
+## [2026-07-22] advisor | Absa Garcia — second creator brand + podcast history — blackicelabs
+Created entity [[absa-garcia]], the user's **non-tech lifestyle/running**
+creator brand (Instagram/YouTube/TikTok @absa.garcia), sibling to
+[[absadev]]. Historically diverse in topic; the user stated on 2026-07-22
+that he wants it narrowed to lifestyle, running, and current life, with
+no tech.
+
+Podcast history recovered via web search (Listen Notes / Apple Podcasts /
+Anchor): **Café con Absa**, 27+ episodes Feb 2020 → Sep 2023, Spanish,
+**Listen Score 29 — top 10% of all podcasts**, i.e. in relative terms the
+best-performing asset the user has ever built. Two successors noted:
+**Absa con Café** (confirmed a genuinely different podcast, not a rename;
+dormant, user wants to revive) and **Coffee and Code** (dev-focused, so
+routed to the [[absadev]] side).
+
+**Correction recorded, not overwritten:** on 2026-07-21 the advisor
+inferred the podcast's 2023 stop was the same inconsistency pattern as
+the YouTube channel. The user corrected this on 2026-07-22 — **Spotify
+closed it**, an external cause, not abandonment. Both the wrong inference
+and the correction are kept on the page per the retrospective-
+contamination rule; the reason for the closure is still unknown.
+
+Two decisions recorded on the pages: (1) a **content-routing boundary**
+between the brands — the line is "would a dev audience care?", not
+"personal vs tech", so running-as-metaphor stays on Absadev (it's what
+fixes the diagnosed comments leak) while running-as-sport goes to
+absa.garcia; (2) **sequencing** — Absadev has priority for 90 days,
+absa.garcia stays on no-calendar maintenance, and the podcast revival
+waits until the Absadev habit is locked, since parallel over-extension is
+itself the documented 9-year pattern. Also cross-linked the interview
+format into [[absadev]] as a dormant, already-proven long-form option.
+
+⚠️ No follower/view/cadence data for absa.garcia is verified — Instagram,
+TikTok and YouTube all block automated access. Flagged on the page as
+pending YouTube Studio CSV exports into `raw/blackicelabs/` (currently
+empty).
+
 ## [2026-07-21] advisor | Absadev — streak broken, growth diagnosis, 4 series + calendar — blackicelabs
 Major update to [[estrategia-contenido-absadev]]. **Milestone: the user
 actually recorded and scheduled the first batch of 3** (Tue/Thu/Sat this
@@ -384,3 +421,52 @@ hard-dated episode (Swift follow-up must land 07-30 or its "una semana
 después" premise breaks), and a single long-form video for ~08-11 that the
 series-1 shorts funnel into. Review point 2026-08-08: subs-per-video by
 series decides the next slots.
+
+## [2026-07-22] ingest | Export de YouTube Studio absa.garcia (28 d, 2026-06-24 → 07-21) — blackicelabs
+
+Fuente movida a `raw/blackicelabs/absa-garcia-youtube-28d-2026-07-21/`
+(dos CSVs: tabla por video + gráfico diario). El usuario los había dejado
+en `data-videos/absa garcia/`, fuera del esquema del wiki.
+
+Actualizado [[absa-garcia]]: la sección "⚠️ Unknown — pending data" se
+sustituyó por datos duros. Hallazgos: **26,293 vistas → +3 subs netos**
+(0.011 %; +12 brutos, ~9 bajas), retención media 20.8 s, 73.81 MXN.
+El **92 % del tráfico (24,072 vistas) viene de 27 videos del Mundial 2026
+en Guadalajara** publicados 22-jun → 20-jul; la curva diaria cae de 4,421
+(25-jun) a 12-20 vistas/día para el 5-jul. Shorts 22× más vistas que el
+video largo, pero el largo produce más horas de reproducción — el nicho
+con retención real (4-5 min) y CTR 7.7-9 % son las crónicas de
+**San Gabriel, Jalisco**, no el running del posicionamiento declarado.
+446 videos de 2017-2025 suman hoy 1,845 vistas: evidencia numérica del
+patrón de inconsistencia ya documentado.
+
+Confirma con datos, en el segundo canal, el mismo diagnóstico que
+[[estrategia-contenido-absadev]] hizo para [[absadev]]: el cuello de
+botella es conversión/retención, no alcance. Sostiene la prioridad
+acordada de 90 días para Absadev; absa.garcia queda en mantenimiento.
+
+## [2026-07-22] update | Rumbo de absa.garcia corregido por el usuario — blackicelabs
+
+Misma sesión, después del ingest del export de YouTube. El asesor
+recomendó reducir absa.garcia a las crónicas de **San Gabriel** (único
+formato con retención real en el CSV). **El usuario lo rechazó**: las
+fiestas son solo en enero, y no quiere ser recordado por hacer videos del
+pueblo de su papá. Recomendación retirada y conservada tachada en
+[[absa-garcia]] con la corrección al lado, junto con el error de método:
+*los datos dicen qué funcionó, no qué quiere el usuario* — sesgo de
+"punto de vista del compresor" ([[second-brain-epistemic-design]])
+aplicado a analítica en vez de a texto.
+
+Rumbo real concretado: **-10 kg desde abril 2026, camino al medio maratón,
+boda, y fin de la maestría** (horas liberadas). Se registra como **arco con
+fecha**, no lista de temas — relevante porque ataca el cuello de botella
+de conversión: los 446 videos históricos están completos en sí mismos y no
+dan razón para suscribirse. Marcado explícitamente como **apuesta
+declarada, no conclusión**: no hay renglón en el export que se parezca a
+este formato.
+
+"Mantenimiento" redefinido: grabar running/boda ~60 días **sin calendario
+ni analytics**, revisión ~2026-10. La pregunta "¿apuesta de retorno o
+crónica de vida?" se aplaza a esa revisión — el asesor la planteó como
+binario inmediato y fue prematuro. Nuevo riesgo marcado: el fin de la
+maestría es justo cuando se rearma el patrón de sobre-extensión de 9 años.

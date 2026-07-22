@@ -68,7 +68,23 @@ TikTok/Reels; sustainable time budget **4-6 h/week**.
 - The single most telling number: **1 comment / 60 days** → the bottleneck
   is *conversation*, not reach.
 
+## Long-form: a proven format already exists (2026-07-22)
+
+The user has run interview podcasts since 2020 — *Café con Absa* reached
+**Listen Score 29 (top 10% of all podcasts)** before Spotify closed it,
+and *Coffee and Code* applied the same coffee-interview format
+specifically to software development. See [[absa-garcia]] for the full
+podcast history.
+
+This matters for the open long-form question: **the interview format is
+not a skill to acquire, it's a dormant one** — 27+ episodes of evidence.
+It also doubles as the "one collaboration" growth lever in
+[[estrategia-contenido-absadev]]'s 90-day plan, since every guest brings
+their own audience. Candidate direction for Absadev's long-form, pending
+the CSV data before committing.
+
 ## Related
 
 - [[estrategia-contenido-absadev]] — the content strategy built on this profile
+- [[absa-garcia]] — the sibling non-tech lifestyle/running brand
 - [[eliecer-garcia-romo]] — the person behind the channel
