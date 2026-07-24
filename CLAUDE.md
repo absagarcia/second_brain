@@ -34,10 +34,15 @@ frontmatter:
 - `athletix` — ATHLETIX AI, sports performance SaaS, LatAm
 - `blackicelabs` — research and scripts for podcast/content/social media
 - `masters` — Master's in AI, papers, class notes
-- `agave-startup` — disease detection in agave plants, on-device ML
 - `freelance` — client/project notes (be careful with confidentiality,
   never put sensitive client data in without anonymizing it)
 - `finance` — personal investment, ETFs, market concepts
+- `swe` — software-engineering craft not tied to one product: design
+  patterns, architecture, SOLID/DRY, languages, tooling, scalability. The
+  technical counterpart to `finance`. Boundaries: product-specific
+  engineering decisions go on the product domain (`athletix`); AI/ML coursework stays `masters`; dev-as-a-content-topic
+  (Absadev) stays `blackicelabs`. A page can carry `swe` plus a product
+  domain when general craft is applied to a specific product.
 - `reflections` — conversations or conceptual ideas that cross projects
   (talks with colleagues, reflections on AI/product/thinking patterns)
   that don't belong to a specific client or product

@@ -1,9 +1,11 @@
 ---
 title: First-Principles Thinking & "The Algorithm" (delete before you optimize)
 type: concept
-domain: [books, athletix, reflections]
+domain: [books, swe, athletix, reflections]
 created: 2026-07-23
 updated: 2026-07-23
+# 2026-07-23: added `swe` — the Algorithm is an engineering method (question/
+# delete/simplify/accelerate/automate).
 sources:
   - path: raw/books/Elon Musk.md
     fact_date: 2023-01-01

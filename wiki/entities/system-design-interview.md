@@ -1,11 +1,12 @@
 ---
 title: System Design Interview (Vol. I)
 type: entity
-domain: [books, athletix]
+domain: [books, swe, athletix]
 created: 2026-07-15
 updated: 2026-07-23
-# masters dropped 2026-07-23 lint: general software engineering, not AI-program
-# coursework — same rationale that retagged read-write-own out of masters (2026-07-16)
+# 2026-07-23: masters dropped (general SWE, not AI coursework); added `swe`.
+# athletix kept — the scalability building blocks map to a real infra tie, not
+# just a lens.
 sources:
   - path: "raw/books/System Design Interview I.md"
     fact_date: 2020

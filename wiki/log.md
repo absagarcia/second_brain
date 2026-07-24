@@ -471,6 +471,35 @@ crónica de vida?" se aplaza a esa revisión — el asesor la planteó como
 binario inmediato y fue prematuro. Nuevo riesgo marcado: el fin de la
 maestría es justo cuando se rearma el patrón de sobre-extensión de 9 años.
 
+## [2026-07-23] schema | Removed empty domain `agave-startup` (user-requested)
+Dropped `agave-startup` from CLAUDE.md's domain list. It was a reserved/placeholder
+domain (disease detection in agave plants, on-device ML) with **zero content** — no
+pages tagged, no mentions anywhere in the wiki, no `raw/agave-startup/` folder. User
+confirmed it never arrived, so removed it to avoid a phantom domain in the schema.
+No wiki pages needed retagging (nothing used it).
+
+## [2026-07-23] schema | New domain `swe` added (user-requested)
+Added a `swe` (software-engineering craft) domain to CLAUDE.md's domain list —
+the technical counterpart to `finance`, for craft knowledge not tied to one
+product (patterns, architecture, SOLID, languages, tooling, scalability).
+Boundaries written into CLAUDE.md: product-specific engineering → the product
+domain; AI/ML coursework → `masters`; dev-as-content-topic (Absadev) →
+`blackicelabs`. This resolves the lingering "the SWE books have no real home
+domain" issue better than the `athletix`-as-proxy patch from the earlier lint fix.
+
+Seed pages tagged `swe`:
+- [[typescript-5-design-patterns]] → `books, swe` (athletix dropped — was only a
+  loose lens; the [[athletix-ai]] cross-link stays in the body).
+- [[system-design-interview]] → `books, swe, athletix` (athletix kept: real infra tie).
+- [[system-design-scalability-building-blocks]] → `books, swe, athletix`.
+- [[first-principles-and-the-algorithm]] → `books, swe, athletix, reflections`
+  (the Algorithm is an engineering method).
+
+Considered and deliberately left OUT: [[pattern-recognition-professions]] (primary
+subject is professions/AI generally, dev is just one example), [[eliecer-garcia-romo]]
+(person page), and the Absadev pages (dev-as-content = `blackicelabs`, per the
+boundary). `index.md` domain lines updated.
+
 ## [2026-07-23] fix | Applied all 2026-07-23 lint items (user-confirmed "haz todo")
 User confirmed applying everything actionable in the report. Done:
 
