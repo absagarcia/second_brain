@@ -623,3 +623,13 @@ publique — Absadev conserva las 4-6 h/semana), ruteo por la regla
 "¿le importaría a una audiencia dev?", y un **riesgo físico**: no entrenar
 de más por conseguir material; si el cuerpo pide bajarle, eso *es* el
 episodio.
+
+## [2026-07-24] update | Absadev batch #2 scheduled — blackicelabs
+User reported (screenshot) the second week of Absadev videos already
+scheduled: maestría-recommendation video (Mon 27 jul), then S1E1 + S1E2 of
+"Sobrevivir la chamba gringa" (Wed 29 / Fri 31 jul). Second consecutive
+batch = the real milestone (consistency over polish, his own framing).
+Updated [[estrategia-contenido-absadev]] with the actual schedule vs the
+planned calendar: dates shifted, order changed, and the Swift "una semana
+después" hard-date follow-up (S2E2) did NOT make this batch — flagged as a
+now-stale temporal promise, recorded not corrected.

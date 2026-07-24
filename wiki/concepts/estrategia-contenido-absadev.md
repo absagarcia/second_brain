@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-07-23
+updated: 2026-07-24
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -303,6 +303,37 @@ veredicto"), one question-title per week.
 **Long-form:** a single 8-12 min "Sobrevivir la chamba gringa" video,
 published ~week of 2026-08-11, after the three S1 shorts have warmed the
 audience and can funnel into it.
+
+## What actually got scheduled — batch #2 (2026-07-24)
+
+Reported by the user with a screenshot of the YouTube scheduler. **Second
+week programmed** — the streak now spans two consecutive batches, which is
+the real win (per the "protect the next batch" milestone above, this *is*
+the next batch). His own framing: *"no son las mejores ediciones pero
+quiero ir mejorando la disciplina"* — exactly the strategy's ordering
+(consistency/identity before polish; see [[four-laws-of-behavior-change]]
+and [[la-guerra-del-arte]]).
+
+Actual scheduled videos:
+
+| Date | Title (as published) | Series |
+|---|---|---|
+| Mon 27 jul | "Estoy en la maestría y no sé si te la recomendaría" | 2 (la tesis / maestría) |
+| Wed 29 jul | "Sobrevivir la Chamba Gringa #1: Deja de sonar [inseguro]" — 3 frases | 1 (launch) |
+| Fri 31 jul | "Cómo Sobrevivir la Chamba Gringa #2: Pedir ayuda sin parecer incompetente" | 1 |
+
+**Deviations from the planned calendar (2026-07-28 → 08-08) — recorded, not
+corrected** (temporal integrity: the plan above stays as it was written):
+
+- **Dates shifted** to 27/29/31 jul (plan was 28/30 jul + 01 ago).
+- **Order changed:** the maestría video leads instead of S1E1, and the two
+  S1 episodes run back-to-back (Wed+Fri) rather than being spaced with
+  other series. The launch of Series 1 ("Sobrevivir la chamba gringa" — the
+  monopoly bet) went ahead as planned.
+- ⚠️ **The Swift "una semana después" follow-up (S2E2) is not in this
+  batch**, so the hard-date flag from the calendar section did NOT hold.
+  Whether dropped on purpose or slipped is TBD with the user; the temporal
+  promise of that video is now stale and would need re-framing if revived.
 
 ## Measurement — track results before batch #2
 
