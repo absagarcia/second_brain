@@ -3,7 +3,7 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-23
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -61,7 +61,10 @@ documentar, en sus palabras, es **el año que está viviendo**:
 
 - **-10 kg desde abril de 2026** (proceso en curso a la fecha de este
   registro).
-- **Camino al medio maratón** — entrenando, aún no corrido.
+- **Camino al medio maratón** — entrenando, aún no corrido. Carrera
+  objetivo confirmada 2026-07-22: **Medio Maratón del Atlas, Guadalajara,
+  domingo 6 de septiembre de 2026** (46 días / 6.6 semanas desde el
+  registro).
 - **Se está casando.**
 - **Terminó la maestría**, lo que le libera horas por primera vez en
   mucho tiempo.
@@ -82,6 +85,73 @@ apuesta declarada, no como conclusión.
 **Explícitamente descartado:** encerrar el canal en San Gabriel (ver
 corrección abajo). El usuario **no quiere ser recordado como "el que hace
 videos del pueblo de su papá"**.
+
+### Ideas de contenido (2026-07-22)
+
+Sugeridas por el asesor a partir de este perfil. **Son ideas para grabar,
+no un plan de publicación** — no llevan calendario ni meta de suscriptores
+hasta la revisión de octubre (ver Priority).
+
+**La columna vertebral — serie numerada "Camino a mi primer medio
+maratón".** Episodios anclados a **hitos del entrenamiento que van a pasar
+de todos modos**, no a fechas inventadas; así no hay calendario que
+romper. La numeración no es estética: es el mecanismo que crea el "¿qué
+pasa después?" que hoy no existe en el catálogo.
+
+| Ep | Contenido | Nota |
+|---|---|---|
+| E0 | El antes — abril, los -10 kg | material que **ya existe** (fotos/pesos/primeras corridas) |
+| E1 | "Me inscribí al Medio Maratón del Atlas" | **la fecha dicha en voz alta** = promesa pública |
+| — | El primer long run que asuste (15-16 km) | |
+| — | La semana que falló | el que casi nadie graba |
+| — | Los tenis | formato de comparación con motivo real |
+| — | "Me caso y estoy entrenando" | la colisión *es* la historia |
+| — | El bajón (semana 4-5) | |
+| — | El taper | bajarle cuando la cabeza pide subirle |
+| — | La noche antes | 60 s, sin editar |
+| — | **06-sep-2026: la carrera** | |
+| — | El día después | el más importante, y el que más se deja sin grabar |
+
+Los tres que más cargan la serie: **E0, E1 y "la noche antes"**.
+
+> **Lente de un libro que el usuario ya leyó** (añadido 2026-07-23):
+> [[de-que-hablo-cuando-hablo-de-correr]] (Murakami) es casi un manual para
+> este arco. Dos ideas suyas encajan con la apuesta: **"el rival es el tú de
+> ayer"** (un estándar interno, no comparativo — justo lo que da razón para
+> seguir una serie numerada en vez de ver un video suelto) y **la corrida
+> diaria como ritual de salud mental**. No es teoría prestada: es contenido
+> running que el usuario ya subrayó. Refuerza, no origina, la decisión.
+
+**Formato probado portado al tema nuevo.** Lo más "él" que hace son
+**comparaciones** — *Flutter vs React Native* está en su top-3 de YouTube
+y además lo disfruta ([[absadev]]). Eso es un dato sobre **cómo piensa**,
+no sobre dev, y se porta tal cual: tenis baratos vs caros después de
+-10 kg / correr en la mañana vs en la noche en Guadalajara / Strava vs
+Nike Run Club vs el reloj / déficit calórico vs correr más / primer 10K vs
+primer 21K. No es aprender un formato nuevo, es cambiarle el tema a uno
+que ya domina.
+
+**Los que generan conversación** (el cuello de botella de activación que
+[[estrategia-contenido-absadev]] diagnosticó en el canal hermano):
+"Bajé 10 kg y nadie me preguntó cómo" · "Hoy no entrené" · lo que nadie
+te dice de bajar 10 kg (la ropa, la piel, la gente) · cuánto me ha costado
+esto en dinero.
+
+**Regla de captura.** Celular, mientras vive, sin producción — 20 s al
+terminar la corrida, sin guion. Absadev conserva las 4-6 h/semana.
+**Grabar aunque no se publique:** qué publicar es un problema de octubre;
+el material del año irrepetible se pierde si no se captura ahora.
+
+⚠️ **Riesgo físico, no de contenido.** No entrenar de más por conseguir
+material. La rampa a 21K en 6.6 semanas es real. Si el cuerpo pide bajarle,
+**eso es el episodio** — "el video que iba a grabar hoy no se pudo" vale
+más que forzar la corrida. La cámara no debe manejar el entrenamiento.
+
+**Ruteo (regla ya acordada — *¿le importaría a una audiencia dev?*):**
+"Terminé la maestría y me sobra tiempo" → [[absadev]]. "Correr me ordenó
+la cabeza para programar" → [[absadev]]. "Cómo entrené con chamba de
+tiempo completo" → absa.garcia. **Maestría y trabajo no entran aquí** —
+ese es el pantano temático donde el canal se perdió 9 años.
 
 ## Podcasts
 
@@ -267,7 +337,9 @@ que se propuso y se retiró. Es:
   graba ahora**.
 - **Punto de revisión ~2026-10.** Si algo prendió, ahí se decide si se le
   pone estructura. Si no, queda el año documentado — lo cual ya era razón
-  suficiente.
+  suficiente. Encaja bien con la carrera del **06-sep-2026**: se llega a
+  esa revisión con el arco ya cerrado y material en mano, no con
+  suposiciones.
 
 **Pregunta deliberadamente aplazada:** ¿el running/boda es *apuesta de
 retorno* (y entonces lleva meta y medición) o *crónica de vida* (y

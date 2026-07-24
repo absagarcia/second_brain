@@ -70,4 +70,10 @@ of their founding narrative, not an afterthought.
   all.
 - Differs in emphasis (not a documented contradiction) from
   [[creando-unicornios]]'s "gana el que ejecuta" (execution over idea) —
-  see the note on [[de-cero-a-uno]] for that comparison.
+  see the note on [[de-cero-a-uno]] for that comparison. A third starting
+  point was added 2026-07-23: [[elon-musk]]'s **mission-first, then make the
+  finances work** — three different answers to "what comes first" (secret/
+  monopoly / execution / mission), recorded as differences in emphasis.
+- The "narrow homogeneous niche first" go-to-market and the "a mission needs a
+  market" idea in [[career-capital-craftsman-mindset]] (Newport) point the same
+  way: start where the interest already is, then expand.

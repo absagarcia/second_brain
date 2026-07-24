@@ -3,11 +3,15 @@ title: Environment, Rituals, and Systems Over Willpower
 type: concept
 domain: [books, reflections]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-23
 sources:
   - path: "raw/books/Hábitos atómicos.md"
     fact_date: 2018
     ingest_date: 2026-07-15
+    confidence: medium
+  - path: "raw/books/Minimalismo digital.md"
+    fact_date: 2019
+    ingest_date: 2026-07-23
     confidence: medium
   - path: "raw/books/Deep Work.md"
     fact_date: 2016
@@ -33,14 +37,15 @@ sources:
 
 # Environment, Rituals, and Systems Over Willpower
 
-**Long-lived pattern, consolidated 2026-07-16**: six independent books in
+**Long-lived pattern, consolidated 2026-07-16**: independent books in
 this wiki converge on the same claim — willpower is unreliable as a
 mechanism, and durable behavior change comes from redesigning environment,
 rituals, or systems instead — without citing each other. Originally
 flagged as a scattered cross-reference thread across four pages in the
 [2026-07-15 lint report](../reports/2026-07-15.md), then re-flagged with
 two more sources in the [2026-07-16 report](../reports/2026-07-16.md).
-This page consolidates it.
+This page consolidates it. A **seventh** source ([[minimalismo-digital]])
+was added 2026-07-23.
 
 ## The shared claim, per source
 
@@ -68,6 +73,12 @@ This page consolidates it.
 - **[[sin-esfuerzo]]** (Greg McKeown) — "los rituales son hábitos con
   alma" (rituals are habits with soul) — a softer, meaning-driven version
   of the same mechanism as Clear's mechanical "make it easy/attractive."
+- **[[minimalismo-digital]]** (Cal Newport, added 2026-07-23) — extends the
+  claim into *free time*: build a **seasonal and a weekly leisure plan** and
+  schedule even low-quality leisure in advance, rather than defaulting to
+  whatever the feed serves in the moment. System design applied to leisure,
+  not just work — and a concrete counter to the attention economy described in
+  [[attention-economy-and-pleasure-pain]].
 
 ## What's actually convergent vs. distinct
 

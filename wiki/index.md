@@ -16,7 +16,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Vida 3.0 (Life 3.0)](entities/vida-3-0.md) — Tegmark's AI book; sparse highlights on intelligence definition, brain-as-hardware, goal stability, consciousness/meaning — books, masters
 - [Hábitos para ser millonario](entities/habitos-para-ser-millonario.md) — generic productivity/self-help playbook; now has a 2026-07-16 retrospective noting which parts hold up vs. are contested by 6 other sources — books, reflections
 - [Hábitos atómicos (Atomic Habits)](entities/habitos-atomicos.md) — James Clear's habit-formation book (systems over goals, four laws of behavior change, identity-based habits) — books, reflections
-- [System Design Interview (Vol. I)](entities/system-design-interview.md) — Alex Xu's system-design-interview prep book; scalability building blocks + interview method — books, athletix, masters
+- [System Design Interview (Vol. I)](entities/system-design-interview.md) — Alex Xu's system-design-interview prep book; scalability building blocks + interview method — books, athletix
 - [Esencialismo (Essentialism)](entities/esencialismo.md) — Greg McKeown's "less but better" discipline (choice, discernment, sleep as an asset, extreme selection criteria, graceful no) — books, reflections
 - [Dinero: domina el juego (MONEY Master the Game)](entities/dinero-domina-el-juego.md) — Tony Robbins' 7-step financial-freedom playbook + billionaire-investor interviews — books, finance
 - [Deep Work](entities/deep-work.md) — Cal Newport's focus/productivity book (Deep Work Hypothesis, busyness-as-proxy trap, four rules) — books, reflections
@@ -31,6 +31,18 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Sin Esfuerzo (Effortless)](entities/sin-esfuerzo.md) — Greg McKeown's sequel to Essentialism; effortless-action technique + startup-mythology pushback — books, reflections, athletix
 - [Absadev](entities/absadev.md) — the user's personal dev-content brand (YouTube @Absadev + TikTok absa.dev); creator profile, goals, and 2026-07-16 stats baseline — blackicelabs
 - [Absa Garcia (absa.garcia)](entities/absa-garcia.md) — the user's non-tech lifestyle/running creator brand + podcast history (Café con Absa, closed by Spotify; Absa con Café); now with real YouTube 28-day data (26,293 views → 3 net subs, 92% from World Cup content) + rumbo 2026 (running/medio maratón/boda como arco, San Gabriel descartado) — blackicelabs
+- [La Guerra del Arte (The War of Art)](entities/la-guerra-del-arte.md) — Pressfield on "la Resistencia," the professional who shows up, fear as compass; sparse highlights — books, reflections, blackicelabs
+- [De qué hablo cuando hablo de correr](entities/de-que-hablo-cuando-hablo-de-correr.md) — Murakami's running memoir; pain-vs-suffering, compete-with-yesterday, the daily run as ritual — books, reflections, blackicelabs
+- [Hazlo tan bien que no puedan ignorarte (So Good They Can't Ignore You)](entities/hazlo-tan-bien-que-no-puedan-ignorarte.md) — Newport: don't follow passion, craftsman mindset, career capital, control traps — books, reflections, blackicelabs, athletix
+- [Piense y hágase rico (Think and Grow Rich)](entities/piense-y-hagase-rico.md) — Hill (1937): definiteness of purpose, written-goals ritual, persistence, mastermind; large parts flagged as dated pseudoscience — books, finance, reflections
+- [Principios para enfrentarse al nuevo orden mundial](entities/principios-nuevo-orden-mundial.md) — Dalio's Big Cycle: debt/reserve-currency/empire cycles, savings-and-low-debt resilience, long-term over short-term — books, finance
+- [TypeScript 5 Design Patterns and Best Practices](entities/typescript-5-design-patterns.md) — first software-engineering book: GoF patterns, SOLID/DRY/KISS, DDD, MVC, and "don't over-engineer" as the recurring lesson — books, athletix
+- [Elon Musk (Isaacson)](entities/elon-musk.md) — first-principles + "the Algorithm" (question/delete/simplify/accelerate/automate), mission-first, build-the-machine-that-builds-the-machine — books, athletix, reflections
+- [Atrévete a no gustar (The Courage to Be Disliked)](entities/atrevete-a-no-gustar.md) — Adlerian: teleology over trauma, separation of tasks, deny recognition, horizontal relationships, work-addiction as life-lie — books, reflections
+- [Generación dopamina (Dopamine Nation)](entities/generacion-dopamina.md) — Lembke on the pleasure-pain balance, tolerance/anhedonia, dopamine fasting, pressing on the pain side (exercise) — books, reflections
+- [Minimalismo digital (Digital Minimalism)](entities/minimalismo-digital.md) — Newport: less-but-better for tech, the attention-economy arms race, solitude, high-quality leisure, seasonal/weekly leisure plans — books, reflections
+- [El arte de gastar dinero (The Art of Spending Money)](entities/el-arte-de-gastar-dinero.md) — Housel: wealth = have minus want, satisfaction over spikes, independence as wealth, minimize future regret, status vs utility — books, finance, reflections
+- [Haz cosas difíciles (Do Hard Things)](entities/haz-cosas-dificiles.md) — Magness: true toughness = respond not react, embrace reality, silent ego, emotions as messengers, meaning as glue; sport-science lens — books, reflections, athletix
 
 ## Concepts
 
@@ -54,6 +66,11 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Effortless Action Principles](concepts/effortless-action-principles.md) — McKeown's define-done/simplify/courage-to-be-bad/pace technique layer — books, reflections, athletix
 - [Environment, Rituals, and Systems Over Willpower](concepts/systems-over-willpower.md) — consolidates 6 independent books (Atomic Habits, Deep Work, Dinero: domina el juego, Building a Second Brain, Mindset, Sin Esfuerzo) on willpower being unreliable vs. system/ritual design — books, reflections
 - [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — content strategy for the Absadev channel: AARRR retention diagnosis, positioning vs. reference creators (@devcaress/@pikacodes), 8 series, content calendar and scripts — blackicelabs
+- [First-Principles Thinking & "The Algorithm"](concepts/first-principles-and-the-algorithm.md) — Musk's reason-from-physics + fixed step order (question/delete/simplify/accelerate/automate); delete-before-optimize as the engineering twin of "less but better" — books, athletix, reflections
+- [Career Capital & the Craftsman Mindset](concepts/career-capital-craftsman-mindset.md) — Newport: don't follow passion, build rare valuable skills first, control traps, mission needs a market; applied to the Absadev positioning — books, reflections, blackicelabs, athletix
+- [The Attention Economy & the Pleasure–Pain Balance](concepts/attention-economy-and-pleasure-pain.md) — synthesis of Dopamine Nation + Digital Minimalism: dopamine homeostasis, behavioral-addiction design, and the shared counter-moves (exercise, solitude, scheduled leisure) — books, reflections
+- [The Internal Scorecard](concepts/internal-scorecard.md) — silent ego / don't seek external recognition + compete with your past/ideal self, not others (Atrévete, Do Hard Things, El arte de gastar dinero, Murakami, Mindset) — books, reflections
+- [Enough: Hedonic Adaptation & Wealth = Have − Want](concepts/enough-hedonic-adaptation.md) — satisfaction is governed by the gap between what you have and what you want; manage the wants, not just the haves (Housel, Sapiens, Esencialismo, Robbins) — books, finance, reflections
 
 ## Comparisons
 

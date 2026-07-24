@@ -3,7 +3,7 @@ title: Founder Mental Health as a Startup Risk Factor
 type: concept
 domain: [books, athletix, reflections]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
 sources:
   - path: "raw/books/Creando unicornios: El futuro del emprendimiento está en México.md"
     fact_date: 2024
@@ -96,3 +96,21 @@ and hasn't reconciled them.
   to — a second independent voice against the same hustle-culture
   pattern this page already tracks opposite
   [[habitos-para-ser-millonario]].
+
+## Two more from the 2026-07-23 batch
+
+- **[[haz-cosas-dificiles]]** (Steve Magness) names **burnout as a Western
+  epidemic** (~76% of US workers cited) and reframes "toughness" *away* from
+  grind-through-it endurance toward becoming "un ser humano más sano y feliz" —
+  a sport-science voice landing on the same conclusion.
+- **[[atrevete-a-no-gustar]]** (Adler) calls **work-addiction a "life-lie"**:
+  using work as an excuse to avoid the rest of life (family, hobbies,
+  friendships). A psychological framing of the same over-identification the
+  Nowports founder warns about ("no eres tu emprendimiento") — recorded as an
+  independent convergence.
+
+⚠️ Note the standing counter-current in this wiki: [[elon-musk]] models the
+opposite temperament — obsessive urgency, "somos una startup a punto de quedarse
+sin dinero" as a permanent operating mood — and the book itself shows its
+personal cost ("mi nivel de angustia está en la siguiente dimensión"). Kept as
+the intensity-vs-sustainability tension, not adjudicated.

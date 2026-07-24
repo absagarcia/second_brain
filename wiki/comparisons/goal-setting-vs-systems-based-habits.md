@@ -3,7 +3,7 @@ title: Goal-Setting vs. Systems-Based Habit Formation
 type: comparison
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
 sources:
   - path: "raw/books/Hábitos atómicos.md"
     fact_date: 2018
@@ -17,6 +17,10 @@ sources:
     fact_date: 2014
     ingest_date: 2026-07-15
     confidence: medium
+  - path: "raw/books/Piense y hágase rico.md"
+    fact_date: 1937
+    ingest_date: 2026-07-23
+    confidence: low
 ---
 
 # Goal-Setting vs. Systems-Based Habit Formation
@@ -35,6 +39,18 @@ any shared evidence base.
   target*.
 - Pairs this with a self-talk/affirmation habit ("puedo hacer cualquier
   cosa que me proponga") aimed directly at belief.
+
+### [[piense-y-hagase-rico]] — a third instance of the same ritual (added 2026-07-23)
+
+Napoleon Hill's six steps for "desire" are the *same daily-written-goal ritual*
+as Tracy's, and older (1937): fix the exact amount, write a clear statement of
+it with a deadline and what you'll give in return, and **read it aloud twice a
+day — waking and before sleep — seeing yourself already in possession.** Whatever
+else separates the two books, on this specific practice they agree, which puts
+**two independent sources on the write-and-read-your-goals-aloud side** against
+the [[habitos-atomicos]] / [[systems-over-willpower]] cluster. Hill also leans
+harder on direct autosuggestion of belief than Tracy does — the same self-talk
+axis noted below.
 
 ## [[habitos-atomicos]] — systems over goals, identity over affirmation
 

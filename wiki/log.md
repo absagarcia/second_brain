@@ -470,3 +470,127 @@ ni analytics**, revisión ~2026-10. La pregunta "¿apuesta de retorno o
 crónica de vida?" se aplaza a esa revisión — el asesor la planteó como
 binario inmediato y fue prematuro. Nuevo riesgo marcado: el fin de la
 maestría es justo cuando se rearma el patrón de sobre-extensión de 9 años.
+
+## [2026-07-23] fix | Applied all 2026-07-23 lint items (user-confirmed "haz todo")
+User confirmed applying everything actionable in the report. Done:
+
+- **Item 1 (reciprocal gap):** added the forward link
+  [[hazlo-tan-bien-que-no-puedan-ignorarte]] → [[career-capital-craftsman-mindset]].
+  Link graph re-checked across all 65 content pages: no orphans, no dangling links.
+- **Item 4a + 5 (new concept):** created [[internal-scorecard]] — silent ego / don't
+  seek external recognition, merged with "compete with your past/ideal self, not
+  others." Moved the internal-standard thread *out* of [[growth-vs-fixed-mindset]]
+  (left a pointer) and cross-linked the five sources ([[atrevete-a-no-gustar]],
+  [[haz-cosas-dificiles]], [[el-arte-de-gastar-dinero]],
+  [[de-que-hablo-cuando-hablo-de-correr]], [[mindset-la-actitud-del-exito]]).
+- **Item 4b (new concept):** created [[enough-hedonic-adaptation]] — "riqueza = lo
+  que tienes menos lo que quieres," happiness ceiling, luxury→necessity ratchet;
+  anchors the growing `finance` domain. Cross-linked [[el-arte-de-gastar-dinero]],
+  [[sapiens]], [[esencialismo]]/[[essentialism-less-but-better]],
+  [[dinero-domina-el-juego]].
+- **Item 6a (masters drift):** dropped `masters` from [[typescript-5-design-patterns]]
+  and [[system-design-interview]] (general SWE, not AI coursework), applying the
+  2026-07-16 read-write-own precedent consistently. `masters` is now the AI-adjacent
+  reading only ([[vida-3-0]], [[21-lecciones-siglo-xxi]]).
+- **Item 6b (blackicelabs inflation):** dropped `blackicelabs` from
+  [[generacion-dopamina]], [[minimalismo-digital]], and
+  [[attention-economy-and-pleasure-pain]] (thin tie); kept the light cross-links to
+  the creator pages. La Guerra del Arte, Hazlo tan bien, and Murakami keep the tag
+  (stronger, load-bearing ties).
+- **Item 3 (athletix inbound-only lenses):** accepted as-is per the report's lean —
+  not bloating [[athletix-ai]] with four reciprocal lens-links.
+
+Two new concept pages added to `index.md`; retagged domain lines updated there too.
+
+## [2026-07-23] lint | Full wiki review after the 12-book batch
+Report written to `wiki/reports/2026-07-23.md`. Link graph checked across all
+62 content pages: **no orphans, no dangling links** — the batch's cross-linking
+held. Findings: one reciprocal gap to close ([[hazlo-tan-bien-que-no-puedan-ignorarte]]
+→ [[career-capital-craftsman-mindset]]); two new 3+ recurring themes without a
+page ("silent ego / internal scorecard"; "enough / hedonic adaptation"); the
+"compete with your past self" theme now at 4 sources (housed in
+[[growth-vs-fixed-mindset]], candidate to promote); `masters` drift continues
+([[typescript-5-design-patterns]] tagged like [[system-design-interview]] despite
+being general SWE — inconsistent with the 2026-07-16 read-write-own retag); and
+`blackicelabs` possibly over-tagged on [[generacion-dopamina]] / [[minimalismo-digital]]
+(thin tie). All new contradictions were recorded during ingest; the 1937
+pseudoscience in [[piense-y-hagase-rico]] is correctly quarantined. Nothing fixed
+automatically — awaiting user confirmation per the lint workflow.
+
+## [2026-07-23] ingest | 12 books (largest batch): War of Art, Murakami, So Good, Think and Grow Rich, Dalio, TypeScript Design Patterns, Musk, Courage to Be Disliked, Dopamine Nation, Digital Minimalism, Art of Spending Money, Do Hard Things — books, reflections, finance, athletix, blackicelabs
+
+Largest single ingest so far (12 sources → 12 entity pages + 3 concept pages).
+All recalled-attribution (no title-page metadata in the highlight exports),
+same caveat as prior book ingests. Confidence mostly `medium`; **[[piense-y-hagase-rico]]
+set to `low`** (large fraction is dated pseudoscience — thought "magnetism," the
+"sixth sense," "sex transmutation" — flagged in-page and kept, not deleted, per
+the retrospective-integrity rule); **[[typescript-5-design-patterns]] set to `high`**
+(technical reference, definitions are the book's own).
+
+**Compressor's-POV note:** across a 12-book batch I compressed toward each
+book's *transferable operating idea and its cross-links to what's already here*,
+over plot/biography/implementation detail. Called out explicitly on the two most
+compressed sources ([[elon-musk]] — kept the method, dropped the life narrative;
+[[typescript-5-design-patterns]] — kept "when a pattern earns its complexity,"
+dropped code).
+
+New concept pages:
+- [[first-principles-and-the-algorithm]] (from [[elon-musk]]) — first principles +
+  the 5-step Algorithm; its **delete-before-optimize** ordering is the engineering
+  twin of [[esencialismo]] / [[effortless-action-principles]] / the "don't
+  over-engineer" lesson in [[typescript-5-design-patterns]]. Cross-linked into
+  [[essentialism-less-but-better]] and [[pattern-recognition-professions]].
+- [[career-capital-craftsman-mindset]] (from [[hazlo-tan-bien-que-no-puedan-ignorarte]])
+  — don't-follow-passion / career capital; applied directly into
+  [[estrategia-contenido-absadev]] (the channel's positioning *is* career-capital
+  content) and cross-linked to [[monopoly-vs-competition-zero-to-one]] ("a mission
+  needs a market").
+- [[attention-economy-and-pleasure-pain]] — synthesis of [[generacion-dopamina]] +
+  [[minimalismo-digital]] (dopamine homeostasis ↔ behavioral-addiction design), with
+  a recorded teleology-vs-mechanism tension against [[atrevete-a-no-gustar]].
+
+Updates to existing pages (kept links bidirectional):
+- [[goal-setting-vs-systems-based-habits]] — [[piense-y-hagase-rico]] added as a
+  **third, oldest instance** of the write-and-read-goals-aloud ritual (contested side).
+- [[systems-over-willpower]] — [[minimalismo-digital]]'s seasonal/weekly leisure
+  planning added as a **7th** independent source.
+- [[growth-vs-fixed-mindset]] — recorded the "compete with your past/ideal self, not
+  others" internal-standard theme across 4 sources (Murakami, Adler, Magness, Dweck);
+  kept in-page rather than promoted to a standalone concept (watch-item at a 5th source).
+- [[founder-mental-health-startup-risk]] — [[haz-cosas-dificiles]] (burnout epidemic)
+  and [[atrevete-a-no-gustar]] (work-addiction as "life-lie") added; noted the
+  standing [[elon-musk]] intensity-vs-sustainability counter-current.
+- [[essentialism-less-but-better]], [[investment-bucket-strategy]] (Dalio macro +
+  Housel independence), [[sapiens]] (Housel happiness-ceiling restatement),
+  [[monopoly-vs-competition-zero-to-one]] (Musk mission-first as a 3rd starting
+  point), [[system-design-interview]] (TS book as class-level complement),
+  [[pattern-recognition-professions]] (first-principles as the counter-move).
+- Creator work: light lenses added — [[de-que-hablo-cuando-hablo-de-correr]] into
+  [[absa-garcia]]'s running arc (a book the user has actually read, reinforcing the
+  bet, not originating it), and [[la-guerra-del-arte]] + [[career-capital-craftsman-mindset]]
+  into [[estrategia-contenido-absadev]].
+
+Lint due (~5 ingests passed): finance domain grew notably (Dalio, Housel, Hill);
+worth a pass on whether a macro/"enough" finance concept should be split out, and
+on the growing blackicelabs cross-links from book pages.
+
+## [2026-07-22] update | Carrera objetivo + ideas de contenido para absa.garcia — blackicelabs
+
+Confirmado por el usuario: **Medio Maratón del Atlas, Guadalajara, domingo
+6 de septiembre de 2026** — 46 días / 6.6 semanas desde el registro. Esa
+fecha ancla el arco y cierra justo antes de la revisión de ~octubre, así
+que a esa conversación se llega con la carrera corrida y material real.
+
+Añadida a [[absa-garcia]] la sección de ideas: serie numerada "Camino a mi
+primer medio maratón" con episodios **anclados a hitos del entrenamiento
+que ocurren de todos modos** (no a fechas inventadas — así no hay
+calendario que romper), más el E0 "el antes" que ya existe como material.
+Segunda línea: portar su formato probado —**las comparaciones**, top-3 de
+YouTube en [[absadev]] y lo que más disfruta— al tema de running; no es
+aprender formato nuevo, es cambiarle el tema a uno que ya domina.
+
+Marcados: regla de captura (celular, sin producción, grabar aunque no se
+publique — Absadev conserva las 4-6 h/semana), ruteo por la regla
+"¿le importaría a una audiencia dev?", y un **riesgo físico**: no entrenar
+de más por conseguir material; si el cuerpo pide bajarle, eso *es* el
+episodio.

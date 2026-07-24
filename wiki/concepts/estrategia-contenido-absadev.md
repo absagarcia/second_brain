@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-23
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -38,6 +38,19 @@ Not talent, not the algorithm. Two things, in his own words:
    34.5K views. The content doesn't invite reply. His own instinct
    (preguntas, anécdotas) is the correct cure — it just needs disciplined
    execution.
+
+> **Two book lenses from the 2026-07-23 ingest** (outside frames, not claims
+> the user has adopted them):
+> - **[[la-guerra-del-arte]]** gives the cleanest name for lever #1: the
+>   9-year "nunca he sido consistente" *is* Pressfield's **Resistencia**, and
+>   his prescription is exactly the strategy's — the professional shows up and
+>   keeps working regardless of mood. Reinforces framing consistency as
+>   identity ([[four-laws-of-behavior-change]]), not motivation.
+> - **[[career-capital-craftsman-mindset]]** (Cal Newport) is the frame the
+>   positioning already uses implicitly: "Camino a AI Engineer" / "sobrevivir
+>   la chamba gringa" is career-capital content, and the craftsman mindset —
+>   *get so good they can't ignore you* — restates the strategy's own
+>   retention-not-reach conclusion (from [[aarrr-growth-metrics]]).
 
 ## The monetization/community tension (named, not hidden)
 
