@@ -4,7 +4,8 @@
       "Bash(git mv *)",
       "Bash(mv wiki/entidades wiki/entities)",
       "Bash(mv wiki/conceptos wiki/concepts)",
-      "Bash(mv wiki/comparaciones wiki/comparisons)"
+      "Bash(mv wiki/comparaciones wiki/comparisons)",
+      "Bash(python3 -)"
     ]
   }
 }

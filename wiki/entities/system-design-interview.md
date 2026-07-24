@@ -1,9 +1,11 @@
 ---
 title: System Design Interview (Vol. I)
 type: entity
-domain: [books, athletix, masters]
+domain: [books, athletix]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
+# masters dropped 2026-07-23 lint: general software engineering, not AI-program
+# coursework — same rationale that retagged read-write-own out of masters (2026-07-16)
 sources:
   - path: "raw/books/System Design Interview I.md"
     fact_date: 2020
@@ -53,3 +55,7 @@ architecture, time-series storage, ML pipeline for real-time predictive
 analysis) — see the cross-reference added to that page. The interview-
 framework content is more career-prep oriented and doesn't currently tie
 to any domain in this wiki beyond `books`.
+
+Paired lens added 2026-07-23: [[typescript-5-design-patterns]] is the
+class/module-level complement to this book's system/infrastructure scale —
+together they bracket the software-engineering reading in the wiki.

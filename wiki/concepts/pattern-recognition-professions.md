@@ -54,3 +54,10 @@ Also discussed: the judge/court analogy of proving intent and culpability
 via "what did you know, and when did you know it" — pulled in directly as
 the model for [[second-brain-epistemic-design]]'s retrospective-
 contamination concern.
+
+Related (added 2026-07-23): [[first-principles-and-the-algorithm]] (from
+[[elon-musk]]) is the deliberate counter-move to over-relying on templated
+analogy — reasoning up from physical constraints instead of matching the
+nearest known pattern. The two framings bound each other: pattern-recognition
+is fast and usually right; first-principles is what you switch to when the
+inherited pattern makes the goal look impossible.

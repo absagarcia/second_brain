@@ -3,7 +3,7 @@ title: Mindset, La actitud del éxito (Mindset: The New Psychology of Success)
 type: entity
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-07-23
 sources:
   - path: "raw/books/Mindset, La actitud del éxito.md"
     fact_date: 2006
@@ -59,4 +59,6 @@ and how it's taught/changed.
 The growth-mindset concept is the most reusable piece, cross-linked from
 [[sin-esfuerzo]] (its "courage to be bad" principle is a direct practical
 application of growth mindset) and from the existing habit-formation
-cluster ([[habitos-atomicos]], [[deep-work]]).
+cluster ([[habitos-atomicos]], [[deep-work]]). Its internal, trajectory-based
+standard also feeds [[internal-scorecard]] (added 2026-07-23) — measure against
+your own prior self, not against others.

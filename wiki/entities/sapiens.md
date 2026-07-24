@@ -3,7 +3,7 @@ title: Sapiens. De animales a dioses
 type: entity
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
 sources:
   - path: "raw/books/Sapiens. De animales a dioses.md"
     fact_date: 2011
@@ -68,7 +68,12 @@ how large numbers of humans cooperate at all.
   circumstances, even hypothetically curing AIDS/cancer and brokering
   world peace in the same day — used to question whether happiness
   research forces an uncomfortable conclusion that contentment depends on
-  self-deception.
+  self-deception. Reinforced from the finance side by
+  [[el-arte-de-gastar-dinero]] (added 2026-07-23): Housel's "riqueza = lo
+  que tienes menos lo que quieres" and satisfaction-over-happiness-spikes
+  are the personal-finance restatement of this ceiling and the
+  luxury/necessity ratchet above — both consolidated in
+  [[enough-hedonic-adaptation]].
 
 ## Relevance to this wiki
 

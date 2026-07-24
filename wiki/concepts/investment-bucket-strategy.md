@@ -48,3 +48,11 @@ Complements [[sports-tech-market]] and any future `finance`-domain pages
 as a general personal-finance allocation heuristic. No direct tie to
 [[athletix-ai]] — this is personal investing, not startup/business
 finance.
+
+Finance cluster (expanded 2026-07-23): the Security bucket's "invincible,
+unsinkable" framing is Ray Dalio's All-Weather idea — [[principios-nuevo-orden-mundial]]
+now supplies the macro backdrop (high-savings / low-debt resilience across
+debt cycles) that this household heuristic hedges against. And
+[[el-arte-de-gastar-dinero]] (Housel) reframes the whole point of saving as
+buying **independence today** ("la riqueza sin independencia es una forma
+peculiar de pobreza") — the *why* behind automating the buckets.

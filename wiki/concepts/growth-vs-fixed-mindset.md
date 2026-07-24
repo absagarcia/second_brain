@@ -3,7 +3,7 @@ title: Growth vs. Fixed Mindset
 type: concept
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
 sources:
   - path: "raw/books/Mindset, La actitud del éxito.md"
     fact_date: 2006
@@ -61,3 +61,13 @@ market/data point, so it doesn't decay the way a stat would.
   underlying mechanism (repeated action changes self-concept).
 - Independently reinforces the "willpower needs structure/help" thread
   also present in [[deep-work]] and [[four-laws-of-behavior-change]].
+
+## The internal-standard theme → promoted to its own page (2026-07-23)
+
+Dweck's "stretch yourself / improve against your own trajectory" is one face of a
+broader idea the 12-book batch made hard to miss: **measure progress against your
+own prior/ideal self, not against other people** (Murakami, Adler, Magness, Dweck).
+Originally recorded here; **consolidated 2026-07-23 into [[internal-scorecard]]**,
+which pairs it with the "silent ego / don't seek external recognition" thread.
+This page stays focused on its own distinct claim — whether ability is *changeable*
+— and defers the internal-standard corollary to that page.

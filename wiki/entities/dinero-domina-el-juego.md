@@ -3,7 +3,7 @@ title: Dinero: domina el juego (MONEY Master the Game)
 type: entity
 domain: [books, finance]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-07-23
 sources:
   - path: "raw/books/Dinero: domina el juego: Cómo alcanzar la libertad financiera en 7 pasos.md"
     fact_date: 2014
@@ -77,4 +77,5 @@ reliance on daily willpower/goal-repetition entirely. The investment-
 bucket framework is the most reusable piece for the `finance` domain
 generally, tagged separately as [[investment-bucket-strategy]]. The
 automation point itself is consolidated alongside five other independent
-sources in [[systems-over-willpower]].
+sources in [[systems-over-willpower]]. Its "enough-to-be-free as the real
+finish line" framing feeds [[enough-hedonic-adaptation]] (added 2026-07-23).

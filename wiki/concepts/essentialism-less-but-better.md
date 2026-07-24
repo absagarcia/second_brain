@@ -3,7 +3,7 @@ title: Essentialism ("Less but Better") as a Prioritization Discipline
 type: concept
 domain: [books, reflections, athletix]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
 sources:
   - path: "raw/books/Esencialismo: Logra el máximo de resultados con el mínimo esfuerzo.md"
     fact_date: 2014
@@ -81,3 +81,13 @@ point, so it doesn't decay the way a stat or valuation would.
   [[sapiens]]'s "luxuries become necessities" observation and
   [[the-saas-playbook]]'s "focus means saying no to a hundred other good
   ideas."
+- The engineering statement of the same discipline arrived in the
+  2026-07-23 batch: [[first-principles-and-the-algorithm]] (from
+  [[elon-musk]]) makes **"delete before you optimize"** a fixed step order,
+  and [[typescript-5-design-patterns]] ends every pattern chapter on
+  over-engineering as the failure mode. [[minimalismo-digital]] applies
+  "less but better" specifically to technology use. Same principle, three
+  more independent domains.
+- The "enough / decide what is essential so acquisition doesn't fill all space"
+  side of this discipline is consolidated in [[enough-hedonic-adaptation]]
+  (added 2026-07-23), alongside Housel, Sapiens, and Robbins.
