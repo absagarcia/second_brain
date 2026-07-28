@@ -6,7 +6,7 @@
 
 # **INTRODUCCIÓN**
 
-**Highlight(orange) - MÁS GRANDE, MÁS RÁPIDO, MÁS FUERTE, PERO ¿A QUÉ COSTE? > Page 29 · Location 356**
+## Highlight(orange) - MÁS GRANDE, MÁS RÁPIDO, MÁS FUERTE, PERO ¿A QUÉ COSTE? > Page 29 · Location 356
 
 **Las proezas increíbles que antes lanzaban a los individuos al estrellato ahora resultan literalmente inverosímiles.**
 
