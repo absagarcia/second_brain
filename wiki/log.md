@@ -667,3 +667,50 @@ Tensión registrada sin resolver: propósito-primero (este libro) vs.
 Aplicación al usuario: arco del medio maratón ([[absa-garcia]]) y batches de
 [[absadev]] — y el libro nombra exactamente el riesgo ya marcado ahí
 (entrenar de más por conseguir material).
+
+## [2026-07-28] update | Semana 1 publicando — resultados batch #1 — blackicelabs
+
+Screenshots del usuario (YouTube Studio + TikTok Estadísticas). Nuevo snapshot
+fechado en [[absadev]] — **el de 2026-07-16 se conserva tal cual**, son un par
+antes/después, no una corrección. Sección de resultados en
+[[estrategia-contenido-absadev]].
+
+**El titular: se rompió la sequía de comentarios.** El número que definía todo
+el diagnóstico era *1 comentario / 60 días* en TikTok. Semana 1: **~19
+comentarios** entre las dos plataformas (9 en un solo TikTok). Es la primera vez
+que se mueve la etapa de **Activación** del embudo AARRR — y es la única métrica
+que él controla directamente.
+
+**Lo que NO se movió: retención.** +8 subs sobre 4.8K views. 7,861 → 10,000 son
+~2,139 subs; a este ritmo, ~20 años. Conclusión intacta: hace falta un cambio de
+escalón (las series numeradas sostenidas), no optimización. Y las series
+numeradas **todavía no se han probado** — lo publicado es el batch #1, sin el
+branding "#1/#2".
+
+Otros hallazgos registrados: el video de **inglés/chamba gringa hizo 3.4x** los
+de tech puro en YouTube (686 vs 183/200) — primera evidencia de la apuesta de
+monopolio, con caveat de recencia; **la audiencia de TikTok no parece ser
+audiencia dev** (creadores co-vistos: Kale Anderson, Rafa Carbajal, apple, Klar
+— cero devs), hipótesis de un solo screenshot; **cadencia real cada 2 días**, no
+cada 3 como él la describió, ~3.5/semana contra 3 planeadas — marcado contra
+[[stress-rest-growth-equation]] (con 9 años de inconsistencia, el modo de fallo
+es pasarse en la semana 1 y desaparecer en la 5).
+
+Discrepancias internas de TikTok registradas sin reconciliar (tarjeta semanal
+dice 2 comentarios vs 12 sumando videos; su asistente dice −11% de views vs
++6.7% en Métricas clave).
+
+## [2026-07-28] decision | Cadencia fijada en ~cada 2 días — blackicelabs
+
+El usuario confirmó el mismo día: los videos de esta semana **ya están
+programados** y grabará los de la siguiente para publicar **cada ~2 días**. Lo
+de la semana 1 fue intencional, no deriva. Eso **sustituye** las 3/semana de la
+estrategia v1 y mi recomendación de mantenerlas planas — ambas quedan escritas,
+tachadas pero no borradas, en [[estrategia-contenido-absadev]].
+
+Consecuencia práctica registrada: a 2 días de espacio la semana pide **4 videos
+por día de batch**, no 3 — quedarse corto a media semana es la forma exacta de
+todas las rachas rotas anteriores. Su protección real es que **programa por
+adelantado**, así que la métrica de racha pasa a ser **"días de buffer
+programado"** (piso: 3 videos programados) en vez de "publiqué hoy". La carga a
+vigilar es el día de grabación, no la publicación.

@@ -3,12 +3,16 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-07-24
+updated: 2026-07-28
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
     ingest_date: 2026-07-16
     confidence: medium   # v1 strategy — a working hypothesis, not proven results
+  - path: conversation (user screenshots — week 1 results of batch #1)
+    fact_date: 2026-07-28
+    ingest_date: 2026-07-28
+    confidence: high     # first-party platform data (the reading of it is medium)
 ---
 
 # Estrategia de contenido — Absadev
@@ -334,6 +338,117 @@ corrected** (temporal integrity: the plan above stays as it was written):
   batch**, so the hard-date flag from the calendar section did NOT hold.
   Whether dropped on purpose or slipped is TBD with the user; the temporal
   promise of that video is now stale and would need re-framing if revived.
+
+### Schedule note — what published vs what was scheduled
+
+The three videos live as of 2026-07-28 are **batch #1's three** (Flutter vs RN,
+Swift, and the inglés/"salsa" anecdote — the last published as *"El error de los
+desarrolladores latinos al hablar inglés"*, **not** branded as "Sobrevivir la
+Chamba Gringa #1"). So the batch #2 slate reported on 2026-07-24 (maestría Mon
+27 jul, then S1E1 Wed 29 / S1E2 Fri 31) had **not** started publishing on the
+27th as scheduled — that slot carried a batch #1 video instead. Recorded as
+observed, not corrected; whether batch #2 shifted by a few days or was
+re-ordered again is TBD with the user. Note also that the numbered-series
+branding — the actual retention mechanic — has therefore **not been tested yet**.
+
+## Week 1 results — batch #1 published (2026-07-28)
+
+Full numbers on [[absadev]]'s 2026-07-28 snapshot. What they do to this
+strategy:
+
+**The diagnosis was right, and the first lever moved.** The strategy's core
+claim was that the problem is **Activation/conversation, not reach** (1 comment
+/ 60 days). Week 1: **~19 comments** across both platforms, 9 of them on a
+single TikTok. That is the intended mechanism working — the CTA-per-video rule
+plus topics people have an opinion about. Updated funnel read:
+
+| Stage | 2026-07-16 | 2026-07-28 (week 1) |
+|---|---|---|
+| Acquisition | 34.5K TT / 3.9K YT | 4K TT / 4.8K YT — unchanged in kind |
+| Activation | 1 comment / 60 days | **~19 comments / 7 days** 🟢 first movement |
+| Retention | +7 subs | +8 subs — 🔴 **still the wall** |
+| Referral | 147 shares | 3 shares (+50% w/w) |
+| Revenue | $33/mo | $28.53/mo — ignore, as planned |
+
+**Retention is untouched, and that is the honest headline.** 7,861 → 10,000 needs
+~2,139 subs; at +8/28 days that is **~20 years**. Unchanged conclusion: this
+requires a step change (the numbered series doing their job over months), not
+optimization. One week cannot show it — the series mechanic hadn't even launched
+yet in this batch.
+
+**The monopoly bet got its first evidence.** *"El error de los devs latinos al
+hablar inglés"* did **686 views vs 183/200** for the two tech videos — 3.4x, and
+YouTube itself flagged it ("more views and likes than usual", ranking 4 of 10).
+The differentiator pillar (🇺🇸 chamba gringa) outperformed the "proven anchor"
+comparison. **Caveat before over-steering:** it published most recently and had
+the strongest title/hook, so recency and craft are confounded with topic. Treat
+as one supporting data point for Series 1, not as proof — and note it argues for
+*more* of Series 1, which is already what's scheduled.
+
+**New: the TikTok audience appears not to be a dev audience** (co-viewed
+creators are general-interest/English-learning/fintech, zero devs — see
+[[absadev]]). If that holds, TikTok reach is a poor topic signal for this
+channel, and the *dev × inglés* overlap is the only place the inherited audience
+and the target audience intersect. This is a **hypothesis from one screenshot**,
+worth one deliberate test rather than a strategy rewrite.
+
+**Cadence ran hotter than planned.** Actual publishing was **every 2 days**
+(TikTok 21/23/25 jul, YouTube 23/25/27 — YouTube lagging TikTok by 2 days), i.e.
+~3.5/week against a planned 3/week within a 4–6 h/week budget. The user
+described it as "cada 3 días." Small, but the constraint that matters here is
+sustainability, and per [[stress-rest-growth-equation]] the dose that produces
+growth is the one that gets recovered — with a 9-year inconsistency history, the
+failure mode is overshooting week 1 and vanishing in week 5. **Recommend
+locking 3/week and protecting one day fully off**, rather than raising cadence
+on the back of a good video.
+
+### Cadence decided by the user — every 2 days (2026-07-28)
+
+**Supersedes the 3/week cadence written in 2026-07-16 and my
+"lock 3/week" recommendation below. Both are kept as written, not deleted.**
+
+The user confirmed the same day: this week's videos are **already scheduled**,
+and he intends to record next week's to keep publishing **~every 2 days**. So
+the week-1 pace was deliberate, not drift — the earlier note that "he described
+it as cada 3 días" describes his phrasing, not his intent. Target is therefore
+**~3.5 videos/week**, above the 3/week the v1 strategy assumed, inside the same
+4–6 h/week budget.
+
+**What this actually changes (the arithmetic, not the philosophy):**
+
+- A week at 2-day spacing needs **4 videos per batch day**, not 3. At 3 per
+  sitting he runs dry mid-week — which is the exact shape of every past streak
+  break. The batch size is the thing to raise, not the recording frequency.
+- **The real protection here is that he schedules ahead**, and that is why this
+  cadence is defensible for him where it wouldn't be for someone publishing
+  same-day. His streak metric should be **"days of scheduled buffer"**, not
+  "did I publish today." Rule of thumb: **never let the buffer drop below 3
+  scheduled videos** — one bad week then costs nothing.
+  ✅ **Adopted by the user, 2026-07-28** — not just recommended. This is now the
+  channel's streak rule: *mínimo 3 videos programados por delante, siempre.*
+  It replaces "publiqué hoy" as the thing he watches, and it is the concrete
+  countermeasure to the 9-year inconsistency named in the core diagnosis.
+- The load that breaks this is the **batch day**, not the publishing. Per
+  [[stress-rest-growth-equation]], the dose to watch is the recording session
+  (a 2.5h, 5-video sitting is already near the 2-hour block ceiling that book
+  gives); the risk is a missed batch cascading into a missed week, not fatigue
+  from publishing.
+- ⚠️ **Concern already raised and answered — recorded, not re-litigated:** I
+  flagged that raising cadence after one good video is how week-5 collapses
+  happen. He chose the faster pace knowingly. The mitigation above (batch of 4 +
+  buffer floor of 3) is the version of his decision most likely to survive.
+
+### What to do with this (recommendation, pending the user)
+
+1. ~~**Keep the cadence flat, don't raise it.**~~ → **Overridden 2026-07-28** by
+   the user's decision above; superseded by the batch-of-4 + buffer-floor rule.
+2. **Weight Series 1 (chamba gringa)** for the next batch — the data and the
+   positioning point the same way for once.
+3. **Feed the comment motor:** there are now real comments to mine. Series 4
+   ("Respondiendo comentarios") was blocked on having any; it isn't anymore.
+   The 9-comment Swift video is the obvious first source.
+4. **Track comments per video as the headline metric**, as already decided —
+   this week is the first time that metric had anything in it.
 
 ## Measurement — track results before batch #2
 
