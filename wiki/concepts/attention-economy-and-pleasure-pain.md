@@ -3,7 +3,7 @@ title: The Attention Economy & the Pleasure–Pain Balance
 type: concept
 domain: [books, reflections]
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-28
 # blackicelabs dropped 2026-07-23 lint: thin tie; the light cross-links to the
 # creator pages stay, the domain tag does not
 sources:
@@ -54,6 +54,18 @@ counter-moves:
   ([[haz-cosas-dificiles]]'s drill; Newport's solitude).
 - **Schedule high-quality leisure** rather than defaulting to passive feeds —
   a [[systems-over-willpower]] practice.
+
+## Third source: Máximo rendimiento (added 2026-07-28)
+
+[[maximo-rendimiento]] states the pursuit mechanism in one line — **"no nos
+volvemos adictos a ganar; nos volvemos adictos a perseguir algo"** — which is
+Lembke's dopamine-as-wanting-not-liking from a sports-performance author who
+cites it for a different purpose (protecting deep work). It also sharpens the
+device claim: phones degrade attention **on or off, in a pocket or on the table,
+and even when the phone belongs to someone else** — a stronger empirical claim
+than "put it away when you focus," and the argument for the room-level rule
+(phone physically out of the bedroom, off, not silenced) rather than a
+willpower-level one.
 
 ## A recorded tension
 

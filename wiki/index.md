@@ -43,6 +43,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Minimalismo digital (Digital Minimalism)](entities/minimalismo-digital.md) — Newport: less-but-better for tech, the attention-economy arms race, solitude, high-quality leisure, seasonal/weekly leisure plans — books, reflections
 - [El arte de gastar dinero (The Art of Spending Money)](entities/el-arte-de-gastar-dinero.md) — Housel: wealth = have minus want, satisfaction over spikes, independence as wealth, minimize future regret, status vs utility — books, finance, reflections
 - [Haz cosas difíciles (Do Hard Things)](entities/haz-cosas-dificiles.md) — Magness: true toughness = respond not react, embrace reality, silent ego, emotions as messengers, meaning as glue; sport-science lens — books, reflections, athletix
+- [Máximo rendimiento (Peak Performance)](entities/maximo-rendimiento.md) — Stulberg & **Magness (same author as Do Hard Things — count once)**: stress+rest=growth, rest as productive work, sleep as elite behavior, purpose as effort-tolerance lever — books, reflections, athletix, blackicelabs
 
 ## Concepts
 
@@ -71,6 +72,9 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [The Attention Economy & the Pleasure–Pain Balance](concepts/attention-economy-and-pleasure-pain.md) — synthesis of Dopamine Nation + Digital Minimalism: dopamine homeostasis, behavioral-addiction design, and the shared counter-moves (exercise, solitude, scheduled leisure) — books, reflections
 - [The Internal Scorecard](concepts/internal-scorecard.md) — silent ego / don't seek external recognition + compete with your past/ideal self, not others (Atrévete, Do Hard Things, El arte de gastar dinero, Murakami, Mindset) — books, reflections
 - [Enough: Hedonic Adaptation & Wealth = Have − Want](concepts/enough-hedonic-adaptation.md) — satisfaction is governed by the gap between what you have and what you want; manage the wants, not just the haves (Housel, Sapiens, Esencialismo, Robbins) — books, finance, reflections
+
+- [Esfuerzo + descanso = crecimiento](concepts/stress-rest-growth-equation.md) — periodization as a general principle: dose-dependent stress, just-manageable challenges, 50–90 min blocks, breaks/walking/sleep as the growth half — books, reflections, athletix, blackicelabs
+- [Purpose as a Performance Amplifier](concepts/purpose-as-performance-amplifier.md) — self-transcendent purpose raises tolerable effort; build-it procedure (values → statement → visual cues → nightly 1–10); giving as burnout antidote — books, reflections, blackicelabs, athletix
 
 ## Comparisons
 

@@ -3,7 +3,7 @@ title: Deep Work
 type: entity
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-07-28
 sources:
   - path: "raw/books/Deep Work.md"
     fact_date: 2016
@@ -78,6 +78,15 @@ denser toward the start.
   workday (framed there as a problem to fix with more hours/focus, not a
   wholesale reframing of what productivity even means) — see the note
   added to that page.
+
+- **Extended 2026-07-28 by [[maximo-rendimiento]]**: same prescription (deep
+  single-tasking, quality over quantity, phone out of reach), but with two
+  additions Newport doesn't make — a **concrete block length** (50–90 min, two
+  hours as the ceiling, start at 10–15 min if focus is untrained) and the
+  **recovery half of the cycle**, i.e. that the depth of the block is bounded by
+  how rested you are. See [[stress-rest-growth-equation]]. Its phone finding is
+  also stronger than Newport's: phones degrade attention on **or off**, pocketed
+  or on the table, and even when the phone isn't yours.
 
 ## Relevance to this wiki
 

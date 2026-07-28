@@ -633,3 +633,37 @@ Updated [[estrategia-contenido-absadev]] with the actual schedule vs the
 planned calendar: dates shifted, order changed, and the Swift "una semana
 después" hard-date follow-up (S2E2) did NOT make this batch — flagged as a
 now-stale temporal promise, recorded not corrected.
+
+## [2026-07-28] ingest | Máximo rendimiento (Peak Performance) — books
+
+Creado [[maximo-rendimiento]] (Stulberg & **Magness**, 2017) más dos conceptos:
+[[stress-rest-growth-equation]] (esfuerzo + descanso = crecimiento — dosis,
+retos apenas manejables, bloques 50–90 min, y toda la mitad de recuperación:
+pausas, caminar, meditación, recuperación social, sueño 7–9 h, días libres
+programados *después* del estrés) y [[purpose-as-performance-amplifier]]
+(propósito autotrascendente como palanca sobre la tolerancia al esfuerzo, el
+procedimiento valores→declaración→señales visuales→reflexión nocturna, y "dar
+es un antídoto contra el agotamiento").
+
+**Lo más importante del ingest**: es el **mismo autor** que
+[[haz-cosas-dificiles]] (2022). Donde coinciden — estrés como desafío no
+amenaza, metas justo más allá de la capacidad, el sentido como lo que permite
+aguantar — **es una voz repitiéndose, no convergencia independiente**. Anotado
+en ambas páginas y en el índice para que este wiki no lo cuente dos veces.
+
+Actualizados: [[deep-work]] (le añade duración concreta de bloque + la mitad de
+recuperación; hallazgo del móvil más fuerte que el de Newport),
+[[systems-over-willpower]] (octava fuente — con caveat: su mecanismo de
+"recipiente único" es *ego depletion*, que replicó mal después de 2016;
+registrado como dicho-por-la-fuente, no avalado), [[esencialismo]]
+(minimalista-para-ser-maximalista; lo nuevo es la periodización),
+[[attention-economy-and-pleasure-pain]] ("no nos volvemos adictos a ganar; nos
+volvemos adictos a perseguir algo"), [[la-guerra-del-arte]] (Máximo rendimiento
+**cita** el pasaje de los paseos de Pressfield — link trazable entre dos libros
+del wiki, no inferencia mía).
+
+Tensión registrada sin resolver: propósito-primero (este libro) vs.
+[[career-capital-craftsman-mindset]] (Newport: no empieces por la pasión).
+Aplicación al usuario: arco del medio maratón ([[absa-garcia]]) y batches de
+[[absadev]] — y el libro nombra exactamente el riesgo ya marcado ahí
+(entrenar de más por conseguir material).

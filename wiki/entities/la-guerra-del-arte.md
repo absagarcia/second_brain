@@ -3,7 +3,7 @@ title: La Guerra del Arte (The War of Art)
 type: entity
 domain: [books, reflections, blackicelabs]
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-28
 sources:
   - path: raw/books/La Guerra del Arte.md
     fact_date: 2002-01-01        # recalled: Steven Pressfield, The War of Art
@@ -70,3 +70,14 @@ diagnosed problem behind [[absadev]] / [[absa-garcia]]: **9 years of content
 but "nunca he sido consistente."** The user's own words map onto Pressfield's
 Resistance almost exactly. Cross-linked into [[estrategia-contenido-absadev]]
 as an outside lens on the consistency lever — not a claim the user has read it.
+
+## Cited by another source in this wiki (added 2026-07-28)
+
+[[maximo-rendimiento]] quotes Pressfield's walking passage directly — carrying a
+pocket recorder on walks because "cuando mi mente superficial se vacía con el
+paseo, otra parte de mí meterá baza y comenzará a hablar," then catching real
+editing errors. Stulberg & Magness use it as evidence for **incubation**: the
+break is where the subconscious works. This is a rare **source-traceable link
+between two books already in the wiki** (not my inference), and it adds a second
+Pressfield mode alongside "the professional shows up": the professional also
+*steps away on purpose*. See [[stress-rest-growth-equation]].
