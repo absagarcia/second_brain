@@ -450,6 +450,109 @@ it as cada 3 días" describes his phrasing, not his intent. Target is therefore
 4. **Track comments per video as the headline metric**, as already decided —
    this week is the first time that metric had anything in it.
 
+## Batch #3 scheduled — the buffer rule held (2026-07-29)
+
+Screenshot of the YouTube scheduler. **Four videos, spaced every 2 days**, which
+is exactly the batch-of-4 + 2-day cadence adopted the day before — the rule was
+followed on its first cycle, not a week later.
+
+| Date | Title (as scheduled) | Len | Series |
+|---|---|---|---|
+| 3 ago | Sobrevivir la Chamba Gringa **#3**: Cómo NO alargar la daily | 0:59 | 1 |
+| 5 ago | Aprender Swift: ¿ruta gratis o comprar un curso? | 1:16 | 2 (comparison-shaped) |
+| 7 ago | **9 años, 0 consistencia: por qué de verdad no [lo he logrado]** | 1:03 | 5 — **flagship** |
+| 9 ago | Una semana con Swift: Hello World, Xcode, y lo que se odia | 1:28 | 2 |
+
+**Four things worth recording:**
+
+1. **Buffer at ~5 videos** (the 31 jul S1E2 plus these four), against a floor of
+   3. First time in the channel's recorded history that the streak is protected
+   *ahead* of itself rather than defended day-to-day.
+2. **The flagship is actually scheduled.** *"9 años, 0 consistencia"* — the video
+   judged the single most important one for him to record this year (Series 5,
+   ep. 6) — lands **7 ago**, close to its planned 08-08 slot. It stopped being a
+   script and became a date. Its craft rules (vulnerability with agency, low
+   energy, **no subscribe CTA**) are written above and should be checked against
+   the final cut, since a pity-party version repels rather than connects.
+3. **The stale Swift promise was re-framed, not dropped.** The 2026-07-24 entry
+   flagged that the "una semana después" premise had gone stale when S2E2 missed
+   its hard date. It returns as *"Una semana con Swift: Hello World, Xcode…"* —
+   a week **of using** Swift rather than a week **after** the announcement, which
+   is exactly the re-framing that flag called for. Ep. 1 published 25 jul and
+   this lands 9 ago (15 days), so the literal-week reading would have broken; the
+   new title doesn't depend on it. Resolved.
+4. **The numbered-series mechanic is now live** — "#3" in the title, with #1/#2
+   publishing 29/31 jul. The retention hypothesis finally gets its first real
+   test, which week 1 could not provide.
+
+**Mix:** 1 utility (S1) + 2 journey/Swift (S2) + 1 identity (S5). Heavier on the
+**pikacodes half** (journey/identity) than on utility — which is the correct
+weighting for the stated goal of *comunidad*, and matches the diagnosis that
+people comment on feelings, not tips.
+
+⚠️ **The one gap: Series 4 ("Respondiendo comentarios") is still not in the
+slate.** It was blocked on having comments; after week 1 it isn't — there are 9
+on the Swift TikTok alone. Since *Activation* is the only funnel stage that has
+actually moved, the comment→content loop is the highest-leverage thing missing
+from this batch. Candidate for batch #4 rather than a change to this one (the
+buffer is the asset; don't reopen a scheduled slate).
+
+## Batch #4 — scripted 2026-07-29, to publish 11→17 ago
+
+Designed on request ("con todo lo que sabes de mí"), recorded in one sitting.
+Selection logic: **weight the proven winner** (chamba gringa, 3.4x on YouTube),
+**close the Series 4 gap** (the comment motor, unblocked by week 1's comments),
+and **finally test the two series that serve the stated goal of *disfrutarlo*
+and have never been tried** (8 correr, 6 código por gusto).
+
+| Date | Video | Series |
+|---|---|---|
+| 11 ago | Respondiendo tu comentario sobre Swift | **4 — the motor** |
+| 13 ago | Chamba Gringa #4: avisar que vas retrasado sin sonar a excusa | 1 — the winner |
+| 15 ago | Por qué correr me hizo mejor programador | **8 — untested** |
+| 17 ago | Lo que construyo cuando nadie me paga (Flutter) | **6 — untested** |
+
+**1 · Serie 4** — source is the **9 comments on the Swift TikTok**; pick a real
+doubt or disagreement, not a compliment. Read it aloud on camera with the
+handle on screen; concede the point if they're right (concession generates more
+comments than being right). Close: *"si dejas un comentario así, el próximo
+video es el tuyo."* Cheapest to record, single take — its value is teaching the
+audience that commenting has consequences. Directly targets the only funnel
+stage that has moved.
+
+**2 · Serie 1 #4** — same axis that already worked: latinos contextualize and
+ask permission, which reads as looking for an exit; the version that works is
+**estado → fecha nueva → qué necesitas, sin el porqué**, plus his proven line
+*"valoran que entregues, no que calientes la silla."* ⚠️ **Needs his real
+anecdote** of a time he flagged a delay and how they reacted — deliberately
+left blank rather than invented.
+
+**3 · Serie 8 (correr)** — the asset neglected since session 1, and now it has
+substance instead of vibes: it draws on [[stress-rest-growth-equation]] from the
+same-day [[maximo-rendimiento]] ingest — muscle grows in recovery not in the
+session, **~40% of creative ideas arrive during breaks**, a **6-minute walk**
+counts, and **sleep hours 7–9 are the most potent** and the ones devs cut. Hook
+is a bug solved on a run, not a health lecture. Two side benefits: it's the
+**[[absa-garcia]] × dev crossover** (he's mid-training for the 6 sep medio
+maratón, so the material is real and already being lived), and it's the one
+video in this batch the **non-dev TikTok audience** (see [[absadev]]'s 2026-07-28
+audience finding) can actually watch.
+
+**4 · Serie 6 (código por gusto)** — screen-share something built for pleasure,
+unfinished or unused, no productivity moral. The only video in the batch that
+exists purely to serve the *disfrutarlo* goal. Noted as a **diagnostic**: if
+this is the one he doesn't feel like recording, that itself is data about the
+goal.
+
+**Recording notes:** 4 in one sitting, ≤2.5 h; if energy drops at 2 h, record 3
+and draw on the buffer (5 scheduled). Order: Flutter first (the enjoyable one,
+warms up), correr last.
+
+⚠️ **Timing note:** the flagship *"9 años, 0 consistencia"* publishes **7 ago**,
+after this batch is recorded. It is expected to generate the most conversation of
+anything on the channel, so **its best comment belongs to batch #5's Series 4
+video**, not this one. Don't reopen batch #4 for it.
+
 ## Measurement — track results before batch #2
 
 Next batch's topics should be chosen from **what actually performed** here

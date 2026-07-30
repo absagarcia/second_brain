@@ -714,3 +714,49 @@ todas las rachas rotas anteriores. Su protección real es que **programa por
 adelantado**, así que la métrica de racha pasa a ser **"días de buffer
 programado"** (piso: 3 videos programados) en vez de "publiqué hoy". La carga a
 vigilar es el día de grabación, no la publicación.
+
+## [2026-07-29] update | Batch #3 programado — la regla del buffer aguantó — blackicelabs
+
+Screenshot del programador de YouTube: **4 videos, cada 2 días, 3→9 ago**. La
+regla adoptada ayer (batch de 4 + mínimo 3 programados) se cumplió en su primer
+ciclo, no una semana después. Buffer real: ~5 videos contando el S1E2 del 31 jul.
+Detalle en [[estrategia-contenido-absadev]].
+
+Lo notable:
+- **El video flagship está programado**: "9 años, 0 consistencia" (7 ago) — el
+  que se juzgó el más importante del año. Dejó de ser guion y tiene fecha.
+- **La promesa de Swift se re-enmarcó en vez de morir**: vuelve como "Una semana
+  **con** Swift" (una semana usándolo) en lugar de "una semana después" — que era
+  exactamente lo que pedía el flag del 2026-07-24. Resuelto.
+- **El mecanismo de series numeradas ya está vivo** ("#3" en el título, con #1/#2
+  el 29 y 31 jul). La hipótesis de retención por fin se puede probar.
+- Mezcla 1 utilidad + 2 journey + 1 identidad → pesa hacia la mitad
+  pikacodes, que es la correcta para la meta de comunidad.
+
+⚠️ Hueco único: **la Serie 4 ("Respondiendo comentarios") sigue fuera del
+calendario**, y ya hay comentarios que la desbloquean (9 en un TikTok). Siendo
+Activación la única etapa del embudo que se movió, es lo de mayor palanca que
+falta. Candidata a batch #4 — no tocar la tanda ya programada.
+
+## [2026-07-29] plan | Batch #4 guionizado (11→17 ago) — blackicelabs
+
+A pedido del usuario ("grabamos ahora con todo lo que sabes de mí"). Cuatro
+videos, cada 2 días, en [[estrategia-contenido-absadev]]. Lógica de selección:
+pesar al ganador medido (chamba gringa, 3.4x), **cerrar el hueco de la Serie 4**
+(el motor de comentarios, desbloqueado por los comentarios de la semana 1) y
+probar por fin las dos series que sirven a la meta declarada de *disfrutarlo* y
+que nunca se habían tocado (8 correr, 6 código por gusto).
+
+11 ago Serie 4 (respondiendo un comentario real de los 9 del TikTok de Swift) ·
+13 ago Chamba Gringa #4 (avisar que vas retrasado) · 15 ago "Por qué correr me
+hizo mejor programador" · 17 ago "Lo que construyo cuando nadie me paga".
+
+**Pago cruzado del ingest de hoy:** el video de correr se sostiene en
+[[stress-rest-growth-equation]] de [[maximo-rendimiento]] (40% de ideas en las
+pausas, paseo de 6 min, horas 7-9 de sueño) en lugar de en vibes — y cruza con
+el arco del medio maratón de [[absa-garcia]] (6 sep, entrenamiento en curso) y
+con la audiencia no-dev de TikTok detectada ayer.
+
+Marcados: la anécdota real del #4 se deja **en blanco a propósito**, no
+inventada; y el flagship del 7 ago generará los mejores comentarios, que van al
+batch #5 — no reabrir el #4 por eso.
