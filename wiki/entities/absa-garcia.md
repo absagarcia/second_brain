@@ -183,6 +183,18 @@ A **different podcast with a different name** (confirmed 2026-07-22 — not
 a rename of *Café con Absa*), created after the closure. The user **wants
 to revive it.**
 
+### BLACK ICE LABS — el podcast que faltaba (añadido 2026-08-10)
+
+⚠️ **Vacío corregido, no contradicción.** Esta sección se escribió el
+2026-07-22 asumiendo que el podcast era un activo del pasado a *revivir*.
+El export ingerido el 2026-08-10 muestra que **[[blackicelabs-podcast]]
+publicó 23 episodios entre el 2025-08-21 y el 2026-06-08** — es decir,
+estuvo activo hasta **seis semanas antes** de esa conversación. La decisión
+de "el podcast espera" (abajo) se tomó sin este dato sobre la mesa.
+No la invalida — el argumento de sobre-extensión sigue en pie — pero cambia
+lo que significa: no es *revivir* algo de 2023, es *reanudar* algo que se
+detuvo hace 63 días **en su mejor momento de audiencia**.
+
 ### Coffee and Code — dev-side podcast
 Separate show, *"se sienta a tomar café con gente destacada del desarrollo
 de software"*, published under the user's full legal name. Being

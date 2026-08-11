@@ -351,6 +351,13 @@ podcast history.
 
 This matters for the open long-form question: **the interview format is
 not a skill to acquire, it's a dormant one** — 27+ episodes of evidence.
+
+> **Ampliado 2026-08-10:** la evidencia es mucho más reciente de lo que decía
+> esta sección. [[blackicelabs-podcast]] publicó **23 episodios dev entre ago
+> 2025 y jun 2026** — Flutter, IA, mercado laboral, side projects. No es un
+> formato dormido desde 2023: se detuvo hace 63 días. Y es un **banco de
+> guiones ya escritos y ya dichos en voz alta** sobre los mismos pilares de
+> este canal, con datos de qué tema funcionó.
 It also doubles as the "one collaboration" growth lever in
 [[estrategia-contenido-absadev]]'s 90-day plan, since every guest brings
 their own audience. Candidate direction for Absadev's long-form, pending

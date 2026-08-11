@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-08-09
     ingest_date: 2026-08-10
     confidence: high     # export de primera parte; ventanas distintas por archivo, ver caveats
+  - path: raw/blackicelabs/podcast-blackicelabs-2026-08-10/ (export de Spotify for Creators del podcast BLACK ICE LABS)
+    fact_date: 2026-08-10
+    ingest_date: 2026-08-10
+    confidence: high     # export de primera parte; sin duración ni tiempo escuchado
 ---
 
 # Estrategia de contenido — Absadev
@@ -694,6 +698,138 @@ el mejor dato del reporte. Shorts es el 46%.
 ⚠️ **Sigue sin responderse la pregunta de empaquetado.** Impresiones y CTR no las
 expone la API; hacen falta exports de Studio. Sin ellas no se puede decir si los
 videos de identidad rinden poco alcance por empaquetado o por distribución.
+
+## El embudo, ahora en dos plataformas (export nativo de TikTok, 2026-08-10)
+
+Mismo día, segunda fuente: los CSV de TikTok Analytics
+(`raw/blackicelabs/absadev-tiktok-2026-08-10/`). Cifras completas en el snapshot
+TikTok de [[absadev]]. **La tabla AARRR de arriba se conserva tal como se
+escribió** — pero medía sólo YouTube, y esa era su limitación, no su error:
+
+| Etapa | YouTube (28 d, API) | TikTok (export nativo) | Lectura |
+|---|---|---|---|
+| Acquisition | 4,670 vistas (+39%) | **32,349 vistas** / 681 al día (+72%) | TikTok es 7× el alcance |
+| Activation | 8 coment. / 28 d 🟡 | **39 coment. / 30 d** 🟢 | **sí consolidó — en TikTok** |
+| Retention | **+1 neto**, SPV 0.21 🔴🔴 | **+11 en 7 d**, 1.60 por 1.000 🟢 | ~7.6× mejor en TikTok |
+| Referral | 10 shares | **0.69 shares/1.000 (−87%)** 🔴 | **regresión nueva** |
+| Revenue | — | — | se ignora, según lo acordado |
+
+**Lo que esto cambia de verdad — el muro de *Retention* es un muro de YouTube, no
+del creador.** Misma persona, mismos videos recortados, y una plataforma sí
+retiene. La lectura del 21-jul ("10k subs es un problema de retención") sigue en
+pie para YouTube; lo que ya no se sostiene es leerla como un problema *del
+contenido*. ⚠️ Un follow de TikTok no equivale a una suscripción de YouTube (mucha
+menos fricción), así que la comparación es de dirección, no de equivalencia — pero
+la diferencia es de un orden de magnitud, y **la estrategia tiene a YouTube como
+plataforma casa por una decisión del 16-jul que nunca se re-examinó con datos.**
+No es razón para mudarse; es razón para decidirlo explícitamente.
+
+**Lo que corrige la lectura de *Activation*.** La conclusión de esta misma página
+esta mañana fue "Activation no consolidó". Con TikTok medido: **sí consolidó, y se
+quedó en TikTok** (39 comentarios en 30 días, sostenidos, contra 1 en 60 días como
+línea base). Ambas lecturas son ciertas y ninguna se borra. La Serie 4 (el motor de
+comentarios, agendada 11 ago) sigue siendo lo más urgente que falta, y ahora se
+sabe **de dónde sacar el material**: la conversación vive en TikTok.
+
+**Golpe directo a la apuesta de monopolio.** Los tres videos de *Chamba Gringa*
+son **lo que menos alcance tiene en TikTok** (553 / 565 / 348 vistas) contra
+6,601–10,072 de café/home-office/gadgets. Esto convierte el hallazgo del 28-jul
+(audiencia de TikTok ≠ audiencia dev), que era hipótesis de una captura, en
+**confirmación numérica**. Sumado a la corrección de esta mañana en YouTube (el
+video de inglés: alcance sí, conversión 0.00), la Serie 1 lleva ya **dos
+mediciones independientes que no la respaldan** — una por plataforma. La premisa
+de selección del batch #4 ("pondera el ganador probado") queda más debilitada que
+esta mañana. Sigue en pie no reabrir un batch grabado; **decidirlo antes del #5**
+pasó de conveniente a necesario.
+
+**La inversión alcance↔engagement se repite.** Videos nuevos y pequeños: 5–10% de
+engagement; los grandes: 0.59–3%. Es el mismo patrón que la API de YouTube
+encontró entre alcance y SPV, en otra plataforma y con otra métrica. Deja de ser
+casualidad de n bajo, y empuja el mix hacia la **mitad pikacodes** (identidad,
+Series 5/8/6) por segunda vez el mismo día.
+
+**Regresión nueva que nadie había detectado: *Referral*.** Estaba ✅ sano con 147
+shares el 16-jul; ahora **0.69 por 1.000 vistas (−87%)**, y los tres videos de
+Chamba Gringa tienen **0, 0 y 0 shares**. En TikTok el share *es* el vector de
+distribución, así que esto explica parte del techo de alcance del contenido nuevo.
+La regla del CTA ("termina con pregunta") produce comentarios pero no reenvíos —
+son dos mecanismos distintos y sólo uno está diseñado.
+
+**Dos cosas accionables y de vida larga** (contra las cifras, que son de vida
+corta):
+
+1. **Franja de publicación: 19:00–22:00 h** (pico ~21 h), meseta 11:00–17:00,
+   valle 02:00–05:00. Dato nuevo y gratis — no cuesta ni un minuto de grabación.
+2. **El motor de alcance de la cuenta es no-dev** (café, home office, gadgets).
+   Tensiona la corrección #1 del 16-jul ("matar el contenido fuera de nicho"):
+   en YouTube ese contenido contamina la señal, pero en TikTok **es lo único que
+   trae público**. Posible resolución sin contradicción: nichos distintos por
+   plataforma, o usar el catálogo no-dev como puerta de entrada al perfil — donde
+   el cuello real es la conversión a perfil (**8.4 vistas de perfil por 1.000**).
+   Abierto; requiere decisión del usuario, no la tomo aquí.
+
+⚠️ **Límites:** `Content.csv` trae 15 videos seleccionados por TikTok (no el
+catálogo) y con conteos de por vida; las ventanas difieren por archivo; y el pico
+del 03-ago es atribuido a catálogo viejo por **inferencia**, no por dato. Ver los
+caveats completos en el snapshot de [[absadev]].
+
+## El podcast que la estrategia no sabía que existía (2026-08-10)
+
+Tercer export del mismo día: [[blackicelabs-podcast]], **23 episodios dev entre
+el 2025-08-21 y el 2026-06-08**. Esta estrategia se escribió entera sin saberlo.
+Tres cosas se mueven.
+
+**1 · El diagnóstico central necesita un matiz, no una retirada.** El pilar de
+esta página es *"nunca he sido consistente" (9 años)*, tratado como identidad. Los
+datos muestran **2.4 episodios/mes durante 9.5 meses sin fallar** — la mejor
+consistencia documentada del usuario, y ocurrió mientras esta página lo describía
+como crónicamente inconsistente. **Lo que sigue en pie:** la observación original
+era sobre **YouTube**, y ahí es cierta. **Lo que se cae:** la generalización a la
+persona. Importa porque el arco del flagship (*"9 años, 0 consistencia"*, publicado
+el 7 ago) descansa sobre la versión generalizada. No es motivo para retirar el
+video — la historia de YouTube es real y ya está publicada — pero **sí lo es para
+no repetir esa frase como identidad en futuros guiones**, que es justo lo que
+[[four-laws-of-behavior-change]] advierte: las identidades declaradas se cumplen,
+incluidas las negativas. La lectura honesta es más útil y más vendible:
+*no es que no sea constante; es que fue constante en el formato equivocado.*
+
+**2 · Existe un banco de guiones de 23 piezas, con datos de qué tema jaló.** Los
+episodios cubren los mismos pilares del canal (Flutter, IA, mercado laboral, side
+projects, impostor) y ya fueron pensados y dichos en voz alta. Los que mejor
+rindieron confirman el pilar 2: *Flutter vs React Native* (top-6 del podcast,
+top-3 en YouTube) y *monetizar apps Flutter* (#2). **La comparación gana en los
+tres formatos que ha probado** — es la señal más transferible de todo lo ingerido
+hoy. Candidatos directos a short, ya validados en otro medio:
+*"La mentira del works on my phone"* (el episodio #1, 40 plays),
+*"La carrera de la rata del programador moderno"*, *"Me cansé de tomar cursos de
+programación"*, *"5 ideas de side projects para pagar la renta"*.
+
+**3 · El flagship ya se grabó una vez.** *"Yo tenía la ilusión de vivir de
+YouTube"* (28 abr 2026) es el mismo tema que *"9 años, 0 consistencia"*. Hizo
+**7 plays**. No predice nada sobre el video — otro formato, otra plataforma, otro
+empaquetado — pero convierte una apuesta en una **comparación medible**: cuando
+el video cumpla sus 14 días, se puede contrastar la misma historia en dos medios.
+
+### La decisión que esto abre (no la tomo aquí)
+
+El podcast **se detuvo subiendo**: feb 66, abr 60, may 62 plays/mes — sus tres
+mejores meses son los tres últimos con publicación. Cayó a 17 en junio y a **1
+play en los primeros 10 días de agosto**. La causa es el paro, no un revés de
+audiencia. Y el paro (8 jun) precede al arranque de la racha de shorts (16 jul):
+**fue un cambio de apuesta.**
+
+Eso choca con el acuerdo del 2026-07-22 en [[absa-garcia]] (*"el podcast espera
+hasta que el hábito de Absadev esté fijo"*), que se tomó creyendo que se hablaba
+de revivir algo de 2023. **El argumento de sobre-extensión sigue siendo válido** —
+4-6 h/semana no dan para shorts + podcast + absa.garcia, y ese es literalmente el
+patrón de 9 años. Pero el costo de esperar ya no es cero: un catálogo enfriándose
+y una racha real desperdiciada.
+
+⚠️ **Antes de decidir hace falta un dato que el export no trae:** duración de
+episodio y tiempo escuchado. Sin eso no se puede comparar 469 plays de podcast
+contra las vistas de un short — no son la misma unidad de atención (ver
+[[blackicelabs-podcast]]). Decidir sin ese número sería repetir el error del
+video de inglés: juzgar con la métrica equivocada.
 
 ## Measurement — track results before batch #2
 

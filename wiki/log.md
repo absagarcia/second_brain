@@ -881,3 +881,99 @@ la ventana); y Búsqueda al 33.4% contra Sugeridos+Browse al 8.8%.
 
 Sigue sin responderse la pregunta de empaquetado: impresiones y CTR no las
 expone la API y requieren export de Studio.
+
+## [2026-08-10] ingest | Export nativo de TikTok Analytics de absa.dev (7 CSV) — blackicelabs
+
+Fuente: `raw/blackicelabs/absadev-tiktok-2026-08-10/` (Overview, Viewers, Content,
+FollowerHistory, FollowerActivity, FollowerGender, FollowerTopTerritories).
+Primera vez que TikTok entra por datos de plataforma y no por captura de pantalla.
+Actualizados [[absadev]] (cuarto snapshot, los tres anteriores intactos) y
+[[estrategia-contenido-absadev]] (embudo cruzado YouTube↔TikTok; la tabla AARRR
+sólo-YouTube de esta misma mañana se conserva tal como se escribió).
+
+**El muro de *Retention* es un muro de YouTube, no del creador.** +11 seguidores
+sobre 6,865 vistas (02–08 ago) = **1.60 por 1.000**, contra **0.21 SPV** en la
+ventana paralela de YouTube: ~7.6×. Misma persona, mismos videos recortados, una
+plataforma sí retiene. ⚠️ Un follow no equivale a una suscripción (menos fricción),
+así que la comparación es de dirección, no de equivalencia — pero YouTube es la
+plataforma casa por una decisión del 16-jul que nunca se re-examinó con datos.
+
+**Corrige la lectura de *Activation* del mismo día.** Esta mañana se anotó "no
+consolidó" (8 comentarios / 28 d en YouTube). Con TikTok medido: **39 comentarios
+en 30 días**, sostenidos, contra 1 en 60 días de línea base. Ambas son ciertas —
+la etapa se movió y se quedó en TikTok. La Serie 4 (motor de comentarios, agendada
+11 ago) ya sabe de dónde sacar material.
+
+**Segunda medición independiente que no respalda la Serie 1.** Los tres videos de
+*Chamba Gringa* son los de menor alcance en TikTok (553/565/348) contra
+6,601–10,072 de café/home-office/gadgets. Convierte en confirmación numérica la
+hipótesis del 28-jul (audiencia de TikTok ≠ audiencia dev). Con la corrección de
+YouTube de esta mañana, la premisa de selección del batch #4 queda debilitada por
+las dos plataformas; se mantiene no reabrir el batch grabado, pero **decidirlo
+antes del #5** pasó de conveniente a necesario.
+
+**Regresión que ninguna lectura anterior detectó:** *Referral* estaba ✅ sano con
+147 shares el 16-jul; ahora **0.69 shares por 1.000 vistas (−87%)**, con **0, 0 y 0
+shares** en los tres Chamba Gringa. En TikTok el share es el vector de distribución.
+La regla del CTA produce comentarios pero no reenvíos: dos mecanismos distintos,
+sólo uno diseñado.
+
+Anotado también: la inversión alcance↔engagement se repite en TikTok (nuevos 5–10%
+vs grandes 0.59–3%), así que deja de ser casualidad de n bajo; **franja de
+audiencia activa 19:00–22:00 h** (dato nuevo y accionable); recurrentes subiendo de
+16% a 55% en la primera semana de agosto; y conversión a perfil en **8.4 por
+1.000**, el cuello de TikTok.
+
+**Tensión abierta, no resuelta:** el motor de alcance de la cuenta es **no-dev**,
+lo que choca con la corrección #1 del 16-jul ("matar el contenido fuera de nicho").
+Posible salida sin contradicción: nicho distinto por plataforma, o catálogo no-dev
+como puerta al perfil. Requiere decisión del usuario.
+
+Caveats del export registrados en la página: los CSV no traen año (fechas de
+videos antiguos sin confirmar), `Content.csv` son 15 videos seleccionados por
+TikTok con conteos de por vida, ventanas distintas por archivo, y el pico del
+03-ago se atribuye a catálogo viejo por **inferencia**, no por dato.
+
+## [2026-08-10] ingest | Export de Spotify for Creators — podcast BLACK ICE LABS — blackicelabs
+
+Fuente movida de `podcast/` (raíz del repo) a `raw/blackicelabs/podcast-blackicelabs-2026-08-10/`
+para respetar la regla de que las fuentes viven en `raw/`. Dos CSV: Performance
+all-time (diario, 355 días) y TrendsChart since published (por episodio).
+Creada [[blackicelabs-podcast]]; actualizadas [[absa-garcia]], [[absadev]] e
+[[estrategia-contenido-absadev]].
+
+**Hallazgo principal: había un podcast activo que el wiki no conocía.** 23
+episodios dev entre el **2025-08-21 y el 2026-06-08**. Las páginas sólo tenían
+*Café con Absa* (cerrado por Spotify en 2023), *Absa con Café* (dormido) y
+*Coffee and Code*. Queda abierto si BLACK ICE LABS es *Coffee and Code*
+rebautizado o un cuarto show; el export no lo dice y no se infiere.
+
+**Matiza el diagnóstico central de la estrategia.** 2.4 episodios/mes durante 9.5
+meses sin fallar es la **mejor consistencia documentada del usuario**, y ocurrió
+mientras el wiki lo describía como crónicamente inconsistente. La observación
+original era sobre YouTube y ahí sigue en pie; lo que se cae es la generalización
+a la persona. Consecuencia práctica anotada: no repetir *"nunca he sido
+consistente"* como identidad en guiones futuros (ver
+[[four-laws-of-behavior-change]]). El flagship ya publicado no se retira.
+
+**Se detuvo subiendo, no cayendo.** feb 66 / abr 60 / may 62 plays/mes son los
+tres mejores meses del show y son los tres últimos con publicación normal; jun
+cae a 17 y agosto lleva **1 play en 10 días**. El paro (8 jun) precede al arranque
+de la racha de shorts (16 jul): fue **cambio de apuesta**, no abandono por
+resultados. Esto no invalida el acuerdo del 22-jul de posponer el podcast por
+sobre-extensión — pero ese acuerdo se tomó creyendo que se hablaba de revivir algo
+de 2023, no de reanudar algo detenido hacía seis semanas.
+
+**Banco de guiones:** 23 episodios sobre los mismos pilares del canal, con datos
+de qué tema jaló. *Flutter vs React Native* es top-6 aquí y fue top-3 en YouTube;
+*monetizar apps Flutter* es #2. **El formato comparación gana en los tres medios
+probados** — la señal más transferible del día. Anotado también que
+*"Yo tenía la ilusión de vivir de YouTube"* (28 abr, 7 plays) es el mismo tema que
+el flagship del 7 ago: una comparación medible cuando el video cumpla 14 días.
+
+⚠️ **Límite registrado, y bloquea una decisión:** el export **no trae duración de
+episodio ni tiempo escuchado**, así que 469 plays de podcast no son comparables
+con las vistas de un short. Decidir matar o reanudar el podcast sin ese dato sería
+repetir el error del video de inglés — juzgar con la métrica equivocada. También
+anotado el sesgo de acumulación en el ranking por episodio (mismo problema que el
+`Content.csv` de TikTok): la serie mensual sí es limpia, y es la que se usó.
