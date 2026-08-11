@@ -65,3 +65,10 @@ incluirlas"). Recorded as a cross-domain resonance, not a claim the book cites t
   bracket the engineering reading in the wiki.
 - [[athletix-ai]] — relevant to code-level architecture decisions (kept as a
   lens, not a claim about the current codebase).
+- [[fitexe]] / [[clean-architecture-feature-first]] (added 2026-07-29) — **no
+  longer just a lens**: the FitExe repo runs dependency inversion (repository
+  interfaces in `domain/`, Supabase implementations in `data/`), DDD-ish
+  layering, and atomic design in Dart. First running instance in this wiki of
+  what this book describes — *and* the first real test of its
+  don't-over-engineer caution, since that architecture is deliberately more
+  structure. The tension is recorded on the concept page rather than resolved.

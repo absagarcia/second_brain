@@ -32,6 +32,12 @@ Every wiki page must declare which domain(s) it belongs to in its
 frontmatter:
 
 - `athletix` — ATHLETIX AI, sports performance SaaS, LatAm
+- `fitexe` — FitExe, the coach↔athlete fitness app: Flutter mobile app
+  (`~/Documents/Proyects/app_fitexe`) plus a React web portal for coaches.
+  Product decisions, architecture, business rules, and roadmap. Boundaries:
+  general engineering craft learned here also gets `swe`; if it turns out to be
+  client work, add `freelance` and anonymize accordingly; keep it separate from
+  `athletix` — adjacent market, different product (see [[fitexe]]).
 - `blackicelabs` — research and scripts for podcast/content/social media
 - `masters` — Master's in AI, papers, class notes
 - `freelance` — client/project notes (be careful with confidentiality,

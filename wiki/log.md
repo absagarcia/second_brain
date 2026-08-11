@@ -760,3 +760,124 @@ con la audiencia no-dev de TikTok detectada ayer.
 Marcados: la anécdota real del #4 se deja **en blanco a propósito**, no
 inventada; y el flagship del 7 ago generará los mejores comentarios, que van al
 batch #5 — no reabrir el #4 por eso.
+
+## [2026-07-29] ingest | Nuevo dominio `fitexe` + escaneo del repo app_fitexe — fitexe
+
+Agregado el dominio **`fitexe`** a `CLAUDE.md` (con sus límites: la artesanía
+general de ingeniería lleva también `swe`; si resulta ser trabajo de cliente,
+`freelance`; y **separado de `athletix`** a propósito). Escaneado el repo
+`~/Documents/Proyects/app_fitexe` — código y docs propios, fuente de primera
+mano, `confidence: high` sobre lo que existe.
+
+Creados [[fitexe]] y [[clean-architecture-feature-first]].
+
+**El hallazgo que importa:** no es un proyecto de fin de semana. **v1.0.17+17,
+115 commits, 2025-07-22 → 2026-07-21** (un año), Firebase App Distribution para
+QA, tests entrando. Ocho features en Clean Architecture feature-first sobre
+Flutter + Supabase + Riverpod + AutoRoute + Freezed.
+
+**Modelo de producto**: el coach define planes → el atleta se suscribe → el
+sistema confirma pago → **se desbloquea la rutina**. La decisión de diseño
+interesante: el gate no es elegir plan, es *confirmar el pago*; el atleta queda
+en `pending_confirmation` y no se le cierra la app, se le retiene la rutina del
+coach — justo lo que fue a buscar.
+
+**Pregunta abierta y deliberadamente no asumida:** ¿tiene relación con
+[[athletix-ai]]? El repo **nunca** menciona ATHLETIX ni [[hyper-bots]], y el
+comprador es distinto (academias que pagan por atleta vs. atletas que pagan la
+membresía de su coach). Mercado adyacente, producto distinto. Tampoco está claro
+si es suyo, sociedad o cliente: aparece un **segundo colaborador** en el
+historial. Marcado en ambas páginas.
+
+**Dos convergencias útiles registradas**: el análisis de wearables de FitExe
+(Apple Watch por ROI; Garmin vía **puente de Strava + Supabase Edge Functions**)
+es insumo reutilizable para el roadmap de wearables de [[athletix-ai]] — el mismo
+problema abordado dos veces, mejor compararlo que resolverlo doble. Y
+[[typescript-5-design-patterns]] deja de ser solo un lente: este repo es la
+**primera instancia corriendo** de inversión de dependencias/DDD/atomic design en
+el wiki — y la primera prueba real de su advertencia de no sobre-ingenierizar.
+Tensión registrada, no resuelta.
+
+**Uso de contenido** ([[estrategia-contenido-absadev]]): es el activo que le
+faltaba a los pilares de Flutter/comparaciones — hasta ahora alimentados por
+*opinión*, no por una app en producción. Seis ángulos listados. ⚠️ Bloqueante:
+permiso/propiedad sin confirmar (segundo colaborador) — arquitectura y stack son
+contenido normal, **las reglas de negocio y precios no lo son** hasta que él
+confirme. Y nunca mostrar `.env` ni llaves en cámara. No va al batch #4.
+
+## [2026-07-29] update | FitExe: sociedad confirmada y primer cliente pagando — fitexe
+
+Dos preguntas abiertas de hoy, cerradas por el usuario:
+
+1. **¿Relación con [[athletix-ai]]?** *"NADA QUE VER."* Mismo mercado, productos
+   y compradores separados. La pregunta se conserva escrita en [[fitexe]] con su
+   razonamiento (el repo nunca menciona ATHLETIX), marcada como cerrada — la
+   evidencia que llevó a preguntarla sigue siendo la forma correcta de llegar ahí.
+2. **¿Suyo, sociedad o cliente?** **Sociedad.** Creada [[carlos-emilio-blanco]]
+   ("Emilio"), socio 50/50, 19 commits en el repo.
+
+**El hecho más importante del día: FitExe ya tiene un cliente pagando.** Un
+gimnasio paga **MX$600/mes**, 300 y 300. Sale de la categoría de proyecto
+paralelo: alguien eligió pagar, que es el escalón que la mayoría de los proyectos
+nunca alcanza. Comparación registrada sin adorno: **MX$300/mes de FitExe contra
+MX$28.53/mes de YouTube** tras 9 años de contenido — el producto ya es el mejor
+negocio de los dos.
+
+Tres cosas que el número expone, anotadas en [[fitexe]]:
+- **El modelo documentado y el dinero real no coinciden**: los docs describen
+  atletas suscribiéndose a planes de su coach (per-coach, casi B2C); lo que se
+  cobra es **un gimnasio con cuota fija mensual** (B2B, una factura). Registrado
+  como discrepancia, no contradicción — pero vale decidir cuál es el producto
+  antes de que docs y facturas sigan separándose.
+- **Concentración al 100%** en un cliente: el cliente #2 importa más que
+  cualquier feature.
+- **¿MX$600 es el precio o el precio de este cliente?** Abierto. Importa porque
+  [[the-saas-playbook]] trata el sub-pricing como el error clásico del SaaS
+  bootstrapped, y ~US$32/mes por un gimnasio entero es muy bajo. Si es tarifa de
+  primer cliente, es una jugada normal e inteligente; si es lista, es lo de
+  mayor palanca a revisar antes del #2.
+
+Nota registrada en [[athletix-ai]]: su hito 2026 es "MVP y validación con
+academias/clubes", mientras el producto adyacente **ya le cobra a alguien por el
+problema de casi la misma persona compradora**. No es argumento para fusionarlos;
+es argumento para mirar qué enseñó ese trato antes de pitchear academias.
+
+Contenido ([[estrategia-contenido-absadev]]): se desbloquea el ángulo más fuerte
+del canal — *"tenemos un gimnasio pagándonos por nuestra app"*, mitad pikacodes
+(identidad/journey) sobre algo que casi ningún canal dev puede decir. Restricción
+estrechada: publicar detalle de negocio es **decisión conjunta con Emilio** e
+involucra a un cliente real; la versión segura conserva la historia completa
+("ya tenemos un cliente que paga") sin monto ni nombre del gimnasio.
+
+## [2026-08-10] update | Primer reporte por API de @Absadev — ventana 11 jul → 7 ago — blackicelabs
+
+Primera medición de la YouTube Analytics API vía `skills/youtube-analytics`
+(wa-agent), en lugar de capturas de pantalla. Actualizados [[absadev]] (tercer
+snapshot, los dos anteriores intactos) y [[estrategia-contenido-absadev]]
+(corrección + tercera lectura del embudo).
+
+**Retention empeoró, no se estancó.** +17 altas / −16 bajas = **+1 neto**; los
+subs totales bajaron de 7,861 a 7,850. El SPV cayó de 1.67-1.78 a **0.21**, más
+cerca de la referencia de [[absa-garcia]] (0.11) que de las propias del canal.
+
+**Corrección registrada junto a la lectura del 28-jul** (no encima): el video
+*"El error de los devs latinos al hablar inglés"*, leído entonces como primera
+evidencia de la apuesta de monopolio por su 3.4x en vistas, cerró su ventana de
+14 días en **732 vistas y 0.00 SPV**. El error no fue el dato sino la métrica:
+se juzgó en *Acquisition*, la etapa que la propia estrategia dice desde el
+21-jul que no es el problema. Los que convirtieron fueron los personales/journey
+(Swift 9.48 SPV, tesis 5.49). Debilita la premisa de selección del batch #4, ya
+grabado — a decidir antes del batch #5.
+
+**Sobre-extensión, ahora medida:** 20 videos en 28 días (~5/semana) contra los
+~3.5/semana de la cadencia adoptada, con presupuesto de 4-6 h/semana. Es el
+riesgo marcado el 22-jul al terminar la maestría. La palanca #1 pasó de "no
+publica" a "publica de más".
+
+Anotado también: *Activation* no consolidó (8 comentarios / 28 días = 0.4 por
+video, contra ~19/7d de la semana 1); la corrección #1 del 16-jul sigue sin
+aplicarse (Xiaomi y fútbol en el canal dev, y el de Xiaomi fue el más visto de
+la ventana); y Búsqueda al 33.4% contra Sugeridos+Browse al 8.8%.
+
+Sigue sin responderse la pregunta de empaquetado: impresiones y CTR no las
+expone la API y requieren export de Studio.

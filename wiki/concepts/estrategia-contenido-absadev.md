@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-07-28
+updated: 2026-08-10
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -13,6 +13,14 @@ sources:
     fact_date: 2026-07-28
     ingest_date: 2026-07-28
     confidence: high     # first-party platform data (the reading of it is medium)
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-07-11 → 2026-08-07
+    fact_date: 2026-08-07
+    ingest_date: 2026-08-10
+    confidence: high     # API de primera parte; n bajo por video, ver límites anotados
+  - path: raw/blackicelabs/absadev-tiktok-2026-08-10/ (export nativo de TikTok Analytics, 7 CSV)
+    fact_date: 2026-08-09
+    ingest_date: 2026-08-10
+    confidence: high     # export de primera parte; ventanas distintas por archivo, ver caveats
 ---
 
 # Estrategia de contenido — Absadev
@@ -385,6 +393,36 @@ the strongest title/hook, so recency and craft are confounded with topic. Treat
 as one supporting data point for Series 1, not as proof — and note it argues for
 *more* of Series 1, which is already what's scheduled.
 
+> ⚠️ **Corrección registrada el 2026-08-10 — la lectura de arriba se conserva
+> tal como se escribió.** Con la ventana de 14 días cumplida y medida por API,
+> ese video quedó en **732 vistas y 0.00 subs netos por cada 1.000 vistas**, con
+> 1 comentario. **Ganó alcance y no convirtió a nadie.**
+>
+> Lo que estaba mal no era el dato (las 686 vistas eran ciertas) sino **la
+> métrica elegida para juzgarlo**: se leyó el 3.4x en *vistas*, que es
+> *Acquisition* — la etapa que esta misma página venía diciendo desde el 21-jul
+> que **no es el problema**. El cuello de botella diagnosticado es *Retention*, y
+> medido en Retention ese video es el peor de la ventana.
+>
+> En la misma ventana, los que sí convirtieron son los personales/journey: *"Amo
+> Flutter… voy a aprender Swift"* (211 vistas, **9.48 SPV**) y *"Ya estoy
+> haciendo la tesis"* (182 vistas, **5.49 SPV**) — un orden de magnitud menos de
+> alcance y un orden de magnitud más de conversión.
+>
+> **Consecuencia para el batch #4** (guionizado el 29-jul, publica 11→17 ago):
+> su lógica de selección *"pondera el ganador probado (chamba gringa, 3.4x en
+> YouTube)"* descansa sobre esta lectura. El batch ya está grabado y la regla del
+> buffer dice no reabrir una tanda agendada — pero **la premisa quedó
+> debilitada**, y conviene decidirlo explícitamente antes del batch #5 en vez de
+> heredarla.
+>
+> ⚠️ **Límites de esta corrección:** n = 1-2 videos por categoría, por debajo del
+> umbral de ~5; las ventanas se traslapan con la del 28-jul, así que no es
+> medición independiente; y el video de inglés sigue teniendo el confound de
+> recencia y craft ya anotado arriba. Es evidencia que **contradice** la lectura
+> previa, no que la refute. Datos completos en el snapshot 2026-08-10 de
+> [[absadev]].
+
 **New: the TikTok audience appears not to be a dev audience** (co-viewed
 creators are general-interest/English-learning/fintech, zero devs — see
 [[absadev]]). If that holds, TikTok reach is a poor topic signal for this
@@ -552,6 +590,110 @@ warms up), correr last.
 after this batch is recorded. It is expected to generate the most conversation of
 anything on the channel, so **its best comment belongs to batch #5's Series 4
 video**, not this one. Don't reopen batch #4 for it.
+
+## New content asset — FitExe (2026-07-29)
+
+[[fitexe]] entered the wiki as its own domain: a **real, shipping Flutter app**
+(v1.0.17, 115 commits over a year, Supabase/Riverpod/AutoRoute, Firebase App
+Distribution, Stripe and smartwatch work documented). This changes what the
+Flutter/mobile pillars can be made of.
+
+**Why it matters strategically:** pillars 2 and 3 (comparaciones, apps móviles)
+have so far been fed by **opinion** — Flutter vs RN, ¿vale la pena Swift?
+Opinions are cheap to produce and cheap to dismiss; **a production codebase is
+not.** It is the closest thing he has to [[hazlo-tan-bien-que-no-puedan-ignorarte]]'s
+career-capital proof: not *"creo que Flutter es mejor"* but *"así está armada una
+app que llevo un año sosteniendo."* Same signature format (comparisons), harder
+to argue with, and impossible for a tutorial channel to copy.
+
+Angle list lives on [[fitexe]]. Best fits for this channel, in order: the
+**feature-first vs. layer-first architecture tour** (comparison-shaped, his
+format), **Supabase as the whole backend — qué resolvió y qué costó**, **Riverpod
+vs. otras opciones** grounded in real code, **the Stripe bug** (there's a
+`stripe_bug_context_export.md` in the repo — specific beats generic), the
+**Strava-bridge-for-Garmin decision** (which also crosses into the running
+audience of [[absa-garcia]]), and **`agents.md` — escribir docs para que los
+agentes trabajen en tu repo**, which rides the *Camino a AI Engineer* positioning
+with something he actually does.
+
+**Resolved 2026-07-29 — and it got better.** FitExe is a **partnership** with
+[[carlos-emilio-blanco]], unrelated to [[athletix-ai]], and **a gym already pays
+for it** (MX$600/month, split 300/300). That adds the strongest angle of all:
+
+> **"Tenemos un gimnasio pagándonos por nuestra app."**
+
+This is the **pikacodes half** (identity/journey — the half the diagnosis says
+generates comments) attached to a claim almost no dev channel can make. Most dev
+creators teach how to code; very few can say *alguien nos paga por lo que
+construimos*. And note the contrast that makes it honest rather than boastful:
+MX$300/month from FitExe against **MX$28.53/month** from 9 years of YouTube —
+the same person, two bets, wildly different returns. That pairs with the flagship
+*"9 años, 0 consistencia"* (7 ago) in the same register of honesty, pointing the
+opposite way emotionally. Strong batch #5 candidate.
+
+⚠️ **Constraint, narrowed:** publishing FitExe *business* detail is a **joint
+decision with Emilio**, and it involves a real customer. Architecture and stack
+talk is clearly his to share. **Get Emilio's OK before naming revenue or pricing
+on camera, and don't identify the gym.** The safe version keeps the whole story:
+*"ya tenemos un cliente que paga"* — no amount, no client name. And never show
+`.env`, Supabase keys, or `firebase_options.dart` on screen.
+
+Not scheduled into batch #4 — that slate is set. Candidate material for batch #5
+onward, pending the ownership answer.
+
+## Primera medición por API — ventana 11 jul → 7 ago (2026-08-10)
+
+Primer reporte de `skills/youtube-analytics` (wa-agent) sobre la YouTube
+Analytics API. Cifras completas en el snapshot 2026-08-10 de [[absadev]].
+
+### El embudo, tercera lectura
+
+| Etapa | 2026-07-16 | 2026-07-28 (sem. 1) | 2026-08-10 (28 d, API) |
+|---|---|---|---|
+| Acquisition | 34.5K TT / 3.9K YT | 4K TT / 4.8K YT | 4,670 YT (+39%) |
+| Activation | 1 coment. / 60 d | ~19 coment. / 7 d 🟢 | **8 coment. / 28 d** (0.4 por video) 🟡 |
+| Retention | +7 subs | +8 subs 🔴 | **+1 neto** (17 altas, 16 bajas) 🔴🔴 |
+| Referral | 147 shares | 3 shares | 10 shares |
+| Revenue | $33/mo | $28.53/mo | — (se ignora, según lo acordado) |
+
+**Retention empeoró.** No es que no se mueva: 16 bajas contra 17 altas, y el
+total del canal cayó de 7,861 a 7,850. El SPV pasó de 1.67-1.78 a **0.21**, que
+ya no está cerca de las referencias de este canal sino de la de [[absa-garcia]]
+(0.11). La conclusión de que esto pide **cambio de escalón, no optimización**
+sigue en pie, y ahora con más margen: al ritmo de esta ventana los 2,150 subs
+que faltan tardarían más de un siglo.
+
+**Activation no consolidó.** El repunte de la semana 1 no se sostuvo al
+ampliar la ventana. Sigue siendo la única etapa influenciable directamente, y
+[[aarrr-growth-metrics]] la sitúa antes de Retention — así que el orden de
+ataque no cambia. Refuerza que **la Serie 4 (el motor de comentarios) es lo más
+urgente que falta**, ya agendada para el 11 ago en el batch #4.
+
+### Tres cosas que la medición agrega a la estrategia
+
+1. **El ritmo se salió del plan: 20 videos en 28 días (~5/semana)** contra los
+   ~3.5/semana de la cadencia adoptada — 43% por encima, con presupuesto de 4-6
+   h/semana. Es el riesgo de sobre-extensión marcado el 22-jul, ahora medido. Por
+   [[stress-rest-growth-equation]], la dosis que produce crecimiento es la que se
+   recupera. **Recomendación: bajar a la cadencia acordada**, que es la
+   recomendación con más palanca y la que menos lo parece.
+2. **La corrección del video de inglés** (arriba, junto a la lectura original):
+   alcance y conversión están invertidos en esta ventana, y los videos de
+   identidad/journey son los que convierten. Empuja el mix hacia la **mitad
+   pikacodes** (Series 5, 8, 6, 2), que además es la que sirve al objetivo
+   declarado de *comunidad / disfrutarlo*.
+3. **La corrección #1 del 16-jul sigue sin aplicarse.** El contenido fuera de
+   nicho continúa publicándose (Argentina-Inglaterra, dos de Xiaomi) y el de la
+   garantía de Xiaomi fue **el más visto de la ventana** con 1.12 SPV: confirma
+   el costo que esa corrección anticipaba — trae público que no es el del canal.
+
+**Tráfico:** Sugeridos + Browse apenas **8.8%** (el algoritmo casi no distribuye
+el canal) contra **33.4% de Búsqueda**, que es el único tráfico que se acumula y
+el mejor dato del reporte. Shorts es el 46%.
+
+⚠️ **Sigue sin responderse la pregunta de empaquetado.** Impresiones y CTR no las
+expone la API; hacen falta exports de Studio. Sin ellas no se puede decir si los
+videos de identidad rinden poco alcance por empaquetado o por distribución.
 
 ## Measurement — track results before batch #2
 

@@ -7,6 +7,8 @@ Format: `[name](path) — one-line summary — domain(s)`
 
 - [ATHLETIX AI](entities/athletix-ai.md) — SaaS B2B sports-performance/injury-prevention AI platform — athletix
 - [Hyper Bots](entities/hyper-bots.md) — studio/brand building ATHLETIX AI — athletix
+- [FitExe](entities/fitexe.md) — coach↔athlete fitness app: Flutter mobile (v1.0.17, 115 commits, Supabase/Riverpod) + React coach portal; payment-gated routine access; **socio Emilio 50/50 y un gimnasio ya paga MX$600/mes** — fitexe, swe, blackicelabs
+- [Carlos Emilio Blanco ("Emilio")](entities/carlos-emilio-blanco.md) — socio 50/50 en FitExe; decisor conjunto en precios, revenue y comunicación pública — fitexe
 - [Eliecer Absalón García Romo](entities/eliecer-garcia-romo.md) — CTO/Full Stack Dev, ATHLETIX AI co-founder — athletix
 - [Humberto García Romo](entities/humberto-garcia-romo.md) — CEO/Project Lead/Data Manager, ATHLETIX AI co-founder — athletix
 - [Daniel](entities/daniel.md) — developer friend/colleague, own second-brain builder — reflections
@@ -29,7 +31,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Sapiens. De animales a dioses](entities/sapiens.md) — Harari's history of humankind; imagined orders, luxury/necessity ratchet, happiness ceiling — books, reflections
 - [The SaaS Playbook](entities/the-saas-playbook.md) — Rob Walling's bootstrapped-SaaS playbook (PMF, pricing, moat-via-integrations, metrics, founder burnout) — books, athletix
 - [Sin Esfuerzo (Effortless)](entities/sin-esfuerzo.md) — Greg McKeown's sequel to Essentialism; effortless-action technique + startup-mythology pushback — books, reflections, athletix
-- [Absadev](entities/absadev.md) — the user's personal dev-content brand (YouTube @Absadev + TikTok absa.dev); creator profile, goals, 2026-07-16 stats baseline + 2026-07-28 week-1 snapshot (comment drought broken: 1/60d → ~19/7d; retención sin moverse) — blackicelabs
+- [Absadev](entities/absadev.md) — the user's personal dev-content brand (YouTube @Absadev + TikTok absa.dev); creator profile, goals, 2026-07-16 stats baseline + 2026-07-28 week-1 snapshot (comment drought broken: 1/60d → ~19/7d; retención sin moverse) + **2026-08-10 primer snapshot por API** (SPV 1.67→0.21, subs 7,861→7,850, 20 videos/28d = 43% sobre la cadencia acordada) — blackicelabs
 - [Absa Garcia (absa.garcia)](entities/absa-garcia.md) — the user's non-tech lifestyle/running creator brand + podcast history (Café con Absa, closed by Spotify; Absa con Café); now with real YouTube 28-day data (26,293 views → 3 net subs, 92% from World Cup content) + rumbo 2026 (running/medio maratón/boda como arco, San Gabriel descartado) — blackicelabs
 - [La Guerra del Arte (The War of Art)](entities/la-guerra-del-arte.md) — Pressfield on "la Resistencia," the professional who shows up, fear as compass; sparse highlights — books, reflections, blackicelabs
 - [De qué hablo cuando hablo de correr](entities/de-que-hablo-cuando-hablo-de-correr.md) — Murakami's running memoir; pain-vs-suffering, compete-with-yesterday, the daily run as ritual — books, reflections, blackicelabs
@@ -66,7 +68,7 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Imagined Orders / Shared Fictions](concepts/imagined-orders-shared-fictions.md) — Harari's mechanism for large-scale human cooperation via shared myths — books, reflections
 - [Effortless Action Principles](concepts/effortless-action-principles.md) — McKeown's define-done/simplify/courage-to-be-bad/pace technique layer — books, reflections, athletix
 - [Environment, Rituals, and Systems Over Willpower](concepts/systems-over-willpower.md) — consolidates 6 independent books (Atomic Habits, Deep Work, Dinero: domina el juego, Building a Second Brain, Mindset, Sin Esfuerzo) on willpower being unreliable vs. system/ritual design — books, reflections
-- [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — content strategy for the Absadev channel: AARRR retention diagnosis, positioning vs. reference creators (@devcaress/@pikacodes), 8 series, content calendar and scripts — blackicelabs
+- [Estrategia de contenido — Absadev](concepts/estrategia-contenido-absadev.md) — content strategy for the Absadev channel: AARRR retention diagnosis, positioning vs. reference creators (@devcaress/@pikacodes), 8 series, content calendar and scripts; **corrección 2026-08-10** del video de inglés (ganó alcance, 0 conversión) y tercera lectura del embudo — blackicelabs
 - [First-Principles Thinking & "The Algorithm"](concepts/first-principles-and-the-algorithm.md) — Musk's reason-from-physics + fixed step order (question/delete/simplify/accelerate/automate); delete-before-optimize as the engineering twin of "less but better" — books, swe, athletix, reflections
 - [Career Capital & the Craftsman Mindset](concepts/career-capital-craftsman-mindset.md) — Newport: don't follow passion, build rare valuable skills first, control traps, mission needs a market; applied to the Absadev positioning — books, reflections, blackicelabs, athletix
 - [The Attention Economy & the Pleasure–Pain Balance](concepts/attention-economy-and-pleasure-pain.md) — synthesis of Dopamine Nation + Digital Minimalism: dopamine homeostasis, behavioral-addiction design, and the shared counter-moves (exercise, solitude, scheduled leisure) — books, reflections
@@ -75,6 +77,8 @@ Format: `[name](path) — one-line summary — domain(s)`
 
 - [Esfuerzo + descanso = crecimiento](concepts/stress-rest-growth-equation.md) — periodization as a general principle: dose-dependent stress, just-manageable challenges, 50–90 min blocks, breaks/walking/sleep as the growth half — books, reflections, athletix, blackicelabs
 - [Purpose as a Performance Amplifier](concepts/purpose-as-performance-amplifier.md) — self-transcendent purpose raises tolerable effort; build-it procedure (values → statement → visual cues → nightly 1–10); giving as burnout antidote — books, reflections, blackicelabs, athletix
+
+- [Feature-First Clean Architecture](concepts/clean-architecture-feature-first.md) — feature-vs-layer split + domain/data/presentation layering; the wiki's first running instance of the SOLID/DDD reading, with the over-engineering tension recorded — swe, fitexe
 
 ## Comparisons
 
