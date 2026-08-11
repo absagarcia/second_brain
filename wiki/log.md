@@ -471,6 +471,35 @@ crónica de vida?" se aplaza a esa revisión — el asesor la planteó como
 binario inmediato y fue prematuro. Nuevo riesgo marcado: el fin de la
 maestría es justo cuando se rearma el patrón de sobre-extensión de 9 años.
 
+## [2026-07-23] schema | Removed empty domain `agave-startup` (user-requested)
+Dropped `agave-startup` from CLAUDE.md's domain list. It was a reserved/placeholder
+domain (disease detection in agave plants, on-device ML) with **zero content** — no
+pages tagged, no mentions anywhere in the wiki, no `raw/agave-startup/` folder. User
+confirmed it never arrived, so removed it to avoid a phantom domain in the schema.
+No wiki pages needed retagging (nothing used it).
+
+## [2026-07-23] schema | New domain `swe` added (user-requested)
+Added a `swe` (software-engineering craft) domain to CLAUDE.md's domain list —
+the technical counterpart to `finance`, for craft knowledge not tied to one
+product (patterns, architecture, SOLID, languages, tooling, scalability).
+Boundaries written into CLAUDE.md: product-specific engineering → the product
+domain; AI/ML coursework → `masters`; dev-as-content-topic (Absadev) →
+`blackicelabs`. This resolves the lingering "the SWE books have no real home
+domain" issue better than the `athletix`-as-proxy patch from the earlier lint fix.
+
+Seed pages tagged `swe`:
+- [[typescript-5-design-patterns]] → `books, swe` (athletix dropped — was only a
+  loose lens; the [[athletix-ai]] cross-link stays in the body).
+- [[system-design-interview]] → `books, swe, athletix` (athletix kept: real infra tie).
+- [[system-design-scalability-building-blocks]] → `books, swe, athletix`.
+- [[first-principles-and-the-algorithm]] → `books, swe, athletix, reflections`
+  (the Algorithm is an engineering method).
+
+Considered and deliberately left OUT: [[pattern-recognition-professions]] (primary
+subject is professions/AI generally, dev is just one example), [[eliecer-garcia-romo]]
+(person page), and the Absadev pages (dev-as-content = `blackicelabs`, per the
+boundary). `index.md` domain lines updated.
+
 ## [2026-07-23] fix | Applied all 2026-07-23 lint items (user-confirmed "haz todo")
 User confirmed applying everything actionable in the report. Done:
 
@@ -594,3 +623,261 @@ publique — Absadev conserva las 4-6 h/semana), ruteo por la regla
 "¿le importaría a una audiencia dev?", y un **riesgo físico**: no entrenar
 de más por conseguir material; si el cuerpo pide bajarle, eso *es* el
 episodio.
+
+## [2026-07-24] update | Absadev batch #2 scheduled — blackicelabs
+User reported (screenshot) the second week of Absadev videos already
+scheduled: maestría-recommendation video (Mon 27 jul), then S1E1 + S1E2 of
+"Sobrevivir la chamba gringa" (Wed 29 / Fri 31 jul). Second consecutive
+batch = the real milestone (consistency over polish, his own framing).
+Updated [[estrategia-contenido-absadev]] with the actual schedule vs the
+planned calendar: dates shifted, order changed, and the Swift "una semana
+después" hard-date follow-up (S2E2) did NOT make this batch — flagged as a
+now-stale temporal promise, recorded not corrected.
+
+## [2026-07-28] ingest | Máximo rendimiento (Peak Performance) — books
+
+Creado [[maximo-rendimiento]] (Stulberg & **Magness**, 2017) más dos conceptos:
+[[stress-rest-growth-equation]] (esfuerzo + descanso = crecimiento — dosis,
+retos apenas manejables, bloques 50–90 min, y toda la mitad de recuperación:
+pausas, caminar, meditación, recuperación social, sueño 7–9 h, días libres
+programados *después* del estrés) y [[purpose-as-performance-amplifier]]
+(propósito autotrascendente como palanca sobre la tolerancia al esfuerzo, el
+procedimiento valores→declaración→señales visuales→reflexión nocturna, y "dar
+es un antídoto contra el agotamiento").
+
+**Lo más importante del ingest**: es el **mismo autor** que
+[[haz-cosas-dificiles]] (2022). Donde coinciden — estrés como desafío no
+amenaza, metas justo más allá de la capacidad, el sentido como lo que permite
+aguantar — **es una voz repitiéndose, no convergencia independiente**. Anotado
+en ambas páginas y en el índice para que este wiki no lo cuente dos veces.
+
+Actualizados: [[deep-work]] (le añade duración concreta de bloque + la mitad de
+recuperación; hallazgo del móvil más fuerte que el de Newport),
+[[systems-over-willpower]] (octava fuente — con caveat: su mecanismo de
+"recipiente único" es *ego depletion*, que replicó mal después de 2016;
+registrado como dicho-por-la-fuente, no avalado), [[esencialismo]]
+(minimalista-para-ser-maximalista; lo nuevo es la periodización),
+[[attention-economy-and-pleasure-pain]] ("no nos volvemos adictos a ganar; nos
+volvemos adictos a perseguir algo"), [[la-guerra-del-arte]] (Máximo rendimiento
+**cita** el pasaje de los paseos de Pressfield — link trazable entre dos libros
+del wiki, no inferencia mía).
+
+Tensión registrada sin resolver: propósito-primero (este libro) vs.
+[[career-capital-craftsman-mindset]] (Newport: no empieces por la pasión).
+Aplicación al usuario: arco del medio maratón ([[absa-garcia]]) y batches de
+[[absadev]] — y el libro nombra exactamente el riesgo ya marcado ahí
+(entrenar de más por conseguir material).
+
+## [2026-07-28] update | Semana 1 publicando — resultados batch #1 — blackicelabs
+
+Screenshots del usuario (YouTube Studio + TikTok Estadísticas). Nuevo snapshot
+fechado en [[absadev]] — **el de 2026-07-16 se conserva tal cual**, son un par
+antes/después, no una corrección. Sección de resultados en
+[[estrategia-contenido-absadev]].
+
+**El titular: se rompió la sequía de comentarios.** El número que definía todo
+el diagnóstico era *1 comentario / 60 días* en TikTok. Semana 1: **~19
+comentarios** entre las dos plataformas (9 en un solo TikTok). Es la primera vez
+que se mueve la etapa de **Activación** del embudo AARRR — y es la única métrica
+que él controla directamente.
+
+**Lo que NO se movió: retención.** +8 subs sobre 4.8K views. 7,861 → 10,000 son
+~2,139 subs; a este ritmo, ~20 años. Conclusión intacta: hace falta un cambio de
+escalón (las series numeradas sostenidas), no optimización. Y las series
+numeradas **todavía no se han probado** — lo publicado es el batch #1, sin el
+branding "#1/#2".
+
+Otros hallazgos registrados: el video de **inglés/chamba gringa hizo 3.4x** los
+de tech puro en YouTube (686 vs 183/200) — primera evidencia de la apuesta de
+monopolio, con caveat de recencia; **la audiencia de TikTok no parece ser
+audiencia dev** (creadores co-vistos: Kale Anderson, Rafa Carbajal, apple, Klar
+— cero devs), hipótesis de un solo screenshot; **cadencia real cada 2 días**, no
+cada 3 como él la describió, ~3.5/semana contra 3 planeadas — marcado contra
+[[stress-rest-growth-equation]] (con 9 años de inconsistencia, el modo de fallo
+es pasarse en la semana 1 y desaparecer en la 5).
+
+Discrepancias internas de TikTok registradas sin reconciliar (tarjeta semanal
+dice 2 comentarios vs 12 sumando videos; su asistente dice −11% de views vs
++6.7% en Métricas clave).
+
+## [2026-07-28] decision | Cadencia fijada en ~cada 2 días — blackicelabs
+
+El usuario confirmó el mismo día: los videos de esta semana **ya están
+programados** y grabará los de la siguiente para publicar **cada ~2 días**. Lo
+de la semana 1 fue intencional, no deriva. Eso **sustituye** las 3/semana de la
+estrategia v1 y mi recomendación de mantenerlas planas — ambas quedan escritas,
+tachadas pero no borradas, en [[estrategia-contenido-absadev]].
+
+Consecuencia práctica registrada: a 2 días de espacio la semana pide **4 videos
+por día de batch**, no 3 — quedarse corto a media semana es la forma exacta de
+todas las rachas rotas anteriores. Su protección real es que **programa por
+adelantado**, así que la métrica de racha pasa a ser **"días de buffer
+programado"** (piso: 3 videos programados) en vez de "publiqué hoy". La carga a
+vigilar es el día de grabación, no la publicación.
+
+## [2026-07-29] update | Batch #3 programado — la regla del buffer aguantó — blackicelabs
+
+Screenshot del programador de YouTube: **4 videos, cada 2 días, 3→9 ago**. La
+regla adoptada ayer (batch de 4 + mínimo 3 programados) se cumplió en su primer
+ciclo, no una semana después. Buffer real: ~5 videos contando el S1E2 del 31 jul.
+Detalle en [[estrategia-contenido-absadev]].
+
+Lo notable:
+- **El video flagship está programado**: "9 años, 0 consistencia" (7 ago) — el
+  que se juzgó el más importante del año. Dejó de ser guion y tiene fecha.
+- **La promesa de Swift se re-enmarcó en vez de morir**: vuelve como "Una semana
+  **con** Swift" (una semana usándolo) en lugar de "una semana después" — que era
+  exactamente lo que pedía el flag del 2026-07-24. Resuelto.
+- **El mecanismo de series numeradas ya está vivo** ("#3" en el título, con #1/#2
+  el 29 y 31 jul). La hipótesis de retención por fin se puede probar.
+- Mezcla 1 utilidad + 2 journey + 1 identidad → pesa hacia la mitad
+  pikacodes, que es la correcta para la meta de comunidad.
+
+⚠️ Hueco único: **la Serie 4 ("Respondiendo comentarios") sigue fuera del
+calendario**, y ya hay comentarios que la desbloquean (9 en un TikTok). Siendo
+Activación la única etapa del embudo que se movió, es lo de mayor palanca que
+falta. Candidata a batch #4 — no tocar la tanda ya programada.
+
+## [2026-07-29] plan | Batch #4 guionizado (11→17 ago) — blackicelabs
+
+A pedido del usuario ("grabamos ahora con todo lo que sabes de mí"). Cuatro
+videos, cada 2 días, en [[estrategia-contenido-absadev]]. Lógica de selección:
+pesar al ganador medido (chamba gringa, 3.4x), **cerrar el hueco de la Serie 4**
+(el motor de comentarios, desbloqueado por los comentarios de la semana 1) y
+probar por fin las dos series que sirven a la meta declarada de *disfrutarlo* y
+que nunca se habían tocado (8 correr, 6 código por gusto).
+
+11 ago Serie 4 (respondiendo un comentario real de los 9 del TikTok de Swift) ·
+13 ago Chamba Gringa #4 (avisar que vas retrasado) · 15 ago "Por qué correr me
+hizo mejor programador" · 17 ago "Lo que construyo cuando nadie me paga".
+
+**Pago cruzado del ingest de hoy:** el video de correr se sostiene en
+[[stress-rest-growth-equation]] de [[maximo-rendimiento]] (40% de ideas en las
+pausas, paseo de 6 min, horas 7-9 de sueño) en lugar de en vibes — y cruza con
+el arco del medio maratón de [[absa-garcia]] (6 sep, entrenamiento en curso) y
+con la audiencia no-dev de TikTok detectada ayer.
+
+Marcados: la anécdota real del #4 se deja **en blanco a propósito**, no
+inventada; y el flagship del 7 ago generará los mejores comentarios, que van al
+batch #5 — no reabrir el #4 por eso.
+
+## [2026-07-29] ingest | Nuevo dominio `fitexe` + escaneo del repo app_fitexe — fitexe
+
+Agregado el dominio **`fitexe`** a `CLAUDE.md` (con sus límites: la artesanía
+general de ingeniería lleva también `swe`; si resulta ser trabajo de cliente,
+`freelance`; y **separado de `athletix`** a propósito). Escaneado el repo
+`~/Documents/Proyects/app_fitexe` — código y docs propios, fuente de primera
+mano, `confidence: high` sobre lo que existe.
+
+Creados [[fitexe]] y [[clean-architecture-feature-first]].
+
+**El hallazgo que importa:** no es un proyecto de fin de semana. **v1.0.17+17,
+115 commits, 2025-07-22 → 2026-07-21** (un año), Firebase App Distribution para
+QA, tests entrando. Ocho features en Clean Architecture feature-first sobre
+Flutter + Supabase + Riverpod + AutoRoute + Freezed.
+
+**Modelo de producto**: el coach define planes → el atleta se suscribe → el
+sistema confirma pago → **se desbloquea la rutina**. La decisión de diseño
+interesante: el gate no es elegir plan, es *confirmar el pago*; el atleta queda
+en `pending_confirmation` y no se le cierra la app, se le retiene la rutina del
+coach — justo lo que fue a buscar.
+
+**Pregunta abierta y deliberadamente no asumida:** ¿tiene relación con
+[[athletix-ai]]? El repo **nunca** menciona ATHLETIX ni [[hyper-bots]], y el
+comprador es distinto (academias que pagan por atleta vs. atletas que pagan la
+membresía de su coach). Mercado adyacente, producto distinto. Tampoco está claro
+si es suyo, sociedad o cliente: aparece un **segundo colaborador** en el
+historial. Marcado en ambas páginas.
+
+**Dos convergencias útiles registradas**: el análisis de wearables de FitExe
+(Apple Watch por ROI; Garmin vía **puente de Strava + Supabase Edge Functions**)
+es insumo reutilizable para el roadmap de wearables de [[athletix-ai]] — el mismo
+problema abordado dos veces, mejor compararlo que resolverlo doble. Y
+[[typescript-5-design-patterns]] deja de ser solo un lente: este repo es la
+**primera instancia corriendo** de inversión de dependencias/DDD/atomic design en
+el wiki — y la primera prueba real de su advertencia de no sobre-ingenierizar.
+Tensión registrada, no resuelta.
+
+**Uso de contenido** ([[estrategia-contenido-absadev]]): es el activo que le
+faltaba a los pilares de Flutter/comparaciones — hasta ahora alimentados por
+*opinión*, no por una app en producción. Seis ángulos listados. ⚠️ Bloqueante:
+permiso/propiedad sin confirmar (segundo colaborador) — arquitectura y stack son
+contenido normal, **las reglas de negocio y precios no lo son** hasta que él
+confirme. Y nunca mostrar `.env` ni llaves en cámara. No va al batch #4.
+
+## [2026-07-29] update | FitExe: sociedad confirmada y primer cliente pagando — fitexe
+
+Dos preguntas abiertas de hoy, cerradas por el usuario:
+
+1. **¿Relación con [[athletix-ai]]?** *"NADA QUE VER."* Mismo mercado, productos
+   y compradores separados. La pregunta se conserva escrita en [[fitexe]] con su
+   razonamiento (el repo nunca menciona ATHLETIX), marcada como cerrada — la
+   evidencia que llevó a preguntarla sigue siendo la forma correcta de llegar ahí.
+2. **¿Suyo, sociedad o cliente?** **Sociedad.** Creada [[carlos-emilio-blanco]]
+   ("Emilio"), socio 50/50, 19 commits en el repo.
+
+**El hecho más importante del día: FitExe ya tiene un cliente pagando.** Un
+gimnasio paga **MX$600/mes**, 300 y 300. Sale de la categoría de proyecto
+paralelo: alguien eligió pagar, que es el escalón que la mayoría de los proyectos
+nunca alcanza. Comparación registrada sin adorno: **MX$300/mes de FitExe contra
+MX$28.53/mes de YouTube** tras 9 años de contenido — el producto ya es el mejor
+negocio de los dos.
+
+Tres cosas que el número expone, anotadas en [[fitexe]]:
+- **El modelo documentado y el dinero real no coinciden**: los docs describen
+  atletas suscribiéndose a planes de su coach (per-coach, casi B2C); lo que se
+  cobra es **un gimnasio con cuota fija mensual** (B2B, una factura). Registrado
+  como discrepancia, no contradicción — pero vale decidir cuál es el producto
+  antes de que docs y facturas sigan separándose.
+- **Concentración al 100%** en un cliente: el cliente #2 importa más que
+  cualquier feature.
+- **¿MX$600 es el precio o el precio de este cliente?** Abierto. Importa porque
+  [[the-saas-playbook]] trata el sub-pricing como el error clásico del SaaS
+  bootstrapped, y ~US$32/mes por un gimnasio entero es muy bajo. Si es tarifa de
+  primer cliente, es una jugada normal e inteligente; si es lista, es lo de
+  mayor palanca a revisar antes del #2.
+
+Nota registrada en [[athletix-ai]]: su hito 2026 es "MVP y validación con
+academias/clubes", mientras el producto adyacente **ya le cobra a alguien por el
+problema de casi la misma persona compradora**. No es argumento para fusionarlos;
+es argumento para mirar qué enseñó ese trato antes de pitchear academias.
+
+Contenido ([[estrategia-contenido-absadev]]): se desbloquea el ángulo más fuerte
+del canal — *"tenemos un gimnasio pagándonos por nuestra app"*, mitad pikacodes
+(identidad/journey) sobre algo que casi ningún canal dev puede decir. Restricción
+estrechada: publicar detalle de negocio es **decisión conjunta con Emilio** e
+involucra a un cliente real; la versión segura conserva la historia completa
+("ya tenemos un cliente que paga") sin monto ni nombre del gimnasio.
+
+## [2026-08-10] update | Primer reporte por API de @Absadev — ventana 11 jul → 7 ago — blackicelabs
+
+Primera medición de la YouTube Analytics API vía `skills/youtube-analytics`
+(wa-agent), en lugar de capturas de pantalla. Actualizados [[absadev]] (tercer
+snapshot, los dos anteriores intactos) y [[estrategia-contenido-absadev]]
+(corrección + tercera lectura del embudo).
+
+**Retention empeoró, no se estancó.** +17 altas / −16 bajas = **+1 neto**; los
+subs totales bajaron de 7,861 a 7,850. El SPV cayó de 1.67-1.78 a **0.21**, más
+cerca de la referencia de [[absa-garcia]] (0.11) que de las propias del canal.
+
+**Corrección registrada junto a la lectura del 28-jul** (no encima): el video
+*"El error de los devs latinos al hablar inglés"*, leído entonces como primera
+evidencia de la apuesta de monopolio por su 3.4x en vistas, cerró su ventana de
+14 días en **732 vistas y 0.00 SPV**. El error no fue el dato sino la métrica:
+se juzgó en *Acquisition*, la etapa que la propia estrategia dice desde el
+21-jul que no es el problema. Los que convirtieron fueron los personales/journey
+(Swift 9.48 SPV, tesis 5.49). Debilita la premisa de selección del batch #4, ya
+grabado — a decidir antes del batch #5.
+
+**Sobre-extensión, ahora medida:** 20 videos en 28 días (~5/semana) contra los
+~3.5/semana de la cadencia adoptada, con presupuesto de 4-6 h/semana. Es el
+riesgo marcado el 22-jul al terminar la maestría. La palanca #1 pasó de "no
+publica" a "publica de más".
+
+Anotado también: *Activation* no consolidó (8 comentarios / 28 días = 0.4 por
+video, contra ~19/7d de la semana 1); la corrección #1 del 16-jul sigue sin
+aplicarse (Xiaomi y fútbol en el canal dev, y el de Xiaomi fue el más visto de
+la ventana); y Búsqueda al 33.4% contra Sugeridos+Browse al 8.8%.
+
+Sigue sin responderse la pregunta de empaquetado: impresiones y CTR no las
+expone la API y requieren export de Studio.

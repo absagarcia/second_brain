@@ -3,8 +3,12 @@ title: Environment, Rituals, and Systems Over Willpower
 type: concept
 domain: [books, reflections]
 created: 2026-07-16
-updated: 2026-07-23
+updated: 2026-07-28
 sources:
+  - path: "raw/books/maximo rendimiento.md"
+    fact_date: 2017
+    ingest_date: 2026-07-28
+    confidence: medium
   - path: "raw/books/Hábitos atómicos.md"
     fact_date: 2018
     ingest_date: 2026-07-15
@@ -80,9 +84,32 @@ was added 2026-07-23.
   not just work — and a concrete counter to the attention economy described in
   [[attention-economy-and-pleasure-pain]].
 
+- **[[maximo-rendimiento]]** (Stulberg & Magness, added 2026-07-28) — the
+  **eighth** source, and the one that states the mechanism most explicitly:
+  "tenemos un único recipiente de poder cerebral para todos los actos cognitivos
+  y de autocontrol, incluso si estos no se hallan relacionados" — fatigue on one
+  task bleeds into an unrelated next one, so "revisa tu entorno para que apoye
+  tus objetivos... sobre todo cuando estamos extenuados." Its replacements:
+  bind key behaviors to fixed cues, a fixed time and a **"espacio propio"**
+  worked in repeatedly ("con el tiempo, tu entorno acrecentará tu productividad
+  en un nivel neurológico profundo"), **portable routines** for when the setting
+  varies (breathing, self-talk), automating trivial decisions ("para ser
+  maximalista tienes que ser minimalista" — cf. [[essentialism-less-but-better]]),
+  and scheduling demanding work against your **chronotype** rather than fighting
+  fatigue. "La constancia es la reina. La mejor rutina tiene poco sentido si no
+  la practicas con regularidad." It adds a lever none of the other seven have:
+  **recovery** — how much scaffolding you need is partly a function of how rested
+  you are ([[stress-rest-growth-equation]]).
+
+  ⚠️ **Caveat on the mechanism, recorded 2026-07-28**: the single-pool framing is
+  ego depletion, which replicated poorly after ~2016 and which this 2017 book
+  predates. The practices above stand on the other seven sources; the shared
+  -reservoir explanation should be treated as *stated by this source*, not as
+  established. Do not let it become this page's canonical mechanism.
+
 ## What's actually convergent vs. distinct
 
-- All six treat willpower as a **depletable or unreliable resource**, not
+- All eight treat willpower as a **depletable or unreliable resource**, not
   a fixed trait to simply have more or less of — convergent across every
   source.
 - The *replacement mechanism* differs by source: environment/cue design

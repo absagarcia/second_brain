@@ -1,9 +1,11 @@
 ---
 title: System Design Scalability Building Blocks
 type: concept
-domain: [books, athletix]
+domain: [books, swe, athletix]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-23
+# 2026-07-23: added `swe` — general scalability craft; athletix kept for the
+# applied infra tie.
 sources:
   - path: "raw/books/System Design Interview I.md"
     fact_date: 2020

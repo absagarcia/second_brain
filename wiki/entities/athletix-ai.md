@@ -3,7 +3,7 @@ title: ATHLETIX AI
 type: entity
 domain: [athletix]
 created: 2026-07-10
-updated: 2026-07-16
+updated: 2026-07-29
 sources: [raw/athletix/pitch-deck-2026-07-10.md, "raw/books/De cero a uno.md", "raw/books/The SaaS Playbook.md", "raw/books/Piensa como Amazon (Empresa) .md"]
 ---
 
@@ -114,3 +114,30 @@ claim about how this team is actually structured.
 - 2028: Advanced predictive-AI models for injury prevention.
 - 2029: International expansion, consolidation as global platform.
 - Based in Zapopan, Mexico ("De Zapopan para el mundo").
+
+## Adjacent product in the same person's portfolio (added 2026-07-29)
+
+[[fitexe]] — a shipping Flutter/Supabase **coach↔athlete** fitness app (v1.0.17,
+115 commits over a year) built by the same developer with a partner, and **it
+already has a paying gym** (MX$600/month). ✅ **Confirmed unrelated to ATHLETIX
+AI** by the user 2026-07-29 (*"NADA QUE VER"*) — same market, separate products,
+separate buyers, no shared code or entity. Recorded here only as portfolio
+adjacency, so a future reader doesn't merge them by mistake.
+
+Note the asymmetry worth being honest about: ATHLETIX AI's 2026 milestone on
+this page is *"MVP launch and validation with academies/clubs"*, while the
+adjacent product **already has a customer paying for roughly the same buyer
+persona's problem.** Not an argument for merging them — an argument for looking
+at what that deal taught before pitching academies.
+
+Two concrete overlaps worth not solving twice:
+
+- **Wearables.** This page lists Apple Watch + Garmin as future integrations;
+  FitExe has a Feb-2026 analysis that already priced the options (Apple Watch
+  highest ROI via WatchConnectivity/HealthKit; Garmin history cheapest via a
+  **Strava bridge + Supabase Edge Functions** rather than direct integration).
+  That analysis is reusable input here regardless of how the products relate.
+- **Sleep/recovery as product variables** — central to this pitch, and now with
+  a principled source behind it in [[stress-rest-growth-equation]] (sleep hours
+  7–9 as the most potent, load requiring matched recovery) rather than only
+  survey data.

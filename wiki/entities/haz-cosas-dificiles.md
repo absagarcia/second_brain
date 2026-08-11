@@ -3,7 +3,7 @@ title: Haz cosas difíciles (Do Hard Things)
 type: entity
 domain: [books, reflections, athletix]
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-28
 sources:
   - path: raw/books/Haz cosas difíciles.md
     fact_date: 2022-01-01        # recalled: Steve Magness, Do Hard Things
@@ -71,3 +71,11 @@ Decisión." Four pillars:
   best average" (compete with your past self).
 - [[athletix-ai]] — sport-psychology lens on performance/recovery (a lens, not a
   product claim).
+- [[maximo-rendimiento]] (added 2026-07-28) — **same author, earlier book**
+  (Stulberg & Magness, 2017). Read as one arc: the 2017 book builds the
+  load/recovery architecture ([[stress-rest-growth-equation]]) and the purpose
+  machinery ([[purpose-as-performance-amplifier]]); this 2022 one reworks what
+  "toughness" means inside it. Where they agree — stress as challenge not threat,
+  goals just beyond capacity, meaning as what lets you endure — that is **one
+  voice restating itself, not independent convergence**. Anywhere this wiki
+  counts confirming sources, count Magness once.

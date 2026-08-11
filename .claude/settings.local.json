@@ -5,7 +5,13 @@
       "Bash(mv wiki/entidades wiki/entities)",
       "Bash(mv wiki/conceptos wiki/concepts)",
       "Bash(mv wiki/comparaciones wiki/comparisons)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(cd /Users/absagarcia/Documents/Proyects/app_fitexe && head -60 README.md && echo \"=== DOCS ===\" && ls docs documentation 2>/dev/null && echo \"=== lib ===\" && ls lib && echo \"=== features ===\" && find lib -maxdepth 3 -type d | head -50)",
+      "Read(//Users/absagarcia/Documents/Proyects/app_fitexe/**)",
+      "Bash(cd /Users/absagarcia/Documents/Proyects/app_fitexe && wc -l docs/functional-requirements.md documentation/subscriptions-business-rules.md agents.md && echo \"=== FR ===\" && head -150 docs/functional-requirements.md)",
+      "Bash(cd /Users/absagarcia/Documents/Proyects/app_fitexe && head -75 documentation/subscriptions-business-rules.md)",
+      "Bash(cd /Users/absagarcia/Documents/Proyects/app_fitexe && sed -n '1,90p' agents.md)",
+      "Bash(cd /Users/absagarcia/Documents/Proyects/app_fitexe && grep -ril \"athletix\\\\|hyper.bots\" --include=\"*.md\" --include=\"*.dart\" --include=\"*.yaml\" . 2>/dev/null | head; echo \"--- ui colors ---\"; grep -iE \"^\\\\s*[-|#*].*\\(#[0-9A-Fa-f]{6}\\)\" docs/ui-guidelines.md | head -12; echo \"--- claude dir ---\"; ls .claude 2>/dev/null; ls docs/membership-expiration-notifications 2>/dev/null)"
     ]
   }
 }

@@ -1,11 +1,12 @@
 ---
 title: TypeScript 5 Design Patterns and Best Practices
 type: entity
-domain: [books, athletix]
+domain: [books, swe]
 created: 2026-07-23
 updated: 2026-07-23
-# masters dropped 2026-07-23 lint: general software engineering, not AI-program
-# coursework — same rationale that retagged read-write-own out of masters (2026-07-16)
+# 2026-07-23: masters dropped (general SWE, not AI coursework); moved to the new
+# `swe` domain. athletix dropped too — the tie was only a loose "lens," not an
+# applied product decision; the [[athletix-ai]] cross-link stays in the body.
 sources:
   - path: raw/books/TypeScript 5 Design Patterns and Best Practices.md
     fact_date: 2024-01-01        # recalled: Packt, TypeScript 5 era
@@ -64,3 +65,10 @@ incluirlas"). Recorded as a cross-domain resonance, not a claim the book cites t
   bracket the engineering reading in the wiki.
 - [[athletix-ai]] — relevant to code-level architecture decisions (kept as a
   lens, not a claim about the current codebase).
+- [[fitexe]] / [[clean-architecture-feature-first]] (added 2026-07-29) — **no
+  longer just a lens**: the FitExe repo runs dependency inversion (repository
+  interfaces in `domain/`, Supabase implementations in `data/`), DDD-ish
+  layering, and atomic design in Dart. First running instance in this wiki of
+  what this book describes — *and* the first real test of its
+  don't-over-engineer caution, since that architecture is deliberately more
+  structure. The tension is recorded on the concept page rather than resolved.

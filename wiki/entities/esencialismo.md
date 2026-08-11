@@ -3,7 +3,7 @@ title: Esencialismo (Essentialism)
 type: entity
 domain: [books, reflections]
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-28
 sources:
   - path: "raw/books/Esencialismo: Logra el máximo de resultados con el mínimo esfuerzo.md"
     fact_date: 2014
@@ -59,3 +59,12 @@ Reinforces the same thread as [[founder-mental-health-startup-risk]] (from
 rather than weakness — from a completely independent source. Also sits in
 direct tension with [[habitos-para-ser-millonario]]'s "more goals, more
 hustle, vuelve al trabajo" framing; see the note added to that page.
+
+**Independently reinforced 2026-07-28** by [[maximo-rendimiento]], from a
+sports-performance rather than a business angle: "para ser maximalista tienes que
+ser minimalista" (automate the trivial decisions — clothes, meals, when to train
+— to protect the important ones), sleep as the highest-return action rather than
+a cost, and "acepta solo unos cuantos retos a la vez." What that book adds beyond
+McKeown is **periodization**: not merely protect rest, but place it deliberately
+*after* accumulated load. See [[stress-rest-growth-equation]] and
+[[essentialism-less-but-better]].

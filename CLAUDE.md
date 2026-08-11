@@ -32,12 +32,23 @@ Every wiki page must declare which domain(s) it belongs to in its
 frontmatter:
 
 - `athletix` — ATHLETIX AI, sports performance SaaS, LatAm
+- `fitexe` — FitExe, the coach↔athlete fitness app: Flutter mobile app
+  (`~/Documents/Proyects/app_fitexe`) plus a React web portal for coaches.
+  Product decisions, architecture, business rules, and roadmap. Boundaries:
+  general engineering craft learned here also gets `swe`; if it turns out to be
+  client work, add `freelance` and anonymize accordingly; keep it separate from
+  `athletix` — adjacent market, different product (see [[fitexe]]).
 - `blackicelabs` — research and scripts for podcast/content/social media
 - `masters` — Master's in AI, papers, class notes
-- `agave-startup` — disease detection in agave plants, on-device ML
 - `freelance` — client/project notes (be careful with confidentiality,
   never put sensitive client data in without anonymizing it)
 - `finance` — personal investment, ETFs, market concepts
+- `swe` — software-engineering craft not tied to one product: design
+  patterns, architecture, SOLID/DRY, languages, tooling, scalability. The
+  technical counterpart to `finance`. Boundaries: product-specific
+  engineering decisions go on the product domain (`athletix`); AI/ML coursework stays `masters`; dev-as-a-content-topic
+  (Absadev) stays `blackicelabs`. A page can carry `swe` plus a product
+  domain when general craft is applied to a specific product.
 - `reflections` — conversations or conceptual ideas that cross projects
   (talks with colleagues, reflections on AI/product/thinking patterns)
   that don't belong to a specific client or product
