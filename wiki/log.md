@@ -977,3 +977,32 @@ con las vistas de un short. Decidir matar o reanudar el podcast sin ese dato ser
 repetir el error del video de inglés — juzgar con la métrica equivocada. También
 anotado el sesgo de acumulación en el ranking por episodio (mismo problema que el
 `Content.csv` de TikTok): la serie mensual sí es limpia, y es la que se usó.
+
+## [2026-08-10] update | Resumen automático de TikTok — no era dato nuevo — blackicelabs
+
+El usuario pegó el texto del asistente de TikTok. **Resultó ser la tarjeta de la
+ventana 19–25 jul, ya registrada en [[absadev]] desde el 28-jul**: repite los
+cinco porcentajes idénticos (+6.7% vistas, +70.1% likes, +50% shares, −50%
+comentarios, −9.7% perfil). Lo fecha el video de GM con 138,031 vistas contra
+las 139,473 del export nativo del 10-ago: es anterior aunque llegó después.
+
+Registrada una **tercera inconsistencia interna de la UI de TikTok** en esa misma
+semana: el texto dice **+3 seguidores netos** donde la tarjeta decía **−2**. Ambas
+se conservan sin reconciliar; se fija `FollowerHistory.csv` como fuente de verdad
+para seguidores por ser la única serie diaria auditable.
+
+Sus tres sugerencias se contrastaron contra el export nativo y ninguna sobrevive
+intacta: el CTA de comentarios ya se aplica desde el 16-jul (39 comentarios en 30
+días, no una caída); el horario sugerido (15–21 h) se corrige a **19–21 h** por
+`FollowerActivity.csv`; y "refuerza lo que genera likes y shares" apunta al video
+de GM (cripto, 2023, fuera de nicho), que es exactamente lo que la corrección #1
+del 16-jul lleva un mes marcando. Además sus porcentajes van sobre bases
+minúsculas (shares +50% = de 2 a 3; comentarios −50% = de 4 a 2), mientras el
+export de 60 días muestra shares por 1.000 vistas **−87%** sobre base grande.
+
+Lo único que sí se sostiene: **−9.7% de vistas de perfil**, coherente con el
+cuello de conversión a perfil (8.4 por 1.000) hallado por otra vía en el export.
+
+⚠️ **Riesgo de proceso registrado:** los resúmenes automáticos de TikTok llegan
+con semanas de retraso y sin fecha visible, así que pueden reabrir decisiones ya
+tomadas con datos más frescos. Verificar la fecha antes de actuar sobre ellos.

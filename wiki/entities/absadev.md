@@ -107,6 +107,21 @@ assistant says *"views dropped 11 percent"* while the Métricas clave card says
 *+6.7%*. Different windows or different counting inside TikTok's own UI. Where
 they conflict, the **per-video numbers** are the ones used below.
 
+> ⚠️ **Tercera inconsistencia de la misma semana, registrada el 2026-08-10.** El
+> usuario pegó el texto del asistente de TikTok correspondiente a esta misma
+> ventana (19–25 jul): repite los cinco porcentajes de arriba **idénticos**
+> (+6.7% vistas, +70.1% likes, +50% shares, −50% comentarios, −9.7% perfil) pero
+> reporta **+3 seguidores netos** donde la tarjeta de Métricas clave decía
+> **−2**. Ambas lecturas se conservan; no se reconcilian. **La fuente de verdad
+> para seguidores es `FollowerHistory.csv`** del export nativo (2026-08-10), que
+> es la única serie diaria auditable.
+>
+> Fecha el texto: ahí el video de GM aparece con **138,031 vistas** contra las
+> **139,473** del export del 2026-08-10 — es decir, es anterior, aunque llegó
+> después. **Riesgo registrado para futuras sesiones: los resúmenes automáticos
+> de TikTok llegan con semanas de retraso y sin fecha visible**, así que pueden
+> reabrir decisiones ya tomadas con datos más frescos.
+
 ## What the week actually says
 
 1. **The comment drought broke.** Baseline was **1 comment / 60 days** on
