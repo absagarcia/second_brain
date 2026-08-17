@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-14
+updated: 2026-08-16
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -400,6 +400,29 @@ co-vistos en TikTok (Kale Anderson, apple, Klar — **cero devs**) es esa misma
 estructura, medida en la plataforma equivocada. **Studio → Audiencia** expone
 "otros vídeos y canales que ve tu público": es el análogo directo en YouTube y
 convertiría esa inferencia cruzada en medición propia.
+
+## Instagram: la superficie sin medir que produjo el primer inbound (2026-08-16)
+
+Un seguidor mandó por **DM de Instagram** siete preguntas sobre cómo conseguir
+trabajo como dev, sin que el usuario las pidiera. Se convirtieron en el batch #5
+completo (ver [[estrategia-contenido-absadev]]), desplazando al batch planificado
+que aún no se había grabado.
+
+**Lo que esto destapa sobre el expediente, no sobre el canal:** hasta hoy esta
+página tenía snapshot de YouTube por API y export nativo de TikTok, y **no
+mencionaba Instagram ni una sola vez**. La estrategia trata Reels como destino de
+*repurpose* ("un esfuerzo, tres plataformas") y nada más. La plataforma sin un
+solo dato registrado es la que produjo la primera entrada real de audiencia hacia
+el contenido.
+
+No cambia ningún número —no hay números que cambiar— pero **sí cambia qué medir
+después**: no existe línea base de Instagram (alcance, seguidores, franja
+horaria, ni conversión a perfil), así que los horarios de publicación del batch
+#5 en esa plataforma están puestos por default, no por medición. Petición de dato
+pendiente, del mismo tipo que el export de Studio abierto desde el 10-ago.
+
+⚠️ Es **un solo DM**. Basta para nombrar el hueco de medición; no basta para
+concluir que Instagram convierte mejor que las otras dos.
 
 ## Long-form: a proven format already exists (2026-07-22)
 

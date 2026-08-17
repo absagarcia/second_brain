@@ -1097,3 +1097,45 @@ implica vídeos de ~6.1 min de media, imposible en una ventana de 20 shorts de
 número del canal que aparece en las listas oficiales de ranking está contaminado
 por la mezcla de formatos**, y hay que desglosarlo por tipo de contenido (una
 consulta más a la API, no un export nuevo) antes de concluir nada de él.
+
+## [2026-08-16] batch #5 programado | 7 shorts nacidos de un DM de Instagram — blackicelabs
+
+El usuario confirma los 7 videos programados (18 ago → 1 sep, mar/jue/sáb).
+Actualizadas [[estrategia-contenido-absadev]] (sección nueva "Batch #5") y
+[[absadev]] (sección nueva sobre Instagram). Producidas 21 descripciones
+(YouTube/TikTok/Instagram) + horarios; el copy vive fuera del wiki, aquí queda
+el hecho y sus consecuencias.
+
+**Lo que hace este batch distinto de los cuatro anteriores: no lo eligió el
+creador.** Un seguidor mandó siete preguntas sobre conseguir chamba como dev por
+DM, sin que se las pidieran, y desplazaron al batch planificado que no llegó a
+grabarse. La Serie 4 (comentario → siguiente video) llevaba marcada como "lo más
+urgente que falta" desde el 29-jul; **no se ejecutó el mecanismo, el mecanismo
+ocurrió solo**.
+
+**Resuelve por accidente una decisión aplazada.** El batch no incluye Serie 1, y
+la Serie 1 ya acumulaba tres señales independientes en contra (conversión 0.00
+del video de inglés, audiencia no-dev en TikTok, interés-en-el-tema como techo
+declarado por YouTube). La pregunta *"¿reponderar la Serie 1?"* quedó contestada
+por la audiencia, en la dirección que los datos apuntaban.
+
+**Dos correcciones pendientes se aplican por primera vez a un slate real:** la
+cadencia baja a 3/semana (contra los ~3.5 medidos por API), y los títulos usan la
+corrección de búsqueda del 14-ago — con la ventaja inédita de que las consultas
+las redactó un humano que buscaba, no el creador. **Regla rota a propósito:** los
+siete son títulos-pregunta contra el "uno por semana" del 28-jul; registrada la
+condición de refutación (si el CTR no supera la línea base, la regla vieja tenía
+razón).
+
+**Primer diseño deliberado contra Referral:** dos CTA por video (comentario +
+share explícito), a partir del hallazgo del 10-ago de que la regla del CTA-pregunta
+produce comentarios pero no reenvíos.
+
+⚠️ **Hueco de medición nuevo:** [[absadev]] no mencionaba Instagram ni una vez en
+430 líneas. La plataforma sin un solo dato registrado es la que produjo el primer
+inbound. No hay línea base de Reels, así que sus horarios van por default.
+⚠️ La franja 19:00–22:00 aplicada a las tres plataformas es dato de **TikTok**,
+extrapolado.
+⚠️ Sigue **abierto desde el 10-ago** el export de Studio con impresiones/CTR — y
+con siete títulos nuevos de búsqueda entrando, es justo la ventana en la que más
+valía.

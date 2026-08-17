@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-14
+updated: 2026-08-16
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -935,6 +935,89 @@ desconfiar en [[shorts-vs-video-largo-doctrina-youtube]]. **No cambia ninguna
 decisión hoy**; si sobreviviera, ascendería el vídeo largo y
 [[blackicelabs-podcast]] de "otro formato" a "el único vehículo de afinidad de
 canal" — sin tocar el problema real, que son las 4-6 h/semana.
+
+## Batch #5 — el primer batch que no eligió el usuario (2026-08-16)
+
+**Programado y confirmado por el usuario el 2026-08-16.** Siete shorts, 18 ago →
+1 sep, mar/jue/sáb. Es el batch más grande de la historia registrada del canal, y
+el único cuyo origen no es una sesión de estrategia.
+
+**De dónde salió:** *"un seguidor de Insta me mandó estos videos"* — siete
+preguntas sobre cómo conseguir trabajo como dev, llegadas por DM sin que el
+usuario las pidiera. **Desplazó al batch planificado, que no llegó a grabarse.**
+
+| Fecha | Video (pregunta del seguidor) | Hora |
+|---|---|---|
+| mar 18 ago | ¿Qué debe tener un CV para que un reclutador lo lea? | 21:00 |
+| jue 20 ago | ¿En qué plataformas se consigue chamba de dev? | 21:00 |
+| sáb 22 ago | Aplico y nadie me responde: qué cambiar | 20:00 |
+| mar 25 ago | ¿Qué proyectos poner en el portafolio? | 21:00 |
+| jue 27 ago | ¿Directo a la empresa o al recruiter por LinkedIn? | 21:00 |
+| sáb 29 ago | ¿Cómo saber si una vacante vale la pena? | 20:00 |
+| mar 01 sep | ¿Qué habilidades están pidiendo las empresas? | 21:00 |
+
+Serie: *"Conseguir Chamba Dev #1–7"*, CTA de serie *"voy por las 7"*.
+
+**Lo que de verdad cambia, en orden de importancia:**
+
+1. **La Serie 4 disparó sola, y por el lado correcto.** La página lleva marcando
+   desde el 29-jul que el motor de comentarios (comentario → siguiente video) es
+   *lo más urgente que falta*, y desde el 10-ago que es la única etapa del embudo
+   influenciable. Aquí no se ejecutó el mecanismo: **el mecanismo ocurrió sin que
+   lo ejecutaran**. La audiencia mandó la agenda. Es la primera evidencia de que
+   la corrección #2 (*engineer for comments*) produce algo más que comentarios —
+   produce entrada de temas.
+
+2. **Ocurrió en Instagram, la plataforma de la que el wiki no tiene un solo
+   dato.** [[absadev]] no menciona Instagram ni una vez en 430 líneas: hay
+   snapshot de YouTube por API y export nativo de TikTok, y cero de Reels. La
+   plataforma sin medición es la que produjo el primer inbound real. **Hueco de
+   medición nuevo y nombrado**, no resuelto.
+
+3. **Sale del techo de la Serie 1 sin tener que decidir nada.** La Serie 1
+   (chamba gringa) acumula tres señales independientes en contra: conversión 0.00
+   del video de inglés (10-ago), audiencia no-dev en TikTok (10-ago), e *interés
+   en el tema / competencia* como techo declarado por YouTube (14-ago). Este
+   batch **no la incluye**. "Cómo conseguir trabajo como dev" tiene un pool de
+   búsqueda mucho mayor dentro del mismo nicho. La decisión que la página venía
+   aplazando (*¿reponderar la Serie 1?*) quedó tomada por accidente, en la
+   dirección que los datos ya apuntaban.
+
+4. **La cadencia vuelve a la acordada.** mar/jue/sáb = 3/semana, contra los ~3.5
+   medidos por API (43% por encima). Primera vez que la recomendación del 10-ago
+   se aplica a un slate real.
+
+5. **Los títulos aplican la corrección de búsqueda del 14-ago** — consulta
+   buscable delante, número de serie detrás. Con una ventaja que no se había
+   dado antes: las preguntas venían **ya redactadas por un humano que busca**,
+   no inventadas por el creador.
+
+**⚠️ Regla rota a propósito, con prueba falsable.** El formato adoptado el
+28-jul dice *"un título-pregunta por semana"*; aquí los siete lo son. Se rompe
+porque la corrección del 14-ago (canal de Búsqueda 33.4% vs Exploración 8.8%) es
+posterior y de mecanismo más fuerte. **Condición de refutación registrada:** si
+el CTR de estos siete no supera la línea base del canal, la regla vieja tenía
+razón y hay que reescribir títulos — no dejarlo a interpretación después.
+
+**Cambio de diseño: dos CTA por video, no uno.** El hallazgo del 10-ago fue que
+la regla del CTA-pregunta produce comentarios pero **no** reenvíos (Referral
+−87%, tres videos de Chamba Gringa con 0 shares), y que son dos mecanismos
+distintos con sólo uno diseñado. Cada descripción de este batch lleva un cierre
+de comentario **y** un cierre de share explícito (*"mándaselo a quien lleva meses
+aplicando sin respuesta"*). Primer intento deliberado de atacar Referral.
+
+**⚠️ Franja de publicación: extrapolada, no medida.** 19:00–22:00 con pico ~21 h
+sale del export nativo de **TikTok**. Se aplicó a YouTube e Instagram porque es
+el único dato de horario que existe; no hay medición propia de ninguna de las
+dos. Sábados a las 20:00 por la meseta de fin de semana — también inferencia.
+
+**Lo que este batch no toca:** el muro de retención de YouTube (SPV 0.21) sigue
+intacto — esto ataca *Activation* y *Referral*, no *Retention*. Y el export de
+Studio con impresiones/CTR sigue **abierto desde el 10-ago**; sin él, cuando
+estos siete den resultado no se podrá separar "falla por empaquetado" de "falla
+por distribución" — y con siete títulos nuevos de búsqueda, es justo la ventana
+en la que ese dato más valía.
+
 
 ## Measurement — track results before batch #2
 
