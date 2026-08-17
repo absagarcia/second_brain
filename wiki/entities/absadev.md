@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-10
+updated: 2026-08-14
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -355,6 +355,51 @@ de recurrentes **subió a lo largo de la ventana**: ~16% el 02–03 ago, 43% el
 Lo de vida larga en este export son tres cosas: la **franja horaria de audiencia**,
 la **composición geográfica/demográfica** y el **hecho de que el motor de alcance
 de la cuenta es no-dev** — eso se mueve en meses o años, no en días.
+
+## Qué de estos números es señal de ranking para YouTube (2026-08-14)
+
+Ingerida la doctrina oficial de distribución de Shorts
+([[youtube-shorts-distribucion]]). **No agrega datos del canal** — reetiqueta los
+que ya están arriba. Dos cosas que cambian cómo leer esta página:
+
+1. **De todo lo medido aquí, sólo un número está en la lista oficial de señales
+   de ranking: la duración media (1m 40s = 27.3%)**, junto con los likes. Los
+   suscriptores, comentarios y shares — las métricas sobre las que se construyó
+   toda la lectura AARRR — **no aparecen en la lista.** El SPV sigue siendo el
+   indicador correcto del *objetivo* (comunidad), pero no es lo que decide el
+   alcance. El 27.3% es el candidato de la doctrina para explicar el
+   **8.8% de Sugeridos+Browse**.
+2. **El 33.4% de Búsqueda es el dato más explotable de esta página.** YouTube
+   posiciona la Búsqueda por **coincidencia de metadatos** + clic-y-ver, así que
+   los títulos deberían llevar la consulta buscable delante del número de serie.
+   Ver el punto 5 en [[estrategia-contenido-absadev]].
+
+⚠️ Y sube la prioridad del **export de Studio**: el *% que eligió verlo* (CTR) es
+señal de ranking confirmada para Shorts, y sigue siendo el único número capaz de
+separar "falla por empaquetado" de "falla por distribución".
+
+### Un problema con el 27.3%, detectado el mismo día
+
+La variante de la doctrina para **vídeos largos** ([[shorts-vs-video-largo-doctrina-youtube]])
+parte las señales en dos listas — y con eso, **el 27.3% deja de poder asignarse a
+ningún formato**. Es una cifra mezclada: 1m 40s de duración media sobre un 27.3%
+implica una duración media de vídeo de **~6.1 minutos**, imposible en una ventana
+donde los 20 vídeos publicados eran shorts de ≤1:28. Las vistas están repartidas
+entre los shorts nuevos y el catálogo largo de los 898.
+
+Es decir, **el único número de esta página que aparece en las listas oficiales de
+ranking está contaminado por la mezcla de formatos**. Antes de usarlo para
+explicar nada hay que **desglosarlo por tipo de contenido** — la API ya lo
+permite, es una consulta más, no un export nuevo.
+
+### Petición de dato nueva y gratis
+
+En largos, YouTube nombra el **grafo de co-visionado** ("vídeos que suelen verse
+seguidos") como señal de personalización. La captura del 28-jul de creadores
+co-vistos en TikTok (Kale Anderson, apple, Klar — **cero devs**) es esa misma
+estructura, medida en la plataforma equivocada. **Studio → Audiencia** expone
+"otros vídeos y canales que ve tu público": es el análogo directo en YouTube y
+convertiría esa inferencia cruzada en medición propia.
 
 ## Long-form: a proven format already exists (2026-07-22)
 

@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-10
+updated: 2026-08-14
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -25,6 +25,10 @@ sources:
     fact_date: 2026-08-10
     ingest_date: 2026-08-10
     confidence: high     # export de primera parte; sin duración ni tiempo escuchado
+  - path: raw/blackicelabs/youtube-newsletter-shorts-descubrimiento-2026-08-14.md
+    fact_date: 2026-08-14
+    ingest_date: 2026-08-14
+    confidence: medium   # doctrina oficial de YouTube, parte interesada — ver [[youtube-shorts-distribucion]]
 ---
 
 # Estrategia de contenido — Absadev
@@ -830,6 +834,107 @@ episodio y tiempo escuchado. Sin eso no se puede comparar 469 plays de podcast
 contra las vistas de un short — no son la misma unidad de atención (ver
 [[blackicelabs-podcast]]). Decidir sin ese número sería repetir el error del
 video de inglés: juzgar con la métrica equivocada.
+
+## La doctrina de la plataforma entra al expediente (2026-08-14)
+
+Newsletter oficial de YouTube sobre distribución de Shorts, ingerida como
+[[youtube-shorts-distribucion]] (ahí están la advertencia epistémica y el detalle;
+aquí sólo lo que le mueve a esta estrategia). Primera fuente que no es medición
+del canal sino **doctrina de la plataforma** — se usa para interpretar, y donde
+choque con una medición, gana la medición.
+
+**1 · Las métricas de esta página no son las de distribución, y eso está bien
+siempre que se sepa.** YouTube nombra cuatro señales de ranking — % que eligió
+verlo, duración media, % promedio visto, likes/encuestas — y **no menciona
+comentarios, suscriptores ni shares.** Esta estrategia decidió el 16-jul vigilar
+*conversaciones por video*, y esa decisión sigue siendo correcta: el objetivo
+declarado es **comunidad**, no alcance. Lo que se corrige es una expectativa
+implícita que se coló en las tres lecturas del embudo — que arreglar *Activation*
+acabaría empujando el alcance. Son dos circuitos distintos. **Alimentar el motor
+de comentarios (Serie 4) sigue siendo lo más urgente; ya no se le puede pedir que
+además destape la distribución.**
+
+**2 · La cadencia: tercer apoyo independiente para bajarla.** *"No hay una
+cadencia mínima… identifica qué es lo mejor para tu audiencia y tu bienestar."*
+Es la plataforma desmintiendo la premisa que llevó el ritmo a 5/semana (43% sobre
+lo acordado). Con [[stress-rest-growth-equation]] y la medición del 10-ago, son
+tres fuentes independientes apuntando a **volver a ~3.5/semana**. Es la
+recomendación con más palanca del expediente y la que menos lo parece.
+
+**3 · La corrección #1 gana un mecanismo, no sólo un argumento.** "No me interesa"
+e ignorar son señales negativas nombradas, y la personalización va por *temas que
+ve el usuario*. Publicar Xiaomi/fútbol entrena a YouTube a mandar ese público al
+canal, y ese público **salta** los Shorts de Flutter — lo que según la doctrina
+degrada el posicionamiento de los Shorts de Flutter. La corrección lleva un mes
+sin aplicarse; ahora tiene causa declarada por la plataforma, no sólo criterio
+editorial.
+
+**4 · El techo de la Serie 1 es de tamaño de mercado, no de ejecución.** *Interés
+en el tema* y *competencia* son factores externos declarados. El pool mundial de
+"cómo sobrevivir la chamba gringa" es pequeño — que es literalmente la apuesta de
+monopolio, con su costo conocido ([[monopoly-vs-competition-zero-to-one]]). **No
+se rompe con mejor empaquetado.** La decisión pendiente antes del batch #5 (¿seguir
+ponderando la Serie 1?) debe tomarse con esto encima: es la tercera señal en cinco
+días que no la respalda, y ahora se sabe *por qué* el techo está donde está.
+
+**5 · Cambio concreto de títulos — el único accionable gratis.** El canal es de
+**Búsqueda (33.4%)**, no de Exploración (8.8%), y en Búsqueda YouTube posiciona
+por coincidencia de metadatos. *"Sobrevivir la Chamba Gringa #3: Cómo NO alargar
+la daily"* no coincide con ninguna búsqueda real; el número de serie sirve a la
+retención, no al 33.4%. **Propuesta: consulta buscable al principio, número de
+serie al final** — *"¿Cómo acortar la daily sin sonar grosero? | Chamba Gringa
+#3"*. Conserva el mecanismo de serie y recupera el tráfico que sí se acumula.
+Cuesta cero minutos de grabación, como la franja horaria de TikTok.
+
+**6 · Un miedo menos para el largo, pero la decisión del podcast no cambia.**
+*"Los Shorts no perjudican las recomendaciones de videos largos."* Despeja el
+video largo de 8-12 min y quita un obstáculo imaginario a [[blackicelabs-podcast]]
+— pero el argumento real contra reanudarlo era de **horas**, no de algoritmo, y
+ese sigue intacto.
+
+⚠️ **Y sube la urgencia del export de Studio.** Que el *% que eligió verlo* sea
+señal de ranking confirmada convierte impresiones/CTR en el dato que separa
+"falla por empaquetado" de "falla por distribución" — la pregunta abierta desde
+el 10-ago.
+
+### La variante para vídeos largos, el mismo día
+
+El usuario aportó después el **texto equivalente para vídeos largos**, ingerido
+como [[shorts-vs-video-largo-doctrina-youtube]] (los seis puntos de arriba salen
+del texto de **Shorts**, que es lo que el canal publica hoy). Tres ajustes:
+
+**a · La corrección #1 gana un segundo mecanismo, y más caro de deshacer.** En
+largos, YouTube nombra como señal de personalización *"los vídeos que suelen
+verse seguidos"* — **el grafo de co-visionado**. El wiki ya sabe en qué
+vecindario está el canal, y es el equivocado: la captura del 28-jul de creadores
+co-vistos en TikTok no tiene **un solo dev**. El punto 3 de arriba decía que el
+contenido fuera de nicho trae público ajeno; esto agrega que además **coloca al
+canal en un vecindario del que después hay que salir**, y eso aplica al catálogo
+de 898 vídeos ya publicado, no sólo a lo que venga. **Nueva petición de dato,
+gratis:** Studio → *Audiencia* → "otros vídeos y canales que ve tu público" es el
+análogo de esa captura de TikTok, y convierte la inferencia en medición propia.
+
+**b · El techo de la Serie 1 no se esquiva pasando a largo.** *Interés en el
+tema*, *competencia* y *estacionalidad* están **idénticos** en los dos textos. El
+largo de 8-12 min de *Sobrevivir la chamba gringa* enfrenta el mismo pool
+pequeño; cambiar de formato no cambia el tamaño del mercado.
+
+**c · Alcance más estrecho del punto 2 (cadencia).** *"No hay cadencia mínima"*
+aparece **sólo** en el texto de Shorts; el de largos no trae esa sección. Como el
+100% de lo que publica hoy son shorts, la recomendación de volver a ~3.5/semana
+**se sostiene igual** — pero su base es un texto, no dos, y así queda anotado.
+
+⚠️ Y una **hipótesis registrada sin adoptar**: el tiempo dedicado *a un canal* es
+señal de personalización en largos y desaparece de la lista de Shorts, lo que
+sugeriría que los shorts construyen afinidad de **tema** y el largo afinidad de
+**canal** — una explicación mecánica del SPV 0.21. Es inferencia mía sobre una
+diferencia de redacción entre dos textos ya demostradamente descuidados, y tiene
+una rival más simple (TikTok retiene 7.6× mejor con los **mismos** vídeos, lo que
+apunta a la plataforma y no al formato). Razonamiento completo y razones para
+desconfiar en [[shorts-vs-video-largo-doctrina-youtube]]. **No cambia ninguna
+decisión hoy**; si sobreviviera, ascendería el vídeo largo y
+[[blackicelabs-podcast]] de "otro formato" a "el único vehículo de afinidad de
+canal" — sin tocar el problema real, que son las 4-6 h/semana.
 
 ## Measurement — track results before batch #2
 

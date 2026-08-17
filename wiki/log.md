@@ -1006,3 +1006,94 @@ cuello de conversión a perfil (8.4 por 1.000) hallado por otra vía en el expor
 ⚠️ **Riesgo de proceso registrado:** los resúmenes automáticos de TikTok llegan
 con semanas de retraso y sin fecha visible, así que pueden reabrir decisiones ya
 tomadas con datos más frescos. Verificar la fecha antes de actuar sobre ellos.
+
+## [2026-08-14] ingest | Newsletter oficial de YouTube sobre distribución de Shorts — blackicelabs
+
+Fuente guardada en `raw/blackicelabs/youtube-newsletter-shorts-descubrimiento-2026-08-14.md`.
+**Primera fuente del wiki que no es medición sino doctrina de plataforma**, así que
+se ingiere con advertencia epistémica explícita: parte interesada, nombra señales
+pero nunca sus pesos, y donde choque con una medición de [[absadev]] gana la
+medición. Creada [[youtube-shorts-distribucion]]; actualizadas [[absadev]] y
+[[estrategia-contenido-absadev]].
+
+**El hallazgo incómodo:** las cuatro señales de ranking que YouTube declara — %
+que eligió verlo, duración media, % promedio visto, likes/encuestas — **no
+incluyen suscriptores, comentarios ni shares**, que son las tres sobre las que se
+construyó todo el análisis AARRR de este canal. No se cambia de métrica (el
+objetivo declarado es comunidad, no alcance), pero se separa explícitamente
+*métricas de distribución* de *métricas de objetivo*: arreglar Activation no va a
+destapar el alcance. De lo medido en el canal, el único número que sí es señal
+oficial es la **duración media de 1m 40s / 27.3%**.
+
+**Tres cosas que la doctrina refuerza y una que despeja:** (1) *"no hay cadencia
+mínima… elige por audiencia y bienestar"* es el **tercer apoyo independiente**
+—con [[stress-rest-growth-equation]] y la API del 10-ago— para bajar de ~5/semana
+a ~3.5; (2) "No me interesa"/ignorar son señales negativas nombradas, lo que le da
+**mecanismo declarado** a la corrección #1 (matar el contenido fuera de nicho), aún
+sin aplicar desde el 16-jul; (3) *interés en el tema* + *competencia* explican el
+techo de la Serie 1 como **tamaño de mercado, no ejecución** — no se rompe con
+empaquetado, y es la tercera señal en cinco días que no respalda ponderarla en el
+batch #5; (4) los Shorts **no** perjudican al video largo, lo que quita un miedo
+al largo de 8-12 min y a [[blackicelabs-podcast]] — aunque el argumento real contra
+el podcast era de horas, no de algoritmo, y sigue intacto.
+
+**Lo accionable y gratis:** el canal es de **Búsqueda (33.4%)**, no de Exploración
+(8.8%), y YouTube posiciona la Búsqueda por coincidencia de metadatos. Los títulos
+de serie ("Chamba Gringa #3: Cómo NO alargar la daily") no coinciden con ninguna
+búsqueda real. Propuesta que conserva ambos mecanismos: **consulta buscable
+delante, número de serie detrás**. Cero minutos de grabación.
+
+⚠️ Sube la urgencia del **export de Studio**: con el *% que eligió verlo*
+confirmado como señal de ranking, impresiones/CTR es el único dato que separa
+"falla por empaquetado" de "falla por distribución" — abierto desde el 10-ago.
+
+## [2026-08-14] ingest | La misma newsletter de YouTube, variante de vídeos largos — blackicelabs
+
+Fuente en `raw/blackicelabs/youtube-newsletter-video-largo-descubrimiento-2026-08-14.md`.
+Creada [[shorts-vs-video-largo-doctrina-youtube]] (primera comparación del wiki que
+no enfrenta dos cosas distintas sino **dos versiones del mismo documento oficial**,
+porque todo el valor está en las tres cláusulas donde divergen). Actualizadas
+[[youtube-shorts-distribucion]], [[absadev]] y [[estrategia-contenido-absadev]].
+
+⚠️ **Dos cautelas registradas antes que nada:** la atribución al formato largo la
+da el usuario, no el texto —el documento conserva artefactos de copia de la
+versión de Shorts, encabezado incluido—; y **ausencia ≠ negación**: que una
+cláusula falte en un texto puede ser diseño o descuido, y estos dos ya demostraron
+tener descuidos.
+
+**Lo idéntico es lo más confiable:** interés en el tema, competencia y
+estacionalidad están palabra por palabra en ambos. Consecuencia inmediata: **el
+techo de alcance de la Serie 1 no se esquiva pasando a formato largo** — el vídeo
+de 8-12 min planeado enfrenta el mismo pool pequeño.
+
+**La diferencia que más pesa: el grafo de co-visionado.** En largos YouTube nombra
+*"los vídeos que suelen verse seguidos"*, cláusula ausente en Shorts. Es el segundo
+mecanismo en dos días detrás de la corrección #1 (matar el contenido fuera de
+nicho), y es peor que el de ayer: no sólo trae público ajeno, **coloca al canal en
+un vecindario de co-visionado** — y eso aplica al catálogo de 898 vídeos ya
+publicado, no sólo a lo que venga. El wiki ya tiene medido el vecindario, en la
+plataforma equivocada: la captura del 28-jul de creadores co-vistos en TikTok no
+tiene un solo dev. **Petición de dato nueva y gratis:** Studio → Audiencia →
+"otros vídeos y canales que ve tu público", el análogo directo en YouTube.
+
+**Hipótesis registrada sin adoptar:** el *tiempo dedicado a un canal* es señal en
+largos y desaparece de la lista de Shorts, lo que sugeriría que los shorts
+construyen afinidad de **tema** y el largo afinidad de **canal** — explicación
+mecánica del SPV 0.21 y del 8.8% de Sugeridos+Browse. Marcada como inferencia
+propia y **no adoptada**: descansa en una diferencia de redacción entre textos
+descuidados, es demasiado satisfactoria (explica de golpe todo lo que duele), y
+tiene rival más simple —TikTok retiene 7.6× mejor con los **mismos** vídeos
+recortados, lo que apunta a la plataforma, no al formato.
+
+**Corrección de alcance sobre lo escrito esta mañana:** el "tercer apoyo
+independiente para bajar la cadencia" se sostiene **sólo** en el texto de Shorts;
+el de largos no trae esa sección. Como el 100% de lo que publica son shorts, la
+recomendación se mantiene, pero su base es un texto y no dos.
+
+⚠️ **Problema de medición destapado:** si la doctrina se parte en dos, el **27.3%
+de porcentaje promedio visto** no pertenece a ninguna mitad. 1m 40s sobre 27.3%
+implica vídeos de ~6.1 min de media, imposible en una ventana de 20 shorts de
+≤1:28 — está mezclando shorts nuevos con el catálogo largo antiguo. **El único
+número del canal que aparece en las listas oficiales de ranking está contaminado
+por la mezcla de formatos**, y hay que desglosarlo por tipo de contenido (una
+consulta más a la API, no un export nuevo) antes de concluir nada de él.

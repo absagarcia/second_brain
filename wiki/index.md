@@ -79,9 +79,12 @@ Format: `[name](path) — one-line summary — domain(s)`
 - [Esfuerzo + descanso = crecimiento](concepts/stress-rest-growth-equation.md) — periodization as a general principle: dose-dependent stress, just-manageable challenges, 50–90 min blocks, breaks/walking/sleep as the growth half — books, reflections, athletix, blackicelabs
 - [Purpose as a Performance Amplifier](concepts/purpose-as-performance-amplifier.md) — self-transcendent purpose raises tolerable effort; build-it procedure (values → statement → visual cues → nightly 1–10); giving as burnout antidote — books, reflections, blackicelabs, athletix
 
+- [Cómo YouTube distribuye los Shorts (doctrina oficial)](concepts/youtube-shorts-distribucion.md) — señales de ranking que YouTube declara (% que eligió verlo, duración media, % visto, likes) y las que **no** nombra (subs, comentarios, shares); "no hay cadencia mínima"; interés-en-el-tema/competencia como techo de alcance; primera fuente de doctrina de plataforma, con advertencia de parte interesada — blackicelabs
+
 - [Feature-First Clean Architecture](concepts/clean-architecture-feature-first.md) — feature-vs-layer split + domain/data/presentation layering; the wiki's first running instance of the SOLID/DDD reading, with the over-engineering tension recorded — swe, fitexe
 
 ## Comparisons
 
 - [Goal-Setting vs. Systems-Based Habit Formation](comparisons/goal-setting-vs-systems-based-habits.md) — Hábitos para ser millonario's daily-written-goals ritual vs. Atomic Habits' systems/identity-first approach — books, reflections
+- [Shorts vs. vídeo largo — qué dice YouTube que mide en cada uno](comparisons/shorts-vs-video-largo-doctrina-youtube.md) — las dos variantes del documento oficial y las tres cláusulas donde divergen: **grafo de co-visionado** y **tiempo dedicado al canal** sólo en largos, "no hay cadencia mínima" sólo en Shorts; destapa que el 27.3% del canal mezcla formatos — blackicelabs
 - [Definitions of Intelligence and Consciousness — Tegmark vs. Harari](comparisons/intelligence-vs-consciousness-tegmark-harari.md) — goal-achieving capacity (Life 3.0) vs. problem-solving capacity distinguished from consciousness (21 Lessons) — books, masters
