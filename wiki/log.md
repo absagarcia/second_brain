@@ -1176,3 +1176,92 @@ y estirar, o aceptar la sobre-extensión medida.
 **Mix del batch:** 3 de la mitad pikacodes (identidad/correr/journey) contra 2 de
 utilidad — primera ejecución real de la recomendación del 10-ago. Y el de correr
 es el crossover con el arco del medio maratón de [[absa-garcia]] (6 sep).
+
+## [2026-08-19] ingest | BLACK ICE LABS — listado de episodios con duración y audiencia — blackicelabs
+
+Fuente: `raw/blackicelabs/podcast-blackicelabs-episodios-2026-08-19.md` (pegado
+del usuario desde Spotify for Creators). **Ningún episodio nuevo** — los 23 ya
+estaban en el wiki desde el 10-ago. Lo que sí es nuevo son **dos columnas que el
+export CSV no traía: `Length` y `Audience` por episodio.**
+
+Actualizado [[blackicelabs-podcast]] con tabla enriquecida (plays + oyentes
+únicos + duración) y sección nueva `Lo que añade el pegado del 2026-08-19`:
+
+1. **El techo de atención queda acotado.** La página estimaba "~39 h" bajo un
+   supuesto inventado y pedía explícitamente la duración. Ya está: catálogo de
+   **5 h 23 min**, media **14:02**, y **104.8 h** como techo absoluto si cada uno
+   de los 471 plays fuera escucha completa. Las 39 h equivalen a 37% de escucha.
+   Falta un único dato para cerrar el cálculo: **% de escucha real**.
+2. **Corrección de ranking.** *"Works on My Phone"* lideraba con 40 plays, pero
+   tiene sólo **18 oyentes únicos** (ratio 2.22 vs. 1.27 del show): es el más
+   *repetido*, no el más escuchado. Por audiencia real manda **010. La carrera de
+   la rata** (25). La tesis de que el formato comparación rinde **sobrevive**
+   (003 y Node vs Python siguen arriba); el episodio citado como #1, no.
+   Tabla anterior conservada — era correcta para la métrica que existía.
+3. **Deriva de duración.** Media 2025 **12:55** → 2026 **15:16** (+18%), con
+   correlación negativa duración↔oyentes (r = −0.22 global, −0.38 en 2026).
+   Marcado como **hipótesis, no hallazgo**: n=23 y confound fuerte con la fecha.
+4. **Correcciones menores.** Total de por vida 469 → **471** (*Claude + Flutter*
+   subió 20→22, único movimiento en 9 días: confirma que el catálogo sigue frío,
+   ahora con dos cortes temporales). Tres fechas aparecen un día antes que en el
+   export del 10-ago (zona horaria, sin efecto en conclusiones); *005* y
+   *IA para automatizar* salieron el mismo día (7 oct 2025).
+
+Índice actualizado. Sin páginas nuevas: no había entidad ni concepto nuevo que
+justificara una.
+
+## [2026-08-19] ingest | El cisne negro (Taleb) — books, finance, reflections, masters
+
+Fuente: `raw/books/El cisne negro.md` (~75 highlights de Kindle, densos en las
+partes I–II y casi ausentes en la parte técnica IV). Libro **long-lived**: es
+epistemología, no datos; nada aquí caduca.
+
+**Lente declarada** (regla #2 del CLAUDE.md): se comprimió como *manual de
+higiene epistémica* para un wiki que ya carga mucho material con sabor a
+previsión — tesis de startup, planes financieros y proyecciones de crecimiento
+de canal. Quien buscara el ángulo de trading/gestión de riesgo, o la matemática
+fractal de Mandelbrot, habría conservado otras líneas. Los highlights de
+fractales (cap. 16) quedan registrados pero **sin desarrollar**.
+
+Creadas 4 páginas:
+
+- [[el-cisne-negro]] (entidad) — definición en tres partes, la estrategia de
+  "juguetear" y ajustes estocásticos, clasificar creencias por daño y no por
+  verosimilitud, profesiones escalables vs. por horas, "no sabemos lo que
+  sabremos", cisnes grises.
+- [[mediocristan-vs-extremistan]] (comparación) — tabla de los dos mundos +
+  origen real del 80/20 en Pareto (observación sobre **tierras**, no sobre
+  esfuerzo) y su reutilización productivista, que roza a
+  [[essentialism-less-but-better]] y [[effortless-action-principles]].
+- [[falacia-narrativa-y-pruebas-silenciosas]] (concepto) — máquina de
+  explicación, error de confirmación, sesgo del superviviente, falacia lúdica,
+  antibiblioteca de Eco.
+- [[limites-de-la-prediccion-experta]] (concepto) — Tetlock, el pavo, y lo más
+  aplicable del libro: **el error en proyectos es unidireccional** (siempre más
+  caro y más tarde), la paradoja del retraso, el anclaje, y previsiones sin
+  índice de error.
+
+**Dos tensiones registradas, ninguna resuelta:**
+
+1. **Taleb vs. Thiel.** Coinciden en la forma del mundo (ley de potencia) y se
+   contradicen en la prescripción: concentrarse tras un secreto vs. juguetear
+   ampliamente. Anotado en ambas direcciones — se añadió sección nueva a
+   [[de-cero-a-uno]] sin editar su contenido previo.
+2. **Taleb vs. las costumbres de previsión de este wiki.** El cap. 10 es un
+   ataque directo a proyectar desde ventanas de 28 días
+   ([[estrategia-contenido-absadev]]) y a supuestos de retorno a largo plazo
+   ([[investment-bucket-strategy]], [[principios-nuevo-orden-mundial]]).
+
+También se añadió a [[second-brain-epistemic-design]] una **confirmación
+independiente**: la tercera propiedad del Cisne Negro (explicabilidad *a
+posteriori*) es literalmente el riesgo #1 de esa página, nombrado desde la
+probabilidad y ~19 años antes de que existiera este wiki.
+
+Contradicción interna del propio Taleb marcada en su página: "reunir tantas
+oportunidades de Cisne Negro" (cap. prólogo) contra "tener muchas noticias
+medianamente buenas es preferible a una única noticia fantástica" (cap. 7). La
+reconciliación tipo *barbell* **no está en los highlights** y queda anotada como
+inferencia, no como contenido con fuente. Otra laguna explícita: de las tres
+falacias de prever sin índice de error sólo se conserva la primera.
+
+Índice actualizado (1 entidad, 2 conceptos, 1 comparación).
