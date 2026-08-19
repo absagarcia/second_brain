@@ -1139,3 +1139,40 @@ extrapolado.
 ⚠️ Sigue **abierto desde el 10-ago** el export de Studio con impresiones/CTR — y
 con siete títulos nuevos de búsqueda entrando, es justo la ventana en la que más
 valía.
+
+## [2026-08-18] batch grabado | 5 shorts + copy — blackicelabs
+
+El usuario reporta cinco videos ya grabados (`el trabajo que no queria`,
+`medio maraton`, `presentar en chamba grina`, `PYTHON VS NODE`,
+`un mes con swift`) y pide títulos, descripciones, tags y captions.
+Producido el copy (fuera del wiki, según lo acordado); actualizadas
+[[estrategia-contenido-absadev]] (sección nueva del batch) y [[absadev]]
+(corrección sobre Swift).
+
+**Lo que de verdad cambia: la promesa de Swift se declara detenida.** El usuario
+cambió el guion entero del quinto video — *no lo estudió como quería porque
+otras prioridades ganaron* — y decidió decirlo en cámara. Registrado sin
+reescribir el pasado: 23-jul se anuncia, 30-jul se incumple la fecha dura,
+9-ago se re-enmarca como *"una semana **con** Swift"*, 18-ago se declara
+detenido. **Es el mismo compromiso fallando tres veces por el mecanismo que el
+wiki ya nombró como el problema #1 del canal** (consistencia, no algoritmo).
+Consecuencia editorial: en [[absadev]], *"quiere aprender Swift"* pasa a leerse
+como deseo declarado, no actividad en curso.
+
+⚠️ **Costo nombrado, no minimizado:** el anuncio de Swift es el video de **mayor
+SPV del canal (9.48** contra 0.21 de la ventana de agosto): hay suscriptores que
+llegaron por esa promesa y este video les dice que el arco se detuvo, con
+Retention ya en negativo. Prueba falsable registrada: si supera 0.4
+comentarios/video y no pierde subs por encima de la media, la apuesta de
+honestidad —la misma de *"9 años, 0 consistencia"*— se sostiene; si no, la
+lección es **no anunciar arcos que no se han empezado**, no "no ser honesto".
+
+⚠️ **Colisión de calendarios destapada:** este batch **no es el batch #5**, que
+arranca hoy con 7 shorts hasta el 1-sep. Dos slates vivos = ~12 videos en tres
+semanas ≈ 4.3/semana, por encima de la cadencia de 3/semana que el batch #5
+acababa de respetar por primera vez. Decisión del usuario pendiente: intercalar
+y estirar, o aceptar la sobre-extensión medida.
+
+**Mix del batch:** 3 de la mitad pikacodes (identidad/correr/journey) contra 2 de
+utilidad — primera ejecución real de la recomendación del 10-ago. Y el de correr
+es el crossover con el arco del medio maratón de [[absa-garcia]] (6 sep).

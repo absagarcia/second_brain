@@ -1019,6 +1019,81 @@ por distribución" — y con siete títulos nuevos de búsqueda, es justo la ven
 en la que ese dato más valía.
 
 
+## Batch grabado 2026-08-18 — 5 shorts, y la promesa de Swift se declara detenida
+
+**Hecho reportado por el usuario el 2026-08-18:** grabó cinco videos
+(`el trabajo que no queria`, `medio maraton`, `presentar en chamba grina`,
+`PYTHON VS NODE`, `un mes con swift`) y pidió títulos, descripciones, tags y
+captions. **El copy vive fuera del wiki**; aquí queda el hecho y sus
+consecuencias.
+
+| Video | Serie | Nota |
+|---|---|---|
+| El trabajo que no quería | 5 — Cómo llegué aquí | mitad pikacodes (identidad) |
+| Medio maratón | 8 — correr | crossover con [[absa-garcia]] (carrera 6 sep) |
+| Presentar en chamba gringa | 1 #6 — presentar a no-técnicos | el episodio ya listado el 21-jul |
+| Python vs Node | 3 — Comparaciones sin choro | su formato de mayor afinidad |
+| Un mes con Swift | 2 — Camino a AI Engineer | **guion cambiado, ver abajo** |
+
+**Mix:** 3 de la mitad pikacodes (identidad/journey/correr) contra 2 de utilidad.
+Es la primera vez que se ejecuta la recomendación #2 del 10-ago (empujar el mix
+hacia identidad/journey, que es lo que convierte en esta ventana).
+
+⚠️ **Este batch no es el batch #5.** El batch #5 (7 shorts de "Conseguir Chamba
+Dev", 18 ago → 1 sep) sigue programado y arranca hoy. Quedan **dos slates vivos
+a la vez** sobre una cadencia acordada de 3/semana: 12 videos entre el 18-ago y
+principios de septiembre son ~4.3/semana, **por encima de la cadencia que el
+10-ago se recomendó bajar y que el batch #5 acababa de respetar**. Decisión
+pendiente del usuario: intercalar y estirar el calendario, o publicar los dos
+en paralelo aceptando la sobre-extensión medida.
+
+### El cambio de guion de "Un mes con Swift" (lo más importante del batch)
+
+El video iba a ser el avance del mes. **El usuario cambió el guion entero: no
+estudió Swift como quería porque otras prioridades ganaron, y decidió decirlo en
+cámara.** Tres lecturas, en orden:
+
+1. **La promesa de Swift ya se había re-enmarcado una vez, y ahora se declara
+   detenida.** El registro completo, sin reescribir el pasado: 23-jul se anuncia
+   *"voy a aprender Swift"*; el 24-jul se marca la fecha dura del seguimiento
+   (30-jul) y **no se cumple**; el 9-ago se salva convirtiéndolo en *"una semana
+   **con** Swift"*; el 18-ago se dice que no avanzó. **Es el mismo compromiso
+   fallando tres veces por el mismo mecanismo** — el que
+   [[estrategia-contenido-absadev]] ya nombró como el problema #1 del canal
+   (consistencia, no algoritmo) y [[la-guerra-del-arte]] llama la Resistencia.
+   La lección de [[four-laws-of-behavior-change]] y [[effortless-action-principles]]
+   aplica literal: *"aprender Swift"* nunca tuvo un "hecho" definido. El propio
+   usuario ya llegó ahí — plantea el siguiente intento **más chico y con fecha**.
+
+2. **Decirlo en cámara es la jugada correcta según el propio diagnóstico.** Es el
+   mismo registro que *"9 años, 0 consistencia"*, y el embudo dice que la mitad
+   pikacodes (vulnerabilidad) es la que produce comentarios, la única etapa
+   influenciable. Desaparecer y volver en tres meses habría sido la opción que
+   más cuesta.
+
+3. **⚠️ El costo, nombrado y no minimizado.** El video que anunció Swift es el de
+   **mayor SPV del canal (9.48 vs 0.21 de la ventana)**: hay suscriptores que
+   llegaron por esa promesa y este video les dice que el arco se detuvo. Con
+   Retention ya en negativo (−16 bajas contra 17 altas), es el peor momento del
+   canal para incumplirle a la cohorte que sí convirtió.
+   **Prueba falsable registrada:** si este video supera los 0.4 comentarios/video
+   de la línea base y sus bajas no exceden la media, la apuesta de honestidad se
+   sostiene y el registro de vulnerabilidad se puede repetir; si pierde subs por
+   encima de la media, la lección no es "no ser honesto" sino **no anunciar arcos
+   que no se han empezado**.
+
+**Regla que sale de aquí, y que vale más allá de Swift:** no anunciar en video un
+arco de aprendizaje hasta tener la primera sesión hecha; anunciar el hito, no la
+intención. El canal ya tiene dos arcos vivos que sí cumplen ese criterio — el
+medio maratón de [[absa-garcia]] (entrenamiento en curso, fecha 6 sep) y FitExe
+(app en producción, un gimnasio pagando).
+
+⚠️ **Sigue abierto desde el 10-ago** el export de Studio con impresiones/CTR.
+Con doce títulos nuevos entrando en tres semanas, es la ventana en la que más
+valía — y sin él no se podrá separar empaquetado de distribución en ninguno de
+los dos slates.
+
+
 ## Measurement — track results before batch #2
 
 Next batch's topics should be chosen from **what actually performed** here

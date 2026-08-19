@@ -41,6 +41,17 @@ social-media work) derives. Spanish-language, LatAm audience.
   content angle in dev-LatAm).
 - **Loves mobile apps / Flutter** ("me mama") — his happy place. **Wants
   to learn Swift.**
+  > **Corrección 2026-08-18 — la promesa de Swift, tercer estado.** Lo declarado
+  > el 23-jul (*"voy a aprender Swift"*) sigue sin cumplirse: al mes, el usuario
+  > reporta que **no lo estudió como quería porque otras prioridades ganaron**, y
+  > cambió el guion del video para decirlo en cámara. No se borra lo anterior:
+  > (1) 23-jul se anunció, (2) 9-ago se re-enmarcó a *"una semana **con** Swift"*
+  > para salvar la fecha, (3) 18-ago se declara detenido. **"Quiere aprender
+  > Swift" es un deseo declarado, no una actividad en curso** — y así debe leerse
+  > en cualquier página que lo cite. Contenido de vida corta: sujeto a cambiar en
+  > el próximo intento, que el usuario plantea "más chico y con fecha".
+  > ⚠️ Riesgo medible: el anuncio de Swift es el video de **mayor SPV del canal
+  > (9.48)**; parte de los suscriptores llegaron por esa promesa.
 - Doing a **master's thesis** (in progress as of 2026-07).
 - **Runs** (correr) — personal, humanizing thread.
 - **Making content since 2017**, but **by his own account has never been
