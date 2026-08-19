@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-10
+updated: 2026-08-16
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -21,6 +21,14 @@ sources:
     fact_date: 2026-08-09
     ingest_date: 2026-08-10
     confidence: high     # export de primera parte; ventanas distintas por archivo, ver caveats
+  - path: raw/blackicelabs/podcast-blackicelabs-2026-08-10/ (export de Spotify for Creators del podcast BLACK ICE LABS)
+    fact_date: 2026-08-10
+    ingest_date: 2026-08-10
+    confidence: high     # export de primera parte; sin duración ni tiempo escuchado
+  - path: raw/blackicelabs/youtube-newsletter-shorts-descubrimiento-2026-08-14.md
+    fact_date: 2026-08-14
+    ingest_date: 2026-08-14
+    confidence: medium   # doctrina oficial de YouTube, parte interesada — ver [[youtube-shorts-distribucion]]
 ---
 
 # Estrategia de contenido — Absadev
@@ -694,6 +702,397 @@ el mejor dato del reporte. Shorts es el 46%.
 ⚠️ **Sigue sin responderse la pregunta de empaquetado.** Impresiones y CTR no las
 expone la API; hacen falta exports de Studio. Sin ellas no se puede decir si los
 videos de identidad rinden poco alcance por empaquetado o por distribución.
+
+## El embudo, ahora en dos plataformas (export nativo de TikTok, 2026-08-10)
+
+Mismo día, segunda fuente: los CSV de TikTok Analytics
+(`raw/blackicelabs/absadev-tiktok-2026-08-10/`). Cifras completas en el snapshot
+TikTok de [[absadev]]. **La tabla AARRR de arriba se conserva tal como se
+escribió** — pero medía sólo YouTube, y esa era su limitación, no su error:
+
+| Etapa | YouTube (28 d, API) | TikTok (export nativo) | Lectura |
+|---|---|---|---|
+| Acquisition | 4,670 vistas (+39%) | **32,349 vistas** / 681 al día (+72%) | TikTok es 7× el alcance |
+| Activation | 8 coment. / 28 d 🟡 | **39 coment. / 30 d** 🟢 | **sí consolidó — en TikTok** |
+| Retention | **+1 neto**, SPV 0.21 🔴🔴 | **+11 en 7 d**, 1.60 por 1.000 🟢 | ~7.6× mejor en TikTok |
+| Referral | 10 shares | **0.69 shares/1.000 (−87%)** 🔴 | **regresión nueva** |
+| Revenue | — | — | se ignora, según lo acordado |
+
+**Lo que esto cambia de verdad — el muro de *Retention* es un muro de YouTube, no
+del creador.** Misma persona, mismos videos recortados, y una plataforma sí
+retiene. La lectura del 21-jul ("10k subs es un problema de retención") sigue en
+pie para YouTube; lo que ya no se sostiene es leerla como un problema *del
+contenido*. ⚠️ Un follow de TikTok no equivale a una suscripción de YouTube (mucha
+menos fricción), así que la comparación es de dirección, no de equivalencia — pero
+la diferencia es de un orden de magnitud, y **la estrategia tiene a YouTube como
+plataforma casa por una decisión del 16-jul que nunca se re-examinó con datos.**
+No es razón para mudarse; es razón para decidirlo explícitamente.
+
+**Lo que corrige la lectura de *Activation*.** La conclusión de esta misma página
+esta mañana fue "Activation no consolidó". Con TikTok medido: **sí consolidó, y se
+quedó en TikTok** (39 comentarios en 30 días, sostenidos, contra 1 en 60 días como
+línea base). Ambas lecturas son ciertas y ninguna se borra. La Serie 4 (el motor de
+comentarios, agendada 11 ago) sigue siendo lo más urgente que falta, y ahora se
+sabe **de dónde sacar el material**: la conversación vive en TikTok.
+
+**Golpe directo a la apuesta de monopolio.** Los tres videos de *Chamba Gringa*
+son **lo que menos alcance tiene en TikTok** (553 / 565 / 348 vistas) contra
+6,601–10,072 de café/home-office/gadgets. Esto convierte el hallazgo del 28-jul
+(audiencia de TikTok ≠ audiencia dev), que era hipótesis de una captura, en
+**confirmación numérica**. Sumado a la corrección de esta mañana en YouTube (el
+video de inglés: alcance sí, conversión 0.00), la Serie 1 lleva ya **dos
+mediciones independientes que no la respaldan** — una por plataforma. La premisa
+de selección del batch #4 ("pondera el ganador probado") queda más debilitada que
+esta mañana. Sigue en pie no reabrir un batch grabado; **decidirlo antes del #5**
+pasó de conveniente a necesario.
+
+**La inversión alcance↔engagement se repite.** Videos nuevos y pequeños: 5–10% de
+engagement; los grandes: 0.59–3%. Es el mismo patrón que la API de YouTube
+encontró entre alcance y SPV, en otra plataforma y con otra métrica. Deja de ser
+casualidad de n bajo, y empuja el mix hacia la **mitad pikacodes** (identidad,
+Series 5/8/6) por segunda vez el mismo día.
+
+**Regresión nueva que nadie había detectado: *Referral*.** Estaba ✅ sano con 147
+shares el 16-jul; ahora **0.69 por 1.000 vistas (−87%)**, y los tres videos de
+Chamba Gringa tienen **0, 0 y 0 shares**. En TikTok el share *es* el vector de
+distribución, así que esto explica parte del techo de alcance del contenido nuevo.
+La regla del CTA ("termina con pregunta") produce comentarios pero no reenvíos —
+son dos mecanismos distintos y sólo uno está diseñado.
+
+**Dos cosas accionables y de vida larga** (contra las cifras, que son de vida
+corta):
+
+1. **Franja de publicación: 19:00–22:00 h** (pico ~21 h), meseta 11:00–17:00,
+   valle 02:00–05:00. Dato nuevo y gratis — no cuesta ni un minuto de grabación.
+2. **El motor de alcance de la cuenta es no-dev** (café, home office, gadgets).
+   Tensiona la corrección #1 del 16-jul ("matar el contenido fuera de nicho"):
+   en YouTube ese contenido contamina la señal, pero en TikTok **es lo único que
+   trae público**. Posible resolución sin contradicción: nichos distintos por
+   plataforma, o usar el catálogo no-dev como puerta de entrada al perfil — donde
+   el cuello real es la conversión a perfil (**8.4 vistas de perfil por 1.000**).
+   Abierto; requiere decisión del usuario, no la tomo aquí.
+
+⚠️ **Límites:** `Content.csv` trae 15 videos seleccionados por TikTok (no el
+catálogo) y con conteos de por vida; las ventanas difieren por archivo; y el pico
+del 03-ago es atribuido a catálogo viejo por **inferencia**, no por dato. Ver los
+caveats completos en el snapshot de [[absadev]].
+
+## El podcast que la estrategia no sabía que existía (2026-08-10)
+
+Tercer export del mismo día: [[blackicelabs-podcast]], **23 episodios dev entre
+el 2025-08-21 y el 2026-06-08**. Esta estrategia se escribió entera sin saberlo.
+Tres cosas se mueven.
+
+**1 · El diagnóstico central necesita un matiz, no una retirada.** El pilar de
+esta página es *"nunca he sido consistente" (9 años)*, tratado como identidad. Los
+datos muestran **2.4 episodios/mes durante 9.5 meses sin fallar** — la mejor
+consistencia documentada del usuario, y ocurrió mientras esta página lo describía
+como crónicamente inconsistente. **Lo que sigue en pie:** la observación original
+era sobre **YouTube**, y ahí es cierta. **Lo que se cae:** la generalización a la
+persona. Importa porque el arco del flagship (*"9 años, 0 consistencia"*, publicado
+el 7 ago) descansa sobre la versión generalizada. No es motivo para retirar el
+video — la historia de YouTube es real y ya está publicada — pero **sí lo es para
+no repetir esa frase como identidad en futuros guiones**, que es justo lo que
+[[four-laws-of-behavior-change]] advierte: las identidades declaradas se cumplen,
+incluidas las negativas. La lectura honesta es más útil y más vendible:
+*no es que no sea constante; es que fue constante en el formato equivocado.*
+
+**2 · Existe un banco de guiones de 23 piezas, con datos de qué tema jaló.** Los
+episodios cubren los mismos pilares del canal (Flutter, IA, mercado laboral, side
+projects, impostor) y ya fueron pensados y dichos en voz alta. Los que mejor
+rindieron confirman el pilar 2: *Flutter vs React Native* (top-6 del podcast,
+top-3 en YouTube) y *monetizar apps Flutter* (#2). **La comparación gana en los
+tres formatos que ha probado** — es la señal más transferible de todo lo ingerido
+hoy. Candidatos directos a short, ya validados en otro medio:
+*"La mentira del works on my phone"* (el episodio #1, 40 plays),
+*"La carrera de la rata del programador moderno"*, *"Me cansé de tomar cursos de
+programación"*, *"5 ideas de side projects para pagar la renta"*.
+
+**3 · El flagship ya se grabó una vez.** *"Yo tenía la ilusión de vivir de
+YouTube"* (28 abr 2026) es el mismo tema que *"9 años, 0 consistencia"*. Hizo
+**7 plays**. No predice nada sobre el video — otro formato, otra plataforma, otro
+empaquetado — pero convierte una apuesta en una **comparación medible**: cuando
+el video cumpla sus 14 días, se puede contrastar la misma historia en dos medios.
+
+### La decisión que esto abre (no la tomo aquí)
+
+El podcast **se detuvo subiendo**: feb 66, abr 60, may 62 plays/mes — sus tres
+mejores meses son los tres últimos con publicación. Cayó a 17 en junio y a **1
+play en los primeros 10 días de agosto**. La causa es el paro, no un revés de
+audiencia. Y el paro (8 jun) precede al arranque de la racha de shorts (16 jul):
+**fue un cambio de apuesta.**
+
+Eso choca con el acuerdo del 2026-07-22 en [[absa-garcia]] (*"el podcast espera
+hasta que el hábito de Absadev esté fijo"*), que se tomó creyendo que se hablaba
+de revivir algo de 2023. **El argumento de sobre-extensión sigue siendo válido** —
+4-6 h/semana no dan para shorts + podcast + absa.garcia, y ese es literalmente el
+patrón de 9 años. Pero el costo de esperar ya no es cero: un catálogo enfriándose
+y una racha real desperdiciada.
+
+⚠️ **Antes de decidir hace falta un dato que el export no trae:** duración de
+episodio y tiempo escuchado. Sin eso no se puede comparar 469 plays de podcast
+contra las vistas de un short — no son la misma unidad de atención (ver
+[[blackicelabs-podcast]]). Decidir sin ese número sería repetir el error del
+video de inglés: juzgar con la métrica equivocada.
+
+## La doctrina de la plataforma entra al expediente (2026-08-14)
+
+Newsletter oficial de YouTube sobre distribución de Shorts, ingerida como
+[[youtube-shorts-distribucion]] (ahí están la advertencia epistémica y el detalle;
+aquí sólo lo que le mueve a esta estrategia). Primera fuente que no es medición
+del canal sino **doctrina de la plataforma** — se usa para interpretar, y donde
+choque con una medición, gana la medición.
+
+**1 · Las métricas de esta página no son las de distribución, y eso está bien
+siempre que se sepa.** YouTube nombra cuatro señales de ranking — % que eligió
+verlo, duración media, % promedio visto, likes/encuestas — y **no menciona
+comentarios, suscriptores ni shares.** Esta estrategia decidió el 16-jul vigilar
+*conversaciones por video*, y esa decisión sigue siendo correcta: el objetivo
+declarado es **comunidad**, no alcance. Lo que se corrige es una expectativa
+implícita que se coló en las tres lecturas del embudo — que arreglar *Activation*
+acabaría empujando el alcance. Son dos circuitos distintos. **Alimentar el motor
+de comentarios (Serie 4) sigue siendo lo más urgente; ya no se le puede pedir que
+además destape la distribución.**
+
+**2 · La cadencia: tercer apoyo independiente para bajarla.** *"No hay una
+cadencia mínima… identifica qué es lo mejor para tu audiencia y tu bienestar."*
+Es la plataforma desmintiendo la premisa que llevó el ritmo a 5/semana (43% sobre
+lo acordado). Con [[stress-rest-growth-equation]] y la medición del 10-ago, son
+tres fuentes independientes apuntando a **volver a ~3.5/semana**. Es la
+recomendación con más palanca del expediente y la que menos lo parece.
+
+**3 · La corrección #1 gana un mecanismo, no sólo un argumento.** "No me interesa"
+e ignorar son señales negativas nombradas, y la personalización va por *temas que
+ve el usuario*. Publicar Xiaomi/fútbol entrena a YouTube a mandar ese público al
+canal, y ese público **salta** los Shorts de Flutter — lo que según la doctrina
+degrada el posicionamiento de los Shorts de Flutter. La corrección lleva un mes
+sin aplicarse; ahora tiene causa declarada por la plataforma, no sólo criterio
+editorial.
+
+**4 · El techo de la Serie 1 es de tamaño de mercado, no de ejecución.** *Interés
+en el tema* y *competencia* son factores externos declarados. El pool mundial de
+"cómo sobrevivir la chamba gringa" es pequeño — que es literalmente la apuesta de
+monopolio, con su costo conocido ([[monopoly-vs-competition-zero-to-one]]). **No
+se rompe con mejor empaquetado.** La decisión pendiente antes del batch #5 (¿seguir
+ponderando la Serie 1?) debe tomarse con esto encima: es la tercera señal en cinco
+días que no la respalda, y ahora se sabe *por qué* el techo está donde está.
+
+**5 · Cambio concreto de títulos — el único accionable gratis.** El canal es de
+**Búsqueda (33.4%)**, no de Exploración (8.8%), y en Búsqueda YouTube posiciona
+por coincidencia de metadatos. *"Sobrevivir la Chamba Gringa #3: Cómo NO alargar
+la daily"* no coincide con ninguna búsqueda real; el número de serie sirve a la
+retención, no al 33.4%. **Propuesta: consulta buscable al principio, número de
+serie al final** — *"¿Cómo acortar la daily sin sonar grosero? | Chamba Gringa
+#3"*. Conserva el mecanismo de serie y recupera el tráfico que sí se acumula.
+Cuesta cero minutos de grabación, como la franja horaria de TikTok.
+
+**6 · Un miedo menos para el largo, pero la decisión del podcast no cambia.**
+*"Los Shorts no perjudican las recomendaciones de videos largos."* Despeja el
+video largo de 8-12 min y quita un obstáculo imaginario a [[blackicelabs-podcast]]
+— pero el argumento real contra reanudarlo era de **horas**, no de algoritmo, y
+ese sigue intacto.
+
+⚠️ **Y sube la urgencia del export de Studio.** Que el *% que eligió verlo* sea
+señal de ranking confirmada convierte impresiones/CTR en el dato que separa
+"falla por empaquetado" de "falla por distribución" — la pregunta abierta desde
+el 10-ago.
+
+### La variante para vídeos largos, el mismo día
+
+El usuario aportó después el **texto equivalente para vídeos largos**, ingerido
+como [[shorts-vs-video-largo-doctrina-youtube]] (los seis puntos de arriba salen
+del texto de **Shorts**, que es lo que el canal publica hoy). Tres ajustes:
+
+**a · La corrección #1 gana un segundo mecanismo, y más caro de deshacer.** En
+largos, YouTube nombra como señal de personalización *"los vídeos que suelen
+verse seguidos"* — **el grafo de co-visionado**. El wiki ya sabe en qué
+vecindario está el canal, y es el equivocado: la captura del 28-jul de creadores
+co-vistos en TikTok no tiene **un solo dev**. El punto 3 de arriba decía que el
+contenido fuera de nicho trae público ajeno; esto agrega que además **coloca al
+canal en un vecindario del que después hay que salir**, y eso aplica al catálogo
+de 898 vídeos ya publicado, no sólo a lo que venga. **Nueva petición de dato,
+gratis:** Studio → *Audiencia* → "otros vídeos y canales que ve tu público" es el
+análogo de esa captura de TikTok, y convierte la inferencia en medición propia.
+
+**b · El techo de la Serie 1 no se esquiva pasando a largo.** *Interés en el
+tema*, *competencia* y *estacionalidad* están **idénticos** en los dos textos. El
+largo de 8-12 min de *Sobrevivir la chamba gringa* enfrenta el mismo pool
+pequeño; cambiar de formato no cambia el tamaño del mercado.
+
+**c · Alcance más estrecho del punto 2 (cadencia).** *"No hay cadencia mínima"*
+aparece **sólo** en el texto de Shorts; el de largos no trae esa sección. Como el
+100% de lo que publica hoy son shorts, la recomendación de volver a ~3.5/semana
+**se sostiene igual** — pero su base es un texto, no dos, y así queda anotado.
+
+⚠️ Y una **hipótesis registrada sin adoptar**: el tiempo dedicado *a un canal* es
+señal de personalización en largos y desaparece de la lista de Shorts, lo que
+sugeriría que los shorts construyen afinidad de **tema** y el largo afinidad de
+**canal** — una explicación mecánica del SPV 0.21. Es inferencia mía sobre una
+diferencia de redacción entre dos textos ya demostradamente descuidados, y tiene
+una rival más simple (TikTok retiene 7.6× mejor con los **mismos** vídeos, lo que
+apunta a la plataforma y no al formato). Razonamiento completo y razones para
+desconfiar en [[shorts-vs-video-largo-doctrina-youtube]]. **No cambia ninguna
+decisión hoy**; si sobreviviera, ascendería el vídeo largo y
+[[blackicelabs-podcast]] de "otro formato" a "el único vehículo de afinidad de
+canal" — sin tocar el problema real, que son las 4-6 h/semana.
+
+## Batch #5 — el primer batch que no eligió el usuario (2026-08-16)
+
+**Programado y confirmado por el usuario el 2026-08-16.** Siete shorts, 18 ago →
+1 sep, mar/jue/sáb. Es el batch más grande de la historia registrada del canal, y
+el único cuyo origen no es una sesión de estrategia.
+
+**De dónde salió:** *"un seguidor de Insta me mandó estos videos"* — siete
+preguntas sobre cómo conseguir trabajo como dev, llegadas por DM sin que el
+usuario las pidiera. **Desplazó al batch planificado, que no llegó a grabarse.**
+
+| Fecha | Video (pregunta del seguidor) | Hora |
+|---|---|---|
+| mar 18 ago | ¿Qué debe tener un CV para que un reclutador lo lea? | 21:00 |
+| jue 20 ago | ¿En qué plataformas se consigue chamba de dev? | 21:00 |
+| sáb 22 ago | Aplico y nadie me responde: qué cambiar | 20:00 |
+| mar 25 ago | ¿Qué proyectos poner en el portafolio? | 21:00 |
+| jue 27 ago | ¿Directo a la empresa o al recruiter por LinkedIn? | 21:00 |
+| sáb 29 ago | ¿Cómo saber si una vacante vale la pena? | 20:00 |
+| mar 01 sep | ¿Qué habilidades están pidiendo las empresas? | 21:00 |
+
+Serie: *"Conseguir Chamba Dev #1–7"*, CTA de serie *"voy por las 7"*.
+
+**Lo que de verdad cambia, en orden de importancia:**
+
+1. **La Serie 4 disparó sola, y por el lado correcto.** La página lleva marcando
+   desde el 29-jul que el motor de comentarios (comentario → siguiente video) es
+   *lo más urgente que falta*, y desde el 10-ago que es la única etapa del embudo
+   influenciable. Aquí no se ejecutó el mecanismo: **el mecanismo ocurrió sin que
+   lo ejecutaran**. La audiencia mandó la agenda. Es la primera evidencia de que
+   la corrección #2 (*engineer for comments*) produce algo más que comentarios —
+   produce entrada de temas.
+
+2. **Ocurrió en Instagram, la plataforma de la que el wiki no tiene un solo
+   dato.** [[absadev]] no menciona Instagram ni una vez en 430 líneas: hay
+   snapshot de YouTube por API y export nativo de TikTok, y cero de Reels. La
+   plataforma sin medición es la que produjo el primer inbound real. **Hueco de
+   medición nuevo y nombrado**, no resuelto.
+
+3. **Sale del techo de la Serie 1 sin tener que decidir nada.** La Serie 1
+   (chamba gringa) acumula tres señales independientes en contra: conversión 0.00
+   del video de inglés (10-ago), audiencia no-dev en TikTok (10-ago), e *interés
+   en el tema / competencia* como techo declarado por YouTube (14-ago). Este
+   batch **no la incluye**. "Cómo conseguir trabajo como dev" tiene un pool de
+   búsqueda mucho mayor dentro del mismo nicho. La decisión que la página venía
+   aplazando (*¿reponderar la Serie 1?*) quedó tomada por accidente, en la
+   dirección que los datos ya apuntaban.
+
+4. **La cadencia vuelve a la acordada.** mar/jue/sáb = 3/semana, contra los ~3.5
+   medidos por API (43% por encima). Primera vez que la recomendación del 10-ago
+   se aplica a un slate real.
+
+5. **Los títulos aplican la corrección de búsqueda del 14-ago** — consulta
+   buscable delante, número de serie detrás. Con una ventaja que no se había
+   dado antes: las preguntas venían **ya redactadas por un humano que busca**,
+   no inventadas por el creador.
+
+**⚠️ Regla rota a propósito, con prueba falsable.** El formato adoptado el
+28-jul dice *"un título-pregunta por semana"*; aquí los siete lo son. Se rompe
+porque la corrección del 14-ago (canal de Búsqueda 33.4% vs Exploración 8.8%) es
+posterior y de mecanismo más fuerte. **Condición de refutación registrada:** si
+el CTR de estos siete no supera la línea base del canal, la regla vieja tenía
+razón y hay que reescribir títulos — no dejarlo a interpretación después.
+
+**Cambio de diseño: dos CTA por video, no uno.** El hallazgo del 10-ago fue que
+la regla del CTA-pregunta produce comentarios pero **no** reenvíos (Referral
+−87%, tres videos de Chamba Gringa con 0 shares), y que son dos mecanismos
+distintos con sólo uno diseñado. Cada descripción de este batch lleva un cierre
+de comentario **y** un cierre de share explícito (*"mándaselo a quien lleva meses
+aplicando sin respuesta"*). Primer intento deliberado de atacar Referral.
+
+**⚠️ Franja de publicación: extrapolada, no medida.** 19:00–22:00 con pico ~21 h
+sale del export nativo de **TikTok**. Se aplicó a YouTube e Instagram porque es
+el único dato de horario que existe; no hay medición propia de ninguna de las
+dos. Sábados a las 20:00 por la meseta de fin de semana — también inferencia.
+
+**Lo que este batch no toca:** el muro de retención de YouTube (SPV 0.21) sigue
+intacto — esto ataca *Activation* y *Referral*, no *Retention*. Y el export de
+Studio con impresiones/CTR sigue **abierto desde el 10-ago**; sin él, cuando
+estos siete den resultado no se podrá separar "falla por empaquetado" de "falla
+por distribución" — y con siete títulos nuevos de búsqueda, es justo la ventana
+en la que ese dato más valía.
+
+
+## Batch grabado 2026-08-18 — 5 shorts, y la promesa de Swift se declara detenida
+
+**Hecho reportado por el usuario el 2026-08-18:** grabó cinco videos
+(`el trabajo que no queria`, `medio maraton`, `presentar en chamba grina`,
+`PYTHON VS NODE`, `un mes con swift`) y pidió títulos, descripciones, tags y
+captions. **El copy vive fuera del wiki**; aquí queda el hecho y sus
+consecuencias.
+
+| Video | Serie | Nota |
+|---|---|---|
+| El trabajo que no quería | 5 — Cómo llegué aquí | mitad pikacodes (identidad) |
+| Medio maratón | 8 — correr | crossover con [[absa-garcia]] (carrera 6 sep) |
+| Presentar en chamba gringa | 1 #6 — presentar a no-técnicos | el episodio ya listado el 21-jul |
+| Python vs Node | 3 — Comparaciones sin choro | su formato de mayor afinidad |
+| Un mes con Swift | 2 — Camino a AI Engineer | **guion cambiado, ver abajo** |
+
+**Mix:** 3 de la mitad pikacodes (identidad/journey/correr) contra 2 de utilidad.
+Es la primera vez que se ejecuta la recomendación #2 del 10-ago (empujar el mix
+hacia identidad/journey, que es lo que convierte en esta ventana).
+
+⚠️ **Este batch no es el batch #5.** El batch #5 (7 shorts de "Conseguir Chamba
+Dev", 18 ago → 1 sep) sigue programado y arranca hoy. Quedan **dos slates vivos
+a la vez** sobre una cadencia acordada de 3/semana: 12 videos entre el 18-ago y
+principios de septiembre son ~4.3/semana, **por encima de la cadencia que el
+10-ago se recomendó bajar y que el batch #5 acababa de respetar**. Decisión
+pendiente del usuario: intercalar y estirar el calendario, o publicar los dos
+en paralelo aceptando la sobre-extensión medida.
+
+### El cambio de guion de "Un mes con Swift" (lo más importante del batch)
+
+El video iba a ser el avance del mes. **El usuario cambió el guion entero: no
+estudió Swift como quería porque otras prioridades ganaron, y decidió decirlo en
+cámara.** Tres lecturas, en orden:
+
+1. **La promesa de Swift ya se había re-enmarcado una vez, y ahora se declara
+   detenida.** El registro completo, sin reescribir el pasado: 23-jul se anuncia
+   *"voy a aprender Swift"*; el 24-jul se marca la fecha dura del seguimiento
+   (30-jul) y **no se cumple**; el 9-ago se salva convirtiéndolo en *"una semana
+   **con** Swift"*; el 18-ago se dice que no avanzó. **Es el mismo compromiso
+   fallando tres veces por el mismo mecanismo** — el que
+   [[estrategia-contenido-absadev]] ya nombró como el problema #1 del canal
+   (consistencia, no algoritmo) y [[la-guerra-del-arte]] llama la Resistencia.
+   La lección de [[four-laws-of-behavior-change]] y [[effortless-action-principles]]
+   aplica literal: *"aprender Swift"* nunca tuvo un "hecho" definido. El propio
+   usuario ya llegó ahí — plantea el siguiente intento **más chico y con fecha**.
+
+2. **Decirlo en cámara es la jugada correcta según el propio diagnóstico.** Es el
+   mismo registro que *"9 años, 0 consistencia"*, y el embudo dice que la mitad
+   pikacodes (vulnerabilidad) es la que produce comentarios, la única etapa
+   influenciable. Desaparecer y volver en tres meses habría sido la opción que
+   más cuesta.
+
+3. **⚠️ El costo, nombrado y no minimizado.** El video que anunció Swift es el de
+   **mayor SPV del canal (9.48 vs 0.21 de la ventana)**: hay suscriptores que
+   llegaron por esa promesa y este video les dice que el arco se detuvo. Con
+   Retention ya en negativo (−16 bajas contra 17 altas), es el peor momento del
+   canal para incumplirle a la cohorte que sí convirtió.
+   **Prueba falsable registrada:** si este video supera los 0.4 comentarios/video
+   de la línea base y sus bajas no exceden la media, la apuesta de honestidad se
+   sostiene y el registro de vulnerabilidad se puede repetir; si pierde subs por
+   encima de la media, la lección no es "no ser honesto" sino **no anunciar arcos
+   que no se han empezado**.
+
+**Regla que sale de aquí, y que vale más allá de Swift:** no anunciar en video un
+arco de aprendizaje hasta tener la primera sesión hecha; anunciar el hito, no la
+intención. El canal ya tiene dos arcos vivos que sí cumplen ese criterio — el
+medio maratón de [[absa-garcia]] (entrenamiento en curso, fecha 6 sep) y FitExe
+(app en producción, un gimnasio pagando).
+
+⚠️ **Sigue abierto desde el 10-ago** el export de Studio con impresiones/CTR.
+Con doce títulos nuevos entrando en tres semanas, es la ventana en la que más
+valía — y sin él no se podrá separar empaquetado de distribución en ninguno de
+los dos slates.
+
 
 ## Measurement — track results before batch #2
 
