@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-08-19
     ingest_date: 2026-08-19
     confidence: high     # misma consola de Spotify, transcrito a mano por el usuario
+  - path: conversation (sesión de asesoría — decisión de reactivar el podcast y diseño del slate)
+    fact_date: 2026-08-19
+    ingest_date: 2026-08-19
+    confidence: high     # decisión de primera parte del creador; el diseño es hipótesis
 ---
 
 # BLACK ICE LABS (podcast)
@@ -238,6 +242,52 @@ verificado** — cambia por completo con la duración real.
 larga son tres cosas: que **la consistencia quincenal es alcanzable para él**
 (está demostrada), que **el formato comparación gana en los tres medios**, y que
 **el show se detuvo subiendo**, no cayendo.
+
+## [2026-08-19] Se reactiva — 1/mes, batch de 4, y clips
+
+El usuario decide **volver a publicar**, tras 72 días de paro. Diseño nuevo:
+**1 episodio/mes, 4 grabados por adelantado, 6-12 clips por episodio** hacia
+shorts. El slate completo, las condiciones y la doctrina de títulos viven en
+[[estrategia-contenido-absadev]]; aquí queda lo que le toca a este show.
+
+**Lo que cambia respecto de las 23 entregas anteriores:**
+
+| | 2025-08 → 2026-06 | desde 2026-09 |
+|---|---|---|
+| Cadencia | 2.4/mes (quincenal) | **1/mes** |
+| Grabación | episodio a episodio | **batch de 4** |
+| Duración objetivo | 14:02 media, subiendo | **8-10 min** |
+| Destino | Spotify (+61% fuera) | **+ YouTube largo, con otro título** |
+| Salida secundaria | ninguna | **~8 clips/episodio → shorts** |
+| Formato | solo | **2 solo + 2 con invitado** |
+
+**La baja de cadencia (2.4 → 1/mes) es deliberada y va contra el récord de este
+show.** No se justifica por los datos del podcast —que dicen que aguantaba
+quincenal— sino porque desde el 16-jul existe una racha paralela de shorts en
+[[absadev]] que no existía durante esos 9.5 meses. Es un reparto de presupuesto
+(4-6 h/semana), no una corrección del show.
+
+**Se prueba por fin la hipótesis de duración.** La página registró el 19-ago que
+los episodios se alargaron +18% (12:55 → 15:16) mientras la audiencia se
+encogía, con r = −0.38 en 2026, y lo marcó como **hipótesis con confound
+grande**, pidiendo "una prueba deliberada si el podcast revive". El reinicio a
+**8-10 min** es esa prueba. ⚠️ Sigue sin ser un experimento limpio —cambian
+duración, plataforma, formato y títulos a la vez— así que si la audiencia sube
+**no se podrá atribuir a la duración**. Queda dicho de antemano para no
+inventarse la causa después.
+
+**Los invitados son la única pieza que adquiere público.** Con 16.1 oyentes
+únicos por episodio, este show recircula audiencia, no la trae. El formato
+entrevista está demostrado y dormido, no por aprender: *Café con Absa* llegó a
+**Listen Score 29 (top 10% mundial)** — ver [[absa-garcia]].
+
+**Dato pendiente que ahora sí decide algo:** el **% de escucha real**. Es lo
+único que falta para cerrar el techo de atención (0 → 104.8 h) y para saber si
+8-10 min fue la decisión correcta.
+
+⚠️ **Este show sigue frío mientras tanto:** +2 plays en 9 días (469 → 471). La
+reactivación se decide sobre un activo que se está enfriando, no sobre uno con
+inercia.
 
 ## Related
 

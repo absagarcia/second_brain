@@ -1265,3 +1265,140 @@ inferencia, no como contenido con fuente. Otra laguna explícita: de las tres
 falacias de prever sin índice de error sólo se conserva la primera.
 
 Índice actualizado (1 entidad, 2 conceptos, 1 comparación).
+
+## [2026-08-19] estrategia | Batch #7 (14→30 sep) + feedback de un espectador 60+ no-dev — blackicelabs
+
+Fuente: conversación con el usuario (petición de batch + feedback recibido de un
+amigo de su padre, médico de 60+ años, que ve los shorts y "se siente perdido"
+porque no sabe de IA). Sin archivo en `raw/`.
+
+**Batch #7 diseñado** — 9 shorts, 14→30 sep en días alternos (el calendario ya
+estaba cubierto hasta el 12 sep por el batch #5 y el batch grabado el 18-ago).
+Mix: 3 de nivel de entrada (Serie 9 nueva, *IA sin jerga*), 3 de identidad/arco
+(medio maratón cumplido, Swift condicional, 3 meses publicando), 2 de utilidad
+dev, 1 de bucle comentario→video. Registradas dos advertencias: la cadencia sube
+a 3.7/semana (decisión explícita del usuario, no descuido) y 9 shorts no caben en
+una sola sesión de grabación — el máximo ejecutado es 7. El video de Swift del
+24 sep es **condicional** a que la sesión 1 exista, por la regla que salió del
+batch del 18-ago (anunciar el hito, no la intención).
+
+**La decisión de fondo: test acotado, no pivote.** El feedback confirma desde
+fuera lo que el export de TikTok ya decía (motor de alcance no-dev), pero el
+precedente del video de inglés (alcance alto, conversión 0.00) dice que ancho ≠
+comunidad. Se separa explícitamente que *"qué es un modelo de IA"* **no es
+off-niche** — cambia la profundidad, no el tema, y el pool de búsqueda es órdenes
+de magnitud mayor. Condición de refutación registrada: si los 3 videos repiten el
+patrón alcance-alto/conversión-baja, la Serie 9 se cierra.
+
+**Sesgo nombrado:** n=1 y prueba ruidosa — se sabe de este espectador porque tiene
+acceso directo al creador; los que no entendieron y scrollearon no dejan rastro
+([[falacia-narrativa-y-pruebas-silenciosas]]).
+
+**Hueco de medición nuevo: la edad.** No hay un solo dato de edad en el
+expediente — el export de TikTok trae género y territorios pero ningún archivo de
+edad, y el snapshot de la API de YouTube tampoco incluyó demografía. La pregunta
+del usuario (*¿aplica a otras edades?*) queda **no respondible con lo que hay**;
+se separa en su lugar que "no-dev" son dos públicos distintos (dev aspirante vs.
+profesional de otro campo) con embudos distintos.
+
+Actualizadas [[estrategia-contenido-absadev]] y [[absadev]]. Índice actualizado.
+Sin páginas nuevas.
+
+## [2026-08-19] decisión | Reactivación del podcast + doctrina de dos títulos — blackicelabs
+
+El usuario decide volver a publicar [[blackicelabs-podcast]] tras **72 días de
+paro**: 1 episodio/mes, 4 grabados por adelantado, 6-12 clips por episodio hacia
+shorts. Actualizadas [[estrategia-contenido-absadev]] (sección nueva con el
+slate, las condiciones y la doctrina de títulos) y [[blackicelabs-podcast]]
+(sección de reactivación con la tabla antes/después).
+
+**El argumento aprobado no es el que traía la propuesta.** El podcast **no
+crece** — 16.1 oyentes únicos por episodio, 371 oyentes-episodio de por vida — y
+eso no mueve los 2,142 subs que faltan. Lo que sí hace es cambiar la economía de
+producción: **4 episodios × 8 clips = 32 clips ≈ 11 semanas de shorts a 3/semana,
+desde 4 sesiones de grabación**. Es el primer cambio que ataca la restricción
+real (4-6 h/semana) en vez de la métrica. Queda escrito que es **fábrica de
+contenido y motor de disfrute, no canal de crecimiento**, para que ninguna
+lectura futura lo mida con la vara equivocada.
+
+**Slate de 4 evergreen (8-10 min):** rata del programador (S8, solo — ep. 010 fue
+el #1 real del show con 25 oyentes), maestría vs experiencia (S3+S5, solo),
+sobrevivir la chamba gringa (S1, invitado) y el side project que cobra (S6,
+invitado: [[carlos-emilio-blanco]], apoyado en que [[fitexe]] ya factura
+MX$600/mes). ⚠️ El #4 requiere visto bueno de Emilio antes de grabarse.
+
+⚠️ **Tres condiciones de fallo registradas por adelantado**, no descubiertas
+después: (1) los clips **reemplazan** el calendario de shorts —el usuario venía
+en 4.3 videos/semana con dos slates colisionando, y apilar sería el patrón de
+sobre-extensión disfrazado de apalancamiento; **refutación: >3.5 videos/semana
+dos semanas seguidas = el plan está fallando aunque suban los números**—; (2) los
+clips se cortan en confesión/opinión, no en tip (*Chamba Gringa* #1/#2/#3:
+0.00 SPV y 0 comentarios los tres); (3) sólo se batchean temas evergreen, porque
+media parrilla histórica del show es de noticia y a 1/mes el episodio #4 saldría
+con material de 4 meses.
+
+**Doctrina nueva, del usuario:** *"YouTube y Spotify para podcast jalan
+diferente"* → **dos títulos por grabación**. Spotify = oyente ya suscrito
+hojeando un feed (`0NN. Tema declarativo`, el número ordena); YouTube = frío por
+búsqueda (consulta buscable delante, sin número). Se apoya en dato propio —
+**35.0% del tráfico es Búsqueda contra 9.9% de Sugeridos+Browse** — y extiende la
+corrección del 14-ago sólo a la plataforma donde aplica. ⚠️ Marcada como
+**hipótesis**: se refuta si los títulos de YouTube no superan la línea base de
+CTR cuando exista el export de Studio.
+
+**También se prueba por fin la hipótesis de duración** (8-10 min) que la página
+del podcast pidió el 19-ago. ⚠️ Registrado de antemano que **no será atribuible**:
+cambian duración, plataforma, formato y títulos a la vez.
+
+**Peticiones de dato:** el export de Studio (impresiones/CTR) sigue **abierto
+desde el 10-ago** y ahora vale más que nunca — 7 títulos del batch #5 más 4
+títulos largos entrando, y es lo único que puede validar la doctrina de títulos.
+Nueva: el **% de escucha real** del podcast, único número que falta para cerrar
+el techo de atención (0 → 104.8 h).
+
+### [2026-08-19] revisión del batch #7 — frontera Absadev / Absa Garcia
+
+El usuario revisó el slate el mismo día: **siete videos aprobados sin cambios**,
+dos descartados (*medio maratón* y *3 meses publicando: los números reales*).
+Sustituidos por dos de la Serie 5 (FitExe / el error de mis primeros años) para
+no invertir la ponderación identidad↔utilidad.
+
+Lo relevante no son los dos videos: es que **el running se declara territorio de
+[[absa-garcia]], no de [[absadev]]** — primera vez que la frontera entre las dos
+marcas se enuncia como regla y no se decide caso por caso. Registrada la
+discrepancia sin reescribir el pasado: el 29-jul esta misma página programó el
+crossover *a propósito*, y el batch grabado el 18-ago **ya incluye** un video de
+medio maratón en Absadev que se publica antes del 12 sep. El criterio cambió
+después de grabar. Ese video es justo el dato que podría reabrir la frontera.
+
+Anotado también que el video de métricas no es sólo "fuera de lugar": el canal
+no tiene aún un buen número que contar (SPV 0.21, Retention negativa, export de
+Studio sin jalar desde el 10-ago). Y que el video de FitExe **requiere ok de
+Emilio** — comunicación pública sobre revenue es decisión conjunta
+([[carlos-emilio-blanco]]).
+
+## [2026-08-19] corrección | ATHLETIX AI ya no existe — athletix
+
+El usuario reporta en sesión que **[[athletix-ai]] ya no existe**. Añadido un
+banner de corrección al inicio de la página, **sin borrar nada** del contenido
+anterior: lo documentado el 2026-07-10 desde el pitch deck sigue siendo un
+registro fiel de lo que se planeaba entonces, y ahora se lee como histórico.
+Actualizado `index.md`.
+
+**Por qué importa más allá de esa página:** el dominio `athletix` está definido
+en `CLAUDE.md` como proyecto en curso, [[hyper-bots]] figura como el estudio que
+lo construye, [[eliecer-garcia-romo]] y [[humberto-garcia-romo]] como
+co-fundadores activos, y **al menos 12 páginas de libros** (De cero a uno, The
+SaaS Playbook, Piensa como Amazon, Zero to One, Creando Unicornios…) usan
+ATHLETIX como su caso de aplicación. Todas esas lecturas quedan apuntando a un
+proyecto muerto.
+
+❓ **Abierto y no inferido:** fecha de cierre, causa, estado de [[hyper-bots]], y
+qué pasó con la sociedad entre los hermanos. El usuario declaró el hecho, no el
+contexto. **No se toca nada más hasta tener respuesta** — la regla del wiki es
+presentar y esperar confirmación, no corregir en cascada por cuenta propia.
+
+⚠️ **Cómo se destapó:** salió porque una propuesta de contenido iba a mandar a
+grabar un episodio sobre la startup. Es el caso de libro de por qué un wiki sin
+mantenimiento de estado se vuelve peligroso — no por estar incompleto, sino por
+seguir afirmando con confianza algo que dejó de ser cierto.

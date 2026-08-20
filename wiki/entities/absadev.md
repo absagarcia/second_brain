@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-16
+updated: 2026-08-19
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -456,6 +456,29 @@ It also doubles as the "one collaboration" growth lever in
 [[estrategia-contenido-absadev]]'s 90-day plan, since every guest brings
 their own audience. Candidate direction for Absadev's long-form, pending
 the CSV data before committing.
+
+## Primer feedback cualitativo de un espectador no-dev (2026-08-19)
+
+Un amigo del padre del usuario — **médico, 60+ años** — ve los shorts y dice
+sentirse **perdido**: no sabe de IA. Es el primer testimonio directo de un
+espectador registrado en esta página, y **confirma desde fuera** el hallazgo del
+export de TikTok del 10-ago (*el motor de alcance de la cuenta es no-dev*), que
+hasta ahora era una inferencia sobre agregados.
+
+⚠️ **Es n = 1 y es prueba ruidosa:** se sabe de esta persona porque tiene acceso
+directo al creador. Quien no entendió y siguió scrolleando no deja rastro
+(ver [[falacia-narrativa-y-pruebas-silenciosas]]). No mide cuánta gente hay
+detrás.
+
+**Hueco de medición nuevo — edad.** No hay un solo dato de edad en el expediente:
+el export nativo de TikTok trae `FollowerGender.csv` y `FollowerTopTerritories.csv`
+pero **ningún archivo de edad**, y el snapshot de la YouTube Analytics API del
+10-ago tampoco incluyó demografía. Queda al lado del export de Studio
+(impresiones/CTR), abierto desde el 10-ago.
+
+La consecuencia estratégica — test acotado de "nivel de entrada" (Serie 9), no
+pivote, con condición de refutación — está en [[estrategia-contenido-absadev]],
+batch #7.
 
 ## Related
 

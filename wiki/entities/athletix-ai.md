@@ -3,11 +3,34 @@ title: ATHLETIX AI
 type: entity
 domain: [athletix]
 created: 2026-07-10
-updated: 2026-07-29
+updated: 2026-08-19
 sources: [raw/athletix/pitch-deck-2026-07-10.md, "raw/books/De cero a uno.md", "raw/books/The SaaS Playbook.md", "raw/books/Piensa como Amazon (Empresa) .md"]
 ---
 
 # ATHLETIX AI
+
+> ## ⚠️ CORRECCIÓN 2026-08-19 — ATHLETIX AI YA NO EXISTE
+>
+> El usuario reporta en sesión que **la empresa ya no existe**. Todo lo que sigue
+> en esta página describe el proyecto **tal como se documentó el 2026-07-10 a
+> partir del pitch deck** y sigue siendo un registro fiel de lo que se creía y se
+> planeaba entonces — **no se borra nada**, según la regla de contaminación
+> retrospectiva de este wiki.
+>
+> **Lo que debe leerse distinto a partir de hoy:** el mercado, el producto, el
+> modelo de negocio y las proyecciones de abajo son **histórico, no plan
+> vigente**. Cualquier página que cite a ATHLETIX AI como proyecto en curso está
+> desactualizada — incluida la definición del dominio `athletix` en `CLAUDE.md`.
+>
+> ❓ **Sin responder, y no lo infiero:** cuándo se cerró, por qué, si
+> [[hyper-bots]] sigue en pie, y qué pasó con [[humberto-garcia-romo]] como
+> socio. El usuario sólo declaró el hecho. Estas preguntas quedan abiertas
+> porque la respuesta cambia lecturas de [[founder-mental-health-startup-risk]] y
+> de todas las páginas de libros que usaron ATHLETIX como caso de aplicación.
+>
+> **Fuente:** conversación con el usuario, 2026-08-19. Confianza alta sobre el
+> hecho (es su propia empresa); nula sobre las causas, que no se preguntaron.
+
 
 SaaS B2B platform (built by [[hyper-bots]]) that turns biometric data into
 sports performance decisions for Latin American athletes and sports

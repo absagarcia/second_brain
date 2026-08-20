@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-16
+updated: 2026-08-19
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -29,6 +29,10 @@ sources:
     fact_date: 2026-08-14
     ingest_date: 2026-08-14
     confidence: medium   # doctrina oficial de YouTube, parte interesada — ver [[youtube-shorts-distribucion]]
+  - path: conversation (feedback de un espectador 60+ no-dev + petición de batch #7)
+    fact_date: 2026-08-19
+    ingest_date: 2026-08-19
+    confidence: medium   # testimonio de primera mano, pero n=1 y prueba ruidosa
 ---
 
 # Estrategia de contenido — Absadev
@@ -1113,3 +1117,269 @@ reviewed with the user before picking the next 3. Baseline stats live on
 
 - [[absadev]] — the brand/channel + current stats baseline
 - [[eliecer-garcia-romo]] — the creator
+
+
+## Batch #7 — 14 → 30 sep, día sí día no, y el primer test deliberado de "nivel de entrada" (2026-08-19)
+
+**Pedido por el usuario el 2026-08-19.** Tiene calendario cubierto hasta el
+**12 sep** (batch #5 + el batch grabado el 18-ago). Este slate cubre del **14 al
+30 sep publicando en días alternos**: 9 shorts.
+
+| Fecha | Video | Serie | Función |
+|---|---|---|---|
+| dom 14 sep | *"Un señor de 60 me dijo que no entiende nada de lo que subo"* — qué es un modelo de IA, sin código | **9 — IA sin jerga #1** | apertura del test + registro (mitad pikacodes) |
+| mar 16 sep | ¿IA, machine learning y ChatGPT son lo mismo? | 9 — IA sin jerga #2 | pool de búsqueda alto |
+| jue 18 sep | El proyecto que sí me está dando dinero (FitExe) ⚠️ ver nota | 5 — Cómo llegué aquí | arco **cumplido**, sustituye al medio maratón |
+| sáb 20 sep | Qué IA uso para programar y cuál dejé de usar | 3 — Comparaciones | formato de mayor afinidad |
+| lun 22 sep | ¿Por qué ChatGPT inventa cosas? (y cuándo no creerle) | 9 — IA sin jerga #3 | el más útil a un profesional no-dev |
+| mié 24 sep | **7 días de Swift — día 1** (sólo si la sesión 1 ya está hecha) | 2 — Camino a AI Engineer | reintento bajo la regla del 18-ago |
+| vie 26 sep | Qué de la maestría sí uso en la chamba | 2 — Camino a AI Engineer | utilidad, arco vivo |
+| dom 28 sep | Conseguir Chamba Dev #8 — las preguntas nuevas que me dejaron | 6 — respuesta a comentarios | motor comentario→video, esta vez **ejecutado** |
+| mar 30 sep | El error que cometí en mis primeros años como dev | 5 — Cómo llegué aquí | vulnerabilidad + búsqueda evergreen |
+
+**Mix:** 3 de nivel de entrada (test), 3 de identidad/arco, 2 de utilidad dev,
+1 de bucle de comentarios. Mantiene la ponderación hacia la mitad *pikacodes*
+adoptada el 10-ago.
+
+### Revisión del mismo día: dos videos cambiados y una frontera de marca declarada
+
+El usuario revisó el slate el **2026-08-19** y descartó dos: *"Medio maratón: qué
+pasó de verdad"* y *"3 meses publicando: los números reales"*. Los otros siete
+quedan **sin cambios**. Se sustituyeron por dos de la Serie 5 para no perder la
+ponderación hacia identidad (sin ellos el batch quedaba 5 de utilidad contra 2 de
+identidad, al revés de la recomendación del 10-ago).
+
+**1. El running sale de [[absadev]] y se declara de [[absa-garcia]].** Razón del
+usuario: *"el del medio maratón lo veo más para Absa Garcia, mi otra red social"*.
+Es la primera vez que la frontera entre las dos marcas se declara de forma
+explícita en vez de decidirse caso por caso.
+
+> ⚠️ **Discrepancia con el registro previo, sin reescribirlo.** El 29-jul esta
+> página programó el crossover de running en Absadev *a propósito*, con el
+> argumento de que la audiencia no-dev de TikTok lo recibiría bien, y el **batch
+> grabado el 18-ago incluye un video de "medio maratón" en Absadev** — ya grabado,
+> publicando antes del 12 sep. O sea: el criterio cambió **después** de grabar,
+> no antes. Ambas cosas quedan en pie: el crossover del 18-ago existe y se
+> publica; de aquí en adelante el running va a [[absa-garcia]]. Si ese video del
+> 18-ago rinde por encima de la media en Absadev, esta frontera merece
+> reabrirse — es el dato que la decidiría, y llega justo antes del batch #7.
+
+**2. El video de números no se pierde, cambia de sitio.** *"3 meses publicando"*
+era transparencia de métricas y el usuario lo siente fuera de lugar aquí. Lectura
+honesta: **el canal no tiene todavía un buen número que contar** — SPV 0.21,
+Retention en negativo, y el export de Studio sigue sin jalarse desde el 10-ago.
+Un video de resultados sin el dato central es prematuro, no sólo incómodo.
+Candidato natural para cuando exista el export de Studio o una racha real.
+
+⚠️ **Restricción de socio en el video del 18 sep.** El video de FitExe toca
+revenue de un producto con **socio 50/50** ([[carlos-emilio-blanco]]), y esa
+página registra que precios, revenue y **comunicación pública** son decisión
+conjunta. **Requiere ok de Emilio antes de grabar.** Si no lo hay, la versión sin
+cifras (*"cómo conseguí que un gimnasio usara mi app"*, producto y proceso, sin
+MX$) no toca la restricción y sirve igual — o se cae a una comparación de la
+Serie 3, el formato de menor fricción.
+
+⚠️ **Cadencia:** 9 videos en 17 días = **3.7/semana**, por encima de los 3/semana
+acordados el 10-ago. Es decisión explícita del usuario (día sí, día no), no un
+descuido — se registra como tal. Y **9 shorts no caben en un solo día de
+grabación**: el máximo ejecutado de la historia registrada es 7 (batch #5,
+guionizado) / 5 (grabados el 18-ago). Recomendación: dos sesiones (5 + 4).
+
+⚠️ **El 24 sep es condicional.** Por la regla que salió del batch del 18-ago
+(*no anunciar un arco de aprendizaje hasta tener la primera sesión hecha*), ese
+video **no se graba** si la sesión 1 de Swift no ocurrió. Sustituto de reserva:
+una comparación más (Serie 3), que es el formato de menor fricción.
+
+### El dato nuevo: un espectador de 60+ años, no-dev, que no entiende nada
+
+**Reportado por el usuario el 2026-08-19:** un amigo de su padre, médico, 60+
+años, **ve los shorts** pero *"se siente perdido"* porque no sabe de IA.
+Es el primer feedback cualitativo de un espectador no-dev registrado en el wiki.
+
+**Qué confirma y qué no:**
+
+1. **Confirma, desde fuera, lo que el export de TikTok ya decía:** el motor de
+   alcance de la cuenta es **no-dev** ([[absadev]], 10-ago). Antes era una
+   inferencia sobre datos agregados; ahora hay una persona con nombre detrás.
+2. **No confirma que haya que bajar el nivel del canal entero.** El precedente
+   que manda es el **video de inglés**: ganó alcance y **convirtió 0.00**
+   (10-ago). Contenido ancho ya se probó una vez en este canal y produjo vistas
+   sin comunidad. Un pivote completo a "IA para todos" es la misma apuesta con
+   otro tema.
+3. **Pero *no* es contenido fuera de nicho.** La corrección #1 del 16-jul
+   (matar lo off-niche) se refería al video de fútbol, que rompía la señal de
+   tema. *"Qué es un modelo de IA"* está dentro del posicionamiento declarado
+   (*"Documentando mi camino de Dev a AI Engineer"*): cambia la **profundidad**,
+   no el tema. Y la doctrina del 14-ago dice que el techo de alcance lo pone el
+   *interés en el tema* — el pool de búsqueda de "qué es la IA" es órdenes de
+   magnitud mayor que el de "Flutter vs React Native".
+
+⚠️ **Sesgo de la fuente, nombrado (regla de [[falacia-narrativa-y-pruebas-silenciosas]]):**
+esto es **n = 1**, y es prueba **ruidosa** en el sentido de Taleb: sabemos de la
+persona que se molestó en decirlo porque tiene acceso directo al creador. Los que
+no entendieron y simplemente siguieron scrolleando **no dejan rastro** —
+exactamente el sesgo del superviviente al revés. Un solo testimonio audible no
+mide cuántos hay detrás.
+
+**Decisión tomada: test acotado, no pivote.** Los 3 videos de "IA sin jerga" del
+batch son un experimento con condición de refutación registrada:
+
+> Si los tres superan la línea base del canal **en SPV y comentarios**, la Serie 9
+> se queda y se amplía. Si repiten el patrón del video de inglés — alcance por
+> encima de la media y conversión por debajo — **se cierra la serie**, y la
+> lectura correcta es que este canal atrae no-devs pero no los convierte, sea cual
+> sea el tema.
+
+### La pregunta de la edad: el wiki no tiene el dato
+
+El usuario pregunta si esto aplica también a otras edades. **No se puede
+responder con lo que hay.** El export nativo de TikTok
+(`raw/blackicelabs/absadev-tiktok-2026-08-10/`) trae género y territorios —
+`FollowerGender.csv`, `FollowerTopTerritories.csv` — y **ningún archivo de edad**;
+el snapshot de la YouTube Analytics API del 10-ago tampoco incluyó demografía.
+**Hueco de medición nuevo**, al lado del export de Studio que sigue abierto desde
+el 10-ago.
+
+Lo que sí se puede separar sin datos nuevos es que **"no-dev" no es un público,
+son dos**, y el canal ya tocó los dos por accidente:
+
+- **Dev aspirante / junior** — el DM de Instagram que originó el batch #5. Le
+  falta experiencia, no vocabulario. El batch #5 ya lo atiende.
+- **Profesional de otro campo (el médico)** — le falta el vocabulario entero.
+  Es el público de la Serie 9, y **no es el mismo embudo**: lo más probable es
+  que dé vistas y likes y no suscripciones a un canal de dev.
+
+Confundir los dos es el error que haría parecer al test un éxito o un fracaso por
+la razón equivocada. **Próximo dato a jalar:** demografía por edad en YouTube
+Studio y TikTok — barato, y es lo único que convierte esta pregunta en algo
+decidible.
+
+---
+
+## [2026-08-19] Decisión: se reactiva el podcast como fábrica de contenido
+
+El usuario decide **volver a publicar [[blackicelabs-podcast]]**, detenido desde
+el 8 de junio (72 días), con un diseño distinto al de las 23 entregas anteriores:
+**1 episodio/mes, 4 grabados por adelantado, y 6–12 clips por episodio** hacia
+shorts. Propuesta suya; lo que sigue es el diseño acordado en sesión.
+
+### Por qué se aprueba, y cuál es el argumento real
+
+El argumento **no** es "el podcast crece" — no crece: **16.1 oyentes únicos por
+episodio**, 371 oyentes-episodio de por vida. Eso no mueve los 2,142 subs que
+faltan y decirlo de otra forma sería vender humo.
+
+El argumento es de **producción**:
+
+> 4 episodios × 8 clips = **32 clips** ≈ **11 semanas de shorts a 3/semana**,
+> salidos de **4 sesiones de grabación**.
+
+Es el primer cambio estructural que ataca la restricción real (4-6 h/semana) en
+vez de la métrica. La aritmética del §objetivo dice que esto pide un cambio de
+escalón; éste lo es **en horas de grabación por video publicado**, no en subs.
+
+Se apoya en tres hechos ya registrados en [[blackicelabs-podcast]]: la cadencia
+quincenal **está demostrada** (23 eps / 9.5 meses, la mejor consistencia
+documentada del usuario), el show **se detuvo en su pico** (feb 66 / abr 60 /
+may 62 plays) y no por revés, y el **formato comparación gana en los tres
+medios**.
+
+Y sirve al objetivo bloqueado que no es medible: **disfrutarlo**. El usuario
+quiere volver. Eso pesa por diseño (ver la trampa #1 de la doctrina: el dato dice
+qué funcionó, nunca qué quiere hacer el creador).
+
+### ⚠️ Las tres condiciones sin las cuales esto falla
+
+1. **Los clips REEMPLAZAN el calendario de shorts, no se apilan encima.** El
+   usuario venía en **4.3 videos/semana** con dos slates colisionando contra un
+   presupuesto de 4-6 h. Si los clips se publican *además*, esto es el patrón de
+   sobre-extensión —el mecanismo con el que abandonó nueve veces— disfrazado de
+   apalancamiento. **Condición de refutación: si la cadencia total supera 3.5
+   videos/semana durante dos semanas seguidas, el plan está fallando aunque los
+   números suban.**
+2. **Los clips se cortan en el momento de confesión u opinión, no en el de
+   tip.** Dato duro: *Chamba Gringa* #1/#2/#3 hicieron 47 / 23 / 93 vistas con
+   **0.00 SPV y 0 comentarios los tres** — y eso es exactamente lo que sale por
+   default de cortar a alguien hablando a cámara. Lo que convierte es la mitad
+   pikacodes: Swift **9.48 SPV**, tesis **5.49**.
+3. **Sólo se batchean temas evergreen.** La mitad del catálogo del show es de
+   noticia (*Gemini 3.0*, *OpenAI acaba de cambiar…*, *Copilot vs Gemini*,
+   *industria tech 2025*). A 1/mes, el episodio #4 sale con material de hace
+   4 meses. Las noticias se graban sueltas o no se graban.
+
+### El slate de 4 (evergreen, 8-10 min)
+
+Duración deliberadamente corta: el catálogo se alargó **+18% de 2025 a 2026**
+(12:55 → 15:16) mientras la audiencia se encogía (r = −0.38 en 2026). Está
+registrado como **hipótesis, no hallazgo** — reiniciar es la ocasión de probarla
+en condiciones limpias. Beneficio secundario: episodios cortos dan clips más
+limpios.
+
+| # | Tema | Serie | Formato | Material previo validado |
+|---|---|---|---|---|
+| 1 | La carrera de la rata del programador moderno | 8 (Fuera del código) | solo | **ep. 010 — 25 oyentes únicos, #1 real del show** |
+| 2 | Maestría vs experiencia: cuál te consigue la chamba | 3 (Comparaciones) + 5 | solo | ep. 022 (10 oyentes) + short de la tesis (**5.49 SPV**) |
+| 3 | Sobrevivir la chamba gringa | 1 (la apuesta de monopolio) | **invitado** | Serie 1 completa en shorts |
+| 4 | Nuestro side project por fin cobra | 6 (Código por gusto) | **invitado: [[carlos-emilio-blanco]]** | ep. 021 (16 oyentes) + short FitExe 11-ago |
+
+**Los dos solos se graban ya; los dos con invitado dependen de agenda.**
+
+**Por qué invitados en 2 de 4:** el podcast solo **no adquiere público** — sólo
+recircula el que ya existe. El invitado es la única pieza del plan que trae
+audiencia nueva, ya estaba listado como palanca de los 90 días, y **no es una
+habilidad por adquirir sino dormida**: *Café con Absa* llegó a **Listen Score 29
+(top 10% mundial)** con ese formato (ver [[absa-garcia]]).
+
+**El #4 es el más fuerte del slate y es nuevo:** [[fitexe]] ya cobra MX$600/mes
+de un gimnasio real, con socio 50/50. *"5 ideas de side projects para pagar la
+renta"* (ep. 021) era hipotético; ahora hay una cifra y un segundo protagonista
+que no cuesta agenda externa. ⚠️ **Requiere el visto bueno de Emilio antes de
+grabarse** — es decisor conjunto en comunicación pública, no invitado a secas.
+
+### Doctrina nueva: dos títulos por episodio (YouTube ≠ Spotify)
+
+Observación del usuario, adoptada: **la misma grabación sale con títulos
+distintos en cada plataforma, porque el consumidor está en un estado distinto.**
+El wiki no tenía esto escrito en ningún lado.
+
+| | **Spotify** | **YouTube (largo)** |
+|---|---|---|
+| Quién lo ve | ya suscrito, hojeando un feed | frío, llegando por búsqueda |
+| Qué necesita el título | continuidad de marca, ubicación en la serie | la consulta buscable y la tensión |
+| Forma | `0NN. Tema declarativo` | pregunta/promesa, consulta delante |
+
+Se apoya en dato propio, no en costumbre: **35.0% del tráfico del canal es
+Búsqueda de YouTube** contra **9.9% de Sugeridos+Browse**, y la corrección del
+14-ago ya obliga a poner la consulta buscable delante del número de serie. En
+Spotify esa corrección **no aplica** — ahí el número de episodio sí ordena, y el
+histórico del show lo usó durante 23 entregas.
+
+Ejemplos del slate:
+
+| Spotify | YouTube |
+|---|---|
+| `024. La carrera de la rata del programador moderno` | Burnout de programador: por qué subir de sueldo no lo arregla |
+| `025. Maestría vs experiencia` | ¿Vale la pena una maestría en IA para programar? |
+| `026. Sobrevivir la chamba gringa — con [invitado]` | Trabajar remoto para EE.UU. desde LatAm: lo que nadie te advierte |
+| `027. El side project que por fin cobra — con Emilio` | Nuestro side project ya genera dinero: cuánto y cómo |
+
+⚠️ **Esto es hipótesis, no hallazgo.** Nace de un mecanismo plausible + el dato
+de reparto de tráfico, no de una prueba. **Condición de refutación:** si los
+títulos de YouTube no superan la línea base de CTR del canal cuando por fin
+exista el export de Studio, la doctrina se reescribe.
+
+### Y sube otra vez la prioridad del export de Studio
+
+Abierto desde el 10-ago. Con **7 títulos de búsqueda del batch #5 + 4 títulos
+largos nuevos** entrando, es la ventana en la que más ha valido: es el único dato
+capaz de separar *falla por empaquetado* de *falla por distribución*, y ahora
+también el único que puede validar o tumbar la doctrina de dos títulos.
+
+**Petición de dato secundaria, nueva:** el **% de escucha real** del podcast.
+Es el único número que falta para cerrar el techo de atención del show (acotado
+en 104.8 h el 19-ago) y decidir si los 8-10 min son la duración correcta.
+
+**Vida de esta sección:** el slate y las cifras son **de vida corta**. De vida
+larga son tres cosas: que **los clips deben reemplazar y no apilar**, que **el
+podcast es fábrica y no motor de crecimiento**, y la **doctrina de dos títulos**
+(si sobrevive a su prueba).
