@@ -1402,3 +1402,54 @@ presentar y esperar confirmación, no corregir en cascada por cuenta propia.
 grabar un episodio sobre la startup. Es el caso de libro de por qué un wiki sin
 mantenimiento de estado se vuelve peligroso — no por estar incompleto, sino por
 seguir afirmando con confianza algo que dejó de ser cierto.
+
+## [2026-08-20] ingest | Consejo de Daniel sobre el guion de los shorts — blackicelabs
+
+El usuario reporta que [[daniel]] le dice que **hable de lo que le pasa en vez de
+hablar sobre aprender**. Nueva sección en [[estrategia-contenido-absadev]], nota
+en [[absadev]] y sección de contenido nueva en [[daniel]] (que pasa a tener
+también dominio `blackicelabs`). Actualizado `index.md`.
+
+**Por qué vale más que una opinión suelta:** converge con la tabla de SPV del
+10-ago (confesión 9.48 / tesis 5.49 contra 0.00 en los tres *Chamba Gringa*) y
+con la condición #2 del podcast del 19-ago, **sin que Daniel haya visto esos
+números**. Evidencia independiente, no eco.
+
+⚠️ **Registrado el contraejemplo, no barrido:** el video de mayor SPV del canal
+*es* un anuncio de aprendizaje ("voy a aprender Swift", 9.48) — y también es la
+promesa que se incumplió tres veces. El eje que la medición sí respalda es
+*contar vs. enseñar* y *hecho vivido vs. promesa futura*, no "aprender" como
+tema. Se adopta como regla de guion (la primera frase es algo que le pasó), no
+como veto de temas; ningún slate cambia.
+
+⚠️ **Dos señales cualitativas n = 1 que apuntan al revés, ambas en pie:** el
+médico de 60+ (19-ago) pide más explicación; Daniel pide menos. La Serie 9 sigue
+como test acotado, con recomendación de abrir sus tres videos por un incidente,
+y con condición de refutación explícita para el consejo de Daniel.
+
+## [2026-08-20] decisión | Batch #7 y slate del podcast reescritos en clave "lo que me pasa" — blackicelabs
+
+El usuario pide llevar el consejo de [[daniel]] más allá de la regla de guion y
+**rehacer los dos slates pendientes**. Nueva sección en
+[[estrategia-contenido-absadev]]: **Serie 10 — "Lo que me está pasando"**, 9
+shorts del 14→30 sep donde la primera frase de cada uno es un incidente ya
+fechado en el wiki, más los 4 episodios del podcast reescritos por su apertura
+(mismos temas, distinta entrada). Actualizado `index.md`.
+
+**Lo que entra y no estaba:** el video de la **promesa de Swift incumplida** — la
+deuda más vieja del canal, con suscriptores que llegaron por el short de 9.48 SPV
+y que nunca supieron qué pasó. Y el DM de Instagram sustituye a *Chamba Dev #8*
+como motor de bucle de audiencia, porque la Serie 1 hizo 0.00 SPV y 0 comentarios
+las tres veces.
+
+⚠️ **El costo, registrado y no barrido:** la Serie 9 baja de 3 videos a 1.5, así
+que **su condición de refutación del 19-ago deja de ser evaluable** y el feedback
+del médico de 60+ queda sin poner a prueba. Se cambió un experimento diseñado por
+una regla respaldada por una sola opinión de un par. El slate anterior queda
+íntegro arriba en la página, recuperable palabra por palabra.
+
+⚠️ **Dos aperturas del podcast (#1 y #4) son plantillas, no citas** — el wiki no
+tiene la anécdota concreta detrás; el usuario debe rellenarlas con lo que pasó de
+verdad o la apertura se cae. Cadencia sin cambios y sigue en 3.7/semana; los
+clips del episodio 1 no pueden publicarse antes del 30 sep sin romper el techo de
+3.5/semana fijado el 19-ago.

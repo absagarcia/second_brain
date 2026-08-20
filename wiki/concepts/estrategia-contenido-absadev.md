@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-19
+updated: 2026-08-20
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -1383,3 +1383,185 @@ en 104.8 h el 19-ago) y decidir si los 8-10 min son la duración correcta.
 larga son tres cosas: que **los clips deben reemplazar y no apilar**, que **el
 podcast es fábrica y no motor de crecimiento**, y la **doctrina de dos títulos**
 (si sobrevive a su prueba).
+
+## [2026-08-20] Consejo de Daniel: "habla de lo que te pasa, no de aprender"
+
+**Reportado por el usuario en sesión.** [[daniel]] —colega dev, no audiencia del
+canal— le dice que **hable de lo que le pasa en vez de hablar sobre aprender**.
+Es feedback cualitativo de un par, `confidence: medium`: no viene de un
+espectador, no viene de un dato, y es una sola opinión. Se registra porque
+**converge con lo que la medición ya venía diciendo por otro camino**.
+
+### Con qué converge (dato ya registrado, no nuevo)
+
+| Video | Qué es | SPV |
+|---|---|---:|
+| Amo Flutter… y aun así voy a aprender Swift | confesión personal | **9.48** |
+| Ya estoy haciendo la tesis | lo que le está pasando | **5.49** |
+| El error de los devs latinos al hablar inglés | enseñanza/tip | **0.00** |
+| Chamba Gringa #1 / #2 / #3 | enseñanza/tip | **0.00 los tres**, 0 comentarios |
+
+Y ya estaba escrito en dos sitios independientes: *"la gente comenta
+sentimientos, no tips"* (§contraste devcaress↔pikacodes, 21-jul) y la condición
+#2 de la reactivación del podcast (*"los clips se cortan en el momento de
+confesión u opinión, no en el de tip"*, 19-ago). Daniel llega a lo mismo **sin
+haber visto ninguno de esos números**. Eso es lo que le da peso: es evidencia
+independiente, no un eco.
+
+### Dónde el consejo, tomado al pie de la letra, se rompe
+
+**El video que más convierte en la historia del canal es un anuncio de
+aprendizaje.** 9.48 SPV, y era literalmente *"voy a aprender Swift"*. Aplicar
+"no hables de aprender" como regla habría borrado la mejor pieza del expediente.
+
+El eje que de verdad separa las dos columnas de la tabla **no es aprender vs. no
+aprender**, son otros dos:
+
+1. **Contar vs. enseñar.** Los que convierten narran; los que no, instruyen.
+2. **Hecho vivido vs. promesa futura.** *"Ya estoy haciendo la tesis"* es un
+   hecho. *"Voy a aprender Swift"* es una promesa — y **esa promesa se incumplió
+   dos veces** (23-jul anunciada, 9-ago re-enmarcada, 18-ago declarada detenida;
+   ver [[absadev]]). Convirtió altísimo *y* dejó una deuda con los suscriptores
+   que llegaron por ella.
+
+Leído así, el consejo de Daniel es la **generalización de la regla que este wiki
+ya adoptó el 18-ago** (*no anunciar un arco de aprendizaje hasta tener la primera
+sesión hecha*). Lo que él aporta es el motivo estructural, no la táctica:
+**"lo que me pasa" tiene suministro ilimitado y coste de investigación cero, y
+no lo puede incumplir un calendario.** Eso ataca directamente la restricción real
+—4-6 h/semana— y el modo de fallo histórico del creador, que es abandonar por
+sobre-extensión, no por mal contenido.
+
+### Regla operativa que se adopta
+
+> Antes de grabar cualquier short, la primera frase tiene que ser **algo que le
+> pasó**, no algo que va a explicar. La enseñanza puede venir después, dentro del
+> mismo video; el punto de entrada no.
+
+No cambia ningún slate ya programado. Es una regla de **guion**, no de tema — la
+mayoría de los videos pendientes la cumplen con reescribir la apertura.
+
+### Colisión con el batch #7, declarada y no resuelta
+
+La **Serie 9 (IA sin jerga)** es explicación pura para un espectador no-dev: es
+lo más lejos de este consejo que hay en el calendario. **No se cancela** — es un
+test acotado con condición de refutación propia, aprobado el 19-ago con su propio
+argumento (el médico de 60+). Pero los tres videos entran ahora con una tensión
+explícita entre dos señales cualitativas, ambas n = 1:
+
+- el espectador no-dev pide **menos jerga y más explicación**,
+- el par dev pide **menos explicación y más vida**.
+
+Recomendación mínima que satisface a las dos: el #1 del batch ya está envuelto en
+un hecho vivido (*"un señor de 60 me dijo que no entiende nada"*). **Que los otros
+dos de la Serie 9 abran igual** — incidente primero, explicación después. Así el
+test de nivel de entrada sigue siendo un test, sin regalar la apertura.
+
+⚠️ **Condición de refutación del consejo de Daniel:** si los videos de la Serie 9
+que sí abren con explicación pura superan el SPV base del canal, el consejo no
+aplica como regla general y hay que reescribir esta sección.
+
+**Vida de esta sección:** **larga**. Es una regla de guion, no una cifra. Lo de
+vida corta son los SPV de la tabla, que ya viven en [[absadev]].
+
+---
+
+## [2026-08-20] Rediseño: batch #7 y slate del podcast se reescriben en clave "lo que me pasa"
+
+**Pedido por el usuario el mismo día**, después del consejo de [[daniel]]: en vez
+de dejar la regla como corrección de aperturas, **rehacer los dos slates
+pendientes** (los 9 shorts del 14→30 sep y los 4 episodios del podcast) como una
+serie de piezas nacidas de experiencias vividas.
+
+⚠️ **Lo que se sustituye y lo que no se borra.** El slate del batch #7 del 19-ago
+y el slate de podcast del 19-ago quedan **arriba, intactos**, con su argumento
+original. Esto los **supersede como plan de grabación**, no los corrige: fueron
+decisiones legítimas con la información de ese día. Si el rediseño falla, el
+slate anterior sigue siendo recuperable palabra por palabra.
+
+### El criterio de selección (y desde qué ángulo comprimí)
+
+Cada pieza tiene que salir de **un hecho ya registrado en este wiki**, con fecha,
+que le pasó al usuario. No inventé experiencias: barrí [[absadev]],
+[[estrategia-contenido-absadev]], [[fitexe]] y [[blackicelabs-podcast]] buscando
+incidentes fechados y esos son los que entran. **Ángulo aplicado:** prioricé los
+hechos con *deuda o fricción* (promesa incumplida, cosa que no entendió, cosa que
+abandonó) por encima de los hechos con logro, porque la tabla de SPV dice que lo
+que convierte es la confesión, no el trofeo. Si al usuario le interesa más el
+ángulo de logro, esto se rebaraja.
+
+### Batch #7 reescrito — "Serie 10: Lo que me está pasando" (14 → 30 sep)
+
+| Fecha | Apertura (primera frase = el hecho) | De dónde sale el hecho | Qué se cuenta después |
+|---|---|---|---|
+| dom 14 sep | *"Un señor de 60 me dijo que no entiende nada de lo que subo."* | feedback del médico, 19-ago | qué es un modelo de IA, sin código — **sobrevive de la Serie 9** |
+| mar 16 sep | *"Hace un mes dije en este canal que iba a aprender Swift. No lo hice."* | promesa detenida, 18-ago | por qué se cayó, qué ganó la prioridad, y el reintento chico con fecha |
+| jue 18 sep | *"Un desconocido me mandó siete preguntas por DM y con eso hice un mes de contenido."* | inbound de Instagram, 16-ago | la que más se repitió y qué le contestó |
+| sáb 20 sep | *"Un gimnasio de verdad nos está pagando por la app."* ⚠️ ok de Emilio | [[fitexe]], MX$600/mes | cómo llegó ahí — sin cifras si no hay ok |
+| lun 22 sep | *"Le pregunté a la IA algo de mi propia chamba y me inventó la respuesta."* | Serie 9 #3 reencuadrada | por qué alucina, y cuándo no creerle |
+| mié 24 sep | *"Voy a la mitad de la tesis y nadie me avisó de esta parte."* | tesis en curso, [[absadev]] | lo que la maestría no te dice; hereda el 5.49 SPV del short original |
+| vie 26 sep | *"Llevo desde 2017 haciendo contenido y lo he dejado nueve veces."* | flagship, ya escrito 21-jul | por qué esta vez está grabando por lotes |
+| dom 28 sep | *"Me tocó una junta en inglés en la que no entendí ni la mitad."* | trabajo en entorno gringo, perfil del creador | lo que hace ahora en esas juntas |
+| mar 30 sep | *"Llevo un mes metiendo todo lo que aprendo en un cerebro de archivos de texto."* | este wiki, en construcción desde 14-jul; [[daniel]] | qué es, por qué no Notion, para qué le sirve |
+
+**Qué cambió respecto al slate del 19-ago, en una línea cada uno:**
+
+- **Sobrevive 1 de los 3 de Serie 9** (el del señor de 60, que ya abría por un
+  hecho) y **uno se reencuadra** (la alucinación, ahora contada como algo que le
+  pasó a él). **Sale** *"¿IA, machine learning y ChatGPT son lo mismo?"*: es
+  explicación pura sin incidente que la sostenga, y era el más lejos de la regla.
+- **Sale** *"Qué IA uso para programar y cuál dejé de usar"* (Serie 3,
+  comparación) y *"Qué de la maestría sí uso en la chamba"*: los dos son buenos y
+  los dos son enseñanza. Vuelven al pool, no se pierden.
+- **Sale** *"Conseguir Chamba Dev #8"*: la Serie 1 completa hizo **0.00 SPV y 0
+  comentarios**; el bucle comentario→video se conserva, pero ahora entra por el
+  DM de Instagram, que es el que sí produjo algo.
+- **Entra el video de Swift incumplido**, que es la pieza que este expediente
+  venía pidiendo desde el 18-ago: hay suscriptores que llegaron por esa promesa
+  (9.48 SPV) y **nadie les ha contado qué pasó**. Es la deuda más vieja del canal
+  y es, literalmente, "lo que me pasa".
+
+⚠️ **La Serie 9 pierde su test limpio, y hay que decirlo.** Con 1.5 videos en vez
+de 3, la condición de refutación del 19-ago (*"si los tres superan la línea base
+en SPV y comentarios…"*) **ya no es evaluable como estaba escrita**. El costo es
+real: se cambió un experimento diseñado por una regla de guion respaldada por una
+sola opinión. Se acepta a propósito, y queda anotado que el dato del médico de
+60+ sigue **sin poner a prueba**.
+
+⚠️ **La cadencia no cambia y sigue por encima de lo acordado:** 9 videos / 17
+días = **3.7 por semana** contra los 3 pactados el 10-ago. Recomendación intacta:
+**dos sesiones de grabación (5 + 4)**, porque el máximo histórico ejecutado en un
+día es 5.
+
+### Slate del podcast reescrito — misma regla, mismos 4 episodios
+
+Los cuatro temas del 19-ago **se mantienen**: estaban elegidos por dato (oyentes
+por episodio, formato comparación, evergreen). Lo que cambia es **por dónde
+entra cada uno**.
+
+| # | Abre por | Tema que desarrolla | Título Spotify | Título YouTube |
+|---|---|---|---|---|
+| 1 | *"Subí de sueldo y a los tres meses estaba peor que antes."* | la carrera de la rata del programador | `024. La carrera de la rata del programador moderno` | Burnout de programador: por qué subir de sueldo no lo arregla |
+| 2 | *"Estoy pagando una maestría mientras la chamba me pide otra cosa."* | maestría vs experiencia | `025. Maestría vs experiencia` | ¿Vale la pena una maestría en IA para programar? |
+| 3 | *"El primer año trabajando para gringos entendí como la mitad de lo que decían."* | sobrevivir la chamba gringa (invitado) | `026. Sobrevivir la chamba gringa — con [invitado]` | Trabajar remoto para EE.UU. desde LatAm: lo que nadie te advierte |
+| 4 | *"Nos llegó el primer pago de un gimnasio y no sabíamos ni cómo facturarlo."* | el side project que cobra ([[carlos-emilio-blanco]]) | `027. El side project que por fin cobra — con Emilio` | Nuestro side project ya genera dinero: cuánto y cómo |
+
+⚠️ **La apertura del #1 y la del #4 son plantillas, no citas.** Salen del perfil
+del creador y del hecho de FitExe registrados en el wiki, pero **el wiki no tiene
+la anécdota concreta** — el usuario tiene que rellenarlas con lo que de verdad
+pasó antes de grabar. Si no hay anécdota real detrás, la apertura se cae: una
+confesión inventada es exactamente lo que la regla intenta evitar.
+
+**Esto refuerza la condición #2 de la reactivación** (los clips se cortan en
+confesión, no en tip): si cada episodio *abre* por un incidente, el clip de mayor
+valor ya está grabado en el primer minuto, en vez de haber que buscarlo.
+
+⚠️ **La condición #1 sigue siendo la que puede tumbar todo:** los clips
+**reemplazan** el calendario de shorts. Con el batch #7 ya en 3.7/semana, los
+clips del episodio 1 **no pueden empezar a publicarse antes del 30 sep** sin
+romper el techo de 3.5/semana que se fijó como condición de refutación el 19-ago.
+
+**Vida de esta sección:** el par de slates es de **vida corta** (se agota el 30
+sep). De vida larga es una sola cosa: **el punto de entrada de una pieza es un
+incidente fechado y verificable, y si no existe el incidente, la pieza no se
+graba así.**
