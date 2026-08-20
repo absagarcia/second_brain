@@ -1565,3 +1565,109 @@ romper el techo de 3.5/semana que se fijó como condición de refutación el 19-
 sep). De vida larga es una sola cosa: **el punto de entrada de una pieza es un
 incidente fechado y verificable, y si no existe el incidente, la pieza no se
 graba así.**
+
+### ⚠️ Rechazo del mismo día: la Serie 10 no pasa el filtro "esto no es de dev"
+
+**El usuario rechaza 8 de los 9 shorts el 2026-08-20**, horas después de
+escribirlos. Salva sólo el del **30 sep** (el segundo cerebro en archivos de
+texto). Razón textual: *"lo demás no lo sentí como dev"*.
+
+**Qué falló, nombrado como error de compresión y no como cambio de opinión del
+usuario.** El ángulo declarado arriba —priorizar hechos con *deuda o fricción*—
+se cumplió, pero la fricción que fui a buscar fue **la del creador de contenido**:
+la promesa incumplida, la racha rota nueve veces, el DM, la tesis, la junta en
+inglés. Ocho de nueve piezas hablaban de *alguien que hace contenido y estudia*,
+no de *alguien que programa*. El único que sobrevive es el único donde hay
+**artefacto técnico** (archivos de texto, git, sin Notion). Es la trampa #2 del
+propio `CLAUDE.md` en vivo: el compresor eligió qué importaba desde su punto de
+vista, y no era el del usuario.
+
+**Corrección al criterio, de vida larga:** *"lo que me pasa"* en este canal
+significa **lo que me pasa programando**, no lo que me pasa como creador. La
+biografía del canal no es el contenido del canal.
+
+#### Lista de rechazo — no volver a proponer esto (petición explícita del usuario)
+
+Se guarda pieza por pieza, con el motivo, para que la próxima propuesta no
+repita el mismo molde. **Esto es un filtro permanente, no una nota de sesión.**
+
+| Propuesta rechazada | Por qué se cayó |
+|---|---|
+| *"Hace un mes dije que iba a aprender Swift. No lo hice."* | meta-canal: le habla a los suscriptores sobre una promesa del canal, no al dev |
+| *"Un desconocido me mandó 7 preguntas por DM y con eso hice un mes de contenido."* | el hecho es de producción de contenido; el dev no aparece |
+| *"Llevo desde 2017 haciendo contenido y lo he dejado nueve veces."* | biografía de creador — el tema es la constancia, no el oficio |
+| *"Voy a la mitad de la tesis y nadie me avisó de esta parte."* | académico, no técnico: no hay artefacto ni decisión de código |
+| *"Me tocó una junta en inglés en la que no entendí ni la mitad."* | idioma y ambiente, no código; la chamba gringa sirve **en code review y PRs**, no en la junta |
+| *"Un señor de 60 me dijo que no entiende nada de lo que subo."* | el incidente es sobre la audiencia del canal; explicación de nivel de entrada disfrazada |
+| *"Le pregunté a la IA algo de mi chamba y me inventó la respuesta."* | iba en la dirección correcta pero quedó genérico: sin el caso concreto de código, es opinión sobre IA, no anécdota |
+| *"Un gimnasio de verdad nos está pagando por la app."* | no rechazado por tema —[[fitexe]] sigue en pie— sino porque se contó como hito de negocio y no como problema técnico resuelto |
+
+**Regla que sale de la lista:** si la anécdota se puede contar sin mencionar
+código, arquitectura, una herramienta o una decisión técnica, **no es de este
+canal**. Y el corolario que el usuario ya validó al salvar sólo un video: la
+pieza necesita un **artefacto** — algo que se pueda enseñar en pantalla.
+
+**Registro adicional (2026-08-20), tono elegido por el usuario:** de los cuatro
+registros posibles prefiere **opinión contra corriente**, por encima de la
+confesión de error. No contradice nada: la condición #2 de la reactivación del
+podcast ya nombraba *"confesión **u opinión**"* como el punto de corte que
+convierte. Sí desplaza el énfasis de la tabla de SPV, que hasta hoy sólo tenía
+evidencia del lado confesión. **Las cuatro venas quedan abiertas** —bugs y
+producción, herramientas que se construye, la chamba gringa en código, IA en el
+flujo real—: el usuario dice tener anécdotas en las cuatro.
+
+**Estado:** batch #7 **sin slate vigente**. El del 19-ago sigue siendo el último
+plan aprobado; la Serie 10 queda como intento fallido, documentado, no borrado.
+
+### Instrumento validado: qué forma de pregunta sí produce material (2026-08-20)
+
+Tras el rechazo de la Serie 10, el usuario pidió preguntas en vez de propuestas.
+**La primera tanda no prendió** (preguntas abstractas y superlativas: *"el bug que
+más te ha costado"*, *"qué has roto en producción"*). La segunda sí: cambió el
+método a **lo último en vez de lo mejor**, **anclaje en repos propios** y
+**afirmaciones para reaccionar**. El usuario marcó ocho como buenas.
+
+⚠️ **Estado exacto: eligió las preguntas, todavía no las contestó.** Esto valida
+la *forma*, no produce todavía el contenido.
+
+**Las ocho que funcionaron:**
+
+1. ¿Cuál fue el último PR tuyo que tardó más de lo esperado, y por qué se atoró?
+2. ¿Qué parte de [[fitexe]] ya reescribiste dos veces o más?
+3. ¿Qué decisión técnica tomaste en FitExe que en la chamba no te dejarían tomar?
+4. Reacciona: *"escribir tests en un side project es perder el tiempo"*
+5. Reacciona: *"TypeScript en modo estricto estorba más de lo que ayuda"*
+6. Reacciona: *"clean architecture en una app móvil es sobreingeniería"*
+7. Reacciona: *"un junior hoy no necesita aprender a programar sin IA"*
+8. ¿Qué tienes en tu setup que ningún otro dev que conozcas tenga?
+
+**Por qué esta forma funciona y la otra no:** la pregunta superlativa obliga a
+buscar en toda la memoria y devuelve lo genérico; la pregunta anclada
+(*el último*, *en tu repo*, *sí o no a esta frase*) devuelve un caso con detalle.
+Es un hallazgo de **vida larga** y aplica a todo batch futuro, no sólo a éste.
+
+#### Lo que descartó también dice algo
+
+De 18 preguntas dejó fuera bloques enteros y el patrón es limpio:
+
+- **Nada de "lo último / lo mundano"** (qué commiteaste, qué tienes abierto, en
+  qué se te fue la tarde).
+- **Nada de romper cosas** — ni el bug caro, ni lo que tiró producción, ni *"qué
+  está feo por dentro y funciona igual"*, ni *"qué se te cayó con un usuario real
+  enfrente"*, ni el archivo que daría pena enseñar.
+- **Sí** decisiones con criterio detrás (PR atorado, reescrituras, libertad
+  técnica del proyecto propio) y **sí** las cuatro afirmaciones de opinión.
+
+**Lectura:** quiere aparecer como alguien **con criterio**, no como alguien
+confesando desorden. Es coherente con el tono que ya había elegido —opinión
+contra corriente— y es la primera vez que el expediente ve el límite marcado por
+el propio creador.
+
+⚠️ **Tensión con el dato, sin resolver.** La tabla de SPV que respalda toda esta
+línea (Swift 9.48, tesis 5.49) es de **confesión de vulnerabilidad**, no de
+opinión técnica: *"voy a aprender Swift porque no sé"* y *"estoy en medio de la
+tesis"* son admisiones. La evidencia del canal a favor de la opinión pura es
+**cero** — no en contra, simplemente inexistente. **Condición de refutación:** si
+los shorts de opinión técnica quedan por debajo de la línea base de SPV mientras
+los de confesión la superan, el eje que convierte es vulnerabilidad y no criterio,
+y esta preferencia hay que renegociarla con el usuario en esos términos.

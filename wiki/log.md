@@ -1453,3 +1453,42 @@ tiene la anécdota concreta detrás; el usuario debe rellenarlas con lo que pas�
 verdad o la apertura se cae. Cadencia sin cambios y sigue en 3.7/semana; los
 clips del episodio 1 no pueden publicarse antes del 30 sep sin romper el techo de
 3.5/semana fijado el 19-ago.
+
+## [2026-08-20] corrección | La Serie 10 se cae: "no lo sentí como dev" — blackicelabs
+
+El usuario rechaza 8 de los 9 shorts de la Serie 10 escritos horas antes; salva
+sólo el del segundo cerebro. Error de compresión mío, registrado como tal en
+[[estrategia-contenido-absadev]]: busqué fricción **del creador de contenido**
+(la promesa, la racha, el DM, la tesis) cuando lo que pedía era fricción **del
+dev**. Corrección de vida larga: *lo que me pasa* = lo que me pasa programando.
+
+**A petición explícita del usuario queda una lista de rechazo pieza por pieza**
+con el motivo de cada caída, como filtro permanente para no repetir el molde.
+Regla derivada: si la anécdota se puede contar sin mencionar código,
+arquitectura, una herramienta o una decisión técnica, no es de este canal; y la
+pieza necesita un **artefacto** que se pueda enseñar en pantalla.
+
+Registrado también el tono que elige el usuario —**opinión contra corriente**,
+no confesión de error— y las cuatro venas donde dice tener anécdotas: bugs y
+producción, herramientas que se construye, la chamba gringa en código, IA en su
+flujo real. **El batch #7 queda sin slate vigente** hasta que haya anécdotas
+reales; el slate del 19-ago vuelve a ser el último aprobado.
+
+## [2026-08-20] método | Instrumento de extracción de anécdotas — segunda tanda validada — blackicelabs
+
+La primera tanda de preguntas falló (abstractas, superlativas). La segunda
+funcionó al cambiar de método: **lo último en vez de lo mejor, anclaje en repos
+propios, y afirmaciones para reaccionar**. El usuario marcó **ocho** como buenas
+— pero **aún no las contesta**: está validada la forma, no el contenido. Las ocho
+quedan escritas en [[estrategia-contenido-absadev]] como instrumento reutilizable
+para batches futuros (hallazgo de vida larga).
+
+**Lo que descartó dice más que lo que eligió:** fuera todo lo mundano y **todo lo
+de romper cosas** (bug caro, producción caída, el archivo que da pena, lo que se
+cayó con un usuario enfrente). Dentro, decisiones con criterio y opiniones.
+Quiere aparecer con **criterio**, no confesando desorden.
+
+⚠️ **Tensión anotada, no resuelta:** los dos únicos SPV altos del canal (9.48 /
+5.49) son **confesiones de vulnerabilidad**, no opiniones técnicas. Evidencia a
+favor de la opinión pura: cero, ni a favor ni en contra. Queda condición de
+refutación explícita.
