@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -33,6 +33,10 @@ sources:
     fact_date: 2026-08-19
     ingest_date: 2026-08-19
     confidence: medium   # testimonio de primera mano, pero n=1 y prueba ruidosa
+  - path: raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md (catálogo de DevTalles, pegado por el usuario como banco de ideas)
+    fact_date: 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: low      # informe sintetizado, sin verificar y sin métricas — ver [[devtalles]]
 ---
 
 # Estrategia de contenido — Absadev
@@ -1671,3 +1675,116 @@ tesis"* son admisiones. La evidencia del canal a favor de la opinión pura es
 los shorts de opinión técnica quedan por debajo de la línea base de SPV mientras
 los de confesión la superan, el eje que convierte es vulnerabilidad y no criterio,
 y esta preferencia hay que renegociarla con el usuario en esos términos.
+
+## [2026-08-25] DevTalles como banco de temas — qué se toma y qué no
+
+El usuario ingiere un catálogo de ~270 episodios de [[devtalles]] (Fernando
+Herrera, creador que declara admirar) **explícitamente como fuente de ideas para
+episodios de [[blackicelabs-podcast]]**. Lo que sigue es lo que ese catálogo
+cambia en esta estrategia, y un **pool de candidatos** — no un slate aprobado.
+
+### Lo primero: no es una fuente de demanda
+
+**El catálogo no trae una sola métrica.** Ni plays, ni oyentes, ni retención.
+Dice qué se publicó, nunca qué se escuchó, y además su procedencia no está
+verificada (ver §Fiabilidad en [[devtalles]]). Tomar un tema "porque a él le
+funciona" es un enunciado que esta fuente **no puede sostener**: no vemos sus
+fracasos ([[falacia-narrativa-y-pruebas-silenciosas]]). Sirve como **banco de
+temas y de formatos**, no como evidencia.
+
+### El hallazgo incómodo: el temario ya no diferencia
+
+Los **cuatro episodios con más oyentes únicos** del show del usuario (rata 25,
+Flutter 4.0 24, monetizar Flutter 23, Node vs Python 22) **tienen los cuatro una
+contraparte en DevTalles**. Y dos de los cuatro temas del slate aprobado el
+19-ago también la tienen:
+
+| Slate aprobado 19-ago | Contraparte en DevTalles |
+|---|---|
+| #1 La carrera de la rata | *Cuando programar deja de ser divertido* + *Ansiedad como desarrollador* |
+| #2 Maestría vs experiencia | *Educación formal vs informal* |
+| #3 Sobrevivir la chamba gringa | *Programar en otro país — experiencia personal* |
+| #4 El side project que por fin cobra | *Cómo cobrar por proyectos* (parcial: **el suyo es hipotético, el del usuario cobra**) |
+
+**Esto no tumba el slate** —sigue elegido por dato propio (oyentes por episodio)—
+pero sí **sube el listón del ángulo**: el tema está ocupado por alguien con más
+alcance, así que la pieza sólo existe por lo que trae el usuario y él no.
+El #4 es el único con ventaja estructural: [[fitexe]] cobra **MX$600/mes de un
+gimnasio real**, con [[carlos-emilio-blanco]] de socio. Un caso propio no se
+puede copiar.
+
+Converge exactamente con la corrección del 2026-08-20: **lo escaso es el
+incidente con artefacto, no el tema.**
+
+### Convergencia real: 3 de las 8 preguntas validadas ya son episodios suyos
+
+El instrumento validado del 20-ago produjo ocho preguntas. **Tres tienen
+contraparte directa en el catálogo de DevTalles**, generadas por caminos
+independientes:
+
+| Pregunta validada (20-ago) | Tema equivalente en DevTalles |
+|---|---|
+| Reacciona: *"clean architecture en una app móvil es sobreingeniería"* | *¿Qué arquitectura elijo para mi proyecto nuevo?* (evitar sobreingeniería) |
+| Reacciona: *"escribir tests en un side project es perder el tiempo"* | *Refactorización y Testing* |
+| Reacciona: *"un junior hoy no necesita aprender a programar sin IA"* | *Juniors en la era del AI* |
+
+Que dos fuentes independientes aterricen en los mismos tres debates es la señal
+más fuerte del ingest: **son debates vivos del nicho, no invenciones del
+compresor.** Y las tres son ya de forma "reacciona a una afirmación", que es el
+tono que el usuario eligió — **opinión contra corriente**.
+
+### Pool de candidatos para episodios futuros (NO es un slate)
+
+⚠️ **Estado y advertencia honesta:** el slate vigente sigue siendo el del 19-ago
+(4 episodios). Esto es **pool**, para cuando esos cuatro estén grabados o alguno
+se caiga. Y va con una advertencia que el expediente se ganó: **la última tanda
+de propuestas que escribí fue rechazada 8 de 9** por no sentirse "de dev". Cada
+candidato de abajo declara **su artefacto** — si no hay artefacto que enseñar en
+pantalla, no pasa el filtro y no se graba.
+
+| # | Semilla DevTalles | Ángulo propio (el diferenciador) | Artefacto que se enseña | Evergreen |
+|---|---|---|---|---|
+| A | *Clean architecture / evitar sobreingeniería* | "Clean architecture en móvil **es** sobreingeniería — menos en estas dos cosas" | el árbol feature-first real de [[fitexe]] ([[clean-architecture-feature-first]]) | sí |
+| B | *Vibecoding / Spec Driven Design* | Qué partes de mi app **no podría explicar línea por línea** y qué hago al respecto | diffs generados por Claude Code en su repo | sí |
+| C | *Refactorización y Testing* | "Tests en un side project es perder el tiempo" — y dónde eso se cae | lo que **reescribió dos veces** en FitExe (pregunta 2 del instrumento) | sí |
+| D | *Juniors en la era del AI* | Contra la cifra: por qué **no** repito el 50% que todo el mundo cita | el propio razonamiento; [[limites-de-la-prediccion-experta]] | sí |
+| E | *Monorepos / migrar de framework* | La decisión técnica que en FitExe pudo tomar y **en la chamba no lo dejarían** | commit/PR concreto (pregunta 3 del instrumento) | sí |
+| F | *10 puntos que un senior da por hecho* | Formato lista, con **su** código: lo que da por hecho hoy y no hace tres años | PR propio que tardó más de lo esperado (pregunta 1) | sí |
+
+**Por qué el formato-lista (F) merece una prueba, y es lo más transferible del
+catálogo:** DevTalles usa el episodio-lista (*40 conceptos*, *10 puntos*,
+*17 placeres culposos*) y **ninguno de los 23 episodios del usuario tiene esa
+forma**. El argumento no es de tema sino de producción: **una lista de N ítems
+trae los puntos de corte marcados de antemano**, que es literalmente lo que pide
+la condición #2 de la reactivación (cortar en confesión u opinión, no en tip).
+Un episodio-lista de 8-10 min con 8 ítems ≈ 8 clips sin tener que buscarlos.
+
+### Lo que se descarta del catálogo, y por qué
+
+- **Todo lo de noticia** (Angular 21, Deno 2.0, Vite 6, Estado de JS, JSConf,
+  DeepSeek, filtraciones) — la condición #3 ya lo prohibía; el catálogo la
+  **refuerza con un argumento nuevo**: a 4 episodios/mes la noticia se sostiene,
+  a 1/mes es estructuralmente imposible. No es riesgo, es aritmética.
+- **Los caídos del sistema** (AWS, CrowdStrike) — buen tema, pero es noticia
+  ajena sin artefacto propio: cae por el filtro del 20-ago.
+- **La psico-sociología suelta** (ansiedad, depresión, burnout) sin incidente
+  técnico detrás — el slate #1 ya cubre esa vena, y la lista de rechazo dice que
+  sin código no es de este canal.
+- **La cadencia**. ~270 episodios en 5.5 años ≈ 4/mes es la profesión de
+  Herrera, con una infraestructura educativa detrás. Compararse con eso es el
+  mecanismo de sobre-extensión que ya rompió nueve rachas ([[absadev]]).
+
+### Ángulo desde el que comprimí (regla 2)
+
+Filtré ~270 episodios contra **las reglas que este expediente ya tenía**
+—evergreen, artefacto técnico, opinión contra corriente, clips que reemplazan—
+y descarté todo lo que no las pasara. **Consecuencia declarada:** dejé fuera
+casi todo el contenido técnico de frameworks (Angular, Vue, Deno, Bun, Astro,
+n8n, Supabase, shadcn/ui) que sería perfectamente buen material para *otro*
+canal. Si el usuario quiere abrir la vena "novedades de framework", esta
+compresión **no la evaluó** y habría que rehacerla.
+
+**Vida de esta sección:** el pool es de **vida corta**. De vida larga son dos
+cosas: que **el temario del nicho está ocupado y sólo diferencia el caso
+propio**, y que **el episodio-lista es la forma que más clips produce por hora
+de grabación**.

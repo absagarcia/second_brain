@@ -3,7 +3,7 @@ title: BLACK ICE LABS (podcast)
 type: entity
 domain: [blackicelabs]
 created: 2026-08-10
-updated: 2026-08-19
+updated: 2026-08-25
 sources:
   - path: raw/blackicelabs/podcast-blackicelabs-2026-08-10/ (export nativo de Spotify for Creators — Performance all-time + TrendsChart since published)
     fact_date: 2026-08-10
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-08-19
     ingest_date: 2026-08-19
     confidence: high     # decisión de primera parte del creador; el diseño es hipótesis
+  - path: raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md (catálogo de DevTalles pegado por el usuario)
+    fact_date: 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: low      # informe sintetizado sin verificar — ver [[devtalles]]
 ---
 
 # BLACK ICE LABS (podcast)
@@ -289,9 +293,46 @@ entrevista está demostrado y dormido, no por aprender: *Café con Absa* llegó 
 reactivación se decide sobre un activo que se está enfriando, no sobre uno con
 inercia.
 
+## [2026-08-25] Un referente entra al expediente: el temario ya no diferencia
+
+Entra al wiki el catálogo de [[devtalles]] (~270 episodios, Fernando Herrera),
+el podcast dev en español que el usuario declara admirar. Lo que le toca a este
+show, en tres puntos:
+
+1. **Los cuatro episodios con más oyentes únicos de aquí tienen contraparte
+   allá.** *La carrera de la rata* (25), *Flutter 4.0* (24), *Monetizar Flutter*
+   (23), *Node vs Python* (22) — los cuatro. No es imitación: son los temas
+   obvios del nicho. **La conclusión es que el tema no diferencia**, y el único
+   diferenciador disponible es el caso propio con artefacto (la regla que ya
+   estaba escrita el 20-ago en [[estrategia-contenido-absadev]]).
+
+2. **Dos de los cuatro temas del slate reactivado también la tienen** (#1 rata,
+   #2 maestría vs experiencia). El slate **no se cambia** —está elegido por dato
+   propio— pero el listón del ángulo sube. El **#4 (FitExe cobrando MX$600/mes)
+   es el único con ventaja estructural**: un caso propio no se puede copiar.
+
+3. **La condición #3 (sólo evergreen) queda reforzada por aritmética ajena.**
+   DevTalles sostiene la mitad de su catálogo con temas de noticia porque
+   publica ~4/mes. A **1/mes, el formato noticia es imposible**, no arriesgado.
+
+**Formato nuevo que este show nunca ha usado:** el **episodio-lista** (*10
+puntos que un senior da por hecho*, *40 términos*). Ninguno de los 23 episodios
+tiene esa forma, y es la que más clips produce por hora de grabación — trae los
+puntos de corte marcados de antemano, que es justo lo que pide la condición #2.
+El pool de candidatos vive en [[estrategia-contenido-absadev]].
+
+⚠️ **Lo que esta fuente no puede decir:** el catálogo **no trae ni una métrica**.
+Ni plays, ni oyentes. Es un catálogo de oferta, no de demanda — y de procedencia
+no verificada. Nada de aquí se cita como evidencia de que un tema funcione.
+
+**Duración de la validez:** el cruce de temarios es de **vida media** (mientras
+el nicho sea el mismo). De vida larga: **el tema está ocupado, el caso propio
+no**.
+
 ## Related
 
 - [[absadev]] — la marca dev de video; mismo público objetivo, mismos pilares
 - [[absa-garcia]] — la historia de podcasts anterior (Café con Absa, Absa con Café)
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
 - [[eliecer-garcia-romo]] — el creador
+- [[devtalles]] — el podcast de referencia; su catálogo cruzado contra este show

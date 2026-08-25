@@ -1492,3 +1492,38 @@ Quiere aparecer con **criterio**, no confesando desorden.
 5.49) son **confesiones de vulnerabilidad**, no opiniones técnicas. Evidencia a
 favor de la opinión pura: cero, ni a favor ni en contra. Queda condición de
 refutación explícita.
+
+## [2026-08-25] ingest | DevTalles — catálogo de ~270 episodios (Fernando Herrera) — blackicelabs, swe
+
+El usuario pega un informe que cataloga el podcast dev en español de **Fernando
+Herrera**, creador que declara admirar, **para usarlo como banco de ideas de
+episodios de [[blackicelabs-podcast]]**. Guardado en
+`raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md`.
+
+Nuevas: [[devtalles]] (entidad),
+[[pendulo-arquitectonico-cliente-servidor]] y [[vibecoding-y-spec-driven-design]]
+(conceptos). Actualizadas: [[blackicelabs-podcast]] y
+[[estrategia-contenido-absadev]] con el pool de candidatos.
+
+⚠️ **Fuente marcada `low`.** No es un export: es un informe redactado de autoría
+no declarada, con dos episodios 261, dos 220, un `198 (sic 196)`, uno sin número
+y bloques enteros colapsados a "Varios". Los **títulos y números concretos no se
+citan como hecho** en ninguna página. Y **no trae una sola métrica**: es catálogo
+de oferta, no de demanda — nada de aquí prueba que un tema funcione.
+
+**El hallazgo:** los **cuatro episodios con más oyentes únicos del show del
+usuario tienen los cuatro contraparte en DevTalles**, y dos de los cuatro temas
+del slate reactivado también. **El temario del nicho está ocupado; lo único que
+diferencia es el caso propio con artefacto** — que es exactamente la regla del
+20-ago, ahora confirmada desde fuera. El slate del 19-ago **no se cambia**.
+
+Dos convergencias más: **3 de las 8 preguntas validadas el 20-ago** (clean
+architecture como sobreingeniería, tests en side projects, juniors sin IA) tienen
+equivalente en el catálogo — son debates vivos, no invenciones del compresor. Y
+aparece un formato que este show nunca ha usado: el **episodio-lista**, que trae
+los puntos de corte de clips marcados de antemano. La condición #3 (sólo
+evergreen) queda reforzada por aritmética: a 1/mes el formato noticia es
+imposible, no arriesgado.
+
+**No adoptado:** la cifra de "caída del 50% en contratación junior" — sin
+ventana, sin geografía, sin denominador y de segunda mano.
