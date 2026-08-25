@@ -23,6 +23,17 @@ arco de contenido de [[absa-garcia]] y el destino de
 
 **A la fecha de este registro (2026-08-25) faltan 12 días.**
 
+> **Reencuadre (2026-08-25, mismo día).** El usuario declaró después una
+> **escalera de metas con fechas** ([[objetivos-carrera-2026-2027]]): maratón el
+> 8-nov-2026 (que él mismo ve complicado) y **Medio Maratón de Guadalajara el
+> 28-feb-2027 en 2:15** como *"objetivo más real"*. Esta carrera **deja de ser
+> el final del arco y pasa a ser el primer escalón**: su valor es de
+> calibración, no de resultado.
+> Y el dato que lo une todo: **el sub-2h de aquí y el sub-4h de allá exigen
+> exactamente el mismo ritmo, 5:41/km** — el maratón es esto mismo sobre el
+> doble de distancia. Lo que se mida el domingo es la primera lectura real
+> hacia ese objetivo.
+
 ## El objetivo declarado
 
 El perfil de Strava lo lleva escrito como `current_focus` de tipo
@@ -74,6 +85,12 @@ Ambas frases ya están disponibles hoy, y por eso ninguna vale.
 sería la distancia más larga de su vida por un margen del 75%. Ese es el
 hecho que la carrera puede producir.
 
+Y con el reencuadre del maratón, ese hecho vale más de lo que parecía: **el
+tiempo del domingo es el mejor dato disponible para calibrar
+[[objetivos-carrera-2026-2027]]**, mucho mejor que el 10K de Dolphy. Cruzar la
+meta y registrar el tiempo tiene, para el plan, más valor que el número que
+salga.
+
 ## Por qué esto importa fuera del deporte
 
 [[absa-garcia]] apostó el rumbo del canal a un **arco con fecha**: los 446
@@ -96,10 +113,15 @@ resultado deportivo y el resultado de contenido no son la misma variable.
 
 ## Preguntas abiertas
 
-- No hay en el wiki el **plan del coach y la nutrióloga** que el usuario
-  cita el 2026-08-02. Es la única pieza del entrenamiento que no está
-  registrada, y es la que decide el ritmo de salida del domingo.
+- El **plan del coach** sigue sin registrar, y es lo que decide el ritmo de
+  salida del domingo. (La parte de la nutrióloga entró el 2026-08-25 —
+  [[margarita-posada]] — pero **son mediciones, no un plan**: el campo
+  "observaciones" viene vacío en las 8 evaluaciones.)
 - No hay registro de **si la lesión de la ingle está resuelta** más allá del
   *"hoy las piernas me respondieron bien"* del 2026-08-19.
-- Sin datos de peso a lo largo del tiempo: la bajada de -9.2 kg (2026-07-12)
-  sólo existe como cifra escrita por él, no como serie.
+- ~~Sin datos de peso a lo largo del tiempo.~~ **✅ Resuelto el 2026-08-25:**
+  entró la serie completa de [[margarita-posada]] — 8 evaluaciones fechadas
+  desde el 27-mar en [[composicion-corporal-2026]]. Y con ella se cerró la
+  discrepancia: los 93.5 kg del perfil de Strava son la medición del 28-jul; el
+  peso vigente son **95.0 kg** (18-ago), con la grasa en **27.3%** y bajando sin
+  un solo retroceso en las 8 mediciones.

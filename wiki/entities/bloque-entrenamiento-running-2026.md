@@ -24,7 +24,10 @@ El registro medido de los seis meses de entrenamiento de
 fin de la maestría). Hasta hoy ese arco existía **como intención declarada
 en conversación**; esta es la primera vez que entra al wiki **con datos**.
 
-Desemboca en [[medio-maraton-atlas-2026]].
+Desemboca en [[medio-maraton-atlas-2026]] — que desde el 2026-08-25 es un
+punto de control, no el final: el objetivo declarado pasó a ser
+[[objetivos-carrera-2026-2027]]. El sustrato físico está en
+[[composicion-corporal-2026]].
 
 ## El titular
 
@@ -48,6 +51,14 @@ exactamente lo que [[systems-over-willpower]] y
 [[habitos-atomicos]] llama "mejorar 1% cada día". Aquí la mejora es del
 **9.9% en ritmo medio en 5 meses**.
 
+**El plan alimenticio con [[margarita-posada]] arrancó el 2026-03-27**
+([[composicion-corporal-2026]]),
+y la curva de ritmo **no se movió hasta mayo**: marzo y abril se quedaron
+clavados en 8:35/km. Es decir, **la composición corporal empezó a cambiar unas
+5 semanas antes que el rendimiento.** Coherente con lo esperable, y útil como
+recordatorio de que el cuerpo cobra tarde: si en las primeras semanas de un
+cambio no se ve nada en los tiempos, no es señal de que no esté funcionando.
+
 ⚠️ **Advertencia contra leer de más en esa curva.** De marzo a mediados de
 mayo **casi todo se corrió en caminadora** (`is_trainer=true`); las salidas
 al exterior y las carreras empiezan en junio-julio. Parte del salto de
@@ -65,6 +76,32 @@ no una medición.
 | WeightTraining | 27 | 13.4 h |
 | PhysicalTherapy | 16 | 1.4 h |
 | StairStepper / Workout | 6 | 1.8 h |
+
+### Fuerza, mes a mes
+
+Desglosado porque el usuario preguntó explícitamente (2026-08-25) si haber
+metido más pesas explica su recuperación de masa muscular:
+
+| Mes | Sesiones | Horas | Media |
+|---|---|---|---|
+| 2026-03 | 4 | 2.35 | 35 min |
+| 2026-04 | 7 | 3.96 | 34 min |
+| 2026-05 | 4 | 0.97 | 14 min |
+| 2026-06 | 3 | 1.85 | 37 min |
+| 2026-07 | 7 | 3.36 | 29 min |
+| **2026-08** | **2** | **0.93** | 28 min |
+
+**No hay tal aumento en volumen de sesiones**: julio iguala a abril y agosto es
+el mes más bajo del bloque. ⚠️ Pero **Strava registra que hubo sesión, no
+cuánta carga se movió** — series, repeticiones y peso no existen en ningún dato
+del wiki.
+
+**✅ Resuelto el mismo día con la serie de la nutrióloga.** Entre el 28-jul y el
+18-ago el peso subió 1.5 kg **sin que la grasa se moviera** (+0.04 kg) y con los
+pliegues **bajando 6 mm**. Es decir: **el rebote de agosto no fue grasa**, pese
+a ser el mes con menos días activos de todo el bloque. La intuición del usuario
+apuntaba en la dirección correcta aunque el volumen de pesas no subiera.
+Matices y límites en [[composicion-corporal-2026]].
 
 **El hallazgo estructural: esto no es un plan de correr, es un plan de
 volumen aeróbico con carrera dentro.** La elíptica sola son 19.6 h — el
@@ -144,9 +181,16 @@ meses.**
 
 ## Vida útil de lo que hay en esta página
 
-- **Corta (semanas):** ritmos mensuales, km acumulados de los zapatos, peso
-  (93.5 kg), estado de la lesión, zonas y FTP (208 W, **estimado por
-  Strava, no medido**).
+- **Corta (semanas):** ritmos mensuales, km acumulados de los zapatos, peso,
+  estado de la lesión, zonas y FTP (208 W, **estimado por Strava, no
+  medido**).
+
+⚠️ **El peso del perfil de Strava (93.5 kg) está obsoleto**: corresponde
+exactamente a la medición del **2026-07-28**. El valor vigente es **95.0 kg**
+(2026-08-18). Ver [[composicion-corporal-2026]] para la serie completa de
+[[margarita-posada]] y para la razón de fondo: **en su cuerpo el peso es el peor
+instrumento disponible** — retrocedió dos veces mientras los pliegues bajaban en
+las 8 mediciones sin una sola excepción.
 - **Larga (años):** la forma del bloque — cross-training > carrera en
   minutos, fisio preventiva desde antes de la lesión, meta escrita y
   verificada 21 días después. Eso es un método, y sobrevive a los números.

@@ -184,6 +184,34 @@ Tres cosas cambian para esta página:
    mismo escribió *"desde que bajé 9.2 kilogramos"*. No contradice el -10 kg
    declarado el 22-jul: es la misma bajada en curso, diez días antes.
 
+### El arco ya no termina el 6 de septiembre (2026-08-25, mismo día)
+
+Horas después de la ingesta de Strava el usuario declaró una **escalera de
+metas con fechas** ([[objetivos-carrera-2026-2027]]): el medio del 6-sep, un
+maratón el **8-nov-2026** (que él mismo ve complicado) y el **Medio Maratón de
+Guadalajara el 28-feb-2027 en 2:15**, su objetivo *"más real"* — y el único del
+expediente que está dentro de su tendencia demostrada de mejora. Eso cambia la
+forma del arco de esta página:
+
+- **El medio del 6-sep deja de ser el desenlace y pasa a ser un capítulo
+  intermedio.** El "arco con fecha" que justificaba la apuesta ya no cierra en
+  septiembre; se extiende a un horizonte de temporadas (la brecha al sub-4h es
+  de ~82 minutos sobre la proyección actual).
+- **Para el canal eso es mejor noticia de lo que parece.** El problema
+  diagnosticado eran 446 videos completos en sí mismos y ninguna razón para
+  volver. Un objetivo a años, con carreras intermedias medibles, es más
+  suscribible que uno que se agota en septiembre. Pero también **mueve el punto
+  de revisión de octubre**: en octubre ya no se juzga "cómo salió el arco", sino
+  "cómo va el capítulo 1 de algo largo". **Ahora ese horizonte tiene fecha
+  concreta: 28-feb-2027.** El arco pasa de "termina en septiembre" a "tiene
+  temporada completa", que es exactamente la forma que un canal necesita para
+  que suscribirse tenga sentido.
+- **Y hay material nuevo que no es deportivo.** El proceso corporal
+  ([[composicion-corporal-2026]]) tiene el tipo de hecho concreto que
+  [[daniel]] pidió: *perdió 10.5 kg de grasa pero la báscula sólo bajó 6.5*.
+  Eso es una apertura por incidente vivido, no por explicación — la regla de
+  guion del 2026-08-20.
+
 ⚠️ **La pregunta aplazada de octubre se vuelve más urgente, no menos.** Si
 el running es *crónica de vida*, un 2h30 el 6 de septiembre es un capítulo
 igual de bueno que un sub-2h. Si es *apuesta de retorno*, un objetivo
@@ -411,6 +439,8 @@ justificarse con métricas.
   boundary interacts with this page)
 - [[eliecer-garcia-romo]] — the person behind both brands
 - [[bloque-entrenamiento-running-2026]] — los datos que sostienen el arco
-- [[medio-maraton-atlas-2026]] — el desenlace agendado del arco
+- [[medio-maraton-atlas-2026]] — el capítulo del 6-sep (ya no el desenlace)
+- [[objetivos-carrera-2026-2027]] — la escalera de metas con fechas hasta feb-2027
+- [[composicion-corporal-2026]] — el proceso corporal detrás del arco
 - [[de-que-hablo-cuando-hablo-de-correr]] — el marco de "competir con el de ayer"
 - [[internal-scorecard]] — la meta escrita y verificada contra uno mismo

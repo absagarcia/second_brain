@@ -1610,3 +1610,185 @@ dominio existente, la salida correcta no es "meterlo en el más cercano y poner
 una advertencia" — es **parar y preguntar**, como pedían las reglas duras para
 las páginas huérfanas. La advertencia dejó el error en pie y trasladó el trabajo
 al usuario.
+
+## [2026-08-25] ingest | Composición corporal y objetivo de maratón — fitness
+
+Fuente: **conversación con el usuario**, primera mano, datos medidos con su
+nutrióloga. Segunda ingesta del dominio `fitness` estrenado hoy.
+
+Nuevas: [[composicion-corporal-2026]] y [[objetivos-carrera-2026-2027]]
+(entidades). Actualizadas: [[medio-maraton-atlas-2026]],
+[[bloque-entrenamiento-running-2026]] y [[absa-garcia]].
+
+**Hallazgo 1 — la báscula esconde el 38% del progreso.** De 101.5 kg / 35.9% a
+95.0 kg / 27.3%: **−10.5 kg de grasa y +4.0 kg de masa magra**, con el peso
+bajando sólo 6.5 kg. Confirma con aritmética lo que él describe
+cualitativamente (*"a cualquier estímulo de pesas o de proteína recupero muy
+fácil la masa muscular"*) y **cambia qué métrica sirve para dirigirlo**: en su
+caso el peso corporal informa mal; el % de grasa y la magra sí.
+
+**Hallazgo 2 — el sub-2h y el sub-4h son el mismo ritmo.** Medio maratón en 2h
+= **5:41/km**. Maratón en 4h = **5:41/km**. El nuevo objetivo declarado hoy no
+es un objetivo distinto del anterior: **es el mismo, al doble de distancia.**
+Proyección de Riegel desde Dolphy: **≈5h21 en maratón**, brecha de **~82 min**.
+Traducido a algo accionable: haría falta bajar su 10K de **70:50 a ~52:53**.
+
+**Hallazgo 3 — su fisiología juega contra su objetivo.** Quiere "definido, no
+inflado" *porque* quiere el maratón, y tiene razón; pero lleva ~56 kg de masa
+muscular, ganó 4 kg de magra en el proceso y admite ganar músculo con
+facilidad. **La contención tendrá que ser deliberada.** Esa decisión es de su
+nutrióloga y su coach — ninguno documentado aún en el wiki.
+
+**Reencuadre estructural:** [[medio-maraton-atlas-2026]] deja de ser el
+desenlace del arco y pasa a ser **punto de control**. Consecuencia para
+[[absa-garcia]]: el arco ya no cierra en septiembre, lo que **es mejor para el
+problema de suscripción** (razón para volver a años vista) pero **cambia qué se
+evalúa en la revisión de octubre**.
+
+⚠️ **Discrepancia registrada, no resuelta.** Tres cifras de peso que no cuadran
+(≈92.3 kg implícitos el 12-jul · 93.5 kg en el perfil de Strava · 95.0 kg
+declarados hoy). **No se borra ninguna** y no se afirma que haya recuperado
+peso: falta la fecha de cada medición de la nutrióloga. Lo más probable es que
+el perfil de Strava esté viejo, pero es hipótesis, no dato.
+
+⚠️ **Límite del dato:** el punto inicial (101.5 kg / 35.9%) **no trae fecha**,
+así que la trayectoria no tiene pendiente — sabemos el delta, no la velocidad.
+Y "masa muscular" (~56 kg, báscula) y "masa magra" (69.1 kg, calculada) son
+métricas distintas; quedan anotadas como tales para que nadie las reste entre
+sí más adelante.
+
+⚠️ **Ángulo del compresor, declarado:** se comprimió preguntando *"¿qué
+significa esto para las metas de carrera?"*. Un ángulo de salud pura (riesgo
+metabólico, densidad ósea, suficiencia energética, carga articular a 95 kg
+corriendo 42 km) **no se escribió** — y es terreno de su nutrióloga y su
+médico, no del wiki.
+
+**Pendiente que bloquea el plan:** el maratón **no tiene carrera ni fecha**.
+Sin eso no hay periodización posible, sólo intención.
+
+## [2026-08-25] ingest | Fecha del plan, punto de julio y escalera de metas — fitness
+
+Tercera ingesta de `fitness` en el día. Fuente: conversación, primera mano.
+Renombrada `objetivo-maraton-sub-4h` → **[[objetivos-carrera-2026-2027]]**: el
+sujeto dejó de ser una meta suelta y pasó a ser una escalera con fechas.
+Actualizadas: [[composicion-corporal-2026]],
+[[bloque-entrenamiento-running-2026]], [[medio-maraton-atlas-2026]],
+[[absa-garcia]].
+
+**Datos nuevos:** el plan alimenticio arrancó el **2026-03-27**; en julio tocó
+**92.7 kg**; metas declaradas: **90 kg en báscula**, maratón el **8-nov-2026**
+(*"lo veo complicado"*) y **Medio Maratón de Guadalajara, 28-feb-2027, en
+2:15** (*"objetivo más real"*).
+
+**Hallazgo 1 — el peso no se frenó, se invirtió.** Con la fecha de inicio el
+proceso se parte en dos: 27-mar→12-jul a **−0.58 kg/semana**, y 12-jul→25-ago a
+**+0.37 kg/semana**. El tramo invertido es justo el que precede a la carrera
+del 6-sep. **Si esos +2.3 kg son músculo o grasa no se puede saber**: falta la
+fecha de la medición del 27.3% y no hay composición del 12-jul.
+
+**Hallazgo 2 — la hipótesis de las pesas no se sostiene (pero no queda
+refutada).** El usuario propuso que subió por meterle más a las pesas. Los
+datos: jul = 7 sesiones / 3.36 h, igual que abril; **agosto = 2 sesiones /
+0.93 h, el mes más bajo del bloque**. No hubo tal aumento *en volumen de
+sesiones*. ⚠️ Pero Strava no registra series, repeticiones ni carga — las
+variables que producen hipertrofia — ni la proteína. **Sin apoyo, no
+descartada.** Explicación rival que los datos sí respaldan: agosto tuvo **9
+días activos de 25** por la lesión del 19-ago.
+
+**Hallazgo 3 — sus tres metas corporales son incompatibles.** 20% de grasa ·
+90 kg en báscula · no ganar músculo: sólo caben dos. Con la magra de hoy
+(69.1 kg), 90 kg da **23.3%**; 20% da **86.3 kg**; y 20% *y* 90 kg exigen
+**ganar +2.9 kg de músculo**, justo lo que dijo que no busca ahora. Para correr,
+lo ligero gana: su instinto ("definido, no inflado") apunta a 86, aunque el
+número que dijo fuera 90.
+
+**Hallazgo 4 — el 2:15 de febrero es la primera meta en tendencia.** Exige
+6:23/km: mejorar **52 s/km en 6.2 meses = 8.5 s/km al mes**, contra los **~10
+s/km al mes que ya lleva demostrados**. Es la primera meta del expediente que
+pide continuidad en vez de un salto. (Frente a: sub-2h y sub-4h exigen ambos
+5:41/km — el mismo ritmo, uno al doble de distancia.)
+
+**Hallazgo 5 — la escalera está invertida.** El "escalón fácil" (medio GDL,
+28-feb-2027) cae **112 días después** del duro (maratón, 8-nov-2026). El medio
+de febrero no puede ser preparación para noviembre. Y para el 8-nov quedan
+**10.7 semanas** desde una tirada máxima histórica de **12.02 km** (el maratón
+son 3.5×) con lesión reciente; una progresión convencional a un primer maratón
+ocupa 16-20. **El sub-4h el 8-nov no está sobre la mesa** (proyección 5h21,
+brecha 82 min); *terminarlo* es otra pregunta, y es de su coach.
+
+⚠️ **Cautela metodológica declarada:** el "~10 s/km al mes" sale de ritmos
+*medios de entrenamiento* y las metas están en ritmo *de carrera* — magnitudes
+distintas, y el promedio arrastra los sesgos ya anotados (caminadora→exterior,
+agosto con 9 días activos). Es orden de magnitud, no proyección. Lo robusto es
+la **ordenación** 8.5 < 10 < 12.6, que no depende de esos sesgos.
+
+**Lo más barato que resolvería más:** pedirle a la nutrióloga **la serie
+fechada de todas las mediciones**. Cierra la ambigüedad del tramo julio-agosto,
+da pendiente real y permite proyectar el 20% con fecha.
+
+**Pendiente:** ¿el maratón del 8-nov ya está inscrito o sigue siendo opción?
+¿Confirmada la fecha del Medio de GDL (aquí se asume 2027-02-28 por ser el
+último domingo de febrero de 2027)?
+
+## [2026-08-25] ingest | 8 evaluaciones antropométricas — fitness
+
+El usuario depositó `raw/fitness/meal plan/` con **8 capturas de las
+evaluaciones de su nutrióloga**. Transcritas a un README en esa misma carpeta
+(las imágenes no se tocan). Es **exactamente la serie fechada** que la ingesta
+anterior había señalado como "lo más barato que resolvería más".
+
+Nueva: [[margarita-posada]] (entidad). Reescrita: [[composicion-corporal-2026]].
+Actualizadas: [[bloque-entrenamiento-running-2026]],
+[[objetivos-carrera-2026-2027]], [[medio-maraton-atlas-2026]].
+
+**⚠️ Esta ingesta corrige tres afirmaciones que el wiki escribió esta misma
+mañana.** Se dejan registradas, no borradas:
+
+1. **"Peso inicial 101.5 kg"** → eran **100.7 kg**.
+2. **"Ganó 4.0 kg de masa magra"** → **la masa muscular medida BAJÓ 2.0 kg**
+   (56.0 → 54.0). El +4.5 kg era *masa libre de grasa* que yo derivé de
+   `peso × (1 − %grasa)`; la nutrióloga mide masa muscular con otra ecuación y
+   le sale lo contrario. **Presenté una derivación propia con la misma
+   confianza que una medición.**
+3. **"El rebote de agosto pudo ser grasa por menos actividad"** → **falso**: la
+   grasa no se movió (+0.04 kg) y los pliegues bajaron 6 mm.
+
+**Hallazgo 1 — los pliegues no retrocedieron nunca.** 198.8 → 132.0 mm, **8 de
+8 mediciones a la baja, cero retrocesos**; el % de grasa tampoco. **El peso
+retrocedió dos veces.** Regla operativa: en su cuerpo **el peso es el peor
+instrumento de los que ya se están midiendo**, y los pliegues el mejor.
+
+**Hallazgo 2 — el usuario tenía razón sobre agosto.** 28-jul → 18-ago: +1.5 kg
+de peso, **+0.04 kg de grasa**, −6 mm de pliegues. El kilo y medio **no es
+grasa**. ⚠️ Que sea músculo es plausible pero **no demostrado**: la serie de
+masa muscular marca +2.4 kg en 20 días entre mayo y junio, fisiológicamente
+imposible — es la menos fiable de las cuatro y sólo debe leerse como tendencia.
+
+**Hallazgo 3 — lleva ~8.6 kg de músculo sobre la referencia.** El Sistema MP
+fija 45.4 kg para su posición (running); él va en 54.0, y arrancó en 56.0. Da
+contexto duro a su *"definido, no inflado"*.
+
+**Hallazgo 4 — la incompatibilidad de metas de esta mañana era demasiado
+tajante.** Asumí masa libre de grasa constante; la serie muestra que sube
+(+0.22 kg/sem). El 20% aterriza en una horquilla de **86-91 kg** y **sus 90 kg
+caben dentro**. No hay que renunciar a nada; lo que queda es una elección
+deportiva (86 pesa menos que 91 sobre 42 km), no aritmética.
+
+**Hallazgo 5 — las dos proyecciones al 20% no coinciden:** ≈2026-11-16 por
+pliegues, ≈2026-12-18 por grasa. Un mes de diferencia; no se elige ninguna. Lo
+que importa: **ambas caen antes del Medio de Guadalajara (2027-02-28)**.
+
+**Discrepancia cerrada:** los 93.5 kg del perfil de Strava eran la medición del
+28-jul. No había contradicción, había un perfil sin actualizar. En cambio los
+"92.7 kg de julio" y el *"bajé 9.2 kg"* del 12-jul **no aparecen en la serie**
+(el mínimo medido son 93.5): casi seguro báscula de casa. **La báscula de casa
+y la de la nutrióloga no dan lo mismo.**
+
+⚠️ **Advertencia sobre la carpeta:** `meal plan` **no contiene ningún plan
+alimenticio.** Son 8 hojas de medición con el campo "observaciones" vacío. No
+hay calorías, macros, proteína ni pauta en ninguna parte del expediente — y la
+proteína es justo la variable que el usuario citó en su hipótesis.
+
+**Lección de método, la que más vale:** una fuente primaria fechada deshizo en
+un minuto varias horas de inferencia razonable. **Cuando existe la serie, se
+pide la serie** — antes de comprimir, no después.
