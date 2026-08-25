@@ -1532,7 +1532,7 @@ ventana, sin geografía, sin denominador y de segunda mano.
 
 Primera ingesta de **datos biométricos/deportivos** al wiki, vía el conector
 MCP de Strava (no es un export nativo: es la API transcrita). Guardado en
-`raw/blackicelabs/strava-2026-03-01-a-2026-08-25/` (README + CSV de las 218
+`raw/fitness/strava-2026-03-01-a-2026-08-25/` (README + CSV de las 218
 actividades). **Confianza alta** — datos de dispositivo de primera mano.
 
 Nuevas: [[bloque-entrenamiento-running-2026]] y [[medio-maraton-atlas-2026]]
@@ -1580,3 +1580,33 @@ el 12-jul). **El FTP de 208 W es estimado por Strava, no medido.**
 de **salud/entrenamiento** en `CLAUDE.md`; si va a haber más ingestas de Strava,
 conviene decidirlo antes de que el sesgo "todo esto es contenido" se vuelva
 estructural.
+
+## [2026-08-25] corrección de esquema | Dominio `fitness` — a instancia del usuario
+
+La ingesta de Strava de hoy se archivó bajo `blackicelabs` "por descarte", y
+**el usuario lo rechazó en el acto**: los datos de su propio entrenamiento no
+son una subcarpeta del contenido. Tenía razón, y el error es exactamente el
+sesgo que la propia ingesta había flagueado y luego cometido igual.
+
+Cambios:
+
+- **Nuevo dominio `fitness`** en `CLAUDE.md`, con sus fronteras escritas: el
+  entrenamiento propio va aquí; el contenido *sobre* correr sigue en
+  `blackicelabs`; el software deportivo para terceros es `athletix`/`fitexe`;
+  las ideas de libros sobre esfuerzo y descanso siguen en `books`+`reflections`
+  y sólo ganan `fitness` cuando se aplican a datos medidos suyos.
+- `raw/blackicelabs/strava-2026-03-01-a-2026-08-25/` → **`raw/fitness/…`**, con
+  las 4 referencias del wiki actualizadas.
+- [[bloque-entrenamiento-running-2026]]: `[blackicelabs, reflections]` →
+  **`[fitness]`**. El sujeto de la página es el entrenamiento.
+- [[medio-maraton-atlas-2026]]: `[blackicelabs, reflections]` →
+  **`[fitness, blackicelabs]`**. Doble dominio real: la carrera es fitness, y
+  la página sí razona sobre el arco de contenido.
+- [[absa-garcia]] **se queda en `blackicelabs`**: es una marca de creador que
+  ahora cita una fuente de `fitness`, no una página de entrenamiento.
+
+**Lección de método, no de esquema.** Cuando una ingesta no encaja en ningún
+dominio existente, la salida correcta no es "meterlo en el más cercano y poner
+una advertencia" — es **parar y preguntar**, como pedían las reglas duras para
+las páginas huérfanas. La advertencia dejó el error en pie y trasladó el trabajo
+al usuario.

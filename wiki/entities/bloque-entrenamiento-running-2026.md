@@ -1,17 +1,22 @@
 ---
 title: Bloque de entrenamiento running — mar → ago 2026
 type: entity
-domain: [blackicelabs, reflections]
+domain: [fitness]
 created: 2026-08-25
 updated: 2026-08-25
 sources:
-  - path: raw/blackicelabs/strava-2026-03-01-a-2026-08-25/
+  - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo (Apple Watch) de primera mano vía API de Strava
 ---
 
 # Bloque de entrenamiento running — mar → ago 2026
+
+> **Nota de esquema (2026-08-25).** Esta página se creó por error bajo
+> `blackicelabs`. Corregido el mismo día a `fitness`, un dominio nuevo: el
+> sujeto de la página es **el entrenamiento**, no el contenido que salga de
+> él. Ver la entrada de corrección en `log.md`.
 
 El registro medido de los seis meses de entrenamiento de
 [[eliecer-garcia-romo]] que sostienen el arco de contenido declarado en

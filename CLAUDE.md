@@ -43,6 +43,16 @@ frontmatter:
 - `freelance` — client/project notes (be careful with confidentiality,
   never put sensitive client data in without anonymizing it)
 - `finance` — personal investment, ETFs, market concepts
+- `fitness` — the user's own training, running, races, and body data
+  (Strava exports, training blocks, race results, injuries, nutrition,
+  coach/physio plans). The personal-health counterpart to `finance`:
+  first-party data about his own body. Boundaries: a page belongs here when
+  the subject is **the training itself**; content *about* running made for
+  the channels stays `blackicelabs` (a page can carry both when the training
+  feeds the content arc — see [[absa-garcia]]); sports-performance software
+  built for other people is `athletix` or `fitexe`, never this; ideas from
+  books about effort, rest, or toughness stay `books`+`reflections` and only
+  gain `fitness` when applied to his own measured training.
 - `swe` — software-engineering craft not tied to one product: design
   patterns, architecture, SOLID/DRY, languages, tooling, scalability. The
   technical counterpart to `finance`. Boundaries: product-specific

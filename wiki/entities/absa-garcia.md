@@ -17,7 +17,7 @@ sources:
     fact_date: 2026-06-24 → 2026-07-21   # 28-day analytics window
     ingest_date: 2026-07-22
     confidence: high   # YouTube Studio first-party export
-  - path: raw/blackicelabs/strava-2026-03-01-a-2026-08-25/
+  - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo (Apple Watch) vía API de Strava

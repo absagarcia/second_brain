@@ -1,7 +1,7 @@
 ---
 title: Medio Maratón del Atlas 2026
 type: entity
-domain: [blackicelabs, reflections]
+domain: [fitness, blackicelabs]
 created: 2026-08-25
 updated: 2026-08-25
 sources:
@@ -9,7 +9,7 @@ sources:
     fact_date: 2026-07-22
     ingest_date: 2026-07-22
     confidence: high   # first-party, la carrera objetivo declarada por el usuario
-  - path: raw/blackicelabs/strava-2026-03-01-a-2026-08-25/
+  - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo + el objetivo escrito en el perfil de Strava
