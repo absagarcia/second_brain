@@ -51,3 +51,11 @@ are exactly the retention hook the advisor bet on: a numbered journey with an
 internal standard, not one-off complete-in-themselves videos. Cross-linked there
 as source material, and noted as a book the user has actually read (his own
 running, his own highlights) — unusually well-matched to the current bet.
+
+**2026-08-25 — el libro deja de ser sólo marco y tiene datos debajo.** La
+ingesta del export de Strava ([[bloque-entrenamiento-running-2026]]) muestra la
+tesis de "competir con el de ayer" ocurriendo literalmente: el usuario escribió
+una meta el 2026-07-12 (*"espero bajar el pace 7:00 el km"*) y la cumplió el
+2026-08-02, describiéndola él mismo como *"una revancha contra mí mismo"*. Y
+también muestra el otro lado del libro —la distinción dolor/sufrimiento— en la
+lesión de ingle del 19-ago camino a [[medio-maraton-atlas-2026]].

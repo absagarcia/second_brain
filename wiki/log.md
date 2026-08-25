@@ -1527,3 +1527,56 @@ imposible, no arriesgado.
 
 **No adoptado:** la cifra de "caída del 50% en contratación junior" — sin
 ventana, sin geografía, sin denominador y de segunda mano.
+
+## [2026-08-25] ingest | Export Strava mar→ago 2026 — blackicelabs / reflections
+
+Primera ingesta de **datos biométricos/deportivos** al wiki, vía el conector
+MCP de Strava (no es un export nativo: es la API transcrita). Guardado en
+`raw/blackicelabs/strava-2026-03-01-a-2026-08-25/` (README + CSV de las 218
+actividades). **Confianza alta** — datos de dispositivo de primera mano.
+
+Nuevas: [[bloque-entrenamiento-running-2026]] y [[medio-maraton-atlas-2026]]
+(entidades). Actualizada: [[absa-garcia]].
+
+**El hallazgo:** el arco de contenido declarado el 22-jul ("el año que estoy
+viviendo") existía sólo como intención dicha en conversación. Ahora tiene
+evidencia: **331.7 km, 218 actividades, y cinco meses de mejora de ritmo medio
+sin una sola regresión** (8:35 → 7:44/km, −9.9%). Y una meta escrita por él
+mismo el 12-jul ("bajar el pace a 7:00") **cumplida el 2-ago** — arco cerrado,
+con PRs, que el canal todavía no ha usado.
+
+**El problema, anotado antes de que ocurra:** el objetivo del perfil de Strava
+—medio maratón sub-2h el 6-sep— exige **5:41/km**. Su mejor carrera de la vida
+va a **6:59/km** sobre 10 km, y su tirada más larga en seis meses es de
+**12.02 km** frente a los 21.1 de la carrera. Riegel proyecta **2h34-2h39**.
+Encima, agosto es el peor mes del bloque en asistencia (9 días activos de 25)
+por una **lesión en la ingle reportada el 19-ago**. Se deja escrito hoy
+—faltando 12 días— precisamente para que después no se pueda recontar de otra
+manera ([[falacia-narrativa-y-pruebas-silenciosas]],
+[[limites-de-la-prediccion-experta]]).
+
+**Consecuencia estratégica:** el punto de revisión de octubre de [[absa-garcia]]
+—¿el running es apuesta de retorno o crónica de vida?— **se quedó tarde**. La
+carrera es antes, y la respuesta cambia si un objetivo fallado se publica o no.
+
+⚠️ **Advertencia de compresión declarada.** El export no trae ángulo propio; el
+que se aplicó al comprimirlo fue **"¿qué dice esto del arco de contenido y del
+6 de septiembre?"** — porque es el marco que el wiki ya tenía abierto en
+[[absa-garcia]]. Un ángulo de salud/rendimiento puro (zonas, FC, carga, riesgo
+de lesión) **no se escribió**, y los datos para hacerlo están en el `raw/`.
+
+⚠️ **Dos límites del dato.** (1) De marzo a mediados de mayo casi todo se corrió
+en **caminadora**; parte de la mejora de ritmo puede ser cambio de superficie,
+no de forma física. (2) El **7:44/km de agosto no es "el mejor mes"**: con 9
+días activos, el promedio lo sostienen las carreras.
+
+**No adoptado / pendiente:** el plan del coach y la nutrióloga que el usuario
+cita el 2-ago no está en el wiki, y es lo que decide el ritmo de salida del
+domingo. Tampoco hay serie de peso (sólo 93.5 kg actual y el "-9.2 kg" escrito
+el 12-jul). **El FTP de 208 W es estimado por Strava, no medido.**
+
+⚠️ **Cuestión de esquema abierta:** estos datos entraron como `blackicelabs` +
+`reflections` porque el marco disponible era el del canal. No existe un dominio
+de **salud/entrenamiento** en `CLAUDE.md`; si va a haber más ingestas de Strava,
+conviene decidirlo antes de que el sesgo "todo esto es contenido" se vuelva
+estructural.

@@ -82,3 +82,10 @@ click like").
 - Complements, doesn't duplicate, [[growth-vs-fixed-mindset]] (which is about
   whether ability is *changeable*) and [[founder-mental-health-startup-risk]]
   ("no eres tu emprendimiento" — not sourcing identity from external results).
+- **Caso medido (2026-08-25).** [[bloque-entrenamiento-running-2026]] contiene
+  el ejemplo más limpio que hay en el wiki: meta escrita por el propio usuario
+  el 12-jul, cumplida el 2-ago, nombrada por él *"una revancha contra mí mismo"*
+  — sin comparación con nadie y verificada con datos, no con sensación. El
+  contraste útil está en [[medio-maraton-atlas-2026]]: ahí la meta escrita
+  (sub-2h) **no** coincide con la evidencia, y el marcador interno no sirve para
+  cerrar esa brecha.
