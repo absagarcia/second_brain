@@ -3,12 +3,24 @@ title: BLACK ICE LABS (podcast)
 type: entity
 domain: [blackicelabs]
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-25
 sources:
   - path: raw/blackicelabs/podcast-blackicelabs-2026-08-10/ (export nativo de Spotify for Creators — Performance all-time + TrendsChart since published)
     fact_date: 2026-08-10
     ingest_date: 2026-08-10
     confidence: high     # export de primera parte; límites de unidades anotados abajo
+  - path: raw/blackicelabs/podcast-blackicelabs-episodios-2026-08-19.md (listado de episodios pegado por el usuario — añade Length y Audience por episodio)
+    fact_date: 2026-08-19
+    ingest_date: 2026-08-19
+    confidence: high     # misma consola de Spotify, transcrito a mano por el usuario
+  - path: conversation (sesión de asesoría — decisión de reactivar el podcast y diseño del slate)
+    fact_date: 2026-08-19
+    ingest_date: 2026-08-19
+    confidence: high     # decisión de primera parte del creador; el diseño es hipótesis
+  - path: raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md (catálogo de DevTalles pegado por el usuario)
+    fact_date: 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: low      # informe sintetizado sin verificar — ver [[devtalles]]
 ---
 
 # BLACK ICE LABS (podcast)
@@ -45,38 +57,43 @@ desarrollo (Flutter, IA, mercado laboral, side projects, salud mental del dev).
 | jul 2026 | 30 | 8 | 22 |
 | **ago 2026 (al día 10)** | **1** | 0 | 1 |
 
-**Totales de por vida: 469 plays** · 181 en Spotify (38.6%) · 288 fuera (61.4%).
+**Totales de por vida: 469 plays** *(471 al 19 de agosto — ver abajo)* · 181 en Spotify (38.6%) · 288 fuera (61.4%).
 **48.4% de los días (172 de 355) tuvieron cero plays.**
 
-## Episodios — plays acumulados desde publicación
+## Episodios — plays acumulados, duración y oyentes únicos
 
-| Plays | Fecha | Episodio |
-|---:|---|---|
-| **40** | 16 feb 2026 | La Mentira del "Works on My Phone" y el Mito de la Sesión Única |
-| **35** | 8 sep 2025 | 003 — Cómo monetizar tus apps Flutter en 2025 (Ads, IAP, Suscripciones) |
-| 32 | 1 sep 2025 | 002 — Flutter 4.0: ¿El futuro del desarrollo multiplataforma? |
-| 32 | 21 ago 2025 | 001 — Necesitas construir |
-| 30 | 17 nov 2025 | 010. La carrera de la rata del programador moderno |
-| 26 | 9 feb 2026 | Flutter vs React Native: La Realidad del Mercado y Rendimiento en 2026 |
-| 24 | 3 nov 2025 | Node vs Python: la verdad que nadie te dice sobre IA |
-| 23 | 14 ene 2026 | Confesiones de un Programador: Cuando el éxito se siente vacío |
-| 23 | 11 dic 2025 | 012. Nunca dejes de construir: Lecciones de un año de cambios radicales |
-| 21 | 15 sep 2025 | 004 — Cómo entrar al mercado laboral con Flutter sin experiencia |
-| 20 | 20 abr 2026 | Cómo usar Claude + Flutter para ser Freelancer en 2026 |
-| 20 | 27 oct 2025 | Cómo cambió la industria tech en 2025 |
-| 20 | 7 oct 2025 | Cómo uso IA para automatizar mi trabajo como developer |
-| 18 | 19 may 2026 | 021. 5 Ideas de Side Projects para Pagar la Renta 💻☕ |
-| 16 | 7 ene 2026 | 013. Me Cansé de tomar cursos de programación |
-| 16 | 15 oct 2025 | 007. OpenAI acaba de cambiar lo que significa ser programador |
-| 15 | 1 dic 2025 | Gemini 3.0: ¿Herramienta o Reemplazo? |
-| 15 | 7 oct 2025 | 005. Errores al aprender Flutter en 2026 |
-| **12** | 8 jun 2026 | 023. DETOX de AI *(el último)* |
-| 11 | 25 may 2026 | 022. Maestría en IA, Síndrome del Impostor y la técnica Pomodoro para Devs |
-| **7** | 4 may 2026 | Copilot vs Gemini: ¿Cuál es la mejor AI para programar? |
-| **7** | 28 abr 2026 | Yo tenía la ilusión de vivir de YouTube |
-| **6** | 12 may 2026 | 020 — Cómo dejé de ser un Albañil del Código |
+`Plays` = reproducciones acumuladas desde publicación. `Audience` = oyentes
+únicos. `Dur.` llegó con el pegado del 2026-08-19; antes no la teníamos.
 
-Media: **20.4 plays/episodio**. Mejor: 40. Peor: 6.
+| Plays | Aud. | Dur. | Fecha | Episodio |
+|---:|---:|---:|---|---|
+| **40** | 18 | 08:44 | 16 feb 2026 | La Mentira del "Works on My Phone" y el Mito de la Sesión Única |
+| **35** | 23 | 15:42 | 8 sep 2025 | 003 — Cómo monetizar tus apps Flutter en 2025 (Ads, IAP, Suscripciones) |
+| 32 | **24** | 16:40 | 1 sep 2025 | 002 — Flutter 4.0: ¿El futuro del desarrollo multiplataforma? |
+| 32 | 19 | 06:37 | 20 ago 2025 | 001 — Necesitas construir |
+| 30 | **25** | 16:17 | 17 nov 2025 | 010. La carrera de la rata del programador moderno |
+| 26 | 17 | 13:28 | 9 feb 2026 | Flutter vs React Native: La Realidad del Mercado y Rendimiento en 2026 |
+| 24 | 22 | 11:24 | 3 nov 2025 | Node vs Python: la verdad que nadie te dice sobre IA |
+| 23 | 19 | 15:09 | 13 ene 2026 | Confesiones de un Programador: Cuando el éxito se siente vacío |
+| 23 | 19 | 06:51 | 11 dic 2025 | 012. Nunca dejes de construir: Lecciones de un año de cambios radicales |
+| **22** | 19 | 19:54 | 20 abr 2026 | Cómo usar Claude + Flutter para ser Freelancer en 2026 |
+| 21 | 15 | 05:30 | 15 sep 2025 | 004 — Cómo entrar al mercado laboral con Flutter sin experiencia |
+| 20 | 17 | 20:51 | 26 oct 2025 | Cómo cambió la industria tech en 2025 |
+| 20 | 20 | 10:53 | 7 oct 2025 | Cómo uso IA para automatizar mi trabajo como developer |
+| 18 | 16 | 13:42 | 19 may 2026 | 021. 5 Ideas de Side Projects para Pagar la Renta 💻☕ |
+| 16 | 16 | 16:08 | 7 ene 2026 | 013. Me Cansé de tomar cursos de programación |
+| 16 | 13 | 14:31 | 15 oct 2025 | 007. OpenAI acaba de cambiar lo que significa ser programador |
+| 15 | 14 | 20:08 | 1 dic 2025 | Gemini 3.0: ¿Herramienta o Reemplazo? |
+| 15 | 14 | 09:35 | 7 oct 2025 | 005. Errores al aprender Flutter en 2026 |
+| 12 | 12 | 09:56 | 8 jun 2026 | 023. DETOX de AI *(el último)* |
+| 11 | 10 | 14:26 | 25 may 2026 | 022. Maestría en IA, Síndrome del Impostor y la técnica Pomodoro para Devs |
+| 7 | 6 | **22:14** | 4 may 2026 | Copilot vs Gemini: ¿Cuál es la mejor AI para programar? |
+| 7 | 7 | 17:34 | 28 abr 2026 | Yo tenía la ilusión de vivir de YouTube |
+| **6** | 6 | 16:38 | 12 may 2026 | 020 — Cómo dejé de ser un Albañil del Código |
+
+Media: **20.5 plays/episodio**, **16.1 oyentes únicos**, **14:02 de duración**.
+Totales: **471 plays**, **371 oyentes-episodio**, **5 h 23 min de catálogo**.
+
 
 ## Lo que dice este export
 
@@ -125,6 +142,79 @@ Media: **20.4 plays/episodio**. Mejor: 40. Peor: 6.
    otros), pero **deja de ser una idea sin probar**: hay una versión previa y su
    resultado, y conviene compararlos cuando el video cumpla su ventana.
 
+## Lo que añade el pegado del 2026-08-19
+
+Este listado no trae episodios nuevos —los 23 ya estaban— pero sí **dos columnas
+que el export CSV del 10 de agosto no tenía**: duración y oyentes únicos. Las
+dos tocan conclusiones que la página ya había escrito.
+
+### 1. El techo de atención por fin tiene un número duro
+
+La sección de abajo estimaba "~39 horas de atención" bajo un supuesto inventado
+de 5 minutos por escucha, y advertía que faltaba medir la duración. Ya está:
+**5 h 23 min de catálogo**, y si cada uno de los 471 plays fuera una escucha
+completa, el techo absoluto son **104.8 horas**. La estimación de 39 h implica
+un **37% de escucha media** — plausible para podcast, pero sigue siendo un
+supuesto. Lo que cambia es que ahora está **acotado**: la atención real del show
+está entre 0 y 104.8 h, y ninguna lectura optimista puede pasar de ahí. Sigue
+faltando el único dato que cerraría el cálculo: **% de escucha real**.
+
+### 2. "Works on My Phone" no es el mejor episodio — es el más repetido
+
+Por plays lidera con 40. Por **oyentes únicos tiene 18**, y cae al puesto ~8.
+Su ratio plays/oyente es **2.22**, contra **1.27** de media del show: casi nadie
+más lo oyó, la misma gente lo oyó dos veces. El ranking por audiencia real es
+otro:
+
+| # | Oyentes | Episodio |
+|---|---:|---|
+| 1 | 25 | 010. La carrera de la rata del programador moderno |
+| 2 | 24 | 002. Flutter 4.0 |
+| 3 | 23 | 003. Monetizar apps Flutter |
+| 4 | 22 | Node vs Python |
+
+⚠️ **Esto corrige la lectura del punto 6 de abajo sólo en parte.** *Flutter vs
+React Native* baja de top-6 por plays a **17 oyentes** (ratio 1.53, también
+repetido), pero *monetizar Flutter* y *Node vs Python* siguen arriba por
+audiencia real. **La tesis de que el formato comparación rinde sobrevive; el
+episodio que se citaba como #1 del show, no.** No borro la tabla anterior: era
+correcta para la métrica que tenía.
+
+### 3. Los episodios se alargaron mientras la audiencia se encogía
+
+Media de duración **2025: 12:55** → **2026: 15:16**. Y la correlación entre
+duración y oyentes únicos es **negativa: r = −0.22** en todo el catálogo,
+**−0.38** si se miran sólo los 11 episodios de 2026. Los dos más largos
+(*Copilot vs Gemini* 22:14 y *Cómo cambió la industria tech* 20:51) hicieron 6 y
+17 oyentes; los dos más cortos (*004* 05:30 y *001* 06:37) hicieron 15 y 19.
+
+⚠️ **No es causalidad y el confound es grande:** los episodios cortos son
+mayoritariamente los de lanzamiento (2025), que además llevan más tiempo
+acumulando. Con n=23 y las variables enredadas con la fecha, esto es **una
+hipótesis, no un hallazgo**. Lo que sí es dato limpio es la deriva: **el show se
+fue haciendo más largo**, +18% de 2025 a 2026, sin que la audiencia lo siguiera.
+Merece una prueba deliberada si el podcast revive: episodios de 8-10 min.
+
+### 4. Correcciones menores de datos
+
+- *Cómo usar Claude + Flutter para ser Freelancer en 2026* pasó de **20 → 22
+  plays** entre el 10 y el 19 de agosto. Es el **único** episodio que se movió:
+  el catálogo hizo **+2 plays en 9 días**. El total de por vida sube de 469 a
+  **471**. Confirma el punto 3 de arriba —el activo sigue frío—, ahora con dos
+  cortes en el tiempo en vez de uno.
+- Tres fechas aparecen **un día antes** que en el export del 10-ago (001:
+  20 vs 21 ago 2025; *industria tech*: 26 vs 27 oct; *Confesiones*: 13 vs 14
+  ene). Casi con seguridad es zona horaria de la consola. Adopto las del pegado
+  y dejo constancia de ambas; no cambia ninguna conclusión.
+- *005. Errores al aprender Flutter* y *Cómo uso IA para automatizar mi trabajo*
+  **se publicaron el mismo día** (7 oct 2025). La cadencia quincenal no fue
+  perfectamente regular.
+
+**Duración de la validez:** plays y oyentes son **de vida corta**. La duración
+de cada episodio es **permanente** (no va a cambiar nunca) — es la primera
+columna de este expediente que no caduca. La deriva a episodios más largos es
+**de vida media**: describe un hábito de producción, no una cifra.
+
 ## El límite que impide la comparación que todos quieren hacer
 
 Es tentador leer **469 plays de por vida** contra las **809 vistas de un solo
@@ -133,12 +223,16 @@ no se puede hacer con estos datos:** el export no trae ni duración de episodio
 ni tiempo escuchado, y un play de podcast y una vista de un short de 60 segundos
 no son la misma unidad de atención.
 
-⚠️ **Estimación, no dato:** si el escucha promedio fueran ~5 minutos, 469 plays
+⚠️ **Estimación, no dato:** si el escucha promedio fueran ~5 minutos, 471 plays
 ≈ **39 horas** de atención; el TikTok de 809 vistas, a ~30 segundos, ≈ 6.7 horas.
 Bajo ese supuesto el podcast gana por ~6×. **El supuesto es mío y no está
-verificado** — cambia por completo con la duración real. **Lo que falta medir:
-duración media de episodio y % de escucha.** Sin eso, la decisión de matar o
-revivir el podcast se estaría tomando comparando peras con manzanas.
+verificado** — cambia por completo con la duración real.
+
+> ✅ **Actualización 2026-08-19:** la duración ya la tenemos (media 14:02), así
+> que el cálculo dejó de ser abierto: el **techo absoluto son 104.8 horas** si
+> cada play fuera escucha completa. El escenario de 39 h equivale a un 37% de
+> escucha. **Sigue faltando un solo dato para cerrarlo: el % de escucha real.**
+> Ver la sección anterior.
 
 > **Punto de vista del compresor (regla 2 del CLAUDE.md):** comprimí estos dos
 > CSV con la lente de **decisión de portafolio de formatos** — qué le dice este
@@ -153,9 +247,92 @@ larga son tres cosas: que **la consistencia quincenal es alcanzable para él**
 (está demostrada), que **el formato comparación gana en los tres medios**, y que
 **el show se detuvo subiendo**, no cayendo.
 
+## [2026-08-19] Se reactiva — 1/mes, batch de 4, y clips
+
+El usuario decide **volver a publicar**, tras 72 días de paro. Diseño nuevo:
+**1 episodio/mes, 4 grabados por adelantado, 6-12 clips por episodio** hacia
+shorts. El slate completo, las condiciones y la doctrina de títulos viven en
+[[estrategia-contenido-absadev]]; aquí queda lo que le toca a este show.
+
+**Lo que cambia respecto de las 23 entregas anteriores:**
+
+| | 2025-08 → 2026-06 | desde 2026-09 |
+|---|---|---|
+| Cadencia | 2.4/mes (quincenal) | **1/mes** |
+| Grabación | episodio a episodio | **batch de 4** |
+| Duración objetivo | 14:02 media, subiendo | **8-10 min** |
+| Destino | Spotify (+61% fuera) | **+ YouTube largo, con otro título** |
+| Salida secundaria | ninguna | **~8 clips/episodio → shorts** |
+| Formato | solo | **2 solo + 2 con invitado** |
+
+**La baja de cadencia (2.4 → 1/mes) es deliberada y va contra el récord de este
+show.** No se justifica por los datos del podcast —que dicen que aguantaba
+quincenal— sino porque desde el 16-jul existe una racha paralela de shorts en
+[[absadev]] que no existía durante esos 9.5 meses. Es un reparto de presupuesto
+(4-6 h/semana), no una corrección del show.
+
+**Se prueba por fin la hipótesis de duración.** La página registró el 19-ago que
+los episodios se alargaron +18% (12:55 → 15:16) mientras la audiencia se
+encogía, con r = −0.38 en 2026, y lo marcó como **hipótesis con confound
+grande**, pidiendo "una prueba deliberada si el podcast revive". El reinicio a
+**8-10 min** es esa prueba. ⚠️ Sigue sin ser un experimento limpio —cambian
+duración, plataforma, formato y títulos a la vez— así que si la audiencia sube
+**no se podrá atribuir a la duración**. Queda dicho de antemano para no
+inventarse la causa después.
+
+**Los invitados son la única pieza que adquiere público.** Con 16.1 oyentes
+únicos por episodio, este show recircula audiencia, no la trae. El formato
+entrevista está demostrado y dormido, no por aprender: *Café con Absa* llegó a
+**Listen Score 29 (top 10% mundial)** — ver [[absa-garcia]].
+
+**Dato pendiente que ahora sí decide algo:** el **% de escucha real**. Es lo
+único que falta para cerrar el techo de atención (0 → 104.8 h) y para saber si
+8-10 min fue la decisión correcta.
+
+⚠️ **Este show sigue frío mientras tanto:** +2 plays en 9 días (469 → 471). La
+reactivación se decide sobre un activo que se está enfriando, no sobre uno con
+inercia.
+
+## [2026-08-25] Un referente entra al expediente: el temario ya no diferencia
+
+Entra al wiki el catálogo de [[devtalles]] (~270 episodios, Fernando Herrera),
+el podcast dev en español que el usuario declara admirar. Lo que le toca a este
+show, en tres puntos:
+
+1. **Los cuatro episodios con más oyentes únicos de aquí tienen contraparte
+   allá.** *La carrera de la rata* (25), *Flutter 4.0* (24), *Monetizar Flutter*
+   (23), *Node vs Python* (22) — los cuatro. No es imitación: son los temas
+   obvios del nicho. **La conclusión es que el tema no diferencia**, y el único
+   diferenciador disponible es el caso propio con artefacto (la regla que ya
+   estaba escrita el 20-ago en [[estrategia-contenido-absadev]]).
+
+2. **Dos de los cuatro temas del slate reactivado también la tienen** (#1 rata,
+   #2 maestría vs experiencia). El slate **no se cambia** —está elegido por dato
+   propio— pero el listón del ángulo sube. El **#4 (FitExe cobrando MX$600/mes)
+   es el único con ventaja estructural**: un caso propio no se puede copiar.
+
+3. **La condición #3 (sólo evergreen) queda reforzada por aritmética ajena.**
+   DevTalles sostiene la mitad de su catálogo con temas de noticia porque
+   publica ~4/mes. A **1/mes, el formato noticia es imposible**, no arriesgado.
+
+**Formato nuevo que este show nunca ha usado:** el **episodio-lista** (*10
+puntos que un senior da por hecho*, *40 términos*). Ninguno de los 23 episodios
+tiene esa forma, y es la que más clips produce por hora de grabación — trae los
+puntos de corte marcados de antemano, que es justo lo que pide la condición #2.
+El pool de candidatos vive en [[estrategia-contenido-absadev]].
+
+⚠️ **Lo que esta fuente no puede decir:** el catálogo **no trae ni una métrica**.
+Ni plays, ni oyentes. Es un catálogo de oferta, no de demanda — y de procedencia
+no verificada. Nada de aquí se cita como evidencia de que un tema funcione.
+
+**Duración de la validez:** el cruce de temarios es de **vida media** (mientras
+el nicho sea el mismo). De vida larga: **el tema está ocupado, el caso propio
+no**.
+
 ## Related
 
 - [[absadev]] — la marca dev de video; mismo público objetivo, mismos pilares
 - [[absa-garcia]] — la historia de podcasts anterior (Café con Absa, Absa con Café)
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
 - [[eliecer-garcia-romo]] — el creador
+- [[devtalles]] — el podcast de referencia; su catálogo cruzado contra este show

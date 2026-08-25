@@ -1176,3 +1176,354 @@ y estirar, o aceptar la sobre-extensión medida.
 **Mix del batch:** 3 de la mitad pikacodes (identidad/correr/journey) contra 2 de
 utilidad — primera ejecución real de la recomendación del 10-ago. Y el de correr
 es el crossover con el arco del medio maratón de [[absa-garcia]] (6 sep).
+
+## [2026-08-19] ingest | BLACK ICE LABS — listado de episodios con duración y audiencia — blackicelabs
+
+Fuente: `raw/blackicelabs/podcast-blackicelabs-episodios-2026-08-19.md` (pegado
+del usuario desde Spotify for Creators). **Ningún episodio nuevo** — los 23 ya
+estaban en el wiki desde el 10-ago. Lo que sí es nuevo son **dos columnas que el
+export CSV no traía: `Length` y `Audience` por episodio.**
+
+Actualizado [[blackicelabs-podcast]] con tabla enriquecida (plays + oyentes
+únicos + duración) y sección nueva `Lo que añade el pegado del 2026-08-19`:
+
+1. **El techo de atención queda acotado.** La página estimaba "~39 h" bajo un
+   supuesto inventado y pedía explícitamente la duración. Ya está: catálogo de
+   **5 h 23 min**, media **14:02**, y **104.8 h** como techo absoluto si cada uno
+   de los 471 plays fuera escucha completa. Las 39 h equivalen a 37% de escucha.
+   Falta un único dato para cerrar el cálculo: **% de escucha real**.
+2. **Corrección de ranking.** *"Works on My Phone"* lideraba con 40 plays, pero
+   tiene sólo **18 oyentes únicos** (ratio 2.22 vs. 1.27 del show): es el más
+   *repetido*, no el más escuchado. Por audiencia real manda **010. La carrera de
+   la rata** (25). La tesis de que el formato comparación rinde **sobrevive**
+   (003 y Node vs Python siguen arriba); el episodio citado como #1, no.
+   Tabla anterior conservada — era correcta para la métrica que existía.
+3. **Deriva de duración.** Media 2025 **12:55** → 2026 **15:16** (+18%), con
+   correlación negativa duración↔oyentes (r = −0.22 global, −0.38 en 2026).
+   Marcado como **hipótesis, no hallazgo**: n=23 y confound fuerte con la fecha.
+4. **Correcciones menores.** Total de por vida 469 → **471** (*Claude + Flutter*
+   subió 20→22, único movimiento en 9 días: confirma que el catálogo sigue frío,
+   ahora con dos cortes temporales). Tres fechas aparecen un día antes que en el
+   export del 10-ago (zona horaria, sin efecto en conclusiones); *005* y
+   *IA para automatizar* salieron el mismo día (7 oct 2025).
+
+Índice actualizado. Sin páginas nuevas: no había entidad ni concepto nuevo que
+justificara una.
+
+## [2026-08-19] ingest | El cisne negro (Taleb) — books, finance, reflections, masters
+
+Fuente: `raw/books/El cisne negro.md` (~75 highlights de Kindle, densos en las
+partes I–II y casi ausentes en la parte técnica IV). Libro **long-lived**: es
+epistemología, no datos; nada aquí caduca.
+
+**Lente declarada** (regla #2 del CLAUDE.md): se comprimió como *manual de
+higiene epistémica* para un wiki que ya carga mucho material con sabor a
+previsión — tesis de startup, planes financieros y proyecciones de crecimiento
+de canal. Quien buscara el ángulo de trading/gestión de riesgo, o la matemática
+fractal de Mandelbrot, habría conservado otras líneas. Los highlights de
+fractales (cap. 16) quedan registrados pero **sin desarrollar**.
+
+Creadas 4 páginas:
+
+- [[el-cisne-negro]] (entidad) — definición en tres partes, la estrategia de
+  "juguetear" y ajustes estocásticos, clasificar creencias por daño y no por
+  verosimilitud, profesiones escalables vs. por horas, "no sabemos lo que
+  sabremos", cisnes grises.
+- [[mediocristan-vs-extremistan]] (comparación) — tabla de los dos mundos +
+  origen real del 80/20 en Pareto (observación sobre **tierras**, no sobre
+  esfuerzo) y su reutilización productivista, que roza a
+  [[essentialism-less-but-better]] y [[effortless-action-principles]].
+- [[falacia-narrativa-y-pruebas-silenciosas]] (concepto) — máquina de
+  explicación, error de confirmación, sesgo del superviviente, falacia lúdica,
+  antibiblioteca de Eco.
+- [[limites-de-la-prediccion-experta]] (concepto) — Tetlock, el pavo, y lo más
+  aplicable del libro: **el error en proyectos es unidireccional** (siempre más
+  caro y más tarde), la paradoja del retraso, el anclaje, y previsiones sin
+  índice de error.
+
+**Dos tensiones registradas, ninguna resuelta:**
+
+1. **Taleb vs. Thiel.** Coinciden en la forma del mundo (ley de potencia) y se
+   contradicen en la prescripción: concentrarse tras un secreto vs. juguetear
+   ampliamente. Anotado en ambas direcciones — se añadió sección nueva a
+   [[de-cero-a-uno]] sin editar su contenido previo.
+2. **Taleb vs. las costumbres de previsión de este wiki.** El cap. 10 es un
+   ataque directo a proyectar desde ventanas de 28 días
+   ([[estrategia-contenido-absadev]]) y a supuestos de retorno a largo plazo
+   ([[investment-bucket-strategy]], [[principios-nuevo-orden-mundial]]).
+
+También se añadió a [[second-brain-epistemic-design]] una **confirmación
+independiente**: la tercera propiedad del Cisne Negro (explicabilidad *a
+posteriori*) es literalmente el riesgo #1 de esa página, nombrado desde la
+probabilidad y ~19 años antes de que existiera este wiki.
+
+Contradicción interna del propio Taleb marcada en su página: "reunir tantas
+oportunidades de Cisne Negro" (cap. prólogo) contra "tener muchas noticias
+medianamente buenas es preferible a una única noticia fantástica" (cap. 7). La
+reconciliación tipo *barbell* **no está en los highlights** y queda anotada como
+inferencia, no como contenido con fuente. Otra laguna explícita: de las tres
+falacias de prever sin índice de error sólo se conserva la primera.
+
+Índice actualizado (1 entidad, 2 conceptos, 1 comparación).
+
+## [2026-08-19] estrategia | Batch #7 (14→30 sep) + feedback de un espectador 60+ no-dev — blackicelabs
+
+Fuente: conversación con el usuario (petición de batch + feedback recibido de un
+amigo de su padre, médico de 60+ años, que ve los shorts y "se siente perdido"
+porque no sabe de IA). Sin archivo en `raw/`.
+
+**Batch #7 diseñado** — 9 shorts, 14→30 sep en días alternos (el calendario ya
+estaba cubierto hasta el 12 sep por el batch #5 y el batch grabado el 18-ago).
+Mix: 3 de nivel de entrada (Serie 9 nueva, *IA sin jerga*), 3 de identidad/arco
+(medio maratón cumplido, Swift condicional, 3 meses publicando), 2 de utilidad
+dev, 1 de bucle comentario→video. Registradas dos advertencias: la cadencia sube
+a 3.7/semana (decisión explícita del usuario, no descuido) y 9 shorts no caben en
+una sola sesión de grabación — el máximo ejecutado es 7. El video de Swift del
+24 sep es **condicional** a que la sesión 1 exista, por la regla que salió del
+batch del 18-ago (anunciar el hito, no la intención).
+
+**La decisión de fondo: test acotado, no pivote.** El feedback confirma desde
+fuera lo que el export de TikTok ya decía (motor de alcance no-dev), pero el
+precedente del video de inglés (alcance alto, conversión 0.00) dice que ancho ≠
+comunidad. Se separa explícitamente que *"qué es un modelo de IA"* **no es
+off-niche** — cambia la profundidad, no el tema, y el pool de búsqueda es órdenes
+de magnitud mayor. Condición de refutación registrada: si los 3 videos repiten el
+patrón alcance-alto/conversión-baja, la Serie 9 se cierra.
+
+**Sesgo nombrado:** n=1 y prueba ruidosa — se sabe de este espectador porque tiene
+acceso directo al creador; los que no entendieron y scrollearon no dejan rastro
+([[falacia-narrativa-y-pruebas-silenciosas]]).
+
+**Hueco de medición nuevo: la edad.** No hay un solo dato de edad en el
+expediente — el export de TikTok trae género y territorios pero ningún archivo de
+edad, y el snapshot de la API de YouTube tampoco incluyó demografía. La pregunta
+del usuario (*¿aplica a otras edades?*) queda **no respondible con lo que hay**;
+se separa en su lugar que "no-dev" son dos públicos distintos (dev aspirante vs.
+profesional de otro campo) con embudos distintos.
+
+Actualizadas [[estrategia-contenido-absadev]] y [[absadev]]. Índice actualizado.
+Sin páginas nuevas.
+
+## [2026-08-19] decisión | Reactivación del podcast + doctrina de dos títulos — blackicelabs
+
+El usuario decide volver a publicar [[blackicelabs-podcast]] tras **72 días de
+paro**: 1 episodio/mes, 4 grabados por adelantado, 6-12 clips por episodio hacia
+shorts. Actualizadas [[estrategia-contenido-absadev]] (sección nueva con el
+slate, las condiciones y la doctrina de títulos) y [[blackicelabs-podcast]]
+(sección de reactivación con la tabla antes/después).
+
+**El argumento aprobado no es el que traía la propuesta.** El podcast **no
+crece** — 16.1 oyentes únicos por episodio, 371 oyentes-episodio de por vida — y
+eso no mueve los 2,142 subs que faltan. Lo que sí hace es cambiar la economía de
+producción: **4 episodios × 8 clips = 32 clips ≈ 11 semanas de shorts a 3/semana,
+desde 4 sesiones de grabación**. Es el primer cambio que ataca la restricción
+real (4-6 h/semana) en vez de la métrica. Queda escrito que es **fábrica de
+contenido y motor de disfrute, no canal de crecimiento**, para que ninguna
+lectura futura lo mida con la vara equivocada.
+
+**Slate de 4 evergreen (8-10 min):** rata del programador (S8, solo — ep. 010 fue
+el #1 real del show con 25 oyentes), maestría vs experiencia (S3+S5, solo),
+sobrevivir la chamba gringa (S1, invitado) y el side project que cobra (S6,
+invitado: [[carlos-emilio-blanco]], apoyado en que [[fitexe]] ya factura
+MX$600/mes). ⚠️ El #4 requiere visto bueno de Emilio antes de grabarse.
+
+⚠️ **Tres condiciones de fallo registradas por adelantado**, no descubiertas
+después: (1) los clips **reemplazan** el calendario de shorts —el usuario venía
+en 4.3 videos/semana con dos slates colisionando, y apilar sería el patrón de
+sobre-extensión disfrazado de apalancamiento; **refutación: >3.5 videos/semana
+dos semanas seguidas = el plan está fallando aunque suban los números**—; (2) los
+clips se cortan en confesión/opinión, no en tip (*Chamba Gringa* #1/#2/#3:
+0.00 SPV y 0 comentarios los tres); (3) sólo se batchean temas evergreen, porque
+media parrilla histórica del show es de noticia y a 1/mes el episodio #4 saldría
+con material de 4 meses.
+
+**Doctrina nueva, del usuario:** *"YouTube y Spotify para podcast jalan
+diferente"* → **dos títulos por grabación**. Spotify = oyente ya suscrito
+hojeando un feed (`0NN. Tema declarativo`, el número ordena); YouTube = frío por
+búsqueda (consulta buscable delante, sin número). Se apoya en dato propio —
+**35.0% del tráfico es Búsqueda contra 9.9% de Sugeridos+Browse** — y extiende la
+corrección del 14-ago sólo a la plataforma donde aplica. ⚠️ Marcada como
+**hipótesis**: se refuta si los títulos de YouTube no superan la línea base de
+CTR cuando exista el export de Studio.
+
+**También se prueba por fin la hipótesis de duración** (8-10 min) que la página
+del podcast pidió el 19-ago. ⚠️ Registrado de antemano que **no será atribuible**:
+cambian duración, plataforma, formato y títulos a la vez.
+
+**Peticiones de dato:** el export de Studio (impresiones/CTR) sigue **abierto
+desde el 10-ago** y ahora vale más que nunca — 7 títulos del batch #5 más 4
+títulos largos entrando, y es lo único que puede validar la doctrina de títulos.
+Nueva: el **% de escucha real** del podcast, único número que falta para cerrar
+el techo de atención (0 → 104.8 h).
+
+### [2026-08-19] revisión del batch #7 — frontera Absadev / Absa Garcia
+
+El usuario revisó el slate el mismo día: **siete videos aprobados sin cambios**,
+dos descartados (*medio maratón* y *3 meses publicando: los números reales*).
+Sustituidos por dos de la Serie 5 (FitExe / el error de mis primeros años) para
+no invertir la ponderación identidad↔utilidad.
+
+Lo relevante no son los dos videos: es que **el running se declara territorio de
+[[absa-garcia]], no de [[absadev]]** — primera vez que la frontera entre las dos
+marcas se enuncia como regla y no se decide caso por caso. Registrada la
+discrepancia sin reescribir el pasado: el 29-jul esta misma página programó el
+crossover *a propósito*, y el batch grabado el 18-ago **ya incluye** un video de
+medio maratón en Absadev que se publica antes del 12 sep. El criterio cambió
+después de grabar. Ese video es justo el dato que podría reabrir la frontera.
+
+Anotado también que el video de métricas no es sólo "fuera de lugar": el canal
+no tiene aún un buen número que contar (SPV 0.21, Retention negativa, export de
+Studio sin jalar desde el 10-ago). Y que el video de FitExe **requiere ok de
+Emilio** — comunicación pública sobre revenue es decisión conjunta
+([[carlos-emilio-blanco]]).
+
+## [2026-08-19] corrección | ATHLETIX AI ya no existe — athletix
+
+El usuario reporta en sesión que **[[athletix-ai]] ya no existe**. Añadido un
+banner de corrección al inicio de la página, **sin borrar nada** del contenido
+anterior: lo documentado el 2026-07-10 desde el pitch deck sigue siendo un
+registro fiel de lo que se planeaba entonces, y ahora se lee como histórico.
+Actualizado `index.md`.
+
+**Por qué importa más allá de esa página:** el dominio `athletix` está definido
+en `CLAUDE.md` como proyecto en curso, [[hyper-bots]] figura como el estudio que
+lo construye, [[eliecer-garcia-romo]] y [[humberto-garcia-romo]] como
+co-fundadores activos, y **al menos 12 páginas de libros** (De cero a uno, The
+SaaS Playbook, Piensa como Amazon, Zero to One, Creando Unicornios…) usan
+ATHLETIX como su caso de aplicación. Todas esas lecturas quedan apuntando a un
+proyecto muerto.
+
+❓ **Abierto y no inferido:** fecha de cierre, causa, estado de [[hyper-bots]], y
+qué pasó con la sociedad entre los hermanos. El usuario declaró el hecho, no el
+contexto. **No se toca nada más hasta tener respuesta** — la regla del wiki es
+presentar y esperar confirmación, no corregir en cascada por cuenta propia.
+
+⚠️ **Cómo se destapó:** salió porque una propuesta de contenido iba a mandar a
+grabar un episodio sobre la startup. Es el caso de libro de por qué un wiki sin
+mantenimiento de estado se vuelve peligroso — no por estar incompleto, sino por
+seguir afirmando con confianza algo que dejó de ser cierto.
+
+## [2026-08-20] ingest | Consejo de Daniel sobre el guion de los shorts — blackicelabs
+
+El usuario reporta que [[daniel]] le dice que **hable de lo que le pasa en vez de
+hablar sobre aprender**. Nueva sección en [[estrategia-contenido-absadev]], nota
+en [[absadev]] y sección de contenido nueva en [[daniel]] (que pasa a tener
+también dominio `blackicelabs`). Actualizado `index.md`.
+
+**Por qué vale más que una opinión suelta:** converge con la tabla de SPV del
+10-ago (confesión 9.48 / tesis 5.49 contra 0.00 en los tres *Chamba Gringa*) y
+con la condición #2 del podcast del 19-ago, **sin que Daniel haya visto esos
+números**. Evidencia independiente, no eco.
+
+⚠️ **Registrado el contraejemplo, no barrido:** el video de mayor SPV del canal
+*es* un anuncio de aprendizaje ("voy a aprender Swift", 9.48) — y también es la
+promesa que se incumplió tres veces. El eje que la medición sí respalda es
+*contar vs. enseñar* y *hecho vivido vs. promesa futura*, no "aprender" como
+tema. Se adopta como regla de guion (la primera frase es algo que le pasó), no
+como veto de temas; ningún slate cambia.
+
+⚠️ **Dos señales cualitativas n = 1 que apuntan al revés, ambas en pie:** el
+médico de 60+ (19-ago) pide más explicación; Daniel pide menos. La Serie 9 sigue
+como test acotado, con recomendación de abrir sus tres videos por un incidente,
+y con condición de refutación explícita para el consejo de Daniel.
+
+## [2026-08-20] decisión | Batch #7 y slate del podcast reescritos en clave "lo que me pasa" — blackicelabs
+
+El usuario pide llevar el consejo de [[daniel]] más allá de la regla de guion y
+**rehacer los dos slates pendientes**. Nueva sección en
+[[estrategia-contenido-absadev]]: **Serie 10 — "Lo que me está pasando"**, 9
+shorts del 14→30 sep donde la primera frase de cada uno es un incidente ya
+fechado en el wiki, más los 4 episodios del podcast reescritos por su apertura
+(mismos temas, distinta entrada). Actualizado `index.md`.
+
+**Lo que entra y no estaba:** el video de la **promesa de Swift incumplida** — la
+deuda más vieja del canal, con suscriptores que llegaron por el short de 9.48 SPV
+y que nunca supieron qué pasó. Y el DM de Instagram sustituye a *Chamba Dev #8*
+como motor de bucle de audiencia, porque la Serie 1 hizo 0.00 SPV y 0 comentarios
+las tres veces.
+
+⚠️ **El costo, registrado y no barrido:** la Serie 9 baja de 3 videos a 1.5, así
+que **su condición de refutación del 19-ago deja de ser evaluable** y el feedback
+del médico de 60+ queda sin poner a prueba. Se cambió un experimento diseñado por
+una regla respaldada por una sola opinión de un par. El slate anterior queda
+íntegro arriba en la página, recuperable palabra por palabra.
+
+⚠️ **Dos aperturas del podcast (#1 y #4) son plantillas, no citas** — el wiki no
+tiene la anécdota concreta detrás; el usuario debe rellenarlas con lo que pasó de
+verdad o la apertura se cae. Cadencia sin cambios y sigue en 3.7/semana; los
+clips del episodio 1 no pueden publicarse antes del 30 sep sin romper el techo de
+3.5/semana fijado el 19-ago.
+
+## [2026-08-20] corrección | La Serie 10 se cae: "no lo sentí como dev" — blackicelabs
+
+El usuario rechaza 8 de los 9 shorts de la Serie 10 escritos horas antes; salva
+sólo el del segundo cerebro. Error de compresión mío, registrado como tal en
+[[estrategia-contenido-absadev]]: busqué fricción **del creador de contenido**
+(la promesa, la racha, el DM, la tesis) cuando lo que pedía era fricción **del
+dev**. Corrección de vida larga: *lo que me pasa* = lo que me pasa programando.
+
+**A petición explícita del usuario queda una lista de rechazo pieza por pieza**
+con el motivo de cada caída, como filtro permanente para no repetir el molde.
+Regla derivada: si la anécdota se puede contar sin mencionar código,
+arquitectura, una herramienta o una decisión técnica, no es de este canal; y la
+pieza necesita un **artefacto** que se pueda enseñar en pantalla.
+
+Registrado también el tono que elige el usuario —**opinión contra corriente**,
+no confesión de error— y las cuatro venas donde dice tener anécdotas: bugs y
+producción, herramientas que se construye, la chamba gringa en código, IA en su
+flujo real. **El batch #7 queda sin slate vigente** hasta que haya anécdotas
+reales; el slate del 19-ago vuelve a ser el último aprobado.
+
+## [2026-08-20] método | Instrumento de extracción de anécdotas — segunda tanda validada — blackicelabs
+
+La primera tanda de preguntas falló (abstractas, superlativas). La segunda
+funcionó al cambiar de método: **lo último en vez de lo mejor, anclaje en repos
+propios, y afirmaciones para reaccionar**. El usuario marcó **ocho** como buenas
+— pero **aún no las contesta**: está validada la forma, no el contenido. Las ocho
+quedan escritas en [[estrategia-contenido-absadev]] como instrumento reutilizable
+para batches futuros (hallazgo de vida larga).
+
+**Lo que descartó dice más que lo que eligió:** fuera todo lo mundano y **todo lo
+de romper cosas** (bug caro, producción caída, el archivo que da pena, lo que se
+cayó con un usuario enfrente). Dentro, decisiones con criterio y opiniones.
+Quiere aparecer con **criterio**, no confesando desorden.
+
+⚠️ **Tensión anotada, no resuelta:** los dos únicos SPV altos del canal (9.48 /
+5.49) son **confesiones de vulnerabilidad**, no opiniones técnicas. Evidencia a
+favor de la opinión pura: cero, ni a favor ni en contra. Queda condición de
+refutación explícita.
+
+## [2026-08-25] ingest | DevTalles — catálogo de ~270 episodios (Fernando Herrera) — blackicelabs, swe
+
+El usuario pega un informe que cataloga el podcast dev en español de **Fernando
+Herrera**, creador que declara admirar, **para usarlo como banco de ideas de
+episodios de [[blackicelabs-podcast]]**. Guardado en
+`raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md`.
+
+Nuevas: [[devtalles]] (entidad),
+[[pendulo-arquitectonico-cliente-servidor]] y [[vibecoding-y-spec-driven-design]]
+(conceptos). Actualizadas: [[blackicelabs-podcast]] y
+[[estrategia-contenido-absadev]] con el pool de candidatos.
+
+⚠️ **Fuente marcada `low`.** No es un export: es un informe redactado de autoría
+no declarada, con dos episodios 261, dos 220, un `198 (sic 196)`, uno sin número
+y bloques enteros colapsados a "Varios". Los **títulos y números concretos no se
+citan como hecho** en ninguna página. Y **no trae una sola métrica**: es catálogo
+de oferta, no de demanda — nada de aquí prueba que un tema funcione.
+
+**El hallazgo:** los **cuatro episodios con más oyentes únicos del show del
+usuario tienen los cuatro contraparte en DevTalles**, y dos de los cuatro temas
+del slate reactivado también. **El temario del nicho está ocupado; lo único que
+diferencia es el caso propio con artefacto** — que es exactamente la regla del
+20-ago, ahora confirmada desde fuera. El slate del 19-ago **no se cambia**.
+
+Dos convergencias más: **3 de las 8 preguntas validadas el 20-ago** (clean
+architecture como sobreingeniería, tests en side projects, juniors sin IA) tienen
+equivalente en el catálogo — son debates vivos, no invenciones del compresor. Y
+aparece un formato que este show nunca ha usado: el **episodio-lista**, que trae
+los puntos de corte de clips marcados de antemano. La condición #3 (sólo
+evergreen) queda reforzada por aritmética: a 1/mes el formato noticia es
+imposible, no arriesgado.
+
+**No adoptado:** la cifra de "caída del 50% en contratación junior" — sin
+ventana, sin geografía, sin denominador y de segunda mano.

@@ -69,3 +69,19 @@ friction), using Obsidian only for its graph view as a semantic backend
 —goal being to let knowledge from one personal project cross-pollinate
 with another, matching this repo's own domain-crossing design (see
 `CLAUDE.md`, "Domains" section).
+
+## Independent confirmation: Taleb's third property (added 2026-08-19)
+
+[[el-cisne-negro]] defines a Black Swan by three properties, the third of
+which is that "la naturaleza humana hace que inventemos explicaciones de su
+existencia **después del hecho**, con lo que se hace explicable y
+predecible." That is **retrospective contamination** — risk #1 on this page —
+named from probability theory rather than from PKM practice, and by a source
+that predates this wiki by ~19 years. The rule wasn't derived from Taleb; the
+convergence is what makes it worth recording.
+
+Taleb also supplies the mechanism behind risk #2, the compressor's point of
+view: the narrative fallacy ([[falacia-narrativa-y-pruebas-silenciosas]]) says
+explanation *is* compression, and compression is exactly where the randomness
+and the discarded alternatives go. Practical consequence for this wiki: a page
+that states no lens has not avoided having one.

@@ -94,3 +94,22 @@ weight on finding a genuine secret/monopoly position *before* execution
 matters. Both books would likely agree both matter — this is a difference
 in what each chooses to emphasize, not a documented disagreement between
 them.
+
+## Contradiction recorded: Taleb (added 2026-08-19)
+
+[[el-cisne-negro]], ingested 2026-08-19, agrees with this book on the
+*shape* of the world — outcomes follow a power law, not a bell curve
+([[mediocristan-vs-extremistan]]) — and disagrees flatly on what a founder
+should do about it. Thiel: the future is knowable enough to plan toward
+("definite optimism"), success is never accidental, find your secret and
+concentrate. Taleb: top-down planning is the delusion, nobody can tell in
+advance which position is in the tail, so tinker widely ("ajustes
+estocásticos") and collect cheap exposure to positive Black Swans instead.
+
+Neither page is edited to accommodate the other. Taleb would read Thiel's
+successful-founder evidence as survivorship bias
+([[falacia-narrativa-y-pruebas-silenciosas]]); Thiel would read Taleb's
+tinkering as the indefinite optimism he blames for stagnation. The live
+question for [[athletix-ai]] and [[fitexe]] is which regime a given bet is
+in — a plannable one or a tail-driven one — not which author is right in
+general.

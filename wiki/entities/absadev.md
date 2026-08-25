@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-16
+updated: 2026-08-20
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-08-09
     ingest_date: 2026-08-10
     confidence: high   # export de primera parte de la plataforma; ver caveats de año y de muestreo
+  - path: conversation (consejo de [[daniel]] sobre el guion de los shorts)
+    fact_date: 2026-08-20
+    ingest_date: 2026-08-20
+    confidence: medium   # opinión de un par, de segunda mano, n = 1
 ---
 
 # Absadev
@@ -457,8 +461,45 @@ It also doubles as the "one collaboration" growth lever in
 their own audience. Candidate direction for Absadev's long-form, pending
 the CSV data before committing.
 
+## Primer feedback cualitativo de un espectador no-dev (2026-08-19)
+
+Un amigo del padre del usuario — **médico, 60+ años** — ve los shorts y dice
+sentirse **perdido**: no sabe de IA. Es el primer testimonio directo de un
+espectador registrado en esta página, y **confirma desde fuera** el hallazgo del
+export de TikTok del 10-ago (*el motor de alcance de la cuenta es no-dev*), que
+hasta ahora era una inferencia sobre agregados.
+
+⚠️ **Es n = 1 y es prueba ruidosa:** se sabe de esta persona porque tiene acceso
+directo al creador. Quien no entendió y siguió scrolleando no deja rastro
+(ver [[falacia-narrativa-y-pruebas-silenciosas]]). No mide cuánta gente hay
+detrás.
+
+**Hueco de medición nuevo — edad.** No hay un solo dato de edad en el expediente:
+el export nativo de TikTok trae `FollowerGender.csv` y `FollowerTopTerritories.csv`
+pero **ningún archivo de edad**, y el snapshot de la YouTube Analytics API del
+10-ago tampoco incluyó demografía. Queda al lado del export de Studio
+(impresiones/CTR), abierto desde el 10-ago.
+
+La consecuencia estratégica — test acotado de "nivel de entrada" (Serie 9), no
+pivote, con condición de refutación — está en [[estrategia-contenido-absadev]],
+batch #7.
+
+## Segundo feedback cualitativo, esta vez de un par (2026-08-20)
+
+[[daniel]] —colega dev, no espectador del canal— le dice que **hable de lo que
+le pasa en vez de hablar sobre aprender**. Converge con la tabla de SPV de la
+ventana del 10-ago (confesión 9.48 / tesis 5.49 contra 0.00 en los tips) **sin
+haber visto esos números**, y con la promesa de Swift documentada arriba, que es
+el caso donde "hablar de aprender" convirtió altísimo *y* quedó a deber.
+
+⚠️ Es n = 1 y es opinión de un par, no de la audiencia — el eje que la medición
+sí respalda es *contar vs. enseñar* y *hecho vivido vs. promesa futura*, no
+"aprender" como tema. La regla de guion que sale de esto, y su choque con el
+espectador de 60+ del 19-ago, están en [[estrategia-contenido-absadev]].
+
 ## Related
 
 - [[estrategia-contenido-absadev]] — the content strategy built on this profile
+- [[daniel]] — el par dev que dio el feedback de guion del 20-ago
 - [[absa-garcia]] — the sibling non-tech lifestyle/running brand
 - [[eliecer-garcia-romo]] — the person behind the channel
