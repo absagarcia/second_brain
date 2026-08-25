@@ -56,11 +56,28 @@ en [[composicion-corporal-2026]].
 varias horas de inferencia razonable. Vale como precedente para el resto del
 wiki — cuando existe la serie, se pide la serie.
 
-## Lo que no está documentado
+## 2026-08-25 (segunda ingesta) — aparece el plan
 
-- **No hay plan alimenticio escrito en el expediente.** Las 8 evaluaciones son
-  mediciones; el campo "observaciones" viene vacío en todas. No hay calorías,
-  macronutrientes, proteína prescrita ni pauta de suplementación.
-- No se sabe si el plan es escrito o verbal.
+Ese mismo día llegaron `meal-plan.png` y `gui de alimentos.pdf`: el plan
+existe, es **por equivalentes** y está en [[plan-alimenticio-mp-2026]]. Su
+método queda completo — antropometría para medir, SMAE para prescribir.
+
+Lo que la prescripción revela sobre su criterio: **prioriza pérdida de grasa
+sobre retención de masa muscular**. 9 porciones de proteína (~106 g, 1.12 g/kg)
+quedan por debajo del rango para un paciente en déficit que entrena, y la
+serie muestra el resultado esperable de eso: −2.0 kg de masa muscular medida.
+No es un descuido invisible — es una elección coherente con el objetivo que
+el paciente le planteó, tomada **antes** de que él declarara la meta de
+maratón. Vale la pena que él se lo lleve a consulta, no como reclamo sino
+como cambio de objetivo.
+
+## Lo que sigue sin estar documentado
+
+- **El campo "observaciones" viene vacío en las 8 evaluaciones.** El plan
+  existe como documento aparte; el expediente de mediciones no lo referencia.
+- **El plan no trae fecha ni nombre llenados** (campos en blanco en el PDF),
+  así que no se sabe si las porciones actuales son las del 27-mar o el
+  resultado de ajustes en el camino.
+- No hay pauta horaria ni peri-entrenamiento, ni suplementación.
 - No consta cómo se coordina con el coach de running, que también sigue sin
   nombre ni documentación en el wiki.

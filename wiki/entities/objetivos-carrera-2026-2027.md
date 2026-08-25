@@ -127,6 +127,20 @@ pliegues, ≈18-dic por grasa) **caen antes del Medio de Guadalajara del
 28-feb-2027**, con dos o tres meses de margen. Llegaría a su carrera objetivo
 ya en el peso que quiere.
 
+## 2026-08-25 — el conflicto también está en el plato
+
+Hasta aquí la tensión entre bajar grasa y correr un maratón era de
+**calendario**. Con [[plan-alimenticio-mp-2026]] ingerido, es también de
+**combustible**: el plan entrega **198 g de carbohidrato al día (2.1 g/kg)**
+y un bloque de maratón pide **475–665 g (5–7 g/kg)** en días de carga.
+
+Es entre el 30% y el 40% de lo necesario. No hay forma de meter tiradas de
+25–32 km dentro de ese plan sin cambiar el plan. Refuerza —ahora con una
+fuente, no con intuición— que **el 8 de noviembre es el escalón que sobra**:
+el Medio de Guadalajara del 28-feb-2027 cae después de que las dos
+proyecciones al 20% se cumplan, y para entonces el plan puede virar de
+déficit a rendimiento sin sacrificar nada.
+
 ## Preguntas abiertas
 
 - ¿El maratón del 8-nov está inscrito y pagado, o todavía es una opción?
@@ -136,3 +150,8 @@ ya en el peso que quiere.
 - ¿Está confirmada la fecha del Medio Maratón de Guadalajara? Aquí se asume
   **2027-02-28** por ser el último domingo de febrero de 2027 (el de 2026 ya
   pasó).
+- ¿Las porciones actuales del plan son las del 27-mar o se ajustaron en el
+  camino? El PDF trae la fecha de inicio en blanco.
+- ¿Sabe [[margarita-posada]] de la meta de maratón? El plan que prescribió no
+  es compatible con un bloque de 42 km, y eso es una conversación pendiente,
+  no un error de ella.

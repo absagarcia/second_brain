@@ -1792,3 +1792,55 @@ proteína es justo la variable que el usuario citó en su hipótesis.
 **Lección de método, la que más vale:** una fuente primaria fechada deshizo en
 un minuto varias horas de inferencia razonable. **Cuando existe la serie, se
 pide la serie** — antes de comprimir, no después.
+
+## [2026-08-25] ingest | Plan alimenticio Sistema MP (meal-plan.png + guía de alimentos.pdf) — fitness
+
+Segunda ingesta del día sobre la misma carpeta. **Se cierra el hueco que la
+ingesta de la mañana dejó marcado**: el plan alimenticio sí existe, sólo que
+no estaba en las 8 hojas de medición sino en dos archivos aparte.
+
+Creada [[plan-alimenticio-mp-2026]]. Actualizadas [[margarita-posada]],
+[[composicion-corporal-2026]] y [[objetivos-carrera-2026-2027]].
+
+**El plan:** por equivalentes (SMAE), no por calorías. 5 cereales · 2 grasas ·
+**9 proteínas** · 3 lácteos · 3 verduras · 5 frutas. Verdura de hoja libre.
+El alcohol se descuenta en cereales, no se prohíbe.
+
+**Hallazgo 1 — la proteína está baja, y eso explica los −2 kg de músculo.**
+106 g/día = **1.12 g/kg** contra los 1.6-2.4 g/kg que pide un déficit con
+entrenamiento (152-228 g). Déficit agresivo + proteína baja es el escenario
+clásico de pérdida de masa muscular, que es literalmente lo que las 8
+mediciones registraron. Da la vuelta completa a la preocupación que el usuario
+expresó horas antes: **el riesgo medido en su expediente es el contrario del
+que él teme.**
+
+**Hallazgo 2 — el conflicto con el maratón también está en el plato.** 198 g
+de CHO (2.1 g/kg) contra los 475-665 g (5-7 g/kg) de un bloque de maratón:
+entre el 30% y el 40%. Hasta hoy la tensión con el 8-nov era de calendario;
+ahora es de combustible, con fuente.
+
+**Hallazgo 3 — el plan en papel es más agresivo que lo que el cuerpo
+registró.** El escenario magro (~1460 kcal) queda ~400 kcal **bajo el
+metabolismo basal** estimado (1862, Katch-McArdle sobre 69.1 kg de MLG), y
+daría un déficit de 1000-1500 kcal/día contra un TDEE realista. El déficit
+real implícito en la grasa perdida es de **~546 kcal/día**. Adherencia
+parcial, porciones ajustadas en el camino, o TDEE sobreestimado — no se elige
+ninguna, pero la brecha queda anotada.
+
+**Fuga del sistema de equivalentes:** llenar las 9 porciones de proteína con
+oleaginosas (nueces, crema de cacahuate) lleva el plan a ~2570 kcal y 151 g de
+grasa sin salirse del "grupo correcto".
+
+⚠️ **Derivación marcada como tal.** Las calorías y macros **las calculé yo**
+aplicando valores SMAE a las porciones; Margarita no escribió ninguna cifra de
+éstas. Se marca desde el principio precisamente porque esta misma mañana una
+derivación se presentó con confianza de medición y hubo que corregirla.
+
+⚠️ **El PDF trae NOMBRE y FECHA DE INICIO en blanco:** no se sabe si estas
+porciones son las del 27-mar o el resultado de ajustes en 8 citas. Toda
+lectura histórica del plan queda condicionada a eso.
+
+**Nota de regla dura:** no se editó nada dentro de `raw/`. El `README.md` que
+el wiki había puesto en esa carpeta **queda desactualizado** (dice que la
+carpeta no contiene plan alimenticio, y ya sí lo contiene); no se tocó, se
+reporta al usuario.

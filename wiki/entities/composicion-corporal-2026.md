@@ -175,9 +175,28 @@ a su carrera objetivo ya en el peso que quiere.
   que su constitución trae ~8.6 kg de músculo sobre la referencia. Sobre eso sí
   se planifica.
 
+## 2026-08-25 (misma tarde) — aparece la causa probable de los −2 kg de músculo
+
+La advertencia que esta página traía —*"no hay proteína en ninguna parte del
+expediente"*— **quedó resuelta el mismo día**: llegaron `meal-plan.png` y
+`gui de alimentos.pdf` y el plan sí existe, aparte de las mediciones. Está en
+[[plan-alimenticio-mp-2026]].
+
+Y trae el dato que le faltaba a la serie: **la proteína prescrita es de ~106 g
+al día (1.12 g/kg)**, contra los 1.6–2.4 g/kg que pide un déficit con
+entrenamiento. Combinado con un déficit agresivo, ése es el escenario clásico
+de **pérdida de masa muscular** — que es exactamente lo que las 8 mediciones
+registraron (56.0 → 54.0 kg).
+
+No queda demostrado —hay confusores: el ruido de la propia estimación, el
+volumen aeróbico, la fuerza irregular— pero pasa de "sin explicación" a
+**hipótesis con fuente**. Y da la vuelta completa a la preocupación que el
+usuario expresó ese día (*"a cualquier estímulo recupero masa muscular"*): el
+riesgo real medido en su expediente **es el contrario**.
+
 ## Nota de alcance
 
 Esta página **registra y hace aritmética**. No prescribe: el plan es de
-[[margarita-posada]]. Y ⚠️ **estas 8 imágenes son mediciones, no un plan
-alimenticio** — el campo "observaciones" viene vacío en las 8 y no hay
-calorías, macros ni proteína en ninguna parte del expediente.
+[[margarita-posada]] y está transcrito, no evaluado, en
+[[plan-alimenticio-mp-2026]]. Las 8 imágenes de esta serie siguen siendo
+**mediciones** — el campo "observaciones" viene vacío en las 8.
