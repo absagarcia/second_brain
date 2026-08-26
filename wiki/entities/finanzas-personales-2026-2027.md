@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # primera mano: el saldo ahorrado
+  - path: raw/reflections/tasa-ahorro-2026-08-25.md
+    fact_date: 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: medium  # primera mano, pero cifras redondeadas "como", "aproximadamente"
 ---
 
 # Finanzas personales 2026-2027
@@ -278,6 +282,126 @@ objetivos 2, 10 y 12 desde el 29 de noviembre.
 
 ⚠️ Tampoco consta si los 145,000 son sólo suyos o conjuntos, ni si hay una parte
 ya comprometida.
+
+## 2026-08-25, al cierre — la tasa de ahorro, y con ella se cierra el cuadro
+
+**7,500 MXN por quincena = ≈15,000 al mes**, y **90,000 de los 145,000 en una
+cuenta que rinde ≈18 MXN/día**.
+
+Con esto **el estado financiero queda completo por primera vez**: entrada,
+salidas, stock, tasa y rendimiento.
+
+> ⚠️ **Corrección de lectura, no de los hechos.** Durante unos minutos esta
+> página leyó los 7,500 como **mensuales** y derivó de ahí un gasto de vida de
+> 36,651, un cierre de boda con déficit de 2,271 y una capacidad de 2027 de
+> 97,500. **La periodicidad real es quincenal: la tasa es el doble y todas esas
+> cifras estaban calculadas sobre la mitad.** Las correctas son las de abajo. Se
+> deja constancia porque el error fue del wiki al comprimir una frase ambigua,
+> no del usuario — exactamente el riesgo que el `CLAUDE.md` llama *el punto de
+> vista del compresor*.
+
+### El gasto de vida, por fin acotado
+
+Era el hueco de 44,151 MXN/mes que esta página arrastraba desde la tarde. Ya no
+lo es:
+
+| Concepto | Mensual | % del neto |
+|---|---|---|
+| Ingreso neto | 50,000 | 100% |
+| − Egresos fijos conocidos (carro, gym, nutrióloga) | −5,849 | 11.7% |
+| − Ahorro declarado (7,500 × 2 quincenas) | **−15,000** | **30.0%** |
+| **= Gasto de vida (derivado)** | **≈29,151** | **58.3%** |
+
+⚠️ **Los 29,151 son derivación, no dato:** salen por diferencia, y sólo son
+válidos si los 15,000 son constantes y no hay otras entradas. Pero es la primera
+vez que el expediente puede poner un número al *"¿en qué se va el dinero?"*.
+
+**Y el veredicto sobre la tasa es bueno: 30% del ingreso neto.** Está por encima
+del 20% que las fuentes de este mismo wiki usan como referencia
+([[investment-bucket-strategy]], [[dinero-domina-el-juego]]). **Ahorrar no es el
+problema de este expediente.** El gasto de vida de 29,151 sigue sin tener un
+solo renglón identificado —ahí vive la renta actual, comida, servicios,
+transporte— y cada **1,000 MXN** que se recorten suben la tasa un **6.7%**; pero
+ya no es la palanca urgente que parecía hace un momento.
+
+### La cuenta: ≈7.3% anual
+
+18 MXN/día × 365 = **6,570 al año sobre 90,000 = 7.3% nominal**. Es una cuenta
+de rendimiento de mercado, no una cuenta de nómina: **está bien puesto el
+dinero.** Es la primera decisión financiera del expediente que se puede
+calificar de correcta con un número.
+
+Dos observaciones y una advertencia:
+
+- **Los otros 55,000 no se sabe dónde están.** Si están en cuenta de cheques al
+  0%, son **≈11 MXN/día = ~4,015 al año** sobre la mesa. Es poco dinero y una
+  transferencia; vale la pena preguntarlo.
+- **Ese rendimiento se apaga con la boda.** Los 18/día son función del saldo, y
+  el saldo va a cero el 28-nov. **No es un ingreso: es lo que rinde un dinero
+  que ya está comprometido.**
+- ⚠️ No consta si los 18/día son antes o después de la retención de ISR, ni si
+  la tasa es variable (se movería con el ciclo de Banxico). El 7.3% es
+  orientativo.
+
+### La boda cierra con holgura, y antes de tiempo
+
+Los 26,481 que faltan contra una tasa de **15,000/mes**:
+
+| | |
+|---|---|
+| Falta para la boda | **26,481** |
+| Ahorro a tasa real (15,000 × 3 meses) | 45,000 |
+| Intereses del saldo hasta el 28-nov (≈18/día × 95) | ≈1,710 |
+| **Total disponible** | **≈46,710** |
+| **Superávit** | **≈+20,229** |
+
+**El pendiente queda cubierto en 1.8 meses** —a mediados de octubre, no el
+28-nov— y llega a la boda con **≈20,000 de sobra**. Corrige también el
+diagnóstico anterior de esta página: **no se queda en cero el 29 de noviembre**,
+se queda con unos 20,000 más lo que rinda.
+
+Y corrige el sentido de la advertencia sobre el presupuesto incompleto: los
+20,229 de superávit **absorben** un renglón olvidado de tamaño medio. Sigue
+siendo prioritario cerrar la lista de renglones que faltan ([[boda-2026]]), pero
+por planeación, no por riesgo de impago.
+
+### Lo que la tasa de 15,000 significa para 2027
+
+| | |
+|---|---|
+| Reconstruir el colchón de 145,000 (desde ≈20,229) | **8.3 meses** → ≈ ago-2027 |
+| Acumulado del 29-nov-2026 al 31-dic-2027 (13 meses) | **195,000** |
+| **Disponible total a finales de 2027** | **≈215,229** |
+
+**Y aquí sí cambia la conclusión.** Con 215,229 acumulables, el objetivo 12
+(casa a finales de 2027) **deja de ser aritméticamente imposible** y pasa a ser
+una cuestión de prioridades: ese dinero tiene que repartirse entre enganche,
+Japón (obj. 10), los 808 USD (obj. 11) y el fondo de emergencia. **Se puede
+elegir; antes no se podía.** Lo que falta para decidirlo es una sola cifra: **el
+enganche objetivo**.
+
+**Y encima está la palanca gratis del objetivo 2.** Si el crédito del carro
+vence dentro de 2027, se liquida solo —basta seguir pagando— y al cerrarse
+**libera 3,566 MXN/mes**: la tasa pasa de 15,000 a **18,566 (+23.8%)**. No exige
+ninguna decisión nueva, sólo saber cuándo cae la última mensualidad.
+
+**Las palancas de 2027, ordenadas por tamaño:**
+
+1. **Ascenso a Senior** ([[slalom]]) — el ingreso es el 93.8% del total.
+2. **Fin del crédito del carro** — +3,566/mes automáticos, +23.8% de tasa.
+3. **Recortar del gasto de vida de 29,151** — +6.7% de tasa por cada 1,000.
+
+Ninguna de las tres es un side project. El objetivo 16 sigue siendo legítimo,
+pero **es la cuarta palanca, no la primera** ([[fitexe]], hoy en 600 MXN/mes).
+
+### El veredicto general, con el cuadro ya completo
+
+**Este expediente financiero está sano.** Ahorra el 30% de su ingreso neto,
+tiene 2.9 meses de sueldo líquido, lo tiene colocado a tasa de mercado, y su
+compromiso más grande y más cercano queda cubierto con mes y medio de
+anticipación. Lo que le falta no es capacidad: es **cifras objetivo** —enganche
+de la casa, costo del viaje a Japón, saldo del carro— y **visibilidad del gasto
+de vida**, que sigue siendo 29,151 MXN/mes sin desglosar.
 
 ## Vida útil
 

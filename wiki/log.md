@@ -1948,7 +1948,8 @@ cinco sin cifra", "7 de 17 sin dato"— **no se borraron**, se marcaron con la
 corrección al lado. Es el segundo caso del día en que un dato del usuario
 deshace una inferencia del wiki en cuestión de horas.
 
-**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo. [Entrada
+anterior; ver más abajo el cierre de la sesión.]
 
 ## [2026-08-25] ingest | Presupuesto de la boda + cruce con la base de RSVP — finance
 
@@ -2006,7 +2007,8 @@ cuya respuesta cambia el diagnóstico.
 0). Ningún nombre, teléfono, recado ni token entró al wiki, conforme a la regla
 de la skill.
 
-**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo. [Entrada
+anterior; ver más abajo el cierre de la sesión.]
 
 ## [2026-08-25] ingest | El ahorro: 145,000 — y el diagnóstico de la boda se da vuelta
 
@@ -2057,3 +2059,98 @@ ritmo es lo que decide carro, Japón y casa desde el 29-nov. ⚠️ Tampoco cons
 esos 145,000 son sólo suyos o conjuntos con su esposa.
 
 **Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-25] ingest | La tasa de ahorro (15,000/mes) — cierra el cuadro financiero
+
+Fuentes nuevas: `raw/reflections/tasa-ahorro-2026-08-25.md` y su corrección
+`raw/reflections/tasa-ahorro-correccion-2026-08-25.md`. **7,500 MXN por
+quincena = ≈15,000 al mes**, y **90,000 de los 145,000 en una cuenta que rinde
+≈18 MXN/día**. **Actualizadas** [[finanzas-personales-2026-2027]],
+[[boda-2026]], [[objetivos-vida-2026-2027]] y el índice.
+
+⚠️ **Error de compresión del wiki, corregido en minutos.** La primera captura
+recogió *"separando como 7.500 aproximadamente"* **sin "por quincena"**, y el
+wiki lo leyó como mensual. Publicó tres conclusiones sobre **la mitad de la tasa
+real**: gasto de vida de 36,651, boda con déficit de 2,271 y capacidad de 2027
+de 97,500. **Las tres están sustituidas por las de abajo.** El archivo `raw`
+original **no se editó** —es inmutable— y queda marcado como superado por el de
+corrección. Es el caso más claro del día del riesgo que el `CLAUDE.md` llama
+*el punto de vista del compresor*: la frase era ambigua y el wiki eligió una
+lectura sin señalarla.
+
+**Con esta pieza el estado financiero queda completo:** entrada, salidas, stock,
+tasa y rendimiento. Es el cuarto ingest de dinero del día y el que cierra el
+cuadro que la mañana ni siquiera tenía abierto.
+
+**Hallazgo 1 — el gasto de vida queda acotado: ≈29,151 MXN/mes.** Sale por
+diferencia (50,000 − 5,849 de egresos fijos − 15,000 de ahorro) y es el **58.3%
+del sueldo sin un solo renglón identificado**. ⚠️ Derivación, válida sólo si los
+15,000 son constantes. Cada 1,000 recortados suben la tasa un 6.7% — pero **la
+tasa del 30% ya está por encima del 20% de referencia de las propias fuentes del
+wiki: ahorrar no es el problema de este expediente.**
+
+**Hallazgo 2 — la cuenta está bien puesta.** 18/día sobre 90,000 = **7.3%
+nominal anual**: rendimiento de mercado, no cuenta de nómina. **Es la primera
+decisión financiera del expediente que se puede calificar de correcta con un
+número.** Dos apostillas: no se sabe dónde están los otros 55,000 (si están al
+0%, son ~4,015/año sobre la mesa), y **ese rendimiento se apaga con la boda**,
+porque es función de un saldo que va a cero el 28-nov.
+
+**Hallazgo 3 — la boda cierra antes de tiempo.** 15,000 × 3 = 45,000, más ≈1,710
+de intereses = ≈46,710 contra los 26,481 que faltan: **el pendiente queda
+cubierto a mediados de octubre**, y llega al 28-nov con **≈20,229 de
+superávit**. Corrige lo que este mismo log escribió hace unas horas: **no se
+queda en cero el 29 de noviembre**, y el superávit **absorbe** un renglón
+olvidado de tamaño medio. Cerrar la lista de lo que falta en el presupuesto
+sigue siendo prioritario, pero por planeación, no por riesgo de impago.
+
+**Hallazgo 4 — la tasa gobierna 2027, y ahora se puede elegir.** Del 29-nov-2026
+al 31-dic-2027 se acumulan **195,000**, más el superávit de la boda:
+**≈215,229**. Ese dinero se reparte entre enganche de casa (obj. 12), Japón
+(10), los 808 USD (11) y reconstruir el colchón (8.3 meses a esta tasa,
+≈ago-2027). **El objetivo 12 deja de ser aritméticamente imposible y pasa a ser
+una cuestión de prioridades.** Falta **una sola cifra para decidirlo: el
+enganche objetivo** — hoy la pregunta abierta más cara del expediente.
+
+**Hallazgo 5 — la palanca gratis de 2027 es el carro.** Si el crédito vence
+dentro de 2027, el objetivo 2 **se cumple solo** (basta seguir pagando) y al
+cerrarse **libera 3,566/mes: la tasa pasa de 15,000 a 18,566, +23.8%**. No exige
+decidir nada, sólo saber cuándo cae la última mensualidad.
+
+**Reordenamiento final del día:** las tres palancas de 2027 son **ascenso >
+fin del crédito del carro > recorte del gasto de vida**. **El objetivo 16 (side
+project que pague la renta) queda como la cuarta**, no la primera: [[fitexe]]
+está en 600 MXN/mes y las tres de arriba se mueven antes, con menos trabajo y
+más efecto.
+
+**Veredicto del día sobre los 17 objetivos: los de dinero son los que mejor
+están.** Ahorra el 30% de su neto, tiene 2.9 meses de sueldo líquido colocado a
+tasa de mercado, y su compromiso mayor queda cubierto con mes y medio de
+anticipación. Los que están en problemas son los de **audiencia** (obj. 7, serie
+a la baja), **calendario deportivo** (obj. 3, contradicción con feb-2027) y
+**agenda** (13 y 14, dos podcasts sobre 4-6 h/semana).
+
+⚠️ **Confianza `medium` en la fuente**, a diferencia de los tres ingests de
+dinero anteriores: el propio usuario dijo *"como 7.500 aproximadamente"* y
+*"como 18 pesos diarios"*. Son cifras redondeadas, no lecturas de estado de
+cuenta, y **todo lo derivado arriba hereda ese redondeo** — además de la
+ambigüedad de periodicidad que ya costó una corrección.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+---
+
+**Cierre de la sesión del 2026-08-25.** Cinco ingests en un día
+(objetivos de vida · cifras de ingreso · presupuesto de boda · ahorro · tasa),
+4 páginas nuevas ([[objetivos-vida-2026-2027]],
+[[finanzas-personales-2026-2027]], [[slalom]], [[boda-2026]]) y el dominio
+`finance` pasó de **siete páginas de libros y cero datos propios** a tener el
+estado financiero completo del usuario.
+
+**Cuatro inferencias del wiki fueron deshechas en cuestión de minutos** — tres
+por datos que el usuario aportó y que el expediente no tenía, y **una por un
+error propio de compresión** (leer "7,500" como mensual cuando era quincenal).
+La distinción importa para el próximo lint: las primeras tres son un problema de
+**cobertura de datos**; la cuarta es un problema de **método**, y es la que hay
+que corregir con una regla, no con más fuentes: **cuando una cifra llega sin
+periodicidad explícita, preguntarla antes de derivar sobre ella.**

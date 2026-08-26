@@ -257,6 +257,63 @@ sesión.
 prueba que ahorra; no dice **a qué ritmo**. Y ese ritmo es lo que decide los
 objetivos 2, 10 y 12, que empiezan de cero el día después de la boda.
 
+## 2026-08-25, al cierre — la tasa: 15,000/mes. El cuadro queda completo
+
+Última pieza de la sesión: **separa 7,500 MXN por quincena = ≈15,000 al mes (el
+30% de su neto)** y **90,000 de los 145,000 rinden ≈18 MXN/día (≈7.3% anual)**.
+El desglose está en [[finanzas-personales-2026-2027]].
+
+> ⚠️ El wiki leyó esos 7,500 como mensuales durante unos minutos y publicó tres
+> conclusiones sobre la mitad de la tasa real (gasto de vida de 36,651, boda con
+> déficit de 2,271, capacidad de 2027 de 97,500). **Todas quedan sustituidas por
+> las de abajo.** Error de compresión del wiki sobre una frase ambigua, no del
+> usuario.
+
+**Gasto de vida derivado: ≈29,151 MXN/mes (58.3% del sueldo)**, sin un solo
+renglón identificado. Sigue siendo el último hueco de medición del expediente,
+pero **la tasa de ahorro del 30% está por encima del 20% que las propias fuentes
+del wiki usan como referencia**: ahorrar no es el problema aquí.
+
+**El objetivo 1 cierra antes de tiempo.** 15,000 × 3 meses (45,000) más
+intereses (≈1,710) contra los 26,481 que faltan: **el pendiente queda cubierto a
+mediados de octubre**, y llega al 28-nov con **≈20,229 de superávit**. No se
+queda en cero el 29 de noviembre.
+
+**Lo que la tasa dice sobre 2027:**
+
+| | |
+|---|---|
+| Acumulado del 29-nov-2026 al 31-dic-2027 (13 meses) | **195,000** |
+| Más el superávit de la boda | ≈20,229 |
+| **Disponible a finales de 2027** | **≈215,229** |
+| Reconstruir el colchón de 145,000 | 8.3 meses → ≈ ago-2027 |
+
+**El objetivo 12 (casa a finales de 2027) deja de ser aritméticamente
+imposible** y pasa a ser una cuestión de prioridades: esos 215,229 se reparten
+entre enganche, Japón (10), los 808 USD (11) y el fondo de emergencia. **Se
+puede elegir.** Lo que falta para decidirlo es **una sola cifra: el enganche
+objetivo** — hoy la pregunta abierta más cara de la lista.
+
+**Las palancas de 2027, por tamaño:**
+
+1. **Objetivo 5 — ascenso a Senior.** El ingreso es el 93.8% del total.
+2. **Objetivo 2 — fin del crédito del carro.** Si el plazo vence en 2027 se
+   liquida solo, y al cerrarse **libera 3,566/mes: la tasa pasa de 15,000 a
+   18,566 (+23.8%)**. No exige decidir nada, sólo saber cuándo cae la última
+   mensualidad.
+3. **Recortar del gasto de vida de 29,151.** +6.7% de tasa por cada 1,000.
+
+**El objetivo 16 (side project que pague la renta) es la cuarta palanca, no la
+primera.** Sigue siendo legítimo — pero [[fitexe]] está en 600 MXN/mes y las
+tres de arriba se mueven antes, con menos trabajo y con más efecto.
+
+**Veredicto del día:** de los 17 objetivos, **los de dinero son los que mejor
+están**. Ahorra el 30%, tiene 2.9 meses de sueldo líquido colocado a tasa de
+mercado, y su compromiso más grande queda cubierto con mes y medio de
+anticipación. Los que están en problemas son los de **audiencia** (objetivo 7,
+serie a la baja), **calendario deportivo** (objetivo 3, contradicción con
+feb-2027) y **agenda** (13 y 14, dos podcasts sobre 4-6 h/semana).
+
 ## Vida útil de esta página
 
 - **Corta (semanas):** las cifras de suscriptores, seguidores, USD invertidos y
