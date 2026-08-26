@@ -314,6 +314,41 @@ anticipación. Los que están en problemas son los de **audiencia** (objetivo 7,
 serie a la baja), **calendario deportivo** (objetivo 3, contradicción con
 feb-2027) y **agenda** (13 y 14, dos podcasts sobre 4-6 h/semana).
 
+## 2026-08-25, cierre — dos decisiones del usuario
+
+> *"el medio maratón que sea el objetivo del 2027 y trabajemos en las demás
+> metas para llegar a los objetivos platicados, y también pensemos en el side
+> project para llegar a esa idea a desarrollarla"*
+
+**Decisión 1 — el objetivo 3 pasa a 2027.** El sub-2h deja de tener fecha en
+2026. **De los tres objetivos en rojo, éste se resuelve el mismo día en que se
+detectó**, y por la vía correcta: no bajando la meta, sino poniéndole la fecha
+que la tendencia sostiene. La escalera queda: Atlas 6-sep (calibración) →
+Medio GDL 28-feb-2027 (2:15) → sub-2h en 2027. Desarrollo en
+[[objetivos-carrera-2026-2027]].
+
+⚠️ **Sigue sin decidirse el maratón del 8-nov-2026** — el escalón que el wiki
+señaló como el que sobra, y que cae 20 días antes de la boda. No se mencionó.
+
+**Decisión 2 — encarga aterrizar el objetivo 16.** El análisis está en
+[[ruta-a-13k-side-project]], y la conclusión corrige la premisa del objetivo:
+**no hace falta una idea nueva; [[fitexe]] ya cumple todo lo que el objetivo 16
+pide salvo la cifra.** El problema no es de producto sino de **precio**: a 600
+MXN por gimnasio hacen falta 43 clientes para que su mitad sean 13,000; a 2,500
+hacen falta 11. Y le faltaba el escalón intermedio que él sí sabe construir en
+YouTube y TikTok (*"10K pero primero 8K"*): **5 gimnasios = media renta**.
+
+**Estado de los tres objetivos que estaban en rojo:**
+
+| | Antes | Ahora |
+|---|---|---|
+| 3 — sub-2h | 🔴 contradicción de fechas | 🟢 **resuelto: pasa a 2027** |
+| 7 — 8K subs YouTube | 🔴 serie a la baja | 🔴 sin cambio — sigue siendo el problema abierto |
+| 13 y 14 — dos podcasts | 🔴 colisión de agenda | 🔴 sin cambio |
+
+**El objetivo 7 y la agenda quedan como los dos frentes sin resolver de esta
+sesión.**
+
 ## Vida útil de esta página
 
 - **Corta (semanas):** las cifras de suscriptores, seguidores, USD invertidos y

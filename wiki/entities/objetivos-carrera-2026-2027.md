@@ -188,3 +188,36 @@ Y aparece un dato de calendario que esta página no tenía: **la boda es el
 2026-11-28, veinte días después del maratón del 8-nov.** La fatiga y el riesgo
 de lesión de un primer maratón caen justo encima de la semana de su boda. Es
 un argumento más —ahora no deportivo— sobre el escalón de noviembre.
+
+## 2026-08-25 (esa noche) — DECISIÓN: el sub-2h pasa a 2027
+
+> *"el medio maratón que sea el objetivo del 2027"* — el usuario, 2026-08-25.
+
+**La contradicción queda resuelta por quien la creó, el mismo día.** El sub-2h
+deja de tener fecha en 2026 y pasa a 2027.
+
+Con eso, **la escalera declarada y la escalera que sostienen los datos por fin
+coinciden**:
+
+```
+6-sep 2026        28-feb 2027         2027
+Atlas             Medio GDL           Medio sub-2h
+(calibración)     (2:15)              (la meta)
+```
+
+Y encaja con la aritmética que esta página ya tenía: al ritmo de mejora
+demostrado (~10 s/km al mes, con sus salvedades), bajar de 6:59 a 5:41/km
+aterriza **alrededor de mediados de 2027** — después de febrero, dentro de 2027.
+**La decisión no es una renuncia: es la primera vez que una meta de esta página
+queda alineada con la tendencia medida.**
+
+⚠️ **Dos cosas que la decisión no dice, y que esta página deja abiertas:**
+
+1. **En qué carrera de 2027 va el sub-2h.** Aquí se asume que **sucede** al 2:15
+   del Medio de Guadalajara (28-feb), no que lo sustituye — es decir, 2:15 en
+   febrero y sub-2h más adelante en 2027. Es la lectura que cuadra con los
+   ritmos, pero **es una inferencia del wiki, no lo que él dijo**.
+2. **Qué pasa con el maratón del 2026-11-08.** No se mencionó. Sigue siendo el
+   escalón que esta página señaló como el que sobra —tirada máxima de 12.02 km,
+   lesión de ingle del 19-ago, plan alimenticio al 30-40% del carbohidrato de un
+   bloque de maratón, y ahora la boda 20 días después— y **sigue sin decisión**.

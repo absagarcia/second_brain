@@ -2140,10 +2140,79 @@ ambigüedad de periodicidad que ya costó una corrección.
 
 ---
 
-**Cierre de la sesión del 2026-08-25.** Cinco ingests en un día
-(objetivos de vida · cifras de ingreso · presupuesto de boda · ahorro · tasa),
-4 páginas nuevas ([[objetivos-vida-2026-2027]],
-[[finanzas-personales-2026-2027]], [[slalom]], [[boda-2026]]) y el dominio
+## [2026-08-25] ingest | Dos decisiones + el objetivo 16 aterrizado — fitness, fitexe, swe, finance
+
+Fuente nueva: `raw/reflections/decisiones-2026-08-25.md`. **Creada**
+[[ruta-a-13k-side-project]]. **Actualizadas**
+[[objetivos-carrera-2026-2027]], [[objetivos-vida-2026-2027]], [[fitexe]] y el
+índice.
+
+**Decisión 1 — el sub-2h pasa a 2027.** *"El medio maratón que sea el objetivo
+del 2027."* **La contradicción que el wiki detectó por la mañana la resuelve él
+la misma noche**, y por la vía correcta: no bajando la meta, sino poniéndole la
+fecha que la tendencia medida sostiene (~10 s/km al mes → sub-2h a mediados de
+2027). La escalera queda **Atlas 6-sep (calibración) → Medio GDL 28-feb-2027
+(2:15) → sub-2h en 2027**, y por primera vez el orden declarado y el orden que
+sostienen los datos coinciden. ⚠️ Dos cosas quedan abiertas: **en qué carrera de
+2027 va el sub-2h** (el wiki asume que sucede al 2:15, no que lo sustituye — es
+inferencia) y **qué pasa con el maratón del 8-nov-2026**, que no se mencionó y
+sigue siendo el escalón señalado como el que sobra.
+
+**Decisión 2 — encarga aterrizar el objetivo 16**, y el análisis corrige la
+premisa del propio objetivo.
+
+**Hallazgo 1 — no hace falta una idea; hace falta una ruta.** [[fitexe]] ya
+cumple **todo** lo que el objetivo 16 pide (side project · publicado en tienda y
+web · genera ingreso) **salvo la cifra**: su mitad son MX$300 de los 13,000. La
+formulación *"desarrollar un side project"* empuja a empezar algo nuevo, que es
+el movimiento equivocado cuando ya hay un cliente que paga.
+
+**Hallazgo 2 — el problema es el precio, no el volumen ni el producto.** Al ser
+50/50 con [[carlos-emilio-blanco]], FitExe debe facturar 26,000/mes para que su
+mitad sean 13,000. A **MX$600 son 43 gimnasios**; a **MX$2,500 son 11**. Pasar
+de 43 a 11 **no requiere una sola línea de código**. Y hay base para pensar que
+600 está mal puesto: son ~US$32/mes por gestionar un gimnasio entero, y la
+propia página de FitExe ya traía anotado —antes de esta conversación— que
+*"cobrar de menos es el error clásico del SaaS bootstrapped"*.
+
+**Hallazgo 3 — le faltaba el escalón, y él sabe construirlos.** Hace laddering
+en YouTube (*"10K pero primero 8K"*), en TikTok (*"10K pero primero 5K"*) y en
+el ingreso del canal (*"1,000 pero primero 200"*). **El objetivo 16 es el único
+que escribió sin escalón intermedio**: saltó de 600 a 13,000. La escalera
+propuesta: validar precio (2,500) → **5 gimnasios = media renta** → 11
+gimnasios = objetivo cumplido.
+
+**Alternativas descartadas, con razón registrada:** producto para devs (su
+audiencia sí encaja, pero el mercado paga poco y él mismo declara en el objetivo
+15 que aún no es el experto que quiere ser), app de running/fitness (B2C contra
+lo gratis, y **[[athletix-ai]] —SaaS de rendimiento deportivo— ya no existe**),
+marca de café (negocio distinto, no resuelve el 16). **Las tres empiezan en cero
+clientes; FitExe empieza en uno.** Con 4-6 h/semana ya disputadas, empezar de
+cero no es caro: es imposible.
+
+**Recolocación:** con el cuadro financiero completo, el objetivo 16 **no es
+urgente** —el ascenso mueve más dinero, más rápido y con menos trabajo—. No se
+cancela: se recoloca como **palanca de opcionalidad, no financiera**
+([[career-capital-craftsman-mindset]], [[el-arte-de-gastar-dinero]]).
+
+⚠️ **Los MX$2,500 son objetivo de trabajo, no dato de mercado.** El wiki no
+tiene un solo precio de competencia mexicana. Investigar tres competidores es la
+tarea más barata y más rentable pendiente.
+
+**Estado de los tres objetivos que estaban en rojo:** el 3 (sub-2h) **resuelto**;
+el 7 (8K subs con la serie a la baja) y la agenda (13 y 14, dos podcasts sobre
+4-6 h/semana) **siguen sin resolver** — son los dos frentes abiertos de la
+sesión.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+---
+
+**Cierre de la sesión del 2026-08-25.** Seis ingests en un día
+(objetivos de vida · cifras de ingreso · presupuesto de boda · ahorro · tasa ·
+decisiones), **5 páginas nuevas** ([[objetivos-vida-2026-2027]],
+[[finanzas-personales-2026-2027]], [[slalom]], [[boda-2026]],
+[[ruta-a-13k-side-project]]) y el dominio
 `finance` pasó de **siete páginas de libros y cero datos propios** a tener el
 estado financiero completo del usuario.
 

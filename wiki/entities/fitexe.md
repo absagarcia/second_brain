@@ -251,6 +251,7 @@ la primera pregunta que vale la pena hacerse.
 ## Related
 
 - [[clean-architecture-feature-first]] — the architecture pattern this app runs.
+- [[ruta-a-13k-side-project]] — **la ruta aterrizada: el problema es el precio, no el producto** (43 gimnasios a 600 vs. 11 a 2,500)
 - [[objetivos-vida-2026-2027]] — de dónde sale la meta de 13,000 MXN/mes.
 - [[finanzas-personales-2026-2027]] — el cuadro de dinero donde encaja.
 - [[typescript-5-design-patterns]] — where those patterns were read about.
