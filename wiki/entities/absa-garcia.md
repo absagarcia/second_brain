@@ -444,3 +444,26 @@ justificarse con métricas.
 - [[composicion-corporal-2026]] — el proceso corporal detrás del arco
 - [[de-que-hablo-cuando-hablo-de-correr]] — el marco de "competir con el de ayer"
 - [[internal-scorecard]] — la meta escrita y verificada contra uno mismo
+- [[objetivos-vida-2026-2027]] — el cuadro completo de metas (2026-08-25)
+
+## 2026-08-25 — *Absa con Café* vuelve a la lista, y choca con lo decidido
+
+[[objetivos-vida-2026-2027]] trae como objetivo 13: **"regresar el podcast de
+Absa con Café (lifestyle, cotorreo)"**.
+
+Esta página ya había registrado el 2026-07-22 que las ocho series de
+[[absadev]] **más** una resurrección de podcast en paralelo no cabían en un
+presupuesto de 4-6 h/semana, y que **el podcast esperaba**. Desde entonces
+pasaron dos cosas: el 19-ago se reactivó [[blackicelabs-podcast]] (1
+episodio/mes + ~8 clips), y ahora la lista añade **un segundo podcast**.
+
+Serían **dos podcasts, ocho series de shorts, un bloque de running con carrera
+el 6-sep, una boda el 28-nov y una evaluación de ascenso en diciembre**, sobre
+las mismas 4-6 h/semana. La colisión se anota; la decisión es suya. Lo que
+esta página sí sostiene desde julio: *Absa con Café* es lifestyle puro, es
+decir, **la superficie donde la boda y el running ya son el contenido** — no
+compite con Absadev por tema, compite por horas.
+
+⚠️ La "pregunta deliberadamente aplazada" de julio (¿el running/boda es apuesta
+de contenido o vida que se graba?) **sigue aplazada**, y el objetivo 13 la hace
+más urgente, no menos.

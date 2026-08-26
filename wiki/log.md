@@ -1844,3 +1844,216 @@ lectura histórica del plan queda condicionada a eso.
 el wiki había puesto en esa carpeta **queda desactualizado** (dice que la
 carpeta no contiene plan alimenticio, y ya sí lo contiene); no se tocó, se
 reporta al usuario.
+
+## [2026-08-25] ingest | Objetivos y metas de vida (17) — reflections/finance/fitness/blackicelabs/swe/fitexe/books
+
+Fuente nueva: `raw/reflections/objetivos-vida-2026-08-25.md` (dictado del
+usuario, transcrito literal). **Creadas** [[objetivos-vida-2026-2027]] (el
+cuadro completo), [[finanzas-personales-2026-2027]] y [[slalom]].
+**Actualizadas** [[absadev]], [[absa-garcia]], [[fitexe]],
+[[blackicelabs-podcast]], [[objetivos-carrera-2026-2027]] y
+[[composicion-corporal-2026]].
+
+Es el primer documento que pone **todas** las metas en una hoja, y ahí está su
+valor: hasta hoy vivían en tres archivos que nunca se habían mirado juntos.
+
+**Hallazgo 1 — noviembre de 2026 está sobrecargado.** El maratón del 8-nov cae
+**20 días antes de la boda (28-nov)**, que además es la fecha límite para
+tenerla pagada; y detrás vienen la evaluación de ascenso (dic) y el 20% de
+grasa (31-dic). El wiki ya llamaba al 8-nov "el escalón que sobra" por razones
+deportivas; ahora hay una razón de calendario que **no estaba escrita en
+ninguna parte** porque las metas vivían separadas.
+
+**Hallazgo 2 — contradicción del mismo día, ambas de primera mano.** Por la
+mañana declaró medio en **2:15 el 28-feb-2027**; por la tarde, medio **sub-2h
+en 2026**. La única carrera que le queda en 2026 es el Atlas, dentro de 12
+días, y eso exige 5:41/km contra su mejor 6:59/km. Se anota sin resolver;
+lectura más probable: el "2026" viene heredado del perfil de Strava.
+
+**Hallazgo 3 — sus dos metas de plataforma van en direcciones opuestas.** Él
+las escribió simétricas (10K y 10K). YouTube pide **+140 netos sobre un canal
+que perdió 11 en 28 días** (signo contrario, no lentitud); TikTok crece
++11/semana y llega a 5K ≈ may-2027. Confirma desde las metas lo que
+[[estrategia-contenido-absadev]] ya había concluido desde el embudo.
+
+**Hallazgo 4 — el objetivo 16 ya arrancó.** El "side project que pague 13,000
+MXN/mes de renta" **es [[fitexe]], que ya cobra 600 MXN/mes de un gimnasio**:
+4.6% de la meta, ~22 gimnasios al precio actual (~44 para su mitad, al ser
+50/50). Cambia la pregunta de "hay que hacer un side project" a "precio o
+volumen".
+
+**Hueco mayor del expediente:** **7 de 17 objetivos no tienen un solo dato**, y
+5 de esos 7 son de dinero. El dominio `finance` llevaba meses con siete páginas
+**todas de libros y ninguna del caso propio**; [[finanzas-personales-2026-2027]]
+lo abre registrando, sobre todo, lo que no se sabe. Y [[slalom]] —el empleador,
+la fuente de ingreso dominante— **no existía en el wiki**.
+
+⚠️ **Derivaciones marcadas como tales:** las ~660K vistas para +140 subs, los
+~22/44 gimnasios y la estimación de vistas necesarias para 1,000 MXN/mes son
+aritmética mía sobre supuestos (SPV medido, precio constante, RPM supuesto). El
+RPM en particular **no es un dato del expediente**: no hay ninguna cifra de
+monetización en todo el wiki.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo; no se editó
+nada existente.
+
+## [2026-08-25] ingest | Cifras financieras: ingreso y tres egresos — finance
+
+Fuente nueva: `raw/reflections/finanzas-cifras-2026-08-25.md` (dictado del
+usuario, misma sesión). **50,000 MXN netos/mes + 3,000 en vales de despensa**;
+carro **3,566/mes**, gimnasio **533/mes**, nutrióloga **1,200 por sesión**.
+**Actualizadas** [[finanzas-personales-2026-2027]], [[slalom]],
+[[margarita-posada]], [[composicion-corporal-2026]] y
+[[objetivos-vida-2026-2027]] (+ índice).
+
+Cierra —parcialmente— el hueco que el ingest anterior había señalado hace unas
+horas: **el conteo de objetivos sin un solo dato baja de 7 a 5.**
+
+**Hallazgo 1 — el empleo es el 93.8% del ingreso conocido.** [[fitexe]] le deja
+~300 MXN/mes (su mitad de 600) y YouTube aspira a 1,000: **medio punto
+porcentual entre los dos**. La sospecha que [[finanzas-personales-2026-2027]]
+había escrito sin números queda confirmada con ellos.
+
+**Hallazgo 2 — el objetivo 16 es más grande de lo que suena.** Los 13,000
+MXN/mes de renta que quiere que pague un side project son **el 26% de su
+ingreso neto** (156,000/año). Al lado, un ascenso en [[slalom]] mueve una
+cantidad del mismo orden sin construir ni vender un producto. **El objetivo 5,
+que él escribió como uno más de diecisiete, es en la aritmética su palanca
+financiera más barata** — y la única con fecha ya puesta.
+
+**Hallazgo 3 — el proyecto corporal ya tiene precio, y sale barato.**
+Cruzando 8 sesiones × 1,200 con ~5 meses de gimnasio: **≈12,265 MXN** por
+**−8.6 puntos de grasa** = **≈1,426 MXN por punto**. Cerrar del 27.3% al 20%
+costaría ~10,400 más. **Es la meta más barata de las 17 y la única en tendencia
+verificada.** Nota lateral: los vales de despensa (3,000/mes) financian de
+hecho el [[plan-alimenticio-mp-2026]] sin que nadie lo haya decidido.
+
+**Hallazgo 4 — lo declarado es el 11.7% de los egresos.** Los tres números que
+dio son los pequeños; faltan renta, comida, servicios y transporte. Los 44,151
+MXN/mes restantes **no son ahorro, son gasto sin medir**, y hasta cerrarlo **la
+capacidad de ahorro —la variable que decide 4 de las 5 metas de dinero— sigue
+siendo desconocida.** Se cierra con un mes de estado de cuenta.
+
+**Lo que no se movió:** la boda. Fecha más cercana de las diecisiete (**95
+días**), y sigue sin costo, sin saldo y sin plan de pago.
+
+⚠️ **Derivaciones marcadas:** los ≈1,750 MXN/mes de nutrióloga (él dio precio
+**por sesión**; la frecuencia se infiere de las 8 fechas de
+[[composicion-corporal-2026]]), los ~2,665 de gimnasio (supone 5 meses pagados
+completos) y los porcentajes de ascenso (supuestos ilustrativos: el expediente
+no sabe qué paga el nivel siguiente).
+
+**Nota epistémica:** las secciones que este ingest dejó obsoletas —"cuatro de
+cinco sin cifra", "7 de 17 sin dato"— **no se borraron**, se marcaron con la
+corrección al lado. Es el segundo caso del día en que un dato del usuario
+deshace una inferencia del wiki en cuestión de horas.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-25] ingest | Presupuesto de la boda + cruce con la base de RSVP — finance
+
+Fuente nueva: `raw/reflections/boda-presupuesto-2026-08-25.md` (cinco renglones
+dictados por el usuario) cruzada con la base de RSVP del proyecto
+`save_the_date` (consulta agregada vía la skill `save-the-date-rsvp`).
+**Creada** [[boda-2026]]. **Actualizadas** [[finanzas-personales-2026-2027]],
+[[objetivos-vida-2026-2027]] y el índice.
+
+**El presupuesto:** 252,500 de costo total · ≈81,019 pagados · **171,481
+pendientes**, repartidos en Cotización Ale (160,000), Fotógrafo (38,000),
+Somabela (29,000), Flores (23,000) y Misa (2,500).
+
+**Hallazgo 1 — el pendiente excede la capacidad de nómina.** 171,481 entre las
+3 nóminas que quedan antes del 28-nov son **57,160/mes** contra **50,000**
+netos: el **114% del ingreso, gastando cero**. Tres meses de sueldo íntegro
+quedan **21,481 cortos**; **≈39,028** restando los egresos fijos ya conocidos.
+La boda tiene que salir de ahorro previo, de aportación familiar, o de
+aguinaldo — y **el aguinaldo es exigible antes del 20-dic, o sea después de la
+boda**. Salvo que [[slalom]] lo adelante, no sirve para esta fecha.
+
+**Hallazgo 2 — el 63.4% del presupuesto descansa sobre una lista sin
+responder.** Cotización Ale son 160,000 sobre **166 boletos asignados ≈ 964 por
+boleto**, cifra con forma de precio por persona. Si lo es, el número no es fijo:
+se mueve con las confirmaciones. Y la base de RSVP marca **97 invitaciones, 0
+confirmadas, 0 declinadas, 97 sin responder (0%)** a 95 días. ⚠️ Que Ale sea
+por persona es **hipótesis mía**; no se declaró qué incluye.
+
+**Hallazgo 3 — el riesgo mayor es lo que no está en la lista.** Cinco renglones
+para 166 boletos, sin anillos, música, pastel, maquillaje, transporte,
+papelería, civil ni luna de miel — y sin saber si el salón/banquete está dentro
+de la cotización de Ale. La diferencia entre *"252,500 es el costo"* y
+*"252,500 es lo que llevamos contado"* es la diferencia entre un presupuesto y
+una lista de pagos.
+
+**Dos renglones que no cuadraban, resueltos con una sola causa.** Somabela
+(+16,000) y Ale (+1,019) no cumplían `total − anticipo = pendiente`, y sus
+desajustes suman exactamente la diferencia entre el pendiente declarado
+(171,481) y el aritmético (188,500). La lectura: **la columna "anticipo"
+registra el primer pago, no todo lo pagado.** Se marca como inferencia por
+verificar: si Somabela no está liquidado, el pendiente real es 188,500.
+
+**Reordena la lista de 17.** El objetivo 1 pasa de hueco a problema; el 11
+(1,000 USD) queda compitiendo con un saldo que no alcanza —los 808 USD que
+faltan son el 8.7% del pendiente de la boda—; el 12 (casa) arranca después, no
+en paralelo; el 3 (maratón del 8-nov) suma a la colisión de fatiga una de
+dinero; y el 5 (senior) sigue siendo la palanca más barata pero **su efecto
+llega en diciembre**.
+
+**El hueco ya no es la boda, es el ahorro.** Los 44,151 MXN/mes sin registrar
+son, o gasto de vida, o el dinero del que sale esta boda. Es la única pregunta
+cuya respuesta cambia el diagnóstico.
+
+🔒 **Privacidad:** de la base de RSVP sólo se copiaron **agregados** (97 / 166 /
+0). Ningún nombre, teléfono, recado ni token entró al wiki, conforme a la regla
+de la skill.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-25] ingest | El ahorro: 145,000 — y el diagnóstico de la boda se da vuelta
+
+Fuente nueva: `raw/reflections/ahorro-2026-08-25.md`. **Actualizadas**
+[[boda-2026]], [[finanzas-personales-2026-2027]], [[objetivos-vida-2026-2027]]
+y el índice.
+
+**145,000 MXN ahorrados** cubren el **84.6%** del pendiente de 171,481. Faltan
+**26,481**, que en 3 nóminas son **8,827/mes = el 17.7% del ingreso neto**.
+**La boda se paga, y con holgura.**
+
+**El hallazgo es metodológico, y es el más importante del día.** Hace unas horas
+este mismo log escribió *"el pendiente de la boda excede la capacidad de
+nómina"*. Era cierto **sobre el flujo** — y completamente engañoso, porque
+faltaba el **stock**. El expediente tenía ingreso y tenía egresos, es decir un
+estado de resultados, y con eso emitió un diagnóstico dramático sobre un caso
+sano. **Un balance no se lee con un estado de resultados.** Queda como regla en
+[[finanzas-personales-2026-2027]]: antes de concluir sobre capacidad de pago,
+preguntar el saldo, no sólo el ingreso.
+
+Es **la tercera vez en la misma sesión** que un dato del usuario deshace una
+inferencia del wiki en cuestión de minutos (las otras dos: la serie fechada de
+[[margarita-posada]] esta mañana, y las cifras de ingreso esta tarde). El patrón
+ya no es anecdótico y merece entrar al informe del próximo lint.
+
+**Lo que el 84.6% no dice, y quedó escrito:**
+
+1. **El colchón queda en cero el 28-nov.** 145,000 son 2.9 meses de sueldo neto
+   y se gastan íntegros. Los objetivos 2 (carro), 10 (Japón), 11 (1,000 USD) y
+   12 (casa) **arrancan desde cero el 29 de noviembre**. La boda es pagable, no
+   barata: **cuesta toda su liquidez.**
+2. **El margen de error es delgado porque el presupuesto está incompleto.** Los
+   26,481 los absorbe el flujo, pero **cada renglón olvidado sale 100% de
+   flujo**: +30,000 (anillos, música) llevaría la exigencia a 18,827/mes
+   (37.7% del neto), y con Somabela pendiente a 24,500/mes (49%). **Cerrar la
+   lista de renglones vale hoy más que cualquier otro número.**
+3. **El escenario Somabela ya tiene precio: 16,000 MXN** de diferencia entre
+   estar liquidado y no estarlo.
+
+**Buena noticia de calendario:** el aguinaldo llega tarde para la boda
+(exigible antes del 20-dic) pero **tres semanas después**, y con el colchón en
+cero se convierte en **el instrumento para reconstruir el fondo de
+emergencia** — no en el arranque de los objetivos 11 o 12.
+
+**Lo único grande que sigue abierto: la tasa de ahorro.** Que existan 145,000
+prueba que ahorra; sin saber en cuánto tiempo se juntaron, no hay ritmo — y el
+ritmo es lo que decide carro, Japón y casa desde el 29-nov. ⚠️ Tampoco consta si
+esos 145,000 son sólo suyos o conjuntos con su esposa.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.

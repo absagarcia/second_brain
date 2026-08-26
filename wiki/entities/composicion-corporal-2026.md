@@ -194,6 +194,49 @@ volumen aeróbico, la fuerza irregular— pero pasa de "sin explicación" a
 usuario expresó ese día (*"a cualquier estímulo recupero masa muscular"*): el
 riesgo real medido en su expediente **es el contrario**.
 
+## 2026-08-25 (misma tarde) — la meta del 20% ya tenía fecha: 31 de diciembre
+
+[[objetivos-vida-2026-2027]] fija el objetivo 4 en **20% de grasa al
+2026-12-31**. Es la primera vez que esa meta aparece fechada en el expediente.
+
+Y contra esa fecha, **las dos proyecciones de arriba caben, y con margen**:
+
+| Vía | Proyección | ¿Antes del 31-dic? |
+|---|---|---|
+| Por pliegues | ≈ 2026-11-16 | ✅ 45 días de margen |
+| Por grasa absoluta | ≈ 2026-12-18 | ✅ 13 días de margen |
+
+**Es el único de los 17 objetivos de esa lista que está en tendencia
+verificada.** No es una promesa: la vía lenta llega con trece días de margen y
+un mes malo se los come. Pero es el único donde el ritmo medido y la fecha
+declarada apuntan al mismo sitio, y conviene decirlo porque el resto del cuadro
+es bastante menos amable.
+
+## 2026-08-25 (esa tarde) — el proyecto corporal ya tiene precio
+
+Con los costos que el usuario declaró ([[finanzas-personales-2026-2027]]):
+
+| | |
+|---|---|
+| [[margarita-posada]]: 8 sesiones × 1,200 MXN | **9,600 MXN** |
+| Gimnasio: ~5 meses × 533 MXN | **≈2,665 MXN** ⚠️ |
+| **Invertido 27-mar → 18-ago** | **≈12,265 MXN** |
+| Resultado medido | −5.7 kg · **−8.6 puntos de grasa** |
+| **Costo por punto de grasa** | **≈1,426 MXN** |
+| **Costo por kg** | **≈2,152 MXN** |
+
+⚠️ Supone gimnasio pagado los 5 meses completos; no está declarado.
+
+Al mismo ritmo, cerrar del **27.3% al 20%** costaría del orden de **10,400 MXN
+más**. Es, con diferencia, **la meta más barata de las 17** — y es también la
+única que va en tendencia verificada. La combinación importa: no está caro ni
+estancado.
+
+Nota lateral: los **3,000 MXN/mes de vales de despensa** de su empleo
+([[slalom]]) son de supermercado, y el [[plan-alimenticio-mp-2026]] es
+supermercado. Esa prestación está de hecho financiando este objetivo sin que
+nadie lo haya decidido.
+
 ## Nota de alcance
 
 Esta página **registra y hace aritmética**. No prescribe: el plan es de

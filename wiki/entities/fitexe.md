@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-25
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -222,9 +222,37 @@ same honesty register, opposite emotional direction.
   works as content without disclosing the amount or the client.
 - Never show `.env`, Supabase keys, or `firebase_options.dart` on screen.
 
+## 2026-08-25 — FitExe tiene meta de ingreso, y está al 4.6%
+
+[[objetivos-vida-2026-2027]] fija el objetivo 16: **"un side project que me
+pague la renta de la casa donde vamos a vivir: 13,000 MXN al mes"**, publicado
+en Play Store, App Store o web.
+
+FitExe **ya es ese proyecto**, y ya cobra: un gimnasio paga **600 MXN/mes**.
+
+| | |
+|---|---|
+| Meta | 13,000 MXN/mes |
+| Hoy | 600 MXN/mes (1 gimnasio) |
+| **Cobertura** | **4.6%** |
+| Gimnasios al precio actual | **~22** |
+| ...y como el proyecto es **50/50** con [[carlos-emilio-blanco]] | **~44** para que su mitad pague la renta |
+
+El valor de escribirlo es que **cambia la pregunta**. El objetivo dice "hay que
+desarrollar un side project"; el dato dice que el side project existe, está
+publicado y factura — lo que falta es **precio o volumen**, y las dos son
+conversaciones con un socio, hoy, sin escribir una línea de código.
+
+⚠️ Los 22/44 gimnasios suponen el precio actual constante. Es aritmética
+directa, no una proyección de mercado: **si 600 MXN/mes resulta ser un precio
+de arranque y no el precio, el número entero se mueve.** Esa es probablemente
+la primera pregunta que vale la pena hacerse.
+
 ## Related
 
 - [[clean-architecture-feature-first]] — the architecture pattern this app runs.
+- [[objetivos-vida-2026-2027]] — de dónde sale la meta de 13,000 MXN/mes.
+- [[finanzas-personales-2026-2027]] — el cuadro de dinero donde encaja.
 - [[typescript-5-design-patterns]] — where those patterns were read about.
 - [[athletix-ai]] — adjacent product, explicitly *not* assumed to be related.
 - [[eliecer-garcia-romo]] — the developer.

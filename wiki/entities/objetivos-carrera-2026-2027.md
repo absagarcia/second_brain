@@ -155,3 +155,36 @@ déficit a rendimiento sin sacrificar nada.
 - ¿Sabe [[margarita-posada]] de la meta de maratón? El plan que prescribió no
   es compatible con un bloque de 42 km, y eso es una conversación pendiente,
   no un error de ella.
+
+## 2026-08-25 (misma tarde) — el sub-2h aparece con fecha, y es 2026
+
+Horas después de dictar esta escalera, el usuario dictó
+[[objetivos-vida-2026-2027]], donde el objetivo 3 es **"correr un medio maratón
+en 2 horas en el 2026"**.
+
+**Es una contradicción entre dos fuentes suyas, de primera mano, del mismo
+día.** Se anota, no se resuelve:
+
+| Dicho el 2026-08-25 | Meta | Ritmo exigido |
+|---|---|---|
+| Esta página | medio en **2:15 el 28-feb-2027** — *"objetivo más real"* | 6:23/km |
+| Lista de objetivos de vida | medio en **2:00 durante 2026** | 5:41/km |
+
+La aritmética ya está arriba: la única carrera que le queda en 2026 es
+[[medio-maraton-atlas-2026]], **dentro de 12 días**, y bajar 78 s/km desde su
+mejor registro (6:59/km) en 12 días no ocurre. Al ritmo de mejora que sí lleva
+demostrado (~10 s/km al mes, con las salvedades ya anotadas), el sub-2h cae
+alrededor de **mediados de 2027**.
+
+Lectura más probable: **el "2026" es la fecha heredada del perfil de Strava, no
+una decisión nueva.** Si es así, la escalera de esta página no cambia — sólo
+gana un cuarto escalón al final:
+
+```
+6-sep Atlas (calibración) → 28-feb-2027 GDL 2:15 → sub-2h → maratón
+```
+
+Y aparece un dato de calendario que esta página no tenía: **la boda es el
+2026-11-28, veinte días después del maratón del 8-nov.** La fatiga y el riesgo
+de lesión de un primer maratón caen justo encima de la semana de su boda. Es
+un argumento más —ahora no deportivo— sobre el escalón de noviembre.

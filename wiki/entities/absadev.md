@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-20
+updated: 2026-08-25
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -497,9 +497,38 @@ sí respalda es *contar vs. enseñar* y *hecho vivido vs. promesa futura*, no
 "aprender" como tema. La regla de guion que sale de esto, y su choque con el
 espectador de 60+ del 19-ago, están en [[estrategia-contenido-absadev]].
 
+## 2026-08-25 — llegan las metas numéricas del canal, y una va en contra
+
+De [[objetivos-vida-2026-2027]] (dictado por el usuario, 2026-08-25):
+
+| Meta | Hito intermedio | Último dato | Ritmo medido | Lectura |
+|---|---|---|---|---|
+| 10K subs YouTube | **8K** (*"faltan como 140"*) | 7,850 (10-ago) | **−11 en 28 días** | 🔴 signo contrario |
+| 10K seguidores TikTok | **5K** (*"faltan como 430"*) | 4,535 (08-ago) | **+11 en 7 días** | 🟡 ≈ may-2027 |
+| Ingreso de YouTube | **200 MXN/mes** → 1,000 | — | monetización sin confirmar | ❓ |
+
+**Su percepción de dónde está es correcta** —"como 140" y "como 430" cuadran
+con los snapshots de agosto—, pero la lista no registra que **una de las dos
+series va hacia atrás**. La meta de 8K pide +140 netos sobre un canal que
+perdió 11 suscriptores en 28 días; a la conversión medida (SPV 0.21 por 1.000
+vistas) serían del orden de **660,000 vistas** aun si las bajas se detuvieran.
+
+Es, desde las metas, la misma conclusión que
+[[estrategia-contenido-absadev]] sacó desde el embudo: **el muro está en
+YouTube y la tracción está en TikTok.**
+
+⚠️ **Hueco nuevo:** la meta de ingreso (200 → 1,000 MXN/mes) presupone estar
+dentro del YPP, y **en todo el expediente no hay un solo dato de monetización**
+— ni si el canal está monetizado, ni RPM, ni horas de visualización. Los 1,000
+MXN (~50 USD) al RPM típico de audiencia mexicana implicarían **decenas de
+miles de vistas mensuales sostenidas**, pero eso es *derivación mía sobre un
+RPM supuesto*, no un dato: se marca como tal y no se planifica sobre ello.
+
 ## Related
 
+- [[objetivos-vida-2026-2027]] — las metas de este canal dentro del cuadro completo
 - [[estrategia-contenido-absadev]] — the content strategy built on this profile
+- [[slalom]] — el trabajo del que sale casi todo el material real
 - [[daniel]] — el par dev que dio el feedback de guion del 20-ago
 - [[absa-garcia]] — the sibling non-tech lifestyle/running brand
 - [[eliecer-garcia-romo]] — the person behind the channel

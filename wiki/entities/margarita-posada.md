@@ -9,6 +9,10 @@ sources:
     fact_date: 2026-03-27 → 2026-08-18
     ingest_date: 2026-08-25
     confidence: high   # sus propias evaluaciones, membretadas y fechadas
+  - path: raw/reflections/finanzas-cifras-2026-08-25.md
+    fact_date: 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: high   # precio por sesión, declarado por el usuario
 ---
 
 # Margarita Posada
@@ -70,6 +74,24 @@ No es un descuido invisible — es una elección coherente con el objetivo que
 el paciente le planteó, tomada **antes** de que él declarara la meta de
 maratón. Vale la pena que él se lo lleve a consulta, no como reclamo sino
 como cambio de objetivo.
+
+## Costo (añadido el 2026-08-25 por la tarde)
+
+**1,200 MXN por sesión.** Declarado por el usuario
+(`raw/reflections/finanzas-cifras-2026-08-25.md`). Es **precio por sesión, no
+mensualidad**.
+
+A la frecuencia observada en la serie —8 evaluaciones en 144 días, una cada
+~20.6 días— eso son **≈1,750 MXN/mes** (⚠️ derivación: la frecuencia no está
+declarada como pauta, se infiere de las fechas) y **9,600 MXN acumulados** desde
+el 27-mar.
+
+Puesto contra el resultado medido (−8.6 puntos de grasa), sale a **≈1,426 MXN
+por punto** contando también el gimnasio — el desglose está en
+[[composicion-corporal-2026]] y el contexto de ingreso en
+[[finanzas-personales-2026-2027]]. **Es el servicio profesional mejor
+documentado del expediente: con precio, con frecuencia y con resultado
+medido.** Ningún otro lo tiene.
 
 ## Lo que sigue sin estar documentado
 
