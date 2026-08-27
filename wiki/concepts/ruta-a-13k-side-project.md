@@ -17,6 +17,16 @@ sources:
 
 # La ruta a 13,000 MXN/mes — el objetivo 16 aterrizado
 
+> ⚠️ **Decisión posterior del usuario, el mismo día.** Tras leer esta página
+> —cuya conclusión es *"no empieces nada nuevo, sube el precio de FitExe"*— el
+> usuario respondió: *"aparte de FitExe quiero hacer otra app"*. **Mantuvo la
+> decisión con el argumento sobre la mesa.** Esta página se conserva porque su
+> análisis de precios sigue siendo válido y aplicable a FitExe, pero **la
+> recomendación de no empezar nada nuevo queda subordinada** a
+> [[segunda-app-candidatas]]. Y ahí aparece un argumento que esta página no
+> tenía: **al ser FitExe 50/50, una app 100% suya parte la meta a la mitad**
+> (13,000 facturados en vez de 26,000).
+
 El objetivo 16 dice: *"desarrollar un side project que me pague la renta de la
 casa donde vamos a vivir, 13,000 pesos mexicanos al mes, y eso subirlo a la
 Play Store, App Store o software web."*

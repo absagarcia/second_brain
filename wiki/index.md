@@ -103,6 +103,8 @@ Format: `[name](path) — one-line summary — domain(s)`
 
 - [La ruta a 13,000 MXN/mes — el objetivo 16 aterrizado](concepts/ruta-a-13k-side-project.md) — la respuesta al encargo del 2026-08-25, y **corrige la premisa del objetivo**: no hace falta una idea nueva porque [[fitexe]] ya cumple todo lo que pide salvo la cifra; el problema es **el precio, no el producto** (43 gimnasios a MX$600 vs. **11 a MX$2,500**), y le faltaba el escalón intermedio que él sí sabe construir en YouTube y TikTok (**5 gimnasios = media renta**); descarta idea nueva porque las alternativas empiezan en cero clientes y el presupuesto es de 4-6 h/semana, y recoloca el objetivo como **palanca de opcionalidad, no financiera** — fitexe, swe, finance, blackicelabs
 
+- [La segunda app — criterios y candidatas](concepts/segunda-app-candidatas.md) — el usuario decide hacer otra app pese a la recomendación anterior, y aparece **el argumento que la respalda: como [[fitexe]] es 50/50, una app 100% suya parte la meta a la mitad** (13,000 en vez de 26,000); tres criterios que sobreviven a cualquier idea (**recurrente > pago único** — 6 clientes vendidos una vez vs. 9 ventas cada mes para siempre; **ventaja injusta**; **su audiencia sólo sirve si el cliente es dev**); gana la **herramienta para nutriólogos/coaches** (cliente cero identificado, fricciones ya documentadas, reutiliza el stack, 100% suya), con **`save_the_date` saliendo al mercado antes del 28-nov** porque ya existe y esa ventana expira — swe, fitexe, finance, blackicelabs
+
 ## Comparisons
 
 - [Goal-Setting vs. Systems-Based Habit Formation](comparisons/goal-setting-vs-systems-based-habits.md) — Hábitos para ser millonario's daily-written-goals ritual vs. Atomic Habits' systems/identity-first approach — books, reflections

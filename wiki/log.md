@@ -2206,13 +2206,65 @@ sesión.
 
 **Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
 
+## [2026-08-25] ingest | "Aparte de FitExe quiero hacer otra app" — swe, fitexe, finance
+
+Fuente nueva: `raw/reflections/segunda-app-2026-08-25.md`. **Creada**
+[[segunda-app-candidatas]]. **Actualizadas** [[ruta-a-13k-side-project]] y el
+índice.
+
+**El usuario mantiene la decisión con la objeción del wiki sobre la mesa.** La
+página anterior recomendaba no empezar nada nuevo; queda **subordinada**, no
+borrada, y su análisis de precios sigue aplicando a [[fitexe]].
+
+**Hallazgo 1 — y es a favor de él: la meta se parte a la mitad.** FitExe es
+50/50 con [[carlos-emilio-blanco]]; una app 100% suya no. Para que gane 13,000
+al mes tendría que facturar **26,000 vía FitExe** o **13,000 vía app propia**.
+El wiki no había puesto ese número en la recomendación anterior, y **cambia el
+cálculo a favor de la segunda app.** ⚠️ Con su contrapartida: construir un
+producto adyacente al que co-posee es una conversación con Emilio, no un detalle
+técnico.
+
+**Hallazgo 2 — el criterio que descarta más ideas: recurrente > pago único.**
+Para 13,000/mes, un B2B recurrente a 2,500 pide **6 clientes vendidos una vez**;
+un producto de pago único de 1,500 pide **9 ventas cada mes, para siempre**.
+**El pago único no es un side project: es un trabajo de ventas permanente**, y
+con 4-6 h/semana se descarta casi solo.
+
+**Hallazgo 3 — ya tiene una segunda app y no la había contado.** `save_the_date`
+está en producción **hoy**, con 97 invitaciones y 166 boletos en Supabase,
+tokens por invitado, links de WhatsApp e importación desde Excel. Ventaja
+injusta máxima (organiza una boda ahora), trabajo hasta el primer peso casi
+cero, y **una ventana de distribución que expira el 28-nov**: ese día 97
+invitaciones llegan a gente en edad de casarse, y el contenido de la boda ya
+estaba planeado para [[absa-garcia]]. **Pero es pago único**, así que sirve para
+ingresar rápido, no para el objetivo 16.
+
+**Recomendación: herramienta para nutriólogos y coaches independientes.** Única
+que cumple los cinco criterios: recurrente, B2B, **cliente cero identificado por
+nombre** ([[margarita-posada]], que ya le cobra 1,200/sesión), **fricciones ya
+documentadas con fuente** en [[plan-alimenticio-mp-2026]] (PDF con nombre y
+fecha en blanco, "observaciones" vacío en las 8 evaluaciones), reutiliza el
+stack de FitExe, y **100% suya**. Sin arranque antes de diciembre: entre el
+Atlas del 6-sep, la boda del 28-nov y dos podcasts, no cabe.
+
+**Descartadas con razón registrada:** producto para devs (única con distribución
+gratis, pero mercado que paga poco y **él mismo declara que aún no es el experto
+del objetivo 15** — carta de 2027); app de running (B2C contra lo gratis, y
+[[athletix-ai]] ya no existe); café (otro negocio).
+
+**Calibración que la página usa como ancla:** FitExe necesitó **115 commits y
+una v1.0.17 para llegar a un cliente que paga 600**. Ése es su ritmo real de
+"idea → primer peso", y cualquier plan que suponga menos está siendo optimista.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
 ---
 
-**Cierre de la sesión del 2026-08-25.** Seis ingests en un día
+**Cierre de la sesión del 2026-08-25.** Siete ingests en un día
 (objetivos de vida · cifras de ingreso · presupuesto de boda · ahorro · tasa ·
-decisiones), **5 páginas nuevas** ([[objetivos-vida-2026-2027]],
+decisiones · segunda app), **6 páginas nuevas** ([[objetivos-vida-2026-2027]],
 [[finanzas-personales-2026-2027]], [[slalom]], [[boda-2026]],
-[[ruta-a-13k-side-project]]) y el dominio
+[[ruta-a-13k-side-project]], [[segunda-app-candidatas]]) y el dominio
 `finance` pasó de **siete páginas de libros y cero datos propios** a tener el
 estado financiero completo del usuario.
 
