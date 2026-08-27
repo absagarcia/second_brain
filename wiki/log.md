@@ -2275,3 +2275,14 @@ La distinción importa para el próximo lint: las primeras tres son un problema 
 **cobertura de datos**; la cuarta es un problema de **método**, y es la que hay
 que corregir con una regla, no con más fuentes: **cuando una cifra llega sin
 periodicidad explícita, preguntarla antes de derivar sobre ella.**
+
+---
+
+## [2026-08-26] ingest | Tácticas de popularidad en TikTok LIVE — blackicelabs
+
+Guía genérica de TikTok (sin URL, pegada por el usuario) sobre Super Fan,
+Super Fan goals y shoutouts para subir en Popular LIVE. Página nueva
+[[tiktok-live-popularity-tactics]], confianza baja (sin cifras, sin caso
+propio). Nota explícita: introduce LIVE como superficie sin un solo dato en
+el expediente de [[absadev]] — no se integra a la estrategia activa, queda
+registrada como opción sin explorar.
