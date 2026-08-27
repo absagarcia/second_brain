@@ -1825,3 +1825,91 @@ dato de CTR/impresiones para separar empaquetado de distribución. Pero es la
 tercera fuente independiente (medición 10-ago, doctrina 14-ago, medición
 26-ago) que apunta al mismo lugar: **bajar el ritmo a lo acordado es la
 recomendación con más palanca y la que menos se ha aplicado.**
+
+## 2026-08-26 — qué episodio grabar primero: el #4, con Emilio
+
+El usuario pregunta cuál del slate trabajar. **La respuesta cambia respecto a lo
+escrito el 19-ago**, y la razón no es de contenido sino de
+[[patron-de-terminacion]].
+
+### El dato que decide: los "fáciles" son los que no se grabaron
+
+El 19-ago esta página escribió *"los dos solos se graban ya; los dos con
+invitado dependen de agenda"*. **Siete días después, ninguno de los dos solos
+está grabado**, y el show sigue sin publicar desde junio.
+
+Eso no es pereza: es exactamente el patrón documentado. **Lo que sólo depende de
+él se aplaza; lo que involucra a otra persona ocurre.** Los episodios 1 y 2 no
+tienen testigo, ni fecha, ni cadencia ajena — las tres cosas que su historial
+dice que hacen falta. **El #4 las trae de fábrica: hay que agendar con
+[[carlos-emilio-blanco]], y una vez agendado, no se cancela solo.**
+
+**El criterio de selección cambia:** no "cuál es más fácil de grabar", sino
+**cuál tiene estructura**. Con ese criterio gana el #4, y de calle.
+
+### Y su material mejoró en 24 horas
+
+El 19-ago el #4 era *"FitExe cobra MX$600/mes"*. Tras la sesión del 25-ago hay
+un episodio entero de aritmética real:
+
+- **43 gimnasios a MX$600 vs. 11 a MX$2,500** para la misma meta.
+- **~US$32/mes por gestionar un gimnasio entero** — el número que hace evidente
+  el error.
+- El **50/50** y por qué duplica el objetivo.
+- Y la confesión que sostiene el episodio: **cobramos de menos, y tardamos en
+  darnos cuenta.**
+
+Eso resuelve además la advertencia que esta página dejó el 20-ago: la apertura
+del #4 era **plantilla, no anécdota**. Ahora hay incidente real y fechado — el
+momento de ver el número al lado del objetivo.
+
+Y refuerza lo que [[devtalles]] ya había mostrado: en el catálogo de referencia
+el equivalente (*"Cómo cobrar por proyectos"*) es **hipotético**; el suyo
+**cobra**. El tema no diferencia; el caso propio sí.
+
+### ⚠️ El conflicto que hay que resolver ANTES de grabar
+
+**El título de YouTube del #4 es *"Nuestro side project ya genera dinero: cuánto
+y cómo"*. Y [[fitexe]] tiene escrito, desde el 2026-07-29, que el default seguro
+es *"ya tenemos un cliente que paga"* — sin revelar monto ni cliente**, y que
+cifras de ingreso, precios e identidad del gimnasio **requieren el visto bueno
+de Emilio**, que es decisor conjunto en comunicación pública.
+
+**El título promete exactamente lo que la regla de la página pide no dar.** No
+se había cruzado hasta hoy.
+
+Tres salidas, en orden de preferencia:
+
+1. **Contar la lección sin la cifra.** *"Cobrábamos de menos y así lo
+   descubrimos"* es mejor contenido que un número: es transferible a quien
+   escucha, no expone la posición de negociación frente a futuros gimnasios, y
+   no necesita permiso de nadie más que de Emilio para el relato.
+2. **Rangos y proporciones.** *"Menos de 50 dólares al mes por un gimnasio
+   completo"* dice lo mismo sin ser el precio.
+3. **Cifra exacta, con permiso explícito de Emilio.** Es la opción con más
+   tracción y la que más compromete a un tercero.
+
+Y una consideración de negocio que pesa más que la de contenido: **publicar el
+precio actual antes de subirlo complica subirlo.** Si la conversación de precios
+([[ruta-a-13k-side-project]]) va a ocurrir, conviene que ocurra **antes** de que
+el número sea público.
+
+### Por qué esto también resuelve algo que no es contenido
+
+El wiki ya recomendó dos veces hablar con Emilio: por el precio de FitExe
+([[ruta-a-13k-side-project]]) y por la segunda app
+([[segunda-app-candidatas]]). **Agendar la grabación es agendar esa
+conversación.** El episodio y la reunión de socios son el mismo evento, y ése
+es el argumento más fuerte de todos para empezar por el #4.
+
+### Restricción de calendario que sigue vigente
+
+**Grabar ahora, publicar clips desde el 30 de septiembre.** La condición #1 de la
+reactivación (los clips **reemplazan** el calendario de shorts) no se puede
+romper: con el batch #7 en 3.7/semana, los clips no pueden entrar antes sin
+pasar el techo de 3.5/semana fijado como condición de refutación.
+
+⚠️ **Y esto no abre un objetivo nuevo.** El objetivo 14 ya estaba activo desde
+el 19-ago; lo que hace esta sección es **darle la estructura que le faltaba**,
+que es justo lo que [[patron-de-terminacion]] pide antes de activar cualquier
+cosa.

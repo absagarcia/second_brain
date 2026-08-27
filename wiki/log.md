@@ -2310,3 +2310,196 @@ material), Sugeridos 0.0%. Ritmo de publicación sigue en ~5/semana (20
 videos), tercera fuente independiente (con la medición del 10-ago y la
 doctrina de plataforma del 14-ago) señalando bajar a lo acordado. Registrado
 en [[absadev]] y [[estrategia-contenido-absadev]].
+
+## [2026-08-26] ingest | "Empiezo muchas y termino pocas" — el patrón, corregido por sus datos — reflections, blackicelabs, fitness, swe, books
+
+Fuente nueva: `raw/reflections/patron-terminacion-2026-08-26.md` (autodiagnóstico
+del usuario, `confidence: medium`). **Creada** [[patron-de-terminacion]].
+**Actualizadas** [[objetivos-vida-2026-2027]] y el índice.
+
+**Hallazgo 1 — la premisa es falsa, y el expediente lo prueba.** Sus series
+medidas de los últimos cinco meses: **218 actividades de running y mejora de
+ritmo sin una sola regresión**, **8 evaluaciones corporales con pliegues a la
+baja en las 8 sin un retroceso**, **15,000/mes ahorrados** (145,000 acumulados),
+**23 episodios de podcast a 2.4/mes**, FitExe publicada con un cliente que paga
+y `save_the_date` en producción. **Ése no es el historial de alguien que no
+termina cosas.**
+
+**Hallazgo 2 — el patrón real es estructura, no constancia.** Todo lo que
+sostiene tiene **testigo + cadencia que no pone él + fecha que no puede mover**
+(coach y carreras · [[margarita-posada]] y sus citas · la quincena · Emilio y un
+cliente · el 28-nov). Todo lo que abandona **no tiene ninguna de las tres**:
+Swift, el podcast, *Absa con Café*, las ocho series de shorts.
+
+**Hallazgo 3 — la prueba más limpia: el podcast se detuvo en su mejor mes de
+audiencia.** Con los números subiendo, las ganas sobraban. **Se detuvo porque
+nadie esperaba el siguiente episodio.** El motor no son las ganas.
+
+**Hallazgo 4 — el caso Swift tiene precio, y cruza dos objetivos que él trata
+como separados.** El video que lo anunció es **el de mayor SPV del canal
+(9.48)**: llegaron suscriptores por una promesa que a los 26 días se declaró
+detenida. Y el objetivo 7 sigue empeorando — el snapshot de esta misma mañana
+marca **−4 netos y SPV −1.11**. ⚠️ **No hay datos de bajas por video: es
+hipótesis, no causalidad.** Pero queda escrita: **el problema de terminación y
+el de retención podrían ser el mismo.**
+
+**Hallazgo 5 — el hueco no es de conocimiento.** [[systems-over-willpower]]
+consolida **seis libros que él ya leyó** diciendo exactamente esto, y
+[[goal-setting-vs-systems-based-habits]] ya lo tenía comparado en este wiki. Las
+metas que diseñó después no llevan ninguno de esos mecanismos.
+
+**La regla que faltaba: máximo un objetivo sin estructura activo a la vez.** De
+los 17: **5 con estructura** (boda, carro, medio 2027, grasa, bolsa si se
+automatiza) y **8 a la deriva**. Él **escalona bien** (*"10K pero primero 8K"*) y
+**multiplica mal** — nunca puso límite de cosas en paralelo.
+
+**Secuencia propuesta:** cero objetivos nuevos hasta el 28-nov (los cinco
+estructurados corren solos); el único movimiento activo es **abrir la
+conversación del ascenso en [[slalom]]**, que es la meta de mayor retorno y sólo
+necesita testigo. Primer espacio libre en diciembre. 2027, de uno en uno:
+canal con testigo ([[daniel]]) → objetivo 15 con definición de "hecho" →
+podcast con el batch grabado por delante. **Objetivo 13 (*Absa con Café*) no
+entra** hasta que el 14 lleve tres meses cumpliéndose.
+
+**Cuatro acciones de esta semana que no quitan tiempo a nada:** decirle a
+alguien en Slalom que va por Senior · pedirle a Daniel que pregunte cada viernes
+si publicó · automatizar la transferencia quincenal a la bolsa · listar qué
+libros están empezados.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-26] query | Qué episodio de BLACK ICE LABS grabar primero — blackicelabs, fitexe
+
+Pregunta del usuario, contestada desde el expediente. **Actualizada**
+[[estrategia-contenido-absadev]] (sección nueva). Sin fuente nueva en `raw/`:
+es síntesis, no ingest.
+
+**Respuesta: el #4 — `027. El side project que por fin cobra — con Emilio`.**
+
+**Cambia el criterio del 19-ago.** Aquella sección decía *"los dos solos se
+graban ya; los dos con invitado dependen de agenda"*. **Siete días después
+ninguno de los dos solos está grabado** y el show sigue sin publicar desde
+junio. Es [[patron-de-terminacion]] confirmándose en tiempo real: **lo que sólo
+depende de él se aplaza; lo que involucra a otra persona ocurre.** El criterio
+deja de ser "cuál es más fácil" y pasa a ser **"cuál trae estructura"** — y el
+#4 la trae de fábrica (invitado ⇒ fecha agendada ⇒ testigo).
+
+**Su material mejoró en 24 horas.** El 19-ago era *"FitExe cobra 600"*; hoy hay
+un episodio de aritmética real (43 gimnasios a 600 vs. 11 a 2,500; ~US$32/mes
+por gestionar un gimnasio; el 50/50) y **una confesión que sostiene el
+episodio: cobramos de menos y tardamos en darnos cuenta**. Eso además resuelve
+la advertencia del 20-ago de que la apertura del #4 era **plantilla, no
+anécdota**.
+
+⚠️ **Conflicto nuevo, no detectado hasta hoy.** El título de YouTube del #4
+promete *"cuánto y cómo"*, y [[fitexe]] tiene escrito desde el 2026-07-29 que
+el default seguro es *"ya tenemos un cliente que paga"* **sin revelar monto ni
+cliente**, con visto bueno de [[carlos-emilio-blanco]] para cualquier cifra.
+**El título promete justo lo que la regla pide no dar.** Tres salidas
+registradas, en orden: contar la lección sin la cifra · rangos · cifra exacta
+con permiso. Y una consideración de negocio que pesa más: **publicar el precio
+actual antes de subirlo complica subirlo.**
+
+**El argumento más fuerte no es de contenido:** el wiki ya recomendó dos veces
+hablar con Emilio (precio de FitExe, segunda app). **Agendar la grabación es
+agendar esa conversación** — el episodio y la reunión de socios son el mismo
+evento.
+
+**Restricción vigente:** grabar ahora, **publicar clips desde el 30-sep**, para
+no romper el techo de 3.5 shorts/semana que es condición de refutación del plan
+del 19-ago. Y no abre objetivo nuevo: el 14 ya estaba activo — esto le da la
+estructura que le faltaba.
+
+## [2026-08-26] Emilio acepta + guion del episodio 027 — blackicelabs, fitexe, books
+
+[[carlos-emilio-blanco]] aceptó grabar. **Creada** [[episodio-027-side-project]]
+con el guion completo. **Actualizado** el índice.
+
+**El objetivo 14 queda estructurado en el mismo día en que se diagnosticó que le
+faltaba estructura:** con el invitado confirmado hay fecha agendada y testigo,
+que son dos de las tres propiedades que [[patron-de-terminacion]] identificó
+como condición de que algo se termine.
+
+**Forma del guion:** 8-10 min · cold open por incidente **sin intro ni música**
+(regla del 20-ago) · 4 bloques · **8 cortes de clip marcados en confesión, no en
+tip** · un solo CTA, apuntado al cuello de botella medido (*Activation*).
+
+**Cuatro libros, deliberadamente no más** —el catálogo creció +18% mientras la
+audiencia se encogía—: [[hazlo-tan-bien-que-no-puedan-ignorarte]] (capital de
+carrera: *nadie paga por una idea, pagan por algo que ya funciona*),
+[[the-saas-playbook]] **en el corazón** (cobrar de menos como error clásico del
+bootstrapped), [[de-cero-a-uno]] (nicho estrecho: *no le vendimos al mercado
+fitness, le vendimos a un gimnasio*) y [[sin-esfuerzo]] (contra la mitología del
+startup: *lo chiquito no siempre es la etapa previa a lo grande*).
+
+**Callback que sostiene el bloque 1:** el episodio 021 fue *"5 ideas de side
+projects para pagar la renta"* — **y ninguna de las cinco era ésta**. Es el
+contraste que [[devtalles]] no puede replicar: allá el equivalente es
+hipotético, aquí cobra.
+
+⚠️ **Escrito en la versión segura.** El guion funciona **completo sin decir la
+cifra**; hay **un único punto marcado** donde entra si Emilio la autoriza —
+aceptar grabar no es aceptar publicar el precio, y [[fitexe]] exige su visto
+bueno explícito para cifras. Se mantiene además el argumento de negocio:
+publicar el precio actual antes de subirlo complica subirlo.
+
+**El bloque 4 es la parte que no es contenido:** tres preguntas a Emilio, la
+tercera es *"¿subimos el precio con el que ya tenemos, o lo dejamos y buscamos
+más?"* — **la conversación de socios que el wiki venía recomendando desde ayer,
+grabada en vivo.** Con instrucción explícita de **no ensayarla**.
+
+**Cinco huecos marcados para que él los rellene** (cuál apertura es verdad, cómo
+apareció el gimnasio, si alguna vez se quejaron del precio, la decisión de la
+cifra, quién dijo el número primero) — **el wiki no inventa la anécdota**: si no
+hay incidente real, el cold open se cae, que es la advertencia que ya estaba
+escrita el 20-ago.
+
+## [2026-08-26] revisión | El 027 se graba SOLO — el guion cambia de tiempo verbal
+
+Horas después de confirmar a Emilio, el usuario decide grabar sin invitado.
+**Actualizada** [[episodio-027-side-project]] (revisión completa) y el índice.
+
+**Dos costes, anotados sin disimular porque los dos están medidos:**
+
+1. **Se pierde la estructura que hizo que se eligiera este episodio.** El #4 se
+   escogió sobre los otros tres **precisamente porque el invitado obligaba a
+   agendar** ([[patron-de-terminacion]]). Los dos episodios solos del slate
+   llevan una semana sin grabarse. **Mitigación registrada: fecha hoy, dicha a
+   alguien, más fecha de publicación.** Sin eso, éste sería el cuarto documento
+   excelente de la semana que no se convierte en episodio.
+2. **Este episodio ya no adquiere público.** El plan del 19-ago lo dice con
+   dato: *"el podcast solo no adquiere público — sólo recircula el que ya
+   existe; el invitado es la única pieza que trae audiencia nueva."*
+
+**Y una ventaja real que compensa parte: la confesión es más limpia solo.** Con
+el socio delante no se puede decir *"nos equivocamos con el precio"* sin
+implicarlo en vivo. **El episodio gana en honestidad lo que pierde en alcance.**
+
+**El cambio que salva el guion: pasa de pasado a presente.** El bloque 4 dejaba
+de existir sin invitado, y en su lugar entra **"la decisión que todavía no
+tomo"** — las dos opciones (subir precio al cliente que ya tiene vs. dejarlo y
+buscar más) planteadas en voz alta **y dejadas abiertas**. Un episodio solo se
+sostiene peor contando algo terminado y mucho mejor contando algo sin resolver.
+
+**La frase que ahora es el episodio**, y que un episodio con invitado no habría
+podido decir sin incomodar a nadie: *"sé cuál es la respuesta de los libros
+—subir el precio, siempre subir el precio— y aun así no lo he hecho, porque el
+que paga no es un caso de estudio: es un señor con un gimnasio que confió en
+nosotros cuando la app estaba peor que hoy."*
+
+**El cabo suelto se vuelve deliberado:** cierra anunciando que se lo preguntará
+a Emilio y que **ese** episodio se graba juntos — con lo que el 027-bis (el que
+sí trae audiencia nueva) queda con razón de existir, y el CTA deja de ser
+decorativo: pide ayuda con una decisión real, que es justo lo que ataca el
+cuello de botella medido (*Activation*).
+
+**Cambios menores:** cae el *"— con Emilio"* del título de Spotify; se propone
+título nuevo de YouTube con la consulta buscable delante (*"cuánto cobrar por un
+side project"*), conforme a la corrección del 14-ago y al 35.0% de tráfico de
+Búsqueda; entra [[el-cisne-negro]] en una sola frase (*"con una muestra de uno
+no se sabe si acertamos o tuvimos suerte"*), aprovechando que el wiki ya tenía
+registrada su contradicción frontal con [[de-cero-a-uno]].
+
+🚫 **La cifra queda fuera, y se cierra esa decisión.** El visto bueno de Emilio
+del 26-ago fue para **grabar juntos**; hablar de números compartidos sin él en
+la sala es **más** delicado, no menos.

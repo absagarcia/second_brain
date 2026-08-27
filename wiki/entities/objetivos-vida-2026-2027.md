@@ -349,6 +349,32 @@ YouTube y TikTok (*"10K pero primero 8K"*): **5 gimnasios = media renta**.
 **El objetivo 7 y la agenda quedan como los dos frentes sin resolver de esta
 sesión.**
 
+## 2026-08-26 — los 17, reordenados por estructura
+
+El usuario planteó *"empiezo muchas cosas y pocas termino"* y pidió ajustar las
+metas. El análisis está en [[patron-de-terminacion]], y **corrige la premisa**:
+sus series medidas (218 actividades de running sin una regresión, 8 evaluaciones
+corporales sin un retroceso, 15,000/mes ahorrados, 23 episodios a 2.4/mes) no
+son el historial de alguien que no termina.
+
+**Lo que sostiene tiene siempre testigo + cadencia que no pone él + fecha
+inmovible. Lo que abandona no tiene ninguna de las tres.**
+
+Aplicado a esta lista:
+
+| | Objetivos | Estado |
+|---|---|---|
+| **Con estructura** | 1 (boda) · 2 (carro) · 3 (medio 2027) · 4 (grasa) · 11 (bolsa, si se automatiza) | corren solos |
+| **Sin estructura** | 5 · 6 · 7 · 10 · 12 · 13 · 14 · 15 · 16/segunda app · 17 | se atascan |
+
+**Cinco funcionando, ocho a la deriva** — y el **objetivo 5 está a un paso**: ya
+tiene fecha, sólo le falta que alguien en [[slalom]] sepa que va por eso.
+
+**La regla que faltaba: máximo un objetivo sin estructura activo a la vez.** Él
+escalona bien (*"10K pero primero 8K"*) y **multiplica mal**: nunca puso límite
+de cosas en paralelo. Secuencia propuesta — **cero objetivos nuevos hasta el
+28-nov**, el primer espacio se abre en diciembre, y 2027 va de uno en uno.
+
 ## Vida útil de esta página
 
 - **Corta (semanas):** las cifras de suscriptores, seguidores, USD invertidos y
