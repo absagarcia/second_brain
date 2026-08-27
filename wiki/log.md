@@ -1527,3 +1527,751 @@ imposible, no arriesgado.
 
 **No adoptado:** la cifra de "caída del 50% en contratación junior" — sin
 ventana, sin geografía, sin denominador y de segunda mano.
+
+## [2026-08-25] ingest | Export Strava mar→ago 2026 — blackicelabs / reflections
+
+Primera ingesta de **datos biométricos/deportivos** al wiki, vía el conector
+MCP de Strava (no es un export nativo: es la API transcrita). Guardado en
+`raw/fitness/strava-2026-03-01-a-2026-08-25/` (README + CSV de las 218
+actividades). **Confianza alta** — datos de dispositivo de primera mano.
+
+Nuevas: [[bloque-entrenamiento-running-2026]] y [[medio-maraton-atlas-2026]]
+(entidades). Actualizada: [[absa-garcia]].
+
+**El hallazgo:** el arco de contenido declarado el 22-jul ("el año que estoy
+viviendo") existía sólo como intención dicha en conversación. Ahora tiene
+evidencia: **331.7 km, 218 actividades, y cinco meses de mejora de ritmo medio
+sin una sola regresión** (8:35 → 7:44/km, −9.9%). Y una meta escrita por él
+mismo el 12-jul ("bajar el pace a 7:00") **cumplida el 2-ago** — arco cerrado,
+con PRs, que el canal todavía no ha usado.
+
+**El problema, anotado antes de que ocurra:** el objetivo del perfil de Strava
+—medio maratón sub-2h el 6-sep— exige **5:41/km**. Su mejor carrera de la vida
+va a **6:59/km** sobre 10 km, y su tirada más larga en seis meses es de
+**12.02 km** frente a los 21.1 de la carrera. Riegel proyecta **2h34-2h39**.
+Encima, agosto es el peor mes del bloque en asistencia (9 días activos de 25)
+por una **lesión en la ingle reportada el 19-ago**. Se deja escrito hoy
+—faltando 12 días— precisamente para que después no se pueda recontar de otra
+manera ([[falacia-narrativa-y-pruebas-silenciosas]],
+[[limites-de-la-prediccion-experta]]).
+
+**Consecuencia estratégica:** el punto de revisión de octubre de [[absa-garcia]]
+—¿el running es apuesta de retorno o crónica de vida?— **se quedó tarde**. La
+carrera es antes, y la respuesta cambia si un objetivo fallado se publica o no.
+
+⚠️ **Advertencia de compresión declarada.** El export no trae ángulo propio; el
+que se aplicó al comprimirlo fue **"¿qué dice esto del arco de contenido y del
+6 de septiembre?"** — porque es el marco que el wiki ya tenía abierto en
+[[absa-garcia]]. Un ángulo de salud/rendimiento puro (zonas, FC, carga, riesgo
+de lesión) **no se escribió**, y los datos para hacerlo están en el `raw/`.
+
+⚠️ **Dos límites del dato.** (1) De marzo a mediados de mayo casi todo se corrió
+en **caminadora**; parte de la mejora de ritmo puede ser cambio de superficie,
+no de forma física. (2) El **7:44/km de agosto no es "el mejor mes"**: con 9
+días activos, el promedio lo sostienen las carreras.
+
+**No adoptado / pendiente:** el plan del coach y la nutrióloga que el usuario
+cita el 2-ago no está en el wiki, y es lo que decide el ritmo de salida del
+domingo. Tampoco hay serie de peso (sólo 93.5 kg actual y el "-9.2 kg" escrito
+el 12-jul). **El FTP de 208 W es estimado por Strava, no medido.**
+
+⚠️ **Cuestión de esquema abierta:** estos datos entraron como `blackicelabs` +
+`reflections` porque el marco disponible era el del canal. No existe un dominio
+de **salud/entrenamiento** en `CLAUDE.md`; si va a haber más ingestas de Strava,
+conviene decidirlo antes de que el sesgo "todo esto es contenido" se vuelva
+estructural.
+
+## [2026-08-25] corrección de esquema | Dominio `fitness` — a instancia del usuario
+
+La ingesta de Strava de hoy se archivó bajo `blackicelabs` "por descarte", y
+**el usuario lo rechazó en el acto**: los datos de su propio entrenamiento no
+son una subcarpeta del contenido. Tenía razón, y el error es exactamente el
+sesgo que la propia ingesta había flagueado y luego cometido igual.
+
+Cambios:
+
+- **Nuevo dominio `fitness`** en `CLAUDE.md`, con sus fronteras escritas: el
+  entrenamiento propio va aquí; el contenido *sobre* correr sigue en
+  `blackicelabs`; el software deportivo para terceros es `athletix`/`fitexe`;
+  las ideas de libros sobre esfuerzo y descanso siguen en `books`+`reflections`
+  y sólo ganan `fitness` cuando se aplican a datos medidos suyos.
+- `raw/blackicelabs/strava-2026-03-01-a-2026-08-25/` → **`raw/fitness/…`**, con
+  las 4 referencias del wiki actualizadas.
+- [[bloque-entrenamiento-running-2026]]: `[blackicelabs, reflections]` →
+  **`[fitness]`**. El sujeto de la página es el entrenamiento.
+- [[medio-maraton-atlas-2026]]: `[blackicelabs, reflections]` →
+  **`[fitness, blackicelabs]`**. Doble dominio real: la carrera es fitness, y
+  la página sí razona sobre el arco de contenido.
+- [[absa-garcia]] **se queda en `blackicelabs`**: es una marca de creador que
+  ahora cita una fuente de `fitness`, no una página de entrenamiento.
+
+**Lección de método, no de esquema.** Cuando una ingesta no encaja en ningún
+dominio existente, la salida correcta no es "meterlo en el más cercano y poner
+una advertencia" — es **parar y preguntar**, como pedían las reglas duras para
+las páginas huérfanas. La advertencia dejó el error en pie y trasladó el trabajo
+al usuario.
+
+## [2026-08-25] ingest | Composición corporal y objetivo de maratón — fitness
+
+Fuente: **conversación con el usuario**, primera mano, datos medidos con su
+nutrióloga. Segunda ingesta del dominio `fitness` estrenado hoy.
+
+Nuevas: [[composicion-corporal-2026]] y [[objetivos-carrera-2026-2027]]
+(entidades). Actualizadas: [[medio-maraton-atlas-2026]],
+[[bloque-entrenamiento-running-2026]] y [[absa-garcia]].
+
+**Hallazgo 1 — la báscula esconde el 38% del progreso.** De 101.5 kg / 35.9% a
+95.0 kg / 27.3%: **−10.5 kg de grasa y +4.0 kg de masa magra**, con el peso
+bajando sólo 6.5 kg. Confirma con aritmética lo que él describe
+cualitativamente (*"a cualquier estímulo de pesas o de proteína recupero muy
+fácil la masa muscular"*) y **cambia qué métrica sirve para dirigirlo**: en su
+caso el peso corporal informa mal; el % de grasa y la magra sí.
+
+**Hallazgo 2 — el sub-2h y el sub-4h son el mismo ritmo.** Medio maratón en 2h
+= **5:41/km**. Maratón en 4h = **5:41/km**. El nuevo objetivo declarado hoy no
+es un objetivo distinto del anterior: **es el mismo, al doble de distancia.**
+Proyección de Riegel desde Dolphy: **≈5h21 en maratón**, brecha de **~82 min**.
+Traducido a algo accionable: haría falta bajar su 10K de **70:50 a ~52:53**.
+
+**Hallazgo 3 — su fisiología juega contra su objetivo.** Quiere "definido, no
+inflado" *porque* quiere el maratón, y tiene razón; pero lleva ~56 kg de masa
+muscular, ganó 4 kg de magra en el proceso y admite ganar músculo con
+facilidad. **La contención tendrá que ser deliberada.** Esa decisión es de su
+nutrióloga y su coach — ninguno documentado aún en el wiki.
+
+**Reencuadre estructural:** [[medio-maraton-atlas-2026]] deja de ser el
+desenlace del arco y pasa a ser **punto de control**. Consecuencia para
+[[absa-garcia]]: el arco ya no cierra en septiembre, lo que **es mejor para el
+problema de suscripción** (razón para volver a años vista) pero **cambia qué se
+evalúa en la revisión de octubre**.
+
+⚠️ **Discrepancia registrada, no resuelta.** Tres cifras de peso que no cuadran
+(≈92.3 kg implícitos el 12-jul · 93.5 kg en el perfil de Strava · 95.0 kg
+declarados hoy). **No se borra ninguna** y no se afirma que haya recuperado
+peso: falta la fecha de cada medición de la nutrióloga. Lo más probable es que
+el perfil de Strava esté viejo, pero es hipótesis, no dato.
+
+⚠️ **Límite del dato:** el punto inicial (101.5 kg / 35.9%) **no trae fecha**,
+así que la trayectoria no tiene pendiente — sabemos el delta, no la velocidad.
+Y "masa muscular" (~56 kg, báscula) y "masa magra" (69.1 kg, calculada) son
+métricas distintas; quedan anotadas como tales para que nadie las reste entre
+sí más adelante.
+
+⚠️ **Ángulo del compresor, declarado:** se comprimió preguntando *"¿qué
+significa esto para las metas de carrera?"*. Un ángulo de salud pura (riesgo
+metabólico, densidad ósea, suficiencia energética, carga articular a 95 kg
+corriendo 42 km) **no se escribió** — y es terreno de su nutrióloga y su
+médico, no del wiki.
+
+**Pendiente que bloquea el plan:** el maratón **no tiene carrera ni fecha**.
+Sin eso no hay periodización posible, sólo intención.
+
+## [2026-08-25] ingest | Fecha del plan, punto de julio y escalera de metas — fitness
+
+Tercera ingesta de `fitness` en el día. Fuente: conversación, primera mano.
+Renombrada `objetivo-maraton-sub-4h` → **[[objetivos-carrera-2026-2027]]**: el
+sujeto dejó de ser una meta suelta y pasó a ser una escalera con fechas.
+Actualizadas: [[composicion-corporal-2026]],
+[[bloque-entrenamiento-running-2026]], [[medio-maraton-atlas-2026]],
+[[absa-garcia]].
+
+**Datos nuevos:** el plan alimenticio arrancó el **2026-03-27**; en julio tocó
+**92.7 kg**; metas declaradas: **90 kg en báscula**, maratón el **8-nov-2026**
+(*"lo veo complicado"*) y **Medio Maratón de Guadalajara, 28-feb-2027, en
+2:15** (*"objetivo más real"*).
+
+**Hallazgo 1 — el peso no se frenó, se invirtió.** Con la fecha de inicio el
+proceso se parte en dos: 27-mar→12-jul a **−0.58 kg/semana**, y 12-jul→25-ago a
+**+0.37 kg/semana**. El tramo invertido es justo el que precede a la carrera
+del 6-sep. **Si esos +2.3 kg son músculo o grasa no se puede saber**: falta la
+fecha de la medición del 27.3% y no hay composición del 12-jul.
+
+**Hallazgo 2 — la hipótesis de las pesas no se sostiene (pero no queda
+refutada).** El usuario propuso que subió por meterle más a las pesas. Los
+datos: jul = 7 sesiones / 3.36 h, igual que abril; **agosto = 2 sesiones /
+0.93 h, el mes más bajo del bloque**. No hubo tal aumento *en volumen de
+sesiones*. ⚠️ Pero Strava no registra series, repeticiones ni carga — las
+variables que producen hipertrofia — ni la proteína. **Sin apoyo, no
+descartada.** Explicación rival que los datos sí respaldan: agosto tuvo **9
+días activos de 25** por la lesión del 19-ago.
+
+**Hallazgo 3 — sus tres metas corporales son incompatibles.** 20% de grasa ·
+90 kg en báscula · no ganar músculo: sólo caben dos. Con la magra de hoy
+(69.1 kg), 90 kg da **23.3%**; 20% da **86.3 kg**; y 20% *y* 90 kg exigen
+**ganar +2.9 kg de músculo**, justo lo que dijo que no busca ahora. Para correr,
+lo ligero gana: su instinto ("definido, no inflado") apunta a 86, aunque el
+número que dijo fuera 90.
+
+**Hallazgo 4 — el 2:15 de febrero es la primera meta en tendencia.** Exige
+6:23/km: mejorar **52 s/km en 6.2 meses = 8.5 s/km al mes**, contra los **~10
+s/km al mes que ya lleva demostrados**. Es la primera meta del expediente que
+pide continuidad en vez de un salto. (Frente a: sub-2h y sub-4h exigen ambos
+5:41/km — el mismo ritmo, uno al doble de distancia.)
+
+**Hallazgo 5 — la escalera está invertida.** El "escalón fácil" (medio GDL,
+28-feb-2027) cae **112 días después** del duro (maratón, 8-nov-2026). El medio
+de febrero no puede ser preparación para noviembre. Y para el 8-nov quedan
+**10.7 semanas** desde una tirada máxima histórica de **12.02 km** (el maratón
+son 3.5×) con lesión reciente; una progresión convencional a un primer maratón
+ocupa 16-20. **El sub-4h el 8-nov no está sobre la mesa** (proyección 5h21,
+brecha 82 min); *terminarlo* es otra pregunta, y es de su coach.
+
+⚠️ **Cautela metodológica declarada:** el "~10 s/km al mes" sale de ritmos
+*medios de entrenamiento* y las metas están en ritmo *de carrera* — magnitudes
+distintas, y el promedio arrastra los sesgos ya anotados (caminadora→exterior,
+agosto con 9 días activos). Es orden de magnitud, no proyección. Lo robusto es
+la **ordenación** 8.5 < 10 < 12.6, que no depende de esos sesgos.
+
+**Lo más barato que resolvería más:** pedirle a la nutrióloga **la serie
+fechada de todas las mediciones**. Cierra la ambigüedad del tramo julio-agosto,
+da pendiente real y permite proyectar el 20% con fecha.
+
+**Pendiente:** ¿el maratón del 8-nov ya está inscrito o sigue siendo opción?
+¿Confirmada la fecha del Medio de GDL (aquí se asume 2027-02-28 por ser el
+último domingo de febrero de 2027)?
+
+## [2026-08-25] ingest | 8 evaluaciones antropométricas — fitness
+
+El usuario depositó `raw/fitness/meal plan/` con **8 capturas de las
+evaluaciones de su nutrióloga**. Transcritas a un README en esa misma carpeta
+(las imágenes no se tocan). Es **exactamente la serie fechada** que la ingesta
+anterior había señalado como "lo más barato que resolvería más".
+
+Nueva: [[margarita-posada]] (entidad). Reescrita: [[composicion-corporal-2026]].
+Actualizadas: [[bloque-entrenamiento-running-2026]],
+[[objetivos-carrera-2026-2027]], [[medio-maraton-atlas-2026]].
+
+**⚠️ Esta ingesta corrige tres afirmaciones que el wiki escribió esta misma
+mañana.** Se dejan registradas, no borradas:
+
+1. **"Peso inicial 101.5 kg"** → eran **100.7 kg**.
+2. **"Ganó 4.0 kg de masa magra"** → **la masa muscular medida BAJÓ 2.0 kg**
+   (56.0 → 54.0). El +4.5 kg era *masa libre de grasa* que yo derivé de
+   `peso × (1 − %grasa)`; la nutrióloga mide masa muscular con otra ecuación y
+   le sale lo contrario. **Presenté una derivación propia con la misma
+   confianza que una medición.**
+3. **"El rebote de agosto pudo ser grasa por menos actividad"** → **falso**: la
+   grasa no se movió (+0.04 kg) y los pliegues bajaron 6 mm.
+
+**Hallazgo 1 — los pliegues no retrocedieron nunca.** 198.8 → 132.0 mm, **8 de
+8 mediciones a la baja, cero retrocesos**; el % de grasa tampoco. **El peso
+retrocedió dos veces.** Regla operativa: en su cuerpo **el peso es el peor
+instrumento de los que ya se están midiendo**, y los pliegues el mejor.
+
+**Hallazgo 2 — el usuario tenía razón sobre agosto.** 28-jul → 18-ago: +1.5 kg
+de peso, **+0.04 kg de grasa**, −6 mm de pliegues. El kilo y medio **no es
+grasa**. ⚠️ Que sea músculo es plausible pero **no demostrado**: la serie de
+masa muscular marca +2.4 kg en 20 días entre mayo y junio, fisiológicamente
+imposible — es la menos fiable de las cuatro y sólo debe leerse como tendencia.
+
+**Hallazgo 3 — lleva ~8.6 kg de músculo sobre la referencia.** El Sistema MP
+fija 45.4 kg para su posición (running); él va en 54.0, y arrancó en 56.0. Da
+contexto duro a su *"definido, no inflado"*.
+
+**Hallazgo 4 — la incompatibilidad de metas de esta mañana era demasiado
+tajante.** Asumí masa libre de grasa constante; la serie muestra que sube
+(+0.22 kg/sem). El 20% aterriza en una horquilla de **86-91 kg** y **sus 90 kg
+caben dentro**. No hay que renunciar a nada; lo que queda es una elección
+deportiva (86 pesa menos que 91 sobre 42 km), no aritmética.
+
+**Hallazgo 5 — las dos proyecciones al 20% no coinciden:** ≈2026-11-16 por
+pliegues, ≈2026-12-18 por grasa. Un mes de diferencia; no se elige ninguna. Lo
+que importa: **ambas caen antes del Medio de Guadalajara (2027-02-28)**.
+
+**Discrepancia cerrada:** los 93.5 kg del perfil de Strava eran la medición del
+28-jul. No había contradicción, había un perfil sin actualizar. En cambio los
+"92.7 kg de julio" y el *"bajé 9.2 kg"* del 12-jul **no aparecen en la serie**
+(el mínimo medido son 93.5): casi seguro báscula de casa. **La báscula de casa
+y la de la nutrióloga no dan lo mismo.**
+
+⚠️ **Advertencia sobre la carpeta:** `meal plan` **no contiene ningún plan
+alimenticio.** Son 8 hojas de medición con el campo "observaciones" vacío. No
+hay calorías, macros, proteína ni pauta en ninguna parte del expediente — y la
+proteína es justo la variable que el usuario citó en su hipótesis.
+
+**Lección de método, la que más vale:** una fuente primaria fechada deshizo en
+un minuto varias horas de inferencia razonable. **Cuando existe la serie, se
+pide la serie** — antes de comprimir, no después.
+
+## [2026-08-25] ingest | Plan alimenticio Sistema MP (meal-plan.png + guía de alimentos.pdf) — fitness
+
+Segunda ingesta del día sobre la misma carpeta. **Se cierra el hueco que la
+ingesta de la mañana dejó marcado**: el plan alimenticio sí existe, sólo que
+no estaba en las 8 hojas de medición sino en dos archivos aparte.
+
+Creada [[plan-alimenticio-mp-2026]]. Actualizadas [[margarita-posada]],
+[[composicion-corporal-2026]] y [[objetivos-carrera-2026-2027]].
+
+**El plan:** por equivalentes (SMAE), no por calorías. 5 cereales · 2 grasas ·
+**9 proteínas** · 3 lácteos · 3 verduras · 5 frutas. Verdura de hoja libre.
+El alcohol se descuenta en cereales, no se prohíbe.
+
+**Hallazgo 1 — la proteína está baja, y eso explica los −2 kg de músculo.**
+106 g/día = **1.12 g/kg** contra los 1.6-2.4 g/kg que pide un déficit con
+entrenamiento (152-228 g). Déficit agresivo + proteína baja es el escenario
+clásico de pérdida de masa muscular, que es literalmente lo que las 8
+mediciones registraron. Da la vuelta completa a la preocupación que el usuario
+expresó horas antes: **el riesgo medido en su expediente es el contrario del
+que él teme.**
+
+**Hallazgo 2 — el conflicto con el maratón también está en el plato.** 198 g
+de CHO (2.1 g/kg) contra los 475-665 g (5-7 g/kg) de un bloque de maratón:
+entre el 30% y el 40%. Hasta hoy la tensión con el 8-nov era de calendario;
+ahora es de combustible, con fuente.
+
+**Hallazgo 3 — el plan en papel es más agresivo que lo que el cuerpo
+registró.** El escenario magro (~1460 kcal) queda ~400 kcal **bajo el
+metabolismo basal** estimado (1862, Katch-McArdle sobre 69.1 kg de MLG), y
+daría un déficit de 1000-1500 kcal/día contra un TDEE realista. El déficit
+real implícito en la grasa perdida es de **~546 kcal/día**. Adherencia
+parcial, porciones ajustadas en el camino, o TDEE sobreestimado — no se elige
+ninguna, pero la brecha queda anotada.
+
+**Fuga del sistema de equivalentes:** llenar las 9 porciones de proteína con
+oleaginosas (nueces, crema de cacahuate) lleva el plan a ~2570 kcal y 151 g de
+grasa sin salirse del "grupo correcto".
+
+⚠️ **Derivación marcada como tal.** Las calorías y macros **las calculé yo**
+aplicando valores SMAE a las porciones; Margarita no escribió ninguna cifra de
+éstas. Se marca desde el principio precisamente porque esta misma mañana una
+derivación se presentó con confianza de medición y hubo que corregirla.
+
+⚠️ **El PDF trae NOMBRE y FECHA DE INICIO en blanco:** no se sabe si estas
+porciones son las del 27-mar o el resultado de ajustes en 8 citas. Toda
+lectura histórica del plan queda condicionada a eso.
+
+**Nota de regla dura:** no se editó nada dentro de `raw/`. El `README.md` que
+el wiki había puesto en esa carpeta **queda desactualizado** (dice que la
+carpeta no contiene plan alimenticio, y ya sí lo contiene); no se tocó, se
+reporta al usuario.
+
+## [2026-08-25] ingest | Objetivos y metas de vida (17) — reflections/finance/fitness/blackicelabs/swe/fitexe/books
+
+Fuente nueva: `raw/reflections/objetivos-vida-2026-08-25.md` (dictado del
+usuario, transcrito literal). **Creadas** [[objetivos-vida-2026-2027]] (el
+cuadro completo), [[finanzas-personales-2026-2027]] y [[slalom]].
+**Actualizadas** [[absadev]], [[absa-garcia]], [[fitexe]],
+[[blackicelabs-podcast]], [[objetivos-carrera-2026-2027]] y
+[[composicion-corporal-2026]].
+
+Es el primer documento que pone **todas** las metas en una hoja, y ahí está su
+valor: hasta hoy vivían en tres archivos que nunca se habían mirado juntos.
+
+**Hallazgo 1 — noviembre de 2026 está sobrecargado.** El maratón del 8-nov cae
+**20 días antes de la boda (28-nov)**, que además es la fecha límite para
+tenerla pagada; y detrás vienen la evaluación de ascenso (dic) y el 20% de
+grasa (31-dic). El wiki ya llamaba al 8-nov "el escalón que sobra" por razones
+deportivas; ahora hay una razón de calendario que **no estaba escrita en
+ninguna parte** porque las metas vivían separadas.
+
+**Hallazgo 2 — contradicción del mismo día, ambas de primera mano.** Por la
+mañana declaró medio en **2:15 el 28-feb-2027**; por la tarde, medio **sub-2h
+en 2026**. La única carrera que le queda en 2026 es el Atlas, dentro de 12
+días, y eso exige 5:41/km contra su mejor 6:59/km. Se anota sin resolver;
+lectura más probable: el "2026" viene heredado del perfil de Strava.
+
+**Hallazgo 3 — sus dos metas de plataforma van en direcciones opuestas.** Él
+las escribió simétricas (10K y 10K). YouTube pide **+140 netos sobre un canal
+que perdió 11 en 28 días** (signo contrario, no lentitud); TikTok crece
++11/semana y llega a 5K ≈ may-2027. Confirma desde las metas lo que
+[[estrategia-contenido-absadev]] ya había concluido desde el embudo.
+
+**Hallazgo 4 — el objetivo 16 ya arrancó.** El "side project que pague 13,000
+MXN/mes de renta" **es [[fitexe]], que ya cobra 600 MXN/mes de un gimnasio**:
+4.6% de la meta, ~22 gimnasios al precio actual (~44 para su mitad, al ser
+50/50). Cambia la pregunta de "hay que hacer un side project" a "precio o
+volumen".
+
+**Hueco mayor del expediente:** **7 de 17 objetivos no tienen un solo dato**, y
+5 de esos 7 son de dinero. El dominio `finance` llevaba meses con siete páginas
+**todas de libros y ninguna del caso propio**; [[finanzas-personales-2026-2027]]
+lo abre registrando, sobre todo, lo que no se sabe. Y [[slalom]] —el empleador,
+la fuente de ingreso dominante— **no existía en el wiki**.
+
+⚠️ **Derivaciones marcadas como tales:** las ~660K vistas para +140 subs, los
+~22/44 gimnasios y la estimación de vistas necesarias para 1,000 MXN/mes son
+aritmética mía sobre supuestos (SPV medido, precio constante, RPM supuesto). El
+RPM en particular **no es un dato del expediente**: no hay ninguna cifra de
+monetización en todo el wiki.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo; no se editó
+nada existente.
+
+## [2026-08-25] ingest | Cifras financieras: ingreso y tres egresos — finance
+
+Fuente nueva: `raw/reflections/finanzas-cifras-2026-08-25.md` (dictado del
+usuario, misma sesión). **50,000 MXN netos/mes + 3,000 en vales de despensa**;
+carro **3,566/mes**, gimnasio **533/mes**, nutrióloga **1,200 por sesión**.
+**Actualizadas** [[finanzas-personales-2026-2027]], [[slalom]],
+[[margarita-posada]], [[composicion-corporal-2026]] y
+[[objetivos-vida-2026-2027]] (+ índice).
+
+Cierra —parcialmente— el hueco que el ingest anterior había señalado hace unas
+horas: **el conteo de objetivos sin un solo dato baja de 7 a 5.**
+
+**Hallazgo 1 — el empleo es el 93.8% del ingreso conocido.** [[fitexe]] le deja
+~300 MXN/mes (su mitad de 600) y YouTube aspira a 1,000: **medio punto
+porcentual entre los dos**. La sospecha que [[finanzas-personales-2026-2027]]
+había escrito sin números queda confirmada con ellos.
+
+**Hallazgo 2 — el objetivo 16 es más grande de lo que suena.** Los 13,000
+MXN/mes de renta que quiere que pague un side project son **el 26% de su
+ingreso neto** (156,000/año). Al lado, un ascenso en [[slalom]] mueve una
+cantidad del mismo orden sin construir ni vender un producto. **El objetivo 5,
+que él escribió como uno más de diecisiete, es en la aritmética su palanca
+financiera más barata** — y la única con fecha ya puesta.
+
+**Hallazgo 3 — el proyecto corporal ya tiene precio, y sale barato.**
+Cruzando 8 sesiones × 1,200 con ~5 meses de gimnasio: **≈12,265 MXN** por
+**−8.6 puntos de grasa** = **≈1,426 MXN por punto**. Cerrar del 27.3% al 20%
+costaría ~10,400 más. **Es la meta más barata de las 17 y la única en tendencia
+verificada.** Nota lateral: los vales de despensa (3,000/mes) financian de
+hecho el [[plan-alimenticio-mp-2026]] sin que nadie lo haya decidido.
+
+**Hallazgo 4 — lo declarado es el 11.7% de los egresos.** Los tres números que
+dio son los pequeños; faltan renta, comida, servicios y transporte. Los 44,151
+MXN/mes restantes **no son ahorro, son gasto sin medir**, y hasta cerrarlo **la
+capacidad de ahorro —la variable que decide 4 de las 5 metas de dinero— sigue
+siendo desconocida.** Se cierra con un mes de estado de cuenta.
+
+**Lo que no se movió:** la boda. Fecha más cercana de las diecisiete (**95
+días**), y sigue sin costo, sin saldo y sin plan de pago.
+
+⚠️ **Derivaciones marcadas:** los ≈1,750 MXN/mes de nutrióloga (él dio precio
+**por sesión**; la frecuencia se infiere de las 8 fechas de
+[[composicion-corporal-2026]]), los ~2,665 de gimnasio (supone 5 meses pagados
+completos) y los porcentajes de ascenso (supuestos ilustrativos: el expediente
+no sabe qué paga el nivel siguiente).
+
+**Nota epistémica:** las secciones que este ingest dejó obsoletas —"cuatro de
+cinco sin cifra", "7 de 17 sin dato"— **no se borraron**, se marcaron con la
+corrección al lado. Es el segundo caso del día en que un dato del usuario
+deshace una inferencia del wiki en cuestión de horas.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo. [Entrada
+anterior; ver más abajo el cierre de la sesión.]
+
+## [2026-08-25] ingest | Presupuesto de la boda + cruce con la base de RSVP — finance
+
+Fuente nueva: `raw/reflections/boda-presupuesto-2026-08-25.md` (cinco renglones
+dictados por el usuario) cruzada con la base de RSVP del proyecto
+`save_the_date` (consulta agregada vía la skill `save-the-date-rsvp`).
+**Creada** [[boda-2026]]. **Actualizadas** [[finanzas-personales-2026-2027]],
+[[objetivos-vida-2026-2027]] y el índice.
+
+**El presupuesto:** 252,500 de costo total · ≈81,019 pagados · **171,481
+pendientes**, repartidos en Cotización Ale (160,000), Fotógrafo (38,000),
+Somabela (29,000), Flores (23,000) y Misa (2,500).
+
+**Hallazgo 1 — el pendiente excede la capacidad de nómina.** 171,481 entre las
+3 nóminas que quedan antes del 28-nov son **57,160/mes** contra **50,000**
+netos: el **114% del ingreso, gastando cero**. Tres meses de sueldo íntegro
+quedan **21,481 cortos**; **≈39,028** restando los egresos fijos ya conocidos.
+La boda tiene que salir de ahorro previo, de aportación familiar, o de
+aguinaldo — y **el aguinaldo es exigible antes del 20-dic, o sea después de la
+boda**. Salvo que [[slalom]] lo adelante, no sirve para esta fecha.
+
+**Hallazgo 2 — el 63.4% del presupuesto descansa sobre una lista sin
+responder.** Cotización Ale son 160,000 sobre **166 boletos asignados ≈ 964 por
+boleto**, cifra con forma de precio por persona. Si lo es, el número no es fijo:
+se mueve con las confirmaciones. Y la base de RSVP marca **97 invitaciones, 0
+confirmadas, 0 declinadas, 97 sin responder (0%)** a 95 días. ⚠️ Que Ale sea
+por persona es **hipótesis mía**; no se declaró qué incluye.
+
+**Hallazgo 3 — el riesgo mayor es lo que no está en la lista.** Cinco renglones
+para 166 boletos, sin anillos, música, pastel, maquillaje, transporte,
+papelería, civil ni luna de miel — y sin saber si el salón/banquete está dentro
+de la cotización de Ale. La diferencia entre *"252,500 es el costo"* y
+*"252,500 es lo que llevamos contado"* es la diferencia entre un presupuesto y
+una lista de pagos.
+
+**Dos renglones que no cuadraban, resueltos con una sola causa.** Somabela
+(+16,000) y Ale (+1,019) no cumplían `total − anticipo = pendiente`, y sus
+desajustes suman exactamente la diferencia entre el pendiente declarado
+(171,481) y el aritmético (188,500). La lectura: **la columna "anticipo"
+registra el primer pago, no todo lo pagado.** Se marca como inferencia por
+verificar: si Somabela no está liquidado, el pendiente real es 188,500.
+
+**Reordena la lista de 17.** El objetivo 1 pasa de hueco a problema; el 11
+(1,000 USD) queda compitiendo con un saldo que no alcanza —los 808 USD que
+faltan son el 8.7% del pendiente de la boda—; el 12 (casa) arranca después, no
+en paralelo; el 3 (maratón del 8-nov) suma a la colisión de fatiga una de
+dinero; y el 5 (senior) sigue siendo la palanca más barata pero **su efecto
+llega en diciembre**.
+
+**El hueco ya no es la boda, es el ahorro.** Los 44,151 MXN/mes sin registrar
+son, o gasto de vida, o el dinero del que sale esta boda. Es la única pregunta
+cuya respuesta cambia el diagnóstico.
+
+🔒 **Privacidad:** de la base de RSVP sólo se copiaron **agregados** (97 / 166 /
+0). Ningún nombre, teléfono, recado ni token entró al wiki, conforme a la regla
+de la skill.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo. [Entrada
+anterior; ver más abajo el cierre de la sesión.]
+
+## [2026-08-25] ingest | El ahorro: 145,000 — y el diagnóstico de la boda se da vuelta
+
+Fuente nueva: `raw/reflections/ahorro-2026-08-25.md`. **Actualizadas**
+[[boda-2026]], [[finanzas-personales-2026-2027]], [[objetivos-vida-2026-2027]]
+y el índice.
+
+**145,000 MXN ahorrados** cubren el **84.6%** del pendiente de 171,481. Faltan
+**26,481**, que en 3 nóminas son **8,827/mes = el 17.7% del ingreso neto**.
+**La boda se paga, y con holgura.**
+
+**El hallazgo es metodológico, y es el más importante del día.** Hace unas horas
+este mismo log escribió *"el pendiente de la boda excede la capacidad de
+nómina"*. Era cierto **sobre el flujo** — y completamente engañoso, porque
+faltaba el **stock**. El expediente tenía ingreso y tenía egresos, es decir un
+estado de resultados, y con eso emitió un diagnóstico dramático sobre un caso
+sano. **Un balance no se lee con un estado de resultados.** Queda como regla en
+[[finanzas-personales-2026-2027]]: antes de concluir sobre capacidad de pago,
+preguntar el saldo, no sólo el ingreso.
+
+Es **la tercera vez en la misma sesión** que un dato del usuario deshace una
+inferencia del wiki en cuestión de minutos (las otras dos: la serie fechada de
+[[margarita-posada]] esta mañana, y las cifras de ingreso esta tarde). El patrón
+ya no es anecdótico y merece entrar al informe del próximo lint.
+
+**Lo que el 84.6% no dice, y quedó escrito:**
+
+1. **El colchón queda en cero el 28-nov.** 145,000 son 2.9 meses de sueldo neto
+   y se gastan íntegros. Los objetivos 2 (carro), 10 (Japón), 11 (1,000 USD) y
+   12 (casa) **arrancan desde cero el 29 de noviembre**. La boda es pagable, no
+   barata: **cuesta toda su liquidez.**
+2. **El margen de error es delgado porque el presupuesto está incompleto.** Los
+   26,481 los absorbe el flujo, pero **cada renglón olvidado sale 100% de
+   flujo**: +30,000 (anillos, música) llevaría la exigencia a 18,827/mes
+   (37.7% del neto), y con Somabela pendiente a 24,500/mes (49%). **Cerrar la
+   lista de renglones vale hoy más que cualquier otro número.**
+3. **El escenario Somabela ya tiene precio: 16,000 MXN** de diferencia entre
+   estar liquidado y no estarlo.
+
+**Buena noticia de calendario:** el aguinaldo llega tarde para la boda
+(exigible antes del 20-dic) pero **tres semanas después**, y con el colchón en
+cero se convierte en **el instrumento para reconstruir el fondo de
+emergencia** — no en el arranque de los objetivos 11 o 12.
+
+**Lo único grande que sigue abierto: la tasa de ahorro.** Que existan 145,000
+prueba que ahorra; sin saber en cuánto tiempo se juntaron, no hay ritmo — y el
+ritmo es lo que decide carro, Japón y casa desde el 29-nov. ⚠️ Tampoco consta si
+esos 145,000 son sólo suyos o conjuntos con su esposa.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-25] ingest | La tasa de ahorro (15,000/mes) — cierra el cuadro financiero
+
+Fuentes nuevas: `raw/reflections/tasa-ahorro-2026-08-25.md` y su corrección
+`raw/reflections/tasa-ahorro-correccion-2026-08-25.md`. **7,500 MXN por
+quincena = ≈15,000 al mes**, y **90,000 de los 145,000 en una cuenta que rinde
+≈18 MXN/día**. **Actualizadas** [[finanzas-personales-2026-2027]],
+[[boda-2026]], [[objetivos-vida-2026-2027]] y el índice.
+
+⚠️ **Error de compresión del wiki, corregido en minutos.** La primera captura
+recogió *"separando como 7.500 aproximadamente"* **sin "por quincena"**, y el
+wiki lo leyó como mensual. Publicó tres conclusiones sobre **la mitad de la tasa
+real**: gasto de vida de 36,651, boda con déficit de 2,271 y capacidad de 2027
+de 97,500. **Las tres están sustituidas por las de abajo.** El archivo `raw`
+original **no se editó** —es inmutable— y queda marcado como superado por el de
+corrección. Es el caso más claro del día del riesgo que el `CLAUDE.md` llama
+*el punto de vista del compresor*: la frase era ambigua y el wiki eligió una
+lectura sin señalarla.
+
+**Con esta pieza el estado financiero queda completo:** entrada, salidas, stock,
+tasa y rendimiento. Es el cuarto ingest de dinero del día y el que cierra el
+cuadro que la mañana ni siquiera tenía abierto.
+
+**Hallazgo 1 — el gasto de vida queda acotado: ≈29,151 MXN/mes.** Sale por
+diferencia (50,000 − 5,849 de egresos fijos − 15,000 de ahorro) y es el **58.3%
+del sueldo sin un solo renglón identificado**. ⚠️ Derivación, válida sólo si los
+15,000 son constantes. Cada 1,000 recortados suben la tasa un 6.7% — pero **la
+tasa del 30% ya está por encima del 20% de referencia de las propias fuentes del
+wiki: ahorrar no es el problema de este expediente.**
+
+**Hallazgo 2 — la cuenta está bien puesta.** 18/día sobre 90,000 = **7.3%
+nominal anual**: rendimiento de mercado, no cuenta de nómina. **Es la primera
+decisión financiera del expediente que se puede calificar de correcta con un
+número.** Dos apostillas: no se sabe dónde están los otros 55,000 (si están al
+0%, son ~4,015/año sobre la mesa), y **ese rendimiento se apaga con la boda**,
+porque es función de un saldo que va a cero el 28-nov.
+
+**Hallazgo 3 — la boda cierra antes de tiempo.** 15,000 × 3 = 45,000, más ≈1,710
+de intereses = ≈46,710 contra los 26,481 que faltan: **el pendiente queda
+cubierto a mediados de octubre**, y llega al 28-nov con **≈20,229 de
+superávit**. Corrige lo que este mismo log escribió hace unas horas: **no se
+queda en cero el 29 de noviembre**, y el superávit **absorbe** un renglón
+olvidado de tamaño medio. Cerrar la lista de lo que falta en el presupuesto
+sigue siendo prioritario, pero por planeación, no por riesgo de impago.
+
+**Hallazgo 4 — la tasa gobierna 2027, y ahora se puede elegir.** Del 29-nov-2026
+al 31-dic-2027 se acumulan **195,000**, más el superávit de la boda:
+**≈215,229**. Ese dinero se reparte entre enganche de casa (obj. 12), Japón
+(10), los 808 USD (11) y reconstruir el colchón (8.3 meses a esta tasa,
+≈ago-2027). **El objetivo 12 deja de ser aritméticamente imposible y pasa a ser
+una cuestión de prioridades.** Falta **una sola cifra para decidirlo: el
+enganche objetivo** — hoy la pregunta abierta más cara del expediente.
+
+**Hallazgo 5 — la palanca gratis de 2027 es el carro.** Si el crédito vence
+dentro de 2027, el objetivo 2 **se cumple solo** (basta seguir pagando) y al
+cerrarse **libera 3,566/mes: la tasa pasa de 15,000 a 18,566, +23.8%**. No exige
+decidir nada, sólo saber cuándo cae la última mensualidad.
+
+**Reordenamiento final del día:** las tres palancas de 2027 son **ascenso >
+fin del crédito del carro > recorte del gasto de vida**. **El objetivo 16 (side
+project que pague la renta) queda como la cuarta**, no la primera: [[fitexe]]
+está en 600 MXN/mes y las tres de arriba se mueven antes, con menos trabajo y
+más efecto.
+
+**Veredicto del día sobre los 17 objetivos: los de dinero son los que mejor
+están.** Ahorra el 30% de su neto, tiene 2.9 meses de sueldo líquido colocado a
+tasa de mercado, y su compromiso mayor queda cubierto con mes y medio de
+anticipación. Los que están en problemas son los de **audiencia** (obj. 7, serie
+a la baja), **calendario deportivo** (obj. 3, contradicción con feb-2027) y
+**agenda** (13 y 14, dos podcasts sobre 4-6 h/semana).
+
+⚠️ **Confianza `medium` en la fuente**, a diferencia de los tres ingests de
+dinero anteriores: el propio usuario dijo *"como 7.500 aproximadamente"* y
+*"como 18 pesos diarios"*. Son cifras redondeadas, no lecturas de estado de
+cuenta, y **todo lo derivado arriba hereda ese redondeo** — además de la
+ambigüedad de periodicidad que ya costó una corrección.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+---
+
+## [2026-08-25] ingest | Dos decisiones + el objetivo 16 aterrizado — fitness, fitexe, swe, finance
+
+Fuente nueva: `raw/reflections/decisiones-2026-08-25.md`. **Creada**
+[[ruta-a-13k-side-project]]. **Actualizadas**
+[[objetivos-carrera-2026-2027]], [[objetivos-vida-2026-2027]], [[fitexe]] y el
+índice.
+
+**Decisión 1 — el sub-2h pasa a 2027.** *"El medio maratón que sea el objetivo
+del 2027."* **La contradicción que el wiki detectó por la mañana la resuelve él
+la misma noche**, y por la vía correcta: no bajando la meta, sino poniéndole la
+fecha que la tendencia medida sostiene (~10 s/km al mes → sub-2h a mediados de
+2027). La escalera queda **Atlas 6-sep (calibración) → Medio GDL 28-feb-2027
+(2:15) → sub-2h en 2027**, y por primera vez el orden declarado y el orden que
+sostienen los datos coinciden. ⚠️ Dos cosas quedan abiertas: **en qué carrera de
+2027 va el sub-2h** (el wiki asume que sucede al 2:15, no que lo sustituye — es
+inferencia) y **qué pasa con el maratón del 8-nov-2026**, que no se mencionó y
+sigue siendo el escalón señalado como el que sobra.
+
+**Decisión 2 — encarga aterrizar el objetivo 16**, y el análisis corrige la
+premisa del propio objetivo.
+
+**Hallazgo 1 — no hace falta una idea; hace falta una ruta.** [[fitexe]] ya
+cumple **todo** lo que el objetivo 16 pide (side project · publicado en tienda y
+web · genera ingreso) **salvo la cifra**: su mitad son MX$300 de los 13,000. La
+formulación *"desarrollar un side project"* empuja a empezar algo nuevo, que es
+el movimiento equivocado cuando ya hay un cliente que paga.
+
+**Hallazgo 2 — el problema es el precio, no el volumen ni el producto.** Al ser
+50/50 con [[carlos-emilio-blanco]], FitExe debe facturar 26,000/mes para que su
+mitad sean 13,000. A **MX$600 son 43 gimnasios**; a **MX$2,500 son 11**. Pasar
+de 43 a 11 **no requiere una sola línea de código**. Y hay base para pensar que
+600 está mal puesto: son ~US$32/mes por gestionar un gimnasio entero, y la
+propia página de FitExe ya traía anotado —antes de esta conversación— que
+*"cobrar de menos es el error clásico del SaaS bootstrapped"*.
+
+**Hallazgo 3 — le faltaba el escalón, y él sabe construirlos.** Hace laddering
+en YouTube (*"10K pero primero 8K"*), en TikTok (*"10K pero primero 5K"*) y en
+el ingreso del canal (*"1,000 pero primero 200"*). **El objetivo 16 es el único
+que escribió sin escalón intermedio**: saltó de 600 a 13,000. La escalera
+propuesta: validar precio (2,500) → **5 gimnasios = media renta** → 11
+gimnasios = objetivo cumplido.
+
+**Alternativas descartadas, con razón registrada:** producto para devs (su
+audiencia sí encaja, pero el mercado paga poco y él mismo declara en el objetivo
+15 que aún no es el experto que quiere ser), app de running/fitness (B2C contra
+lo gratis, y **[[athletix-ai]] —SaaS de rendimiento deportivo— ya no existe**),
+marca de café (negocio distinto, no resuelve el 16). **Las tres empiezan en cero
+clientes; FitExe empieza en uno.** Con 4-6 h/semana ya disputadas, empezar de
+cero no es caro: es imposible.
+
+**Recolocación:** con el cuadro financiero completo, el objetivo 16 **no es
+urgente** —el ascenso mueve más dinero, más rápido y con menos trabajo—. No se
+cancela: se recoloca como **palanca de opcionalidad, no financiera**
+([[career-capital-craftsman-mindset]], [[el-arte-de-gastar-dinero]]).
+
+⚠️ **Los MX$2,500 son objetivo de trabajo, no dato de mercado.** El wiki no
+tiene un solo precio de competencia mexicana. Investigar tres competidores es la
+tarea más barata y más rentable pendiente.
+
+**Estado de los tres objetivos que estaban en rojo:** el 3 (sub-2h) **resuelto**;
+el 7 (8K subs con la serie a la baja) y la agenda (13 y 14, dos podcasts sobre
+4-6 h/semana) **siguen sin resolver** — son los dos frentes abiertos de la
+sesión.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-25] ingest | "Aparte de FitExe quiero hacer otra app" — swe, fitexe, finance
+
+Fuente nueva: `raw/reflections/segunda-app-2026-08-25.md`. **Creada**
+[[segunda-app-candidatas]]. **Actualizadas** [[ruta-a-13k-side-project]] y el
+índice.
+
+**El usuario mantiene la decisión con la objeción del wiki sobre la mesa.** La
+página anterior recomendaba no empezar nada nuevo; queda **subordinada**, no
+borrada, y su análisis de precios sigue aplicando a [[fitexe]].
+
+**Hallazgo 1 — y es a favor de él: la meta se parte a la mitad.** FitExe es
+50/50 con [[carlos-emilio-blanco]]; una app 100% suya no. Para que gane 13,000
+al mes tendría que facturar **26,000 vía FitExe** o **13,000 vía app propia**.
+El wiki no había puesto ese número en la recomendación anterior, y **cambia el
+cálculo a favor de la segunda app.** ⚠️ Con su contrapartida: construir un
+producto adyacente al que co-posee es una conversación con Emilio, no un detalle
+técnico.
+
+**Hallazgo 2 — el criterio que descarta más ideas: recurrente > pago único.**
+Para 13,000/mes, un B2B recurrente a 2,500 pide **6 clientes vendidos una vez**;
+un producto de pago único de 1,500 pide **9 ventas cada mes, para siempre**.
+**El pago único no es un side project: es un trabajo de ventas permanente**, y
+con 4-6 h/semana se descarta casi solo.
+
+**Hallazgo 3 — ya tiene una segunda app y no la había contado.** `save_the_date`
+está en producción **hoy**, con 97 invitaciones y 166 boletos en Supabase,
+tokens por invitado, links de WhatsApp e importación desde Excel. Ventaja
+injusta máxima (organiza una boda ahora), trabajo hasta el primer peso casi
+cero, y **una ventana de distribución que expira el 28-nov**: ese día 97
+invitaciones llegan a gente en edad de casarse, y el contenido de la boda ya
+estaba planeado para [[absa-garcia]]. **Pero es pago único**, así que sirve para
+ingresar rápido, no para el objetivo 16.
+
+**Recomendación: herramienta para nutriólogos y coaches independientes.** Única
+que cumple los cinco criterios: recurrente, B2B, **cliente cero identificado por
+nombre** ([[margarita-posada]], que ya le cobra 1,200/sesión), **fricciones ya
+documentadas con fuente** en [[plan-alimenticio-mp-2026]] (PDF con nombre y
+fecha en blanco, "observaciones" vacío en las 8 evaluaciones), reutiliza el
+stack de FitExe, y **100% suya**. Sin arranque antes de diciembre: entre el
+Atlas del 6-sep, la boda del 28-nov y dos podcasts, no cabe.
+
+**Descartadas con razón registrada:** producto para devs (única con distribución
+gratis, pero mercado que paga poco y **él mismo declara que aún no es el experto
+del objetivo 15** — carta de 2027); app de running (B2C contra lo gratis, y
+[[athletix-ai]] ya no existe); café (otro negocio).
+
+**Calibración que la página usa como ancla:** FitExe necesitó **115 commits y
+una v1.0.17 para llegar a un cliente que paga 600**. Ése es su ritmo real de
+"idea → primer peso", y cualquier plan que suponga menos está siendo optimista.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+---
+
+**Cierre de la sesión del 2026-08-25.** Siete ingests en un día
+(objetivos de vida · cifras de ingreso · presupuesto de boda · ahorro · tasa ·
+decisiones · segunda app), **6 páginas nuevas** ([[objetivos-vida-2026-2027]],
+[[finanzas-personales-2026-2027]], [[slalom]], [[boda-2026]],
+[[ruta-a-13k-side-project]], [[segunda-app-candidatas]]) y el dominio
+`finance` pasó de **siete páginas de libros y cero datos propios** a tener el
+estado financiero completo del usuario.
+
+**Cuatro inferencias del wiki fueron deshechas en cuestión de minutos** — tres
+por datos que el usuario aportó y que el expediente no tenía, y **una por un
+error propio de compresión** (leer "7,500" como mensual cuando era quincenal).
+La distinción importa para el próximo lint: las primeras tres son un problema de
+**cobertura de datos**; la cuarta es un problema de **método**, y es la que hay
+que corregir con una regla, no con más fuentes: **cuando una cifra llega sin
+periodicidad explícita, preguntarla antes de derivar sobre ella.**

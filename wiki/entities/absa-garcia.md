@@ -3,7 +3,7 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-07-23
+updated: 2026-08-25
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-06-24 → 2026-07-21   # 28-day analytics window
     ingest_date: 2026-07-22
     confidence: high   # YouTube Studio first-party export
+  - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
+    fact_date: 2026-03-01 → 2026-08-25
+    ingest_date: 2026-08-25
+    confidence: high   # datos de dispositivo (Apple Watch) vía API de Strava
 ---
 
 # Absa Garcia (absa.garcia)
@@ -152,6 +156,69 @@ más que forzar la corrida. La cámara no debe manejar el entrenamiento.
 la cabeza para programar" → [[absadev]]. "Cómo entrené con chamba de
 tiempo completo" → absa.garcia. **Maestría y trabajo no entran aquí** —
 ese es el pantano temático donde el canal se perdió 9 años.
+
+### El arco deja de ser declaración y pasa a ser dato (2026-08-25)
+
+Hasta hoy, "el año que estoy viviendo" existía en el wiki **sólo como
+intención dicha en conversación el 2026-07-22**. Con la ingesta del export
+de Strava (mar → ago 2026) ese arco tiene por primera vez **evidencia
+medida**: 218 actividades, 331.7 km corridos, y una mejora de ritmo medio
+mensual **sin una sola regresión** (8:35/km en marzo → 7:44/km en agosto).
+El detalle completo vive en [[bloque-entrenamiento-running-2026]].
+
+Tres cosas cambian para esta página:
+
+1. **Los dos capítulos intermedios ya ocurrieron y están documentados por
+   él mismo.** La Carrera Andares Lululemon 12K (2026-07-12, 34 PRs) y la
+   Carrera Dolphy 10K (2026-08-02, 27 PRs, 6:59/km). En la primera escribió
+   una meta —*"espero bajar el pace 7:00 el km"*— y **la cumplió 21 días
+   después**. Eso es una miniestructura de arco ya cerrada, con material
+   grabable, que el canal todavía no ha usado.
+2. **El desenlace tiene fecha y un problema.** Ver
+   [[medio-maraton-atlas-2026]]: el objetivo escrito en Strava (sub-2h)
+   está fuera de alcance por aritmética, la tirada más larga de su vida es
+   de 12.02 km frente a los 21.1 de la carrera, y hay una **lesión en la
+   ingle reportada el 2026-08-19**. Agosto es el peor mes del bloque en
+   asistencia (9 días activos de 25).
+3. **El "-10 kg" gana una fuente escrita y anterior.** El 2026-07-12 él
+   mismo escribió *"desde que bajé 9.2 kilogramos"*. No contradice el -10 kg
+   declarado el 22-jul: es la misma bajada en curso, diez días antes.
+
+### El arco ya no termina el 6 de septiembre (2026-08-25, mismo día)
+
+Horas después de la ingesta de Strava el usuario declaró una **escalera de
+metas con fechas** ([[objetivos-carrera-2026-2027]]): el medio del 6-sep, un
+maratón el **8-nov-2026** (que él mismo ve complicado) y el **Medio Maratón de
+Guadalajara el 28-feb-2027 en 2:15**, su objetivo *"más real"* — y el único del
+expediente que está dentro de su tendencia demostrada de mejora. Eso cambia la
+forma del arco de esta página:
+
+- **El medio del 6-sep deja de ser el desenlace y pasa a ser un capítulo
+  intermedio.** El "arco con fecha" que justificaba la apuesta ya no cierra en
+  septiembre; se extiende a un horizonte de temporadas (la brecha al sub-4h es
+  de ~82 minutos sobre la proyección actual).
+- **Para el canal eso es mejor noticia de lo que parece.** El problema
+  diagnosticado eran 446 videos completos en sí mismos y ninguna razón para
+  volver. Un objetivo a años, con carreras intermedias medibles, es más
+  suscribible que uno que se agota en septiembre. Pero también **mueve el punto
+  de revisión de octubre**: en octubre ya no se juzga "cómo salió el arco", sino
+  "cómo va el capítulo 1 de algo largo". **Ahora ese horizonte tiene fecha
+  concreta: 28-feb-2027.** El arco pasa de "termina en septiembre" a "tiene
+  temporada completa", que es exactamente la forma que un canal necesita para
+  que suscribirse tenga sentido.
+- **Y hay material nuevo que no es deportivo.** El proceso corporal
+  ([[composicion-corporal-2026]]) tiene el tipo de hecho concreto que
+  [[daniel]] pidió: *perdió 10.5 kg de grasa pero la báscula sólo bajó 6.5*.
+  Eso es una apertura por incidente vivido, no por explicación — la regla de
+  guion del 2026-08-20.
+
+⚠️ **La pregunta aplazada de octubre se vuelve más urgente, no menos.** Si
+el running es *crónica de vida*, un 2h30 el 6 de septiembre es un capítulo
+igual de bueno que un sub-2h. Si es *apuesta de retorno*, un objetivo
+fallado y publicado es un riesgo que nadie ha decidido correr. **Esa
+decisión ya no puede esperar a octubre: la carrera es antes.** El wiki no
+la resuelve — sólo deja constancia de que el calendario se le adelantó al
+punto de revisión.
 
 ## Podcasts
 
@@ -371,3 +438,32 @@ justificarse con métricas.
 - [[estrategia-contenido-absadev]] — the active strategy (Series 8
   boundary interacts with this page)
 - [[eliecer-garcia-romo]] — the person behind both brands
+- [[bloque-entrenamiento-running-2026]] — los datos que sostienen el arco
+- [[medio-maraton-atlas-2026]] — el capítulo del 6-sep (ya no el desenlace)
+- [[objetivos-carrera-2026-2027]] — la escalera de metas con fechas hasta feb-2027
+- [[composicion-corporal-2026]] — el proceso corporal detrás del arco
+- [[de-que-hablo-cuando-hablo-de-correr]] — el marco de "competir con el de ayer"
+- [[internal-scorecard]] — la meta escrita y verificada contra uno mismo
+- [[objetivos-vida-2026-2027]] — el cuadro completo de metas (2026-08-25)
+
+## 2026-08-25 — *Absa con Café* vuelve a la lista, y choca con lo decidido
+
+[[objetivos-vida-2026-2027]] trae como objetivo 13: **"regresar el podcast de
+Absa con Café (lifestyle, cotorreo)"**.
+
+Esta página ya había registrado el 2026-07-22 que las ocho series de
+[[absadev]] **más** una resurrección de podcast en paralelo no cabían en un
+presupuesto de 4-6 h/semana, y que **el podcast esperaba**. Desde entonces
+pasaron dos cosas: el 19-ago se reactivó [[blackicelabs-podcast]] (1
+episodio/mes + ~8 clips), y ahora la lista añade **un segundo podcast**.
+
+Serían **dos podcasts, ocho series de shorts, un bloque de running con carrera
+el 6-sep, una boda el 28-nov y una evaluación de ascenso en diciembre**, sobre
+las mismas 4-6 h/semana. La colisión se anota; la decisión es suya. Lo que
+esta página sí sostiene desde julio: *Absa con Café* es lifestyle puro, es
+decir, **la superficie donde la boda y el running ya son el contenido** — no
+compite con Absadev por tema, compite por horas.
+
+⚠️ La "pregunta deliberadamente aplazada" de julio (¿el running/boda es apuesta
+de contenido o vida que se graba?) **sigue aplazada**, y el objetivo 13 la hace
+más urgente, no menos.

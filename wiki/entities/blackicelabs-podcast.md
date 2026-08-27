@@ -329,8 +329,34 @@ no verificada. Nada de aquí se cita como evidencia de que un tema funcione.
 el nicho sea el mismo). De vida larga: **el tema está ocupado, el caso propio
 no**.
 
+## 2026-08-25 — la ambición declarada: "el mejor podcast de LatAm"
+
+[[objetivos-vida-2026-2027]] trae como objetivo 14: *"BLACK ICE LABS regresa
+para ser el mejor podcast de Guadalajara, Jalisco, México y Latinoamérica."*
+
+Se registra tal cual, con dos observaciones y sin juicio sobre si es
+alcanzable:
+
+1. **No tiene criterio de "mejor".** Ni plays, ni oyentes únicos, ni ranking,
+   ni fecha. Es el segundo objetivo de la lista sin métrica (el otro es el 15).
+   El expediente sí tiene números para medirlo cuando exista un criterio: **471
+   plays, 371 oyentes únicos, 23 episodios, 5 h 23 min de catálogo**, y en
+   [[devtalles]] una referencia de la escala real del nicho (~270 episodios).
+2. **La escalera está implícita y no escrita.** Guadalajara → Jalisco → México
+   → LatAm es una progresión razonable, y la primera de esas cuatro es la única
+   que hoy se puede atacar con 1 episodio/mes. Si el objetivo se aterriza,
+   conviene aterrizarlo en el primer escalón — el mismo error de orden que
+   [[objetivos-carrera-2026-2027]] ya detectó en las metas de running.
+
+⚠️ Y el contexto de agenda: el objetivo 13 de esa misma lista quiere reactivar
+*también* [[absa-garcia|Absa con Café]]. **Dos podcasts sobre 4-6 h/semana** que
+ya cargan ocho series de shorts, un bloque de running, una boda el 28-nov y una
+evaluación de ascenso en diciembre. La colisión está desarrollada en
+[[absa-garcia]].
+
 ## Related
 
+- [[objetivos-vida-2026-2027]] — la ambición declarada de este show, en contexto
 - [[absadev]] — la marca dev de video; mismo público objetivo, mismos pilares
 - [[absa-garcia]] — la historia de podcasts anterior (Café con Absa, Absa con Café)
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
