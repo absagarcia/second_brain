@@ -1788,3 +1788,40 @@ compresión **no la evaluó** y habría que rehacerla.
 cosas: que **el temario del nicho está ocupado y sólo diferencia el caso
 propio**, y que **el episodio-lista es la forma que más clips produce por hora
 de grabación**.
+
+## El embudo, cuarta lectura — el muro se convierte en retroceso (2026-08-26)
+
+Corrido de `yt_report.py` sobre la ventana 2026-07-27 → 2026-08-23 (28 días,
+cierra 3 días antes de correrlo). Cifras completas en el snapshot de
+[[absadev]] de la misma fecha.
+
+| Etapa | 2026-07-16 | 2026-08-10 (API) | 2026-08-26 (API) |
+|---|---|---|---|
+| Acquisition | 3.9K YT | 4.670 (+39%) | **3.589 (−26%)** |
+| Activation | 1 coment./60d | 8 coment./28d 🟡 | **5 coment./28d (−62%)** 🔴 |
+| Retention | +7 subs | +1 neto 🔴🔴 | **−4 neto** (17 altas, 21 bajas) 🔴🔴🔴 |
+| Referral | 147 shares | 10 shares | 13 shares |
+
+**Primera lectura con Retention en negativo.** Las tres mediciones anteriores
+tenían el muro sin moverse o debilitándose; esta es la primera vez que el
+canal pierde más suscriptores de los que gana en la ventana. SPV cae a
+**−1.11**, por debajo incluso de la referencia catastrófica de
+[[absa-garcia]] (0.11).
+
+**Activation, que era la única etapa que se había movido, retrocedió con
+ella.** 5 comentarios sobre 20 videos — la Serie 4 (el motor de comentarios)
+se queda sin material nuevo que minar en esta ventana.
+
+**Sugeridos al 0.0%.** El algoritmo no está distribuyendo un solo video del
+canal fuera de quien ya lo busca por nombre (Búsqueda 42.2%, el único tráfico
+sano). Coincide con el ritmo de publicación seguir en ~5/semana (20 videos),
+la misma sobre-extensión marcada el 10-ago y reforzada el 14-ago por la
+doctrina de la plataforma — sin corregir en dos ventanas seguidas.
+
+⚠️ **No se toma como refutación de la estrategia.** Los §7 traps aplican: 20 de
+los 20 videos del batch más reciente aún no cumplen 14 días (edad
+insuficiente), la ventana se traslapa parcialmente con la anterior, y no hay
+dato de CTR/impresiones para separar empaquetado de distribución. Pero es la
+tercera fuente independiente (medición 10-ago, doctrina 14-ago, medición
+26-ago) que apunta al mismo lugar: **bajar el ritmo a lo acordado es la
+recomendación con más palanca y la que menos se ha aplicado.**

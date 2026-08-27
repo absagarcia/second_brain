@@ -524,6 +524,80 @@ MXN (~50 USD) al RPM típico de audiencia mexicana implicarían **decenas de
 miles de vistas mensuales sostenidas**, pero eso es *derivación mía sobre un
 RPM supuesto*, no un dato: se marca como tal y no se planifica sobre ello.
 
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-07-27 → 2026-08-23, `yt_report.py`)
+
+> Quinto snapshot, primer corrido del reporte ya cableado ([[estrategia-contenido-absadev]]
+> §"Alcance real de `yt_report.py`"). Ventana de 28 días cerrada 3 días antes de correrlo
+> (2026-08-26), comparada contra 2026-06-29 → 2026-07-26. Los snapshots anteriores se
+> conservan tal como se escribieron.
+
+**Canal (28 días):**
+
+| Métrica | Valor | vs. periodo anterior |
+|---|---:|---|
+| Suscriptores totales | **7,850** | — |
+| Altas / bajas | **+17 / −21 = −4 neto** | +1 neto (ventana 07-08→10-08) |
+| **SPV** | **−1.11** | 0.21 (10-ago), 1.67 (28-jul), 1.78 (16-jul) |
+| Vistas | **3,589** | **−26%** |
+| Comentarios | **5** | **−62%** |
+| Shares | 13 | |
+| Likes | 54 | |
+| Videos publicados | **20** | ~5/semana, sigue 43% sobre la cadencia de ~3.5/semana adoptada el 28-jul |
+| Minutos vistos | 4.395 | duración media 1m49s (26.2%) |
+
+**Fuentes de tráfico:** Búsqueda 42.2% (1.512) · Feed de Shorts 29% (1.033) ·
+Suscripciones 9% (328) · Página del canal 4% (142) · Relacionados 4% (135) ·
+**Sugeridos 0.0%** · Browse 4.0% (+89%, pero sobre una base casi nula).
+
+**Comparación a 14 días (edad emparejada):** los 5 videos evaluables tienen
+**0.00 SPV** salvo uno con 1 comentario; el resto, 0 comentarios. 20 videos
+más siguen sin ventana completa.
+
+**Empaquetado (impresiones/CTR):** sigue sin dato — no se ha hecho el export
+de Studio pedido desde el 10-ago.
+
+### Lo que dice esta ventana
+
+1. **Primera vez con neto de suscriptores negativo.** No es sólo que Retention
+   no se mueva: por primera vez en las cinco mediciones el canal pierde más de
+   los que gana (17 altas, 21 bajas). El SPV de **−1.11** ya no está ni cerca
+   de las referencias del propio canal (§6 de la skill) — está por debajo
+   incluso del caso catastrófico de [[absa-garcia]] (0.11).
+2. **Activation también retrocedió.** 5 comentarios en 28 días (−62% vs. la
+   ventana anterior de 8), sobre 20 videos publicados = 0.25 por video. El
+   único mecanismo que había mostrado vida (19 en la semana 1, 39/30d en
+   TikTok) se secó también en la ventana más reciente medida en YouTube. La
+   Serie 4 ("Respondiendo comentarios") se queda sin material que minar.
+3. **Las vistas cayeron por debajo del bache ya documentado.** 3.926 (16-jul)
+   → 4.670 (07-ago) → **3.589** ahora, todas contra una norma histórica de
+   14.9K–24K/28d. No es una recuperación en curso, es una caída dentro de la
+   caída.
+4. **Distribución algorítmica en cero.** Sugeridos 0.0% — el dato más duro del
+   reporte. Búsqueda sigue siendo el único tráfico sano (42.2%, acumulativo),
+   pero el canal depende casi enteramente de gente que ya lo busca por nombre,
+   no de que YouTube lo empuje a nadie nuevo.
+5. **El ritmo sigue sin bajar.** 20 videos/28d ≈ 5/semana es la misma cifra de
+   sobre-extensión marcada el 10-ago (43% sobre el acordado), sin corregir en
+   dos ventanas seguidas. Coincide en el tiempo con el peor resultado medido
+   hasta ahora — no es prueba de causalidad, pero es la hipótesis que la
+   página viene señalando desde hace dos snapshots.
+
+## Alcance real de `yt_report.py` (2026-08-26)
+
+`skills/youtube-analytics/scripts/yt_report.py` en wa-agent ya cubre los
+rangos 2–7 de la jerarquía de señales de [§5 de SKILL.md]: vistas, minutos
+vistos, duración media absoluta y %, subs ganados/perdidos, comentarios,
+likes, shares, todo por video; fuentes de tráfico con Sugeridos/Browse/Búsqueda
+separados; curva de retención con el corte a 30s (empaquetado vs. contenido);
+suscritos vs. no suscritos; y la comparación age-matched a 14 días que evita
+el sesgo de "el video viejo gana por existir". Se corre con
+`skills/youtube-analytics/.venv/bin/python scripts/yt_report.py`.
+
+> Nota de implementación: las funciones (`retention_curve`, `retention_split`,
+> `new_vs_returning`) ya existían en `yt_analytics.py`, pero no estaban
+> conectadas al reporte — se cablearon el 2026-08-26. Fuente: revisión directa
+> del código de wa-agent, no un export ni una captura.
+
 ## Related
 
 - [[objetivos-vida-2026-2027]] — las metas de este canal dentro del cuadro completo

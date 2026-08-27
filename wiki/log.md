@@ -2286,3 +2286,27 @@ Super Fan goals y shoutouts para subir en Popular LIVE. Página nueva
 propio). Nota explícita: introduce LIVE como superficie sin un solo dato en
 el expediente de [[absadev]] — no se integra a la estrategia activa, queda
 registrada como opción sin explorar.
+
+---
+
+## [2026-08-26] tooling | `yt_report.py` ya cubre rangos 2–7 de §5
+
+El usuario describió la cobertura que quería del reporte automático de
+[[absadev]] (vistas, retención a 30s, nuevos/recurrentes, comparación
+age-matched, etc.). Al revisar `skills/youtube-analytics` en wa-agent, la
+cobertura ya existía en el código pero tres piezas (`retention_curve`,
+`retention_split`, `new_vs_returning`) estaban escritas y sin conectar al
+reporte final — se cablearon el mismo día. Registrado en [[absadev]].
+
+---
+
+## [2026-08-26] snapshot | Absadev — quinto corrido de `yt_report.py`, primer neto negativo — blackicelabs
+
+Ventana 2026-07-27 → 2026-08-23 (28d). Primera vez con suscriptores netos
+negativos (−4: 17 altas, 21 bajas), SPV −1.11 (peor que la referencia
+catastrófica de [[absa-garcia]], 0.11), vistas −26% (3.589, por debajo del
+bache ya documentado), comentarios −62% (5, la Serie 4 se queda sin
+material), Sugeridos 0.0%. Ritmo de publicación sigue en ~5/semana (20
+videos), tercera fuente independiente (con la medición del 10-ago y la
+doctrina de plataforma del 14-ago) señalando bajar a lo acordado. Registrado
+en [[absadev]] y [[estrategia-contenido-absadev]].
