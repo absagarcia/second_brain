@@ -2503,3 +2503,48 @@ registrada su contradicción frontal con [[de-cero-a-uno]].
 🚫 **La cifra queda fuera, y se cierra esa decisión.** El visto bueno de Emilio
 del 26-ago fue para **grabar juntos**; hablar de números compartidos sin él en
 la sala es **más** delicado, no menos.
+
+## [2026-08-26] ingest | El episodio 027 SE GRABÓ — transcript completo — blackicelabs, fitexe
+
+El usuario entrega el transcript del episodio ya grabado. **Actualizada**
+[[episodio-027-side-project]] con la sección de resultado. **Se rompe la racha
+de 72+ días sin publicar del [[blackicelabs-podcast]].**
+
+**Dato de proceso, y es el más útil del día:** el episodio se grabó **el mismo
+día** en que se escribió el guion. Contra el pronóstico de
+[[patron-de-terminacion]] —que avisaba de que sin invitado no habría quien lo
+obligara—, la mitigación funcionó **porque no hubo hueco entre decidir y
+hacer**. Regla candidata: **para lo que no tiene testigo, la estructura
+sustituta es la inmediatez.**
+
+**Hallazgo 1 — sus mejores frases son las que NO estaban en el guion.** Varias
+líneas escritas salieron casi textuales (el cierre del precio, *"menos de 50
+dólares al mes"*, *"y el producto es exactamente el mismo"*, el CTA entero),
+pero las cuatro frases más fuertes son improvisadas: *"son tres cafés de 303 que
+me he tomado para hacer este proyecto"*, *"la fatídica rutina por WhatsApp, y es
+algo que a mí me caga"*, *"ellos iban a ser nuestros conejillos de indias"* y —la
+mejor— *"de 2022 a 2026, **un Mundial después**, aquí estamos sacándolo y
+facturando"*. **Lección durable: el guion debe traer estructura y cifras, no
+frases de diálogo.** Él mismo dice en el 12:21 que *"me fui con el guion"*.
+
+**Hallazgo 2 — la prueba de duración queda contaminada.** Objetivo 8-10 min,
+real **13:46**: entre 38% y 72% por encima, dentro del rango del catálogo viejo.
+**La hipótesis de que acortar mejora la retención sigue sin probarse.**
+
+**Hallazgo 3 — contenido nuevo que el expediente no tenía:** el bloqueo de
+publicación en tiendas **no es técnico, son los testers que exige Google Play**;
+el **pivote** contado por primera vez (nació coach↔atleta, **se volvió software
+administrativo de establecimientos deportivos** — cortes de caja, gastos
+hormiga), lo que **cambia la descripción de producto que [[fitexe]] tiene
+escrita**; y el diseño hecho con IA (Google Stitch, Claude) por falta de
+presupuesto.
+
+⚠️ **Dos avisos.** (1) En el 2:29 identifica al cliente como *"un CrossFit aquí
+en Guadalajara"* — categoría + ciudad no es el nombre, pero acota mucho contra
+la regla de [[fitexe]] de no identificar al gimnasio; evitable en los clips. (2)
+Sus cifras en cámara fueron **30/15/10 gimnasios**, no las 43/11 de
+[[ruta-a-13k-side-project]]; no se corrige el episodio, se anota que la
+aritmética pública y la del wiki no coinciden.
+
+**Pendiente:** el corte de clips (~8, en confesión no en tip), que **no pueden
+publicarse antes del 30-sep** por el techo de 3.5 shorts/semana.

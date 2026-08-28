@@ -345,6 +345,170 @@ cifra no entra.**
   [[devtalles]] no puede contar.
 - **Un solo CTA:** el cuello de botella medido es *Activation*.
 
+## 2026-08-26 — GRABADO. Qué pasó de verdad
+
+**El episodio existe.** Duración real: **13:46**.
+
+### Hallazgo 1 — sus mejores frases son las que NO estaban en el guion
+
+El guion funcionó como andamio: varias líneas escritas salieron casi textuales
+(el cierre del precio, *"menos de 50 dólares al mes"*, *"y el producto es
+exactamente el mismo"*, el CTA completo). **Pero las frases más fuertes del
+episodio son improvisadas y ninguna estaba escrita:**
+
+| Frase suya | Por qué gana |
+|---|---|
+| *"Son tres cafés de 303 que me he tomado para hacer este proyecto"* | convierte el ingreso en una unidad concreta y propia |
+| *"Siempre te mandan la fatídica rutina por WhatsApp, y es algo que a mí me caga"* | el problema del producto en una imagen, con enojo real |
+| *"Ellos iban a ser nuestros conejillos de indias"* | mejor que *"pedir permiso"*, que era la del guion |
+| *"De 2022 a 2026, **un Mundial después**, aquí estamos sacándolo y facturando"* | **la mejor del episodio** — unidad de tiempo mexicana, y engancha con el propio historial de Mundial de [[absa-garcia]] |
+
+**Lección durable para los siguientes guiones: el guion debe traer estructura y
+datos, no frases.** Las frases que él inventa en el momento son mejores que las
+escritas, y las escritas le hicieron sentir que *"me fui con el guion"* (lo dice
+en el minuto 12:21). **Escribir beats y cifras, no líneas de diálogo.**
+
+### Hallazgo 2 — la prueba de duración queda contaminada
+
+Objetivo: 8-10 min. Real: **13:46** — entre **38% y 72% por encima**. El
+episodio **no sirve como prueba limpia** de la hipótesis de que acortar mejora
+la retención; queda en el rango del catálogo viejo (15:16 de media en 2026).
+Sigue pendiente probarla.
+
+### Hallazgo 3 — contenido nuevo que el wiki no tenía
+
+- **El bloqueo real de publicación no es técnico: son los testers que exige
+  Google Play.** No estaba en ninguna página. Es lo que hoy separa a [[fitexe]]
+  de estar en tiendas, y es material de contenido de primera para su audiencia.
+- **El pivote está contado por primera vez:** nació como app coach↔atleta y **se
+  volvió software administrativo de establecimientos deportivos** (cortes de
+  caja, gastos hormiga, contabilidad) al entrar el gimnasio. Eso **cambia la
+  descripción del producto** que [[fitexe]] tiene escrita.
+- **Diseño hecho con IA por falta de presupuesto** (Google Stitch, Claude,
+  capturas de otras apps como referencia).
+- **Sus números en cámara fueron 30 / 15 / 10 gimnasios**, no los 43 / 11 de
+  [[ruta-a-13k-side-project]]. No se corrige el episodio; se anota que **la
+  aritmética pública y la del wiki no coinciden**, y que la del wiki asume el
+  precio actual y el reparto 50/50.
+
+### Hallazgo 4 — dijo el nombre de la categoría y la ciudad
+
+En el minuto 2:29 identifica al cliente como *"un CrossFit aquí en
+Guadalajara"*. La regla de [[fitexe]] pide **no identificar al gimnasio sin su
+permiso**. Categoría + ciudad no es el nombre, pero **acota mucho**. Decisión
+para él: dejarlo o cortarlo del máster. **En los clips es evitable sin perder
+nada.**
+
+### Lo que esto significa para el objetivo 14
+
+**Se rompió la racha de 72+ días sin publicar** y el episodio salió **el mismo
+día en que se escribió el guion**. Contra el pronóstico de
+[[patron-de-terminacion]]: la mitigación funcionó porque **no hubo hueco entre
+decidir y grabar**. Queda como dato a favor de una regla nueva: **para lo que no
+tiene testigo, la estructura sustituta es la inmediatez** — si no se hace el
+mismo día, no se hace.
+
+## Paquete de publicación (2026-08-26)
+
+### Clips de tipo A — corte directo, sin empalmes
+
+| # | Entra | Sale | Dur. | Contenido |
+|---|---|---|---|---|
+| 2 | **0:00** | **0:42** | 42s | primer pago · tres cafés · 115 commits · *"nació de una forma y terminó siendo de otra"* |
+| 5 | **6:58** | **8:00** | 62s | 50/50 · la aritmética · *"el producto es exactamente el mismo"* · *"menos de 50 dólares"* |
+| 6 | **1:22** | **1:55** | 33s | valida con un humano, no con una IA · *"ya después con Claude"* |
+| 8 | **12:50** | **13:33** | 43s | el primer precio está mal · CTA de la decisión abierta |
+
+Ajustes contra la v1: el 2 **cierra en 0:42** para no arrastrar la careta del
+show; el 5 **entra en 6:58** para arrancar en *"cuando somos dos y es 50/50"* y
+no en la muletilla; el 6 **entra en 1:22** para saltarse el tropiezo del
+principio —y se queda en **33s a propósito**: es una sola opinión, no necesita
+setup—; el 8 **entra en 12:50** para saltar el *"si no me estás siguiendo"*.
+
+### Títulos de YouTube — tres apuestas distintas
+
+| | Título | A qué apuesta |
+|---|---|---|
+| **A** ✅ | *Cuánto cobrar por tu side project (nos equivocamos con el precio)* | **Búsqueda** — el 35.0% de su tráfico |
+| B | *Tardamos un Mundial en lanzar nuestra app — y ya factura* | curiosidad y marca; ligado a su mejor frase |
+| C | *Mi app ya factura pero no la puedo publicar: los testers de Google Play* | dolor dev muy buscado hoy |
+
+**Se recomienda A.** C tendría probablemente el mayor CTR, pero **promete un
+tema que ocupa un minuto de catorce**: subiría el clic y castigaría la
+retención, que es justo el muro diagnosticado del canal. Guardar C **para el
+clip**, no para el episodio.
+
+### Expectativa realista de las 1,000 vistas
+
+⚠️ **Registrado como corrección de expectativa, no como pesimismo.** Referencia
+propia: **3,589 vistas / 28 días repartidas en 20 videos ≈ 180 por video**, y
+los episodios del podcast promedian **~20 plays** en Spotify. **1,000 vistas en
+un solo largo es ~5× su media reciente.**
+
+Es alcanzable **por acumulación en meses, no en la semana de lanzamiento**, y
+depende de tres cosas — **ninguna de ellas son las etiquetas**:
+
+1. **Título + miniatura** (lo único que actúa antes del clic).
+2. **Los primeros 30 segundos** — y aquí va bien: el cold open real es fuerte.
+   **No anteponerle intro ni careta.**
+3. **Los clips**, que empujan al largo — pero **no antes del 30-sep**.
+
+La base de suscriptores da un piso: 7,850 al 2-3% son 160-235 vistas.
+
+### Programación de los clips (2026-08-26)
+
+**Orden de publicación decidido por fuerza, no por orden del episodio**, y con
+un principio operativo que no estaba escrito: **el largo sale primero.** La
+restricción del 30-sep es del **calendario de shorts**, no del episodio — si los
+clips salen antes que el largo, mandan tráfico a nada.
+
+**Revisado el 2026-08-26: se cortaron 4, no 8.** El usuario hizo sólo los de
+tipo A (2, 5, 6, 8) y lo da por suficiente. **Programación final:**
+
+| Turno | Clip | Fecha | Dur. | CTA |
+|---|---|---|---|---|
+| 1 | **5** — 30 vs 10 | **30-sep** | 62s | ✅ pregunta |
+| 2 | **2** — tres cafés | **7-oct** | 42s | — |
+| 3 | **6** — humano, no IA | **14-oct** | 33s | — |
+| 4 | **8** — el primer precio está mal | **21-oct** | 43s | ✅ pregunta |
+
+**Hallazgo — cortar 4 en vez de 8 hace, por accidente, lo que los datos venían
+pidiendo.** Cuatro clips a **1 por semana** dejan la cadencia en **1/semana**,
+muy por debajo del techo de 3.5 y de los 3.7/semana actuales. **Tres fuentes
+independientes** (medición del 10-ago, doctrina de plataforma del 14-ago,
+medición del 26-ago) llevaban semanas señalando que bajar el ritmo era *"la
+recomendación con más palanca y la que menos se ha aplicado"*. **Se aplicó sin
+decidirlo**, por no haber cortado los ensamblados. Queda anotado porque es la
+primera vez que ese ritmo se cumple, y **la ventana 30-sep → 21-oct es la lectura
+limpia** que el expediente no había podido hacer.
+
+**Los dos CTA con pregunta van en los turnos 1 y 4** (mismos bookends, misma
+pregunta: *¿subes el precio o buscas más clientes?*). Repetir la pregunta en los
+extremos concentra las respuestas en vez de diluirlas.
+
+⚠️ **Lo que se pierde por no haber cortado los ensamblados**, anotado sin
+insistir: el clip 4 (testers de Google Play) era **el de mayor potencial de
+comentarios** para audiencia dev, y el clip 7 (rutina por WhatsApp) era **el
+único del lote dirigido a gente de gimnasio y no a devs** — es decir, **el único
+que apuntaba a la audiencia que TikTok sí le dio**. Sin él, **este batch habla
+sólo a devs y la hipótesis de audiencia cruzada queda sin probar.** El máster
+sigue ahí: se pueden cortar después sin volver a grabar.
+
+**Doctrina nueva aplicada: título distinto por plataforma también en los
+clips.** Es la extensión de la regla de dos títulos del 19-ago, ahora apoyada en
+un dato que el expediente ya tenía y no se había usado para esto: **la audiencia
+de TikTok no es dev** (hallazgo del 28-jul, confirmado por el export del
+10-ago). En YouTube el encuadre dev funciona; en TikTok hay que quitar la jerga.
+
+**Y de ahí sale un hallazgo:** el **clip 7 (la rutina por WhatsApp)** es el único
+del lote dirigido a **gente de gimnasio, no a devs** — es decir, **el único que
+apunta a la audiencia que TikTok sí le dio**. Debería rendir mejor allá que en
+Shorts, y es una prueba barata de la hipótesis de audiencia cruzada.
+
+⚠️ **Los CTA con pregunta van sólo en 3 de los 8.** Poner pregunta en los ocho
+la vuelve ruido; concentrarla es lo que puede mover *Activation*, que sigue
+siendo el cuello de botella medido.
+
 ## Related
 
 - [[blackicelabs-podcast]] — el show y su histórico por episodio
