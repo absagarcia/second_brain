@@ -2548,3 +2548,14 @@ aritmética pública y la del wiki no coinciden.
 
 **Pendiente:** el corte de clips (~8, en confesión no en tip), que **no pueden
 publicarse antes del 30-sep** por el techo de 3.5 shorts/semana.
+
+## [2026-09-01] resultado | Primeros dos shorts del registro "opinión" — blackicelabs
+
+Publicados 2 shorts en TikTok el mismo día (la pregunta en inglés / los defaults
+de OpenClaw 2). **+5 seguidores: 4 y 1.** Sin vistas → registrado como señal, no
+como medida (la referencia comparable es 1.60 seguidores por 1.000 vistas,
+10-ago). Actualizados [[absadev]] y [[estrategia-contenido-absadev]] con el
+hallazgo incómodo: el de 4 seguidores es la variante de una pieza que estaba en
+la lista de rechazo permanente del 20-ago, y el íntegramente técnico sacó la
+cuarta parte. No se toca la lista de rechazo; se escribe la condición para
+renegociarla (tres pares con denominador, por 1.000 vistas).

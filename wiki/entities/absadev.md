@@ -598,6 +598,54 @@ el sesgo de "el video viejo gana por existir". Se corre con
 > conectadas al reporte — se cablearon el 2026-08-26. Fuente: revisión directa
 > del código de wa-agent, no un export ni una captura.
 
+## [2026-09-01] Primer dato de la línea "opinión contra corriente" — y lo gana la pieza que el filtro había rechazado
+
+**Publicados dos shorts en TikTok el 2026-09-01**, los dos del registro que el
+usuario eligió el 20-ago (*opinión/criterio*, no confesión). Resultado del día:
+**+5 seguidores**, repartidos **4 / 1**.
+
+| Short | Ángulo | Seguidores ganados |
+|---|---|---|
+| *"Tu inglés está bien. Tu pregunta no."* — la pregunta que pide una firma vs. la que pide averiguar | idioma / dinámica de trabajo | **4** |
+| *"OpenClaw 2: lo que prendieron y lo que dejaron apagado"* — los defaults del release | herramienta / criterio técnico | **1** |
+
+⚠️ **Lo que este dato NO es.** No hay vistas, así que **no hay tasa** y no es
+comparable contra la referencia de **1.60 seguidores por 1.000 vistas** del
+export del 10-ago. Es un día, sin denominador y sin comparación age-matched.
+Registrado como **señal, no como medida**.
+
+### El hallazgo incómodo: ganó la pieza que el propio filtro había descartado
+
+El short de 4 seguidores es **la variante de una propuesta que está en la lista
+de rechazo del 2026-08-20**: *"Me tocó una junta en inglés en la que no entendí
+ni la mitad"*, tumbada con el motivo *idioma y ambiente, no código; la chamba
+gringa sirve en code review y PRs, no en la junta*. Se grabó igual, en la
+versión que nombra la herramienta (la licencia) para hacerla pasar por el filtro.
+El que sí era íntegramente técnico —el de OpenClaw, con artefacto de
+documentación en pantalla— sacó **la cuarta parte**.
+
+**Lectura coherente con lo ya registrado, no una sorpresa:** el export del
+10-ago dejó **confirmado que el motor de alcance de TikTok es audiencia no-dev**
+(§ del 10-ago). Una pieza sobre cómo preguntar en el trabajo le habla a esa
+audiencia; una sobre los defaults de un agente open source no. El filtro del
+20-ago se escribió pensando en **la identidad del canal**, y este dato mide
+**alcance en una plataforma cuya audiencia ya sabíamos que no es la del canal**.
+Son dos cosas distintas y no se contradicen.
+
+⚠️ **La tensión confesión vs. opinión sigue sin resolverse.** Los dos shorts
+eran de opinión, así que este par **no separa registro**; lo que separa aquí es
+**el tema** (trabajo/idioma vs. herramienta técnica). La condición de refutación
+escrita en [[estrategia-contenido-absadev]] —opinión por debajo de la línea base
+mientras confesión la supera— sigue abierta y necesita el denominador.
+
+**Qué falta para convertir esto en medida:** vistas de cada video (TikTok las da
+por video, junto con seguidores ganados), y si se publicaron también en Shorts,
+el cruce de embudo.
+
+**Vida de este dato:** **corta** como cifra (5 seguidores de un día), **larga**
+como pregunta: *¿el filtro "esto es de dev" optimiza identidad a costa de
+alcance, y en qué plataforma se paga ese costo?*
+
 ## Related
 
 - [[objetivos-vida-2026-2027]] — las metas de este canal dentro del cuadro completo

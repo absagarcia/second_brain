@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-25
+updated: 2026-09-01
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -1913,3 +1913,33 @@ pasar el techo de 3.5/semana fijado como condición de refutación.
 el 19-ago; lo que hace esta sección es **darle la estructura que le faltaba**,
 que es justo lo que [[patron-de-terminacion]] pide antes de activar cualquier
 cosa.
+
+## [2026-09-01] Primer resultado publicado del registro "opinión" — 4 a 1, y a favor del descartado
+
+Se publicaron **dos shorts en TikTok**, ambos escritos en el registro *opinión
+contra corriente* elegido el 20-ago. **+5 seguidores en el día: 4 para el de la
+pregunta en inglés, 1 para el de los defaults de OpenClaw 2.** Sin vistas, o sea
+**sin tasa** — señal, no medida. El detalle completo y las advertencias están en
+[[absadev]].
+
+**Lo que obliga a anotar aquí:** el ganador es la variante de una pieza de la
+**lista de rechazo permanente** de esta misma página (*"junta en inglés"*,
+tumbada por *idioma y ambiente, no código*). Se salvó nombrando la herramienta
+en cámara, pero su ángulo sigue siendo de dinámica de trabajo, no de código.
+
+**No se cambia la lista de rechazo con un día de datos.** Lo que sí queda
+escrito es la pregunta que este dato abre y que la lista no contemplaba:
+
+> El filtro *"esto es de dev"* fue diseñado para proteger **la identidad del
+> canal**. En TikTok, donde el export del 10-ago dejó confirmado que **la
+> audiencia es no-dev**, ese filtro puede estar cobrando **alcance**. No son
+> objetivos incompatibles, pero tampoco son el mismo objetivo, y hasta hoy esta
+> página los trataba como uno solo.
+
+**Condición para tocar el filtro:** que se repita con denominador — tres o más
+pares donde la pieza de ángulo no-técnico supere a la técnica **por 1.000
+vistas**, no por conteo bruto. Con eso se renegocia la frontera *por
+plataforma* (filtro estricto en YouTube, más ancho en TikTok), no se borra.
+
+⚠️ **Lo que este par no prueba:** ambos eran de opinión, así que **no dice nada**
+sobre confesión vs. opinión. Esa condición de refutación sigue abierta.
