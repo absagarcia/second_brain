@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-25
+updated: 2026-09-02
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -25,6 +25,10 @@ sources:
     fact_date: 2026-08-20
     ingest_date: 2026-08-20
     confidence: medium   # opinión de un par, de segunda mano, n = 1
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-08-03 → 2026-08-30
+    fact_date: 2026-08-30
+    ingest_date: 2026-09-02
+    confidence: high   # API de primera parte
 ---
 
 # Absadev
@@ -645,6 +649,39 @@ el cruce de embudo.
 **Vida de este dato:** **corta** como cifra (5 seguidores de un día), **larga**
 como pregunta: *¿el filtro "esto es de dev" optimiza identidad a costa de
 alcance, y en qué plataforma se paga ese costo?*
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-08-03 → 2026-08-30, `yt_report.py`)
+
+> Sexto snapshot, corrido el 2026-09-02 a pedido del usuario (preguntaba si podía
+> comparar tecnologías/IAs en podcast). Ventana de 28 días cerrada 3 días antes de
+> correrlo, comparada contra 2026-07-06 → 2026-08-02. Snapshots anteriores se
+> conservan tal como se escribieron.
+
+**Canal (28 días):** 7.860 subs · altas/bajas **+21/−23 = −2 neto** (mejora vs.
+−4 neto del 26-ago, pero sigue negativo) · **SPV −0.42** (vs. −1.11 el 26-ago,
+0.21 el 10-ago, 1.67/1.78 en jul — sigue por debajo de las tres referencias del
+canal) · vistas **4.716** (−9%, sigue bajo la norma de 14.9K–24K) · comentarios
+**9** (−10%) · shares 11 · likes 44 · **20 videos publicados** en 28 días
+(~5/semana, sigue sobre la cadencia acordada de ~3.5/semana).
+
+**Tráfico:** Búsqueda **35.8%** (único que se acumula) · Sugeridos **0.0%** ·
+Browse 2.5% · Sugeridos+Browse combinado 12.0% (+63%, pero sobre base casi nula).
+
+**Lectura corta:** Retention sigue roto (tercera ventana seguida en negativo o
+casi) pero **el SPV mejoró** frente al 26-ago (−1.11 → −0.42) y Activation se
+mantiene con vida (9 comentarios). No hay corrección de rumbo todavía, hay una
+desaceleración de la caída.
+
+### El video que responde la pregunta del usuario, aún sin ventana
+
+El batch del 18-ago incluyó **"Python vs Node.js: cuál aprender primero en
+2026"** — una comparación de tecnologías, el mismo formato que en el podcast
+dio el peor resultado del catálogo cuando era sobre IAs (*Copilot vs Gemini*,
+6 oyentes) y uno de los mejores cuando era evergreen/sin-jerga de noticia
+(*Node vs Python*, 22 oyentes). Publicado 18-ago, cumple sus 14 días el
+2026-09-01 — **un día después de que esta ventana cerrara (30-ago)**. Es el
+primer dato directo, en YouTube, sobre si "comparar tecnologías" convierte
+para este canal fuera del podcast. Queda pendiente para el próximo corrido.
 
 ## Related
 

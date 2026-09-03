@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-01
+updated: 2026-09-02
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -1943,3 +1943,35 @@ plataforma* (filtro estricto en YouTube, más ancho en TikTok), no se borra.
 
 ⚠️ **Lo que este par no prueba:** ambos eran de opinión, así que **no dice nada**
 sobre confesión vs. opinión. Esa condición de refutación sigue abierta.
+
+## [2026-09-02] El usuario recorta el slate del podcast a un solo episodio
+
+Presentado el slate reescrito del 20-ago (4 episodios, cada uno abriendo por un
+hecho vivido), el usuario responde: **solo le gustó el #1** ("Subí de sueldo y a
+los tres meses estaba peor que antes" → *La carrera de la rata del programador
+moderno* → `024.` en Spotify / *Burnout de programador: por qué subir de sueldo
+no lo arregla* en YouTube). Preguntado qué hacer con #2-4, elige explícitamente:
+**grabar solo #1 por ahora; #2-4 quedan en pausa**, no reemplazados ni forzados.
+
+**Esto no es una corrección del slate — es una preferencia del creador que pesa
+más que el dato.** Los cuatro temas estaban elegidos por evidencia (oyentes por
+episodio, formato comparación, evergreen — ver arriba, 19-ago y 25-ago); nada de
+esa evidencia cambió. Lo que cambió es que, puesto a elegir, **al usuario solo le
+provoca grabar uno.** Es exactamente la trampa #1 de la doctrina de esta skill:
+el dato dice qué funcionó, nunca qué quiere hacer el creador — y aquí gana el
+creador.
+
+**Qué queda pendiente, sin decidir todavía:** #2 (maestría vs experiencia, solo,
+grabable ya), #3 (chamba gringa, con invitado) y #4 (side project que cobra, con
+Emilio) no se cancelan ni se reemplazan — quedan **en pausa**, disponibles si el
+usuario cambia de ánimo o si hace falta completar el batch de 4 antes de
+publicar. El pool de candidatos del 25-ago (DevTalles: clean architecture,
+vibecoding, testing, juniors-en-IA, monorepos, formato-lista) sigue como
+reemplazo candidato si se decide sustituir en vez de pausar.
+
+⚠️ **Nota abierta:** grabar un solo episodio rompe la lógica de "batch de 4
+grabados por adelantado" de la reactivación del 19-ago (pensada para sostener
+1/mes sin depender del ánimo del día). Si esto se repite episodio a episodio, la
+cadencia de 1/mes deja de estar protegida por buffer y vuelve a depender de que
+el usuario tenga ganas cada vez — el mismo riesgo que la reactivación quería
+evitar. No se marca como error, solo como algo a vigilar en el próximo batch.

@@ -2559,3 +2559,38 @@ hallazgo incómodo: el de 4 seguidores es la variante de una pieza que estaba en
 la lista de rechazo permanente del 20-ago, y el íntegramente técnico sacó la
 cuarta parte. No se toca la lista de rechazo; se escribe la condición para
 renegociarla (tres pares con denominador, por 1.000 vistas).
+
+## [2026-09-02] query | ¿Podcast comparando tecnologías/IAs? — blackicelabs
+Usuario preguntó por un episodio de podcast comparando tecnologías/IAs.
+Verificado acceso a YouTube Analytics API (`yt_report.py`, ventana
+2026-08-03 → 2026-08-30) — corrido con éxito, snapshot añadido a
+[[absadev]]. Hallazgo citado: en el catálogo del podcast, las comparaciones
+de IA-como-noticia (*Copilot vs Gemini*) son el peor episodio por oyentes
+únicos (6), mientras que comparaciones evergreen (*Node vs Python*) están en
+el top-4. El slate aprobado del podcast (4 episodios, 19/20-ago) no incluye
+un tema de este tipo; se registró como candidato de pool, no como slate.
+Se destaca "Python vs Node.js: cuál aprender primero en 2026" (short
+publicado 18-ago), primer dato directo en YouTube sobre el formato, aún sin
+ventana de 14 días cumplida.
+
+## [2026-09-02] query | Usuario recorta el slate del podcast a 1 episodio — blackicelabs
+Presentado el slate de 4 episodios (rediseño 20-ago), el usuario dice que
+solo le gustó el #1 ("La carrera de la rata del programador moderno" /
+"Burnout de programador: por qué subir de sueldo no lo arregla").
+Preguntado qué hacer con #2-4, elige grabar solo #1 y dejar los otros tres
+en pausa (no reemplazarlos ni forzarlos). Actualizado
+[[estrategia-contenido-absadev]]: se registra como preferencia del creador
+sobre el dato (trampa #1 de la doctrina), y se anota el riesgo de que grabar
+episodio a episodio rompa la lógica de "batch de 4" pensada para sostener
+1/mes sin depender del ánimo del día.
+
+## [2026-09-02] query | OpenSpec en app_fitexe, ¿video? — fitexe, swe, blackicelabs
+Usuario pregunta si vale la pena un video sobre OpenSpec (spec-driven dev con
+Claude), que empezó a usar en app_fitexe. Verificado directo en el repo:
+`openspec/config.yaml` y 6 skills instaladas, pero `openspec/specs/` y
+`openspec/changes/` vacíos — el sistema está armado, sin un ciclo
+propose→apply→archive corrido todavía. Actualizado [[fitexe]] ángulo #6
+(ya existía como "agents.md"; esto es su versión más concreta). Recomendación
+registrada: esperar el primer archive real para tener el artefacto (diff/spec
+concreto) que la regla del canal exige, en vez de grabar la herramienta sin
+caso propio.

@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-08-25
+updated: 2026-09-02
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-07-29
     ingest_date: 2026-07-29
     confidence: high           # first-party owner statement
+  - path: /Users/absagarcia/Documents/Proyects/app_fitexe/openspec/   # first-party repo, read directly (not in raw/)
+    fact_date: 2026-09-02
+    ingest_date: 2026-09-02
+    confidence: high           # config + skills leídos directo del repo; specs/changes confirmados vacíos
 ---
 
 # FitExe
@@ -201,6 +205,21 @@ Angles ranked by fit with what the week-1 data actually rewarded:
 6. **"Escribo docs para que los agentes de IA trabajen en mi repo"** —
    `agents.md` + per-topic guidelines. Rides the *Camino a AI Engineer*
    positioning with something he actually does, not a trend take.
+   > **Actualización 2026-09-02:** el usuario empezó a adoptar **OpenSpec**
+   > (spec-driven development con Claude) en este repo — confirmado por
+   > archivo: `openspec/config.yaml` (schema `spec-driven`, reglas de
+   > proposal/tasks/apply/archive ya escritas) y seis skills instaladas
+   > (`openspec-propose`, `-explore`, `-apply-change`, `-update-change`,
+   > `-archive-change`, `-sync-specs`). Es una versión más concreta de este
+   > mismo ángulo #6, no uno nuevo. **`openspec/specs/` y `openspec/changes/`
+   > están vacíos** — el sistema está armado pero **todavía no hay un ciclo
+   > propose→apply→archive real corrido**. Recomendación: no grabar todavía —
+   > esperar al primer *archive* real, porque ahí aparece el artefacto que la
+   > regla de este canal exige (el diff/spec concreto en pantalla), en vez de
+   > una explicación de la herramienta sin caso propio. La guía de `archive`
+   > en el propio `config.yaml` ya pide resumir la decisión "para que se
+   > pueda ingerir al second brain (domain `fitexe`, plus `swe`)" — cuando
+   > pase, el resumen mismo puede ser el punto de partida del guion.
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-
