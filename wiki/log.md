@@ -2700,3 +2700,43 @@ ambas páginas: **esto no es la candidata 2 y no cuenta para el objetivo 16**
 (que exigía recurrente y 100% suyo) — es ingreso freelance del mismo tipo que
 [[slalom]]. La candidata 2 (producto propio para nutriólogos/coaches, 100%
 suyo) sigue sin construirse. Actualizado `wiki/index.md`.
+
+## [2026-09-08] update | Resultados de dos TikToks (Open Spec, "mi trabajo ideal") — blackicelabs, fitexe
+El usuario reporta en conversación (sin export de plataforma, cifras
+aproximadas) los resultados de dos TikToks: el de **Open Spec en FitExe**
+(grabado 04-sep) hizo 2,000+ vistas, 8+ seguidores nuevos y "muchos
+comentarios"; uno nuevo sobre **"mi trabajo ideal"**, sin guion registrado en
+el wiki hasta hoy, hizo 1,500+ vistas orgánicas y ~12 seguidores. Ambos
+superan la referencia de conversión de TikTok del 10-ago (1.60/1.000) y
+confirman el patrón identidad/journey por encima de comparación técnica.
+Actualizadas: [[absadev]], [[estrategia-contenido-absadev]], [[fitexe]],
+`wiki/index.md`.
+
+## [2026-09-08] ingest | Journal personal — reflections, finance, fitness, blackicelabs
+Journal traído por el usuario a la conversación, guardado en
+`raw/reflections/journal-2026-09-08.md`. Toca seis hilos distintos:
+
+- **[[margarita-posada]]:** idea (sin negociar) de un retainer de 7,000
+  MXN/mes por consultoría de Claude + dev, ~5,000 netos.
+- **[[sofi]] (página nueva):** primera vez que la pareja del usuario aparece
+  con nombre en el wiki; quiere ser socia de un estudio de barre (100,000
+  MXN) y la tensión de tiempo de pareja vs. contenido queda anotada.
+- **[[boda-2026]] / [[finanzas-personales-2026-2027]]:** deseo de ≈10,000
+  MXN extra antes de la boda (el retainer + dos deseos no accionables: NVDA
+  a 300 USD, un video a 100k vistas).
+- **[[objetivos-vida-2026-2027]]:** reconfirma el objetivo 9 y suma Facebook
+  como cuarta plataforma sin dato propio en el expediente.
+- **[[absa-garcia]]:** idea de contenido deportivo en Facebook (resumen de
+  jornada de Champions) y primera aplicación personal de
+  [[minimalismo-digital]] (screen time, sin decluttering ejecutado todavía).
+- **[[bloque-entrenamiento-running-2026]] / [[medio-maraton-atlas-2026]]:**
+  plan declarado de subir los easy runs a 7:18/km buscando zona 2 real; y se
+  anota que el resultado real de la carrera del 6-sep sigue sin registrarse
+  — una mención de "~10km a 6:50/km el domingo" no coincide con los 21.1 km
+  de la carrera y queda como pregunta abierta, no como dato de carrera.
+
+Actualizadas: [[margarita-posada]], [[boda-2026]],
+[[finanzas-personales-2026-2027]], [[objetivos-vida-2026-2027]],
+[[absa-garcia]], [[minimalismo-digital]],
+[[bloque-entrenamiento-running-2026]], [[medio-maraton-atlas-2026]]. Creada:
+[[sofi]]. Actualizado `wiki/index.md`.

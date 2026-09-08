@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-09-02
+updated: 2026-09-08
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-09-02
     ingest_date: 2026-09-02
     confidence: high           # config + skills leídos directo del repo; specs/changes confirmados vacíos
+  - path: conversation (usuario reporta resultado del TikTok de OpenSpec, sin export de plataforma)
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium         # primera parte pero cifras aproximadas ("más de", "más de"), sin export verificable
 ---
 
 # FitExe
@@ -232,6 +236,17 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > parcial (el módulo, no un archive documentado), no el artefacto completo
    > que se pedía. Cierra con pregunta a la audiencia ("¿qué otra herramienta
    > usas para desarrollar con IA?"), no con el resumen de un `archive`.
+   >
+   > **Actualización 2026-09-08 — resultado del video (self-reported, sin
+   > export de plataforma):** más de 2,000 vistas, **más de 8 seguidores
+   > nuevos** (≥4.0 por 1.000 vistas) y "muchos comentarios" — por encima de
+   > la referencia de conversión de TikTok del 10-ago (1.60/1.000, 2.86
+   > excluyendo el pico). Es el primer resultado medido del ángulo #6 en
+   > cualquiera de sus dos versiones (genérico o con OpenSpec), y confirma
+   > que **la brecha anotada arriba** (explicación con caso propio parcial,
+   > no el ciclo completo) no le costó desempeño. Ver la lectura conjunta
+   > con el otro video del mismo reporte en [[estrategia-contenido-absadev]]
+   > y el snapshot de [[absadev]].
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

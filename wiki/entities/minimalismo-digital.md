@@ -3,7 +3,7 @@ title: Minimalismo digital (Digital Minimalism)
 type: entity
 domain: [books, reflections]
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-09-08
 # blackicelabs dropped 2026-07-23 lint: thin "creator publishes on these platforms"
 # tie; the light cross-link to the creator pages stays, the domain tag does not
 sources:
@@ -11,6 +11,10 @@ sources:
     fact_date: 2019-01-01        # recalled: Cal Newport, Digital Minimalism
     ingest_date: 2026-07-23
     confidence: medium           # personal Kindle highlights export, dense on ch. 6
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # reflexión personal del usuario, no un experimento medido
 ---
 
 # Minimalismo digital (Digital Minimalism)
@@ -63,3 +67,7 @@ accounting: "el coste de algo es la cantidad de vida que debo entregar a cambio.
 - Relevance to the creator work: as with [[generacion-dopamina]], it's the maker-
   as-user mirror for [[absadev]] / [[absa-garcia]] — the very platforms the user
   builds on are the ones the book counsels using deliberately. Cross-linked lightly.
+- **2026-09-08:** primera vez que el usuario aplica el libro a sí mismo, no solo
+  como fuente para contenido — journal personal describiendo scroll compulsivo
+  al despertar y contemplando borrar redes del iPhone. Sin decluttering
+  ejecutado todavía. Ver [[absa-garcia]].

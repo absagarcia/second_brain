@@ -3,12 +3,16 @@ title: Objetivos de vida 2026-2027
 type: entity
 domain: [finance, fitness, blackicelabs, swe, fitexe, books, reflections]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # primera mano, dictado por el usuario
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # reconfirma el objetivo 9, añade Facebook sin cifra
 ---
 
 # Objetivos de vida 2026-2027
@@ -374,6 +378,21 @@ tiene fecha, sólo le falta que alguien en [[slalom]] sepa que va por eso.
 escalona bien (*"10K pero primero 8K"*) y **multiplica mal**: nunca puso límite
 de cosas en paralelo. Secuencia propuesta — **cero objetivos nuevos hasta el
 28-nov**, el primer espacio se abre en diciembre, y 2027 va de uno en uno.
+
+## 2026-09-08 — el objetivo 9 reconfirmado, y aparece una cuarta plataforma
+
+En su journal personal el usuario repite, casi textual, el **objetivo 9**
+("1,000 MXN/mes de YouTube") — sin nueva cifra, pero confirmando que sigue
+vigente y describiendo el destino: gastos del hogar o pauta publicitaria
+para el canal. No cierra la pregunta abierta 4 (¿está monetizado el canal?
+sigue sin constar).
+
+Lo nuevo: dice estar trabajando **TikTok** para tener **"las 3 redes
+sociales monetizadas"**, y menciona **Facebook** como la tercera —
+plataforma que **no aparece en ninguno de los 17 objetivos ni en
+[[absadev]]/[[absa-garcia]]**, salvo por su idea de subir el resumen de la
+jornada de Champions ahí (detalle en [[absa-garcia]]). El inventario de 17
+metas sigue sin una línea propia para Facebook.
 
 ## Vida útil de esta página
 

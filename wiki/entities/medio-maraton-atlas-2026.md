@@ -3,7 +3,7 @@ title: Medio Maratón del Atlas 2026
 type: entity
 domain: [fitness, blackicelabs]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo + el objetivo escrito en el perfil de Strava
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: low   # mención imprecisa de distancia/día, no un export de Strava
 ---
 
 # Medio Maratón del Atlas 2026
@@ -111,8 +115,26 @@ cual, la apertura de un guion.
 Esto **no** decide qué debe hacer el domingo. Sólo deja anotado que el
 resultado deportivo y el resultado de contenido no son la misma variable.
 
+## 2026-09-08 — ¿esto fue la carrera?
+
+En su journal personal (`raw/reflections/journal-2026-09-08.md`, escrito el
+martes 8, dos días después de la fecha de esta carrera) el usuario menciona
+correr **"casi 10km... el domingo a 6:50 minutos el kilómetro"**. El domingo
+más reciente a esa fecha es **2026-09-06 — el día de esta carrera** — pero la
+distancia no coincide: el Medio Maratón del Atlas son 21.0975 km, no ~10.
+
+⚠️ **No se asume que sea la misma carrera.** Pudo ser (a) un entrenamiento
+distinto ese mismo domingo, (b) la carrera corrida a una distancia menor de
+la inscrita, o (c) una referencia imprecisa a otro domingo. Ninguna consta.
+**El resultado real del 6-sep sigue sin registrarse en el wiki** — esta
+página no tiene, a la fecha de esta nota, ni el tiempo ni la distancia
+finalmente corrida. Vale la pena preguntar directamente y cerrar el
+[[objetivos-carrera-2026-2027]] con el dato real en vez de con la proyección.
+
 ## Preguntas abiertas
 
+- **¿Qué pasó el 6-sep?** Ver nota arriba — el desenlace de esta página
+  sigue sin dato propio, dos días después de la fecha.
 - El **plan del coach** sigue sin registrar, y es lo que decide el ritmo de
   salida del domingo. (La parte de la nutrióloga entró el 2026-08-25 —
   [[margarita-posada]] — pero **son mediciones, no un plan**: el campo

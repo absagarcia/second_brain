@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-02
+updated: 2026-09-08
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -29,6 +29,10 @@ sources:
     fact_date: 2026-08-30
     ingest_date: 2026-09-02
     confidence: high   # API de primera parte
+  - path: conversation (usuario reporta resultados de dos TikToks, sin export de plataforma)
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # primera parte pero cifras aproximadas ("más de", "como"), sin export verificable
 ---
 
 # Absadev
@@ -682,6 +686,36 @@ dio el peor resultado del catálogo cuando era sobre IAs (*Copilot vs Gemini*,
 2026-09-01 — **un día después de que esta ventana cerrara (30-ago)**. Es el
 primer dato directo, en YouTube, sobre si "comparar tecnologías" convierte
 para este canal fuera del podcast. Queda pendiente para el próximo corrido.
+
+## [2026-09-08] Dos TikToks nuevos superan la referencia de conversión — OpenSpec y "mi trabajo ideal"
+
+Reportado en conversación, **sin export de plataforma**: cifras aproximadas
+("más de", "como"), no exactas.
+
+| Video | Vistas | Seguidores nuevos | Tasa (por 1.000 vistas) | Nota |
+|---|---:|---:|---:|---|
+| OpenSpec en FitExe (grabado 2026-09-04, ver [[fitexe]]) | **más de 2,000** | **más de 8** | **≥4.0** | "generó muchos comentarios" |
+| "Mi trabajo ideal" | **más de 1,500** (orgánico) | **≈12** | **≈8.0** | "ayudó mucho ese tráfico" — sin precisar a qué |
+
+Ambos superan la referencia de conversión del export nativo del 10-ago
+(**1.60 seguidores por 1.000 vistas**, 2.86 excluyendo el pico del 03-ago) —
+el mejor dato de conversión en TikTok registrado en esta página hasta ahora,
+aunque son dos videos sueltos, no una ventana medida.
+
+⚠️ **Qué NO es este dato.** No hay export, así que no hay fecha exacta de
+publicación, ventana de medición, ni denominador auditable — a diferencia de
+los snapshots de arriba, que vienen de CSV o de la API. Se registra como
+**señal fuerte, no como medida**, igual que el par de shorts del 2026-09-01.
+Tampoco hay video de *"mi trabajo ideal"* documentado en ningún batch anterior
+de esta página ni de [[estrategia-contenido-absadev]]: es contenido nuevo del
+que aún no existe guion ni fecha de grabación registrados en el wiki.
+
+**Lectura, con la cautela de arriba:** los dos ganadores son, otra vez,
+identidad/journey (FitExe como historia de "ya nos paga un cliente", y un
+tema de carrera/vocación) y no comparación técnica pura — coherente con el
+patrón repetido desde el 10-ago (alcance↔engagement invertido, mitad
+pikacodes por delante). Ver la lectura conjunta en
+[[estrategia-contenido-absadev]].
 
 ## Related
 

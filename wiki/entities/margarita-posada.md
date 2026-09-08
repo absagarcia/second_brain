@@ -3,7 +3,7 @@ title: Margarita Posada
 type: entity
 domain: [fitness, freelance, swe]
 created: 2026-08-25
-updated: 2026-09-07
+updated: 2026-09-08
 sources:
   - path: raw/fitness/meal plan/
     fact_date: 2026-03-27 → 2026-08-18
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-09-07
     ingest_date: 2026-09-07
     confidence: high   # correo del programador anterior
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: low    # idea propia del usuario, sin negociar con ella todavía
 ---
 
 # Margarita Posada
@@ -124,6 +128,32 @@ primer cliente identificado para la candidata 2 de [[segunda-app-candidatas]]
 — aunque en una forma distinta a la que esa página imaginaba: no es un
 producto nuevo que el usuario funde, es tomar el mantenimiento de uno que ya
 existe y que es de ella.
+
+## 2026-09-08 — idea de retainer mensual (todavía no cobrado)
+
+En su journal personal, traído al wiki el mismo día, el usuario anota que le
+va a ayudar a **desarrollar sus "skills con Claude"** — Margarita, como
+[[sistema-mp-app]] ya la volvió cliente de desarrollo, ahora también quiere
+apoyo para usar Claude en su propio trabajo. ⚠️ **Es una idea, no un hecho
+facturado:** el usuario escribe "veré qué prompts puedo sacar" y "pensé que
+con ella podría cobrarle".
+
+La estructura que contempla:
+
+- Una primera sesión de **~2 horas por ~800 MXN**.
+- Después, un **retainer de 7,000 MXN/mes** que cubra a la vez horas de
+  consulta y el trabajo de dev sobre [[sistema-mp-app]] — hoy facturado por
+  hora (ver el traspaso del 2026-09-07 arriba).
+- De esos 7,000, ~2,000 pagarían la suscripción de Claude que ella necesita
+  para su trabajo, dejando **~5,000 MXN/mes netos** para el usuario.
+- Destino contemplado para esos 5,000: liquidar deudas, o acumularlos para
+  la boda ([[boda-2026]]) — el usuario calcula que **≈10,000 MXN** de aquí a
+  la fecha "le caerían muy bien" porque los necesita.
+
+Esto cambiaría la relación con Margarita de "1,200 MXN/sesión + dev por
+hora" (ambas ya medidas arriba) a un tercer modelo, de suscripción. **Vida
+corta:** es una cifra propuesta, no negociada ni cobrada — no confundir con
+los datos medidos de esta página, que sí son hechos.
 
 ## Related
 

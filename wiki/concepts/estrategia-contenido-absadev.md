@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-02
+updated: 2026-09-08
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -37,6 +37,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: low      # informe sintetizado, sin verificar y sin métricas — ver [[devtalles]]
+  - path: conversation (usuario reporta resultados de dos TikToks, sin export de plataforma)
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # primera parte pero cifras aproximadas, sin export verificable
 ---
 
 # Estrategia de contenido — Absadev
@@ -1996,3 +2000,34 @@ Open Spec) son opinión/pregunta directa a la audiencia** — el registro que
 domina el batch, consistente con la preferencia declarada el 20-ago. Ninguno
 es tip puro sin anécdota, así que ninguno cae en el patrón de *Chamba Gringa*
 #1-3 (0.00 SPV, 0 comentarios).
+
+## [2026-09-08] Dos resultados que confirman el registro identidad/journey — y uno que no estaba en ningún batch
+
+Reportado en conversación, **sin export de plataforma** (cifras aproximadas):
+el TikTok de **Open Spec** (del batch del 04-sep, arriba) hizo **más de 2,000
+vistas, más de 8 seguidores nuevos** (≥4.0/1.000) y "muchos comentarios"; un
+segundo TikTok sobre **"mi trabajo ideal"** hizo **más de 1,500 vistas
+orgánicas, ≈12 seguidores** (≈8.0/1.000) y, en palabras del usuario, "ayudó
+mucho ese tráfico" — sin precisar hacia dónde. Detalle completo y caveats en
+[[absadev]].
+
+**Encaja con el patrón, no lo cambia.** Ambos son identidad/journey (FitExe
+como historia de cliente pagando; un tema de vocación/carrera), no
+comparación técnica ni tip puro — el mismo eje que desde el 10-ago viene
+ganando en conversión por encima de alcance. Open Spec, en particular, es la
+primera medición real del ángulo #6 de [[fitexe]] en cualquiera de sus dos
+versiones.
+
+**Lo que sí es nuevo:** *"mi trabajo ideal"* no aparece en ningún batch, slate
+o script registrado en esta página hasta hoy — es contenido publicado sin
+guion previo documentado en el wiki. No cambia la lista de rechazo ni el
+mix recomendado (mitad pikacodes por delante), pero deja abierta una pregunta
+de proceso: si se van a seguir publicando piezas fuera del ciclo
+batch→guion→calendario que esta página documenta, esa página deja de ser el
+registro completo de qué se publica.
+
+⚠️ **Sigue sin denominador auditable ni fecha exacta.** Se suma como segunda
+señal fuerte (después del par del 01-sep) hacia la condición de refutación de
+opinión vs. confesión, pero **ninguno de los dos días de datos separa
+registro** todavía — falta el denominador y falta comparar piezas de
+confesión con el mismo rigor.
