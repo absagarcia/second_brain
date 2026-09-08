@@ -1975,3 +1975,24 @@ grabados por adelantado" de la reactivación del 19-ago (pensada para sostener
 cadencia de 1/mes deja de estar protegida por buffer y vuelve a depender de que
 el usuario tenga ganas cada vez — el mismo riesgo que la reactivación quería
 evitar. No se marca como error, solo como algo a vigilar en el próximo batch.
+
+## Batch grabado 2026-09-04 — 5 reels de Absadev
+
+**Grabados y editados, entregados el 2026-09-07** para captions. Fuente:
+`raw/blackicelabs/absadev-reels-2026-09-04-*.csv` (5 CSVs con timecode). El
+copy (captions TikTok/IG/YouTube + tags) vive fuera del wiki, mismo criterio
+que los batches anteriores — aquí quedan el hecho y sus consecuencias.
+
+| Video | Serie / tema | Nota |
+|---|---|---|
+| Cómo vender mis automatizaciones | proyecto real (`save_the_date`) | primer contenido sobre la boda propia como side project: landing (Canva+Claude), validación de boletos, automatizaciones en Python/WhatsApp, agente propio de WhatsApp que reporta confirmaciones. **Cierra sin resolver cómo monetizarlo** — coincide en el tiempo con [[segunda-app-candidatas]] (save_the_date sale al mercado antes del 28-nov) |
+| Open Spec | Serie 6 — Código por gusto | ver actualización 2026-09-07 en [[fitexe]]: se grabó **antes** del ciclo propose→apply→archive que la propia página recomendaba esperar — brecha anotada, no corregida |
+| Sobre ingeniería / Clean Architecture | opinión contra corriente | formato encuesta directo ("¿qué opinan ustedes?"), el registro que el 20-ago se identificó como el de mejor conversión histórica en este canal |
+| Todavía lees código | opinión contra corriente | responde a un post de X que dice que leer/revisar código ya es obsoleto; ancla en testing (Playwright e2e) y equipo grande; cierra con pregunta |
+| Usa "screen", no "watch" | Serie 1 — Sobrevivir la chamba gringa | primer material grabado de esta serie desde que quedó en pausa el 2-sep junto al resto del slate #3; error de inglés real en el trabajo, pide otros errores en comentarios |
+
+**Tres de los cinco (Clean Architecture, Todavía lees código, en menor medida
+Open Spec) son opinión/pregunta directa a la audiencia** — el registro que
+domina el batch, consistente con la preferencia declarada el 20-ago. Ninguno
+es tip puro sin anécdota, así que ninguno cae en el patrón de *Chamba Gringa*
+#1-3 (0.00 SPV, 0 comentarios).

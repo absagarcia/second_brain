@@ -220,6 +220,18 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > en el propio `config.yaml` ya pide resumir la decisión "para que se
    > pueda ingerir al second brain (domain `fitexe`, plus `swe`)" — cuando
    > pase, el resumen mismo puede ser el punto de partida del guion.
+   >
+   > **Actualización 2026-09-07:** se grabó de todos modos, el 2026-09-04 —
+   > antes de que existiera el ciclo propose→apply→archive completo que esta
+   > página recomendaba esperar. Contenido real
+   > (`raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv`): el módulo de
+   > reservar clases sí se armó con OpenSpec en un día, Claude hizo preguntas
+   > de alcance, corrigió errores de arquitectura existentes, y no llegó al
+   > límite de la sesión de 5 h. **No se corrige la recomendación anterior —
+   > se anota la brecha**: es la explicación de la herramienta con caso propio
+   > parcial (el módulo, no un archive documentado), no el artefacto completo
+   > que se pedía. Cierra con pregunta a la audiencia ("¿qué otra herramienta
+   > usas para desarrollar con IA?"), no con el resumen de un `archive`.
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

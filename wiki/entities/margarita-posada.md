@@ -1,9 +1,9 @@
 ---
 title: Margarita Posada
 type: entity
-domain: [fitness]
+domain: [fitness, freelance, swe]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-07
 sources:
   - path: raw/fitness/meal plan/
     fact_date: 2026-03-27 → 2026-08-18
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # precio por sesión, declarado por el usuario
+  - path: raw/freelance/sistema-mp-traspaso-2026-09-07.md
+    fact_date: 2026-09-07
+    ingest_date: 2026-09-07
+    confidence: high   # correo del programador anterior
 ---
 
 # Margarita Posada
@@ -29,8 +33,14 @@ coach y estos son los resultados"*. Su identidad y su método entran al wiki el
 
 - **Antropometría, no bioimpedancia.** Mide sumatoria de pliegues cutáneos y
   deriva % de grasa, masa muscular e índice músculo-óseo.
-- Usa el **Sistema MP ("Más Poder")**, software de terceros que emite las hojas
-  de "Evaluación Antropométrica" y aporta los valores de referencia.
+- Usa el **Sistema MP ("Más Poder")**, descrito el 2026-08-25 como "software de
+  terceros" que emite las hojas de "Evaluación Antropométrica" y aporta los
+  valores de referencia. ⚠️ **Corregido el 2026-09-07: no es de terceros, es
+  su propia app** — ella es titular de las cuentas de tienda, y el usuario
+  toma ahora el desarrollo tras el traspaso de un programador anterior. Ver
+  [[sistema-mp-app]] para la arquitectura y el detalle del traspaso. Se deja
+  la afirmación original sin borrar, como registro de lo que se sabía el
+  25-ago.
 - Registra al paciente por **posición deportiva** — en su caso, `RUNNING` —, lo
   que significa que los valores de referencia están ajustados al deporte, no a
   población general.
@@ -103,3 +113,19 @@ medido.** Ningún otro lo tiene.
 - No hay pauta horaria ni peri-entrenamiento, ni suplementación.
 - No consta cómo se coordina con el coach de running, que también sigue sin
   nombre ni documentación en el wiki.
+
+## 2026-09-07 — se vuelve cliente de desarrollo
+
+El usuario le pidió que iniciara el traspaso de accesos de su app **Sistema
+MP** (código, firmas, tiendas, AWS, base de datos) desde su programador
+anterior, para tomar él mismo el desarrollo. Detalle completo en
+[[sistema-mp-app]]. Esto la convierte, además de en su nutrióloga, en su
+primer cliente identificado para la candidata 2 de [[segunda-app-candidatas]]
+— aunque en una forma distinta a la que esa página imaginaba: no es un
+producto nuevo que el usuario funde, es tomar el mantenimiento de uno que ya
+existe y que es de ella.
+
+## Related
+
+- [[sistema-mp-app]] — su app, la arquitectura y el traspaso de accesos
+- [[segunda-app-candidatas]] — la hipótesis de producto que este traspaso reabre

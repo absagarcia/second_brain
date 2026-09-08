@@ -2594,3 +2594,109 @@ propose→apply→archive corrido todavía. Actualizado [[fitexe]] ángulo #6
 registrada: esperar el primer archive real para tener el artefacto (diff/spec
 concreto) que la regla del canal exige, en vez de grabar la herramienta sin
 caso propio.
+
+## [2026-09-07] ingest | CSV 9x16 del episodio 024 grabado — blackicelabs
+Usuario pega el CSV de subtítulos con timecode (9x16, capa 1) del episodio ya
+grabado "La carrera de la rata del programador moderno" y pide 7 clips.
+Confirmado contra `raw/blackicelabs/episodio-024-carrera-de-la-rata-transcript-2026-09-04.md`:
+mismo audio, formato distinto. Guardado el CSV en
+`raw/blackicelabs/episodio-024-carrera-de-la-rata-clips-9x16-2026-09-07.csv`.
+Creada [[episodio-024-carrera-de-la-rata]] con el paquete de 7 clips
+(timestamps exactos), aplicando la condición #2 de la reactivación
+(cortar en confesión, no en tip — ver [[estrategia-contenido-absadev]]) y el
+mismo patrón de "no antes del 30-sep" de [[episodio-027-side-project]].
+Duración real (16:24) anotada como fuera del rango de prueba 8-10 min.
+Actualizado `wiki/index.md`.
+
+## [2026-09-07] query | Objetivo TikTok: controversia y comentarios — blackicelabs
+Usuario aclara que el lote de 7 clips del episodio 024 va a TikTok con
+objetivo explícito de controversia, comentarios e interacción. Revisado
+[[episodio-024-carrera-de-la-rata]] contra el dato ya existente: consistente
+con la doctrina (Activation es el cuello de botella medido, TikTok es donde
+consolidó, "opinión contra corriente" era la preferencia declarada el 20-ago),
+pero se nombra explícito por primera vez que "opinión" incluye "algo con lo
+que se puede estar en desacuerdo". Cambio concreto: sale el clip de
+tenis/fascitis (informativo, no discutible), entra el tramo 09:01-09:20 sobre
+comparación de sueldos en LinkedIn (señala a una audiencia específica, cierra
+con pregunta). Se añade una pregunta-CTA sugerida por clip. Anotada
+advertencia de vida larga: no hay prueba propia en el canal de que el tono
+confrontativo convierta mejor que la opinión sin filo — es extrapolación, no
+hallazgo, y el riesgo de comentarios hostiles sin conversión queda sin medir.
+
+## [2026-09-07] query | Captions generados para los 7 clips (TikTok/IG/YouTube) — blackicelabs
+Generados captions completos para las 3 plataformas de los 7 clips de
+[[episodio-024-carrera-de-la-rata]], cada uno con su pregunta-CTA y (en
+Instagram) CTA de share explícito, siguiendo la doctrina de dos-CTA del
+14-ago. El copy vive fuera del wiki (mismo criterio que el batch del 18-ago):
+queda guardado en el scratchpad de la sesión, no en el repo. Se propuso
+calendario 1/semana del 30-sep al 11-nov, abriendo con el clip 6 (LinkedIn,
+el más discutible) en vez de seguir el orden del episodio, para probar antes
+la hipótesis de controversia sin dato propio todavía.
+
+## [2026-09-07] query | Los 7 clips ya se programaron: 24-sep a 6-oct — blackicelabs
+Usuario reporta que los 7 clips de [[episodio-024-carrera-de-la-rata]] ya
+quedaron programados en TikTok, Instagram y YouTube, del 24-sep al 6-oct.
+Contraste con lo escrito horas antes en la misma página: el plan proponía
+1/semana desde el 30-sep (para no romper el techo de 3.5 shorts/semana fijado
+como condición de refutación el 19-ago). La ejecución real empieza 6 días
+antes y comprime 7 semanas en 13 días — ≈3.8 shorts/semana solo de este lote,
+antes de sumar el resto del batch #7 ya activo en TikTok. No se corrige la
+decisión (ya está publicada); se anota como el primer caso real en que se
+cumplen las condiciones que la propia doctrina dijo que había que vigilar,
+para poder leer después si un resultado débil se explica por saturación de
+cadencia y no por el contenido. Actualizada [[episodio-024-carrera-de-la-rata]]
+(sección Programación, sin borrar el plan original) y `wiki/index.md`.
+
+## [2026-09-07] ingest | 5 reels de Absadev grabados 2026-09-04 — blackicelabs
+Usuario pide captions (TikTok/IG/YouTube) para 5 reels ya editados y pega los
+5 CSV con transcripción. Guardados en
+`raw/blackicelabs/absadev-reels-2026-09-04-*.csv`. Contenido: automatizaciones
+de su propia boda (`save_the_date`, sin monetización decidida — cruza con
+[[segunda-app-candidatas]]), Open Spec en FitExe (actualiza [[fitexe]]: se
+grabó antes del ciclo propose→apply→archive completo que esa página pedía
+esperar — brecha anotada, no corregida), Clean Architecture como
+sobre-ingeniería (encuesta directa), "todavía lees código" (opinión contra
+corriente sobre testing en la era de IA), y el primer material de la Serie 1
+"sobrevivir la chamba gringa" desde que quedó en pausa el 2-sep. Añadido
+resumen del batch a [[estrategia-contenido-absadev]]. Generados 15 captions
+(copy fuera del wiki, en el scratchpad de la sesión) con tags de YouTube.
+Actualizados `wiki/index.md`, [[fitexe]] y `wiki/log.md`.
+
+## [2026-09-07] ingest | Traspaso de accesos de Sistema MP — freelance, swe
+Fuente archivada en `raw/freelance/sistema-mp-traspaso-2026-09-07.md`: el
+usuario le pidió a [[margarita-posada]] iniciar el traspaso de accesos de su
+app **Sistema MP** desde un programador anterior (Víctor), y este respondió
+con el estado completo (repos, firmas, tiendas, AWS, base de datos). Creado
+[[sistema-mp-app]].
+
+**Corrección importante:** [[margarita-posada]] describía Sistema MP como
+"software de terceros" (2026-08-25). Es al revés — es su propia app, ella es
+titular de las cuentas de tienda. Se deja la afirmación original sin borrar,
+con la corrección al lado y fechada, per la regla de contaminación
+retrospectiva.
+
+**Contradice en su forma a [[segunda-app-candidatas]]:** esa página
+recomendaba construir un producto **nuevo y 100% suyo** para nutriólogos,
+con Margarita como entrevista de descubrimiento. Lo que llega es tomar el
+mantenimiento de una app que ya existe y que es de ella, en un stack distinto
+(React Native + Go/Echo + PostgreSQL en AWS, no Flutter/Supabase). Queda
+abierto en qué términos entra el usuario al proyecto.
+
+⚠️ **Nota de seguridad:** la fuente incluye una contraseña de AWS real en
+texto plano y advertencias del propio programador saliente sobre credenciales
+hardcodeadas en el código y un keystore de producción que sólo existe en su
+máquina. Se archivó tal cual a petición explícita del usuario (confirmado tras
+preguntarle), aceptando que queda en el historial de git de este repo; las
+páginas de wiki no repiten la contraseña. Recomendación registrada: rotar
+credenciales en cuanto el traspaso concluya.
+
+Actualizados: `wiki/index.md`, [[margarita-posada]], [[segunda-app-candidatas]].
+
+## [2026-09-07] update | Sistema MP: entra como freelance por hora — freelance, swe
+Cerrado el punto abierto en [[sistema-mp-app]] y [[segunda-app-candidatas]]:
+el usuario confirmó que entra al proyecto de Margarita **como freelance por
+hora**, no como socio ni dueño de una reescritura. Consecuencia registrada en
+ambas páginas: **esto no es la candidata 2 y no cuenta para el objetivo 16**
+(que exigía recurrente y 100% suyo) — es ingreso freelance del mismo tipo que
+[[slalom]]. La candidata 2 (producto propio para nutriólogos/coaches, 100%
+suyo) sigue sin construirse. Actualizado `wiki/index.md`.

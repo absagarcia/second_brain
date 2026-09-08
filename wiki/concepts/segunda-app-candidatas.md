@@ -1,14 +1,18 @@
 ---
 title: La segunda app — criterios y candidatas
 type: concept
-domain: [swe, fitexe, finance, blackicelabs]
+domain: [swe, fitexe, finance, blackicelabs, freelance]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-07
 sources:
   - path: raw/reflections/segunda-app-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # el encargo, de primera mano
+  - path: raw/freelance/sistema-mp-traspaso-2026-09-07.md
+    fact_date: 2026-09-07
+    ingest_date: 2026-09-07
+    confidence: high   # correo del programador anterior
 ---
 
 # La segunda app — criterios y candidatas
@@ -120,6 +124,27 @@ un cliente que ya le cobra 1,200 por sesión.**
 - ❌ Sin distribución propia: su audiencia son devs, no nutriólogos. Se vende
   uno a uno.
 
+**2026-09-07 — se mueve, pero cambia de forma.** El usuario le pidió a
+Margarita el traspaso de accesos de **Sistema MP**, la app de nutrición que
+resulta ser suya (no un software de terceros, como se pensaba el 25-ago — ver
+[[margarita-posada]] y el detalle técnico en [[sistema-mp-app]]: React
+Native + Go + PostgreSQL en AWS, con un programador anterior saliendo del
+proyecto). Esto **no es la candidata 2 tal como se planteó aquí.** La
+recomendación de este documento era construir algo **nuevo y 100% suyo**,
+reutilizando el stack de FitExe, con Margarita como entrevista de
+descubrimiento. Lo que llega es distinto: **tomar el mantenimiento de un
+producto que ya existe y que es de ella**, en un stack que no es el que
+domina (React Native/Go, no Flutter/Supabase).
+
+**Cerrado el mismo día: entra como freelance por hora.** No socio, no dueño de
+nada — trabajo de cliente cobrado por hora sobre una app que sigue siendo
+100% de Margarita. **Esto no es la candidata 2 y no cuenta para el objetivo
+16** tal como esta página lo definió (recurrente, 100% suyo). Es ingreso
+freelance del mismo tipo que [[slalom]], útil por sí mismo pero fuera del
+argumento central de este documento. **La candidata 2 sigue sin construirse**
+— lo que llegó fue una vía distinta, con Margarita como cliente pero no como
+cliente cero de un producto suyo. Detalle completo en [[sistema-mp-app]].
+
 ### 3. Producto para devs o creadores — *la única con distribución gratis*
 
 Es el único mercado donde sus 12,400 seguidores **son** los clientes. Y él
@@ -189,6 +214,7 @@ que sí cabe ahora son las tres conversaciones de abajo, que no cuestan código.
 - [[fitexe]] — el producto existente y el 50/50 que motiva el argumento
 - [[carlos-emilio-blanco]] — la conversación previa obligatoria
 - [[margarita-posada]] / [[plan-alimenticio-mp-2026]] — el cliente cero y las fricciones observadas
+- [[sistema-mp-app]] — el desarrollo real que llegó el 07-sep, y en qué difiere de esta hipótesis
 - [[boda-2026]] — la ventana de distribución que expira el 28-nov
 - [[absadev]] / [[absa-garcia]] — la distribución que tiene y para quién sirve
 - [[athletix-ai]] — la evidencia sobre el mercado descartado
