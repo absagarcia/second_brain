@@ -3,7 +3,7 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo (Apple Watch) vía API de Strava
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # journal personal, ideas sin ejecutar todavía
 ---
 
 # Absa Garcia (absa.garcia)
@@ -432,8 +436,38 @@ vistas y **73.81 MXN**, así que como apuesta de retorno económico el
 lifestyle en español es lento y saturado; como crónica de vida no le toca
 justificarse con métricas.
 
+## 2026-09-08 — journal: Facebook/Champions, pantalla, y la hora de pareja
+
+Del journal personal del usuario (`raw/reflections/journal-2026-09-08.md`),
+tres hilos nuevos para esta página:
+
+**Facebook como tercera red a monetizar.** El objetivo 9 de
+[[objetivos-vida-2026-2027]] ("1,000 MXN/mes de YouTube") y el trabajo activo
+en TikTok ya estaban registrados; Facebook no. El usuario dice que en
+Facebook "me ha ido de la verga" salvo en **contenido deportivo**, y
+contempla subir el **resumen de la jornada de Champions** para ver alcance y
+dinero. Es una idea sin ejecutar, sin dato de audiencia ni de monetización
+en Facebook — el wiki no tenía, hasta hoy, un solo renglón sobre esa
+plataforma para ninguna de las dos marcas del usuario.
+
+**Screen time y minimalismo digital, en primera persona.** El usuario
+describe el patrón que [[minimalismo-digital]] nombra desde la teoría —
+scroll compulsivo nada más despertar, cero tiempo para hobbies que no sean
+correr— y se pregunta si borrar las redes del iPhone (dejarlas solo en
+iPad) es el primer paso. **No hay decisión tomada ni experimento en curso**;
+es la primera vez que el usuario aplica ese libro a sí mismo en vez de
+citarlo como fuente para el contenido.
+
+**La hora de pareja, vista desde el calendario ya documentado.** Ver
+[[sofi]] (página nueva) — la fricción que él anota entre "vida de calidad en
+pareja" y el tiempo que ya le exige el contenido coincide con el
+presupuesto de 4-6 h/semana que esta página y
+[[estrategia-contenido-absadev]] ya marcaban como insuficiente incluso antes
+de sumar esa tercera reclamación.
+
 ## Related
 
+- [[sofi]] — su pareja, y la tensión de tiempo anotada el 2026-09-08
 - [[absadev]] — the tech/dev sibling brand
 - [[estrategia-contenido-absadev]] — the active strategy (Series 8
   boundary interacts with this page)

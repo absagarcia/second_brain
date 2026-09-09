@@ -3,12 +3,16 @@ title: Objetivos de vida 2026-2027
 type: entity
 domain: [finance, fitness, blackicelabs, swe, fitexe, books, reflections]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # primera mano, dictado por el usuario
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # reconfirma el objetivo 9, añade Facebook sin cifra
 ---
 
 # Objetivos de vida 2026-2027
@@ -348,6 +352,47 @@ YouTube y TikTok (*"10K pero primero 8K"*): **5 gimnasios = media renta**.
 
 **El objetivo 7 y la agenda quedan como los dos frentes sin resolver de esta
 sesión.**
+
+## 2026-08-26 — los 17, reordenados por estructura
+
+El usuario planteó *"empiezo muchas cosas y pocas termino"* y pidió ajustar las
+metas. El análisis está en [[patron-de-terminacion]], y **corrige la premisa**:
+sus series medidas (218 actividades de running sin una regresión, 8 evaluaciones
+corporales sin un retroceso, 15,000/mes ahorrados, 23 episodios a 2.4/mes) no
+son el historial de alguien que no termina.
+
+**Lo que sostiene tiene siempre testigo + cadencia que no pone él + fecha
+inmovible. Lo que abandona no tiene ninguna de las tres.**
+
+Aplicado a esta lista:
+
+| | Objetivos | Estado |
+|---|---|---|
+| **Con estructura** | 1 (boda) · 2 (carro) · 3 (medio 2027) · 4 (grasa) · 11 (bolsa, si se automatiza) | corren solos |
+| **Sin estructura** | 5 · 6 · 7 · 10 · 12 · 13 · 14 · 15 · 16/segunda app · 17 | se atascan |
+
+**Cinco funcionando, ocho a la deriva** — y el **objetivo 5 está a un paso**: ya
+tiene fecha, sólo le falta que alguien en [[slalom]] sepa que va por eso.
+
+**La regla que faltaba: máximo un objetivo sin estructura activo a la vez.** Él
+escalona bien (*"10K pero primero 8K"*) y **multiplica mal**: nunca puso límite
+de cosas en paralelo. Secuencia propuesta — **cero objetivos nuevos hasta el
+28-nov**, el primer espacio se abre en diciembre, y 2027 va de uno en uno.
+
+## 2026-09-08 — el objetivo 9 reconfirmado, y aparece una cuarta plataforma
+
+En su journal personal el usuario repite, casi textual, el **objetivo 9**
+("1,000 MXN/mes de YouTube") — sin nueva cifra, pero confirmando que sigue
+vigente y describiendo el destino: gastos del hogar o pauta publicitaria
+para el canal. No cierra la pregunta abierta 4 (¿está monetizado el canal?
+sigue sin constar).
+
+Lo nuevo: dice estar trabajando **TikTok** para tener **"las 3 redes
+sociales monetizadas"**, y menciona **Facebook** como la tercera —
+plataforma que **no aparece en ninguno de los 17 objetivos ni en
+[[absadev]]/[[absa-garcia]]**, salvo por su idea de subir el resumen de la
+jornada de Champions ahí (detalle en [[absa-garcia]]). El inventario de 17
+metas sigue sin una línea propia para Facebook.
 
 ## Vida útil de esta página
 

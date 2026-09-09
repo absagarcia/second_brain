@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-08-25
+updated: 2026-09-09
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -13,6 +13,18 @@ sources:
     fact_date: 2026-07-29
     ingest_date: 2026-07-29
     confidence: high           # first-party owner statement
+  - path: /Users/absagarcia/Documents/Proyects/app_fitexe/openspec/   # first-party repo, read directly (not in raw/)
+    fact_date: 2026-09-02
+    ingest_date: 2026-09-02
+    confidence: high           # config + skills leídos directo del repo; specs/changes confirmados vacíos
+  - path: conversation (usuario reporta resultado del TikTok de OpenSpec, sin export de plataforma)
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium         # primera parte pero cifras aproximadas ("más de", "más de"), sin export verificable
+  - path: conversation (usuario propone línea recurrente de "patrones agénticos con Claude")
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: low            # intención declarada, no guion ni batch ni resultado nuevo todavía
 ---
 
 # FitExe
@@ -201,6 +213,52 @@ Angles ranked by fit with what the week-1 data actually rewarded:
 6. **"Escribo docs para que los agentes de IA trabajen en mi repo"** —
    `agents.md` + per-topic guidelines. Rides the *Camino a AI Engineer*
    positioning with something he actually does, not a trend take.
+   > **Actualización 2026-09-02:** el usuario empezó a adoptar **OpenSpec**
+   > (spec-driven development con Claude) en este repo — confirmado por
+   > archivo: `openspec/config.yaml` (schema `spec-driven`, reglas de
+   > proposal/tasks/apply/archive ya escritas) y seis skills instaladas
+   > (`openspec-propose`, `-explore`, `-apply-change`, `-update-change`,
+   > `-archive-change`, `-sync-specs`). Es una versión más concreta de este
+   > mismo ángulo #6, no uno nuevo. **`openspec/specs/` y `openspec/changes/`
+   > están vacíos** — el sistema está armado pero **todavía no hay un ciclo
+   > propose→apply→archive real corrido**. Recomendación: no grabar todavía —
+   > esperar al primer *archive* real, porque ahí aparece el artefacto que la
+   > regla de este canal exige (el diff/spec concreto en pantalla), en vez de
+   > una explicación de la herramienta sin caso propio. La guía de `archive`
+   > en el propio `config.yaml` ya pide resumir la decisión "para que se
+   > pueda ingerir al second brain (domain `fitexe`, plus `swe`)" — cuando
+   > pase, el resumen mismo puede ser el punto de partida del guion.
+   >
+   > **Actualización 2026-09-07:** se grabó de todos modos, el 2026-09-04 —
+   > antes de que existiera el ciclo propose→apply→archive completo que esta
+   > página recomendaba esperar. Contenido real
+   > (`raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv`): el módulo de
+   > reservar clases sí se armó con OpenSpec en un día, Claude hizo preguntas
+   > de alcance, corrigió errores de arquitectura existentes, y no llegó al
+   > límite de la sesión de 5 h. **No se corrige la recomendación anterior —
+   > se anota la brecha**: es la explicación de la herramienta con caso propio
+   > parcial (el módulo, no un archive documentado), no el artefacto completo
+   > que se pedía. Cierra con pregunta a la audiencia ("¿qué otra herramienta
+   > usas para desarrollar con IA?"), no con el resumen de un `archive`.
+   >
+   > **Actualización 2026-09-08 — resultado del video (self-reported, sin
+   > export de plataforma):** más de 2,000 vistas, **más de 8 seguidores
+   > nuevos** (≥4.0 por 1.000 vistas) y "muchos comentarios" — por encima de
+   > la referencia de conversión de TikTok del 10-ago (1.60/1.000, 2.86
+   > excluyendo el pico). Es el primer resultado medido del ángulo #6 en
+   > cualquiera de sus dos versiones (genérico o con OpenSpec), y confirma
+   > que **la brecha anotada arriba** (explicación con caso propio parcial,
+   > no el ciclo completo) no le costó desempeño. Ver la lectura conjunta
+   > con el otro video del mismo reporte en [[estrategia-contenido-absadev]]
+   > y el snapshot de [[absadev]].
+   >
+   > **Actualización 2026-09-09:** el usuario propone convertir esto en línea
+   > recurrente — *"patrones agénticos de IA con Claude para trabajar en
+   > apps"*, en plural, no un video suelto sobre una herramienta. Sigue siendo
+   > el mismo ángulo #6 en escala mayor, y FitExe sigue siendo el material
+   > (repo real en producción, no un todo app). Candidatos concretos y la
+   > condición antes de comprometerle un batch entero (n=1 todavía) están en
+   > [[estrategia-contenido-absadev]].
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

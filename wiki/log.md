@@ -2275,3 +2275,573 @@ La distinción importa para el próximo lint: las primeras tres son un problema 
 **cobertura de datos**; la cuarta es un problema de **método**, y es la que hay
 que corregir con una regla, no con más fuentes: **cuando una cifra llega sin
 periodicidad explícita, preguntarla antes de derivar sobre ella.**
+
+---
+
+## [2026-08-26] ingest | Tácticas de popularidad en TikTok LIVE — blackicelabs
+
+Guía genérica de TikTok (sin URL, pegada por el usuario) sobre Super Fan,
+Super Fan goals y shoutouts para subir en Popular LIVE. Página nueva
+[[tiktok-live-popularity-tactics]], confianza baja (sin cifras, sin caso
+propio). Nota explícita: introduce LIVE como superficie sin un solo dato en
+el expediente de [[absadev]] — no se integra a la estrategia activa, queda
+registrada como opción sin explorar.
+
+---
+
+## [2026-08-26] tooling | `yt_report.py` ya cubre rangos 2–7 de §5
+
+El usuario describió la cobertura que quería del reporte automático de
+[[absadev]] (vistas, retención a 30s, nuevos/recurrentes, comparación
+age-matched, etc.). Al revisar `skills/youtube-analytics` en wa-agent, la
+cobertura ya existía en el código pero tres piezas (`retention_curve`,
+`retention_split`, `new_vs_returning`) estaban escritas y sin conectar al
+reporte final — se cablearon el mismo día. Registrado en [[absadev]].
+
+---
+
+## [2026-08-26] snapshot | Absadev — quinto corrido de `yt_report.py`, primer neto negativo — blackicelabs
+
+Ventana 2026-07-27 → 2026-08-23 (28d). Primera vez con suscriptores netos
+negativos (−4: 17 altas, 21 bajas), SPV −1.11 (peor que la referencia
+catastrófica de [[absa-garcia]], 0.11), vistas −26% (3.589, por debajo del
+bache ya documentado), comentarios −62% (5, la Serie 4 se queda sin
+material), Sugeridos 0.0%. Ritmo de publicación sigue en ~5/semana (20
+videos), tercera fuente independiente (con la medición del 10-ago y la
+doctrina de plataforma del 14-ago) señalando bajar a lo acordado. Registrado
+en [[absadev]] y [[estrategia-contenido-absadev]].
+
+## [2026-08-26] ingest | "Empiezo muchas y termino pocas" — el patrón, corregido por sus datos — reflections, blackicelabs, fitness, swe, books
+
+Fuente nueva: `raw/reflections/patron-terminacion-2026-08-26.md` (autodiagnóstico
+del usuario, `confidence: medium`). **Creada** [[patron-de-terminacion]].
+**Actualizadas** [[objetivos-vida-2026-2027]] y el índice.
+
+**Hallazgo 1 — la premisa es falsa, y el expediente lo prueba.** Sus series
+medidas de los últimos cinco meses: **218 actividades de running y mejora de
+ritmo sin una sola regresión**, **8 evaluaciones corporales con pliegues a la
+baja en las 8 sin un retroceso**, **15,000/mes ahorrados** (145,000 acumulados),
+**23 episodios de podcast a 2.4/mes**, FitExe publicada con un cliente que paga
+y `save_the_date` en producción. **Ése no es el historial de alguien que no
+termina cosas.**
+
+**Hallazgo 2 — el patrón real es estructura, no constancia.** Todo lo que
+sostiene tiene **testigo + cadencia que no pone él + fecha que no puede mover**
+(coach y carreras · [[margarita-posada]] y sus citas · la quincena · Emilio y un
+cliente · el 28-nov). Todo lo que abandona **no tiene ninguna de las tres**:
+Swift, el podcast, *Absa con Café*, las ocho series de shorts.
+
+**Hallazgo 3 — la prueba más limpia: el podcast se detuvo en su mejor mes de
+audiencia.** Con los números subiendo, las ganas sobraban. **Se detuvo porque
+nadie esperaba el siguiente episodio.** El motor no son las ganas.
+
+**Hallazgo 4 — el caso Swift tiene precio, y cruza dos objetivos que él trata
+como separados.** El video que lo anunció es **el de mayor SPV del canal
+(9.48)**: llegaron suscriptores por una promesa que a los 26 días se declaró
+detenida. Y el objetivo 7 sigue empeorando — el snapshot de esta misma mañana
+marca **−4 netos y SPV −1.11**. ⚠️ **No hay datos de bajas por video: es
+hipótesis, no causalidad.** Pero queda escrita: **el problema de terminación y
+el de retención podrían ser el mismo.**
+
+**Hallazgo 5 — el hueco no es de conocimiento.** [[systems-over-willpower]]
+consolida **seis libros que él ya leyó** diciendo exactamente esto, y
+[[goal-setting-vs-systems-based-habits]] ya lo tenía comparado en este wiki. Las
+metas que diseñó después no llevan ninguno de esos mecanismos.
+
+**La regla que faltaba: máximo un objetivo sin estructura activo a la vez.** De
+los 17: **5 con estructura** (boda, carro, medio 2027, grasa, bolsa si se
+automatiza) y **8 a la deriva**. Él **escalona bien** (*"10K pero primero 8K"*) y
+**multiplica mal** — nunca puso límite de cosas en paralelo.
+
+**Secuencia propuesta:** cero objetivos nuevos hasta el 28-nov (los cinco
+estructurados corren solos); el único movimiento activo es **abrir la
+conversación del ascenso en [[slalom]]**, que es la meta de mayor retorno y sólo
+necesita testigo. Primer espacio libre en diciembre. 2027, de uno en uno:
+canal con testigo ([[daniel]]) → objetivo 15 con definición de "hecho" →
+podcast con el batch grabado por delante. **Objetivo 13 (*Absa con Café*) no
+entra** hasta que el 14 lleve tres meses cumpliéndose.
+
+**Cuatro acciones de esta semana que no quitan tiempo a nada:** decirle a
+alguien en Slalom que va por Senior · pedirle a Daniel que pregunte cada viernes
+si publicó · automatizar la transferencia quincenal a la bolsa · listar qué
+libros están empezados.
+
+**Regla dura respetada:** `raw/` sólo recibió un archivo nuevo.
+
+## [2026-08-26] query | Qué episodio de BLACK ICE LABS grabar primero — blackicelabs, fitexe
+
+Pregunta del usuario, contestada desde el expediente. **Actualizada**
+[[estrategia-contenido-absadev]] (sección nueva). Sin fuente nueva en `raw/`:
+es síntesis, no ingest.
+
+**Respuesta: el #4 — `027. El side project que por fin cobra — con Emilio`.**
+
+**Cambia el criterio del 19-ago.** Aquella sección decía *"los dos solos se
+graban ya; los dos con invitado dependen de agenda"*. **Siete días después
+ninguno de los dos solos está grabado** y el show sigue sin publicar desde
+junio. Es [[patron-de-terminacion]] confirmándose en tiempo real: **lo que sólo
+depende de él se aplaza; lo que involucra a otra persona ocurre.** El criterio
+deja de ser "cuál es más fácil" y pasa a ser **"cuál trae estructura"** — y el
+#4 la trae de fábrica (invitado ⇒ fecha agendada ⇒ testigo).
+
+**Su material mejoró en 24 horas.** El 19-ago era *"FitExe cobra 600"*; hoy hay
+un episodio de aritmética real (43 gimnasios a 600 vs. 11 a 2,500; ~US$32/mes
+por gestionar un gimnasio; el 50/50) y **una confesión que sostiene el
+episodio: cobramos de menos y tardamos en darnos cuenta**. Eso además resuelve
+la advertencia del 20-ago de que la apertura del #4 era **plantilla, no
+anécdota**.
+
+⚠️ **Conflicto nuevo, no detectado hasta hoy.** El título de YouTube del #4
+promete *"cuánto y cómo"*, y [[fitexe]] tiene escrito desde el 2026-07-29 que
+el default seguro es *"ya tenemos un cliente que paga"* **sin revelar monto ni
+cliente**, con visto bueno de [[carlos-emilio-blanco]] para cualquier cifra.
+**El título promete justo lo que la regla pide no dar.** Tres salidas
+registradas, en orden: contar la lección sin la cifra · rangos · cifra exacta
+con permiso. Y una consideración de negocio que pesa más: **publicar el precio
+actual antes de subirlo complica subirlo.**
+
+**El argumento más fuerte no es de contenido:** el wiki ya recomendó dos veces
+hablar con Emilio (precio de FitExe, segunda app). **Agendar la grabación es
+agendar esa conversación** — el episodio y la reunión de socios son el mismo
+evento.
+
+**Restricción vigente:** grabar ahora, **publicar clips desde el 30-sep**, para
+no romper el techo de 3.5 shorts/semana que es condición de refutación del plan
+del 19-ago. Y no abre objetivo nuevo: el 14 ya estaba activo — esto le da la
+estructura que le faltaba.
+
+## [2026-08-26] Emilio acepta + guion del episodio 027 — blackicelabs, fitexe, books
+
+[[carlos-emilio-blanco]] aceptó grabar. **Creada** [[episodio-027-side-project]]
+con el guion completo. **Actualizado** el índice.
+
+**El objetivo 14 queda estructurado en el mismo día en que se diagnosticó que le
+faltaba estructura:** con el invitado confirmado hay fecha agendada y testigo,
+que son dos de las tres propiedades que [[patron-de-terminacion]] identificó
+como condición de que algo se termine.
+
+**Forma del guion:** 8-10 min · cold open por incidente **sin intro ni música**
+(regla del 20-ago) · 4 bloques · **8 cortes de clip marcados en confesión, no en
+tip** · un solo CTA, apuntado al cuello de botella medido (*Activation*).
+
+**Cuatro libros, deliberadamente no más** —el catálogo creció +18% mientras la
+audiencia se encogía—: [[hazlo-tan-bien-que-no-puedan-ignorarte]] (capital de
+carrera: *nadie paga por una idea, pagan por algo que ya funciona*),
+[[the-saas-playbook]] **en el corazón** (cobrar de menos como error clásico del
+bootstrapped), [[de-cero-a-uno]] (nicho estrecho: *no le vendimos al mercado
+fitness, le vendimos a un gimnasio*) y [[sin-esfuerzo]] (contra la mitología del
+startup: *lo chiquito no siempre es la etapa previa a lo grande*).
+
+**Callback que sostiene el bloque 1:** el episodio 021 fue *"5 ideas de side
+projects para pagar la renta"* — **y ninguna de las cinco era ésta**. Es el
+contraste que [[devtalles]] no puede replicar: allá el equivalente es
+hipotético, aquí cobra.
+
+⚠️ **Escrito en la versión segura.** El guion funciona **completo sin decir la
+cifra**; hay **un único punto marcado** donde entra si Emilio la autoriza —
+aceptar grabar no es aceptar publicar el precio, y [[fitexe]] exige su visto
+bueno explícito para cifras. Se mantiene además el argumento de negocio:
+publicar el precio actual antes de subirlo complica subirlo.
+
+**El bloque 4 es la parte que no es contenido:** tres preguntas a Emilio, la
+tercera es *"¿subimos el precio con el que ya tenemos, o lo dejamos y buscamos
+más?"* — **la conversación de socios que el wiki venía recomendando desde ayer,
+grabada en vivo.** Con instrucción explícita de **no ensayarla**.
+
+**Cinco huecos marcados para que él los rellene** (cuál apertura es verdad, cómo
+apareció el gimnasio, si alguna vez se quejaron del precio, la decisión de la
+cifra, quién dijo el número primero) — **el wiki no inventa la anécdota**: si no
+hay incidente real, el cold open se cae, que es la advertencia que ya estaba
+escrita el 20-ago.
+
+## [2026-08-26] revisión | El 027 se graba SOLO — el guion cambia de tiempo verbal
+
+Horas después de confirmar a Emilio, el usuario decide grabar sin invitado.
+**Actualizada** [[episodio-027-side-project]] (revisión completa) y el índice.
+
+**Dos costes, anotados sin disimular porque los dos están medidos:**
+
+1. **Se pierde la estructura que hizo que se eligiera este episodio.** El #4 se
+   escogió sobre los otros tres **precisamente porque el invitado obligaba a
+   agendar** ([[patron-de-terminacion]]). Los dos episodios solos del slate
+   llevan una semana sin grabarse. **Mitigación registrada: fecha hoy, dicha a
+   alguien, más fecha de publicación.** Sin eso, éste sería el cuarto documento
+   excelente de la semana que no se convierte en episodio.
+2. **Este episodio ya no adquiere público.** El plan del 19-ago lo dice con
+   dato: *"el podcast solo no adquiere público — sólo recircula el que ya
+   existe; el invitado es la única pieza que trae audiencia nueva."*
+
+**Y una ventaja real que compensa parte: la confesión es más limpia solo.** Con
+el socio delante no se puede decir *"nos equivocamos con el precio"* sin
+implicarlo en vivo. **El episodio gana en honestidad lo que pierde en alcance.**
+
+**El cambio que salva el guion: pasa de pasado a presente.** El bloque 4 dejaba
+de existir sin invitado, y en su lugar entra **"la decisión que todavía no
+tomo"** — las dos opciones (subir precio al cliente que ya tiene vs. dejarlo y
+buscar más) planteadas en voz alta **y dejadas abiertas**. Un episodio solo se
+sostiene peor contando algo terminado y mucho mejor contando algo sin resolver.
+
+**La frase que ahora es el episodio**, y que un episodio con invitado no habría
+podido decir sin incomodar a nadie: *"sé cuál es la respuesta de los libros
+—subir el precio, siempre subir el precio— y aun así no lo he hecho, porque el
+que paga no es un caso de estudio: es un señor con un gimnasio que confió en
+nosotros cuando la app estaba peor que hoy."*
+
+**El cabo suelto se vuelve deliberado:** cierra anunciando que se lo preguntará
+a Emilio y que **ese** episodio se graba juntos — con lo que el 027-bis (el que
+sí trae audiencia nueva) queda con razón de existir, y el CTA deja de ser
+decorativo: pide ayuda con una decisión real, que es justo lo que ataca el
+cuello de botella medido (*Activation*).
+
+**Cambios menores:** cae el *"— con Emilio"* del título de Spotify; se propone
+título nuevo de YouTube con la consulta buscable delante (*"cuánto cobrar por un
+side project"*), conforme a la corrección del 14-ago y al 35.0% de tráfico de
+Búsqueda; entra [[el-cisne-negro]] en una sola frase (*"con una muestra de uno
+no se sabe si acertamos o tuvimos suerte"*), aprovechando que el wiki ya tenía
+registrada su contradicción frontal con [[de-cero-a-uno]].
+
+🚫 **La cifra queda fuera, y se cierra esa decisión.** El visto bueno de Emilio
+del 26-ago fue para **grabar juntos**; hablar de números compartidos sin él en
+la sala es **más** delicado, no menos.
+
+## [2026-08-26] ingest | El episodio 027 SE GRABÓ — transcript completo — blackicelabs, fitexe
+
+El usuario entrega el transcript del episodio ya grabado. **Actualizada**
+[[episodio-027-side-project]] con la sección de resultado. **Se rompe la racha
+de 72+ días sin publicar del [[blackicelabs-podcast]].**
+
+**Dato de proceso, y es el más útil del día:** el episodio se grabó **el mismo
+día** en que se escribió el guion. Contra el pronóstico de
+[[patron-de-terminacion]] —que avisaba de que sin invitado no habría quien lo
+obligara—, la mitigación funcionó **porque no hubo hueco entre decidir y
+hacer**. Regla candidata: **para lo que no tiene testigo, la estructura
+sustituta es la inmediatez.**
+
+**Hallazgo 1 — sus mejores frases son las que NO estaban en el guion.** Varias
+líneas escritas salieron casi textuales (el cierre del precio, *"menos de 50
+dólares al mes"*, *"y el producto es exactamente el mismo"*, el CTA entero),
+pero las cuatro frases más fuertes son improvisadas: *"son tres cafés de 303 que
+me he tomado para hacer este proyecto"*, *"la fatídica rutina por WhatsApp, y es
+algo que a mí me caga"*, *"ellos iban a ser nuestros conejillos de indias"* y —la
+mejor— *"de 2022 a 2026, **un Mundial después**, aquí estamos sacándolo y
+facturando"*. **Lección durable: el guion debe traer estructura y cifras, no
+frases de diálogo.** Él mismo dice en el 12:21 que *"me fui con el guion"*.
+
+**Hallazgo 2 — la prueba de duración queda contaminada.** Objetivo 8-10 min,
+real **13:46**: entre 38% y 72% por encima, dentro del rango del catálogo viejo.
+**La hipótesis de que acortar mejora la retención sigue sin probarse.**
+
+**Hallazgo 3 — contenido nuevo que el expediente no tenía:** el bloqueo de
+publicación en tiendas **no es técnico, son los testers que exige Google Play**;
+el **pivote** contado por primera vez (nació coach↔atleta, **se volvió software
+administrativo de establecimientos deportivos** — cortes de caja, gastos
+hormiga), lo que **cambia la descripción de producto que [[fitexe]] tiene
+escrita**; y el diseño hecho con IA (Google Stitch, Claude) por falta de
+presupuesto.
+
+⚠️ **Dos avisos.** (1) En el 2:29 identifica al cliente como *"un CrossFit aquí
+en Guadalajara"* — categoría + ciudad no es el nombre, pero acota mucho contra
+la regla de [[fitexe]] de no identificar al gimnasio; evitable en los clips. (2)
+Sus cifras en cámara fueron **30/15/10 gimnasios**, no las 43/11 de
+[[ruta-a-13k-side-project]]; no se corrige el episodio, se anota que la
+aritmética pública y la del wiki no coinciden.
+
+**Pendiente:** el corte de clips (~8, en confesión no en tip), que **no pueden
+publicarse antes del 30-sep** por el techo de 3.5 shorts/semana.
+
+## [2026-09-01] resultado | Primeros dos shorts del registro "opinión" — blackicelabs
+
+Publicados 2 shorts en TikTok el mismo día (la pregunta en inglés / los defaults
+de OpenClaw 2). **+5 seguidores: 4 y 1.** Sin vistas → registrado como señal, no
+como medida (la referencia comparable es 1.60 seguidores por 1.000 vistas,
+10-ago). Actualizados [[absadev]] y [[estrategia-contenido-absadev]] con el
+hallazgo incómodo: el de 4 seguidores es la variante de una pieza que estaba en
+la lista de rechazo permanente del 20-ago, y el íntegramente técnico sacó la
+cuarta parte. No se toca la lista de rechazo; se escribe la condición para
+renegociarla (tres pares con denominador, por 1.000 vistas).
+
+## [2026-09-02] query | ¿Podcast comparando tecnologías/IAs? — blackicelabs
+Usuario preguntó por un episodio de podcast comparando tecnologías/IAs.
+Verificado acceso a YouTube Analytics API (`yt_report.py`, ventana
+2026-08-03 → 2026-08-30) — corrido con éxito, snapshot añadido a
+[[absadev]]. Hallazgo citado: en el catálogo del podcast, las comparaciones
+de IA-como-noticia (*Copilot vs Gemini*) son el peor episodio por oyentes
+únicos (6), mientras que comparaciones evergreen (*Node vs Python*) están en
+el top-4. El slate aprobado del podcast (4 episodios, 19/20-ago) no incluye
+un tema de este tipo; se registró como candidato de pool, no como slate.
+Se destaca "Python vs Node.js: cuál aprender primero en 2026" (short
+publicado 18-ago), primer dato directo en YouTube sobre el formato, aún sin
+ventana de 14 días cumplida.
+
+## [2026-09-02] query | Usuario recorta el slate del podcast a 1 episodio — blackicelabs
+Presentado el slate de 4 episodios (rediseño 20-ago), el usuario dice que
+solo le gustó el #1 ("La carrera de la rata del programador moderno" /
+"Burnout de programador: por qué subir de sueldo no lo arregla").
+Preguntado qué hacer con #2-4, elige grabar solo #1 y dejar los otros tres
+en pausa (no reemplazarlos ni forzarlos). Actualizado
+[[estrategia-contenido-absadev]]: se registra como preferencia del creador
+sobre el dato (trampa #1 de la doctrina), y se anota el riesgo de que grabar
+episodio a episodio rompa la lógica de "batch de 4" pensada para sostener
+1/mes sin depender del ánimo del día.
+
+## [2026-09-02] query | OpenSpec en app_fitexe, ¿video? — fitexe, swe, blackicelabs
+Usuario pregunta si vale la pena un video sobre OpenSpec (spec-driven dev con
+Claude), que empezó a usar en app_fitexe. Verificado directo en el repo:
+`openspec/config.yaml` y 6 skills instaladas, pero `openspec/specs/` y
+`openspec/changes/` vacíos — el sistema está armado, sin un ciclo
+propose→apply→archive corrido todavía. Actualizado [[fitexe]] ángulo #6
+(ya existía como "agents.md"; esto es su versión más concreta). Recomendación
+registrada: esperar el primer archive real para tener el artefacto (diff/spec
+concreto) que la regla del canal exige, en vez de grabar la herramienta sin
+caso propio.
+
+## [2026-09-07] ingest | CSV 9x16 del episodio 024 grabado — blackicelabs
+Usuario pega el CSV de subtítulos con timecode (9x16, capa 1) del episodio ya
+grabado "La carrera de la rata del programador moderno" y pide 7 clips.
+Confirmado contra `raw/blackicelabs/episodio-024-carrera-de-la-rata-transcript-2026-09-04.md`:
+mismo audio, formato distinto. Guardado el CSV en
+`raw/blackicelabs/episodio-024-carrera-de-la-rata-clips-9x16-2026-09-07.csv`.
+Creada [[episodio-024-carrera-de-la-rata]] con el paquete de 7 clips
+(timestamps exactos), aplicando la condición #2 de la reactivación
+(cortar en confesión, no en tip — ver [[estrategia-contenido-absadev]]) y el
+mismo patrón de "no antes del 30-sep" de [[episodio-027-side-project]].
+Duración real (16:24) anotada como fuera del rango de prueba 8-10 min.
+Actualizado `wiki/index.md`.
+
+## [2026-09-07] query | Objetivo TikTok: controversia y comentarios — blackicelabs
+Usuario aclara que el lote de 7 clips del episodio 024 va a TikTok con
+objetivo explícito de controversia, comentarios e interacción. Revisado
+[[episodio-024-carrera-de-la-rata]] contra el dato ya existente: consistente
+con la doctrina (Activation es el cuello de botella medido, TikTok es donde
+consolidó, "opinión contra corriente" era la preferencia declarada el 20-ago),
+pero se nombra explícito por primera vez que "opinión" incluye "algo con lo
+que se puede estar en desacuerdo". Cambio concreto: sale el clip de
+tenis/fascitis (informativo, no discutible), entra el tramo 09:01-09:20 sobre
+comparación de sueldos en LinkedIn (señala a una audiencia específica, cierra
+con pregunta). Se añade una pregunta-CTA sugerida por clip. Anotada
+advertencia de vida larga: no hay prueba propia en el canal de que el tono
+confrontativo convierta mejor que la opinión sin filo — es extrapolación, no
+hallazgo, y el riesgo de comentarios hostiles sin conversión queda sin medir.
+
+## [2026-09-07] query | Captions generados para los 7 clips (TikTok/IG/YouTube) — blackicelabs
+Generados captions completos para las 3 plataformas de los 7 clips de
+[[episodio-024-carrera-de-la-rata]], cada uno con su pregunta-CTA y (en
+Instagram) CTA de share explícito, siguiendo la doctrina de dos-CTA del
+14-ago. El copy vive fuera del wiki (mismo criterio que el batch del 18-ago):
+queda guardado en el scratchpad de la sesión, no en el repo. Se propuso
+calendario 1/semana del 30-sep al 11-nov, abriendo con el clip 6 (LinkedIn,
+el más discutible) en vez de seguir el orden del episodio, para probar antes
+la hipótesis de controversia sin dato propio todavía.
+
+## [2026-09-07] query | Los 7 clips ya se programaron: 24-sep a 6-oct — blackicelabs
+Usuario reporta que los 7 clips de [[episodio-024-carrera-de-la-rata]] ya
+quedaron programados en TikTok, Instagram y YouTube, del 24-sep al 6-oct.
+Contraste con lo escrito horas antes en la misma página: el plan proponía
+1/semana desde el 30-sep (para no romper el techo de 3.5 shorts/semana fijado
+como condición de refutación el 19-ago). La ejecución real empieza 6 días
+antes y comprime 7 semanas en 13 días — ≈3.8 shorts/semana solo de este lote,
+antes de sumar el resto del batch #7 ya activo en TikTok. No se corrige la
+decisión (ya está publicada); se anota como el primer caso real en que se
+cumplen las condiciones que la propia doctrina dijo que había que vigilar,
+para poder leer después si un resultado débil se explica por saturación de
+cadencia y no por el contenido. Actualizada [[episodio-024-carrera-de-la-rata]]
+(sección Programación, sin borrar el plan original) y `wiki/index.md`.
+
+## [2026-09-07] ingest | 5 reels de Absadev grabados 2026-09-04 — blackicelabs
+Usuario pide captions (TikTok/IG/YouTube) para 5 reels ya editados y pega los
+5 CSV con transcripción. Guardados en
+`raw/blackicelabs/absadev-reels-2026-09-04-*.csv`. Contenido: automatizaciones
+de su propia boda (`save_the_date`, sin monetización decidida — cruza con
+[[segunda-app-candidatas]]), Open Spec en FitExe (actualiza [[fitexe]]: se
+grabó antes del ciclo propose→apply→archive completo que esa página pedía
+esperar — brecha anotada, no corregida), Clean Architecture como
+sobre-ingeniería (encuesta directa), "todavía lees código" (opinión contra
+corriente sobre testing en la era de IA), y el primer material de la Serie 1
+"sobrevivir la chamba gringa" desde que quedó en pausa el 2-sep. Añadido
+resumen del batch a [[estrategia-contenido-absadev]]. Generados 15 captions
+(copy fuera del wiki, en el scratchpad de la sesión) con tags de YouTube.
+Actualizados `wiki/index.md`, [[fitexe]] y `wiki/log.md`.
+
+## [2026-09-07] ingest | Traspaso de accesos de Sistema MP — freelance, swe
+Fuente archivada en `raw/freelance/sistema-mp-traspaso-2026-09-07.md`: el
+usuario le pidió a [[margarita-posada]] iniciar el traspaso de accesos de su
+app **Sistema MP** desde un programador anterior (Víctor), y este respondió
+con el estado completo (repos, firmas, tiendas, AWS, base de datos). Creado
+[[sistema-mp-app]].
+
+**Corrección importante:** [[margarita-posada]] describía Sistema MP como
+"software de terceros" (2026-08-25). Es al revés — es su propia app, ella es
+titular de las cuentas de tienda. Se deja la afirmación original sin borrar,
+con la corrección al lado y fechada, per la regla de contaminación
+retrospectiva.
+
+**Contradice en su forma a [[segunda-app-candidatas]]:** esa página
+recomendaba construir un producto **nuevo y 100% suyo** para nutriólogos,
+con Margarita como entrevista de descubrimiento. Lo que llega es tomar el
+mantenimiento de una app que ya existe y que es de ella, en un stack distinto
+(React Native + Go/Echo + PostgreSQL en AWS, no Flutter/Supabase). Queda
+abierto en qué términos entra el usuario al proyecto.
+
+⚠️ **Nota de seguridad:** la fuente incluye una contraseña de AWS real en
+texto plano y advertencias del propio programador saliente sobre credenciales
+hardcodeadas en el código y un keystore de producción que sólo existe en su
+máquina. Se archivó tal cual a petición explícita del usuario (confirmado tras
+preguntarle), aceptando que queda en el historial de git de este repo; las
+páginas de wiki no repiten la contraseña. Recomendación registrada: rotar
+credenciales en cuanto el traspaso concluya.
+
+Actualizados: `wiki/index.md`, [[margarita-posada]], [[segunda-app-candidatas]].
+
+## [2026-09-07] update | Sistema MP: entra como freelance por hora — freelance, swe
+Cerrado el punto abierto en [[sistema-mp-app]] y [[segunda-app-candidatas]]:
+el usuario confirmó que entra al proyecto de Margarita **como freelance por
+hora**, no como socio ni dueño de una reescritura. Consecuencia registrada en
+ambas páginas: **esto no es la candidata 2 y no cuenta para el objetivo 16**
+(que exigía recurrente y 100% suyo) — es ingreso freelance del mismo tipo que
+[[slalom]]. La candidata 2 (producto propio para nutriólogos/coaches, 100%
+suyo) sigue sin construirse. Actualizado `wiki/index.md`.
+
+## [2026-09-08] update | Resultados de dos TikToks (Open Spec, "mi trabajo ideal") — blackicelabs, fitexe
+El usuario reporta en conversación (sin export de plataforma, cifras
+aproximadas) los resultados de dos TikToks: el de **Open Spec en FitExe**
+(grabado 04-sep) hizo 2,000+ vistas, 8+ seguidores nuevos y "muchos
+comentarios"; uno nuevo sobre **"mi trabajo ideal"**, sin guion registrado en
+el wiki hasta hoy, hizo 1,500+ vistas orgánicas y ~12 seguidores. Ambos
+superan la referencia de conversión de TikTok del 10-ago (1.60/1.000) y
+confirman el patrón identidad/journey por encima de comparación técnica.
+Actualizadas: [[absadev]], [[estrategia-contenido-absadev]], [[fitexe]],
+`wiki/index.md`.
+
+## [2026-09-08] ingest | Journal personal — reflections, finance, fitness, blackicelabs
+Journal traído por el usuario a la conversación, guardado en
+`raw/reflections/journal-2026-09-08.md`. Toca seis hilos distintos:
+
+- **[[margarita-posada]]:** idea (sin negociar) de un retainer de 7,000
+  MXN/mes por consultoría de Claude + dev, ~5,000 netos.
+- **[[sofi]] (página nueva):** primera vez que la pareja del usuario aparece
+  con nombre en el wiki; quiere ser socia de un estudio de barre (100,000
+  MXN) y la tensión de tiempo de pareja vs. contenido queda anotada.
+- **[[boda-2026]] / [[finanzas-personales-2026-2027]]:** deseo de ≈10,000
+  MXN extra antes de la boda (el retainer + dos deseos no accionables: NVDA
+  a 300 USD, un video a 100k vistas).
+- **[[objetivos-vida-2026-2027]]:** reconfirma el objetivo 9 y suma Facebook
+  como cuarta plataforma sin dato propio en el expediente.
+- **[[absa-garcia]]:** idea de contenido deportivo en Facebook (resumen de
+  jornada de Champions) y primera aplicación personal de
+  [[minimalismo-digital]] (screen time, sin decluttering ejecutado todavía).
+- **[[bloque-entrenamiento-running-2026]] / [[medio-maraton-atlas-2026]]:**
+  plan declarado de subir los easy runs a 7:18/km buscando zona 2 real; y se
+  anota que el resultado real de la carrera del 6-sep sigue sin registrarse
+  — una mención de "~10km a 6:50/km el domingo" no coincide con los 21.1 km
+  de la carrera y queda como pregunta abierta, no como dato de carrera.
+
+Actualizadas: [[margarita-posada]], [[boda-2026]],
+[[finanzas-personales-2026-2027]], [[objetivos-vida-2026-2027]],
+[[absa-garcia]], [[minimalismo-digital]],
+[[bloque-entrenamiento-running-2026]], [[medio-maraton-atlas-2026]]. Creada:
+[[sofi]]. Actualizado `wiki/index.md`.
+
+## [2026-09-09] update | Corrección de nombre: Williams, no Víctor — freelance, swe
+El usuario aclaró que el programador saliente de Sistema MP se llama
+**Williams**, no Víctor — es quien envió el PDF de accesos y con quien se
+coordina el traspaso. "Víctor" era el nombre que el propio usuario escribió
+en su mensaje original a Margarita el 07-sep (fuente inmutable, sin tocar).
+Corregido en [[sistema-mp-app]] sin borrar la mención original, per la regla
+de contaminación retrospectiva — queda abierto si Víctor es alguien distinto
+o un error de tecleo del primer mensaje.
+
+## [2026-09-09] update | Resumen automático de TikTok — blackicelabs
+El usuario pegó el resumen generado por el "asistente" de TikTok (mismo tipo
+de fuente que el del 10-ago: sin fecha de ventana visible). Cifras de canal
+(+139.9% vistas, +53% tasa de likes, −54.5% tasa de comentarios, +2407%
+seguidores netos —solo porcentajes—, 30 videos vs. 14 antes) y tres videos con
+cifras reales. Dos de ellos **cierran huecos de medición abiertos desde
+agosto**: el ep. 7 de batch #5 (*"¿Qué habilidades…?"*, 18,267 vistas, 1,171
+likes) es el primer resultado real de ese batch; *"El trabajo que no
+quería"* (10,315 vistas, 24 comentarios) es el primer resultado del batch
+grabado 18-ago. El tercero (*"¿Qué significa GM?"*) confirma que el video
+cripto de 2023 sigue acumulando vistas de catálogo. Ambos resultados nuevos
+refuerzan el patrón identidad > utilidad ya documentado. La recomendación
+final del texto (creadores de referencia genéricos) se descarta como filler
+de plantilla, no como lectura del canal. Actualizadas: [[absadev]],
+[[estrategia-contenido-absadev]], `wiki/index.md`.
+
+## [2026-09-09] update | Propuesta de línea de contenido — "patrones agénticos con Claude" en Flutter — blackicelabs, fitexe, swe
+El usuario propone hacer una línea de videos sobre patrones agénticos de IA
+con Claude para trabajar en apps, desde su lugar como dev de Flutter. No es
+un ángulo nuevo: encaja en las Series 2 y 7 de [[estrategia-contenido-absadev]]
+y es la escala mayor del ángulo #6 de [[fitexe]] (OpenSpec), que ya tiene su
+primer resultado medido (2,000+ vistas, 8+ seguidores, la mejor tasa de
+conversión de TikTok registrada). Se documentaron candidatos concretos de
+tema (config/specs de OpenSpec, un ciclo propose→apply→archive real cuando
+ocurra, errores de arquitectura que Claude corrigió, Riverpod/Clean
+Architecture como contexto del agente) y la condición antes de comprometerle
+un batch: un segundo video del mismo ángulo que repita o supere la tasa —
+por ahora es n=1. Actualizadas: [[fitexe]], [[estrategia-contenido-absadev]],
+`wiki/index.md`.
+
+## [2026-09-09] ingest | Séptimo snapshot de YouTube vía skills/youtube-analytics (wa-agent) — blackicelabs
+Corrido de `yt_report.py` (ventana 2026-08-10 → 2026-09-06, 28 días) pedido
+para verificar cinco puntos que la página ya sostenía sobre cómo revertir la
+tendencia del canal. Se confirmó que no hay export de Studio en `raw/`: el
+hueco de impresiones/CTR pedido desde el 10-ago cumple un mes exacto sin
+poder cerrarse — la API de Analytics no lo expone. Resultado principal:
+primera Retention positiva desde el 26-ago (SPV −1.11 → −0.42 → **1.38**,
++8 neto de subs) coincidiendo con el primer ritmo de publicación por debajo
+del acuerdo de 3.5/semana (13 videos/28d ≈ 3.25/sem, contra ~5/sem en las
+tres ventanas anteriores) — la corrección #1, marcada sin aplicar desde el
+10-ago, aparece revertida en los datos por primera vez, sin confirmar
+todavía con una segunda ventana. Sugeridos sigue en 0.0%; los batches del
+04-sep aún no tienen ventana de 14 días para verificar el patrón
+identidad>comparación con datos nuevos de YouTube. Actualizadas: [[absadev]]
+(nuevo snapshot, fuente añadida), [[estrategia-contenido-absadev]] (quinta
+lectura del embudo), `wiki/index.md`.
+
+## [2026-09-09] update | Batch propuesto (no grabado) — 7 shorts + 1 podcast de "patrones agénticos" — blackicelabs, fitexe
+El usuario pidió el contenido de 7 videos y un episodio de podcast sobre el
+ángulo de patrones agénticos con Claude en FitExe. Se diseñaron los 7 títulos
+(specs antes que código, la corrección de arquitectura del 04-sep, cómo
+escribir un `openspec/changes/`, Riverpod desde la óptica de un agente, los
+límites declarados, vibecoding vs. spec-driven, y el ciclo
+propose→apply→archive completo cuando ocurra) más un episodio de podcast
+candidato a reemplazar un slot en pausa del slate actual. El guion completo
+queda fuera del wiki, mismo criterio que batches anteriores. **Colisión de
+calendario marcada, no resuelta:** el batch #7 (14→30-sep) y los clips del
+episodio 024 (24-sep→6-oct) ya ocupan el calendario hasta octubre —
+recomendación de publicar después del 30-sep, decisión pendiente del
+usuario. Sigue en pie la condición de n=1 sobre el ángulo (un solo resultado
+medido, el de OpenSpec). Actualizadas: [[estrategia-contenido-absadev]],
+`wiki/index.md`.
+
+## [2026-09-09] ingest | Primer export de Studio con impresiones/CTR — blackicelabs
+El usuario bajó y pegó el primer export nativo de YouTube Studio con las
+columnas de impresiones y CTR por video, guardado en
+`raw/blackicelabs/absadev-youtube-studio-2026-09-09/`. Corrido con
+`yt_report.py --studio-csv`, cierra parcialmente el hueco de empaquetado
+abierto desde el 10-ago: CTR de canal **3.83% sobre 349.362 impresiones**.
+⚠️ El export es acumulado de por vida, no de la ventana de 28 días — de los
+16 videos publicados entre el 25-ago y el 08-sep, solo uno ("Cuánto cobrar
+por tu side project", 2.582 impresiones) supera el umbral de 1.000
+impresiones para que el CTR no sea ruido (2.09%, bajo el promedio del
+canal). El resto da dirección sin ser medible: "Acepté un trabajo que no
+quería" (8.74%) y "Open claw 2" (6.36%) con CTR alto, "Mac mini m6" (0.86%)
+el peor empaquetado del lote. Sigue pendiente el mismo export filtrado a
+los 28 días exactos para una lectura precisa. Actualizadas: [[absadev]]
+(sección de empaquetado del séptimo snapshot), `wiki/index.md`.
+
+## [2026-09-09] ingest | Export de Studio filtrado a 28 días — cierra el hueco de empaquetado — blackicelabs
+El usuario volvió a exportar Studio, esta vez filtrado a la ventana exacta
+12-ago → 08-sep, guardado en
+`raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/`. CTR de canal:
+**3.86% sobre 26.765 impresiones** — casi idéntico al 3.83%/349K de por
+vida del export anterior, así que el canal no tiene una anomalía de
+empaquetado a nivel agregado. Solo 3 videos superan las 1.000 impresiones
+(umbral de ruido): dos son catálogo viejo resurgiendo por Búsqueda
+("Flutter vs React Native 2026", 6.58% CTR; "...2025", 2.32%), y el único
+video del batch de agosto-septiembre con volumen suficiente ("Cuánto
+cobrar por tu side project") convierte al 2.09%, bajo el promedio del
+canal. El resto del batch reciente casi no recibió impresiones. Lectura:
+el cuello de botella es **distribución, no empaquetado** — el contenido
+nuevo no se le muestra lo suficiente a nadie como para que el CTR importe.
+Actualizadas: [[absadev]] (sección de empaquetado reescrita con el dato
+exacto, fuente añadida), `wiki/index.md`.

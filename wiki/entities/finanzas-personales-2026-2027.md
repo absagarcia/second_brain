@@ -3,7 +3,7 @@ title: Finanzas personales 2026-2027
 type: entity
 domain: [finance, reflections]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
@@ -25,6 +25,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: medium  # primera mano, pero cifras redondeadas "como", "aproximadamente"
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: low   # idea de retainer sin negociar, más dos deseos no accionables
 ---
 
 # Finanzas personales 2026-2027
@@ -402,6 +406,21 @@ compromiso más grande y más cercano queda cubierto con mes y medio de
 anticipación. Lo que le falta no es capacidad: es **cifras objetivo** —enganche
 de la casa, costo del viaje a Japón, saldo del carro— y **visibilidad del gasto
 de vida**, que sigue siendo 29,151 MXN/mes sin desglosar.
+
+## 2026-09-08 — un side income nuevo, todavía no cobrado
+
+Del journal personal del usuario: contempla un **retainer mensual con
+[[margarita-posada]]** (7,000 MXN/mes, ~5,000 netos tras pagar su
+suscripción de Claude) por consultoría + el trabajo de dev que ya hace sobre
+[[sistema-mp-app]]. Detalle completo en su página. Es distinto de
+[[fitexe]] (600 MXN/mes, socio 50/50) — sería un **segundo ingreso paralelo
+al salario**, no una ampliación del objetivo 16. ⚠️ Todavía es una idea sin
+negociar, no una cifra para meter al cuadro de "Las palancas de 2027" de
+arriba.
+
+También aparecen dos deseos sin relación con el flujo medido de esta
+página — NVIDIA a 300 USD/acción y un video con 100,000 vistas — anotados en
+[[boda-2026]] como ansiedad financiera, no como plan.
 
 ## Vida útil
 

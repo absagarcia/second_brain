@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-08-25
+updated: 2026-09-09
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -25,6 +25,30 @@ sources:
     fact_date: 2026-08-20
     ingest_date: 2026-08-20
     confidence: medium   # opinión de un par, de segunda mano, n = 1
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-08-03 → 2026-08-30
+    fact_date: 2026-08-30
+    ingest_date: 2026-09-02
+    confidence: high   # API de primera parte
+  - path: conversation (usuario reporta resultados de dos TikToks, sin export de plataforma)
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # primera parte pero cifras aproximadas ("más de", "como"), sin export verificable
+  - path: conversation (resumen automático del "asistente" de TikTok, pegado por el usuario)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: medium   # primera parte pero automatizado, sin ventana ni fecha de corte — mismo riesgo anotado el 10-ago
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-08-10 → 2026-09-06
+    fact_date: 2026-09-06
+    ingest_date: 2026-09-09
+    confidence: high   # API de primera parte
+  - path: raw/blackicelabs/absadev-youtube-studio-2026-09-09/ (export nativo de YouTube Studio, primer export con impresiones/CTR, acumulado de por vida)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: high   # export de primera parte, pero acumulado de por vida, no de la ventana de 28d
+  - path: raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/ (export nativo de YouTube Studio, filtrado a la ventana exacta 12-ago → 08-sep)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: high   # export de primera parte, ventana exacta — el que cierra el hueco de empaquetado
 ---
 
 # Absadev
@@ -523,6 +547,302 @@ dentro del YPP, y **en todo el expediente no hay un solo dato de monetización**
 MXN (~50 USD) al RPM típico de audiencia mexicana implicarían **decenas de
 miles de vistas mensuales sostenidas**, pero eso es *derivación mía sobre un
 RPM supuesto*, no un dato: se marca como tal y no se planifica sobre ello.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-07-27 → 2026-08-23, `yt_report.py`)
+
+> Quinto snapshot, primer corrido del reporte ya cableado ([[estrategia-contenido-absadev]]
+> §"Alcance real de `yt_report.py`"). Ventana de 28 días cerrada 3 días antes de correrlo
+> (2026-08-26), comparada contra 2026-06-29 → 2026-07-26. Los snapshots anteriores se
+> conservan tal como se escribieron.
+
+**Canal (28 días):**
+
+| Métrica | Valor | vs. periodo anterior |
+|---|---:|---|
+| Suscriptores totales | **7,850** | — |
+| Altas / bajas | **+17 / −21 = −4 neto** | +1 neto (ventana 07-08→10-08) |
+| **SPV** | **−1.11** | 0.21 (10-ago), 1.67 (28-jul), 1.78 (16-jul) |
+| Vistas | **3,589** | **−26%** |
+| Comentarios | **5** | **−62%** |
+| Shares | 13 | |
+| Likes | 54 | |
+| Videos publicados | **20** | ~5/semana, sigue 43% sobre la cadencia de ~3.5/semana adoptada el 28-jul |
+| Minutos vistos | 4.395 | duración media 1m49s (26.2%) |
+
+**Fuentes de tráfico:** Búsqueda 42.2% (1.512) · Feed de Shorts 29% (1.033) ·
+Suscripciones 9% (328) · Página del canal 4% (142) · Relacionados 4% (135) ·
+**Sugeridos 0.0%** · Browse 4.0% (+89%, pero sobre una base casi nula).
+
+**Comparación a 14 días (edad emparejada):** los 5 videos evaluables tienen
+**0.00 SPV** salvo uno con 1 comentario; el resto, 0 comentarios. 20 videos
+más siguen sin ventana completa.
+
+**Empaquetado (impresiones/CTR):** sigue sin dato — no se ha hecho el export
+de Studio pedido desde el 10-ago.
+
+### Lo que dice esta ventana
+
+1. **Primera vez con neto de suscriptores negativo.** No es sólo que Retention
+   no se mueva: por primera vez en las cinco mediciones el canal pierde más de
+   los que gana (17 altas, 21 bajas). El SPV de **−1.11** ya no está ni cerca
+   de las referencias del propio canal (§6 de la skill) — está por debajo
+   incluso del caso catastrófico de [[absa-garcia]] (0.11).
+2. **Activation también retrocedió.** 5 comentarios en 28 días (−62% vs. la
+   ventana anterior de 8), sobre 20 videos publicados = 0.25 por video. El
+   único mecanismo que había mostrado vida (19 en la semana 1, 39/30d en
+   TikTok) se secó también en la ventana más reciente medida en YouTube. La
+   Serie 4 ("Respondiendo comentarios") se queda sin material que minar.
+3. **Las vistas cayeron por debajo del bache ya documentado.** 3.926 (16-jul)
+   → 4.670 (07-ago) → **3.589** ahora, todas contra una norma histórica de
+   14.9K–24K/28d. No es una recuperación en curso, es una caída dentro de la
+   caída.
+4. **Distribución algorítmica en cero.** Sugeridos 0.0% — el dato más duro del
+   reporte. Búsqueda sigue siendo el único tráfico sano (42.2%, acumulativo),
+   pero el canal depende casi enteramente de gente que ya lo busca por nombre,
+   no de que YouTube lo empuje a nadie nuevo.
+5. **El ritmo sigue sin bajar.** 20 videos/28d ≈ 5/semana es la misma cifra de
+   sobre-extensión marcada el 10-ago (43% sobre el acordado), sin corregir en
+   dos ventanas seguidas. Coincide en el tiempo con el peor resultado medido
+   hasta ahora — no es prueba de causalidad, pero es la hipótesis que la
+   página viene señalando desde hace dos snapshots.
+
+## Alcance real de `yt_report.py` (2026-08-26)
+
+`skills/youtube-analytics/scripts/yt_report.py` en wa-agent ya cubre los
+rangos 2–7 de la jerarquía de señales de [§5 de SKILL.md]: vistas, minutos
+vistos, duración media absoluta y %, subs ganados/perdidos, comentarios,
+likes, shares, todo por video; fuentes de tráfico con Sugeridos/Browse/Búsqueda
+separados; curva de retención con el corte a 30s (empaquetado vs. contenido);
+suscritos vs. no suscritos; y la comparación age-matched a 14 días que evita
+el sesgo de "el video viejo gana por existir". Se corre con
+`skills/youtube-analytics/.venv/bin/python scripts/yt_report.py`.
+
+> Nota de implementación: las funciones (`retention_curve`, `retention_split`,
+> `new_vs_returning`) ya existían en `yt_analytics.py`, pero no estaban
+> conectadas al reporte — se cablearon el 2026-08-26. Fuente: revisión directa
+> del código de wa-agent, no un export ni una captura.
+
+## [2026-09-01] Primer dato de la línea "opinión contra corriente" — y lo gana la pieza que el filtro había rechazado
+
+**Publicados dos shorts en TikTok el 2026-09-01**, los dos del registro que el
+usuario eligió el 20-ago (*opinión/criterio*, no confesión). Resultado del día:
+**+5 seguidores**, repartidos **4 / 1**.
+
+| Short | Ángulo | Seguidores ganados |
+|---|---|---|
+| *"Tu inglés está bien. Tu pregunta no."* — la pregunta que pide una firma vs. la que pide averiguar | idioma / dinámica de trabajo | **4** |
+| *"OpenClaw 2: lo que prendieron y lo que dejaron apagado"* — los defaults del release | herramienta / criterio técnico | **1** |
+
+⚠️ **Lo que este dato NO es.** No hay vistas, así que **no hay tasa** y no es
+comparable contra la referencia de **1.60 seguidores por 1.000 vistas** del
+export del 10-ago. Es un día, sin denominador y sin comparación age-matched.
+Registrado como **señal, no como medida**.
+
+### El hallazgo incómodo: ganó la pieza que el propio filtro había descartado
+
+El short de 4 seguidores es **la variante de una propuesta que está en la lista
+de rechazo del 2026-08-20**: *"Me tocó una junta en inglés en la que no entendí
+ni la mitad"*, tumbada con el motivo *idioma y ambiente, no código; la chamba
+gringa sirve en code review y PRs, no en la junta*. Se grabó igual, en la
+versión que nombra la herramienta (la licencia) para hacerla pasar por el filtro.
+El que sí era íntegramente técnico —el de OpenClaw, con artefacto de
+documentación en pantalla— sacó **la cuarta parte**.
+
+**Lectura coherente con lo ya registrado, no una sorpresa:** el export del
+10-ago dejó **confirmado que el motor de alcance de TikTok es audiencia no-dev**
+(§ del 10-ago). Una pieza sobre cómo preguntar en el trabajo le habla a esa
+audiencia; una sobre los defaults de un agente open source no. El filtro del
+20-ago se escribió pensando en **la identidad del canal**, y este dato mide
+**alcance en una plataforma cuya audiencia ya sabíamos que no es la del canal**.
+Son dos cosas distintas y no se contradicen.
+
+⚠️ **La tensión confesión vs. opinión sigue sin resolverse.** Los dos shorts
+eran de opinión, así que este par **no separa registro**; lo que separa aquí es
+**el tema** (trabajo/idioma vs. herramienta técnica). La condición de refutación
+escrita en [[estrategia-contenido-absadev]] —opinión por debajo de la línea base
+mientras confesión la supera— sigue abierta y necesita el denominador.
+
+**Qué falta para convertir esto en medida:** vistas de cada video (TikTok las da
+por video, junto con seguidores ganados), y si se publicaron también en Shorts,
+el cruce de embudo.
+
+**Vida de este dato:** **corta** como cifra (5 seguidores de un día), **larga**
+como pregunta: *¿el filtro "esto es de dev" optimiza identidad a costa de
+alcance, y en qué plataforma se paga ese costo?*
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-08-03 → 2026-08-30, `yt_report.py`)
+
+> Sexto snapshot, corrido el 2026-09-02 a pedido del usuario (preguntaba si podía
+> comparar tecnologías/IAs en podcast). Ventana de 28 días cerrada 3 días antes de
+> correrlo, comparada contra 2026-07-06 → 2026-08-02. Snapshots anteriores se
+> conservan tal como se escribieron.
+
+**Canal (28 días):** 7.860 subs · altas/bajas **+21/−23 = −2 neto** (mejora vs.
+−4 neto del 26-ago, pero sigue negativo) · **SPV −0.42** (vs. −1.11 el 26-ago,
+0.21 el 10-ago, 1.67/1.78 en jul — sigue por debajo de las tres referencias del
+canal) · vistas **4.716** (−9%, sigue bajo la norma de 14.9K–24K) · comentarios
+**9** (−10%) · shares 11 · likes 44 · **20 videos publicados** en 28 días
+(~5/semana, sigue sobre la cadencia acordada de ~3.5/semana).
+
+**Tráfico:** Búsqueda **35.8%** (único que se acumula) · Sugeridos **0.0%** ·
+Browse 2.5% · Sugeridos+Browse combinado 12.0% (+63%, pero sobre base casi nula).
+
+**Lectura corta:** Retention sigue roto (tercera ventana seguida en negativo o
+casi) pero **el SPV mejoró** frente al 26-ago (−1.11 → −0.42) y Activation se
+mantiene con vida (9 comentarios). No hay corrección de rumbo todavía, hay una
+desaceleración de la caída.
+
+### El video que responde la pregunta del usuario, aún sin ventana
+
+El batch del 18-ago incluyó **"Python vs Node.js: cuál aprender primero en
+2026"** — una comparación de tecnologías, el mismo formato que en el podcast
+dio el peor resultado del catálogo cuando era sobre IAs (*Copilot vs Gemini*,
+6 oyentes) y uno de los mejores cuando era evergreen/sin-jerga de noticia
+(*Node vs Python*, 22 oyentes). Publicado 18-ago, cumple sus 14 días el
+2026-09-01 — **un día después de que esta ventana cerrara (30-ago)**. Es el
+primer dato directo, en YouTube, sobre si "comparar tecnologías" convierte
+para este canal fuera del podcast. Queda pendiente para el próximo corrido.
+
+## [2026-09-09] Resumen automático de TikTok — primer resultado real de batch #5 y del batch del 18-ago
+
+**Fuente: el "asistente" de TikTok** (texto generado, pegado por el usuario) —
+el mismo tipo de resumen que el 10-ago llegó "con semanas de retraso y sin
+fecha visible" y mezcló porcentajes de ventanas distintas. Sin ventana ni
+fecha de corte declaradas aquí tampoco; se lee con la misma cautela.
+
+**Cifras de canal (solo porcentajes, sin denominador):** vistas **+139.9%**,
+tasa de likes **+53%**, tasa de comentarios **−54.5%**, seguidores netos
+nuevos **+2407%** (sin cifra absoluta — un porcentaje enorme sobre una base
+que puede ser pequeña, ver el histórico de +11/7d del 10-ago), **30 videos
+publicados frente a 14** en el periodo anterior (el ritmo se duplicó, no se
+sabe sobre cuántas semanas).
+
+**Tres videos con cifras reales, y dos cierran preguntas abiertas:**
+
+| Video | Vistas | Likes | Com. | Sh. | Identifica |
+|---|---:|---:|---:|---:|---|
+| "¿Qué significa GM? Good morning!" | 141,430 | 767 | 14 | 46 | el mismo video cripto de 2023 — 139,473 vistas de por vida en el export del 10-ago; +1,957 desde entonces, catálogo viejo sigue rindiendo |
+| "Última de las 7 👋 ¿Qué habilidades están pidiendo…?" | 18,267 | 1,171 | 12 | 17 | **cierra el batch #5** (7 shorts nacidos del DM de Instagram, ver arriba) — ep. 7, publicado 01-sep |
+| "Acepté el trabajo que no quería…" | 10,315 | 602 | 24 | 13 | **es "El trabajo que no quería"**, Serie 5, del batch grabado 18-ago (ver [[estrategia-contenido-absadev]]) |
+
+**Lo que esto cierra:** hasta hoy ninguno de los dos batches (el del DM de
+Instagram, el del 18-ago) tenía un solo número de resultado en esta página.
+Los dos entregan ahora su primer dato real, y los dos **confirman el patrón
+identidad/journey por encima de utilidad/comparación**: "Última de las 7" es
+la de mayor tasa de likes de las tres (6.4%, contra 0.54% del GM), y "Acepté
+el trabajo que no quería" tiene la mejor tasa de comentarios (0.23%) — la
+pieza más vulnerable del lote es también la que más conversación genera, otra
+vez.
+
+⚠️ **Lo que no se puede leer de aquí:** la caída de −54.5% en tasa de
+comentarios es de canal completo, no por video, así que no dice si viene del
+batch #5 (12 comentarios sobre 18,267 vistas = 0.066%, bajo comparado con el
+39/30d del 10-ago) o de otro contenido no listado aquí. Sin fecha de la
+ventana tampoco se puede cruzar contra los snapshots de YouTube ni el
+resultado del 08-sep. Y la recomendación final del propio texto — "mira a
+creadores como Aarón Yera, tu amiga, homosapiens" — es filler genérico de la
+plantilla del asistente, no una lectura del canal; no se adopta como
+referencia.
+
+## [2026-09-08] Dos TikToks nuevos superan la referencia de conversión — OpenSpec y "mi trabajo ideal"
+
+Reportado en conversación, **sin export de plataforma**: cifras aproximadas
+("más de", "como"), no exactas.
+
+| Video | Vistas | Seguidores nuevos | Tasa (por 1.000 vistas) | Nota |
+|---|---:|---:|---:|---|
+| OpenSpec en FitExe (grabado 2026-09-04, ver [[fitexe]]) | **más de 2,000** | **más de 8** | **≥4.0** | "generó muchos comentarios" |
+| "Mi trabajo ideal" | **más de 1,500** (orgánico) | **≈12** | **≈8.0** | "ayudó mucho ese tráfico" — sin precisar a qué |
+
+Ambos superan la referencia de conversión del export nativo del 10-ago
+(**1.60 seguidores por 1.000 vistas**, 2.86 excluyendo el pico del 03-ago) —
+el mejor dato de conversión en TikTok registrado en esta página hasta ahora,
+aunque son dos videos sueltos, no una ventana medida.
+
+⚠️ **Qué NO es este dato.** No hay export, así que no hay fecha exacta de
+publicación, ventana de medición, ni denominador auditable — a diferencia de
+los snapshots de arriba, que vienen de CSV o de la API. Se registra como
+**señal fuerte, no como medida**, igual que el par de shorts del 2026-09-01.
+Tampoco hay video de *"mi trabajo ideal"* documentado en ningún batch anterior
+de esta página ni de [[estrategia-contenido-absadev]]: es contenido nuevo del
+que aún no existe guion ni fecha de grabación registrados en el wiki.
+
+**Lectura, con la cautela de arriba:** los dos ganadores son, otra vez,
+identidad/journey (FitExe como historia de "ya nos paga un cliente", y un
+tema de carrera/vocación) y no comparación técnica pura — coherente con el
+patrón repetido desde el 10-ago (alcance↔engagement invertido, mitad
+pikacodes por delante). Ver la lectura conjunta en
+[[estrategia-contenido-absadev]].
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-08-10 → 2026-09-06, `yt_report.py`)
+
+> Séptimo snapshot, corrido el 2026-09-09 a pedido del usuario para verificar los cinco puntos que
+> esta página ya sostenía sobre cómo revertir la tendencia. Ventana de 28 días cerrada 3 días antes
+> de correrlo, comparada contra 2026-07-13 → 2026-08-09. Snapshots anteriores se conservan tal como
+> se escribieron. **No hay export de Studio en `raw/`** — se buscó antes de correr el reporte y no
+> existe; el hueco de impresiones/CTR sigue sin poder cerrarse, la API de Analytics no las expone.
+
+**Canal (28 días):** 7.860 subs · altas/bajas **+28/−20 = +8 neto** (vs. −2 neto el 02-sep, −4 el
+26-ago) · **SPV 1.38** (vs. −0.42 el 02-sep, −1.11 el 26-ago — la referencia más cercana vuelve a ser
+Absadev 2026-07-28, 1.67, no el caso catastrófico de [[absa-garcia]]) · vistas **5.815** (+27%, sigue
+bajo la norma de 14.9K–24K) · comentarios **12** (+50%) · shares 11 · likes 59 · **13 videos
+publicados** en 28 días.
+
+**Tráfico:** Búsqueda **35.0%** (único que se acumula) · Feed de Shorts 38% · Sugeridos **0.0%**
+(sin cambio) · Browse 1.7% (−50%) · Sugeridos+Browse combinado 16.5% (+81%, sobre base casi nula).
+
+**Nuevos vs. recurrentes:** 82% no suscritos / 18% suscritos.
+
+**Comparación a 14 días:** ningún video de la ventana tiene todavía el ciclo completo — los 25
+evaluables (incluye el batch del 04-sep: RSVP de la boda, Open Spec, clean architecture, etc.) se
+juzgan a partir del 23–25 de septiembre. No hay SPV por video de esta ventana.
+
+**Empaquetado (impresiones/CTR):** hueco cerrado. Primer export acumulado de por vida
+(`raw/blackicelabs/absadev-youtube-studio-2026-09-09/`, CTR canal 3.83%/349.362 impresiones),
+**superado el mismo día por el export exacto de la ventana** de 12-ago a 08-sep
+(`raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/`): **CTR de canal 3.86% sobre 26.765
+impresiones** — casi idéntico al acumulado, el canal no tiene una anomalía de empaquetado
+sistémica. Sólo **3 videos superan las 1.000 impresiones** en la ventana (umbral de ruido de la
+skill), y **dos son catálogo viejo resurgiendo por Búsqueda**, no contenido nuevo: *"Flutter vs
+React Native 2026"* (publicado feb-2026) — 3.100 impresiones, **6.58% CTR** — y *"Flutter vs React
+Native 2025"* (sep-2025) — 1.549 impresiones, **2.32% CTR**. El único video del batch de
+ago-sep con volumen suficiente para medir es *"Cuánto cobrar por tu side project"* — 2.582
+impresiones, **2.09% CTR**, por debajo del promedio del canal. Todo lo demás del batch reciente
+se queda bajo el umbral de ruido (<1.000 impresiones): no es que empaqueten mal, es que casi no
+se les muestran miniaturas.
+
+### Lo que dice esta ventana
+
+1. **El ritmo bajó, y por primera vez queda por debajo del acuerdo, no por encima.** 13 videos/28d ≈
+   **3.25/semana**, contra el 3.5/semana pactado el 28-jul y muy por debajo del ~5/semana sostenido
+   en las tres ventanas anteriores (26-ago, 02-sep, y la de fondo del 10-ago). Es la primera vez que
+   la corrección #1 —marcada sin aplicar en cinco snapshots seguidos— aparece revertida en los datos.
+   ⚠️ Una ventana no confirma que el cambio sea deliberado ni que se sostenga; se registra como
+   dirección, no como corrección cerrada.
+2. **El SPV se recuperó de un salto: −1.11 → −0.42 → 1.38.** Es la primera vez desde el 26-ago que la
+   cifra vuelve a estar cerca de las referencias sanas del propio canal en vez de por debajo del caso
+   catastrófico de [[absa-garcia]]. Coincide en el tiempo con la baja de ritmo del punto 1 — no es
+   prueba de causalidad (mismo aviso que el 26-ago), pero es la segunda vez que ambas cosas se mueven
+   juntas.
+3. **Activation sigue con vida:** 12 comentarios (+50% vs. la ventana anterior), tercera lectura
+   consecutiva sin volver a caer a los mínimos del 26-ago (5).
+4. **Sugeridos sigue exactamente en 0.0%.** Ninguna de las mejoras de arriba movió la distribución
+   algorítmica. Búsqueda (35.0%) sigue siendo el único tráfico que se acumula — sin cambio de fondo
+   respecto a los seis snapshots anteriores.
+5. **El hueco de impresiones/CTR se cierra, con el export exacto de la ventana.** CTR de canal
+   3.86%/26.765 impresiones, en línea con el 3.83% de por vida — no hay una anomalía de
+   empaquetado a nivel canal. Pero de los 3 videos con volumen suficiente para medir, 2 son
+   catálogo viejo resurgiendo por Búsqueda (6.58% y 2.32% CTR) y el único del batch nuevo
+   convierte por debajo del promedio (2.09%). El resto del batch reciente casi no recibe
+   impresiones — la lectura que emerge es **distribución antes que empaquetado**: el contenido
+   nuevo no se le muestra lo suficiente a nadie como para que el CTR sea el cuello de botella.
+6. **Los batches más recientes (04-sep) todavía no tienen ventana de 14 días.** Esta corrida no puede
+   confirmar ni refutar el patrón identidad>comparación con datos nuevos de YouTube; la evidencia de
+   ese patrón en esta fecha sigue siendo la de TikTok (§ 2026-09-08).
+
+**Vida de este dato:** corta, como todos los snapshots de esta página. Lo que podría ser señal de
+vida más larga —si el ritmo bajo y el SPV alto se sostienen en la próxima ventana— todavía no está
+confirmado con una segunda medición.
 
 ## Related
 

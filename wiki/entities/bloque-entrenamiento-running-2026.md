@@ -3,12 +3,16 @@ title: Bloque de entrenamiento running — mar → ago 2026
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
   - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # datos de dispositivo (Apple Watch) de primera mano vía API de Strava
+  - path: raw/reflections/journal-2026-09-08.md
+    fact_date: 2026-09-08
+    ingest_date: 2026-09-08
+    confidence: medium   # intención declarada por el usuario, no datos de Strava todavía
 ---
 
 # Bloque de entrenamiento running — mar → ago 2026
@@ -178,6 +182,24 @@ retiro para un zapato de entrenamiento. Ya no se usan para las tiradas
 largas (desde el 24-jun todo lo serio va con los Evo SL), pero siguen
 marcados como activos. **Dato de vida corta: revísalo, no lo cites en tres
 meses.**
+
+## 2026-09-08 — plan declarado: subir el ritmo de los easy runs
+
+Del journal personal del usuario: quiere empezar a correr **todos los días
+los easy run a 7:3 min/km en caminadora** (leído como 7:18/km — notación de
+caminadora, no 7 min 3 s), subiendo desde el **7:00/km** que ya sostenía "hace
+mucho tiempo". Lo dice después de un run de **~10 km a 6:50/km "el domingo"**
+— ver la nota de discrepancia en [[medio-maraton-atlas-2026]], porque esa
+fecha no tiene un resultado de carrera registrado en el wiki.
+
+Su propio criterio: quiere que el easy run se quede de verdad en **zona 2**
+("aunque a veces por muchos factores termina siendo zona 4") y liga la
+progresión al objetivo de bajar grasa corporal ([[composicion-corporal-2026]]).
+Es coherente con el patrón medido del bloque — 5 meses de mejora de ritmo
+mensual sin una sola regresión, 8:35 → 7:44/km — pero es una **intención
+declarada, todavía sin sesiones que la confirmen**. Vale la pena revisarla
+contra el próximo export de Strava para ver si el ritmo real de los easy
+runs efectivamente sube y si la frecuencia cardiaca se queda en zona 2.
 
 ## Vida útil de lo que hay en esta página
 
