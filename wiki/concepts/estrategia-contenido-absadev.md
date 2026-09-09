@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-08
+updated: 2026-09-09
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -41,6 +41,18 @@ sources:
     fact_date: 2026-09-08
     ingest_date: 2026-09-08
     confidence: medium   # primera parte pero cifras aproximadas, sin export verificable
+  - path: conversation (resumen automático del "asistente" de TikTok, pegado por el usuario)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: medium   # automatizado, sin ventana ni fecha de corte — mismo riesgo anotado el 10-ago
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-08-10 → 2026-09-06
+    fact_date: 2026-09-06
+    ingest_date: 2026-09-09
+    confidence: high     # API de primera parte
+  - path: conversation (usuario pide batch de 7 shorts + 1 podcast sobre patrones agénticos con Claude)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: low      # petición/diseño, no grabado ni publicado todavía
 ---
 
 # Estrategia de contenido — Absadev
@@ -970,6 +982,13 @@ usuario las pidiera. **Desplazó al batch planificado, que no llegó a grabarse.
 
 Serie: *"Conseguir Chamba Dev #1–7"*, CTA de serie *"voy por las 7"*.
 
+> **Primer resultado, 2026-09-09 (resumen automático de TikTok, sin fecha de
+> ventana):** el ep. 7 (*"¿Qué habilidades están pidiendo las empresas?"*, 01-sep)
+> hizo 18,267 vistas, **1,171 likes (6.4%, la tasa más alta medida en esta página
+> hasta hoy)**, 12 comentarios, 17 shares. Es el primer número real de todo el
+> batch #5 — hasta ahora esta sección solo tenía la hipótesis y el origen (el DM).
+> Detalle y caveats en [[absadev]].
+
 **Lo que de verdad cambia, en orden de importancia:**
 
 1. **La Serie 4 disparó sola, y por el lado correcto.** La página lleva marcando
@@ -1093,6 +1112,13 @@ cámara.** Tres lecturas, en orden:
    sostiene y el registro de vulnerabilidad se puede repetir; si pierde subs por
    encima de la media, la lección no es "no ser honesto" sino **no anunciar arcos
    que no se han empezado**.
+
+> **Primer resultado del batch, 2026-09-09 (resumen automático de TikTok, sin
+> fecha de ventana):** *"El trabajo que no quería"* (publicado como *"Acepté el
+> trabajo que no quería…"*) hizo 10,315 vistas, 602 likes, **24 comentarios (la
+> mejor tasa de comentarios medida en esta página, 0.23%)**, 13 shares. Es la
+> pieza más vulnerable del batch y la que más conversación generó — otra vez el
+> patrón identidad > utilidad. Detalle en [[absadev]].
 
 **Regla que sale de aquí, y que vale más allá de Swift:** no anunciar en video un
 arco de aprendizaje hasta tener la primera sesión hecha; anunciar el hito, no la
@@ -2031,3 +2057,128 @@ señal fuerte (después del par del 01-sep) hacia la condición de refutación d
 opinión vs. confesión, pero **ninguno de los dos días de datos separa
 registro** todavía — falta el denominador y falta comparar piezas de
 confesión con el mismo rigor.
+
+## [2026-09-09] Ángulo nuevo propuesto — "patrones agénticos con Claude" para Flutter
+
+El usuario propone en conversación: *"como dev de Flutter estaría chido que
+hagamos videos hablando de patrones agénticos de IA con Claude para trabajar
+en apps"*. Es una intención declarada, no un guion ni un batch — se registra
+como tal.
+
+**No es un ángulo nuevo, es el que ya ganó.** Encaja en dos series existentes
+sin forzarlas: **Serie 2 — "Camino a AI Engineer"** (journey/aprendizaje) y
+**Serie 7 — "IA en mi chamba real"** (cómo usa la IA de verdad, qué le
+delega). Y ya tiene su primera prueba con número real: el video de **Open
+Spec en FitExe** (grabado 04-sep, resultado 08-sep) — spec-driven development
+con Claude sobre una app Flutter real — hizo **2,000+ vistas y 8+ seguidores
+nuevos, la mejor tasa de conversión medida en TikTok** hasta ahora (≥4.0/1.000
+contra la referencia de 1.60/1.000 del 10-ago). Ver [[fitexe]].
+
+**Lo que esto añade, no repite:** hasta hoy el ángulo #6 de [[fitexe]] era
+*"escribo docs para que los agentes trabajen en mi repo"* — una pieza aislada,
+condicionada a que existiera un ciclo `propose→apply→archive` completo (lo que
+no se cumplió: se grabó igual el 04-sep). Lo que el usuario pide ahora es
+distinto en alcance: **convertirlo en línea de contenido recurrente** —
+"patrones agénticos" en plural, no un solo video sobre una herramienta. Eso
+sí es nuevo, y no tiene todavía ni lista de temas ni batch asignado.
+
+**Por qué el material ya existe, sin grabar nada nuevo desde cero:**
+[[fitexe]] es una app Flutter real y en producción donde el usuario ya usa
+Claude/OpenSpec a diario — es el mismo argumento de
+[[hazlo-tan-bien-que-no-puedan-ignorarte]] que ya se usó para los ángulos de
+FitExe: *"así está armada"*, no *"creo que"*. Candidatos concretos, todos
+grounded en el repo real:
+- Cómo escribir un `openspec/config.yaml` y specs para que Claude las siga.
+- Un ciclo `propose → apply → archive` real, de principio a fin, cuando por
+  fin ocurra uno (la brecha que el 02-sep ya recomendaba esperar).
+- Cuándo Claude se equivoca de arquitectura en Flutter y cómo se corrige
+  (hay un caso ya vivido: "corrigió errores de arquitectura existentes",
+  09-04).
+- Riverpod/Clean Architecture vistos como el contexto que un agente necesita
+  para no romper el patrón del proyecto — cruce directo con
+  [[clean-architecture-feature-first]].
+
+⚠️ **Un solo dato no es una línea de contenido.** El resultado de Open Spec es
+n=1, igual que "mi trabajo ideal" arriba. Antes de comprometer un batch entero
+a esto, la condición razonable es la misma que ya rige otras decisiones de
+esta página: **un segundo video del mismo ángulo que repita o supere la tasa**
+antes de tratarlo como pilar y no como buen resultado suelto. Mientras tanto,
+sí califica como candidato fuerte para el próximo batch — más fuerte que
+cualquier entrada nueva del pool de comparaciones puras, dado el patrón
+identidad/proyecto-real > tutorial genérico que domina esta página desde el
+10-ago.
+
+## El embudo, quinta lectura — el retroceso se revierte, con una variable nueva (2026-09-09)
+
+Corrido de `yt_report.py` sobre la ventana 2026-08-10 → 2026-09-06 (28 días, cierra 3 días antes de
+correrlo). Cifras completas en el snapshot de [[absadev]] de la misma fecha. Se pidió expresamente
+para verificar los cinco puntos que ya sostenía esta página sobre cómo revertir la tendencia.
+
+| Etapa | 2026-08-26 | 2026-09-02 | 2026-09-06 |
+|---|---|---|---|
+| Acquisition | 3.589 (−26%) | 4.716 (−9%) | **5.815 (+27%)** |
+| Activation | 5 coment./28d 🔴 | 9 coment./28d 🟡 | **12 coment./28d** 🟢 |
+| Retention | −4 neto, SPV −1.11 🔴🔴🔴 | −2 neto, SPV −0.42 🔴 | **+8 neto, SPV 1.38** 🟢 |
+| Referral | 13 shares | 11 shares | 11 shares |
+| Ritmo | 20 videos/28d (~5/sem) | 20 videos/28d (~5/sem) | **13 videos/28d (~3.25/sem)** |
+
+**Primera ventana con Retention positiva desde el 26-ago, y la primera vez que el ritmo cae por
+debajo del acuerdo de 3.5/semana en vez de por encima.** Las tres lecturas anteriores (26-ago, 02-sep)
+marcaban el mismo diagnóstico sin corrección aplicada — bajar el ritmo era "la recomendación con más
+palanca y la menos aplicada" (§ 26-ago). Esta ventana es la primera donde el dato de ritmo se mueve
+en la dirección pedida.
+
+⚠️ **Coincidencia, no causalidad confirmada — el mismo aviso del 26-ago se repite aquí en reversa.**
+Ritmo bajo y SPV alto se mueven juntos por primera vez; con n=1 no se puede afirmar que bajar el
+ritmo *causó* la recuperación del SPV, sólo que ambos datos, que llevaban meses correlacionados en
+la dirección mala, ahora están correlacionados en la buena. Se necesita una segunda ventana para
+tratarlo como confirmado.
+
+**Sugeridos sigue exactamente en 0.0%**, sin moverse pese a la mejora en Retention y Activation —
+la distribución algorítmica sigue sin depender de lo que mejoró aquí. Búsqueda (35.0%) sigue siendo
+el único tráfico que se acumula, tercera ventana seguida sin cambio de fondo.
+
+**El hueco de impresiones/CTR cumple un mes exacto sin cerrarse** (pedido el 10-ago, sigue pendiente
+el 09-sep). Se confirmó otra vez que no hay export de Studio en `raw/` y que la API de Analytics no
+expone el dato — la pregunta de empaquetado vs. distribución sigue sin poder responderse, y la mejora
+de SPV no la resuelve porque mide conversión, no alcance.
+
+**No hay verificación nueva del patrón identidad>comparación con datos de YouTube de esta ventana**:
+los videos del batch del 04-sep (Open Spec, RSVP boda, clean architecture, etc.) no cumplen 14 días
+hasta el 23–25 de septiembre. La evidencia más reciente de ese patrón sigue siendo la de TikTok
+(§ 2026-09-08), no esta corrida.
+
+## Batch propuesto (no grabado) — "Patrones agénticos", 7 shorts + 1 episodio de podcast (2026-09-09)
+
+A petición del usuario, se diseñó un batch de **7 shorts** sobre patrones agénticos de IA con Claude
+en FitExe (escala mayor del ángulo #6 de [[fitexe]], ver la sección de arriba del mismo día) más
+**1 episodio de podcast**. El guion completo vive fuera del wiki (mismo criterio que los batches
+anteriores); aquí quedan los títulos, el ángulo y la decisión pendiente.
+
+| # | Título | Registro |
+|---|---|---|
+| 1 | Le doy specs a Claude antes que código | utilidad/proceso |
+| 2 | El día que Claude corrigió mi arquitectura sin que se lo pidiera | confesión — mayor potencial del lote |
+| 3 | Cómo escribo un `openspec/changes/` para que no invente alcance | utilidad, ejemplo real |
+| 4 | Riverpod visto por un agente: el contexto que necesita para no romperme el patrón | comparación |
+| 5 | Lo que NO le confío a Claude en una app con usuarios reales | identidad, pone límite |
+| 6 | Vibecoding vs. spec-driven: la diferencia que viví en un día | comparación, cruza con [[vibecoding-y-spec-driven-design]] |
+| 7 | El primer ciclo propose→apply→archive completo | el artefacto pendiente desde el 02-sep en [[fitexe]] — solo grabable cuando ocurra |
+
+**Podcast:** *"Cómo trabajo de verdad con un agente de IA (no en una demo)"* — candidato para
+reemplazar uno de los slots en pausa (#2-4) del slate actual del podcast (ver sección del 02-sep).
+Cold open con el mismo incidente del short #2, cierre sin CTA de suscripción (misma regla que
+"9 años, 0 consistencia").
+
+⚠️ **Colisión de calendario, marcada y no resuelta.** El batch #7 (9 shorts, 14→30-sep) y los 7
+clips del episodio 024 (24-sep→6-oct, 3 redes) **ya ocupan el calendario de shorts hasta principios
+de octubre**. Añadir este batch en paralelo repite el patrón de sobre-extensión ya señalado varias
+veces en esta página (dos slates vivos a la vez, batches del 18-ago y del DM de Instagram
+compitiendo por semana). **Recomendación dada, no decisión tomada:** grabar ahora para tener el
+guion listo, pero publicar después del 30-sep — o, si el usuario prefiere adelantarlo, decidir
+explícitamente qué sale del calendario actual para hacerle espacio.
+
+⚠️ **Sigue siendo n=1.** El resultado de OpenSpec (2,000+ vistas, 8+ seguidores, 08-sep) es el único
+dato real de este ángulo. Se sugirió grabar primero los shorts #2 y #6 (mayor potencial de
+identidad/conversación) y decidir el resto según respuesta, en vez de comprometer las 7 piezas de
+una — condición ya anotada arriba, no nueva.

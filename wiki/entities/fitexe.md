@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-09-08
+updated: 2026-09-09
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-09-08
     ingest_date: 2026-09-08
     confidence: medium         # primera parte pero cifras aproximadas ("más de", "más de"), sin export verificable
+  - path: conversation (usuario propone línea recurrente de "patrones agénticos con Claude")
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: low            # intención declarada, no guion ni batch ni resultado nuevo todavía
 ---
 
 # FitExe
@@ -247,6 +251,14 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > no el ciclo completo) no le costó desempeño. Ver la lectura conjunta
    > con el otro video del mismo reporte en [[estrategia-contenido-absadev]]
    > y el snapshot de [[absadev]].
+   >
+   > **Actualización 2026-09-09:** el usuario propone convertir esto en línea
+   > recurrente — *"patrones agénticos de IA con Claude para trabajar en
+   > apps"*, en plural, no un video suelto sobre una herramienta. Sigue siendo
+   > el mismo ángulo #6 en escala mayor, y FitExe sigue siendo el material
+   > (repo real en producción, no un todo app). Candidatos concretos y la
+   > condición antes de comprometerle un batch entero (n=1 todavía) están en
+   > [[estrategia-contenido-absadev]].
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

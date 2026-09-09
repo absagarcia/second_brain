@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-08
+updated: 2026-09-09
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -33,6 +33,22 @@ sources:
     fact_date: 2026-09-08
     ingest_date: 2026-09-08
     confidence: medium   # primera parte pero cifras aproximadas ("más de", "como"), sin export verificable
+  - path: conversation (resumen automático del "asistente" de TikTok, pegado por el usuario)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: medium   # primera parte pero automatizado, sin ventana ni fecha de corte — mismo riesgo anotado el 10-ago
+  - path: YouTube Analytics API v2 vía skills/youtube-analytics (wa-agent), ventana 2026-08-10 → 2026-09-06
+    fact_date: 2026-09-06
+    ingest_date: 2026-09-09
+    confidence: high   # API de primera parte
+  - path: raw/blackicelabs/absadev-youtube-studio-2026-09-09/ (export nativo de YouTube Studio, primer export con impresiones/CTR, acumulado de por vida)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: high   # export de primera parte, pero acumulado de por vida, no de la ventana de 28d
+  - path: raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/ (export nativo de YouTube Studio, filtrado a la ventana exacta 12-ago → 08-sep)
+    fact_date: 2026-09-09
+    ingest_date: 2026-09-09
+    confidence: high   # export de primera parte, ventana exacta — el que cierra el hueco de empaquetado
 ---
 
 # Absadev
@@ -687,6 +703,47 @@ dio el peor resultado del catálogo cuando era sobre IAs (*Copilot vs Gemini*,
 primer dato directo, en YouTube, sobre si "comparar tecnologías" convierte
 para este canal fuera del podcast. Queda pendiente para el próximo corrido.
 
+## [2026-09-09] Resumen automático de TikTok — primer resultado real de batch #5 y del batch del 18-ago
+
+**Fuente: el "asistente" de TikTok** (texto generado, pegado por el usuario) —
+el mismo tipo de resumen que el 10-ago llegó "con semanas de retraso y sin
+fecha visible" y mezcló porcentajes de ventanas distintas. Sin ventana ni
+fecha de corte declaradas aquí tampoco; se lee con la misma cautela.
+
+**Cifras de canal (solo porcentajes, sin denominador):** vistas **+139.9%**,
+tasa de likes **+53%**, tasa de comentarios **−54.5%**, seguidores netos
+nuevos **+2407%** (sin cifra absoluta — un porcentaje enorme sobre una base
+que puede ser pequeña, ver el histórico de +11/7d del 10-ago), **30 videos
+publicados frente a 14** en el periodo anterior (el ritmo se duplicó, no se
+sabe sobre cuántas semanas).
+
+**Tres videos con cifras reales, y dos cierran preguntas abiertas:**
+
+| Video | Vistas | Likes | Com. | Sh. | Identifica |
+|---|---:|---:|---:|---:|---|
+| "¿Qué significa GM? Good morning!" | 141,430 | 767 | 14 | 46 | el mismo video cripto de 2023 — 139,473 vistas de por vida en el export del 10-ago; +1,957 desde entonces, catálogo viejo sigue rindiendo |
+| "Última de las 7 👋 ¿Qué habilidades están pidiendo…?" | 18,267 | 1,171 | 12 | 17 | **cierra el batch #5** (7 shorts nacidos del DM de Instagram, ver arriba) — ep. 7, publicado 01-sep |
+| "Acepté el trabajo que no quería…" | 10,315 | 602 | 24 | 13 | **es "El trabajo que no quería"**, Serie 5, del batch grabado 18-ago (ver [[estrategia-contenido-absadev]]) |
+
+**Lo que esto cierra:** hasta hoy ninguno de los dos batches (el del DM de
+Instagram, el del 18-ago) tenía un solo número de resultado en esta página.
+Los dos entregan ahora su primer dato real, y los dos **confirman el patrón
+identidad/journey por encima de utilidad/comparación**: "Última de las 7" es
+la de mayor tasa de likes de las tres (6.4%, contra 0.54% del GM), y "Acepté
+el trabajo que no quería" tiene la mejor tasa de comentarios (0.23%) — la
+pieza más vulnerable del lote es también la que más conversación genera, otra
+vez.
+
+⚠️ **Lo que no se puede leer de aquí:** la caída de −54.5% en tasa de
+comentarios es de canal completo, no por video, así que no dice si viene del
+batch #5 (12 comentarios sobre 18,267 vistas = 0.066%, bajo comparado con el
+39/30d del 10-ago) o de otro contenido no listado aquí. Sin fecha de la
+ventana tampoco se puede cruzar contra los snapshots de YouTube ni el
+resultado del 08-sep. Y la recomendación final del propio texto — "mira a
+creadores como Aarón Yera, tu amiga, homosapiens" — es filler genérico de la
+plantilla del asistente, no una lectura del canal; no se adopta como
+referencia.
+
 ## [2026-09-08] Dos TikToks nuevos superan la referencia de conversión — OpenSpec y "mi trabajo ideal"
 
 Reportado en conversación, **sin export de plataforma**: cifras aproximadas
@@ -716,6 +773,76 @@ tema de carrera/vocación) y no comparación técnica pura — coherente con el
 patrón repetido desde el 10-ago (alcance↔engagement invertido, mitad
 pikacodes por delante). Ver la lectura conjunta en
 [[estrategia-contenido-absadev]].
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (ventana 2026-08-10 → 2026-09-06, `yt_report.py`)
+
+> Séptimo snapshot, corrido el 2026-09-09 a pedido del usuario para verificar los cinco puntos que
+> esta página ya sostenía sobre cómo revertir la tendencia. Ventana de 28 días cerrada 3 días antes
+> de correrlo, comparada contra 2026-07-13 → 2026-08-09. Snapshots anteriores se conservan tal como
+> se escribieron. **No hay export de Studio en `raw/`** — se buscó antes de correr el reporte y no
+> existe; el hueco de impresiones/CTR sigue sin poder cerrarse, la API de Analytics no las expone.
+
+**Canal (28 días):** 7.860 subs · altas/bajas **+28/−20 = +8 neto** (vs. −2 neto el 02-sep, −4 el
+26-ago) · **SPV 1.38** (vs. −0.42 el 02-sep, −1.11 el 26-ago — la referencia más cercana vuelve a ser
+Absadev 2026-07-28, 1.67, no el caso catastrófico de [[absa-garcia]]) · vistas **5.815** (+27%, sigue
+bajo la norma de 14.9K–24K) · comentarios **12** (+50%) · shares 11 · likes 59 · **13 videos
+publicados** en 28 días.
+
+**Tráfico:** Búsqueda **35.0%** (único que se acumula) · Feed de Shorts 38% · Sugeridos **0.0%**
+(sin cambio) · Browse 1.7% (−50%) · Sugeridos+Browse combinado 16.5% (+81%, sobre base casi nula).
+
+**Nuevos vs. recurrentes:** 82% no suscritos / 18% suscritos.
+
+**Comparación a 14 días:** ningún video de la ventana tiene todavía el ciclo completo — los 25
+evaluables (incluye el batch del 04-sep: RSVP de la boda, Open Spec, clean architecture, etc.) se
+juzgan a partir del 23–25 de septiembre. No hay SPV por video de esta ventana.
+
+**Empaquetado (impresiones/CTR):** hueco cerrado. Primer export acumulado de por vida
+(`raw/blackicelabs/absadev-youtube-studio-2026-09-09/`, CTR canal 3.83%/349.362 impresiones),
+**superado el mismo día por el export exacto de la ventana** de 12-ago a 08-sep
+(`raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/`): **CTR de canal 3.86% sobre 26.765
+impresiones** — casi idéntico al acumulado, el canal no tiene una anomalía de empaquetado
+sistémica. Sólo **3 videos superan las 1.000 impresiones** en la ventana (umbral de ruido de la
+skill), y **dos son catálogo viejo resurgiendo por Búsqueda**, no contenido nuevo: *"Flutter vs
+React Native 2026"* (publicado feb-2026) — 3.100 impresiones, **6.58% CTR** — y *"Flutter vs React
+Native 2025"* (sep-2025) — 1.549 impresiones, **2.32% CTR**. El único video del batch de
+ago-sep con volumen suficiente para medir es *"Cuánto cobrar por tu side project"* — 2.582
+impresiones, **2.09% CTR**, por debajo del promedio del canal. Todo lo demás del batch reciente
+se queda bajo el umbral de ruido (<1.000 impresiones): no es que empaqueten mal, es que casi no
+se les muestran miniaturas.
+
+### Lo que dice esta ventana
+
+1. **El ritmo bajó, y por primera vez queda por debajo del acuerdo, no por encima.** 13 videos/28d ≈
+   **3.25/semana**, contra el 3.5/semana pactado el 28-jul y muy por debajo del ~5/semana sostenido
+   en las tres ventanas anteriores (26-ago, 02-sep, y la de fondo del 10-ago). Es la primera vez que
+   la corrección #1 —marcada sin aplicar en cinco snapshots seguidos— aparece revertida en los datos.
+   ⚠️ Una ventana no confirma que el cambio sea deliberado ni que se sostenga; se registra como
+   dirección, no como corrección cerrada.
+2. **El SPV se recuperó de un salto: −1.11 → −0.42 → 1.38.** Es la primera vez desde el 26-ago que la
+   cifra vuelve a estar cerca de las referencias sanas del propio canal en vez de por debajo del caso
+   catastrófico de [[absa-garcia]]. Coincide en el tiempo con la baja de ritmo del punto 1 — no es
+   prueba de causalidad (mismo aviso que el 26-ago), pero es la segunda vez que ambas cosas se mueven
+   juntas.
+3. **Activation sigue con vida:** 12 comentarios (+50% vs. la ventana anterior), tercera lectura
+   consecutiva sin volver a caer a los mínimos del 26-ago (5).
+4. **Sugeridos sigue exactamente en 0.0%.** Ninguna de las mejoras de arriba movió la distribución
+   algorítmica. Búsqueda (35.0%) sigue siendo el único tráfico que se acumula — sin cambio de fondo
+   respecto a los seis snapshots anteriores.
+5. **El hueco de impresiones/CTR se cierra, con el export exacto de la ventana.** CTR de canal
+   3.86%/26.765 impresiones, en línea con el 3.83% de por vida — no hay una anomalía de
+   empaquetado a nivel canal. Pero de los 3 videos con volumen suficiente para medir, 2 son
+   catálogo viejo resurgiendo por Búsqueda (6.58% y 2.32% CTR) y el único del batch nuevo
+   convierte por debajo del promedio (2.09%). El resto del batch reciente casi no recibe
+   impresiones — la lectura que emerge es **distribución antes que empaquetado**: el contenido
+   nuevo no se le muestra lo suficiente a nadie como para que el CTR sea el cuello de botella.
+6. **Los batches más recientes (04-sep) todavía no tienen ventana de 14 días.** Esta corrida no puede
+   confirmar ni refutar el patrón identidad>comparación con datos nuevos de YouTube; la evidencia de
+   ese patrón en esta fecha sigue siendo la de TikTok (§ 2026-09-08).
+
+**Vida de este dato:** corta, como todos los snapshots de esta página. Lo que podría ser señal de
+vida más larga —si el ritmo bajo y el SPV alto se sostienen en la próxima ventana— todavía no está
+confirmado con una segunda medición.
 
 ## Related
 

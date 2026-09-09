@@ -2740,3 +2740,108 @@ Actualizadas: [[margarita-posada]], [[boda-2026]],
 [[absa-garcia]], [[minimalismo-digital]],
 [[bloque-entrenamiento-running-2026]], [[medio-maraton-atlas-2026]]. Creada:
 [[sofi]]. Actualizado `wiki/index.md`.
+
+## [2026-09-09] update | Corrección de nombre: Williams, no Víctor — freelance, swe
+El usuario aclaró que el programador saliente de Sistema MP se llama
+**Williams**, no Víctor — es quien envió el PDF de accesos y con quien se
+coordina el traspaso. "Víctor" era el nombre que el propio usuario escribió
+en su mensaje original a Margarita el 07-sep (fuente inmutable, sin tocar).
+Corregido en [[sistema-mp-app]] sin borrar la mención original, per la regla
+de contaminación retrospectiva — queda abierto si Víctor es alguien distinto
+o un error de tecleo del primer mensaje.
+
+## [2026-09-09] update | Resumen automático de TikTok — blackicelabs
+El usuario pegó el resumen generado por el "asistente" de TikTok (mismo tipo
+de fuente que el del 10-ago: sin fecha de ventana visible). Cifras de canal
+(+139.9% vistas, +53% tasa de likes, −54.5% tasa de comentarios, +2407%
+seguidores netos —solo porcentajes—, 30 videos vs. 14 antes) y tres videos con
+cifras reales. Dos de ellos **cierran huecos de medición abiertos desde
+agosto**: el ep. 7 de batch #5 (*"¿Qué habilidades…?"*, 18,267 vistas, 1,171
+likes) es el primer resultado real de ese batch; *"El trabajo que no
+quería"* (10,315 vistas, 24 comentarios) es el primer resultado del batch
+grabado 18-ago. El tercero (*"¿Qué significa GM?"*) confirma que el video
+cripto de 2023 sigue acumulando vistas de catálogo. Ambos resultados nuevos
+refuerzan el patrón identidad > utilidad ya documentado. La recomendación
+final del texto (creadores de referencia genéricos) se descarta como filler
+de plantilla, no como lectura del canal. Actualizadas: [[absadev]],
+[[estrategia-contenido-absadev]], `wiki/index.md`.
+
+## [2026-09-09] update | Propuesta de línea de contenido — "patrones agénticos con Claude" en Flutter — blackicelabs, fitexe, swe
+El usuario propone hacer una línea de videos sobre patrones agénticos de IA
+con Claude para trabajar en apps, desde su lugar como dev de Flutter. No es
+un ángulo nuevo: encaja en las Series 2 y 7 de [[estrategia-contenido-absadev]]
+y es la escala mayor del ángulo #6 de [[fitexe]] (OpenSpec), que ya tiene su
+primer resultado medido (2,000+ vistas, 8+ seguidores, la mejor tasa de
+conversión de TikTok registrada). Se documentaron candidatos concretos de
+tema (config/specs de OpenSpec, un ciclo propose→apply→archive real cuando
+ocurra, errores de arquitectura que Claude corrigió, Riverpod/Clean
+Architecture como contexto del agente) y la condición antes de comprometerle
+un batch: un segundo video del mismo ángulo que repita o supere la tasa —
+por ahora es n=1. Actualizadas: [[fitexe]], [[estrategia-contenido-absadev]],
+`wiki/index.md`.
+
+## [2026-09-09] ingest | Séptimo snapshot de YouTube vía skills/youtube-analytics (wa-agent) — blackicelabs
+Corrido de `yt_report.py` (ventana 2026-08-10 → 2026-09-06, 28 días) pedido
+para verificar cinco puntos que la página ya sostenía sobre cómo revertir la
+tendencia del canal. Se confirmó que no hay export de Studio en `raw/`: el
+hueco de impresiones/CTR pedido desde el 10-ago cumple un mes exacto sin
+poder cerrarse — la API de Analytics no lo expone. Resultado principal:
+primera Retention positiva desde el 26-ago (SPV −1.11 → −0.42 → **1.38**,
++8 neto de subs) coincidiendo con el primer ritmo de publicación por debajo
+del acuerdo de 3.5/semana (13 videos/28d ≈ 3.25/sem, contra ~5/sem en las
+tres ventanas anteriores) — la corrección #1, marcada sin aplicar desde el
+10-ago, aparece revertida en los datos por primera vez, sin confirmar
+todavía con una segunda ventana. Sugeridos sigue en 0.0%; los batches del
+04-sep aún no tienen ventana de 14 días para verificar el patrón
+identidad>comparación con datos nuevos de YouTube. Actualizadas: [[absadev]]
+(nuevo snapshot, fuente añadida), [[estrategia-contenido-absadev]] (quinta
+lectura del embudo), `wiki/index.md`.
+
+## [2026-09-09] update | Batch propuesto (no grabado) — 7 shorts + 1 podcast de "patrones agénticos" — blackicelabs, fitexe
+El usuario pidió el contenido de 7 videos y un episodio de podcast sobre el
+ángulo de patrones agénticos con Claude en FitExe. Se diseñaron los 7 títulos
+(specs antes que código, la corrección de arquitectura del 04-sep, cómo
+escribir un `openspec/changes/`, Riverpod desde la óptica de un agente, los
+límites declarados, vibecoding vs. spec-driven, y el ciclo
+propose→apply→archive completo cuando ocurra) más un episodio de podcast
+candidato a reemplazar un slot en pausa del slate actual. El guion completo
+queda fuera del wiki, mismo criterio que batches anteriores. **Colisión de
+calendario marcada, no resuelta:** el batch #7 (14→30-sep) y los clips del
+episodio 024 (24-sep→6-oct) ya ocupan el calendario hasta octubre —
+recomendación de publicar después del 30-sep, decisión pendiente del
+usuario. Sigue en pie la condición de n=1 sobre el ángulo (un solo resultado
+medido, el de OpenSpec). Actualizadas: [[estrategia-contenido-absadev]],
+`wiki/index.md`.
+
+## [2026-09-09] ingest | Primer export de Studio con impresiones/CTR — blackicelabs
+El usuario bajó y pegó el primer export nativo de YouTube Studio con las
+columnas de impresiones y CTR por video, guardado en
+`raw/blackicelabs/absadev-youtube-studio-2026-09-09/`. Corrido con
+`yt_report.py --studio-csv`, cierra parcialmente el hueco de empaquetado
+abierto desde el 10-ago: CTR de canal **3.83% sobre 349.362 impresiones**.
+⚠️ El export es acumulado de por vida, no de la ventana de 28 días — de los
+16 videos publicados entre el 25-ago y el 08-sep, solo uno ("Cuánto cobrar
+por tu side project", 2.582 impresiones) supera el umbral de 1.000
+impresiones para que el CTR no sea ruido (2.09%, bajo el promedio del
+canal). El resto da dirección sin ser medible: "Acepté un trabajo que no
+quería" (8.74%) y "Open claw 2" (6.36%) con CTR alto, "Mac mini m6" (0.86%)
+el peor empaquetado del lote. Sigue pendiente el mismo export filtrado a
+los 28 días exactos para una lectura precisa. Actualizadas: [[absadev]]
+(sección de empaquetado del séptimo snapshot), `wiki/index.md`.
+
+## [2026-09-09] ingest | Export de Studio filtrado a 28 días — cierra el hueco de empaquetado — blackicelabs
+El usuario volvió a exportar Studio, esta vez filtrado a la ventana exacta
+12-ago → 08-sep, guardado en
+`raw/blackicelabs/absadev-youtube-studio-2026-09-09-28d/`. CTR de canal:
+**3.86% sobre 26.765 impresiones** — casi idéntico al 3.83%/349K de por
+vida del export anterior, así que el canal no tiene una anomalía de
+empaquetado a nivel agregado. Solo 3 videos superan las 1.000 impresiones
+(umbral de ruido): dos son catálogo viejo resurgiendo por Búsqueda
+("Flutter vs React Native 2026", 6.58% CTR; "...2025", 2.32%), y el único
+video del batch de agosto-septiembre con volumen suficiente ("Cuánto
+cobrar por tu side project") convierte al 2.09%, bajo el promedio del
+canal. El resto del batch reciente casi no recibió impresiones. Lectura:
+el cuello de botella es **distribución, no empaquetado** — el contenido
+nuevo no se le muestra lo suficiente a nadie como para que el CTR importe.
+Actualizadas: [[absadev]] (sección de empaquetado reescrita con el dato
+exacto, fuente añadida), `wiki/index.md`.
