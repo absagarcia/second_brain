@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-09
+updated: 2026-09-10
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -53,6 +53,10 @@ sources:
     fact_date: 2026-09-09
     ingest_date: 2026-09-09
     confidence: low      # petición/diseño, no grabado ni publicado todavía
+  - path: raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md
+    fact_date: 2026-09-10
+    ingest_date: 2026-09-10
+    confidence: medium   # transcripción de episodio con timestamps, sin verificar contra el original
 ---
 
 # Estrategia de contenido — Absadev
@@ -2169,6 +2173,37 @@ anteriores); aquí quedan los títulos, el ángulo y la decisión pendiente.
 reemplazar uno de los slots en pausa (#2-4) del slate actual del podcast (ver sección del 02-sep).
 Cold open con el mismo incidente del short #2, cierre sin CTA de suscripción (misma regla que
 "9 años, 0 consistencia").
+
+> **Actualización 2026-09-10 — guion corregido con terminología real.** El primer borrador del
+> podcast (en conversación, antes de esta ingesta) nombraba 4 arquitecturas de forma libre. Con
+> [[patrones-diseno-agenticos]] ya en el wiki (fuente de la taxonomía: episodio 269 de [[devtalles]]),
+> el guion se reescribió sobre las categorías reales: **ReAct** y **Plan and Execute** (patrones de
+> agente único), **Orchestrator/Worker** (multiagente), y **Context Offloading vía RAG sobre el
+> repo** (memoria/optimización, la respuesta más directa a la alucinación de las cuatro). El guion
+> completo vive fuera del wiki, mismo criterio que los shorts.
+>
+> **Corrección del mismo día — atribución en cámara.** El usuario pidió explícitamente **no
+> mencionar a DevTalles en el episodio**: quiere el contenido de su propia autoría, y el origen real
+> de haber aprendido esto es **un curso que tomó en el trabajo** ([[slalom]]), no el podcast de
+> referencia. DevTalles se usó únicamente como **referencia de investigación interna** para
+> estructurar y nombrar correctamente los patrones — no aparece ni debe aparecer citado en el guion
+> ni en redes. El cold open y el cierre se reescribieron para anclar el origen en el curso de
+> Slalom, no en un podcast ajeno.
+>
+> Candidatos para una segunda temporada del mismo episodio o para los shorts #1-7: **Approval Gates**
+> y **Rails** (ya instanciados por OpenSpec en [[fitexe]], sin video propio todavía) y **Circuit
+> Breaker** (la respuesta estructural al riesgo de ReAct sin límite de pasos, mencionado en el
+> podcast pero sin ejemplo real todavía).
+>
+> **Segunda corrección, mismo día — OpenSpec necesita su propio momento explícito.** La primera
+> versión reescrita lo mencionaba solo entre paréntesis dentro de "Approval Gates + Rails" y el
+> usuario lo notó. OpenSpec **no es una fuente externa** (no aplica la regla de no citar
+> referencias) — es la herramienta real que el usuario ya usa, y de hecho instancia varios patrones
+> a la vez: **Plan and Execute** (specs completas antes de generar), **Approval Gates + Rails**
+> (el ciclo propose→apply→archive) y parte de **gestión de memoria** (specs archivadas quedan como
+> contexto para la próxima sesión). El guion final la nombra explícitamente en al menos tres
+> momentos, no una sola vez de pasada — coherente con que es justo el ángulo que ya dio el mejor
+> resultado medido (2,000+ vistas, 8+ seguidores, 08-sep).
 
 ⚠️ **Colisión de calendario, marcada y no resuelta.** El batch #7 (9 shorts, 14→30-sep) y los 7
 clips del episodio 024 (24-sep→6-oct, 3 redes) **ya ocupan el calendario de shorts hasta principios

@@ -3,7 +3,7 @@ title: Slalom
 type: entity
 domain: [swe, freelance, finance]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-10
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: high   # primera mano: el neto mensual
+  - path: conversation (usuario menciona curso de patrones agénticos tomado en el trabajo)
+    fact_date: 2026-09-10
+    ingest_date: 2026-09-10
+    confidence: medium   # primera mano pero sin detalle del curso (proveedor, duración, contenido exacto)
 ---
 
 # Slalom
@@ -49,6 +53,21 @@ el objetivo 5 en una cifra.
 empieza a entrar detalle de proyecto, aplica la regla del dominio `freelance`
 del `CLAUDE.md` — **anonimizar y no meter datos sensibles de cliente**. Por eso
 esta página lleva ese dominio aunque no sea trabajo freelance.
+
+## Curso de patrones de diseño agénticos (2026-09-10)
+
+El usuario tomó **un curso en Slalom** sobre patrones de diseño agénticos —
+primera mención de formación formal recibida ahí, y primera evidencia concreta
+del objetivo 15 (*"ser experto en IA aplicada a código"*) siendo alimentado
+por el propio trabajo, no solo perseguido en paralelo. Es, además, **el origen
+real** que el usuario quiere que se acredite en el contenido de [[absadev]]
+sobre el tema (ver [[estrategia-contenido-absadev]] y
+[[patrones-diseno-agenticos]]) — explícitamente, no [[devtalles]] (usado solo
+como referencia de investigación interna, no citable en cámara).
+
+⚠️ **Sin detalle del curso todavía:** no se sabe si fue interno de Slalom, de
+un proveedor externo, su duración, ni si cubrió los mismos patrones que
+[[patrones-diseno-agenticos]] documenta o solo un subconjunto. Dato abierto.
 
 ## Por qué importa más de lo que la lista sugiere
 

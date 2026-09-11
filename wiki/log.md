@@ -2845,3 +2845,37 @@ el cuello de botella es **distribución, no empaquetado** — el contenido
 nuevo no se le muestra lo suficiente a nadie como para que el CTR importe.
 Actualizadas: [[absadev]] (sección de empaquetado reescrita con el dato
 exacto, fuente añadida), `wiki/index.md`.
+
+## [2026-09-10] ingest | Episodio 269 de DevTalles — "Patrones de diseño agénticos" — swe, blackicelabs, fitexe
+El usuario pegó una transcripción con timestamps del episodio 269 de
+[[devtalles]], guardada en
+`raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md`, como
+referencia de formato para el podcast de "patrones agénticos" que se venía
+diseñando. Es una fuente distinta al catálogo sintetizado del 25-ago (sin
+las anomalías de numeración de ese informe), confianza `medium`. Se creó
+página de concepto propia — **[[patrones-diseno-agenticos]]** — porque el
+tema ya se mencionaba en 3+ páginas sin tener una: taxonomía completa
+(agente único: Tool, Planning, Reflection, ReAct, Prompt Chaining, Plan and
+Execute, CodeAct; multiagente: Router, Handoff, Orchestrator/Worker,
+Paralelización, Blackboard; control/seguridad: Human-in-the-loop, Approval
+Gates, Rails, Circuit Breaker; memoria: gestión de memoria, Compactación,
+Context Offloading), cruzada contra el caso real de [[fitexe]]: el ciclo
+`propose→apply→archive` de OpenSpec **es** Approval Gates + Rails; ReAct,
+Orchestrator/Worker y Circuit Breaker siguen sin probarse en ese repo. Se
+corrigió el guion del podcast en [[estrategia-contenido-absadev]] con la
+terminología real. Actualizadas: [[devtalles]], [[fitexe]],
+[[estrategia-contenido-absadev]], `wiki/index.md`. Creada:
+[[patrones-diseno-agenticos]].
+
+## [2026-09-10] update | Corrección de atribución — no citar DevTalles, el origen es un curso en Slalom — blackicelabs, swe, freelance
+El usuario pidió explícitamente que el episodio de podcast sobre patrones
+agénticos **no mencione a DevTalles** en cámara: quiere el contenido de su
+propia autoría. El origen real de haber aprendido esto es **un curso que
+tomó en el trabajo** ([[slalom]]) — primera mención de formación recibida
+ahí, y primera evidencia de que el objetivo 15 (IA aplicada a código) se
+alimenta del propio trabajo. Se corrigió [[devtalles]] para marcar que su
+uso es solo de investigación interna, no citable en contenido publicado, y
+se reescribió el guion en [[estrategia-contenido-absadev]] para anclar el
+cold open y el cierre en el curso de Slalom en vez del podcast de
+referencia. Actualizadas: [[devtalles]], [[slalom]],
+[[estrategia-contenido-absadev]], `wiki/index.md`.

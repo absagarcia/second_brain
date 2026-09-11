@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-09-09
+updated: 2026-09-10
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -25,6 +25,10 @@ sources:
     fact_date: 2026-09-09
     ingest_date: 2026-09-09
     confidence: low            # intención declarada, no guion ni batch ni resultado nuevo todavía
+  - path: raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md
+    fact_date: 2026-09-10
+    ingest_date: 2026-09-10
+    confidence: medium         # transcripción de episodio con timestamps, sin verificar contra el original
 ---
 
 # FitExe
@@ -259,6 +263,14 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > (repo real en producción, no un todo app). Candidatos concretos y la
    > condición antes de comprometerle un batch entero (n=1 todavía) están en
    > [[estrategia-contenido-absadev]].
+   >
+   > **Actualización 2026-09-10:** los "patrones agénticos" ahora tienen nombre
+   > y taxonomía propia en [[patrones-diseno-agenticos]] (fuente: episodio 269
+   > de [[devtalles]]). El ciclo `propose→apply→archive` de OpenSpec **es** una
+   > instancia real de **Approval Gates** + **Rails**; lo que sigue sin probarse
+   > en este repo son **ReAct sin límite de pasos**, **Orchestrator/Worker**
+   > (multiagente) y **Circuit Breaker** — candidatos para cuando exista un
+   > caso real que grabar.
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

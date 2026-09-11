@@ -3,12 +3,16 @@ title: DevTalles (podcast) — Fernando Herrera
 type: entity
 domain: [blackicelabs, swe]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-10
 sources:
   - path: raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md
     fact_date: 2026-08-25      # fecha del pegado; el catálogo dice cubrir 2021 → mediados de 2026
     ingest_date: 2026-08-25
     confidence: low            # informe sintetizado de origen desconocido, sin verificar contra el RSS. Ver §Fiabilidad
+  - path: raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md
+    fact_date: 2026-09-10      # fecha del pegado; episodio en sí sin fecha de publicación confirmada
+    ingest_date: 2026-09-10
+    confidence: medium         # transcripción con timestamps específicos, distinto del catálogo sintetizado — pero sin verificar contra el episodio real
 ---
 
 # DevTalles (podcast) — Fernando Herrera
@@ -150,6 +154,43 @@ cambia). Las macrotendencias son de **vida media**: describen 2021-2026 y ya
 están cambiando. La lectura estratégica es de **vida corta** — depende del plan
 de reactivación vigente.
 
+## Episodio 269 — "Patrones de diseño agénticos" (2026-09-10)
+
+**Fuente distinta al catálogo de arriba** — no es el informe sintetizado con
+anomalías de numeración; es una transcripción/resumen con timestamps concretos
+de un solo episodio, pegada por el usuario como referencia de formato para su
+propio contenido sobre agentes de IA. Sigue **sin verificar contra el episodio
+real**, pero la estructura (timestamps consecutivos y coherentes) no muestra
+las anomalías del catálogo (números duplicados, rangos colapsados) — confianza
+`medium`, no `low`.
+
+**Estructura del episodio, usada como plantilla de formato:** intro → definición
+de patrón → **patrones de agente único** (Tool, Planning, Reflection, ReAct,
+Prompt Chaining, Plan and Execute, CodeAct) → **patrones multiagente** (Router,
+Handoff, Orchestrator/Worker, Paralelización, Blackboard) → **control y
+seguridad** (Human-in-the-loop, Approval Gates, Rails, Circuit Breaker) →
+**memoria y optimización** (gestión de memoria, Compactación/Content Pruning,
+Context Offloading).
+
+La taxonomía completa, con definiciones y el cruce contra los casos reales de
+[[fitexe]], vive en su propia página de concepto:
+[[patrones-diseno-agenticos]] — el tema ya se mencionaba en 3+ páginas
+distintas ([[fitexe]], [[estrategia-contenido-absadev]], y ahora aquí) sin
+tener una propia, así que le tocaba.
+
+**Uso que se le da:** no como fuente de autoridad técnica (es un podcast de
+referencia, no documentación primaria de cada patrón), sino como **estructura
+de episodio** para el propio podcast del usuario sobre el mismo tema — ver
+la sección correspondiente en [[estrategia-contenido-absadev]].
+
+⚠️ **Restricción explícita del usuario, 2026-09-10: no citar a DevTalles en
+cámara.** El episodio debe ser de su propia autoría — el origen real de haber
+aprendido estos patrones es un curso que tomó en el trabajo ([[slalom]]), no
+este podcast. DevTalles se usa exclusivamente como **referencia de
+investigación interna** (para nombrar y estructurar bien los patrones antes de
+escribir el guion); no aparece mencionado en el contenido publicado. Aplica
+también a cualquier otra pieza que use esta página como fuente.
+
 ## Related
 
 - [[blackicelabs-podcast]] — el show del usuario; el cruce de temarios está arriba
@@ -157,3 +198,4 @@ de reactivación vigente.
 - [[pendulo-arquitectonico-cliente-servidor]] — concepto extraído
 - [[vibecoding-y-spec-driven-design]] — concepto extraído
 - [[falacia-narrativa-y-pruebas-silenciosas]] — por qué no se copia el temario de un catálogo sin métricas
+- [[patrones-diseno-agenticos]] — la taxonomía completa del episodio 269, con la aplicación a FitExe
