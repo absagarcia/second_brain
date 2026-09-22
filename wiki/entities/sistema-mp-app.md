@@ -145,3 +145,4 @@ redundantes a las que ya pidió el mensaje a Williams.
 - [[margarita-posada]] — la dueña de la app y paciente/cliente cero
 - [[segunda-app-candidatas]] — la hipótesis que esta noticia contradice en su forma
 - [[fitexe]] — el stack que el usuario ya domina (Flutter/Supabase), distinto del de Sistema MP (React Native/Go/PostgreSQL en AWS)
+- [[nunca-reescribas-desde-cero]] — la migración de la app web (CRA → Next.js, "en migración, sin publicar") se usa como el ancla real de la Serie 11 de [[estrategia-contenido-absadev]] (2026-09-21)

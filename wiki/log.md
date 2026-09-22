@@ -2879,3 +2879,56 @@ se reescribió el guion en [[estrategia-contenido-absadev]] para anclar el
 cold open y el cierre en el curso de Slalom en vez del podcast de
 referencia. Actualizadas: [[devtalles]], [[slalom]],
 [[estrategia-contenido-absadev]], `wiki/index.md`.
+
+## [2026-09-17] ingest | Catálogo YouTube absa.garcia post-poda — blackicelabs
+El usuario pegó el listado de "Contenido del canal" de YouTube Studio y
+declaró haber borrado videos. El catálogo pasó de ~498 a ~141 videos
+(paginador: "1–50 de unas 141"); solo se capturaron ~90 filas antes de que
+el pegado se cortara por límite de caracteres. Se anotó primero una
+tensión (los sobrevivientes son mayormente San Gabriel/CETI, no
+running/Mundial) al asumir un motivo temático; el usuario corrigió: la
+poda es **por ingresos** ("empezar casi desde 0 sin dejar de tener videos
+que siguen generando ingresos"), no por tema. Guardado el export en
+`raw/blackicelabs/absa-garcia-youtube-catalogo-2026-09-17/`. Actualizadas:
+[[absa-garcia]], `wiki/index.md`.
+
+## [2026-09-17] ingest | Nuevo posicionamiento de relanzamiento — blackicelabs
+El usuario dio la bio/banner con la que relanza el canal absa.garcia:
+minimalismo, felicidad, productividad, la vida, running, angustia
+existencial, comer, y darle vueltas a todo. Amplía el rumbo running/vida
+del 2026-07-22 con temas nuevos (minimalismo conecta con
+[[minimalismo-digital]]; felicidad y productividad no estaban
+registrados). Sin datos de desempeño todavía. Actualizada: [[absa-garcia]].
+
+## [2026-09-21] ingest | Ensayo de Joel Spolsky ("Things You Should Never Do") — blackicelabs
+El usuario pegó un resumen del ensayo clásico de Spolsky sobre por qué
+reescribir código desde cero es casi siempre el error estratégico más
+caro (caso Netscape 6.0, Borland, Word/"Pyramid"). Se creó la página de
+concepto [[nunca-reescribas-desde-cero]] y se guardó la fuente en
+`raw/blackicelabs/joel-spolsky-things-you-should-never-do-2026-09-21.md`.
+Se guionizó la Serie 11 de [[estrategia-contenido-absadev]] — 6 shorts
+numerados, decididos con el usuario como serie de arco (no
+"Comparaciones sin choro", porque solo una de las seis ideas es un
+comparativo A/B), anclados en la migración incremental real y en curso
+de [[sistema-mp-app]] (React/CRA → Next.js) para cumplir la regla de
+atribución vigente (no acreditar fuentes de investigación en cámara,
+ver la corrección de [[devtalles]] del 2026-09-10). Marcada la colisión
+de calendario ya existente (batch #7 + clips del episodio 024 ocupan
+hasta principios de octubre) — sin fecha de publicación decidida.
+Actualizadas: [[estrategia-contenido-absadev]], [[sistema-mp-app]],
+`wiki/index.md`.
+
+## [2026-09-22] ingest | Serie 11 reescrita con Gemini — blackicelabs
+El usuario generó una segunda versión de los 6 guiones con Gemini
+(formato TikTok con timing por beat, gancho en los primeros 3s, B-roll
+marcado, CTA de fricción) y la prefirió sobre la v1 escrita el día
+anterior. Se guardó como "Guiones completos v2" en
+[[estrategia-contenido-absadev]], sin borrar la v1 (integridad
+temporal — quedó marcada como descartada, no como error). Se anotaron
+dos huecos de precisión nuevos de la v2: el mecanismo técnico descrito
+en el guion #5 (patrón Strangler Fig, `rewrites` de Next.js, SSR
+ruta por ruta) no está verificado contra la fuente de
+[[sistema-mp-app]] — pendiente que el usuario confirme antes de
+grabar — y dos cifras retóricas (el "triple" de esfuerzo de lectura en
+#3, "seis u ocho meses" de silencio en #4) marcadas como ilustrativas,
+no citables. Actualizada: [[estrategia-contenido-absadev]].

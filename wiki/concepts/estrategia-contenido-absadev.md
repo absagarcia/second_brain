@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-10
+updated: 2026-09-22
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -57,6 +57,10 @@ sources:
     fact_date: 2026-09-10
     ingest_date: 2026-09-10
     confidence: medium   # transcripción de episodio con timestamps, sin verificar contra el original
+  - path: raw/blackicelabs/joel-spolsky-things-you-should-never-do-2026-09-21.md
+    fact_date: 2000
+    ingest_date: 2026-09-21
+    confidence: medium   # ensayo clásico de blog, casos no verificados de primera mano
 ---
 
 # Estrategia de contenido — Absadev
@@ -2217,3 +2221,358 @@ explícitamente qué sale del calendario actual para hacerle espacio.
 dato real de este ángulo. Se sugirió grabar primero los shorts #2 y #6 (mayor potencial de
 identidad/conversación) y decidir el resto según respuesta, en vez de comprometer las 7 piezas de
 una — condición ya anotada arriba, no nueva.
+
+## Serie 11 — "Nunca reescribas desde cero" (guionizada 2026-09-21)
+
+Banco de ideas: un ensayo clásico de ingeniería de software (Joel Spolsky, "Things You Should
+Never Do, Part I", 2000) pegado por el usuario, ver [[nunca-reescribas-desde-cero]] y la fuente en
+`raw/blackicelabs/joel-spolsky-things-you-should-never-do-2026-09-21.md`. Encaja en el pilar
+**⚙️ TypeScript real de trabajo / craft de ingeniería**, no en Series 3 (Comparaciones sin choro) —
+de las seis ideas del ensayo, solo una es un comparativo A/B; el resto es narrativa de caso,
+psicología del programador y consecuencia, que es la forma de una **serie numerada con arco**
+(como Series 1 y 5), no de un comparativo suelto por video. Decisión tomada con el usuario
+2026-09-21: serie nueva de 6 partes.
+
+**Ancla real (regla de atribución vigente — ver la corrección de [[devtalles]] del 2026-09-10, no
+acreditar fuentes de investigación en cámara):** [[sistema-mp-app]] documenta una migración
+incremental real y en curso — la app web sigue en React/CRA en producción mientras la v2 en
+Next.js está "en migración, sin publicar", conviviendo con la anterior en vez de sustituirla de
+golpe. Es el caso propio del usuario más cercano a la tesis del ensayo, confirmado por él mismo el
+2026-09-21 como el ancla a usar. A diferencia de DevTalles, el ensayo de Spolsky se cita igual que
+este canal ya cita libros en otros episodios (ej. episodio 027, "4 libros y medio") — no es un
+competidor de formato, así que nombrarlo en cámara no compromete la autoría; lo que no se hace es
+presentarlo como si la idea naciera de una investigación encargada, cuando en realidad nace de algo
+que el usuario leyó y le resonó por lo que está viviendo en Sistema MP ahora mismo.
+
+⚠️ **Colisión de calendario, otra vez.** El batch #7 (9 shorts, 14→30-sep) y los 7 clips del
+episodio 024 (24-sep→6-oct) ya ocupan el calendario hasta principios de octubre — la misma
+advertencia ya anotada arriba para la serie de patrones agénticos aplica aquí. Guionizar ahora,
+decidir fecha de publicación con el usuario antes de agendar.
+
+1. **#1 — "Por qué nunca deberías reescribir tu app desde cero"** (cold open / hook de la serie).
+   Cuenta el caso Netscape en 15 segundos: reescribieron todo desde cero, tardaron casi 3 años en
+   sacar la versión 6.0, y mientras tanto su cuota de mercado se desplomó frente a Internet
+   Explorer. Cierre: *"llevo [X] semanas migrando una app sin apagarla — te cuento cómo en esta
+   serie. ¿Alguna vez te tocó decidir entre reescribir o arreglar?"*
+2. **#2 — "Ese código feo que quieres borrar no es un desastre"**. Postura: cada línea rara del
+   código viejo suele ser un bug real que alguien encontró en producción y arregló — no
+   descuido. Borrarlo no es limpiar, es tirar conocimiento que no está documentado en ningún otro
+   lado. Cierre: *"¿cuál es la línea más fea que has visto en un código que en realidad resolvía
+   algo importante?"*
+3. **#3 — "Por qué todo programador cree que el código ajeno es basura"**. Postura: es más difícil
+   leer código que escribirlo, así que el cerebro siempre concluye que el código de otro (o el
+   tuyo de hace un año) es un desastre — no porque lo sea, sino porque entenderlo cuesta más que
+   reescribirlo de cero te haría creer. Cierre: *"¿te ha pasado que abres tu propio código de hace
+   un año y quieres tirarlo todo?"*
+4. **#4 — "El verdadero costo de reescribir no es el tiempo, es lo que dejas de lanzar"**.
+   Postura: el costo real de una reescritura no es cuánto tarda, es la ventana ciega — meses o
+   años sin poder sacar nada nuevo mientras la competencia sigue lanzando. Ahí es donde se regala
+   la ventaja. Cierre: *"¿has visto un proyecto morir por quedarse 'reescribiendo' mientras el
+   mercado seguía?"*
+5. **#5 — "Cómo estoy migrando Sistema MP sin apagar nada"** (el ancla real). Postura: en vez de
+   tirar la app web en producción, la nueva versión en Next.js convive con la anterior hasta que
+   está lista — nada se apaga de golpe. ⚠️ Nota de guion: esto ilustra la **alternativa**
+   incremental del ensayo, no su advertencia central (la reescritura total) — el backend
+   Go/Echo y la app móvil no se tocan, así que no exagerar la comparación en cámara. Cierre:
+   *"¿tú harías la migración de golpe o poco a poco? cuéntame tu experiencia."*
+6. **#6 — "Netscape, Borland y Word: tres reescrituras que casi matan a la empresa"** (cierre de
+   la serie). Repasa los tres casos citados por el ensayo (Netscape 6.0, Borland con dBase/Quattro
+   Pro, y el intento fallido de Microsoft de reescribir Word bajo el nombre en código "Pyramid") y
+   cierra la serie con la regla resumida: refactoriza pieza por pieza, optimiza solo lo lento,
+   nunca tires todo de una vez. Cierre: *"de estas 6, ¿cuál te tocó vivir en carne propia? cuéntamela
+   y sale un video respondiéndote."* (engancha directo con la Serie 4, el motor de comentarios).
+
+⚠️ **Límite de la fuente, anotado también en [[nunca-reescribas-desde-cero]]:** los tres casos
+(Netscape, Borland, Word/Pyramid) vienen de un ensayo de blog del año 2000, no verificados de
+primera mano por este wiki contra fuente primaria. Sirven como ilustración de una tendencia
+conocida de la industria, no como cifra exacta citable en cámara — el guion #6 los presenta como
+"ejemplos que cita el ensayo", no como hechos verificados por el canal.
+
+### Guiones completos v1 (escritos 2026-09-22, a petición del usuario) — superseded, ver v2 abajo
+
+**⚠️ Rechazados por el usuario el mismo día** ("hizo mejores guiones" refiriéndose a una versión
+generada con Gemini) — aperturas juzgadas lentas/de ensayo histórico en vez de gancho inmediato.
+Se conservan sin borrar (integridad temporal) — no se usan para grabar.
+
+Formato corto (45-70 s hablado), un take por video salvo indicación. `[ON SCREEN]` marca texto
+superpuesto sugerido. ⚠️ **Hueco dejado a propósito, no inventado:** el guion #1 necesita que el
+usuario confirme cuántas semanas lleva la migración de Sistema MP corriendo — no hay esa fecha
+exacta en el wiki (el traspaso de accesos fue el 2026-09-07, pero no está registrado cuándo arrancó
+la migración a Next.js en sí).
+
+**#1 — "Por qué nunca deberías reescribir tu app desde cero"**
+
+> [ON SCREEN: "Nunca reescribas desde cero (#1)"]
+>
+> En el año 2000, Netscape decidió reescribir su navegador desde cero. Código
+> nuevo, arquitectura nueva, todo limpio.
+>
+> Tardaron casi tres años en sacar la versión 6.0. Y mientras tanto — Internet
+> Explorer se comió su mercado. Cuando por fin lanzaron, ya no importaba.
+>
+> [ON SCREEN: "3 años sin lanzar nada"]
+>
+> Llevo [X] semanas migrando la app web de un cliente de React viejo a
+> Next.js. Y estoy haciendo exactamente lo contrario a Netscape: no apagué
+> nada. La versión vieja sigue en producción mientras la nueva se arma al
+> lado.
+>
+> En esta serie te cuento por qué reescribir desde cero casi siempre sale
+> mal — y qué hago yo en su lugar.
+>
+> ¿Alguna vez te tocó decidir entre reescribir o arreglar? Cuéntame qué
+> pasó.
+
+**#2 — "Ese código feo que quieres borrar no es un desastre"**
+
+> [ON SCREEN: "Nunca reescribas desde cero (#2)"]
+>
+> Abres un código viejo, ves una línea rarísima, sin sentido, y piensas:
+> "esto está mal hecho, lo voy a arreglar."
+>
+> Alto ahí. Esa línea rara casi nunca es descuido. Es un fix. Alguien, en
+> algún momento, encontró un bug real en producción — un caso límite que tú
+> ni te imaginas — y esa línea fea es la cicatriz de haberlo arreglado.
+>
+> [ON SCREEN: "código feo = memoria de bugs reales"]
+>
+> Cuando borras ese código para "limpiarlo", no estás limpiando nada.
+> Estás tirando conocimiento que no está escrito en ningún otro lado — ni en
+> un doc, ni en un comentario. Solo vivía ahí.
+>
+> ¿Cuál es la línea más fea que te ha tocado ver en un código — que
+> resultó que sí resolvía algo importante? Cuéntamela.
+
+**#3 — "Por qué todo programador cree que el código ajeno es basura"**
+
+> [ON SCREEN: "Nunca reescribas desde cero (#3)"]
+>
+> Te voy a confesar algo: cada vez que abro código de otro dev — o mi propio
+> código de hace un año — mi primer instinto es pensar "esto es un desastre,
+> lo reescribo mejor yo."
+>
+> Y casi nunca es cierto. Es que leer código toma más esfuerzo que
+> escribirlo. Tu cerebro no distingue entre "esto está mal" y "esto me está
+> costando trabajo entender" — y confunde una cosa con la otra.
+>
+> [ON SCREEN: "leer > escribir, en esfuerzo"]
+>
+> Por eso todo programador, en algún momento, jura que el código que
+> heredó es peor de lo que en realidad es. Y ese instinto es justo el que
+> mata proyectos cuando lo sigues sin cuestionarlo.
+>
+> ¿Te ha pasado que abres tu propio código de hace un año y quieres
+> tirarlo todo? Dime la verdad.
+
+**#4 — "El verdadero costo de reescribir no es el tiempo, es lo que dejas de lanzar"**
+
+> [ON SCREEN: "Nunca reescribas desde cero (#4)"]
+>
+> Si me preguntas cuál es el costo de reescribir un sistema desde cero, la
+> respuesta obvia es "el tiempo que tarda". Esa no es la respuesta que
+> importa.
+>
+> El costo real es lo que no lanzas mientras tanto. Cada feature que no
+> sale, cada bug que no arreglas porque estás ocupado reescribiendo algo que
+> ya funcionaba — esa es la ventana en la que tu competencia sigue avanzando
+> y tú no.
+>
+> [ON SCREEN: "el costo no es escribir, es no lanzar"]
+>
+> Ahí es exactamente donde regalas la ventaja. No en el esfuerzo de
+> programar — en el silencio de meses sin nada nuevo.
+>
+> ¿Has visto morir un proyecto por quedarse "reescribiendo" mientras el
+> mercado seguía sin esperarlo? Cuéntame el caso.
+
+**#5 — "Cómo estoy migrando una app sin apagar nada"** (el ancla real — Sistema MP)
+
+> [ON SCREEN: "Nunca reescribas desde cero (#5)"]
+>
+> Estoy migrando la app web de un cliente de una versión vieja en React a
+> Next.js. Y la decisión más importante que tomé no fue de código — fue no
+> apagar la versión vieja.
+>
+> La app en producción sigue viva, atendiendo usuarios reales, mientras la
+> nueva se construye al lado. El día que la nueva esté lista de verdad, ahí
+> cambio el switch. No antes.
+>
+> [ON SCREEN: "vieja viva + nueva al lado = migración incremental"]
+>
+> ⚠️ No es una reescritura completa — el backend y la app móvil del cliente
+> ni los toco, solo la capa web. Pero la lógica es la misma que evitó que
+> Netscape se hundiera: nunca dejar a los usuarios sin nada funcionando
+> mientras tú reconstruyes.
+>
+> ¿Tú harías la migración de golpe o poco a poco? Cuéntame tu experiencia.
+
+**#6 — "Netscape, Borland y Word: tres reescrituras que casi matan a la empresa"** (cierre de serie)
+
+> [ON SCREEN: "Nunca reescribas desde cero (#6 — final)"]
+>
+> Cierro esta serie con tres casos que leí en un ensayo clásico de
+> ingeniería de software, del año 2000, y que se me quedaron grabados.
+>
+> Netscape reescribió su navegador desde cero — casi tres años sin lanzar
+> nada, mercado perdido. Borland hizo lo mismo con dBase y Quattro Pro.
+> Microsoft intentó reescribir Word entero bajo el nombre en código
+> "Pyramid" — y ese proyecto nunca vio la luz.
+>
+> [ON SCREEN: "Netscape · Borland · Word 'Pyramid'"]
+>
+> Tres empresas distintas, mismo error: pensar que empezar de cero es más
+> rápido que arreglar lo que ya existe. Casi nunca lo es.
+>
+> La regla que me llevo de esta serie: refactoriza pieza por pieza, optimiza
+> solo lo que de verdad es lento, y nunca tires todo de una vez.
+>
+> De estas seis, ¿cuál te tocó vivir en carne propia? Cuéntamela y el
+> próximo video es tu historia.
+
+### Guiones completos v2 (reescritos con Gemini, adoptados 2026-09-22)
+
+El usuario generó una segunda versión con Gemini y la prefirió — formato TikTok con timing por
+beat (0:00-0:03 gancho, B-roll/pantalla marcado, CTA de fricción en vez de pregunta abierta). Esta
+es la versión a usar para grabar. La v1 de arriba queda como lo que se descartó, no se borra.
+
+⚠️ **Un hueco de precisión, no inventado por este wiki pero sí nuevo en esta versión — pendiente de
+confirmar con el usuario antes de grabar el #5:** el guion describe la migración de Sistema MP con
+detalle técnico específico que no está verificado contra la fuente (`sistema-mp-app.md` solo dice
+"v2 en Next.js, en migración, sin publicar", sin mecanismo documentado) — nombra el patrón
+**Strangler Fig**, `next.config.js` con `rewrites`, y enrutamiento por SSR/proxy ruta por ruta. Si
+la migración real no funciona exactamente así (p. ej. si es un subdominio aparte, un feature flag,
+o algo distinto a rewrites de Next.js), el guion estaría afirmando en cámara un detalle técnico
+falso sobre el propio trabajo del usuario — no es igual de grave que inventar una cifra, pero sí
+rompe la misma regla de no generar contenido especulativo. **Confirmar el mecanismo real antes de
+grabar #5**, o suavizar esa parte a lo que sí es cierto.
+
+**Video 1 — "Por qué nunca deberías reescribir tu app desde cero"**
+
+- Objetivo algorítmico: Hold Rate (retención en los primeros 3s). Duración: 45-50s.
+- **(0:00-0:03)** [ON SCREEN, rojo/blanco: "NUNCA reescribas tu app de cero 🛑"] — primer plano:
+  *"Si tu equipo de desarrollo te propone tirar todo el código a la basura y empezar desde cero...
+  huye: te están vendiendo una trampa mortal."*
+- **(0:03-0:15)** [B-ROLL: transición rápida, logo/estética retro de Netscape] —
+  *"Año 2000. Netscape dominaba más del 80% de internet. Decidieron que su código era un desastre
+  y congelaron todo para programar el navegador 'perfecto' desde una hoja en blanco."*
+- **(0:15-0:26)** [B-ROLL: gráfica cayendo, logo de Internet Explorer subiendo] —
+  *"Tardaron casi tres años en lanzar la versión 6.0. ¿El resultado? Mientras ellos programaban
+  'limpio', Internet Explorer se quedó con todo el mercado. Cuando Netscape por fin lanzó, la
+  empresa ya estaba prácticamente muerta."*
+- **(0:26-0:38)** [B-ROLL: pantalla del proyecto real, editor con Next.js/React] —
+  *"Justo ahora estoy migrando la app web de un cliente de React a Next.js. ¿La regla de oro? No
+  apagué nada. La versión vieja sigue facturando en producción mientras la nueva se construye al
+  lado."*
+- **(0:38-0:48)** [ON SCREEN: "¿Te pasó en tu trabajo? Comenta 👇"] — primer plano:
+  *"Reescribir de cero casi nunca es una decisión técnica: suele ser una trampa de ego. ¿Alguna vez
+  viste morir un proyecto por querer rehacerlo entero? Cuéntamelo en los comentarios."*
+
+**Video 2 — "Ese código feo que quieres borrar no es un desastre"**
+
+- Objetivo algorítmico: Comment Velocity. Duración: 45s.
+- **(0:00-0:03)** [ON SCREEN: "¡NO BORRES ESA LÍNEA! 💣"] — acercamiento brusco con teclado en
+  mano: *"Esa línea de código horrible que estás a punto de borrar... probablemente sostiene a toda
+  la empresa."*
+- **(0:03-0:14)** [B-ROLL: VS Code, zoom a un condicional absurdo o `// No tocar, rompe safari`] —
+  *"Abres un archivo viejo, ves un condicional sin sentido o un retraso forzado de 50 milisegundos
+  y dices: 'Qué desastre, esto lo arreglo en cinco minutos'."*
+- **(0:14-0:26)** [primer plano, luz lateral seria] —
+  *"Alto ahí. Esa línea fea casi nunca es descuido: es una cicatriz. Alguien pasó un fin de semana
+  entero resolviendo un caso límite brutal en producción que tú ni te imaginas."*
+- **(0:26-0:36)** [B-ROLL: animación de git diff eliminando la línea, sonido de error 500] —
+  *"Cuando la borras para que el archivo se vea 'elegante', estás tirando años de experiencia que
+  no están en la documentación ni en Jira. Solo vivían ahí."*
+- **(0:36-0:45)** [ON SCREEN: "¿Cuál fue tu línea más bizarra? 👇"] —
+  *"¿Cuál es la línea más bizarra que te ha tocado ver en un sistema y que resultó ser obligatoria?
+  Cuéntamela abajo."*
+
+**Video 3 — "Por qué todo programador cree que el código ajeno es basura"**
+
+- Objetivo algorítmico: Share Rate. Duración: 42-45s.
+- **(0:00-0:03)** [ON SCREEN: "La verdad incómoda del código ajeno 🤡"] — sonrisa irónica:
+  *"Para ti, cualquier código que no escribiste tú... es una porquería. Y te pasa incluso con el
+  tuyo de hace un año."*
+- **(0:03-0:13)** [B-ROLL: terminal con `git blame` revelando que el autor del código feo eres tú
+  mismo] — *"Abres un repositorio heredado y tu primer impulso siempre es: 'Esto es insalvable, lo
+  reescribo mejor yo'. Calma, no es arrogancia técnica, es un sesgo de tu cerebro."*
+- **(0:13-0:25)** [gesto comparando esfuerzo de lectura vs. escritura] —
+  *"Ley fundamental del software: leer código cuesta el triple de energía mental que escribirlo. Tu
+  mente no distingue entre 'esto me está costando entenderlo' y 'esto está mal diseñado'."*
+  ⚠️ **El "triple" es una cifra retórica, no medida** — no hay fuente que la sustente; funciona
+  como exageración de guion, no como dato citable si alguien pregunta de dónde sale.
+- **(0:25-0:35)** [primer plano, enfatizando con las manos] —
+  *"Confundes la dificultad de lectura con mala calidad técnica. Y seguir ese impulso a ciegas es
+  exactamente lo que arruina presupuestos y quiebra startups."*
+- **(0:35-0:43)** [ON SCREEN: "Sé honesto: ¿te pasó esta semana? 👇"] —
+  *"Dime la verdad: ¿cuántas veces has querido tirar un archivo entero solo por pereza de leerlo?
+  Te leo en comentarios."*
+
+**Video 4 — "El verdadero costo de reescribir no es el tiempo, es lo que dejas de lanzar"**
+
+- Objetivo algorítmico: Average Watch Percentage. Duración: 48-50s.
+- **(0:00-0:03)** [ON SCREEN: "El peligro del SILENCIO comercial 🛑"] — tono serio, luz fría:
+  *"El verdadero peligro de reescribir tu sistema no es pasarte de la fecha de entrega. Es el
+  silencio."*
+- **(0:03-0:15)** [B-ROLL: pantalla dividida — competencia lanzando updates vs. equipo con cartel
+  "Reescribiendo v2.0"] — *"Cuando decides rehacer una app de cero, asumes una fantasía infantil:
+  creer que tus clientes y tus competidores se van a quedar congelados esperándote."*
+- **(0:15-0:27)** [B-ROLL: dashboard de analítica con métricas planas/estancadas] —
+  *"Cada semana que tu equipo pasa reconstruyendo botones y formularios que ya funcionaban, es una
+  semana donde no lanzas nada nuevo. Cero valor para el usuario real."*
+- **(0:27-0:38)** [primer plano, hablando con convicción] —
+  *"Al mercado no le importa la elegancia de tu arquitectura; le importa lo que resuelve hoy. La
+  ventaja competitiva se regala en esos seis u ocho meses de silencio absoluto."*
+  ⚠️ **"Seis u ocho meses" es una cifra ilustrativa**, no un dato del caso Netscape (que fue ~3
+  años) ni de ningún proyecto del usuario — vale como ejemplo genérico, no como hecho.
+- **(0:38-0:48)** [ON SCREEN: "¿Viste morir una app por esto? Comenta 👇"] —
+  *"¿Has visto algún proyecto perder el liderazgo por quedarse encerrado 'reescribiendo la versión
+  dos'? Cuéntame el caso."*
+
+**Video 5 — "Cómo estoy migrando una app sin apagar nada"** (caso real — Sistema MP)
+
+- Objetivo algorítmico: Saves. Duración: 50-55s. **Ver el hueco de precisión marcado arriba antes
+  de grabar.**
+- **(0:00-0:03)** [ON SCREEN: "Migración en VIVO: Cero Downtime ⚡"] — frente a monitores con dos
+  consolas abiertas: *"Estoy modernizando la app web de un cliente de React viejo a Next.js, y la
+  regla número uno fue: producción no se apaga."*
+- **(0:03-0:14)** [B-ROLL: diagrama de Sistema MP — backend y apps móviles con candado verde
+  (intactos); solo la capa web bifurcada] — *"Es el caso real del Sistema MP. Nada de reescrituras
+  suicidas: el backend y la app móvil ni los tocamos. Solo atacamos la capa web de forma
+  incremental."*
+- **(0:14-0:27)** [B-ROLL: pantalla con `next.config.js`, configuración de `rewrites` con fallback
+  a la app vieja] ⚠️ **confirmar que esto es lo que de verdad se está haciendo** —
+  *"La versión anterior sigue viva atendiendo clientes. Al lado levantamos Next.js como proxy con
+  la directiva `rewrites`. Migramos ruta por ruta, pantalla por pantalla."*
+- **(0:27-0:40)** [B-ROLL: navegación real — una ruta abre con SSR, la otra corre en la SPA legacy
+  sin cerrar sesión] ⚠️ **mismo hueco** —
+  *"Si el usuario entra a una URL migrada, responde Next.js a máxima velocidad; si entra a una
+  pendiente, responde el React viejo en silencio. Misma sesión, mismo dominio, cero fricción."*
+- **(0:40-0:52)** [ON SCREEN: "¿Big Bang o Paso a paso? 💬"] —
+  *"Esto es el patrón Strangler Fig en la vida real. Si tuvieras que migrar mañana: ¿te la jugarías
+  a un lanzamiento masivo o aplicarías este método? Te leo."*
+
+**Video 6 — "Netscape, Borland y Word: tres reescrituras que casi matan a la empresa"** (cierre)
+
+- Objetivo algorítmico: Follows. Duración: 55s.
+- **(0:00-0:04)** [ON SCREEN: "3 gigantes que casi mueren por reescribir 💥", logos de Netscape,
+  Borland, Microsoft Office con golpe de sonido] —
+  *"Tres gigantes del software intentaron reescribir sus programas desde cero. Dos se destruyeron y
+  el tercero se salvó de milagro."*
+- **(0:04-0:16)** [B-ROLL: Netscape Navigator, gráfico de cuota de mercado colapsando] —
+  *"Primero: Netscape. Tiraron su código a la basura; tardaron tres años en lanzar Mozilla y para
+  entonces Internet Explorer controlaba el 90% del planeta. Fin del juego."*
+- **(0:16-0:27)** [B-ROLL: dBase/Quattro Pro reemplazados por Access/Excel] —
+  *"Segundo: Borland. Reescribieron dBase y su hoja de cálculo Quattro Pro de cero. Tardaron tanto
+  que Microsoft lanzó Access y Excel y les borró el negocio para siempre."*
+- **(0:27-0:40)** [B-ROLL: referencia al proyecto "Pyramid"] —
+  *"Tercero: Microsoft intentó reescribir Word desde cero bajo el nombre en clave 'Pyramid'. Fue un
+  fracaso tan grande que tuvieron que cancelarlo. ¿Por qué Word sigue vivo? Porque jamás dejaron de
+  vender y parchar la versión vieja mientras experimentaban."*
+- **(0:40-0:54)** [ON SCREEN: "Refactoriza, NO destruyas 🛡️"] —
+  *"Refactoriza pieza por pieza, arregla lo que de verdad está roto, pero nunca tires software que
+  ya funciona. De estos tres casos históricos, ¿cuál te pareció más loco? Déjamelo en
+  comentarios."*
+
+⚠️ **Mismo límite de fuente que la v1:** los tres casos históricos y las cifras de cuota de mercado
+(80%, 90%) vienen del ensayo de Spolsky sin verificación de primera mano — ver
+[[nunca-reescribas-desde-cero]].
