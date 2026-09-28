@@ -3,7 +3,7 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-09-08
+updated: 2026-09-17
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -25,6 +25,14 @@ sources:
     fact_date: 2026-09-08
     ingest_date: 2026-09-08
     confidence: medium   # journal personal, ideas sin ejecutar todavía
+  - path: raw/blackicelabs/absa-garcia-youtube-catalogo-2026-09-17/contenido-canal-pegado.md
+    fact_date: 2026-09-17
+    ingest_date: 2026-09-17
+    confidence: medium   # export de YouTube Studio pegado por el usuario, pero incompleto (se cortó en ~90 de 141 filas)
+  - path: conversation (sesión con el usuario, 2026-09-17)
+    fact_date: 2026-09-17
+    ingest_date: 2026-09-17
+    confidence: high   # declaración directa del usuario: motivo real de la poda + bio/banner del relanzamiento
 ---
 
 # Absa Garcia (absa.garcia)
@@ -479,6 +487,90 @@ de sumar esa tercera reclamación.
 - [[de-que-hablo-cuando-hablo-de-correr]] — el marco de "competir con el de ayer"
 - [[internal-scorecard]] — la meta escrita y verificada contra uno mismo
 - [[objetivos-vida-2026-2027]] — el cuadro completo de metas (2026-08-25)
+
+## 2026-09-17 — poda del catálogo: de ~498 a ~141 videos
+
+El usuario pegó el listado de "Contenido del canal" de YouTube Studio y
+declaró: **"borre videos y me quede con esto"**. El paginador del export
+muestra **"1–50 de unas 141"** — es decir, el catálogo pasó de los ~498
+videos contados en el análisis del 2026-07-22 a **~141**, una reducción de
+más del 70%. Fuente:
+`raw/blackicelabs/absa-garcia-youtube-catalogo-2026-09-17/`.
+
+⚠️ **Dato incompleto**: el pegado se cortó por límite de caracteres del
+cliente; solo se capturaron ~90 de los 141 videos restantes (los de mayor
+visualización, por el orden default del filtro). No se sabe qué hay en las
+filas 90-141.
+
+**Motivo declarado por el usuario (preguntado directamente, no inferido):
+alineación con el rumbo running/vida** acordado el 2026-07-22 — la poda es
+la primera ejecución concreta de "quedarse con lo que representa la marca".
+
+⚠️ **Tensión sin resolver entre el motivo declarado y lo que muestra el
+listado.** De los ~90 videos capturados, la gran mayoría **no** son
+running/lifestyle-actual: son crónicas de **San Gabriel, Jalisco**
+(inundaciones 2019, fiestas 2017-2025) y de la vida de estudiante en el
+**CETI Colomos** — exactamente el tipo de contenido que esta misma página
+registra como *explícitamente descartado* el 2026-07-22 ("no quiere ser
+recordado como el que hace videos del pueblo de su papá"). Además, **no
+aparece ningún video del Mundial 2026** entre los capturados — el
+contenido que generó el 92% de las vistas de la ventana de julio (ver
+sección de arriba) no está en lo que se conservó, al menos en las filas
+visibles. No se resuelve esta tensión aquí: se registra tal cual, sin
+asumir que el usuario se contradice — puede ser que el criterio real de la
+poda fue otro (p. ej. calidad/nostalgia/ingresos históricos) distinto al
+que se declaró, o que el contenido de running/Mundial simplemente esté en
+las filas 90-141 no capturadas. Pendiente de aclarar en una próxima
+conversación si hace falta precisión.
+
+**Lo que sí es un hecho verificable sin interpretación:** los videos
+sobrevivientes con más ingresos históricos acumulados no son ni San Gabriel
+ni running — el top es "Cómo iniciar un podcast" (112k vistas, $4,006.27
+USD, la pieza con más ingresos de todo el catálogo conocido) y "SAN GABRIEL
+JALISCO EL DIA DESPUES DE LAS INUNDACIONES 2019" (52k vistas, $881.70).
+
+### Corrección del motivo real (2026-09-17, misma sesión)
+
+La tensión de arriba se planteó preguntando al usuario "¿por qué borraste?"
+con opciones que asumían que el criterio era temático (rumbo running/vida
+vs. limpieza de rendimiento). El usuario eligió la opción temática, pero
+al pedirle precisión el motivo real resultó ser otro, y más simple:
+**"lo hago para empezar casi desde 0 sin dejar de tener videos que siguen
+generando ingresos."** No es una poda por tema — es una **poda por
+ingresos**: se conservó lo que sigue monetizando (de ahí que sobrevivan
+San Gabriel y CETI, los históricos con más vistas/ingresos acumulados) y
+se descartó el resto para poder reiniciar el canal sin cargar 9 años de
+contenido disperso. Esto **resuelve** la tensión anotada arriba sin
+necesidad de asumir contradicción: los sobrevivientes no representan la
+marca nueva, representan el ingreso que no se quería perder al reiniciar.
+Se deja la sección original sin borrar (regla de integridad temporal del
+wiki) porque documenta con precisión cómo se llegó a la respuesta correcta.
+
+## 2026-09-17 — Nuevo posicionamiento declarado (banner/bio del canal)
+
+El mismo día, el usuario dio el texto que va a usar como presentación del
+canal relanzado (bio/banner de YouTube):
+
+> "Hola, me llamo Absa y este es un lugar donde hago vídeos sobre
+> minimalismo, felicidad, productividad, la vida, running, cómo esquivar
+> la angustia existencial, comer y darle demasiadas vueltas a todo,
+> incluido este banner de YouTube."
+
+Esto **amplía**, no reemplaza, el rumbo fijado el 2026-07-22
+(running/medio maratón/boda como arco de vida). Temas nuevos que esta bio
+introduce y que la página no tenía registrados antes: **minimalismo**
+(conecta directo con [[minimalismo-digital]], que hasta el 2026-09-08 solo
+se había aplicado a él mismo en el journal, nunca como tema de contenido
+declarado), **felicidad**, **productividad**, y explícitamente **la
+angustia existencial** como tema tratable con humor — el tono
+autoconsciente del cierre ("incluido este banner de YouTube") es en sí
+mismo una decisión de voz: reflexivo pero no solemne.
+
+⚠️ **Aún no verificado con datos.** Igual que la apuesta del arco de julio,
+esta bio es una declaración de intención el día del relanzamiento, no un
+patrón probado — no hay todavía ningún video publicado bajo este
+posicionamiento. Se registra como el estado de la apuesta al
+2026-09-17, sujeto a la misma revisión de octubre ya acordada.
 
 ## 2026-08-25 — *Absa con Café* vuelve a la lista, y choca con lo decidido
 

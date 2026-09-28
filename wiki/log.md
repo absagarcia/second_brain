@@ -2845,3 +2845,123 @@ el cuello de botella es **distribución, no empaquetado** — el contenido
 nuevo no se le muestra lo suficiente a nadie como para que el CTR importe.
 Actualizadas: [[absadev]] (sección de empaquetado reescrita con el dato
 exacto, fuente añadida), `wiki/index.md`.
+
+## [2026-09-10] ingest | Episodio 269 de DevTalles — "Patrones de diseño agénticos" — swe, blackicelabs, fitexe
+El usuario pegó una transcripción con timestamps del episodio 269 de
+[[devtalles]], guardada en
+`raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md`, como
+referencia de formato para el podcast de "patrones agénticos" que se venía
+diseñando. Es una fuente distinta al catálogo sintetizado del 25-ago (sin
+las anomalías de numeración de ese informe), confianza `medium`. Se creó
+página de concepto propia — **[[patrones-diseno-agenticos]]** — porque el
+tema ya se mencionaba en 3+ páginas sin tener una: taxonomía completa
+(agente único: Tool, Planning, Reflection, ReAct, Prompt Chaining, Plan and
+Execute, CodeAct; multiagente: Router, Handoff, Orchestrator/Worker,
+Paralelización, Blackboard; control/seguridad: Human-in-the-loop, Approval
+Gates, Rails, Circuit Breaker; memoria: gestión de memoria, Compactación,
+Context Offloading), cruzada contra el caso real de [[fitexe]]: el ciclo
+`propose→apply→archive` de OpenSpec **es** Approval Gates + Rails; ReAct,
+Orchestrator/Worker y Circuit Breaker siguen sin probarse en ese repo. Se
+corrigió el guion del podcast en [[estrategia-contenido-absadev]] con la
+terminología real. Actualizadas: [[devtalles]], [[fitexe]],
+[[estrategia-contenido-absadev]], `wiki/index.md`. Creada:
+[[patrones-diseno-agenticos]].
+
+## [2026-09-10] update | Corrección de atribución — no citar DevTalles, el origen es un curso en Slalom — blackicelabs, swe, freelance
+El usuario pidió explícitamente que el episodio de podcast sobre patrones
+agénticos **no mencione a DevTalles** en cámara: quiere el contenido de su
+propia autoría. El origen real de haber aprendido esto es **un curso que
+tomó en el trabajo** ([[slalom]]) — primera mención de formación recibida
+ahí, y primera evidencia de que el objetivo 15 (IA aplicada a código) se
+alimenta del propio trabajo. Se corrigió [[devtalles]] para marcar que su
+uso es solo de investigación interna, no citable en contenido publicado, y
+se reescribió el guion en [[estrategia-contenido-absadev]] para anclar el
+cold open y el cierre en el curso de Slalom en vez del podcast de
+referencia. Actualizadas: [[devtalles]], [[slalom]],
+[[estrategia-contenido-absadev]], `wiki/index.md`.
+
+## [2026-09-17] ingest | Catálogo YouTube absa.garcia post-poda — blackicelabs
+El usuario pegó el listado de "Contenido del canal" de YouTube Studio y
+declaró haber borrado videos. El catálogo pasó de ~498 a ~141 videos
+(paginador: "1–50 de unas 141"); solo se capturaron ~90 filas antes de que
+el pegado se cortara por límite de caracteres. Se anotó primero una
+tensión (los sobrevivientes son mayormente San Gabriel/CETI, no
+running/Mundial) al asumir un motivo temático; el usuario corrigió: la
+poda es **por ingresos** ("empezar casi desde 0 sin dejar de tener videos
+que siguen generando ingresos"), no por tema. Guardado el export en
+`raw/blackicelabs/absa-garcia-youtube-catalogo-2026-09-17/`. Actualizadas:
+[[absa-garcia]], `wiki/index.md`.
+
+## [2026-09-17] ingest | Nuevo posicionamiento de relanzamiento — blackicelabs
+El usuario dio la bio/banner con la que relanza el canal absa.garcia:
+minimalismo, felicidad, productividad, la vida, running, angustia
+existencial, comer, y darle vueltas a todo. Amplía el rumbo running/vida
+del 2026-07-22 con temas nuevos (minimalismo conecta con
+[[minimalismo-digital]]; felicidad y productividad no estaban
+registrados). Sin datos de desempeño todavía. Actualizada: [[absa-garcia]].
+
+## [2026-09-21] ingest | Ensayo de Joel Spolsky ("Things You Should Never Do") — blackicelabs
+El usuario pegó un resumen del ensayo clásico de Spolsky sobre por qué
+reescribir código desde cero es casi siempre el error estratégico más
+caro (caso Netscape 6.0, Borland, Word/"Pyramid"). Se creó la página de
+concepto [[nunca-reescribas-desde-cero]] y se guardó la fuente en
+`raw/blackicelabs/joel-spolsky-things-you-should-never-do-2026-09-21.md`.
+Se guionizó la Serie 11 de [[estrategia-contenido-absadev]] — 6 shorts
+numerados, decididos con el usuario como serie de arco (no
+"Comparaciones sin choro", porque solo una de las seis ideas es un
+comparativo A/B), anclados en la migración incremental real y en curso
+de [[sistema-mp-app]] (React/CRA → Next.js) para cumplir la regla de
+atribución vigente (no acreditar fuentes de investigación en cámara,
+ver la corrección de [[devtalles]] del 2026-09-10). Marcada la colisión
+de calendario ya existente (batch #7 + clips del episodio 024 ocupan
+hasta principios de octubre) — sin fecha de publicación decidida.
+Actualizadas: [[estrategia-contenido-absadev]], [[sistema-mp-app]],
+`wiki/index.md`.
+
+## [2026-09-22] ingest | Serie 11 reescrita con Gemini — blackicelabs
+El usuario generó una segunda versión de los 6 guiones con Gemini
+(formato TikTok con timing por beat, gancho en los primeros 3s, B-roll
+marcado, CTA de fricción) y la prefirió sobre la v1 escrita el día
+anterior. Se guardó como "Guiones completos v2" en
+[[estrategia-contenido-absadev]], sin borrar la v1 (integridad
+temporal — quedó marcada como descartada, no como error). Se anotaron
+dos huecos de precisión nuevos de la v2: el mecanismo técnico descrito
+en el guion #5 (patrón Strangler Fig, `rewrites` de Next.js, SSR
+ruta por ruta) no está verificado contra la fuente de
+[[sistema-mp-app]] — pendiente que el usuario confirme antes de
+grabar — y dos cifras retóricas (el "triple" de esfuerzo de lectura en
+#3, "seis u ocho meses" de silencio en #4) marcadas como ilustrativas,
+no citables. Actualizada: [[estrategia-contenido-absadev]].
+
+## [2026-09-22] query | Guiones v2 formateados para Obsidian, video por video — blackicelabs
+El usuario pidió que los 6 guiones quedaran "bonitos" y navegables como
+vault de Obsidian, cada video en su propia nota. Se creó
+[[serie11-nunca-reescribas-desde-cero]] como índice de la serie más 6
+páginas de entidad (una por video), todas enlazadas entre sí, a
+[[estrategia-contenido-absadev]] (fuente canónica de la decisión) y a
+[[nunca-reescribas-desde-cero]]. Los avisos ya registrados el mismo día
+(mecanismo técnico del video 5 sin verificar contra [[sistema-mp-app]],
+cifras retóricas en los videos 3 y 4) se repitieron en cada página
+individual para que no se pierdan al abrir un video suelto.
+Actualizadas: [[nunca-reescribas-desde-cero]], [[sistema-mp-app]],
+`wiki/index.md`.
+
+## [2026-09-28] ingest | Episodio 026 — Mi flujo freelance con Claude (transcript 9x16) — blackicelabs, freelance, swe
+Transcript guardado en
+`raw/blackicelabs/episodio-026-flujo-freelance-claude-transcript-2026-09-28.md`.
+Creada [[episodio-026-flujo-freelance-claude]] con el paquete de
+publicación (3 títulos YouTube, 3 Spotify, descripciones con capítulos,
+tags). Registrado que el tema no es el 026 del slate (el de invitado
+sigue sin grabarse), que el 025 no está registrado como grabado, y que
+la duración sale del rango 8-10 min por tercera vez seguida. Actualizada
+[[blackicelabs-podcast]] con el conteo de 503 plays que reportó el
+usuario (+32 en 40 días desde 471, sin desglose).
+
+## [2026-09-28] query | 7 clips del episodio 026 — blackicelabs, freelance
+Criterio nuevo pedido por el usuario: clips que dejen algo aprendido o
+generen polémica, no solo confesión (criterio del 024). Añadidos a
+[[episodio-026-flujo-freelance-claude]] con timestamps sobre el
+transcript 9x16, pregunta de comentarios, descartes y motivo. Marcado
+como riesgo el tramo del PowerPoint (crítica a un cliente del trabajo de
+planta), y se propone no publicar antes del 7-oct para no traslapar el
+lote del 024.
