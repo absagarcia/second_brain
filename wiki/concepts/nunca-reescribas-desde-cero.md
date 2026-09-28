@@ -64,5 +64,7 @@ comparación.
 - [[sistema-mp-app]] — el caso real usado como ancla
 - [[estrategia-contenido-absadev]] — batch de shorts que nace de este
   concepto
+- [[serie11-nunca-reescribas-desde-cero]] — copias de producción de los 6
+  guiones, un video por página, para grabar
 - [[clean-architecture-feature-first]] — el otro lado de la moneda: cómo
   estructurar código nuevo para que el refactor incremental sea barato

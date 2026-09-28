@@ -146,3 +146,4 @@ redundantes a las que ya pidió el mensaje a Williams.
 - [[segunda-app-candidatas]] — la hipótesis que esta noticia contradice en su forma
 - [[fitexe]] — el stack que el usuario ya domina (Flutter/Supabase), distinto del de Sistema MP (React Native/Go/PostgreSQL en AWS)
 - [[nunca-reescribas-desde-cero]] — la migración de la app web (CRA → Next.js, "en migración, sin publicar") se usa como el ancla real de la Serie 11 de [[estrategia-contenido-absadev]] (2026-09-21)
+- [[serie11-video5-migrando-sistema-mp]] — el guion de producción que usa esta migración como caso real; el mecanismo técnico que describe (Strangler Fig/`rewrites`) está pendiente de confirmar contra esta página

@@ -2932,3 +2932,27 @@ ruta por ruta) no está verificado contra la fuente de
 grabar — y dos cifras retóricas (el "triple" de esfuerzo de lectura en
 #3, "seis u ocho meses" de silencio en #4) marcadas como ilustrativas,
 no citables. Actualizada: [[estrategia-contenido-absadev]].
+
+## [2026-09-22] query | Guiones v2 formateados para Obsidian, video por video — blackicelabs
+El usuario pidió que los 6 guiones quedaran "bonitos" y navegables como
+vault de Obsidian, cada video en su propia nota. Se creó
+[[serie11-nunca-reescribas-desde-cero]] como índice de la serie más 6
+páginas de entidad (una por video), todas enlazadas entre sí, a
+[[estrategia-contenido-absadev]] (fuente canónica de la decisión) y a
+[[nunca-reescribas-desde-cero]]. Los avisos ya registrados el mismo día
+(mecanismo técnico del video 5 sin verificar contra [[sistema-mp-app]],
+cifras retóricas en los videos 3 y 4) se repitieron en cada página
+individual para que no se pierdan al abrir un video suelto.
+Actualizadas: [[nunca-reescribas-desde-cero]], [[sistema-mp-app]],
+`wiki/index.md`.
+
+## [2026-09-28] ingest | Episodio 026 — Mi flujo freelance con Claude (transcript 9x16) — blackicelabs, freelance, swe
+Transcript guardado en
+`raw/blackicelabs/episodio-026-flujo-freelance-claude-transcript-2026-09-28.md`.
+Creada [[episodio-026-flujo-freelance-claude]] con el paquete de
+publicación (3 títulos YouTube, 3 Spotify, descripciones con capítulos,
+tags). Registrado que el tema no es el 026 del slate (el de invitado
+sigue sin grabarse), que el 025 no está registrado como grabado, y que
+la duración sale del rango 8-10 min por tercera vez seguida. Actualizada
+[[blackicelabs-podcast]] con el conteo de 503 plays que reportó el
+usuario (+32 en 40 días desde 471, sin desglose).

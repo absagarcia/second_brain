@@ -3,7 +3,7 @@ title: BLACK ICE LABS (podcast)
 type: entity
 domain: [blackicelabs]
 created: 2026-08-10
-updated: 2026-08-25
+updated: 2026-09-28
 sources:
   - path: raw/blackicelabs/podcast-blackicelabs-2026-08-10/ (export nativo de Spotify for Creators — Performance all-time + TrendsChart since published)
     fact_date: 2026-08-10
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: low      # informe sintetizado sin verificar — ver [[devtalles]]
+  - path: conversation (el usuario reporta 503 reproducciones al subir el episodio 026)
+    fact_date: 2026-09-28
+    ingest_date: 2026-09-28
+    confidence: medium   # cifra dicha de memoria, sin export ni desglose por episodio
 ---
 
 # BLACK ICE LABS (podcast)
@@ -354,6 +358,22 @@ ya cargan ocho series de shorts, un bloque de running, una boda el 28-nov y una
 evaluación de ascenso en diciembre. La colisión está desarrollada en
 [[absa-garcia]].
 
+## [2026-09-28] 503 reproducciones y el episodio 026 grabado
+
+**⚠️ DATO DE VIDA CORTA.** El usuario reporta **503 reproducciones** de por vida
+al subir [[episodio-026-flujo-freelance-claude]]. Contra 471 del 19-ago:
+**+32 plays en 40 días (~0.8/día)**, contra +2 en 9 días (~0.2/día) en agosto.
+El catálogo dejó de enfriarse. ⚠️ Viene sin export: no se sabe cuánto es
+Spotify y cuánto no, ni qué episodios lo movieron. Tampoco se sabe si el
+repunte viene de los clips del 024 (programados en redes desde el 24-sep) o de
+algo más. Queda como un dato para comparar con el próximo export, no para sacar
+una causa.
+
+**El 026 grabado no es el 026 del slate:** es *Mi flujo freelance con Claude*,
+solo, 13:10, en vez de *Sobrevivir la chamba gringa* con invitado. El
+episodio con invitado, la única pieza que trae audiencia nueva, sigue sin
+grabarse. Detalle y paquete de publicación en su página.
+
 ## Related
 
 - [[objetivos-vida-2026-2027]] — la ambición declarada de este show, en contexto
@@ -362,3 +382,4 @@ evaluación de ascenso en diciembre. La colisión está desarrollada en
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
 - [[eliecer-garcia-romo]] — el creador
 - [[devtalles]] — el podcast de referencia; su catálogo cruzado contra este show
+- [[episodio-026-flujo-freelance-claude]] — el 026 grabado (fuera del slate) y el conteo de 503 plays
