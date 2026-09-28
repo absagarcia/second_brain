@@ -167,6 +167,59 @@ Cuéntame tu flujo con IA en los comentarios o en YouTube. Black Ice Labs: café
 📺 Versión en video: [link de YouTube]
 ```
 
+## Los 7 clips — timestamps sobre el transcript 9x16
+
+**Pedido del usuario (2026-09-28):** 7 clips que **dejen algo aprendido o
+generen polémica**. Esto cambia el criterio del [[episodio-024-carrera-de-la-rata]]
+(solo confesión u opinión). Aquí el valor práctico también cuenta, porque el
+episodio es de flujo de trabajo: sus mejores tramos son un *cómo*, no una
+anécdota. Mezcla final: **3 de valor, 2 de polémica, 2 de ambas.**
+
+Cortes sobre segmentos completos del transcript (`hh:mm:ss:ff`). Donde dice
+**~**, el corte cae a mitad de un segmento y el tiempo es estimado: hay que
+ajustarlo a oído en el editor.
+
+| # | Entra | Sale | Dur. | Tipo | Gancho / contenido | Pregunta para comentarios |
+|---|---|---|---|---|---|---|
+| 1 | **00:00:24:21** | **00:00:57:00** | 32s | 🔥 polémica | *"una suscripción de 20 dólares... ¿es buena o no para hacerla rendir?"*, y la confesión de que **nunca ha corrido un modelo local** | *"¿cuánto pagas tú de IA al mes y sí te alcanza?"* |
+| 2 | **~00:05:37** (*"¿Y aquí es cuando me pongo a preguntar..."*) | **00:06:26:19** | ~49s | 🔥 polémica | la IA **no entiende** por qué falla, solo *"no compila, ¿qué hago?"*; sin bases de programación *"te puedes sentir perdido"* | *"¿se puede programar con IA sin saber programar? Debate."* |
+| 3 | **00:07:25:13** | **00:08:12:01** | 47s | 💡 valor | ⭐ el flujo: grabar la junta en nota de voz → transcript → reglas de negocio → capturas → issues/tasks | *"¿tú cómo documentas lo que te pide el cliente?"* |
+| 4 | **00:08:34:04** | **00:09:20:29** | 47s | 💡 valor | ⭐ el **"plan quirúrgico"**: un modelo pesado planea en Markdown qué archivos tocar, y si se acaba la sesión el plan sigue escrito | *"¿planeas antes de dejar que la IA toque tu código, o le das directo?"* |
+| 5 | **00:09:21:01** | **00:09:46:03** | 25s | 💡🔥 ambas | contraintuitivo: **un modelo más chico con estructura alucina menos**, *"va a dejar de alucinar bien cabrón"* | *"¿modelo grande siempre, o chico con reglas? ¿Qué te ha funcionado?"* |
+| 6 | **~00:10:25** (*"Pero a ver, también el problema es..."*) | **00:11:02:11** | ~37s | 🔥 polémica | la dependencia: las empresas de LLM **acortan sesiones y tokens**; la tentación de una Mac mini para modelos locales | *"¿ya dependes de la IA para entregar? Sé honesto."* |
+| 7 | **00:11:26:06** | **00:12:19:22** | 53s | 💡🔥 ambas | ⭐ cierre: **de 4 horas a 1 hora al día** con un cliente → pero *"por más que le digas que actúe como senior o arquitecto"*, la arquitectura que apruebas es tuya | *"si terminas en 1 hora lo que cobras en 4, ¿cobras 1 o 4?"* |
+
+**Los ancla son el 3, el 4 y el 7.** El 3 y el 4 son los únicos tramos del
+episodio que alguien puede copiar tal cual en su trabajo al día siguiente
+("aprendí algo"). El 7 junta la cifra propia y el principio de vida larga en
+53 segundos.
+
+**La pregunta del 7 es la apuesta de polémica más fuerte del lote.** El audio
+dice 4 h → 1 h, y en 08:12-08:34 dice que terminar antes *"puede ser algo para
+ti, para ganar y quedar bien con el cliente"*. La pregunta *¿cobras 1 o 4?* no
+está en el audio: es el caption. Toca ética de cobro por hora, que divide
+a cualquier freelancer. ⚠️ Mismo aviso que el 024: **no hay dato propio de que
+la confrontación convierta mejor que la opinión sin filo**, y la lectura de
+los 7 clips del 024 (24-sep → 6-oct) todavía no existe.
+
+### Descartados, y por qué
+
+| Tramo | Por qué quedó fuera |
+|---|---|
+| 01:43-02:42 — dejó ChatGPT porque *"empezaron a prohibir, regular, manipular"* | polémica pura pero **sin valor**, y con 59s es de los más largos; primer suplente si se quiere un clip de pura polémica |
+| ~03:36-04:12 — *"el cliente nos pasa un PowerPoint con los diseños... habiendo tantas herramientas de IA"* | ⚠️ **es una crítica al cliente de su trabajo de planta**, publicada. Sin nombres, pero el cliente sí lo reconocería. No se corta sin que el usuario lo decida explícitamente |
+| 04:15-05:01 — MCP + Canva de diseño a código | valor real, pero el audio se enreda (*"vale la redundancia"*) y no cierra la idea |
+| 05:01-05:29 — Next.js y variables de entorno | la autotranscripción no deja claro de qué proyecto habla; posible proyecto de cliente |
+| 08:12-08:34 — terminar en menos horas de las que dijiste | se absorbe como caption del clip 7 en vez de ir como clip propio |
+
+### Programación
+
+⚠️ Los 7 clips del 024 están programados del **24-sep al 6-oct** (~3.8
+shorts/semana, ya encima del techo de 3.5 de la condición de refutación). **No
+empezar este lote antes del 7-oct.** A 2 por semana termina hacia el
+**31-oct**. Así también se puede leer el 024 limpio antes de publicar
+el 026. Si el 026 sale encima del 024, nunca se sabrá qué lote funcionó.
+
 ## Lo que dice el episodio (para el expediente)
 
 Ideas propias del usuario en el audio. Son de **vida media**: el flujo depende

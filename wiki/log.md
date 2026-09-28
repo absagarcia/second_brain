@@ -2956,3 +2956,12 @@ sigue sin grabarse), que el 025 no está registrado como grabado, y que
 la duración sale del rango 8-10 min por tercera vez seguida. Actualizada
 [[blackicelabs-podcast]] con el conteo de 503 plays que reportó el
 usuario (+32 en 40 días desde 471, sin desglose).
+
+## [2026-09-28] query | 7 clips del episodio 026 — blackicelabs, freelance
+Criterio nuevo pedido por el usuario: clips que dejen algo aprendido o
+generen polémica, no solo confesión (criterio del 024). Añadidos a
+[[episodio-026-flujo-freelance-claude]] con timestamps sobre el
+transcript 9x16, pregunta de comentarios, descartes y motivo. Marcado
+como riesgo el tramo del PowerPoint (crítica a un cliente del trabajo de
+planta), y se propone no publicar antes del 7-oct para no traslapar el
+lote del 024.
