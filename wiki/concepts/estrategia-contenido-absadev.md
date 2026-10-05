@@ -2244,6 +2244,18 @@ competidor de formato, así que nombrarlo en cámara no compromete la autoría; 
 presentarlo como si la idea naciera de una investigación encargada, cuando en realidad nace de algo
 que el usuario leyó y le resonó por lo que está viviendo en Sistema MP ahora mismo.
 
+**Decisión 2026-10-05 — dos anclas, no una.** El usuario pidió usar [[fitexe]] **y** [[margarita-posada]] /
+[[sistema-mp-app]] como origen de la serie. Consecuencias:
+
+- **Sistema MP:** ancla vigente (cliente anonimizado como "un cliente" en el guion, sin nombrar a
+  Margarita ni la app en cámara — es trabajo freelance de cliente).
+- **FitExe:** ⚠️ **no hay en el wiki ningún hecho documentado de una reescritura o migración propia en
+  FitExe.** [[fitexe]] sólo registra la arquitectura feature-first ya vigente y el módulo de reservas
+  armado con OpenSpec. Antes de usarla como ancla hay que confirmar un caso real (p. ej. un refactor de
+  capas a features, un cambio de backend, o una pieza que se reescribió dos veces). Sin ese dato, el
+  guion de FitExe queda sin escribir — no se inventa. Y ojo con cifras de ingreso de FitExe: requieren el
+  OK de Emilio ([[carlos-emilio-blanco]]), tal como ya quedó anotado.
+
 ⚠️ **Colisión de calendario, otra vez.** El batch #7 (9 shorts, 14→30-sep) y los 7 clips del
 episodio 024 (24-sep→6-oct) ya ocupan el calendario hasta principios de octubre — la misma
 advertencia ya anotada arriba para la serie de patrones agénticos aplica aquí. Guionizar ahora,

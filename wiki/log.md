@@ -2965,3 +2965,32 @@ transcript 9x16, pregunta de comentarios, descartes y motivo. Marcado
 como riesgo el tramo del PowerPoint (crítica a un cliente del trabajo de
 planta), y se propone no publicar antes del 7-oct para no traslapar el
 lote del 024.
+
+## [2026-09-28] query | Captions, títulos y tags de los 7 clips del 026 — blackicelabs
+Añadidos a [[episodio-026-flujo-freelance-claude]]: título de Short,
+caption con CTA de comentario y línea fija de redirección al episodio
+completo (YouTube "Video relacionado" + link en perfil), tags base y
+por clip. Registradas las tres metas del usuario (top 10 MX, 10k subs,
+monetización) con lo que el expediente sabe de cada una: sin criterio
+medible, Shorts→largo es la conversión más débil medida, cero datos de
+monetización.
+
+## [2026-09-28] query | Captions por plataforma de los 7 clips del 026 — blackicelabs
+21 captions (YouTube Shorts, TikTok, Instagram) añadidos a
+[[episodio-026-flujo-freelance-claude]]. YouTube apunta al Video
+relacionado y al comentario fijado con Spotify; TikTok e Instagram a
+"link en perfil/bio". Instagram lleva además un CTA de guardar/compartir.
+
+## [2026-09-28] query | Miniaturas verticales de los 7 clips del 026 — blackicelabs
+14 PNG 1080×1920 (7 con fondo + 7 transparentes para montar sobre un
+frame del video) generados con HTML + Chrome headless, guardados fuera
+del repo en ~/Downloads/black-ice-labs-026-miniaturas/. Tabla de textos
+y nota de "paleta no oficial" añadidas a
+[[episodio-026-flujo-freelance-claude]].
+
+## [2026-10-05] create | Episodio 028 — Patrones agénticos (guion) — blackicelabs
+Guion nuevo en [[episodio-028-patrones-agenticos]] (solo, 12-15 min,
+tema y duración elegidos por el usuario). Es la pieza de podcast del batch del
+09-sep, reescrita sobre [[patrones-diseno-agenticos]] y [[fitexe]]; se
+diferencia del 026 (flujo vs. mecanismo). Enlace añadido desde la página de
+patrones. Huecos `[RELLENAR]` para que el usuario complete con datos reales.

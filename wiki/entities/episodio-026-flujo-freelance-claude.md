@@ -220,6 +220,341 @@ empezar este lote antes del 7-oct.** A 2 por semana termina hacia el
 **31-oct**. Así también se puede leer el 024 limpio antes de publicar
 el 026. Si el 026 sale encima del 024, nunca se sabrá qué lote funcionó.
 
+## Paquete de publicación de los 7 clips (2026-09-28)
+
+**Objetivo declarado por el usuario:** que cada clip lleve a la gente al
+episodio completo en YouTube o Spotify, para (a) acercar
+[[blackicelabs-podcast]] a *"top 10 podcasts de México"*, (b) llegar a 10k
+suscriptores en YouTube y (c) subir la monetización. Por eso cada caption
+cierra con la misma línea de redirección.
+
+### Mecánica de la redirección (igual para los 7)
+
+- **YouTube Shorts:** en Studio, campo **"Video relacionado"** → el episodio
+  026 completo. Es el único enlace clicable que tiene un Short. Además,
+  **comentario fijado** con el link de Spotify.
+- **TikTok / Instagram:** los links del caption no son clicables → *"link en mi
+  perfil"*, y en la bio un solo link (landing de Spotify o el video de YouTube).
+- **Línea fija al final de cada caption:**
+  `🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify 👉 link en el perfil / video relacionado`
+- **Tags base (van en los 7):** `black ice labs, podcast de programación, podcast en español, podcast tech méxico, programador, ia para programar, claude, claude ai, absadev`
+
+| # | Título YouTube Short | Caption | Tags extra |
+|---|---|---|---|
+| 1 | ¿$20 de IA al mes te alcanzan para programar? | 20 dólares al mes de IA… ¿de verdad te alcanzan para trabajar? 🤔 Y confieso: todavía no he corrido ni un solo modelo local. ¿Cuánto pagas tú de IA al mes y sí te alcanza? 👇 | suscripción claude, claude pro, chatgpt plus, precio de la ia, modelos locales, herramientas ia programador |
+| 2 | Programar con IA sin saber programar no funciona | La IA te dice "no compila, ¿qué hago?"… pero no te explica por qué dejó de funcionar. Si no sabes lo que estás moviendo, te pierdes. ¿Se puede programar con IA sin saber programar? Debate 👇 | vibe coding, programar con ia, aprender a programar, ia reemplaza programadores, programador junior |
+| 3 | Mi flujo freelance con IA: de nota de voz a código | Así trabajo con mis clientes: grabo la junta en nota de voz → transcript → reglas de negocio → capturas → issues. Hasta entonces toco código. ¿Tú cómo documentas lo que te pide el cliente? 👇 | programador freelance, flujo de trabajo freelance, reglas de negocio, requerimientos cliente, productividad programador |
+| 4 | El "plan quirúrgico": planea antes de que la IA toque tu código | Antes de tocar código le pido a un modelo pesado un plan quirúrgico en Markdown: qué archivos, qué cambios, en qué orden. Si se me acaba la sesión, el plan sigue ahí. ¿Planeas antes o le das directo? 👇 | claude code, plan de desarrollo, spec driven development, openspec, markdown, prompt engineering |
+| 5 | Un modelo más chico alucina menos (si haces esto) | Contraintuitivo: un modelo pequeño con estructura y reglas claras alucina menos que uno grande sin marco. ¿Modelo grande siempre, o chico con reglas? ¿Qué te ha funcionado? 👇 | alucinaciones ia, modelos de lenguaje, llm, claude sonnet, claude opus, ahorrar tokens |
+| 6 | ¿Ya dependes de la IA para programar? | Cada vez nos dan menos sesión y menos tokens… y yo ya pensando en comprarme una Mac mini para correr modelos locales. ¿Ya dependes de la IA para entregar? Sé honesto 👇 | dependencia de la ia, límite de tokens, mac mini ia, modelos locales, llm local, ollama |
+| 7 | De 4 horas a 1 con IA… ¿le cobras 1 o 4 al cliente? | Antes le dedicaba 4 horas diarias a un cliente. Hoy, 1 hora bien hecha. Pero ojo: por más que le pidas que actúe como senior, la arquitectura que apruebas es tuya. Si terminas en 1 hora lo que cobras en 4, ¿cobras 1 o 4? 👇 | cobrar por hora freelance, cuánto cobrar programador, arquitectura de software, programador senior, freelance con ia |
+
+**Hashtags (3-4 por clip; en Shorts los 3 primeros salen sobre el título):**
+`#programador #ia #podcast` fijos + uno del tema: 1 `#claudeai` · 2
+`#vibecoding` · 3 `#freelance` · 4 `#claudecode` · 5 `#llm` · 6 `#claudeai` ·
+7 `#freelance`.
+
+## Captions por plataforma — 7 clips (2026-09-28)
+
+Reemplazan a la columna "Caption" de arriba, que era un solo texto para las
+tres redes. Diferencias por plataforma:
+
+- **YouTube Shorts:** título + descripción corta. El CTA apunta al **Video
+  relacionado ⬆️** (único link clicable de un Short) y al **comentario fijado**
+  con Spotify. 3 hashtags (los 3 primeros salen sobre el título).
+- **TikTok:** una idea por línea, el gancho en la primera y las palabras clave
+  en texto plano (TikTok indexa el caption para búsqueda). CTA → **link en mi
+  perfil**. 4-5 hashtags.
+- **Instagram:** saltos de línea, CTA de **guardar/compartir** (las dos
+  señales que más pesan en Reels) + **link en bio**. 5 hashtags.
+
+Comentario fijado para YouTube (igual en los 7):
+`🎧 Escucha el episodio 026 completo en Spotify y síguenos para no perderte el próximo: [link Spotify]`
+
+### Clip 1 — ¿$20 de IA te alcanzan?
+
+**YouTube** · Título: `¿$20 de IA al mes te alcanzan para programar?`
+```
+20 dólares al mes de IA… ¿de verdad te alcanzan para trabajar? Yo confieso que todavía no he corrido ni un modelo local.
+
+¿Cuánto pagas tú de IA al mes? 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #claudeai #podcast
+```
+**TikTok**
+```
+¿20 dólares de IA al mes te alcanzan para programar? 🤔
+Confieso: nunca he corrido un modelo local.
+¿Cuánto pagas tú? 👇
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#programador #ia #claudeai #podcast #devtok
+```
+**Instagram**
+```
+20 dólares al mes de IA.
+¿Te alcanzan o ya topaste el límite? 🤔
+
+Yo confieso: todavía no he corrido ni un modelo local.
+
+👇 Cuéntame cuánto pagas tú.
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#programador #inteligenciaartificial #claudeai #podcastenespañol #desarrollodesoftware
+```
+
+### Clip 2 — Sin bases, la IA no te salva
+
+**YouTube** · Título: `Programar con IA sin saber programar no funciona`
+```
+La IA te dice "no compila, ¿qué hago?"… pero no te explica por qué dejó de funcionar. Si no sabes lo que estás moviendo, te pierdes.
+
+¿Se puede programar con IA sin saber programar? Debate 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #vibecoding #podcast
+```
+**TikTok**
+```
+Programar con IA sin saber programar no funciona. Ahí lo dejo 🔥
+La IA te dice "no compila"… pero no te dice por qué.
+¿Estás de acuerdo o no? 👇
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#programador #vibecoding #ia #aprenderaprogramar #devtok
+```
+**Instagram**
+```
+"No compila, ¿qué hago?" 🤖
+
+La IA te ayuda a entrar a la programación.
+Pero si no sabes lo que estás moviendo, te vas a perder.
+
+¿Se puede programar con IA sin saber programar? Te leo 👇
+Compártelo con alguien que está aprendiendo con puro prompt.
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#programador #vibecoding #inteligenciaartificial #aprenderaprogramar #podcastenespañol
+```
+
+### Clip 3 — De nota de voz a código
+
+**YouTube** · Título: `Mi flujo freelance con IA: de nota de voz a código`
+```
+Así trabajo con mis clientes: grabo la junta en nota de voz → transcript → reglas de negocio → capturas → issues. Hasta entonces toco código.
+
+¿Tú cómo documentas lo que te pide el cliente? 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #freelance #claudeai
+```
+**TikTok**
+```
+Mi flujo como programador freelance con IA 👇
+1. Grabo la junta con el cliente en nota de voz
+2. Saco el transcript
+3. Extraigo las reglas de negocio
+4. Capturas + issues
+Y hasta entonces, código.
+¿Tú cómo lo haces?
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#programadorfreelance #freelance #ia #claudeai #devtok
+```
+**Instagram**
+```
+Mi flujo freelance con IA, paso a paso 👇
+
+🎤 Grabo la junta con el cliente en nota de voz
+📝 La paso a transcript
+📋 Saco las reglas de negocio y los cambios
+📸 Tomo capturas
+✅ Creo issues y tasks
+💻 Y hasta entonces toco código
+
+Guárdalo para tu próximo cliente 🔖
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#programadorfreelance #freelance #inteligenciaartificial #claudeai #productividad
+```
+
+### Clip 4 — El plan quirúrgico
+
+**YouTube** · Título: `El "plan quirúrgico": planea antes de que la IA toque tu código`
+```
+Antes de tocar código le pido a un modelo pesado un plan quirúrgico en Markdown: qué archivos, qué cambios, en qué orden. Si se me acaba la sesión, el plan sigue ahí.
+
+¿Planeas antes o le das directo? 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #claudecode #ia
+```
+**TikTok**
+```
+Opero mi código como si fuera un doctor 🩺
+Primero, un plan quirúrgico en Markdown: qué archivos, qué cambios, en qué orden.
+Después, la IA toca el código.
+¿Tú planeas o le das directo? 👇
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#claudecode #programador #ia #markdown #devtok
+```
+**Instagram**
+```
+Antes de que la IA toque mi código, hago un "plan quirúrgico" 🩺
+
+Un modelo pesado escribe en Markdown:
+→ qué archivos se tocan
+→ qué cambios
+→ en qué orden
+
+Y si se me acaba la sesión, el plan sigue ahí.
+
+Guárdalo 🔖 y dime si tú planeas o le das directo 👇
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#claudecode #programador #inteligenciaartificial #desarrollodesoftware #podcastenespañol
+```
+
+### Clip 5 — Modelo chico, menos alucinaciones
+
+**YouTube** · Título: `Un modelo más chico alucina menos (si haces esto)`
+```
+Contraintuitivo: un modelo pequeño con estructura y reglas claras alucina menos que uno grande sin marco.
+
+¿Modelo grande siempre, o chico con reglas? 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #llm #claudeai
+```
+**TikTok**
+```
+El modelo más grande no siempre es el mejor 👀
+Uno chico, con estructura y reglas claras, alucina menos.
+¿Grande siempre o chico con reglas? 👇
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#ia #llm #claudeai #programador #devtok
+```
+**Instagram**
+```
+¿Tu IA alucina? Prueba con un modelo MÁS CHICO 👀
+
+Con estructura y un marco de trabajo claro, un modelo pequeño se orienta mejor y alucina menos.
+Y de paso ahorras tokens.
+
+¿Grande siempre, o chico con reglas? 👇
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#inteligenciaartificial #llm #claudeai #programador #podcastenespañol
+```
+
+### Clip 6 — ¿Dependes de la IA?
+
+**YouTube** · Título: `¿Ya dependes de la IA para programar?`
+```
+Cada vez nos dan menos sesión y menos tokens… y yo ya pensando en comprarme una Mac mini para correr modelos locales.
+
+¿Ya dependes de la IA para entregar? Sé honesto 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #ia #podcast
+```
+**TikTok**
+```
+¿Ya dependes de la IA para programar? Sé honesto 👇
+Cada vez nos dan menos sesión y menos tokens…
+y yo ya viendo Mac minis para correr modelos locales 😅
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#programador #ia #macmini #modeloslocales #devtok
+```
+**Instagram**
+```
+La IA aceleró mis entregables.
+El problema: cada vez nos dan menos sesión y menos tokens. 😬
+
+Y yo ya pensando en una Mac mini para correr modelos locales.
+
+¿Dependencia o herramienta? Te leo 👇
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#programador #inteligenciaartificial #macmini #claudeai #podcastenespañol
+```
+
+### Clip 7 — ¿Cobras 1 o 4 horas?
+
+**YouTube** · Título: `De 4 horas a 1 con IA… ¿le cobras 1 o 4 al cliente?`
+```
+Antes le dedicaba 4 horas diarias a un cliente. Hoy, 1 hora bien hecha. Pero ojo: por más que le pidas que actúe como senior, la arquitectura que apruebas es tuya.
+
+Si terminas en 1 hora lo que cobras en 4, ¿cobras 1 o 4? 👇
+
+🎙️ Episodio 026 completo de Black Ice Labs en el video relacionado ⬆️ y en Spotify (comentario fijado)
+#programador #freelance #ia
+```
+**TikTok**
+```
+Con IA paso de 4 horas a 1 con un cliente.
+Pregunta incómoda: ¿le cobras 1 o 4? 👇
+(Y ojo: la arquitectura que apruebas sigue siendo tuya.)
+🎙️ Episodio 026 de Black Ice Labs completo en YouTube y Spotify → link en mi perfil
+#programadorfreelance #freelance #ia #programador #devtok
+```
+**Instagram**
+```
+Antes: 4 horas diarias con un cliente.
+Hoy: 1 hora bien hecha, con IA. ⚡
+
+Pero por más que le pidas que actúe como senior o arquitecto,
+la arquitectura que apruebas es TU responsabilidad.
+
+Pregunta incómoda: si terminas en 1 hora lo que cobras en 4… ¿cobras 1 o 4? 👇
+
+🎙️ Clip del episodio 026 de Black Ice Labs. Completo en YouTube y Spotify → link en bio
+#programadorfreelance #freelance #inteligenciaartificial #arquitecturadesoftware #podcastenespañol
+```
+
+### Miniaturas verticales (2026-09-28)
+
+7 portadas 1080×1920, en dos versiones: **con fondo** (estilo "black ice":
+azul hielo `#7fd6ff` + naranja `#ff5a1f` para los clips de polémica) y
+**transparente**, para ponerla encima de un frame del video con su cara. Viven
+**fuera del repo**, en `~/Downloads/black-ice-labs-026-miniaturas/`, junto con
+`editable/gen.py` para regenerarlas. El texto queda en la franja central
+(~300–1500 px), para que no lo tape la interfaz de TikTok ni el recorte 4:5
+de la cuadrícula de Instagram.
+
+| # | Etiqueta | Texto grande |
+|---|---|---|
+| 1 | 🔥 polémica | $20 DE IA AL MES |
+| 2 | 🔥 polémica | IA SIN SABER PROGRAMAR |
+| 3 | 💡 aprende | DE NOTA DE VOZ A CÓDIGO (+ flujo en 4 pasos) |
+| 4 | 💡 aprende | PLAN QUIRÚRGICO |
+| 5 | 💡🔥 ambas | MODELO CHICO ALUCINA MENOS |
+| 6 | 🔥 polémica | ¿YA DEPENDES DE LA IA? |
+| 7 | 💡🔥 ambas | 4 HORAS A 1 AL DÍA |
+
+⚠️ **No existe una paleta de marca de Black Ice Labs en el wiki.** Estos
+colores son una propuesta nueva. Si el usuario la adopta, merece su propia
+página.
+
+### ⚠️ Lo que el expediente dice de estas tres metas
+
+Se registra para no confundir la intención con el mecanismo. No cambia el
+paquete.
+
+1. **"Top 10 de México" no tiene criterio medible todavía** (mismo hueco que
+   el objetivo 14 en [[objetivos-vida-2026-2027]]). Punto de partida:
+   **503 plays de por vida**. Los rankings de Spotify se mueven por
+   **seguidores y oyentes nuevos en pocos días**, no por plays acumulados.
+   **Inferencia, sin dato propio:** el CTA que más aporta a eso es *"síguelo en
+   Spotify"*, más que *"escúchalo"*.
+2. **Shorts → episodio largo es la conversión más débil que tiene medida el
+   canal.** El embudo YouTube↔TikTok de [[estrategia-contenido-absadev]] ubica
+   *"el muro en YouTube y la tracción en TikTok"*. El campo "Video relacionado"
+   es la apuesta más barata, pero que funcione es hipótesis. **Cómo medirlo:**
+   en Studio, las vistas del 026 largo con fuente *"Shorts"* tras 2 semanas.
+3. **Monetización:** [[absadev]] registra que **no hay un solo dato de
+   monetización en el expediente** (ni si el canal está en el programa de
+   socios, ni RPM, ni horas de visualización). El episodio largo suma horas
+   de visualización; los Shorts casi no.
+
 ## Lo que dice el episodio (para el expediente)
 
 Ideas propias del usuario en el audio. Son de **vida media**: el flujo depende
