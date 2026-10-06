@@ -2994,3 +2994,16 @@ tema y duración elegidos por el usuario). Es la pieza de podcast del batch del
 09-sep, reescrita sobre [[patrones-diseno-agenticos]] y [[fitexe]]; se
 diferencia del 026 (flujo vs. mecanismo). Enlace añadido desde la página de
 patrones. Huecos `[RELLENAR]` para que el usuario complete con datos reales.
+
+## [2026-10-05] ingest | Absa con Café — lista de episodios — blackicelabs
+Fuente nueva `raw/blackicelabs/absa-con-cafe-episodios-2026-10-05.md` (dashboard
+pegado por el usuario). Añadida la tabla de 4 episodios y su lectura (cadencia de
+~3 meses y luego un hueco de 403 días, 295 días dormido, el 001 con el 42% de los plays) a la sección
+de *Absa con Café* en [[absa-garcia]]. Índice actualizado. No contradice nada previo.
+
+## [2026-10-05] create | Absa con Café regresa + guion del 005 — blackicelabs
+El usuario decide regresar el show: primer episodio en 2 semanas (~19-oct),
+solo, mínimo 1/mes. Revierte el "no ahora" del 25-ago; queda anotado con fecha
+en [[absa-garcia]], [[patron-de-terminacion]] y [[objetivos-vida-2026-2027]], sin
+borrar la decisión anterior. Guion nuevo en [[absa-con-cafe-005-regreso]]
+(continuación del 004, materia prima del journal del 08-sep, huecos `[RELLENAR]`).

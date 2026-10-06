@@ -158,6 +158,9 @@ El objetivo 13 añade **un segundo podcast** (*Absa con Café*, lifestyle) sobre
 esa misma agenda, que además ya carga un bloque de running, una boda a tres
 meses y una evaluación de ascenso. Se anota la colisión; la decisión es suya.
 
+> **[2026-10-05] Decidido:** el objetivo 13 se activa. Primer episodio
+> ~2026-10-19, solo, mínimo uno al mes ([[absa-con-cafe-005-regreso]]).
+
 ## Hallazgo 6 — el único objetivo sin forma de saber si se cumplió
 
 El 15 ("ser experto en IA respecto a código y dominio de algoritmos") es el

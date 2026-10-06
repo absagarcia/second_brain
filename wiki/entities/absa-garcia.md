@@ -3,7 +3,7 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-09-17
+updated: 2026-10-05
 sources:
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
@@ -33,6 +33,14 @@ sources:
     fact_date: 2026-09-17
     ingest_date: 2026-09-17
     confidence: high   # declaración directa del usuario: motivo real de la poda + bio/banner del relanzamiento
+  - path: raw/blackicelabs/absa-con-cafe-episodios-2026-10-05.md
+    fact_date: 2024-05-03 → 2025-12-14   # fechas de publicación de los 4 episodios
+    ingest_date: 2026-10-05
+    confidence: high   # dashboard propio del podcast, pegado por el usuario
+  - path: conversation (decisión de regresar Absa con Café, 2026-10-05)
+    fact_date: 2026-10-05
+    ingest_date: 2026-10-05
+    confidence: high
 ---
 
 # Absa Garcia (absa.garcia)
@@ -262,6 +270,63 @@ A **different podcast with a different name** (confirmed 2026-07-22 — not
 a rename of *Café con Absa*), created after the closure. The user **wants
 to revive it.**
 
+#### Catálogo real (añadido 2026-10-05)
+
+Fuente: `raw/blackicelabs/absa-con-cafe-episodios-2026-10-05.md` (dashboard
+del podcast, pegado por el usuario). Hasta hoy el wiki sólo sabía que el show
+existía; ésta es la primera vez que entra con datos.
+
+| # | Título | Fecha | Formato | Duración | Plays & downloads | Audience |
+|---|---|---|---|---|---|---|
+| 001 | La gente ocupada me cae mal | 2024-05-03 | Video | 11:42 | **47** | 26 |
+| 002 | Tecnológia en mi Rutina Diaria | 2024-07-31 | Audio | 21:15 | 25 | 24 |
+| 003 | Mi Primera quincena... | 2024-11-06 | Video | 08:58 | 18 | 18 |
+| 004 | Me perdí tratando de ser alguien que el internet quería que fuera | 2025-12-14 | Video | 02:50 | 22 | 19 |
+
+⚠️ **Vida corta en las cifras de plays** (son acumuladas y pueden seguir
+subiendo un poco). Las fechas y la cadencia son permanentes.
+
+**Lo que dicen los datos:**
+- **4 episodios en 19 meses.** Huecos entre episodios: 89 días, 98 días,
+  **403 días** (003 → 004). El primero salió 242 días después del último
+  episodio de *Café con Absa* (2023-09-04), lo que concuerda con "creado tras
+  el cierre".
+- **Dormido desde el 2025-12-14:** al 2026-10-05 lleva **295 días** sin
+  publicar.
+- **112 plays en total; el 001 junta el 42%.** El episodio de estreno es el
+  mejor, y ninguno de los siguientes pasa de 25. No hay datos de retención.
+- **Nunca tuvo una cadencia propia.** Incluso en su tramo más activo (2024)
+  publicó cada ~3 meses, así que la etiqueta "dormido" describe al show
+  completo, no sólo a una pausa reciente. Encaja con la fila de *Absa con
+  Café* en [[patron-de-terminacion]] (sin testigo, sin cadencia externa y sin
+  fecha fija).
+- **El 004 salió mientras [[blackicelabs-podcast]] estaba activo**
+  (2025-08-21 → 2026-06-08). Durante ese tramo los dos shows coexistieron,
+  pero sólo uno tuvo cadencia.
+- **El título del 004** (*"Me perdí tratando de ser alguien que el internet
+  quería que fuera"*) toca de lleno el posicionamiento de relanzamiento del
+  2026-09-17 (minimalismo, angustia existencial; ver abajo). Lo anoto como
+  coincidencia temática sin sacar conclusiones: el export no trae el
+  contenido del episodio.
+
+#### 2026-10-05 — decisión: Absa con Café regresa
+
+Declaración directa del usuario en conversación: **primer episodio en 2
+semanas (objetivo: 2026-10-19), solo "de momento", mínimo un episodio al
+mes.** Guion del regreso: [[absa-con-cafe-005-regreso]].
+
+⚠️ **Esto revierte lo decidido el 2026-08-25** en [[patron-de-terminacion]]
+(*"Objetivo 13: no ahora"*, condicionado a que [[blackicelabs-podcast]]
+llevara tres meses cumpliéndose; esa condición no se cumplía al
+2026-10-05). Se deja constancia de las dos decisiones sin borrar la
+anterior. El usuario la tomó con la colisión de horas a la vista: dos
+podcasts, la boda el 28-nov y la evaluación de ascenso en diciembre.
+
+Lo que cambia respecto al 001-004: ahora hay **fecha fija** y **cadencia
+declarada**. Testigo todavía no. El formato video permite que cada episodio
+sea también un video del canal relanzado, así que una grabación alimenta
+las dos superficies.
+
 ### BLACK ICE LABS — el podcast que faltaba (añadido 2026-08-10)
 
 ⚠️ **Vacío corregido, no contradicción.** Esta sección se escribió el
@@ -476,6 +541,7 @@ de sumar esa tercera reclamación.
 ## Related
 
 - [[sofi]] — su pareja, y la tensión de tiempo anotada el 2026-09-08
+- [[absa-con-cafe-005-regreso]] — el guion del regreso del podcast (2026-10-05)
 - [[absadev]] — the tech/dev sibling brand
 - [[estrategia-contenido-absadev]] — the active strategy (Series 8
   boundary interacts with this page)
