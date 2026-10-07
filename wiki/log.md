@@ -3007,3 +3007,16 @@ solo, mínimo 1/mes. Revierte el "no ahora" del 25-ago; queda anotado con fecha
 en [[absa-garcia]], [[patron-de-terminacion]] y [[objetivos-vida-2026-2027]], sin
 borrar la decisión anterior. Guion nuevo en [[absa-con-cafe-005-regreso]]
 (continuación del 004, materia prima del journal del 08-sep, huecos `[RELLENAR]`).
+
+## [2026-10-06] query | Descripción y tags del episodio 028 — blackicelabs
+Paquete de publicación (descripción para YouTube y Spotify y 28 tags que suman 473 caracteres)
+añadido a [[episodio-028-patrones-agenticos]] sobre el run of show final.
+Registradas las dos respuestas que el guion final da a los `[RELLENAR]` (la pregunta
+de cancelación/lista de espera, y que migraciones y pagos van con aprobación).
+Capítulos pendientes de ajustar al corte real.
+
+## [2026-10-06] create | Episodio "junior sin IA": guion y paquete de publicación — blackicelabs
+Página nueva [[episodio-junior-sin-ia]] (candidato D del pool de
+[[estrategia-contenido-absadev]]) con descripción para YouTube y Spotify y 22 tags que suman 461 caracteres.
+Anotados: el número 028 choca con [[episodio-028-patrones-agenticos]]; el incidente
+del bloque 5 no tiene fuente en el wiki; la cifra del "5x más rápido" va contra la tesis del episodio.

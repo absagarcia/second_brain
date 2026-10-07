@@ -3,7 +3,7 @@ title: "Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude t
 type: entity
 domain: [blackicelabs, swe, fitexe]
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 sources:
   - path: raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv
     fact_date: 2026-09-04
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-10-05
     ingest_date: 2026-10-05
     confidence: high
+  - path: conversation (el usuario pega el run of show final y pide descripción y tags, 2026-10-06)
+    fact_date: 2026-10-06
+    ingest_date: 2026-10-06
+    confidence: high     # guion final propio; llena los [RELLENAR] del borrador
 ---
 
 # Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude trabaja en mi app
@@ -248,6 +252,84 @@ leo en comentarios."**
 
 Si se pasa de 15 min, **lo primero que se recorta es Compactación** (punto 3): es lo menos
 aterrizado en FitExe.
+
+## Paquete de publicación (2026-10-06)
+
+Se hizo sobre el **run of show final** que pegó el usuario, no sobre el borrador de arriba.
+Ese guion final llena dos huecos que aquí estaban como `[RELLENAR]` (es declaración del usuario;
+no hay otra fuente):
+- **La pregunta de alcance del módulo de reservas:** si alguien cancela con menos de 2 h de
+  anticipación, ¿el cupo pasa en automático a la lista de espera o lo confirma el coach? ¿El
+  crédito se consume o se devuelve? Según el usuario, le ahorró refactorizar tres tablas y dos
+  controladores.
+- **Lo que no delega sin aprobación:** migraciones destructivas de PostgreSQL y la verificación
+  de webhooks de la pasarela de pagos.
+
+⚠️ **Capítulos:** los tiempos salen de la tabla del guion, no de la edición. Hay que ajustarlos
+al video final antes de publicar.
+
+### YouTube — descripción
+
+```
+¿Por qué Claude me hizo preguntas de negocio antes de escribir una sola línea de código? No era magia, era un patrón de diseño. Y si no sabes qué patrón está corriendo debajo de tu agente, no sabes en qué momento se te va a romper en producción.
+
+En el episodio 026 te conté mi flujo como freelance con Claude. Hoy bajamos un piso: los patrones de diseño agénticos que hacen que ese flujo funcione, aterrizados en FitExe, mi app hecha en Flutter que ya usan personas reales. Y también los patrones que todavía no me atrevo a meter en producción.
+
+En este episodio:
+• ReAct vs. Plan and Execute: cuándo dejar que el agente improvise y cuándo hacer que siga el plan
+• OpenSpec (/opsx:propose → /opsx:apply): Plan and Execute en la práctica
+• La pregunta de alcance que me ahorró refactorizar tres tablas
+• Approval Gates y Rails: el code review que le haces a la IA
+• Lo que nunca le delego a Claude sin aprobación: migraciones y pagos
+• La alucinación es un problema de contexto: CLAUDE.md, compactación y context offloading
+• Multiagente (Orchestrator/Worker) y Circuit Breaker: lo que todavía no pruebo
+
+⏱️ Capítulos
+00:00 El módulo de reservas que armé en un día
+00:30 Intro: del flujo al mecanismo
+01:00 ReAct vs. Plan and Execute
+04:30 Approval Gates y Rails
+07:30 La alucinación es un problema de contexto
+11:00 Multiagente y Circuit Breaker
+13:00 Las 3 ideas para llevarte
+
+💬 Pregunta para ti: ¿qué patrón agéntico estás usando en tu día a día sin saber que tenía nombre? Te leo en comentarios.
+
+🔔 Vamos por los 10,000 suscriptores. Suscríbete y activa la campana para no perderte los shorts ni el podcast.
+
+📲 Sígueme en redes como absa.ai para más contenido de desarrollo con IA.
+🎧 Escúchalo también en Spotify: [link]
+
+#ClaudeCode #AgentesDeIA #IAparaProgramar
+```
+
+### YouTube — tags
+
+473 de los 500 caracteres que permite YouTube.
+
+```
+patrones de diseño agénticos, agentes de ia, agentes de ia para programar, claude code, claude, claude ai, reason and act, plan and execute, approval gates, human in the loop, openspec, spec driven development, alucinaciones ia, ingeniería de contexto, context engineering, claude.md, rag, multiagente, orchestrator worker, circuit breaker, flutter, riverpod, clean architecture, ia para programar, arquitectura de software, black ice labs, podcast de programación, absadev
+```
+
+### Spotify — descripción
+
+```
+El módulo para reservar clases de mi app lo armé en un día. Lo raro no fue la velocidad: fue que, antes de escribir código, Claude me hizo preguntas de negocio y luego corrigió errores de arquitectura que nunca le pedí que tocara. No era magia. Era un patrón.
+
+En este episodio bajamos un piso respecto al 026: ya no es el flujo, es el mecanismo. ReAct vs. Plan and Execute (y cómo OpenSpec usa el segundo), Approval Gates y Rails para controlar a tu agente, por qué la alucinación es un problema de contexto y no de modelo, y los patrones que todavía no meto en producción: multiagente y Circuit Breaker. Todo aterrizado en FitExe, mi app en Flutter con usuarios reales.
+
+00:00 El módulo de reservas que armé en un día
+00:30 Del flujo al mecanismo
+01:00 ReAct vs. Plan and Execute
+04:30 Approval Gates y Rails
+07:30 La alucinación es un problema de contexto
+11:00 Multiagente y Circuit Breaker
+13:00 Las 3 ideas para llevarte
+
+¿Qué patrón agéntico usas sin saber que tenía nombre? Cuéntame en los comentarios o en YouTube. Black Ice Labs: café, código y lo que de verdad pasa en la chamba.
+
+📺 Versión en video: [link de YouTube]
+```
 
 ## Candidatos a clip (para cortar después de grabar)
 
