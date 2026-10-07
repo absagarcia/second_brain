@@ -3020,3 +3020,21 @@ Página nueva [[episodio-junior-sin-ia]] (candidato D del pool de
 [[estrategia-contenido-absadev]]) con descripción para YouTube y Spotify y 22 tags que suman 461 caracteres.
 Anotados: el número 028 choca con [[episodio-028-patrones-agenticos]]; el incidente
 del bloque 5 no tiene fuente en el wiki; la cifra del "5x más rápido" va contra la tesis del episodio.
+
+## [2026-10-06] query | Absa con Café 005 grabado + paquete de publicación — blackicelabs
+El usuario grabó el 005, 13 días antes del objetivo del 19-oct. Se añadieron a
+[[absa-con-cafe-005-regreso]] los títulos (3 para YouTube, 2 para Spotify), las dos descripciones y 22 tags (395
+caracteres). Sin transcript, el paquete se limita a lo que casi seguro se dijo y no lleva capítulos.
+
+## [2026-10-07] ingest | Episodio 027 "junior sin IA": transcript 9x16 y 7 clips — blackicelabs
+Fuente nueva `raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv`.
+Añadidos a [[episodio-junior-sin-ia]] los 7 clips, con el criterio del 026 (aprendido o
+polémica), sus timestamps, la pregunta para comentarios, las correcciones de subtítulos y
+los descartes. Anotado que salió como 027, que el incidente del pool no se grabó y la descripción
+aún lo promete, y que el lote va después del lote del 026.
+
+## [2026-10-07] ingest | Episodio 028 — transcript 9x16 y 7 clips — blackicelabs
+Fuente nueva `raw/blackicelabs/episodio-028-patrones-agenticos-clips-9x16-2026-10-07.csv`.
+En [[episodio-028-patrones-agenticos]]: duración real de 17:30, el punto 4 (multiagente) no se grabó, por lo que la
+descripción del 06-oct queda desfasada (se proponen capítulos nuevos), y una tabla de 7 clips con suplentes y descartados.
+Anotado que ya hay tres lotes de clips en cola (026, 028 y junior). Índice actualizado.

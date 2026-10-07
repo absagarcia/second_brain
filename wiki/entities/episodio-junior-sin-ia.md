@@ -3,12 +3,16 @@ title: "Episodio (número por definir) — Un junior no necesita aprender a prog
 type: entity
 domain: [blackicelabs, swe, reflections]
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - path: conversation (el usuario pega el run of show y pide descripción y tags, 2026-10-06)
     fact_date: 2026-08-20     # "fecha de registro" que trae el propio guion
     ingest_date: 2026-10-06
     confidence: high          # guion propio; ver la advertencia del bloque 5
+  - path: raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv
+    fact_date: 2026-10-07     # transcript 9x16 del episodio ya grabado (11:44)
+    ingest_date: 2026-10-07
+    confidence: medium        # autotranscripción: palabras mal oídas, ver tabla de subtítulos
 ---
 
 # Episodio (número por definir) — "Un junior no necesita aprender a programar sin IA", o eso dicen
@@ -25,6 +29,7 @@ decisión de [[vibecoding-y-spec-driven-design]] de no adoptar la cifra del 50%.
 | **Título Spotify (del guion)** | `028. Un junior no necesita aprender a programar sin IA — o eso dicen` |
 | **Título YouTube (del guion)** | `La cifra del "junior ya no necesita aprender a programar" — por qué no la repito` |
 | **Estado al 2026-10-06** | guion listo para grabar |
+| **Estado al 2026-10-07** | **grabado**, 11:44 (otra vez fuera del rango 8-10 min). El archivo del transcript se llama `027 - (9x16)`, así que salió como **el 027**, no como el 028 del guion |
 
 ⚠️ **Choque de numeración.** El guion se numera **028**, pero ese número ya lo tiene
 [[episodio-028-patrones-agenticos]], que además ya tiene paquete de publicación. Hay que
@@ -108,6 +113,88 @@ Pero el trabajo de un programador nunca fue teclear código. Hablamos de por qu�
 📺 Versión en video: [link de YouTube]
 ```
 
+## Grabado (2026-10-07): lo que cambió respecto al guion
+
+El transcript 9x16 (`raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv`)
+resuelve dos de los avisos de arriba y abre uno nuevo:
+
+- **Numeración.** El archivo se llama `027`. Si ese es el número final, el
+  [[episodio-027-side-project]] (guion, sin grabar) pierde el 027 y el choque con
+  [[episodio-028-patrones-agenticos]] desaparece. Los títulos del paquete dicen
+  `028.`: hay que cambiarlos. *Lo infiero del nombre del archivo, el usuario no lo ha confirmado.*
+- **El incidente del pool de conexiones no está en el audio.** En 08:55 dice *"no sé si
+  platicar o no el tema de código que me ha pasado"* y no lo cuenta. ⚠️ **La descripción
+  de YouTube y la de Spotify todavía lo prometen** (viñeta *"En pantalla: código... tumbó
+  el pool de conexiones"* y capítulo `06:30`). Hay que quitarlo antes de publicar.
+- **El "cinco veces"** sí se dijo, pero como opinión (*"yo creo que cinco veces más"*,
+  01:31). Ningún clip lo usa.
+- **Nuevo en el audio, no estaba en el guion:** la confesión de que tuvo que **regresar
+  al papel** porque siente que su concentración y su atención han bajado por usar LLMs
+  (07:35-08:15), y la idea de que las empresas empiezan a **recortar tokens por
+  empleado** porque no pueden medir qué output da cada token (05:28-06:37).
+
+## Los 7 clips — timestamps sobre el transcript 9x16
+
+**Criterio (2026-10-07):** el mismo que pidió el usuario para el
+[[episodio-026-flujo-freelance-claude]], que **dejen algo aprendido o generen polémica**.
+Este episodio es de opinión, así que la polémica sale sola y el valor está en el
+argumento (pavo, anclaje, producir vs. comprender). Mezcla: **2 de polémica, 2 de valor,
+3 de ambas.**
+
+Cortes en `hh:mm:ss:ff`. Donde dice **~**, el corte cae a mitad de un segmento y el tiempo es
+estimado: hay que ajustarlo a oído en el editor.
+
+| # | Entra | Sale | Dur. | Tipo | Gancho / contenido | Pregunta para comentarios |
+|---|---|---|---|---|---|---|
+| 1 | **00:00:00:00** | **~00:00:36** (*"...Rincón del Vago estaba mal."*) | ~36s | 🔥 polémica | cold open: *"¿contratarías tú a uno?"*, cada vez menos vacantes junior, **"mis hermanos quieren entrar al campo laboral, ¿dónde van a quedar?"** | *"¿tu empresa sigue contratando juniors?"* |
+| 2 | **00:03:01:12** | **00:03:48:10** | 47s | 💡🔥 ambas | la concesión: si al programador se le midiera por tickets cerrados, **"la IA ya ganó"**; *"si la ingeniería fuera solo escribir sintaxis, el episodio terminaría aquí"* | *"¿a ti te miden por tickets cerrados? ¿Es justo?"* |
+| 3 | **00:03:48:12** | **00:04:22:01** | 34s | 💡🔥 ambas | *"el 50% del código ya lo escribe la IA... el 90% de los juniors no serán necesarios"* → **son un punto de anclaje**: tu cerebro prefiere un número redondo inventado | *"¿dónde leíste la última cifra de ese tipo? ¿Tenía fuente?"* |
+| 4 | **00:04:22:03** | **~00:05:28** (*"...como si fuera un futuro definitivo."*) | ~66s | 💡 valor | ⭐ **el pavo de Taleb**: 1,000 días de datos impecables, el día 1,001 es Acción de Gracias; *"nadie te da una barra de error"* | *"¿qué tan seguro estás de lo que pedirán a un programador en 4 años?"* |
+| 5 | **00:07:24:19** | **~00:08:21** (*"...en cierto momento."*) | ~57s | 💡🔥 ambas | ⭐ **"la IA acelera la producción, no la comprensión"** + la confesión: **regresó al papel** porque siente que su atención y concentración bajaron | *"¿te ha pasado? ¿Sientes que piensas menos desde que usas IA?"* |
+| 6 | **00:09:28:08** | **00:09:58:19** | 30s | 💡 valor | si haces lo que todos, *"el código se vuelve espagueti"*. **Tienes que leer lo que genera la IA**: *"da hueva, sí"*, y el tiempo que no tecleas es para planear y ver dónde alucina | *"¿lees todo lo que te genera la IA, o lo aceptas?"* |
+| 7 | **00:10:11:01** | **00:11:18:06** | 67s | 🔥 polémica | ⭐ cierre: no es apagar Copilot (*"yo lo uso todos los días"*); **la IA es una calculadora, si no sabes sumar te equivocas más rápido** → *"3 a.m., tu base de datos en deadlock... ¿le confiarías el servidor a alguien que nunca debuggeó sin IA?"* | la del propio audio, no hace falta otra |
+
+**Los ancla son el 4, el 5 y el 7.** El 4 es el único tramo que enseña un concepto completo
+que alguien puede repetir. El 5 es la confesión más fuerte del episodio, y en el guion no
+estaba. El 7 trae la frase más citable (*la calculadora*) y la pregunta de comentarios que
+ya funciona en el audio.
+
+**El 1 es el gancho de polémica más fuerte del lote** porque es personal (sus hermanos) y
+toca miedo al empleo. Si solo se publica uno de polémica, que sea ese.
+
+### Corregir en subtítulos (la autotranscripción se equivoca)
+
+| Dice el CSV | Es |
+|---|---|
+| *Black Islands* / *Black? Aislarse* | Black Ice Labs |
+| *súcubo* (01) | *"¿tú?"*, a oído |
+| *yo nunca he escrito cifras* (03) | probablemente *"yo nunca repito cifras"*, que es la tesis del episodio |
+| *entra en un club* (07) | *deadlock* |
+| *dibujar una sola línea de código* (07) | *debuggear*, a oído |
+| *un ella* (07) | *una IA* |
+| *patrón genético* (06) | *patrón agéntico* |
+| *el episodio terminar aquí* (02) | *terminaría* |
+
+### Descartados, y por qué
+
+| Tramo | Por qué quedó fuera |
+|---|---|
+| 00:48-01:20 — *"un junior ya no necesita aprender a programar sin IA... es una irresponsabilidad"* | buen gancho pero **repite la idea del clip 1** sin la parte personal; primer suplente de polémica |
+| 01:31-02:52 — la productividad del junior con Cursor/Copilot, el MVP en un fin de semana | lleva el **"cinco veces más"** sin fuente, en un episodio cuyo argumento es no repetir cifras; recortado como clip, la cifra se queda sin la tesis que la matiza |
+| 05:28-06:37 — empresas que recortan tokens por empleado, *"para qué lo quiero si todo lo hace la LLM"* | polémica real, pero **es el mismo tema del clip 6 del [[episodio-026-flujo-freelance-claude]]** (dependencia y tokens) y salen casi seguidos; además el audio se enreda (*"dejo uno más a uno o dos"*). Suplente si el clip del 026 funciona |
+| 06:37-07:24 — las sesiones antes rendían más; ¿comprar una Mac para correr local? | repetido del 026 casi palabra por palabra |
+| 08:24-09:28 — la IA no ve dos o tres pasos adelante del cliente; anotar cómo quieres que trabaje | valor, pero se abre con *"no sé si platicar el tema de código que me ha pasado"*, que promete una historia que nunca llega |
+
+### Programación
+
+Según el plan del 28-sep, los 7 clips del 026 empiezan **el 7-oct** y a 2 por semana terminan
+hacia el **31-oct**. Este lote va **después**: si sale encima del 026, no se va a poder leer
+cuál de los dos funcionó. Desde ~2-nov y a 2 por semana, termina hacia el 23-nov. Ese mes también
+trae el maratón (8-nov) y la boda (28-nov) ([[objetivos-vida-2026-2027]]), así que conviene
+**dejar el lote programado** antes de noviembre. Si se quiere sacar uno
+pegado al estreno del episodio largo, que sea el **1** (gancho) o el **7** (cierre), y
+contarlo como parte del lote del 026 para efectos de la cadencia.
+
 ## Related
 
 - [[estrategia-contenido-absadev]] — el candidato D del pool, del que sale este guion
@@ -116,3 +203,5 @@ Pero el trabajo de un programador nunca fue teclear código. Hablamos de por qu�
 - [[vibecoding-y-spec-driven-design]] — producir sin comprender, y la cifra del 50% no adoptada
 - [[episodio-028-patrones-agenticos]] — el otro guion que reclama el número 028
 - [[blackicelabs-podcast]] — el show
+- [[episodio-026-flujo-freelance-claude]] — el lote de clips anterior y el criterio *aprendido o polémica*
+- [[episodio-027-side-project]] — el guion que tenía el número 027

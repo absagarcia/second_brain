@@ -3,7 +3,7 @@ title: "Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude t
 type: entity
 domain: [blackicelabs, swe, fitexe]
 created: 2026-10-05
-updated: 2026-10-06
+updated: 2026-10-07
 sources:
   - path: raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv
     fact_date: 2026-09-04
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-10-06
     ingest_date: 2026-10-06
     confidence: high     # guion final propio; llena los [RELLENAR] del borrador
+  - path: raw/blackicelabs/episodio-028-patrones-agenticos-clips-9x16-2026-10-07.csv
+    fact_date: 2026-10-07
+    ingest_date: 2026-10-07
+    confidence: high     # audio de primera parte; autotranscripción con errores ("Cloud"=Claude, "FedEx"=FitExe, "Black Islas", "Planning Secure")
 ---
 
 # Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude trabaja en mi app
@@ -333,6 +337,8 @@ En este episodio bajamos un piso respecto al 026: ya no es el flujo, es el mecan
 
 ## Candidatos a clip (para cortar después de grabar)
 
+*Lista previa a la grabación (2026-10-05). El corte real está en "Los 7 clips", abajo. El punto 4 no se grabó, así que su clip de polémica no existe.*
+
 Hay 7 shorts guionizados en el batch del 2026-09-09. Estos tramos del episodio pueden cubrir
 varios sin grabar aparte:
 
@@ -345,6 +351,87 @@ varios sin grabar aparte:
 ⚠️ **Calendario:** los clips del [[episodio-026-flujo-freelance-claude]] salen desde el 7-oct.
 La colisión con la Serie 11 y con este batch sigue anotada y sin resolver en
 [[estrategia-contenido-absadev]].
+
+## Grabado (2026-10-07): lo que cambió respecto al guion
+
+Fuente: el transcript 9x16 (`raw/blackicelabs/episodio-028-patrones-agenticos-clips-9x16-2026-10-07.csv`).
+
+- **Duración real: 17:30** (00:00 → 17:30:11). El guion calculaba ~13:45 y el objetivo era de 12-15 min.
+- **El punto 4 (multiagente y Circuit Breaker) no se grabó.** En 02:42 lo dice en voz alta: *"no
+  vamos a hablar de multiagente ni de orquestador... después lo podemos platicar"*. En su lugar
+  entró un caso nuevo, una app de finanzas en pareja (12:29), y los **tres pilares** de contexto:
+  memoria documental, compactación y *context offloading*.
+- ⚠️ **El paquete de publicación del 2026-10-06 ya no cuadra.** La descripción promete
+  *"Multiagente (Orchestrator/Worker) y Circuit Breaker"*, y sus capítulos siguen la tabla del
+  guion. Capítulos propuestos sobre el audio real (hay que validarlos contra el corte final):
+
+```
+00:00 El módulo de reservas que armé en un día
+00:43 Del flujo al mecanismo
+02:25 ReAct: razonar y actuar
+04:39 Plan and Execute y OpenSpec
+09:13 Approval Gates y Rails
+11:32 Lo que nunca le delego a Claude
+12:03 La alucinación es un problema de contexto
+13:52 Compactación y context offloading
+15:39 Las 3 ideas para llevarte
+```
+
+- **Contenido nuevo que no venía en el guion:** un agente que, antes de proponer, busca bugs pasados
+  del proyecto (el teclado que tapaba la pantalla al crear órdenes, 07:46); *compactar no es
+  resumir*, con el ejemplo de Miguel Hidalgo (14:18); y el pedido de testers para Android, de apoyo
+  para la licencia de Apple (US$100) y la broma de la mesa de regalos de la boda (01:32-02:42, 17:11).
+
+## Los 7 clips — timestamps sobre el CSV 9x16 (2026-10-07)
+
+**Criterio:** el mismo del 026, que **deje algo aprendido o genere polémica**. Mezcla: **3 de
+valor, 2 de polémica, 2 de ambas.** Donde dice **~**, el corte cae a mitad de un segmento y hay que
+ajustarlo a oído.
+
+| # | Entra | Sale | Dur. | Tipo | Gancho / contenido | Pregunta para comentarios |
+|---|---|---|---|---|---|---|
+| 1 | **00:00:00:01** | **00:00:43:11** | 43s | 💡🔥 ambas | ⭐ cold open: el módulo de reservas en un día, Claude corrige arquitectura *"que yo nunca pedí que tocara"*, y *"si no sabes qué está pasando detrás... se te rompe producción"* | *"¿tu agente te ha cambiado código que no le pediste?"* |
+| 2 | **00:03:43:15** | **00:04:39:02** | 56s | 💡 valor | ReAct como **depurar con breakpoints**, y su costo: cada vuelta relee todo el historial (tokens, latencia y **bucle infinito** si no hay límite de pasos) | *"¿le pones límite de pasos a tu agente?"* |
+| 3 | **00:04:39:04** | **~00:05:22** (antes de *"Esto pasa mucho..."*) | ~43s | 💡 valor | ⭐ Plan and Execute como **script de migración**: *"no vas inventando las columnas mientras corres la migración"* | *"¿dejas que la IA improvise o la obligas a planear?"* |
+| 4 | **00:06:44:17** | **~00:07:22** (tras *"...hasta que choque"*) | ~38s | 🔥 polémica | *"tienes que leer, tienes que leer"*: quien ya no lee lo que genera la IA va *"en piloto automático en un Tesla hasta que choque"* | *"¿lees todo lo que te genera la IA? Sé honesto."* |
+| 5 | **~00:09:14** (tras el *"Que."*) | **00:10:01:13** | ~47s | 💡🔥 ambas | ⭐ Approval Gate = **PR protegido con branch protection**, y tener un agente que sea *"una versión culera tuya"* que revise lo que hizo el otro | *"¿quién revisa el código que escribe tu IA?"* |
+| 6 | **~00:11:32** (*"¿Aquí cómo lo puedo aterrizar en FitExe...?"*) | **00:12:03:20** | ~32s | 🔥 polémica | lo que **jamás le delega a Claude** sin aprobación: migraciones de PostgreSQL y verificación de webhooks de pagos, en una app con usuarios reales | *"¿qué nunca le dejarías tocar a la IA?"* |
+| 7 | **00:14:18:07** | **~00:15:17** (tras *"ahí tengo mis dudas"*) | ~59s | 💡 valor | compactar **no es** resumir: para ti lo importante de la Independencia son las campanas de Hidalgo y para tu compañero, el día que terminó. *"¿Qué se está perdiendo?"* | *"¿confías en el /compact o prefieres empezar sesión nueva?"* |
+
+**Los ancla son el 1, el 3 y el 5.** El 1 es el gancho más fuerte del episodio. El 3 y el 5 se
+explican con una analogía de ingeniería que cualquier dev reconoce (una migración, un PR
+protegido), así que se entienden sin haber oído el resto del episodio.
+
+⚠️ **El clip 1 repite una historia ya publicada.** El reel de OpenSpec del 2026-09-04
+(`absadev-reels-2026-09-04-open-spec.csv`) cuenta el mismo módulo de reservas. En la cuenta de
+Absadev se ve repetido; en la de Black Ice Labs, no.
+
+⚠️ **En los clips 1 y 6 la autotranscripción dice "Cloud" y "FedEx".** En el subtítulo quemado va
+**Claude** y **FitExe**.
+
+### Suplentes
+
+| Tramo | Por qué es suplente |
+|---|---|
+| ~00:16:27 → 00:17:11:09 — *"la aprobación humana no es desconfianza, es diseño"* + regla 3 (*"antes de cambiar de modelo, revisen el contexto"*) | ~44s de frases que funcionan como cita; **primer suplente**. Se solapa con el 5 |
+| 00:12:54:03 → 00:13:52:17 — CLAUDE.md o AGENTS.md para no casarte con un proveedor (Antigravity, Codex, un LLM local) + carpeta `docs/` | 58s de valor práctico, pero se cuenta sobre un ejemplo hipotético |
+| ~00:07:28 → 00:08:16:12 — el agente que te recuerda bugs pasados (el teclado) | idea original, pero el audio se enreda (*"un profesor así... unas escuelas"*) |
+
+### Descartados, y por qué
+
+| Tramo | Por qué quedó fuera |
+|---|---|
+| 01:32-02:42 — testers para Android, licencia de Apple, mudanza, mesa de regalos | es un pedido personal, no contenido; además fecha el clip |
+| ~08:30-09:10 — Markdown bien delimitado → *"el consumo de tokens es ridículo"* | ya está cubierto por el clip 5 del [[episodio-026-flujo-freelance-claude]] (*modelo chico alucina menos*) |
+| 12:03-12:29 — *"la alucinación es un problema de contexto"* | la tesis va sola en 26s, sin ejemplo; el suplente 1 la cierra mejor |
+
+### Programación
+
+⚠️ Los 7 clips del 026 salen del **7-oct al ~31-oct** a 2 por semana. Si este lote empieza
+después, al mismo ritmo cubre del **~3-nov al ~24-nov**. Además ya está en `raw/` el CSV de clips del
+[[episodio-junior-sin-ia]] (2026-10-07), así que hay **tres lotes** compitiendo por el mismo
+calendario. Al ritmo de 2 por semana, meter dos a la vez rebasa el techo de 3.5 shorts por semana
+anotado en [[estrategia-contenido-absadev]], y además no se podría saber qué lote funcionó.
 
 ## Related
 

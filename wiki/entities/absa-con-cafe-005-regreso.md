@@ -3,7 +3,7 @@ title: "Absa con Café 005 — El regreso: cuando el hobby se volvió trabajo"
 type: entity
 domain: [blackicelabs, reflections, fitness]
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-06
 sources:
   - path: conversation (el usuario decide regresar Absa con Café: primer episodio en 2 semanas, solo, mínimo 1 al mes)
     fact_date: 2026-10-05
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
     confidence: high     # las cifras de running del bloque 1
+  - path: conversation (el usuario avisa que ya grabó el episodio y pide título, descripción y tags, 2026-10-06)
+    fact_date: 2026-10-06
+    ingest_date: 2026-10-06
+    confidence: high
 ---
 
 # Absa con Café 005 — El regreso: cuando el hobby se volvió trabajo
@@ -171,6 +175,75 @@ para nada… ¿qué harían? Los leo en comentarios."**
 
 Si se alarga, **lo primero que se recorta es el bloque 1**: las cifras de running ya tienen
 lugar en el canal; lo que sólo existe aquí son los bloques 2 y 3.
+
+## Grabado — 2026-10-06
+
+El usuario avisa que **ya lo grabó**, 13 días antes de la fecha objetivo del 19-oct. El wiki
+no tiene el transcript, así que **no sabe qué partes del guion entraron**: el resultado del
+Atlas, la cifra de grasa, Sofi y el experimento público siguen sin confirmar. Por eso el
+paquete de abajo usa sólo lo que casi seguro se dijo (el hook, el hobby que se volvió trabajo,
+el scroll y la pregunta del cierre) y no lleva capítulos.
+
+## Paquete de publicación (2026-10-06)
+
+Mismo criterio que en Black Ice Labs ([[estrategia-contenido-absadev]]): en **YouTube**
+va primero lo que alguien buscaría, con algo de tensión; en **Spotify**, `0NN. título`
+para quien ya sigue el show. **Spotify no tiene campo de tags**: las palabras clave van
+dentro del texto de la descripción.
+
+### YouTube — títulos
+
+| # | Título |
+|---|---|
+| **1 ⭐** | **Mi hobby se volvió trabajo (y ya no sé qué hago por gusto)** |
+| 2 | Regresé después de 10 meses: cuando tu hobby se vuelve trabajo |
+| 3 | Quiero un Switch 2… pero ¿a qué hora? |
+
+### Spotify — títulos
+
+| # | Título |
+|---|---|
+| **1 ⭐** | **`005. Regresé (y casi no lo hago)`** |
+| 2 | `005. Cuando tu hobby se vuelve trabajo` |
+
+### YouTube — descripción
+
+```
+"Quiero un Switch 2… pero ¿a qué hora?" Lo escribí en mi diario hace unas semanas y me quedé viendo esa frase un buen rato. Me levanto y luego luego estoy trabajando; cuando no, estoy haciendo contenido; y cuando no hago ninguna de las dos, estoy haciendo scroll. Lo único que hago por gusto es correr.
+
+Después de diez meses, regresa Absa con Café. El último episodio se llamó "Me perdí tratando de ser alguien que el internet quería que fuera", y éste es lo que vino después: qué pasó en este tiempo, qué pasa cuando tu hobby se vuelve trabajo y te quedas sin hobby, el scroll de todas las mañanas, el minimalismo digital, y una pregunta que todavía no sé contestar: si recupero ese tiempo, ¿qué hago con él?
+
+Sin tutorial, sin tips, sin "cinco hábitos para ser más productivo". Nada más un café y darle demasiadas vueltas a las cosas.
+
+💬 Te dejo la pregunta: si mañana tuvieras dos horas libres que no tuvieran que servir para nada, ¿qué harías? Te leo en comentarios.
+
+☕ Nuevo episodio cada mes.
+🎧 Escúchalo también en Spotify: [link]
+
+#AbsaConCafé #MinimalismoDigital #Podcast
+```
+
+### YouTube — tags
+
+395 de los 500 caracteres que permite YouTube.
+
+```
+absa con café, absa garcia, cuando tu hobby se vuelve trabajo, hobby vs trabajo, no tengo tiempo para mis hobbies, minimalismo digital, cal newport, tiempo en pantalla, adicción al celular, dejar las redes sociales, scroll infinito, productividad, felicidad, angustia existencial, creador de contenido, burnout, correr, running, vida adulta, reflexiones, podcast en español, podcast de reflexión
+```
+
+### Spotify — descripción
+
+```
+"Quiero un Switch 2… pero ¿a qué hora?" Después de diez meses regresa Absa con Café, y regresa con esa frase que escribí en mi diario.
+
+Hablamos de lo que pasa cuando tu hobby se vuelve trabajo y te quedas sin hobby, de correr como lo único que todavía hago por gusto, del scroll nada más despertar, del minimalismo digital de Cal Newport, y de una pregunta que no sé contestar: si recupero ese tiempo, ¿qué hago con él?
+
+Sin tips y sin tutorial. Nada más un café y darle demasiadas vueltas a las cosas. Nuevo episodio cada mes.
+
+Si tuvieras dos horas libres que no tuvieran que servir para nada, ¿qué harías? Cuéntame en los comentarios o en YouTube.
+
+📺 Versión en video: [link de YouTube]
+```
 
 ## Cómo se sostiene esta vez
 
