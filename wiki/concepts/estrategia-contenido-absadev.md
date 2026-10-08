@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-22
+updated: 2026-10-07
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -1127,6 +1127,15 @@ cámara.** Tres lecturas, en orden:
 > mejor tasa de comentarios medida en esta página, 0.23%)**, 13 shares. Es la
 > pieza más vulnerable del batch y la que más conversación generó — otra vez el
 > patrón identidad > utilidad. Detalle en [[absadev]].
+>
+> ⚠️ **2026-10-07:** el usuario reveló que pagó promoción por seguidores en 2 TikToks, sin
+> decir cuáles. Los picos del export de 60 días coinciden con este video y con "¿Qué
+> habilidades…?". Si son esos, las cifras de arriba incluyen alcance comprado y el *"otra vez
+> identidad > utilidad"* deja de ser evidencia limpia. Pendiente de confirmar; ver [[absadev]].
+>
+> ✅ **Confirmado el mismo día:** los promocionados fueron este video y "¿Qué habilidades…?". Las
+> cifras de esta cita incluyen alcance pagado. La regla *identidad > utilidad* queda como
+> **hipótesis abierta**, sostenida solo por datos orgánicos chicos. Ver [[absadev]].
 
 **Regla que sale de aquí, y que vale más allá de Swift:** no anunciar en video un
 arco de aprendizaje hasta tener la primera sesión hecha; anunciar el hito, no la
@@ -2221,6 +2230,148 @@ explícitamente qué sale del calendario actual para hacerle espacio.
 dato real de este ángulo. Se sugirió grabar primero los shorts #2 y #6 (mayor potencial de
 identidad/conversación) y decidir el resto según respuesta, en vez de comprometer las 7 piezas de
 una — condición ya anotada arriba, no nueva.
+
+
+## [2026-10-07] Serie de noviembre — "FitExe con IA" (8 shorts) + calendario del 2 al 27-nov
+
+**Pedido del usuario (2026-10-07):** hacer la siguiente serie partiendo del video de OpenSpec en
+FitExe (*"a este video le fue muy bien"*), y dejar noviembre programado desde octubre porque en
+noviembre *"solo tengo boda"*.
+
+### Por qué este ángulo, con datos (no solo con la impresión)
+
+- **TikTok, 100% orgánico** (no es de los dos promocionados, ver [[absadev]]): 2,437 vistas, 94 likes,
+  **9 comentarios** y 9 shares (`raw/blackicelabs/absadev-tiktok-2026-10-07/Content.csv`). Su tasa de
+  comentarios (**0.37%**) es **la más alta medida sin pago**, por encima incluso del promocionado
+  "Acepté el trabajo que no quería" (0.24%).
+- **YouTube:** "Probe open spec en un side project" da **8.85 subs por cada 1,000 vistas** en sus
+  primeros 14 días. Es el mejor de los videos con volumen real del reporte del 2026-10-07
+  (`raw/blackicelabs/absadev-yt-report-2026-10-07.txt`). n chico (148 vistas, +1).
+- Con la regla *identidad > utilidad* de vuelta a hipótesis, este video es el mejor dato orgánico
+  que queda, y **mezcla los dos registros**: caso propio + algo que se puede copiar.
+
+⚠️ **La segunda prueba del ángulo ya está programada.** El 2026-09-09 se pidió *"un segundo video del
+mismo ángulo que repita o supere la tasa"* antes de tratarlo como pilar. Los 4 shorts de OpenSpec/IA
+que salen del **12 al 18-oct** (los del batch de patrones agénticos, ver arriba) son esa prueba.
+**Leerlos hacia el 25-oct, antes de la segunda sesión de grabación.** Si no repiten, se cambian los
+episodios 5–8.
+
+### La serie: Serie 7 aplicada a FitExe, numerada
+
+No es una serie nueva. Es **Serie 7 "IA en mi chamba real"** sobre el material de [[fitexe]], con
+nombre y número para que funcione el mecanismo de retención. Formato de título (regla del 14-ago):
+**búsqueda primero, serie al final**, p. ej. *"¿Por qué mis usuarios no podían recuperar su
+contraseña? | FitExe con IA #1"*.
+
+Cada episodio sale de un **artefacto real del repo** `app_fitexe` (revisado el 2026-10-07), no de
+una idea. Van alternados por registro, **4 de identidad (I) y 4 de utilidad (U)**, para medir en
+noviembre qué convierte en cada red, ahora que la regla anterior quedó contaminada por la promoción.
+
+| # | Reg. | Título de trabajo | Artefacto real |
+|---|---|---|---|
+| 1 | I | Mis usuarios no podían recuperar su contraseña (por una línea de un tutorial) | `openspec/changes/fix-password-reset-redirect-url/`: el reset mandaba el redirect del quickstart de Supabase (`io.supabase.flutterquickstart://`), Supabase lo descartaba y **el atleta bloqueado no tenía forma de volver** (issue #46). Fix del 22-sep (`e0e73be`) |
+| 2 | U | Errores que tu usuario sí entiende: de FE001 a FE013 | el proposal archivado del 03-sep: las RPC de reservas devuelven códigos específicos (lleno, ya empezó, membresía inválida, fuera de plazo) que se muestran **legibles, no como "error genérico"** |
+| 3 | I | El webhook de Stripe que nunca llegó | `documentation/stripe_bug_context_export.md`: en Test Mode `account.updated` no llegaba, el portal decía éxito y se quedaba en "Stripe no vinculado" → verificación activa con `checkStatus` |
+| 4 | U | Cómo le paso un bug a Claude en un archivo, no en el chat | el mismo documento abre con *"Usa este archivo para pasarlo de contexto en otra conversación"*: **Context Offloading** de [[patrones-diseno-agenticos]] hecho a mano |
+| 5 | I | Te enseñé OpenSpec a medias. Este es el ciclo completo | `openspec/changes/archive/2026-09-03-add-class-scheduling-mobile/` + `openspec/specs/class-schedule-mobile/`: el **propose → apply → archive** que el reel del 04-sep no alcanzó a mostrar (ver [[fitexe]]) |
+| 6 | U | Por qué Claude escribe código que parece mío | el proposal pide el módulo nuevo *"mirroring `movements`"*: la estructura por feature ([[clean-architecture-feature-first]]) es el contexto que el agente copia |
+| 7 | I | Así se ve de verdad construir una app con trabajo de tiempo completo | `git log` de `app_fitexe` (revisado el 2026-10-07): **127 commits del 22-jul-2025 al 22-sep-2026**, con meses de 25 (ago-25) y meses de 1 (ene-26) o 2 (nov-25, mar-26, may-26, ago-26); **66 de 127 hechos entre las 7 p.m. y las 7 a.m.**; el martes es el día fuerte (38) y el domingo casi no existe (3). Cruza con el *"9 años, 0 consistencia"* de [[absadev]]: el mismo patrón de rachas, pero en código |
+| 8 | U | Contrato primero: mi app web y mi app móvil no se rompen entre sí | `fitexe-contracts` (tag `contract-v1-class-scheduling`): el portal crea las clases y la app solo consume el contrato, *"sin tabla, RLS ni RPC nuevas"* |
+
+**Cambio del mismo día en el 7.** La primera versión era *"Tenemos un gimnasio pagándonos"*, y el
+usuario avisó que **ya está publicado**: es *"Por fin nos están pagando: Fitexe, el software para
+gimnasios…"*, del 11-ago en YouTube (`raw/blackicelabs/absadev-youtube-api-2026-10-07.md`). Se
+reemplazó por la historia del ritmo real de commits.
+- ⚠️ Los commits miden actividad en este repo, no horas. El portal web está en otro repo y no
+  se cuenta. En cámara se dice "commits", no "horas trabajadas".
+- ⚠️ El guion no puede atribuirle a la IA el repunte de septiembre (10 commits). Coincide con
+  OpenSpec, pero eso no prueba que lo haya causado.
+
+**Suplente del 7:** *"Lo que encontró Claude al escribir los tests del AuthRepository"*. Existe el
+commit `119cb71`, pero no se sabe qué encontró: necesita la historia del usuario antes de guionizarse.
+
+**Descartados:**
+- **Garmin/Strava:** `smartwatch-integration.md` está en *"Planificación"*. Sería anunciar algo no
+  empezado, justo lo que la regla de Swift prohíbe.
+- **"Lo que no le delego a Claude":** ya lo cubre el clip 6 del [[episodio-028-patrones-agenticos]].
+- **"Claude corrigió mi arquitectura":** sale el 15-oct.
+
+### Calendario del 2 al 27-nov (las 3 redes, lunes/miércoles/viernes = 3 por semana)
+
+Los clips de podcast **reemplazan** slots, no se apilan (condición #1 del 19-ago). Solo van los
+elegidos: del 027 el 1 contra el 7 ([[episodio-junior-sin-ia]]) y del 028 el 3 y el 5, que se
+entienden sin el episodio y no repiten historias de la serie.
+
+| Semana | Lunes | Miércoles | Viernes |
+|---|---|---|---|
+| 2–6 nov | FitExe con IA #1 (I) | clip 027 #1 | FitExe con IA #2 (U) |
+| 9–13 nov | #3 (I) | clip 028 #3 | #4 (U) |
+| 16–20 nov | #5 (I) | clip 027 #7 | #6 (U) |
+| 23–27 nov | #7 (I) | clip 028 #5 | #8 (U) |
+
+**Total: 12 shorts en 4 semanas, 3 por semana**, debajo del techo de 3.5. Todo programado antes del
+**31-oct**. La boda es el 28-nov y el último slot es el 27.
+
+### Producción (dentro de las 4–6 h por semana)
+
+- **Sesión A (~17–18 oct):** #1–#4. Bloque auth + Stripe, todo del mismo material.
+- **Sesión B (~24–25 oct):** #5–#8, **después de leer** los shorts del 12–18 oct.
+- **B-roll:** grabación de pantalla de los archivos de OpenSpec y del código. ⚠️ Nunca `.env`, keys de
+  Supabase/Stripe ni `firebase_options.dart` en pantalla.
+- **Opcional, si sobran horas:** un video largo buscable, *"OpenSpec con Claude en una app Flutter real:
+  de la propuesta al archive"* (~10 min, pantalla), publicado con el #5. Es el formato que más
+  convierte en YouTube (ver [[absadev]]). Los Shorts de la serie lo ligan como video relacionado.
+
+### Cómo se mide (corte el 2-dic)
+
+- **Sin promoción pagada en noviembre.** Si no, se repite la contaminación del 9-sep.
+- **YouTube:** `yt_report.py` sobre la ventana del 2 al 29-nov. Éxito: SPV ≥ 1.7; cambio de escalón:
+  ≥ 3.0. Más la comparación I vs U a misma edad.
+- **TikTok e Instagram:** el export no trae seguidores, así que hace falta la captura de
+  **nuevos seguidores por video** (TikTok) y de **follows por reel** (Instagram) de los 12.
+- **Lo que decide:** si un registro convierte el doble que el otro en dos redes, se adopta. Si no hay
+  diferencia, ninguna regla vuelve a darse por buena con n chico.
+
+**Guiones de producción de los 8:** [[serie-fitexe-con-ia]].
+
+## [2026-10-07] Pool de comparaciones móviles para el podcast — la línea de "Flutter vs React Native"
+
+**Pedido del usuario (2026-10-07):** buscar más comparaciones de tecnologías móviles en la línea de
+Flutter vs RN para [[blackicelabs-podcast]].
+
+**Por qué esta línea, con datos:** "Flutter vs React Native 2026" (YouTube, 09-feb) sigue sumando
+**+5 suscriptores en el último mes con 684 vistas**, más que cualquier video nuevo del periodo
+(`raw/blackicelabs/absadev-youtube-api-2026-10-07.md`). El canal vive de Búsqueda (33.4%), y en el
+podcast también rindió (top-6 por plays). Es **Serie 3 "Comparaciones sin choro"** en formato largo.
+
+**Regla del pool (2026-08-25):** cada candidato declara su artefacto. Todos salen del stack real de
+[[fitexe]], así que el diferenciador es *"lo elegí y vivo con la consecuencia"*, no *"leí benchmarks"*.
+
+| # | Título (búsqueda primero) | Ángulo propio | Artefacto en pantalla | ⚠️ Antes de grabar |
+|---|---|---|---|---|
+| A | Flutter vs React Native, un año después: con una app en producción | la secuela del video que más convierte, ahora con 14 meses de FitExe | `app_fitexe` (127 commits), Impeller activado, App Distribution | qué opinión de febrero cambió y cuál no: la decide el usuario |
+| B | ¿Por qué no hice todo en Flutter? Flutter vs React para web | la app es Flutter, el portal de coaches React/Vite y la landing Astro | los tres repos + `fitexe-contracts` | [RELLENAR: por qué se eligió React para el portal] |
+| C | Supabase vs Firebase: por qué mi app usa los dos | Supabase es todo el backend; Firebase solo mensajería y distribución de pruebas | `pubspec`, las Edge Functions, el script de App Distribution | ninguno: el stack está en el repo |
+| D | Stripe vs compras dentro de la app para cobrar suscripciones | FitExe cobra membresías de gimnasio con Stripe Connect desde el portal | `stripe_bug_context_export.md`, los tres estados del portal | ⚠️ **verificar las reglas actuales de Apple y Google** para servicios físicos antes de afirmar nada |
+| E | Flutter vs SwiftUI: ¿vale la pena aprender nativo si ya sabes Flutter? | ya publicó "Una semana con Swift"; la licencia de Apple (US$100) es para FitExe iOS | el proyecto Xcode de la semana de Swift | ⚠️ la promesa de Swift está pausada: es una comparación, **no anunciar un arco** |
+| F | Riverpod vs Bloc en una app real | FitExe usa Riverpod como estado + inyección de dependencias | providers reales del repo | [RELLENAR: ¿hay experiencia propia con Bloc? Si no, no pasa el filtro] |
+
+**Solo para shorts (demasiado nicho para un episodio):** *AutoRoute vs GoRouter* (FitExe usa AutoRoute)
+e *Impeller vs Skia*. Este último trae una historia real: el commit `aad9bad` (07-abr-2026) corrigió
+el nombre del meta-data de Impeller en el `AndroidManifest`
+(`io.flutter.app.android.EnableImpeller` → `io.flutter.embedding.android.EnableImpeller`).
+
+**Descartados:**
+- **Kotlin Multiplatform y Expo:** no hay artefacto propio, serían comparaciones de lectura.
+  Mismo filtro que rechazó 8 de 9 propuestas el 20-ago.
+
+**Formato:** cada comparación en **5 rondas** (rendimiento · experiencia de desarrollo · costo ·
+ecosistema · lo que me arrepiento). Es el formato-lista del candidato F del 25-ago: **cada ronda
+es un clip ya marcado**, sin tener que buscarlo después de grabar.
+
+**Orden recomendado:** A primero (repite el tema y la búsqueda que ya funcionan), luego C (cero
+pendientes), luego B. El podcast va a 1 por mes, y noviembre ya está lleno con la serie y la boda:
+**A sería el episodio de diciembre**, grabado después del 2-dic con la lectura de noviembre en mano.
 
 ## Serie 11 — "Nunca reescribas desde cero" (guionizada 2026-09-21)
 

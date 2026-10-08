@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-09-10
+updated: 2026-10-07
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -271,6 +271,18 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > en este repo son **ReAct sin límite de pasos**, **Orchestrator/Worker**
    > (multiagente) y **Circuit Breaker** — candidatos para cuando exista un
    > caso real que grabar.
+   >
+   > **Actualización 2026-10-07 — el ciclo completo sí existe (revisado en el repo).** Lo que esta
+   > página daba como pendiente desde el 02-sep ya ocurrió:
+   > `openspec/changes/archive/2026-09-03-add-class-scheduling-mobile/` (proposal, design, tasks,
+   > spec) y la spec sincronizada en `openspec/specs/class-schedule-mobile/`. El proposal dice que
+   > es *"its first OpenSpec change"*. Hay además un segundo cambio abierto,
+   > `fix-password-reset-redirect-url`: el reset de contraseña usaba el redirect del quickstart de
+   > Supabase y los atletas bloqueados no podían volver (issue #46, fix `e0e73be` del 22-sep).
+   > El archive es del 03-sep, así que probablemente ya existía cuando se grabó el reel del 04-sep;
+   > el wiki no lo había visto. Los dos casos, más el bug de Stripe documentado en
+   > `documentation/stripe_bug_context_export.md`, son el material de la serie "FitExe con IA" de
+   > noviembre en [[estrategia-contenido-absadev]].
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

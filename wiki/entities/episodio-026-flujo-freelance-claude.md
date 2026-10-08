@@ -3,7 +3,7 @@ title: "Episodio 026 — Mi flujo freelance con Claude"
 type: entity
 domain: [blackicelabs, freelance, swe]
 created: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-07
 sources:
   - path: raw/blackicelabs/episodio-026-flujo-freelance-claude-transcript-2026-09-28.md
     fact_date: 2026-09-28
@@ -219,6 +219,11 @@ shorts/semana, ya encima del techo de 3.5 de la condición de refutación). **No
 empezar este lote antes del 7-oct.** A 2 por semana termina hacia el
 **31-oct**. Así también se puede leer el 024 limpio antes de publicar
 el 026. Si el 026 sale encima del 024, nunca se sabrá qué lote funcionó.
+
+**Ejecución real (vista en la Data API el 2026-10-07):** en YouTube los 7 clips quedaron
+programados del **20-oct al 1-nov** (1 cada ~2 días), no desde el 7-oct. Antes van 4 shorts
+de OpenSpec/IA (12 → 18-oct). Así queda más hueco con el 024 que el plan, y esa ventana es
+la que hay que leer. Fuente: `raw/blackicelabs/absadev-youtube-api-2026-10-07.md`.
 
 ## Paquete de publicación de los 7 clips (2026-09-28)
 

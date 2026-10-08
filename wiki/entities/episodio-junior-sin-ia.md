@@ -9,6 +9,10 @@ sources:
     fact_date: 2026-08-20     # "fecha de registro" que trae el propio guion
     ingest_date: 2026-10-06
     confidence: high          # guion propio; ver la advertencia del bloque 5
+  - path: raw/blackicelabs/absadev-youtube-api-2026-10-07.md
+    fact_date: 2026-10-04
+    ingest_date: 2026-10-07
+    confidence: high          # resultado de los clips del 024, base del ajuste de plan
   - path: raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv
     fact_date: 2026-10-07     # transcript 9x16 del episodio ya grabado (11:44)
     ingest_date: 2026-10-07
@@ -194,6 +198,79 @@ trae el maratón (8-nov) y la boda (28-nov) ([[objetivos-vida-2026-2027]]), así
 **dejar el lote programado** antes de noviembre. Si se quiere sacar uno
 pegado al estreno del episodio largo, que sea el **1** (gancho) o el **7** (cierre), y
 contarlo como parte del lote del 026 para efectos de la cadencia.
+
+### Ajuste del plan tras leer el 024 (2026-10-07, mismo día)
+
+Los 6 clips asentados del [[episodio-024-carrera-de-la-rata]] hicieron **3,166 vistas y 0
+suscriptores en YouTube**, y en el mismo periodo los episodios largos convirtieron ~3–5 por
+cada 1,000 vistas ([[absadev]]). Con eso:
+
+- **YouTube Shorts:** subir solo el **1** (hermanos) y el **5** (regresar al papel). Son los
+  dos de identidad y sirven para probar si ese registro cambia el 0 del 024. Lo que se haga
+  en YouTube para este episodio va al **título y la miniatura del episodio largo**, que es
+  el formato que sí convierte.
+- **TikTok e Instagram:** los 7, mientras no haya datos por clip de allá.
+- **Fechas:** el 026 ocupa YouTube del 20-oct al 1-nov ([[episodio-026-flujo-freelance-claude]]),
+  así que este lote sigue yendo desde ~2-nov.
+- ⚠️ **Lo que puede invalidar este ajuste:** la preferencia por identidad viene en parte de
+  la lectura de TikTok del 9-sep, que pudo estar inflada por promoción pagada (ver
+  [[absadev]]). Si se confirma que sí, elegir el 1 y el 5 deja de tener respaldo y habría que
+  probar 1 de identidad contra 1 de argumento (el 7).
+- ✅ **Se confirmó el mismo día** que los 2 TikToks de la lectura del 9-sep eran pagados
+  ([[absadev]]). Se aplica la salida prevista: **en YouTube Shorts van el 1 (identidad) y el 7
+  (argumento)**, uno contra otro, en lugar del 1 y el 5. El 5 pasa a TikTok/Instagram con los demás.
+
+## Títulos y clips finales tras la lectura de stats (2026-10-07)
+
+**De dónde salen los cambios:** en el mes, los episodios largos convirtieron ~3–5 suscriptores por
+cada 1,000 vistas y los clips de podcast 0 ([[absadev]]). El canal vive de Búsqueda (33.4%). Por eso
+el título del episodio largo es la palanca más barata: **búsqueda primero, show al final**, sin
+número en YouTube (el número va en Spotify, por la doctrina de dos títulos de
+[[estrategia-contenido-absadev]]).
+
+### Títulos
+
+| | Título | Nota |
+|---|---|---|
+| **YouTube ⭐** | ¿Un programador junior todavía necesita aprender a programar sin IA? \| Black Ice Labs | la frase que la gente busca, en forma de pregunta |
+| YouTube B | ¿La IA va a reemplazar a los programadores junior? Por qué no creo en el 50% | más polémica, otra búsqueda |
+| YouTube C | Aprender a programar con IA siendo junior: lo que nadie te dice | más "tutorial", menos opinión |
+| **Spotify** | 027. Un junior no necesita aprender a programar sin IA… o eso dicen | conversacional y numerado |
+
+### Descripción: lo que hay que corregir antes de publicar
+
+- Quitar la viñeta *"En pantalla: código generado por IA que… tumbó el pool de conexiones"*. No está
+  en el audio.
+- Capítulos sobre el audio real (`raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv`;
+  hay que validarlos contra el corte final):
+
+```
+00:00 ¿Contratarías a un junior hoy?
+00:48 La frase que todo el mundo repite
+01:31 Te doy la razón: la IA sí cambió la productividad
+03:48 La cifra del 50% y por qué no la repito
+04:22 El problema del pavo
+05:28 Las empresas empiezan a recortar tokens
+07:24 Producir no es comprender
+09:28 Tienes que leer lo que genera la IA
+10:11 La IA es una calculadora
+10:52 ¿Le confiarías tu servidor a las 3 a.m.?
+```
+
+### Los 2 clips que salen (calendario de noviembre en [[estrategia-contenido-absadev]])
+
+Van a las 3 redes y cada uno liga **el episodio completo** como video relacionado en YouTube.
+
+| Clip | Fecha | Corte | Título del Short | Caption (TikTok / IG) | Pregunta fijada |
+|---|---|---|---|---|---|
+| **#1 (I)** | 4-nov | 00:00:00:00 → ~00:00:36 | ¿Contratarías a un programador junior hoy? | Cada vez veo menos vacantes para juniors. Y mis hermanos quieren entrar a este campo. ¿Dónde van a quedar? 👇 | *"¿Tu empresa sigue contratando juniors? Sí / No / Ya no."* |
+| **#7 (argumento)** | 18-nov | 00:10:11:01 → 00:11:18:06 | La IA es una calculadora (y eso es un problema) | No digo que apagues Copilot. Digo que si no sabes sumar, la calculadora solo te ayuda a equivocarte más rápido. 👇 | *"3 a.m., la base de datos en deadlock: ¿le das el servidor a alguien que nunca debuggeó sin IA?"* |
+
+**Subtítulos:** corregir *Black Islands* → Black Ice Labs, *"entra en un club"* → deadlock,
+*"un ella"* → una IA, *"dibujar una línea de código"* → debuggear (a oído). Tabla completa arriba.
+
+Los otros 5 clips quedan como **reserva**. Noviembre no tiene espacio para ellos sin rebasar las 3
+publicaciones por semana.
 
 ## Related
 

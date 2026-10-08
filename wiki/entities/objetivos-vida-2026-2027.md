@@ -3,7 +3,7 @@ title: Objetivos de vida 2026-2027
 type: entity
 domain: [finance, fitness, blackicelabs, swe, fitexe, books, reflections]
 created: 2026-08-25
-updated: 2026-09-08
+updated: 2026-10-07
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
@@ -44,7 +44,7 @@ Mirarlos juntos es exactamente lo que produce los hallazgos de abajo.
 | 5 | Senior en Slalom | dic-2026 | ❌ ninguno | ver [[slalom]] |
 | 6 | Terminar libros empezados | — | ⚠️ 30+ páginas de libros, ninguna dice "en curso" | sin lista |
 | 7 | 8K subs YouTube (→10K) | — | ✅ [[absadev]] | 🔴 la serie va **a la baja** |
-| 8 | 5K seguidores TikTok (→10K) | — | ✅ [[absadev]] | 🟡 alcanzable ≈ may-2027 al ritmo actual |
+| 8 | 5K seguidores TikTok (→10K) | — | ✅ [[absadev]] | 🟡 alcanzable ≈ may-2027 al ritmo actual · **2026-10-07: cruzado (5,197), pero ~600 de los +662 fueron pagados (~1,200 MXN); el orgánico va a ~1 por día** |
 | 9 | 1,000 MXN/mes de YouTube (→ primero 200) | — | ⚠️ parcial | monetización sin confirmar |
 | 10 | Viajar a Japón con su esposa | — | ❌ ninguno | sin cifra |
 | 11 | Invertir 1,000 USD en bolsa de EE.UU. | — | ✅ declara **192 USD** | faltan 808 USD |
@@ -421,3 +421,12 @@ metas sigue sin una línea propia para Facebook.
    expediente; hoy no tiene página propia por eso.
 7. **¿Cuánto es la renta y desde cuándo?** El objetivo 16 fija 13,000 MXN/mes,
    pero no la fecha en que empieza a correr.
+
+## [2026-10-07] Noviembre según el usuario: "solo tengo boda"
+
+Al planear el contenido de noviembre, el usuario dijo *"en noviembre solo tengo boda"*
+(`raw/blackicelabs/absadev-tiktok-promocion-y-seguidores-2026-10-07.md`). El maratón del
+8-nov, que este expediente tenía como **no decidido**, no aparece en esa frase. ⚠️ **No dijo
+explícitamente que no lo corre**, así que la decisión sigue sin registrarse. Queda anotada
+la frase como la primera señal, con fecha, y la colisión maratón/boda de arriba se conserva
+como se escribió.

@@ -3038,3 +3038,60 @@ Fuente nueva `raw/blackicelabs/episodio-028-patrones-agenticos-clips-9x16-2026-1
 En [[episodio-028-patrones-agenticos]]: duración real de 17:30, el punto 4 (multiagente) no se grabó, por lo que la
 descripción del 06-oct queda desfasada (se proponen capítulos nuevos), y una tabla de 7 clips con suplentes y descartados.
 Anotado que ya hay tres lotes de clips en cola (026, 028 y junior). Índice actualizado.
+
+## [2026-10-07] ingest | Snapshot YouTube API + export TikTok 60 días; resultado de los clips del 024 — blackicelabs
+Fuentes nuevas: `raw/blackicelabs/absadev-youtube-api-2026-10-07.md` (sacada con los
+módulos del skill youtube-analytics; `yt_report.py` truena con `KeyError: 'duration'`) y
+`raw/blackicelabs/absadev-tiktok-2026-10-07/`. Snapshot nuevo en [[absadev]]. Resultado en
+[[episodio-024-carrera-de-la-rata]]: 0 subs en 3,166 vistas de YouTube. Fechas reales de
+los clips del 026 en [[episodio-026-flujo-freelance-claude]]. Plan de clips ajustado en
+[[episodio-junior-sin-ia]].
+El usuario dice que pagó promoción por seguidores en 2 TikToks, sin decir cuáles. Se añadió
+una nota de corrección junto a la lectura del 2026-09-09 en [[absadev]] y en
+[[estrategia-contenido-absadev]], sin borrar lo original. Pendiente: confirmar cuáles fueron.
+
+## [2026-10-07] ingest | Reporte de YouTube corregido: la racha real es 33 videos en 28 días — blackicelabs
+Se corrigieron dos bugs de `yt_report.py` (repo `wa-agent`): el `KeyError` con videos sin
+duración, y la racha, que contaba los privados programados y cortaba en 25 uploads. La salida
+corregida está en `raw/blackicelabs/absadev-yt-report-2026-10-07.txt`: **33 públicos en 28
+días (~8.3/semana)**, 2.4 veces el techo de la condición de refutación del 19-ago, durante
+toda la ventana. Anotado en el snapshot del 2026-10-07 de [[absadev]].
+
+## [2026-10-07] ingest | Promoción de TikTok, seguidores y primera línea base de Instagram — blackicelabs
+Fuentes nuevas: `raw/blackicelabs/absadev-tiktok-promocion-y-seguidores-2026-10-07.md` (dicho
+por el usuario) y `raw/blackicelabs/absadev-instagram-insights-2026-10-07.md`. En [[absadev]]:
+TikTok en 5,197, pero ~600 de los +662 en 60 días fueron pagados (~1,200 MXN), así que el
+orgánico va a ~1 por día. Esto explica el "+2407%" del 9-sep. Instagram tiene por fin línea
+base (1,936 seguidores). En [[objetivos-vida-2026-2027]]: el 5K se cruzó con pago, y el usuario
+dice que en noviembre "solo tiene boda" (el maratón queda sin confirmar).
+
+## [2026-10-07] ingest | Los 2 TikToks promocionados, confirmados — blackicelabs
+Fuente: `raw/blackicelabs/absadev-tiktok-videos-promocionados-2026-10-07.md`. Fueron "¿Qué
+habilidades…?" y "Acepté el trabajo que no quería", los dos en los que se apoyaba la lectura
+del 2026-09-09. Las notas de corrección en [[absadev]] y [[estrategia-contenido-absadev]]
+pasan de pendientes a confirmadas, sin borrar lo original. *Identidad > utilidad* vuelve a
+ser hipótesis abierta. En [[episodio-junior-sin-ia]], los clips para YouTube pasan del 1+5
+al 1 (identidad) vs 7 (argumento).
+
+## [2026-10-07] query | Serie de noviembre "FitExe con IA" + calendario — blackicelabs, fitexe
+Partiendo del TikTok de OpenSpec (el mejor resultado orgánico: 0.37% de comentarios), se diseñó en
+[[estrategia-contenido-absadev]] una serie de 8 shorts (Serie 7 aplicada a FitExe, 4 de identidad y 4
+de utilidad) y el calendario del 2 al 27-nov con 4 clips de podcast: 12 shorts, 3 por semana. Al
+revisar el repo apareció que el ciclo completo de OpenSpec ya existía (archive del 03-sep); se anotó
+en [[fitexe]] junto a lo que la página daba como pendiente. El episodio 7 depende del OK de Emilio.
+
+## [2026-10-07] query | Serie "FitExe con IA": cambia el episodio 7 — blackicelabs, fitexe
+El usuario avisó que *"Tenemos un gimnasio pagándonos"* ya está publicado (YouTube, 11-ago). En
+[[estrategia-contenido-absadev]] se reemplazó por *"Así se ve de verdad construir una app con trabajo
+de tiempo completo"*, sacado del `git log` de `app_fitexe`: 127 commits en 14 meses, meses de 1 a 25,
+y el 52% de noche. Se anotó qué no puede afirmar el guion: que son commits, no horas, y que no hay
+causalidad con la IA.
+
+## [2026-10-07] create | Serie FitExe con IA (8 guiones) + pool de comparaciones + clips y títulos del 027/028 — blackicelabs, fitexe, swe
+Página nueva [[serie-fitexe-con-ia]] con los 8 guiones en formato de beats, cada uno sobre un
+artefacto real de `app_fitexe` o `fitexe-contracts`; marca con [RELLENAR] lo que no tiene fuente. En
+[[estrategia-contenido-absadev]], un pool de 6 comparaciones móviles para el podcast en la línea de
+Flutter vs RN (la A queda para diciembre). En [[episodio-junior-sin-ia]] y
+[[episodio-028-patrones-agenticos]]: títulos de YouTube con la búsqueda primero (por la lectura de
+stats del mismo día), los capítulos reales del 027, y los 2 clips de cada uno con título, caption y
+pregunta.

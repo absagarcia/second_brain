@@ -1,0 +1,80 @@
+*REPORTE — Absalon Garcia*
+Ventana: 2026-09-07 a 2026-10-04 (28 dias)
+Comparada contra: 2026-08-10 a 2026-09-06 (28 dias)
+Cierra 3 dias antes de hoy: las cifras mas recientes aun se revisan.
+
+*1. La racha — que se publico* (§5.1, la palanca #1)
+*33 videos publicados* en 28 dias.
+  · 2026-09-07 — Acepté un trabajo de programador que no quería
+  · 2026-09-07 — Probe open spec en un side project
+  · 2026-09-08 — Automaticé todo el RSVP de mi boda con IA (y no sé
+  · 2026-09-08 — El que no mira el reloj al programar, no mira la f
+  · 2026-09-09 — Programar y entrenar para un medio maratón al mism
+  · 2026-09-09 — Bienvenido John Ternus
+  · 2026-09-09 — iPhone 18 pro, mis primeras impresiones
+  · 2026-09-09 — Apple Watch Ultra 4 y series 12, mis primeras impr
+  · 2026-09-09 — iPhone Duo, MIs primeras impresiones
+  · 2026-09-10 — ¿Todavía vale la pena leer código en la era de la 
+Programados (aun privados, no cuentan): 11, del 2026-10-12 al 2026-11-01.
+
+*2. Meta: 10.000 subs* (el marcador, no el premio — §3)
+Subs actuales: 7.880 — faltan 2.120
+En el periodo: +34 / -12 = *+22 neto*
+*A este ritmo: ~7 anos.* No es pronostico — es el argumento de que esto pide un cambio de escalon, no optimizacion.
+
+*SPV: 1.25 subs netos por cada 1.000 vistas*
+Referencias del propio canal (§6) — el mas cercano es *Absadev 2026-07-28*:
+  · Absadev 2026-07-16: 1.78
+  · Absadev 2026-07-28: 1.67  <-- aqui
+  · absa.garcia 28d a 2026-07-21: 0.11
+Vistas necesarias para 10k a esta conversion: ~1.698.023
+
+*3. El embudo AARRR* (§4 — el diagnostico ya hecho)
+Acquisition — vistas: 17.621 (+204% vs. periodo anterior)
+*Activation — comentarios: 10* (-17% vs. periodo anterior)  ← la fuga diagnosticada, y lo unico que el se controla (§5.2)
+Retention — subs netos: +22  ← el muro (§4)
+Referral — shares: 18
+Likes: 193
+
+Minutos vistos: 6.751 · duracion media 0m 59s (25.4% del video)
+
+*4. De donde vienen las vistas*
+*Sugeridos: 0.0%* — si sube, el algoritmo te distribuye (§5.4)
+*Browse: 1.2%* (-30% vs. periodo anterior)
+Sugeridos + Browse combinado: 10.9% (-33% vs. periodo anterior)
+*Busqueda: 17.4%* — el unico trafico que se acumula (§5.5)
+  · Feed de Shorts: 11.574 (66%)
+  · Busqueda YouTube: 3.063 (17%)
+  · Feed / Suscripciones: 1.719 (10%)
+  · RELATED_VIDEO: 272 (2%)
+  · Pagina del canal: 204 (1%)
+  · Directo / desconocido: 193 (1%)
+
+*5. Nuevos vs recurrentes*
+  · No suscritos: 16.036 (91%)
+  · Suscritos: 1.563 (9%)
+
+*6. Videos comparados a la misma edad* (§7)
+Primeros 14 dias de cada uno, por SPV. Comparar vistas de por vida seria ordenar por fecha de publicacion disfrazado.
+  · ¿Qué habilidades están pidiendo más las empre — 58 vistas, 17.24 SPV, 0 coment.
+  · Probe open spec en un side project — 113 vistas, 8.85 SPV, 0 coment.
+  · Apple Watch Ultra 4 y series 12, mis primeras — 172 vistas, 5.81 SPV, 0 coment.
+  · La carrera de la rata del programador moderno — 652 vistas, 3.07 SPV, 0 coment.
+  · El que no mira el reloj al programar, no mira — 1.049 vistas, 1.91 SPV, 0 coment.
+  · No soportarías — 1.142 vistas, 0.88 SPV, 0 coment.
+  · Antes de validar tu idea con IA, valídala con — 225 vistas, 0.00 SPV, 0 coment.
+  · De paso te casas con el — 62 vistas, 0.00 SPV, 0 coment.
+
+Aun no juzgables (12), ventana incompleta:
+  · Patrones agénticos: lo que pasa debajo cuando — evaluable el 2026-10-23
+  · Un junior no necesita aprender a programar si — evaluable el 2026-10-23
+  · Tu próximo aumento de sueldo no te va a sacar — evaluable el 2026-10-22
+  · LinkedIn no te va a hacer sentir mejor con tu — evaluable el 2026-10-20
+
+*6. Empaquetado — impresiones y CTR* (§5.8)
+No disponible.
+
+*NO DISPONIBLE* — huecos en el argumento, no valores neutros
+  · impresiones y CTR no los expone la API de Analytics. Leelos a mano en YouTube Studio -> Contenido -> [video] -> Alcance. Sin ellos la pregunta de empaquetado queda SIN RESPONDER, no resuelta.
+
+_Todo lo anterior es capa HECHO. El diagnostico, que serie alimentar (§9) y el write-back al second brain (§10) se escriben aparte. Antes de recomendar: contrastalo con lo que el ha dicho que quiere hacer (§7)._

@@ -433,6 +433,41 @@ después, al mismo ritmo cubre del **~3-nov al ~24-nov**. Además ya está en `r
 calendario. Al ritmo de 2 por semana, meter dos a la vez rebasa el techo de 3.5 shorts por semana
 anotado en [[estrategia-contenido-absadev]], y además no se podría saber qué lote funcionó.
 
+## Títulos y clips finales tras la lectura de stats (2026-10-07)
+
+**De dónde salen los cambios:** lo mismo que en el [[episodio-junior-sin-ia]]. El largo convierte y
+los clips sueltos no ([[absadev]]). Además, en el catálogo los videos con **Flutter + Claude** en el
+título siguen trayendo suscriptores meses después (*"Flutter + Claude: Mi Flujo de Trabajo…"*, +1 en
+el periodo). El título anterior (*"Patrones agénticos: lo que pasa debajo…"*) no tiene nada que
+alguien busque.
+
+### Títulos
+
+| | Título | Nota |
+|---|---|---|
+| **YouTube ⭐** | Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec \| Black Ice Labs | tres búsquedas reales + la tecnología que ya convierte en el canal |
+| YouTube B | Patrones de agentes de IA explicados con una app en producción | más genérico, más búsqueda de concepto |
+| YouTube C | Cómo trabajar con agentes de IA sin romper producción (Flutter + Claude) | ángulo de miedo/riesgo |
+| **Spotify** | 028. Patrones agénticos: lo que hay debajo de Claude | se queda igual |
+
+⚠️ La descripción y los capítulos del 06-oct todavía prometen *multiagente y Circuit Breaker*, que no
+se grabaron. Usar los capítulos sobre el audio real de la sección "Grabado" de arriba.
+
+### Los 2 clips que salen (calendario de noviembre en [[estrategia-contenido-absadev]])
+
+Se eligieron el 3 y el 5 porque se entienden sin el episodio y **no repiten historias** de
+[[serie-fitexe-con-ia]] ni del short del 15-oct (*"Claude corrigió mi arquitectura"*, que es la del
+clip 1).
+
+| Clip | Fecha | Corte | Título del Short | Caption (TikTok / IG) | Pregunta fijada |
+|---|---|---|---|---|---|
+| **#3 (U)** | 11-nov | 00:04:39:04 → ~00:05:22 | Plan and Execute: no dejes que la IA improvise tu código | No vas inventando las columnas mientras corre la migración. Con la IA, igual: primero el plan, luego el código. 👇 | *"¿Dejas que la IA improvise o la obligas a planear? Una palabra."* |
+| **#5 (U/I)** | 25-nov | ~00:09:14 → 00:10:01:13 | ¿Quién revisa el código que escribe tu IA? | Un Approval Gate es un PR protegido. Y yo tengo un agente que es la versión más culera de mí revisando al otro. 👇 | *"¿Quién revisa el código de tu IA: tú, otro agente o nadie?"* |
+
+**Subtítulos:** *"Cloud"* → Claude, *"FedEx"* → FitExe.
+
+Los otros 5 clips quedan como **reserva**.
+
 ## Related
 
 - [[patrones-diseno-agenticos]] — la taxonomía en la que se basa el guion
