@@ -133,3 +133,4 @@ campo se mueve rápido y en un año pueden existir nombres nuevos para lo mismo.
   entender vs. especificar antes de generar) que motivó esta taxonomía
 - [[estrategia-contenido-absadev]] — el batch de shorts y el podcast que usan
   esta página como guion
+- [[episodio-028-patrones-agenticos]] — el guion de podcast escrito sobre esta taxonomía (2026-10-05)

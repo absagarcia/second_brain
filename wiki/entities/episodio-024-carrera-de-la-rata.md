@@ -3,7 +3,7 @@ title: "Episodio 024 — La carrera de la rata del programador moderno"
 type: entity
 domain: [blackicelabs]
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-10-15
 sources:
   - path: raw/blackicelabs/episodio-024-carrera-de-la-rata-transcript-2026-09-04.md
     fact_date: 2026-09-04
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-09-04
     ingest_date: 2026-09-07
     confidence: high
+  - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (Ask Studio: Shorts 15-sep → 12-oct con % eligió verlo, + largos de 90 días con impresiones/CTR)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
 ---
 
 # Episodio 024 — La carrera de la rata del programador moderno
@@ -141,6 +145,63 @@ cadencia** — exactamente lo que la condición de refutación estaba diseñada
 para detectar. Vale la pena registrar el pico de TikTok en fechas específicas
 para poder separar después "estos clips no funcionan" de "se saturó el
 canal".
+
+## Resultado de los 7 clips (lectura del 2026-10-07)
+
+Fuentes: `raw/blackicelabs/absadev-youtube-api-2026-10-07.md` (asentado al 04-oct) y
+`raw/blackicelabs/absadev-tiktok-2026-10-07/`. ⚠️ Cifras de **vida corta**.
+
+**YouTube Shorts: 6 asentados, 3,166 vistas, 0 suscriptores, 1 comentario.**
+
+| Clip | Vistas | Subs | Com. |
+|---|---:|---:|---:|
+| Subí de sueldo y seguí igual (24-sep) | 386 | 0 | 0 |
+| ¿Aguantas un layoff? (27-sep) | 61* | 0 | 0 |
+| Cuánto gastas comiendo en la oficina (28-sep) | 802 | 0 | 1 |
+| Cuántos "lujos" (30-sep) | 479 | 0 | 0 |
+| Oxxo (02-oct) | 918 | 0 | 0 |
+| LinkedIn (04-oct) | 520 | 0 | 0 |
+| Tu próximo aumento (06-oct) | sin asentar | — | — |
+
+\* 1,021 de por vida al 07-oct: el pico llegó después del corte.
+
+Más del 90% de las vistas viene del feed de Shorts: la plataforma sí los repartió. En
+la misma ventana, el episodio largo hizo +3/−1 con 716 vistas.
+
+**TikTok:** solo "Me cambié de trabajo, subí de sueldo…" aparece en el export: 1,654 vistas,
+**0 comentarios**, 7 shares. El objetivo de este lote era *controversia + comentarios*, y en
+TikTok sacó 0 comentarios en el único clip visible. El canal entero cayó a 5 comentarios en 12
+días durante la ventana (24-sep → 05-oct), lo más bajo de los 60 días.
+
+**Lectura:** la condición de refutación de arriba se cumplió (≈3.8 shorts/semana) y la lectura
+salió débil, tal como se había previsto. En TikTok no se puede separar *"estos clips no
+funcionan"* de *"se saturó el canal"*. En YouTube sí hay una pista: los shorts que no son
+clips, en la misma ventana, convirtieron ~1 sub por cada 1,000 vistas, y estos 0. Con n=6
+y un solo estilo de corte, aplica a clips de confesión de este episodio, no a todo clip.
+Detalle en [[absadev]].
+
+### Actualización 2026-10-15: los 7 clips asentados, más el "% eligió verlo"
+
+Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`. ⚠️ Cifras de **vida corta**.
+
+| Clip | % eligió verlo | Vistas | Subs |
+|---|---:|---:|---:|
+| ¿Aguantas un layoff? | 30.8% | 1,021 | 0 |
+| Oxxo | 27.3% | 927 | 0 |
+| Cuánto gastas comiendo en la oficina | 53.5% | 805 | 0 |
+| LinkedIn | 27.5% | 716 | 0 |
+| Cuántos "lujos" | 29.2% | 482 | 0 |
+| Tu próximo aumento | 22.7% | 450 | 0 |
+| Subí de sueldo y seguí igual | 43.9% | 387 | 0 |
+
+- **Los 7 clips: 4,788 vistas y 0 subs.** La mediana de "eligió verlo" es 29%, contra 52% en los shorts
+  grabados a propósito de la misma ventana.
+- El único clip que retiene como un short normal es **el de la aritmética de la comida** (53.5%). Es el
+  único que abre con una cuenta concreta en vez de una confesión, y aun así hizo 0 subs.
+- **El episodio largo** suma +3 con 748 vistas (CTR 2.83%): es **el que más suscriptores dio** entre los
+  4 largos de 90 días.
+- La lectura del 07-oct se mantiene y se refuerza con n=7. Ver [[absadev]] y
+  [[estrategia-contenido-absadev]], sexta lectura.
 
 ## Related
 

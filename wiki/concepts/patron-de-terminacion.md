@@ -3,7 +3,7 @@ title: "Empiezo muchas y termino pocas" — el patrón real, según sus propios 
 type: concept
 domain: [reflections, blackicelabs, fitness, swe, books]
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-10-11
 sources:
   - path: raw/reflections/patron-terminacion-2026-08-26.md
     fact_date: 2026-08-26
@@ -185,6 +185,13 @@ hito con número (5 clientes, no 13,000).
 **Objetivo 13 (Absa con Café): no ahora.** Es el segundo podcast sobre las
 mismas 4-6 h/semana. Volverá cuando el 14 lleve tres meses cumpliéndose.
 
+> **[2026-10-05] El usuario lo adelanta.** Decide regresar Absa con Café
+> con primer episodio el ~19-oct, solo y con mínimo uno al mes, antes de que
+> se cumpla la condición de arriba. La propuesta del 25-ago queda como lo que
+> se pensaba entonces. La regla de esta página se aplicó al regreso: ya hay
+> fecha fija y cadencia declarada, y falta el testigo. Ver
+> [[absa-con-cafe-005-regreso]].
+
 ## Lo que se puede hacer esta semana, sin quitar tiempo a nada
 
 1. **Decirle a alguien en Slalom que va por Senior.** Convierte el objetivo 5 en
@@ -205,6 +212,8 @@ mismas 4-6 h/semana. Volverá cuando el 14 lleve tres meses cumpliéndose.
   prueba más limpia de que el motor no son las ganas.
 
 ## Related
+
+- [[app-notch-macos]] — **2026-10-11:** nuevo objetivo sin estructura candidato (app de notch en Swift); la regla aplica antes de arrancarlo
 
 - [[objetivos-vida-2026-2027]] — los 17 objetivos que esta página reordena
 - [[systems-over-willpower]] — los seis libros que ya decían esto

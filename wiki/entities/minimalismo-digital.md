@@ -3,7 +3,7 @@ title: Minimalismo digital (Digital Minimalism)
 type: entity
 domain: [books, reflections]
 created: 2026-07-23
-updated: 2026-09-08
+updated: 2026-10-11
 # blackicelabs dropped 2026-07-23 lint: thin "creator publishes on these platforms"
 # tie; the light cross-link to the creator pages stays, the domain tag does not
 sources:
@@ -71,3 +71,7 @@ accounting: "el coste de algo es la cantidad de vida que debo entregar a cambio.
   como fuente para contenido — journal personal describiendo scroll compulsivo
   al despertar y contemplando borrar redes del iPhone. Sin decluttering
   ejecutado todavía. Ver [[absa-garcia]].
+- **2026-10-11:** las dos referencias de [[app-notch-macos]] (Umbral, MiniTools)
+  venden lo mismo que el libro en versión producto: mirar lo justo sin abrir la
+  app que te jala. Tensión anotada ahí: una isla con avisos puede ser otra fuente
+  de interrupciones.

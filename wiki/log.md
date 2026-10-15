@@ -2965,3 +2965,175 @@ transcript 9x16, pregunta de comentarios, descartes y motivo. Marcado
 como riesgo el tramo del PowerPoint (crítica a un cliente del trabajo de
 planta), y se propone no publicar antes del 7-oct para no traslapar el
 lote del 024.
+
+## [2026-09-28] query | Captions, títulos y tags de los 7 clips del 026 — blackicelabs
+Añadidos a [[episodio-026-flujo-freelance-claude]]: título de Short,
+caption con CTA de comentario y línea fija de redirección al episodio
+completo (YouTube "Video relacionado" + link en perfil), tags base y
+por clip. Registradas las tres metas del usuario (top 10 MX, 10k subs,
+monetización) con lo que el expediente sabe de cada una: sin criterio
+medible, Shorts→largo es la conversión más débil medida, cero datos de
+monetización.
+
+## [2026-09-28] query | Captions por plataforma de los 7 clips del 026 — blackicelabs
+21 captions (YouTube Shorts, TikTok, Instagram) añadidos a
+[[episodio-026-flujo-freelance-claude]]. YouTube apunta al Video
+relacionado y al comentario fijado con Spotify; TikTok e Instagram a
+"link en perfil/bio". Instagram lleva además un CTA de guardar/compartir.
+
+## [2026-09-28] query | Miniaturas verticales de los 7 clips del 026 — blackicelabs
+14 PNG 1080×1920 (7 con fondo + 7 transparentes para montar sobre un
+frame del video) generados con HTML + Chrome headless, guardados fuera
+del repo en ~/Downloads/black-ice-labs-026-miniaturas/. Tabla de textos
+y nota de "paleta no oficial" añadidas a
+[[episodio-026-flujo-freelance-claude]].
+
+## [2026-10-05] create | Episodio 028 — Patrones agénticos (guion) — blackicelabs
+Guion nuevo en [[episodio-028-patrones-agenticos]] (solo, 12-15 min,
+tema y duración elegidos por el usuario). Es la pieza de podcast del batch del
+09-sep, reescrita sobre [[patrones-diseno-agenticos]] y [[fitexe]]; se
+diferencia del 026 (flujo vs. mecanismo). Enlace añadido desde la página de
+patrones. Huecos `[RELLENAR]` para que el usuario complete con datos reales.
+
+## [2026-10-05] ingest | Absa con Café — lista de episodios — blackicelabs
+Fuente nueva `raw/blackicelabs/absa-con-cafe-episodios-2026-10-05.md` (dashboard
+pegado por el usuario). Añadida la tabla de 4 episodios y su lectura (cadencia de
+~3 meses y luego un hueco de 403 días, 295 días dormido, el 001 con el 42% de los plays) a la sección
+de *Absa con Café* en [[absa-garcia]]. Índice actualizado. No contradice nada previo.
+
+## [2026-10-05] create | Absa con Café regresa + guion del 005 — blackicelabs
+El usuario decide regresar el show: primer episodio en 2 semanas (~19-oct),
+solo, mínimo 1/mes. Revierte el "no ahora" del 25-ago; queda anotado con fecha
+en [[absa-garcia]], [[patron-de-terminacion]] y [[objetivos-vida-2026-2027]], sin
+borrar la decisión anterior. Guion nuevo en [[absa-con-cafe-005-regreso]]
+(continuación del 004, materia prima del journal del 08-sep, huecos `[RELLENAR]`).
+
+## [2026-10-06] query | Descripción y tags del episodio 028 — blackicelabs
+Paquete de publicación (descripción para YouTube y Spotify y 28 tags que suman 473 caracteres)
+añadido a [[episodio-028-patrones-agenticos]] sobre el run of show final.
+Registradas las dos respuestas que el guion final da a los `[RELLENAR]` (la pregunta
+de cancelación/lista de espera, y que migraciones y pagos van con aprobación).
+Capítulos pendientes de ajustar al corte real.
+
+## [2026-10-06] create | Episodio "junior sin IA": guion y paquete de publicación — blackicelabs
+Página nueva [[episodio-junior-sin-ia]] (candidato D del pool de
+[[estrategia-contenido-absadev]]) con descripción para YouTube y Spotify y 22 tags que suman 461 caracteres.
+Anotados: el número 028 choca con [[episodio-028-patrones-agenticos]]; el incidente
+del bloque 5 no tiene fuente en el wiki; la cifra del "5x más rápido" va contra la tesis del episodio.
+
+## [2026-10-06] query | Absa con Café 005 grabado + paquete de publicación — blackicelabs
+El usuario grabó el 005, 13 días antes del objetivo del 19-oct. Se añadieron a
+[[absa-con-cafe-005-regreso]] los títulos (3 para YouTube, 2 para Spotify), las dos descripciones y 22 tags (395
+caracteres). Sin transcript, el paquete se limita a lo que casi seguro se dijo y no lleva capítulos.
+
+## [2026-10-07] ingest | Episodio 027 "junior sin IA": transcript 9x16 y 7 clips — blackicelabs
+Fuente nueva `raw/blackicelabs/episodio-027-junior-sin-ia-clips-9x16-2026-10-07.csv`.
+Añadidos a [[episodio-junior-sin-ia]] los 7 clips, con el criterio del 026 (aprendido o
+polémica), sus timestamps, la pregunta para comentarios, las correcciones de subtítulos y
+los descartes. Anotado que salió como 027, que el incidente del pool no se grabó y la descripción
+aún lo promete, y que el lote va después del lote del 026.
+
+## [2026-10-07] ingest | Episodio 028 — transcript 9x16 y 7 clips — blackicelabs
+Fuente nueva `raw/blackicelabs/episodio-028-patrones-agenticos-clips-9x16-2026-10-07.csv`.
+En [[episodio-028-patrones-agenticos]]: duración real de 17:30, el punto 4 (multiagente) no se grabó, por lo que la
+descripción del 06-oct queda desfasada (se proponen capítulos nuevos), y una tabla de 7 clips con suplentes y descartados.
+Anotado que ya hay tres lotes de clips en cola (026, 028 y junior). Índice actualizado.
+
+## [2026-10-07] ingest | Snapshot YouTube API + export TikTok 60 días; resultado de los clips del 024 — blackicelabs
+Fuentes nuevas: `raw/blackicelabs/absadev-youtube-api-2026-10-07.md` (sacada con los
+módulos del skill youtube-analytics; `yt_report.py` truena con `KeyError: 'duration'`) y
+`raw/blackicelabs/absadev-tiktok-2026-10-07/`. Snapshot nuevo en [[absadev]]. Resultado en
+[[episodio-024-carrera-de-la-rata]]: 0 subs en 3,166 vistas de YouTube. Fechas reales de
+los clips del 026 en [[episodio-026-flujo-freelance-claude]]. Plan de clips ajustado en
+[[episodio-junior-sin-ia]].
+El usuario dice que pagó promoción por seguidores en 2 TikToks, sin decir cuáles. Se añadió
+una nota de corrección junto a la lectura del 2026-09-09 en [[absadev]] y en
+[[estrategia-contenido-absadev]], sin borrar lo original. Pendiente: confirmar cuáles fueron.
+
+## [2026-10-07] ingest | Reporte de YouTube corregido: la racha real es 33 videos en 28 días — blackicelabs
+Se corrigieron dos bugs de `yt_report.py` (repo `wa-agent`): el `KeyError` con videos sin
+duración, y la racha, que contaba los privados programados y cortaba en 25 uploads. La salida
+corregida está en `raw/blackicelabs/absadev-yt-report-2026-10-07.txt`: **33 públicos en 28
+días (~8.3/semana)**, 2.4 veces el techo de la condición de refutación del 19-ago, durante
+toda la ventana. Anotado en el snapshot del 2026-10-07 de [[absadev]].
+
+## [2026-10-07] ingest | Promoción de TikTok, seguidores y primera línea base de Instagram — blackicelabs
+Fuentes nuevas: `raw/blackicelabs/absadev-tiktok-promocion-y-seguidores-2026-10-07.md` (dicho
+por el usuario) y `raw/blackicelabs/absadev-instagram-insights-2026-10-07.md`. En [[absadev]]:
+TikTok en 5,197, pero ~600 de los +662 en 60 días fueron pagados (~1,200 MXN), así que el
+orgánico va a ~1 por día. Esto explica el "+2407%" del 9-sep. Instagram tiene por fin línea
+base (1,936 seguidores). En [[objetivos-vida-2026-2027]]: el 5K se cruzó con pago, y el usuario
+dice que en noviembre "solo tiene boda" (el maratón queda sin confirmar).
+
+## [2026-10-07] ingest | Los 2 TikToks promocionados, confirmados — blackicelabs
+Fuente: `raw/blackicelabs/absadev-tiktok-videos-promocionados-2026-10-07.md`. Fueron "¿Qué
+habilidades…?" y "Acepté el trabajo que no quería", los dos en los que se apoyaba la lectura
+del 2026-09-09. Las notas de corrección en [[absadev]] y [[estrategia-contenido-absadev]]
+pasan de pendientes a confirmadas, sin borrar lo original. *Identidad > utilidad* vuelve a
+ser hipótesis abierta. En [[episodio-junior-sin-ia]], los clips para YouTube pasan del 1+5
+al 1 (identidad) vs 7 (argumento).
+
+## [2026-10-07] query | Serie de noviembre "FitExe con IA" + calendario — blackicelabs, fitexe
+Partiendo del TikTok de OpenSpec (el mejor resultado orgánico: 0.37% de comentarios), se diseñó en
+[[estrategia-contenido-absadev]] una serie de 8 shorts (Serie 7 aplicada a FitExe, 4 de identidad y 4
+de utilidad) y el calendario del 2 al 27-nov con 4 clips de podcast: 12 shorts, 3 por semana. Al
+revisar el repo apareció que el ciclo completo de OpenSpec ya existía (archive del 03-sep); se anotó
+en [[fitexe]] junto a lo que la página daba como pendiente. El episodio 7 depende del OK de Emilio.
+
+## [2026-10-07] query | Serie "FitExe con IA": cambia el episodio 7 — blackicelabs, fitexe
+El usuario avisó que *"Tenemos un gimnasio pagándonos"* ya está publicado (YouTube, 11-ago). En
+[[estrategia-contenido-absadev]] se reemplazó por *"Así se ve de verdad construir una app con trabajo
+de tiempo completo"*, sacado del `git log` de `app_fitexe`: 127 commits en 14 meses, meses de 1 a 25,
+y el 52% de noche. Se anotó qué no puede afirmar el guion: que son commits, no horas, y que no hay
+causalidad con la IA.
+
+## [2026-10-07] create | Serie FitExe con IA (8 guiones) + pool de comparaciones + clips y títulos del 027/028 — blackicelabs, fitexe, swe
+Página nueva [[serie-fitexe-con-ia]] con los 8 guiones en formato de beats, cada uno sobre un
+artefacto real de `app_fitexe` o `fitexe-contracts`; marca con [RELLENAR] lo que no tiene fuente. En
+[[estrategia-contenido-absadev]], un pool de 6 comparaciones móviles para el podcast en la línea de
+Flutter vs RN (la A queda para diciembre). En [[episodio-junior-sin-ia]] y
+[[episodio-028-patrones-agenticos]]: títulos de YouTube con la búsqueda primero (por la lectura de
+stats del mismo día), los capítulos reales del 027, y los 2 clips de cada uno con título, caption y
+pregunta.
+
+## [2026-10-07] create | Guiones de las 6 comparaciones móviles del podcast — blackicelabs, fitexe, swe
+Página nueva [[podcast-comparaciones-moviles-guiones]] con los episodios A–F (hook, intro, 5 rondas y
+cierre, formato del skill del podcast), cada ronda anclada en un artefacto de `app_fitexe` o
+`fitexe-contracts`. Lo que no tiene fuente va como ✏️ RELLENAR y los datos externos como ⚠️ VERIFICAR
+(reglas de tiendas, comisiones, SEO de Flutter web, push de Supabase, paquetes de watchOS). Enlazada
+desde el pool en [[estrategia-contenido-absadev]]. También se pasó a Apple Notes, una nota por episodio.
+
+## [2026-10-11] ingest | Idea de app de notch para Mac (Umbral + MiniTools + deseos del usuario) — swe, blackicelabs, reflections
+Fuente nueva en `raw/reflections/app-notch-idea-2026-10-11.md`. Página nueva [[app-notch-macos]]: las dos
+referencias, los 6 módulos pedidos con su viabilidad (Claude Code, reunión, ToDo y café sí; Teams parcial; iPhone no),
+MVP sugerido para diciembre. Enlazada desde [[segunda-app-candidatas]] (no cuenta como segunda app),
+[[patron-de-terminacion]] (le falta estructura) y [[minimalismo-digital]].
+
+## [2026-10-14] update | Captions por red de los 4 clips de noviembre (027 #1 y #7, 028 #3 y #5) — blackicelabs
+Sección nueva "Captions por red" en [[episodio-junior-sin-ia]] y [[episodio-028-patrones-agenticos]]: TikTok,
+Instagram (con cross-post a Facebook) y YouTube Shorts, con texto en pantalla, 2 CTA (comentario + share),
+el episodio largo como video relacionado y horarios por red (YouTube extrapolado de TikTok, sin dato propio).
+Sin fuente nueva en `raw/`: todo sale del feedback ya registrado en [[absadev]] y [[estrategia-contenido-absadev]].
+
+## [2026-10-14] update | Captions de los 5 clips de reserva del 027 (#2–#6) — blackicelabs
+Completados los 7 captions por red en [[episodio-junior-sin-ia]]. Los #2–#6 quedan sin fecha porque
+entrar en noviembre rebasa las 3/semana. El del #3 cita el 50%/90% como cifra que circula, sin afirmarla.
+
+## [2026-10-14] update | Captions de los 5 clips de reserva del 028 (#1, #2, #4, #6, #7) — blackicelabs
+Completados los 7 captions por red en [[episodio-028-patrones-agenticos]], sin fecha. Quedan marcados los
+cruces: el #1 repite la historia del reel del 04-sep y del short del 15-oct, el #4 se empalma con el
+#6 del [[episodio-junior-sin-ia]], y el #6 con el #3 de [[serie-fitexe-con-ia]] (Stripe).
+
+## [2026-10-15] ingest | YouTube Studio "Ask Studio": diagnóstico del short /compact y lectura del canal — blackicelabs
+Fuente nueva en `raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md`, con confianza baja porque es una IA de la
+plataforma y no un export. En [[episodio-028-patrones-agenticos]]: el resultado del clip #7 (~54 vistas, 65 s). El video
+publicado no respeta el corte planeado. En [[absadev]]: 7,885 subs, 889K vistas de vida y una discrepancia sobre el
+origen de los subs (Ask Studio contra la API del 07-oct). En [[estrategia-contenido-absadev]]: sus 4 pilares mapeados a
+líneas que ya existían, el CTA de subs rechazado para noviembre y una regla de corte de clips nueva.
+
+## [2026-10-15] ingest | Ask Studio: Shorts 15-sep → 12-oct y largos de 90 días — blackicelabs
+Fuente nueva en `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`, con confianza alta porque cuadra con
+la API del 07-oct. Snapshot nuevo en [[absadev]] (short 0.22 contra largo 3.7 subs por cada 1,000; CTR del largo bajo la
+línea del canal), y con eso se resuelve la discrepancia de la mañana. Sexta lectura del embudo en
+[[estrategia-contenido-absadev]]: se marca refutada la doctrina de dos títulos y corregido a medias "el podcast no es
+motor", junto a los textos originales. Los 7 clips asentados quedan en [[episodio-024-carrera-de-la-rata]].

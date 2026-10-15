@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-09-09
+updated: 2026-10-15
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -49,6 +49,42 @@ sources:
     fact_date: 2026-09-09
     ingest_date: 2026-09-09
     confidence: high   # export de primera parte, ventana exacta — el que cierra el hueco de empaquetado
+  - path: raw/blackicelabs/absadev-youtube-api-2026-10-07.md (Analytics + Data API con los módulos de `yt_analytics.py`)
+    fact_date: 2026-10-04     # último día asentado
+    ingest_date: 2026-10-07
+    confidence: high          # primera parte, por video; sin impresiones/CTR
+  - path: raw/blackicelabs/absadev-yt-report-2026-10-07.txt (salida de `yt_report.py --period month` tras corregir la racha)
+    fact_date: 2026-10-04
+    ingest_date: 2026-10-07
+    confidence: high
+  - path: raw/blackicelabs/absadev-tiktok-promocion-y-seguidores-2026-10-07.md (dicho por el usuario)
+    fact_date: 2026-10-07
+    ingest_date: 2026-10-07
+    confidence: medium        # cifras de la promoción "como 600" / "como 1,200"; sin decir qué videos
+  - path: raw/blackicelabs/absadev-tiktok-videos-promocionados-2026-10-07.md (dicho por el usuario, con links)
+    fact_date: 2026-10-07
+    ingest_date: 2026-10-07
+    confidence: high
+  - path: raw/blackicelabs/absadev-instagram-insights-2026-10-07.md (Account insights pegado)
+    fact_date: 2026-10-07
+    ingest_date: 2026-10-07
+    confidence: medium        # primera parte, pero sin ventana visible ni crecimiento de seguidores
+  - path: raw/blackicelabs/absadev-tiktok-2026-10-07/ (export de TikTok Studio, 60 días, Overview.csv + Content.csv)
+    fact_date: 2026-10-05
+    ingest_date: 2026-10-07
+    confidence: medium        # primera parte, pero sin columna de seguidores y con vistas pagadas mezcladas
+  - path: conversation (el usuario dice que pagó promoción por seguidores en 2 TikToks, 2026-10-07)
+    fact_date: 2026-10-07     # fecha de la declaración; fechas y monto de la promoción desconocidos
+    ingest_date: 2026-10-07
+    confidence: high          # declaración propia; falta saber cuáles 2 videos
+  - path: raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md (Ask Studio, la IA de YouTube Studio: diagnóstico del short /compact + lectura del canal)
+    fact_date: 2026-10-15
+    ingest_date: 2026-10-15
+    confidence: low           # interpretación generada por IA de la plataforma, sin export ni ventana; las cifras sueltas (7,885 subs, 889K vistas, ~54 vistas, 65 s) son de primera parte
+  - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (Ask Studio: Shorts 15-sep → 12-oct con % eligió verlo, + largos de 90 días con impresiones/CTR)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
 ---
 
 # Absadev
@@ -744,6 +780,28 @@ creadores como Aarón Yera, tu amiga, homosapiens" — es filler genérico de la
 plantilla del asistente, no una lectura del canal; no se adopta como
 referencia.
 
+> ⚠️ **Corrección, 2026-10-07 — esta lectura puede estar contaminada por promoción pagada.**
+> El 2026-10-07 el usuario dijo que **pagó promoción con objetivo "seguidores" en 2
+> TikToks** porque sentía que no crecía; no dijo cuáles ni cuándo. El export de 60 días
+> (`raw/blackicelabs/absadev-tiktok-2026-10-07/`) muestra los dos picos del periodo justo
+> después de publicarse los dos videos de esta tabla: **3–4 sep, 22,259 vistas** (tras
+> "¿Qué habilidades…?", 2-sep) y **7–9 sep, 17,905 vistas** (tras "Acepté el trabajo que
+> no quería", 6-sep). Entre los dos son el 43% de las vistas de los 60 días. **Si esos son
+> los dos promocionados**, la conclusión de arriba —*identidad/journey por encima de
+> utilidad*— se sacó en parte de alcance comprado, que TikTok segmenta él mismo, y deja de
+> ser evidencia limpia del registro. No se borra: lo de arriba es lo que se creía el
+> 2026-09-09 con lo que se sabía entonces. **Pendiente: que el usuario confirme cuáles
+> fueron.** Si no son estos dos, esta nota se retira.
+>
+> ✅ **Confirmado el mismo día** (`raw/blackicelabs/absadev-tiktok-videos-promocionados-2026-10-07.md`):
+> los dos promocionados son **exactamente estos dos**. Por eso:
+> - **Las dos cifras estrella de esta tabla traen alcance pagado:** la tasa de likes de 6.4% y
+>   los 24 comentarios. Ya no son evidencia limpia de que el registro de identidad funcione.
+> - **La hipótesis identidad > utilidad no muere, pero pierde sus dos datos más fuertes.**
+>   Le quedan evidencias orgánicas más chicas: "mi trabajo ideal" (1,500+ vistas orgánicas,
+>   ~12 seguidores, 08-sep) y Swift/tesis en YouTube (9.48 / 5.49 SPV). Todas con n chico.
+> - La lectura del 2026-09-09 se conserva arriba tal como se escribió.
+
 ## [2026-09-08] Dos TikToks nuevos superan la referencia de conversión — OpenSpec y "mi trabajo ideal"
 
 Reportado en conversación, **sin export de plataforma**: cifras aproximadas
@@ -844,10 +902,219 @@ se les muestran miniaturas.
 vida más larga —si el ritmo bajo y el SPV alto se sostienen en la próxima ventana— todavía no está
 confirmado con una segunda medición.
 
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (2026-10-07: YouTube 07-sep → 04-oct + TikTok 60 días)
+
+> Fuentes: `raw/blackicelabs/absadev-youtube-api-2026-10-07.md` y
+> `raw/blackicelabs/absadev-tiktok-2026-10-07/`. La pregunta del usuario era si los clips de
+> podcast mueven la meta de 10K. Los snapshots anteriores se dejan como se escribieron.
+
+### YouTube (28d, 07-sep → 04-oct, contra 10-ago → 06-sep)
+
+- **Racha:** **33 videos públicos en 28 días (~8.3/semana)**, según `yt_report.py` ya
+  corregido (`raw/blackicelabs/absadev-yt-report-2026-10-07.txt`). Es **2.4 veces el techo de
+  3.5/semana** de la condición de refutación del 19-ago, en YouTube y durante toda la ventana,
+  no solo en el lote del 024. Hay 11 programados del 12-oct al 1-nov: 4 de OpenSpec/IA y los
+  7 clips del 026 (**20-oct → 1-nov**).
+  - ⚠️ El reporte decía antes "22 publicados" porque contaba los privados programados y
+    cortaba en 25 uploads. Ese número estaba mal en las dos direcciones.
+- **Vistas 17,621 (×3 sobre 5,797)**, vuelve a la norma de 14.9–24K. Subs **+34 / −12 = +22
+  netos** (antes +8). **SPV 1.25** (antes 1.38): el volumen se triplicó y la conversión no se movió.
+- **Meta:** 7,880 subs → faltan 2,120 → a +22 por 28 días son **~7.4 años**. Sigue haciendo falta un
+  cambio de escalón; con optimizar no alcanza.
+- **Comentarios:** 10 en 28 días (antes 12). Activation sigue igual.
+- **Clips del 024: 6 asentados, 3,166 vistas, 0 suscriptores, 1 comentario.** Más del 90% de
+  sus vistas vienen del feed de Shorts: YouTube los distribuyó y nadie se suscribió. Detalle
+  en [[episodio-024-carrera-de-la-rata]].
+- **De dónde vinieron los subs:** ~17 de 34 de videos largos, buena parte catálogo viejo de
+  Flutter ("Flutter vs React Native" +5 con 684 vistas). Los episodios del podcast en largo
+  sí convierten: el 024 +3/−1 con 716 vistas, el 026 +2 con 380. Los shorts nuevos que no
+  son clips andan en ~1 sub por cada 1,000 vistas.
+- **No disponible:** impresiones/CTR (sin export de Studio), curva de retención, mezcla de
+  tráfico a nivel canal. No hay forma de ver si un short manda gente al episodio largo.
+
+### TikTok (60 días, 07-ago → 05-oct)
+
+| Tramo | Vistas/día | Visitas al perfil/día | Comentarios |
+|---|---:|---:|---:|
+| 07–20 ago | 508 | 6.3 | 15 / 14 d |
+| 03–09 sep (picos) | 5,993 | 32.0 | 62 / 7 d |
+| 10–23 sep | 1,809 | 13.4 | 28 / 14 d |
+| 24 sep–05 oct (clips del 024) | 885 | 6.9 | **5 / 12 d** |
+
+- 60 días: **98,155 vistas**, 648 visitas al perfil, 123 comentarios. El export del 10-ago
+  daba 32.3K en 60 días (×3), **pero hay promoción pagada mezclada** (ver la corrección en la
+  sección del 2026-09-09) y no se puede separar.
+- ⚠️ **El export no trae seguidores.** La meta de TikTok no se puede medir con él. El último
+  dato sigue siendo 4,535 (08-ago).
+- **Clips del 024 en TikTok:** solo aparece "Me cambié de trabajo, subí de sueldo…" (24-sep):
+  1,654 vistas, 0 comentarios, 7 shares. Los otros 6 no salen en el `Content.csv`, que solo
+  lista 15 videos.
+- "GM" (cripto, 2023) sigue en 143,650 (+2,220 desde el 9-sep). El catálogo viejo sigue rindiendo.
+
+
+### Mismo día: la promoción, los seguidores de TikTok y la primera línea base de Instagram
+
+**TikTok: casi todo el crecimiento de los últimos 60 días fue pagado.**
+- 5,197 seguidores al 07-oct contra 4,535 al 08-ago: **+662 en ~60 días**.
+- El usuario dice que la promoción trajo **"como 600"** por **"como 1,200 MXN"**, unos 2 MXN por
+  seguidor. Así que el crecimiento orgánico fue de **~60 en 60 días**, ~1 al día. Es menos que el
+  ritmo del 10-ago (+11 en 7 días ≈ 94 en 60). Las cifras son aproximadas y el orgánico
+  puede variar unas decenas, pero el orden de magnitud no cambia.
+- **El hito de 5K (objetivo 8) se cruzó gracias a la promoción.** Sin ella, el canal estaría
+  en ~4,600.
+- Esto explica una anomalía que quedó abierta el 9-sep: el *"seguidores netos +2407%"* del
+  resumen automático de TikTok coincide con la ventana de la promoción.
+- Los 2 videos promocionados, **confirmados el mismo día**: "¿Qué habilidades…?" y "Acepté el
+  trabajo que no quería", que coinciden con los picos del 3–9 sep (ver la corrección en la
+  sección del 2026-09-09).
+- **Lo que la promoción no movió:** los comentarios. TikTok bajó a 5 en 12 días durante
+  24-sep → 05-oct, con ~600 seguidores más que en agosto. Seguidores comprados no son
+  comunidad, que es el objetivo declarado.
+- ⚠️ **Dato de vida corta, aritmética mía:** al precio observado, los 4,803 que faltan para
+  10K costarían del orden de **9,600 MXN** en promoción. Al ritmo orgánico de ~30 por mes,
+  serían más de 13 años. Esta cuenta no es una recomendación: un contador comprado no cumple
+  la meta de comunidad, y deja la medición de TikTok igual de contaminada que el 9-sep.
+
+**Instagram: primera línea base** (`raw/blackicelabs/absadev-instagram-insights-2026-10-07.md`)
+- **1,936 seguidores.** Es la superficie más chica de las tres, y hasta hoy no tenía ningún dato.
+- 81,528 vistas: 68.9% de no-seguidores, 62,075 desde Instagram y 19,453 desde Facebook por el
+  cross-post. 25,549 cuentas alcanzadas. El 84.7% de las vistas son Reels.
+- 2,354 interacciones de 1,232 cuentas; 638 visitas al perfil y 40 taps al link.
+- El mejor contenido es del **8-sep** (9.3K vistas y 273 interacciones; otro del mismo día
+  con 106). Es la semana de los picos de TikTok, pero no se sabe si es el mismo video.
+- Audiencia activa de 6 a.m. a 6 p.m. de forma pareja; se cae de noche.
+- ⚠️ **No disponible:** la ventana (no aparece en lo pegado), el crecimiento de seguidores
+  y las cifras por video. Todavía no se puede medir conversión en Instagram.
+
+### Lo que dice esta ventana
+
+- **Hecho:** en YouTube, 0 subs en 3,166 vistas de clips de podcast, mientras los episodios
+  largos convierten ~3–5 por cada 1,000 vistas.
+- **Inferencia:** el clip de podcast suelto no sirve como motor de suscriptores en YouTube.
+  Con n=6 y un solo estilo de corte (confesión del 024), esto aplica a "clips así" y no
+  es una ley.
+- **La cadencia es la variable más grande de la ventana:** a ~8.3 videos/semana, el
+  techo de 3.5 se rebasó todo el mes, y vistas ×3 con SPV plano es justo lo que esa
+  condición dice que hay que vigilar: *"el plan está fallando aunque los números suban"*.
+- **Ruido descartado:** la saturación de cadencia (~3.8/semana) del 024 puede explicar la
+  caída de TikTok en esa ventana, pero no el 0 de YouTube, donde los shorts sueltos de la
+  misma ventana sí convirtieron algo.
+- **Pendiente para cerrar la lectura:** ~~monto y seguidores de la promoción, seguidores de
+  TikTok, Instagram~~ (llegaron el mismo día, ver arriba). Siguen faltando: ~~cuáles 2 TikToks~~ (confirmados), las cifras por video de los otros 6 clips del 024 en TikTok, y
+  la ventana y el crecimiento de seguidores de Instagram.
+
+## [2026-10-15] Ask Studio: la IA de YouTube lee el canal y el short de /compact
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md`. **Confianza baja como análisis**
+> porque lo generó la IA de la plataforma, sin ventana, sin SPV y sin export. Las cifras sueltas sí son de
+> primera parte. Los snapshots anteriores quedan como se escribieron.
+
+**Cifras (⚠️ vida corta):**
+- **7,885 subs** contra 7,880 el 07-oct: **+5 en ~8 días**. Faltan **2,115** para 10K. A ese ritmo
+  (≈ +17.5 cada 28 días) serían ~8.7 años. Es una semana suelta, así que es **ruido** como tendencia; la
+  conclusión del 07-oct no cambia: hace falta un cambio de escalón.
+- **889,000+ vistas acumuladas**: es el primer total de vida del canal que entra al wiki. Al ser
+  acumulado y rezagado, no dice nada de las últimas 4 semanas.
+- **Short de /compact (clip #7 del 028): ~54 vistas, 65 s.** El diagnóstico detallado está en
+  [[episodio-028-patrones-agenticos]].
+
+**Señales del §5 de la skill que esta fuente no trae:** no hay racha, comentarios por video, SPV, mezcla
+de tráfico, AVD, curva de retención ni CTR. Todo eso queda **no disponible** para hoy. Que falte el CTR
+no significa que el empaque esté bien.
+
+**Qué confirma lo ya registrado:**
+- **Flutter vs React Native sigue siendo el ancla.** Ask Studio dice que los videos más vistos de la
+  historia del canal son de Flutter y que *"Flutter vs React Native 2026: La Verdad sobre Rendimiento y
+  Salarios"* juntó decenas de comentarios. Coincide con el +5 subs en 684 vistas del 07-oct y con el
+  pilar de Comparaciones del 16-jul.
+- **El registro de identidad ("la realidad del programador") es el que atrae suscriptores.** Ask Studio
+  menciona [[episodio-024-carrera-de-la-rata]] y el 020 *"Cómo dejé de ser un Albañil del Código"*
+  ([[blackicelabs-podcast]]).
+  - ⚠️ **Discrepancia sin resolver:** Ask Studio habla de *"suscriptores explícitos"*, que muy
+    probablemente son comentarios del tipo "me suscribo", no el conteo neto.
+  - La API del 07-oct dice otra cosa: el 024 largo hizo +3/−1 con 716 vistas, y la mitad de los subs
+    de esa ventana vino del catálogo viejo de Flutter.
+  - Las dos cosas pueden ser ciertas al mismo tiempo. No se le da más peso a ninguna hasta tener SPV
+    por video.
+  - ✅ **Resuelta el mismo día** con datos por video (snapshot de abajo): la rata en largo hizo +3
+    con 748 vistas, el mejor de los 4 largos; sus 7 clips hicieron 0 con 4,788. Ask Studio
+    tenía razón sobre el episodio, no sobre los clips.
+
+**Lo nuevo (sin cifras):** Ask Studio pone como referencia de naturalidad el short *"Lo más difícil de
+aprender en Flutter"* y "tus Shorts de entrevistas de trabajo". Ninguno de los dos tiene números en este
+wiki todavía.
+
+**Lectura estratégica (pilares, reglas de guion e ideas):** la contrasté contra la estrategia en
+[[estrategia-contenido-absadev]], sección del 2026-10-15.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (2026-10-15, Ask Studio: Shorts 15-sep → 12-oct + largos de 90 días)
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`. Las pidió el usuario a
+> Ask Studio con preguntas concretas. Son de primera parte y **cuadran con la API del 07-oct**: los
+> clips del 024 dan 805/482/927/387 aquí contra 802/479/918/386 allá. Es el **primer dato de "% que
+> eligió verlo"** del canal, la señal número uno de la doctrina de Shorts ([[youtube-shorts-distribucion]]).
+
+### Shorts: 17 videos, 9,083 vistas, +2 suscriptores netos
+
+| Grupo | Videos | Vistas | Subs netos | Subs / 1,000 | % eligió verlo (mediana) |
+|---|---:|---:|---:|---:|---:|
+| Clips del 024 (layoff, Oxxo, comida, LinkedIn, lujos, aumento, subí de sueldo) | 7 | 4,788 | **0** | **0.00** | **29%** |
+| Resto de shorts | 10 | 4,295 | +2 | 0.47 | 52% |
+
+- Los dos únicos subs vienen de *"No soportarías"* (1,145 vistas, 53% eligió verlo, 79% visto) y de
+  *"De paso te casas con el"* (1,032 vistas). Ninguno de los dos está registrado en el wiki, así que
+  no se sabe de qué tratan.
+- Los 3 shorts de precio de [[fitexe]] (*3 cafés*, *primer precio*, *30 clientes*, del
+  [[episodio-027-side-project]]) suman **273 vistas**. Dos de ellos tienen el % eligió verlo más alto
+  de la tabla (58–59%), pero casi no se distribuyeron.
+- *"Tu próximo aumento"* aparece con 231% visto: es un short muy corto que la gente repite. No es un
+  error del dato.
+
+### Videos largos: 4 videos, 2,137 vistas, +8 suscriptores netos
+
+| Video | Publicado | Impresiones | CTR | Vistas | Subs netos | Subs / 1,000 |
+|---|---|---:|---:|---:|---:|---:|
+| Cuánto cobrar por tu side project | 31-ago | 2,864 | 2.03% | 312 | +1 | 3.2 |
+| La carrera de la rata | 14-sep | 5,931 | 2.83% | 748 | +3 | 4.0 |
+| ¿Alcanza el plan de $20 de Claude? (026) | 28-sep | 4,983 | **1.75%** | 452 | +2 | 4.4 |
+| Un junior no necesita aprender sin IA (027) | 12-oct | 2,572 | 2.37% | 625 | +2 | 3.2 |
+
+- **Los 4 están por debajo del CTR de canal del 09-sep (3.86%)**, y muy por debajo del 6.58% de
+  *"Flutter vs React Native 2026"*. Esto confirma, ahora con n=4, lo que el 09-sep era n=1: el
+  "Cuánto cobrar" estaba en 2.09% y hoy está en 2.03%.
+- ⚠️ El 027 tiene 3 días: no está asentado. Además, YouTube cambió cómo cuenta las vistas a partir del
+  27-ago. Las comparaciones contra snapshots anteriores a esa fecha llevan ese asterisco.
+
+### Lo que dice este snapshot
+
+- **Hecho:** por cada 1,000 vistas, el largo convierte **3.7 subs** y el short **0.22**. Es **~17 veces
+  más**. Visto de otra forma: 4 videos largos dieron 4 veces más suscriptores que 17 shorts.
+- **Hecho:** los clips del podcast se deslizan mucho más que los shorts grabados a propósito (29%
+  contra 52% eligió verlo) y no convierten nada (0 en 4,788 vistas).
+  - ⚠️ **Confusión con el volumen:** los clips también son los que más vistas recibieron. Cuando un
+    video llega a público más frío, el % que eligió verlo baja, igual que pasa con el CTR.
+  - Aun así, que convierta 0 contra 0.47 no lo explica el volumen.
+- **Inferencia:** en el largo, el cuello de botella es **el empaque, no el contenido**. Quien entra se
+  suscribe a un ritmo de 3–4 por cada 1,000 vistas, por encima del 3.0 que la tabla del §6 llama
+  "cambio de escalón". Pero solo 2–3% de quienes ven la miniatura hace clic.
+  - Subir el CTR de 2.3% a 3.9% (el promedio del canal) con las mismas impresiones serían ~70% más
+    vistas largas, y eso ya convierte.
+  - Es una aritmética mía, no un pronóstico.
+- **Se resuelve la discrepancia del mismo día** (sección de arriba): Ask Studio tenía razón en que
+  "La carrera de la rata" es lo que más suscribe, pero **sólo en su versión larga**. Sus 7 clips
+  hicieron 0.
+- **Ruido descartado:** que los shorts de precio tengan % alto de eligió verlo con menos de 110 vistas
+  es muestra demasiado chica. Tampoco se puede leer la mediana de los "no clips" como un estilo, porque
+  mezcla Siri, Swift, FitExe y los dos de origen desconocido.
+- **Sigue sin dato:** cuántas vistas del largo vienen desde Shorts, la retención del largo antes y
+  después del segundo 30, y la audiencia por edad y país.
+
 ## Related
 
 - [[objetivos-vida-2026-2027]] — las metas de este canal dentro del cuadro completo
 - [[estrategia-contenido-absadev]] — the content strategy built on this profile
+- [[episodio-024-carrera-de-la-rata]] — el primer lote de clips de podcast medido (2026-10-07)
+- [[episodio-028-patrones-agenticos]] — el clip #7 (/compact), diagnosticado por Ask Studio (2026-10-15)
 - [[slalom]] — el trabajo del que sale casi todo el material real
 - [[daniel]] — el par dev que dio el feedback de guion del 20-ago
 - [[absa-garcia]] — the sibling non-tech lifestyle/running brand
