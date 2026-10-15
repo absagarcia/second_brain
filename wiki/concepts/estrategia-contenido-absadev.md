@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -61,6 +61,14 @@ sources:
     fact_date: 2000
     ingest_date: 2026-09-21
     confidence: medium   # ensayo clásico de blog, casos no verificados de primera mano
+  - path: raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md (Ask Studio, la IA de YouTube Studio: diagnóstico del short /compact + lectura del canal)
+    fact_date: 2026-10-15
+    ingest_date: 2026-10-15
+    confidence: low           # interpretación generada por IA de la plataforma, sin export ni ventana; las cifras sueltas (7,885 subs, 889K vistas, ~54 vistas, 65 s) son de primera parte
+  - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (Ask Studio: Shorts 15-sep → 12-oct con % eligió verlo, + largos de 90 días con impresiones/CTR)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
 ---
 
 # Estrategia de contenido — Absadev
@@ -1419,6 +1427,10 @@ de reparto de tráfico, no de una prueba. **Condición de refutación:** si los
 títulos de YouTube no superan la línea base de CTR del canal cuando por fin
 exista el export de Studio, la doctrina se reescribe.
 
+> ⚠️ **2026-10-15: condición de refutación cumplida.** Los 4 largos quedan por debajo del 3.86%, y el
+> único con título al estilo Spotify (la rata, 2.83%) supera a los 3 de búsqueda. Ver la sección
+> "El embudo, sexta lectura".
+
 ### Y sube otra vez la prioridad del export de Studio
 
 Abierto desde el 10-ago. Con **7 títulos de búsqueda del batch #5 + 4 títulos
@@ -2369,9 +2381,128 @@ el nombre del meta-data de Impeller en el `AndroidManifest`
 ecosistema · lo que me arrepiento). Es el formato-lista del candidato F del 25-ago: **cada ronda
 es un clip ya marcado**, sin tener que buscarlo después de grabar.
 
+**Guiones de los 6:** [[podcast-comparaciones-moviles-guiones]].
+
 **Orden recomendado:** A primero (repite el tema y la búsqueda que ya funcionan), luego C (cero
 pendientes), luego B. El podcast va a 1 por mes, y noviembre ya está lleno con la serie y la boda:
 **A sería el episodio de diciembre**, grabado después del 2-dic con la lectura de noviembre en mano.
+
+## [2026-10-15] Ask Studio propone 4 pilares y un "system prompt" para guiones: qué ya estaba, qué choca
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md`, la IA de YouTube Studio
+> (confianza baja como análisis). Las cifras y el diagnóstico del short /compact están en [[absadev]]
+> y en [[episodio-028-patrones-agenticos]]. **Ángulo desde el que comprimí:** contra lo que ya está
+> decidido en esta página. No la leí como estrategia nueva.
+
+### Sus pilares contra los nuestros
+
+| Ask Studio | Dónde ya vive en este wiki |
+|---|---|
+| A — La realidad del programador | registro de identidad / "lo que me pasa" (20-ago), [[episodio-024-carrera-de-la-rata]], [[episodio-junior-sin-ia]] |
+| B — IA aplicada a código real | [[serie-fitexe-con-ia]] (noviembre), [[episodio-026-flujo-freelance-claude]] |
+| C — Patrones agénticos y arquitectura | línea del 2026-09-09, [[patrones-diseno-agenticos]], [[episodio-028-patrones-agenticos]] |
+| D — Flutter vs RN / mobile | pilar 2 (Comparaciones, 16-jul), pool de comparaciones móviles (07-oct) |
+
+- **Convergencia:** los cuatro ya existen. La plataforma no descubre una línea nueva. Lo que hace es
+  confirmar, desde los comentarios, las que ya están en el calendario. Esa es la parte útil.
+- ⚠️ **Lo que no aparece en su lectura es la apuesta de posicionamiento:** el pilar 1, *sobrevivir la
+  chamba gringa*, que era el monopolio frente a @devcaress. Puede ser porque casi no se ha publicado de
+  eso (el 026 con invitado sigue sin grabarse) o porque no conecta. **Con este dato no se puede saber
+  cuál de las dos**, así que no se toca. Queda como pregunta abierta.
+
+### Sus 4 reglas de guion
+
+1. **Tono de trinchera, no corporativo:** ya estaba. Es el consejo de [[daniel]] del 20-ago.
+2. **Gancho en los primeros 5 s:** ya estaba, y más estricto (0–3 s en el formato por beats).
+3. **Nada de analogías fuera de tema al inicio:** esto sí es nuevo como regla, y sale del caso
+   Hidalgo. Ojo con el alcance: Hidalgo no estaba al inicio sino en 0:32. La regla que de verdad
+   respalda el caso es *"una analogía fuera de dominio necesita llegar ya anclada al problema técnico"*,
+   y es una opinión de la IA con n=1.
+4. **CTA para suscribirse "rumbo a los 10K":** ⚠️ **choca con dos cosas registradas.**
+   - Los CTA acordados son de fricción (comentario y share), porque el cuello que se diagnosticó es
+     Activation y porque la Serie 4 vive de los comentarios.
+   - 10K es el marcador, no el premio, y pedir el sub "por la meta" convierte la meta en el mensaje.
+   - Lo que sí tiene a favor: ataca directamente Retention, que es el muro.
+   - **No se agrega a noviembre:** la [[serie-fitexe-con-ia]] ya mide identidad contra utilidad, y meter
+     una segunda variable en la misma ventana confunde las dos. Si se quiere probar, que sea después
+     del corte del 2-dic. Esa decisión es del usuario.
+
+### Sus 4 ideas, mapeadas a líneas existentes (no hay serie nueva)
+
+- **"Un agente autónomo programa una app Flutter por 24 h":** cae en la línea de patrones agénticos.
+  ⚠️ Pero contradice lo que el 028 defiende en cámara (Approval Gates; *"lo que nunca le dejo a Claude"*).
+  Sólo funcionaría planteado como experimento de lo que pasa *sin* gates, y no hay artefacto.
+- **"Ser Senior ya no te garantiza nada":** cae en el registro de opinión, junto al 027. Además tiene
+  material real: el ascenso a Senior de dic-2026 en [[slalom]].
+- **"Migrar una app de React Native a Flutter con Claude Code":** cae en el pool de comparaciones
+  móviles. No existe una app RN propia que migrar, y la regla es no grabar sin artefacto real.
+- **"Mi primer servidor MCP":** cae en la línea de patrones agénticos (Tool). En el wiki no hay
+  ningún MCP propio construido, así que hoy no es grabable.
+
+**Recomendación:** no cambiar nada del calendario de noviembre. Lo único accionable de inmediato es la
+regla de corte de clips que salió del /compact: **entrar en una frase con sujeto y salir en una
+afirmación.** Se aplica a los clips de reserva del 027 y del 028 sin costo extra de horas.
+
+## [2026-10-15] El embudo, sexta lectura: el largo convierte 17 veces más que el short, y lo que falla es el CTR
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md` (primera parte, cuadra con
+> la API). El detalle por video está en [[absadev]], snapshot del 2026-10-15. ⚠️ Las cifras son de
+> **vida corta**. Lo de vida larga es la regla que sale al final.
+
+**Hechos:**
+- **Shorts** (17 videos, 15-sep → 12-oct): 9,083 vistas y **+2** subs, o sea 0.22 por cada 1,000.
+  - Clips del podcast: 0 por cada 1,000 y 29% eligió verlo.
+  - Shorts grabados a propósito: 0.47 por cada 1,000 y 52% eligió verlo.
+- **Largos** (4 videos, 90 días): 2,137 vistas y **+8** subs, o sea **3.7 por cada 1,000**. Está por
+  encima del 3.0 que este wiki llama "cambio de escalón".
+- **El CTR de los 4 largos va de 1.75% a 2.83%**, todos por debajo del 3.86% del canal (09-sep).
+
+**El embudo, actualizado:**
+- **Retention**, el muro, **no es un problema de todo el canal: es de formato.** El largo sí retiene;
+  el short no.
+- El cuello de botella del largo está antes de Retention, **en el clic**: es Acquisition del largo.
+
+### ⚠️ La doctrina de dos títulos (19-ago) cumple su condición de refutación
+
+La condición era: *"si los títulos de YouTube no superan la línea base de CTR del canal, la doctrina se
+reescribe"*. **Ninguno de los 4 la supera.** Y el dato es peor que eso:
+- Los 3 que llevan título de búsqueda al estilo YouTube (*"Cuánto cobrar…"* 2.03%, *"¿Alcanza el plan de
+  $20…?"* 1.75%, *"Un junior no necesita…"* 2.37%) quedan **por debajo** del único que salió con el
+  título al estilo Spotify.
+- Ese es *"La carrera de la rata del programador moderno"*, con **2.83%**. El título de búsqueda que se
+  había planeado para él (*"Burnout de programador: …"*) no se usó.
+- Con n=4, temas distintos, edades distintas (el 027 tiene 3 días) y miniaturas que no conocemos,
+  esto **no prueba lo contrario**. Pero la hipótesis ya no tiene a su favor ni un solo dato.
+- **Se mantiene escrita como estaba arriba.** La corrección es esta nota.
+
+### ⚠️ "El podcast es fábrica y no motor de crecimiento" (19-ago): corregido a medias
+
+- La parte de "fábrica" se refería a los clips, y **se confirma de más**: 7 clips, 0 subs.
+- La parte de "no es motor" **se invierte** para el episodio largo: es lo que más convierte del canal.
+- Según este dato, el podcast **es** el motor, siempre que el episodio llegue a ver la luz.
+
+### Qué cambia (son recomendaciones; la decisión es del usuario)
+
+1. **El dinero está en el empaque del largo, no en hacer más shorts.**
+   - Con las mismas impresiones, pasar del ~2.3% al 3.9% del canal serían ~70% más vistas largas, y
+     esas vistas ya convierten. Es aritmética mía, no un pronóstico.
+   - Además **resta horas en vez de sumarlas**: cuesta menos cortar 7 clips por episodio y dedicar ese
+     tiempo a 2–3 miniaturas y títulos que se puedan probar con *Test & Compare* de Studio.
+   - La cadencia de ~8.3 videos por semana del 07-oct ya rebasaba el techo de 3.5 que se había fijado.
+2. **Bajar la prioridad de los clips de reserva del 027 y 028.** No se trata de prohibirlos (traen
+   alcance), pero no se cuentan como motor de suscriptores. Si se cortan, que sea con la regla de entrar
+   con sujeto y salir con afirmación.
+3. **⚠️ La medición de noviembre está mal calibrada** para una serie que es solo de shorts.
+   - El criterio de "SPV del canal ≥ 1.7" va a medir sobre todo si sale un episodio largo en
+     noviembre y cómo rinde el catálogo, no la [[serie-fitexe-con-ia]].
+   - Propuesta: comparar identidad contra utilidad **dentro de los shorts**, con *% eligió verlo* y
+     subs por cada 1,000.
+   - Y usar como referencia los **0.47** de los shorts grabados a propósito, no el 1.7.
+   - **No lo cambio sin que el usuario lo confirme.**
+
+**Vida larga (regla que sale de aquí, n todavía chico):** en este canal, **el short sirve para alcance y
+el largo para comunidad.** Se juzgan con métricas distintas: % eligió verlo en el short, CTR más subs por
+cada 1,000 en el largo.
 
 ## Serie 11 — "Nunca reescribas desde cero" (guionizada 2026-09-21)
 

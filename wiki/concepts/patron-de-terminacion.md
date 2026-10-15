@@ -3,7 +3,7 @@ title: "Empiezo muchas y termino pocas" — el patrón real, según sus propios 
 type: concept
 domain: [reflections, blackicelabs, fitness, swe, books]
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-10-11
 sources:
   - path: raw/reflections/patron-terminacion-2026-08-26.md
     fact_date: 2026-08-26
@@ -212,6 +212,8 @@ mismas 4-6 h/semana. Volverá cuando el 14 lleve tres meses cumpliéndose.
   prueba más limpia de que el motor no son las ganas.
 
 ## Related
+
+- [[app-notch-macos]] — **2026-10-11:** nuevo objetivo sin estructura candidato (app de notch en Swift); la regla aplica antes de arrancarlo
 
 - [[objetivos-vida-2026-2027]] — los 17 objetivos que esta página reordena
 - [[systems-over-willpower]] — los seis libros que ya decían esto

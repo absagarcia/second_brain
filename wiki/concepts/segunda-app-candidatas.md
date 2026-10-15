@@ -3,7 +3,7 @@ title: La segunda app — criterios y candidatas
 type: concept
 domain: [swe, fitexe, finance, blackicelabs, freelance]
 created: 2026-08-25
-updated: 2026-09-07
+updated: 2026-10-11
 sources:
   - path: raw/reflections/segunda-app-2026-08-25.md
     fact_date: 2026-08-25
@@ -219,3 +219,4 @@ que sí cabe ahora son las tres conversaciones de abajo, que no cuestan código.
 - [[absadev]] / [[absa-garcia]] — la distribución que tiene y para quién sirve
 - [[athletix-ai]] — la evidencia sobre el mercado descartado
 - [[the-saas-playbook]] — el marco de precios y de B2B bootstrapped
+- [[app-notch-macos]] — **2026-10-11:** idea nueva de app (isla en el notch de la Mac); no cumple *recurrente > pago único* ni es 100% negocio — se registra como herramienta/aprendizaje, no como candidata de esta página

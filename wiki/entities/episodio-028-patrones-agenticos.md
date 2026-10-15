@@ -3,7 +3,7 @@ title: "Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude t
 type: entity
 domain: [blackicelabs, swe, fitexe]
 created: 2026-10-05
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv
     fact_date: 2026-09-04
@@ -25,6 +25,10 @@ sources:
     fact_date: 2026-10-07
     ingest_date: 2026-10-07
     confidence: high     # audio de primera parte; autotranscripción con errores ("Cloud"=Claude, "FedEx"=FitExe, "Black Islas", "Planning Secure")
+  - path: raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md (Ask Studio, la IA de YouTube Studio: diagnóstico del short /compact + lectura del canal)
+    fact_date: 2026-10-15
+    ingest_date: 2026-10-15
+    confidence: low           # interpretación generada por IA de la plataforma, sin export ni ventana; las cifras sueltas (7,885 subs, 889K vistas, ~54 vistas, 65 s) son de primera parte
 ---
 
 # Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude trabaja en mi app
@@ -467,6 +471,349 @@ clip 1).
 **Subtítulos:** *"Cloud"* → Claude, *"FedEx"* → FitExe.
 
 Los otros 5 clips quedan como **reserva**.
+
+## Captions por red, listos para programar (2026-10-14)
+
+Se aplica el mismo feedback que en el [[episodio-junior-sin-ia]] (sección del mismo nombre): 2 CTA,
+el clip empuja al largo, búsqueda primero, sin "suscríbete" ni promoción pagada, TikTok a las 21:00,
+Instagram a las 9:00 con cross-post a Facebook, y YouTube a las 20:00 (horario extrapolado). En
+estos dos hay algo extra: **la primera línea explica el término sin jerga**. El canal atrae no-devs
+(el espectador de 60+ del 19-ago, ver [[absadev]]) y *"Plan and Execute"* o *"Approval Gate"* solos
+no le dicen nada a nadie que no sea dev.
+
+### Clips #1, #2, #4, #6 y #7 — reserva (captions escritos el 2026-10-14, sin fecha)
+
+Siguen fuera del calendario de noviembre porque meterlos rebasa las 3 publicaciones por semana
+([[estrategia-contenido-absadev]]). Se aplica lo mismo que en el #3 y el #5. Cuando entren, mismos
+horarios: TikTok 21:00, IG 9:00, YouTube 20:00.
+
+⚠️ **Cruces con lo ya publicado o programado:**
+- El **#1** cuenta la misma historia que el reel de OpenSpec del 04-sep y el short del 15-oct
+  (*"Claude corrigió mi arquitectura"*). En Absadev se ve repetido.
+- El **#4** dice lo mismo que el clip #6 del [[episodio-junior-sin-ia]] (*"tienes que leer lo que
+  genera la IA"*). No publicarlos la misma semana.
+- El **#6** cubre *"lo que no le delego a Claude"*, que por eso salió de [[serie-fitexe-con-ia]]. Ojo
+  con el #3 de la serie (el webhook de Stripe, 9-nov): es el mismo terreno.
+
+#### Clip #1 — Claude tocó arquitectura que no le pedí (ambas)
+
+**Texto en pantalla (0–3 s):** `Claude cambió código que no le pedí`
+
+**TikTok**
+```
+Armé el módulo de reservas de mi app en un día. Lo que me frenó fue Claude 🛑
+"Tienes dos pedazos de arquitectura que no has pensado." Yo nunca le pedí que los tocara.
+
+👇 ¿Tu agente te ha cambiado código que no le pediste?
+📤 Mándaselo a quien deja que Claude haga todo sin revisar.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #flutter #programacion #inteligenciaartificial
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Armé el módulo de reservas de mi app en un solo día: web, base de datos y app móvil. Lo que me frenó fue Claude.
+
+Me dijo que tenía dos pedazos de arquitectura que no había pensado. Yo nunca le pedí que los tocara. Ahí entendí que no es magia: si no sabes qué pasa detrás del agente, el día que se te rompa producción no vas a entender por qué.
+
+👇 ¿Tu agente te ha cambiado código que no le pediste?
+📤 Compártelo con quien deja que la IA haga todo sin revisar.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #flutter #programacion #inteligenciaartificial #desarrolladores
+```
+
+**YouTube Shorts**
+- **Título:** Claude Code cambió mi arquitectura sin que se lo pidiera
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+Armé un módulo de mi app Flutter en un día, y Claude me frenó por dos pedazos de arquitectura que yo no había pensado.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien deja que la IA haga todo sin revisar.
+#claudecode #flutter #ia
+```
+- **Comentario fijado:** *"¿Tu agente te ha cambiado código que no le pediste?"*
+
+#### Clip #2 — ReAct es depurar con breakpoints (valor)
+
+**Texto en pantalla (0–3 s):** `Así piensa tu agente de IA`
+
+**TikTok**
+```
+Tu agente de IA piensa como cuando depuras con breakpoints 🐞
+ReAct: piensa, ejecuta un comando, mira el resultado y vuelve a pensar. El costo: en cada vuelta relee todo el historial. Más tokens, más latencia y, sin límite de pasos, un bucle infinito.
+
+👇 ¿Le pones límite de pasos a tu agente?
+📤 Mándaselo a quien no entiende por qué se le acaban los tokens.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #inteligenciaartificial #programacion #agentesdeia
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Tu agente de IA trabaja como cuando depuras con breakpoints.
+
+Se llama ReAct (razonar y actuar, no la librería): piensa, ejecuta algo, como leer un archivo o correr un comando, mira lo que le devolvió el sistema y vuelve a pensar. Igual que ir línea por línea en el debugger. El costo: en cada vuelta relee todo el historial. Eso gasta tokens, sube la latencia y, si no le pones límite de pasos, se puede quedar en un bucle infinito.
+
+👇 ¿Le pones límite de pasos a tu agente?
+📤 Guárdalo, o compártelo con quien no entiende por qué se le acaban los tokens.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #inteligenciaartificial #programacion #agentesdeia #desarrolladores
+```
+
+**YouTube Shorts**
+- **Título:** ReAct: cómo piensa un agente de IA (y por qué se come tus tokens)
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+ReAct funciona como depurar con breakpoints: piensa, actúa, mira el resultado, repite. Y en cada vuelta relee todo el historial.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien no entiende por qué se le acaban los tokens.
+#claudecode #agentesdeia #ia
+```
+- **Comentario fijado:** *"¿Le pones límite de pasos a tu agente?"*
+
+#### Clip #4 — piloto automático en un Tesla (polémica)
+
+**Texto en pantalla (0–3 s):** `"Confío en la IA" 🚗💥`
+
+**TikTok**
+```
+Confiar en la IA sin leer es manejar un Tesla en piloto automático… hasta que chocas 🚗💥
+El plan que te genera son un montón de archivos. Tienes que leer, tienes que leer.
+
+👇 ¿Lees todo lo que te genera la IA? Sé honesto.
+📤 Mándaselo a quien le da "aceptar" a todo.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#inteligenciaartificial #programacion #claudecode #desarrolladores
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Confiar en la IA sin leer es manejar un Tesla en piloto automático… hasta que chocas.
+
+Cuando el agente arma un plan te deja un montón de archivos con la propuesta y el diseño. Y es como si tú fueras el cliente: tienes que leerlos y decidir si te gustan los cambios. Hay gente a la que ya le cuesta leer, porque su atención está dispersa, y se va en automático.
+
+👇 ¿Lees todo lo que te genera la IA? Sé honesto.
+📤 Compártelo con quien le da "aceptar" a todo.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#inteligenciaartificial #programacion #claudecode #desarrolladores #codereview
+```
+
+**YouTube Shorts**
+- **Título:** Programar con IA en piloto automático: así es como chocas
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+El agente te arma el plan en archivos. Si no los lees, vas en piloto automático hasta que choques.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien le da "aceptar" a todo.
+#ia #programacion #claudecode
+```
+- **Comentario fijado:** *"¿Lees todo lo que te genera la IA? Sé honesto."*
+
+#### Clip #6 — lo que jamás le delego a Claude (polémica)
+
+**Texto en pantalla (0–3 s):** `Esto nunca se lo dejo a la IA`
+
+**TikTok**
+```
+Hay dos cosas que jamás le dejo a Claude sin aprobarlas yo 🔒
+Las migraciones de la base de datos y la verificación de los webhooks de pagos. En FitExe hay gente real usando su membresía para entrar al gimnasio todos los días.
+
+👇 ¿Qué nunca le dejarías tocar a la IA?
+📤 Mándaselo a quien deja que la IA toque producción.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #programacion #inteligenciaartificial #supabase
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Hay dos cosas que jamás le dejo a Claude sin aprobarlas yo.
+
+Las migraciones de PostgreSQL y la lógica que verifica los webhooks de la pasarela de pagos. FitExe no es un proyecto de prueba: hay gente usando su membresía para entrar al gimnasio todos los días. Ahí el agente propone y yo apruebo.
+
+👇 ¿Qué nunca le dejarías tocar a la IA?
+📤 Compártelo con quien deja que la IA toque producción.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #programacion #inteligenciaartificial #supabase #desarrolladores
+```
+
+**YouTube Shorts**
+- **Título:** Lo que nunca le dejo a Claude Code en mi app en producción
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+Migraciones de PostgreSQL y webhooks de pagos: lo que no le delego a la IA sin aprobación, en una app con usuarios reales.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien deja que la IA toque producción.
+#claudecode #supabase #ia
+```
+- **Comentario fijado:** *"¿Qué nunca le dejarías tocar a la IA?"*
+
+#### Clip #7 — compactar no es resumir (valor)
+
+**Texto en pantalla (0–3 s):** `/compact no es resumir`
+
+**TikTok**
+```
+Compactar no es resumir 🧠
+Para ti lo importante de la Independencia son las campanas de Hidalgo. Para tu compañero, el día que terminó. Cuando el agente compacta tu sesión, ¿qué se está perdiendo?
+
+👇 ¿Confías en el /compact o prefieres empezar sesión nueva?
+📤 Mándaselo a quien tiene la misma sesión abierta desde hace tres días.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #inteligenciaartificial #programacion #agentesdeia
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Compactar no es resumir.
+
+En una sesión larga, el agente no puede cargar miles de líneas de historial sin razonar peor, así que compacta: resume o descarta lo viejo. Pero resumir depende de quién lo hace. Para mí lo importante de la Independencia es Hidalgo tocando las campanas; para mi compañero, el día que terminó. ¿Qué se está perdiendo cuando el modelo decide qué guardar?
+
+👇 ¿Confías en el /compact o prefieres empezar sesión nueva?
+📤 Guárdalo, o compártelo con quien tiene la misma sesión abierta desde hace días.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #inteligenciaartificial #programacion #agentesdeia #desarrolladores
+```
+
+**YouTube Shorts**
+- **Título:** /compact en Claude Code: por qué compactar no es resumir
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+En sesiones largas el agente compacta tu historial. Pero resumir depende de quién decide qué es importante. ¿Qué se pierde?
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien tiene la misma sesión abierta desde hace días.
+#claudecode #agentesdeia #ia
+```
+- **Comentario fijado:** *"¿Confías en el /compact o prefieres empezar sesión nueva?"*
+
+#### ⏱️ Resultado del clip #7 en YouTube Shorts (Ask Studio, 2026-10-15)
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md`, confianza baja: es la lectura de la
+> IA de YouTube Studio, no un export. ⚠️ **Dato de vida corta** y quizá todavía sin asentar: no está
+> registrada la fecha de publicación, y las cifras se mueven ~72 h.
+
+- **Hecho:** ~54 vistas, **65 s** de duración. Se publicó como short en YouTube antes del 15-oct, aunque
+  el log del 14-oct lo había dejado como reserva sin fecha. Salió fuera del calendario de noviembre.
+- **Hecho (de la transcripción que leyó Ask Studio):** el video publicado **no coincide con el corte
+  planeado** en la tabla de arriba:
+  - **Entra a media frase:** *"No puede seguir acumulando miles de líneas de contexto histórico..."*. El
+    sujeto ("el agente") y el *"compactar no es resumir"* quedaron fuera. No se sabe si el texto en
+    pantalla `/compact no es resumir` se puso.
+  - **Sale tarde:** dura 65 s, contra ~59 planeados. Termina en *"es como que compactar pero que se pierda el
+    contexto... es demasiado, así que mm..."*. El punto de salida, después de *"ahí tengo mis dudas"*, se
+    quedó con la duda en vez de cerrar con una afirmación.
+  - **Hidalgo (0:32–0:42):** según Ask Studio, sacar el tema de LLMs a historia de México hace que el
+    público técnico deslice. Es una opinión, no una medición: no hay curva de retención.
+- **Inferencia:** dos de los tres problemas son de **corte** (dónde entra y dónde sale), no de tema. Esto
+  coincide con la lectura del 07-oct de que los clips sueltos de podcast no convierten (ver [[absadev]]).
+  Con este, ya son 7 clips, todos de cortes "naturales" de la conversación. Para los clips de reserva
+  que siguen, el arreglo es barato: **entrar en una frase que tenga sujeto y salir en una afirmación**,
+  aunque eso cueste segundos.
+- **Títulos alternativos que propone Ask Studio** (sin probar): *"El error de usar /compact en Claude Code"*
+  y *"No uses /compact en Claude Code sin saber esto"*.
+- **Guion de 30–45 s que propone** (gancho → explicación → regla → pregunta). Se guarda en la fuente. Su
+  línea *"ahí es donde empieza a alucinar funciones que ya habías corregido"* no tiene un caso propio
+  en el wiki, así que no se dice en cámara hasta que exista uno.
+
+### Clip #3 — miércoles 11-nov (utilidad)
+
+**Texto en pantalla (0–3 s):** `No dejes que la IA improvise tu código`
+
+**TikTok (21:00)**
+```
+No dejes que la IA improvise tu código 🧱
+Plan and Execute: primero el plan completo, luego el código. Como una migración: no inventas las columnas mientras corre.
+
+👇 ¿Dejas que la IA improvise o la obligas a planear? Una palabra.
+📤 Mándaselo a quien le pide todo a Claude en un solo prompt.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #programacion #inteligenciaartificial #flutter
+```
+
+**Instagram Reels (9:00), con cross-post a Facebook activado**
+```
+No dejes que la IA improvise tu código.
+
+Hay agentes que piensan y actúan paso por paso, y otros que primero arman el plan completo y luego lo ejecutan. Ese segundo se llama Plan and Execute, y funciona como una migración de base de datos: no vas inventando las columnas mientras corre en el servidor. Diseñas, revisas y luego la corres.
+
+👇 ¿Tú dejas que la IA improvise o la obligas a planear? Una palabra.
+📤 Guárdalo para tu próxima sesión con Claude, o mándaselo a quien le pide todo en un solo prompt.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #programacion #inteligenciaartificial #flutter #desarrolladores
+```
+
+**YouTube Shorts (20:00)**
+- **Título:** Plan and Execute: no dejes que la IA improvise tu código
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+Primero el plan, luego el código: así uso Plan and Execute con Claude Code en una app Flutter real.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a quien le pide todo a la IA en un solo prompt.
+#claudecode #flutter #ia
+```
+- **Comentario fijado:** *"¿Dejas que la IA improvise o la obligas a planear? Una palabra."*
+
+### Clip #5 — miércoles 25-nov (utilidad/identidad)
+
+**Texto en pantalla (0–3 s):** `¿Quién revisa el código de tu IA?`
+
+**TikTok (21:00)**
+```
+¿Quién revisa el código que escribe tu IA? 👀
+Un Approval Gate es un PR protegido: el agente propone lo que quiera, pero no mergea sin tu visto bueno. Y yo tengo otro agente que es la versión más culera de mí revisando al primero.
+
+👇 ¿Quién revisa el código de tu IA: tú, otro agente o nadie?
+📤 Mándaselo a tu equipo antes del próximo merge.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#claudecode #programacion #inteligenciaartificial #codereview
+```
+
+**Instagram Reels (9:00), con cross-post a Facebook activado**
+```
+¿Quién revisa el código que escribe tu IA?
+
+Un Approval Gate es como un pull request protegido: el agente puede crear ramas y proponer miles de líneas, pero no entra nada sin que tú lo apruebes. Y como no siempre leo todo, tengo otro agente que es la versión más culera de mí revisando lo que hizo el primero.
+
+👇 ¿Quién revisa el código de tu IA: tú, otro agente o nadie? Sé honesto.
+📤 Compártelo con tu equipo antes del próximo merge.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#claudecode #programacion #inteligenciaartificial #codereview #desarrolladores
+```
+
+**YouTube Shorts (20:00)**
+- **Título:** ¿Quién revisa el código que escribe tu IA?
+- **Video relacionado:** el episodio completo del 028.
+- **Descripción:**
+```
+Un Approval Gate es un PR protegido: el agente propone, tú apruebas. Y otro agente revisa al primero.
+Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute y OpenSpec
+📤 Mándaselo a tu equipo antes del próximo merge.
+#claudecode #codereview #ia
+```
+- **Comentario fijado:** *"¿Quién revisa el código de tu IA: tú, otro agente o nadie?"*
+
+⚠️ **Antes de programar:** el episodio largo tiene que estar publicado para ligarlo, y su
+descripción y capítulos todavía prometen multiagente y Circuit Breaker. El subtítulo quemado del
+#5 debe decir *Claude*, no *Cloud*.
 
 ## Related
 

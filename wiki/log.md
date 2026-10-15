@@ -3095,3 +3095,45 @@ Flutter vs RN (la A queda para diciembre). En [[episodio-junior-sin-ia]] y
 [[episodio-028-patrones-agenticos]]: títulos de YouTube con la búsqueda primero (por la lectura de
 stats del mismo día), los capítulos reales del 027, y los 2 clips de cada uno con título, caption y
 pregunta.
+
+## [2026-10-07] create | Guiones de las 6 comparaciones móviles del podcast — blackicelabs, fitexe, swe
+Página nueva [[podcast-comparaciones-moviles-guiones]] con los episodios A–F (hook, intro, 5 rondas y
+cierre, formato del skill del podcast), cada ronda anclada en un artefacto de `app_fitexe` o
+`fitexe-contracts`. Lo que no tiene fuente va como ✏️ RELLENAR y los datos externos como ⚠️ VERIFICAR
+(reglas de tiendas, comisiones, SEO de Flutter web, push de Supabase, paquetes de watchOS). Enlazada
+desde el pool en [[estrategia-contenido-absadev]]. También se pasó a Apple Notes, una nota por episodio.
+
+## [2026-10-11] ingest | Idea de app de notch para Mac (Umbral + MiniTools + deseos del usuario) — swe, blackicelabs, reflections
+Fuente nueva en `raw/reflections/app-notch-idea-2026-10-11.md`. Página nueva [[app-notch-macos]]: las dos
+referencias, los 6 módulos pedidos con su viabilidad (Claude Code, reunión, ToDo y café sí; Teams parcial; iPhone no),
+MVP sugerido para diciembre. Enlazada desde [[segunda-app-candidatas]] (no cuenta como segunda app),
+[[patron-de-terminacion]] (le falta estructura) y [[minimalismo-digital]].
+
+## [2026-10-14] update | Captions por red de los 4 clips de noviembre (027 #1 y #7, 028 #3 y #5) — blackicelabs
+Sección nueva "Captions por red" en [[episodio-junior-sin-ia]] y [[episodio-028-patrones-agenticos]]: TikTok,
+Instagram (con cross-post a Facebook) y YouTube Shorts, con texto en pantalla, 2 CTA (comentario + share),
+el episodio largo como video relacionado y horarios por red (YouTube extrapolado de TikTok, sin dato propio).
+Sin fuente nueva en `raw/`: todo sale del feedback ya registrado en [[absadev]] y [[estrategia-contenido-absadev]].
+
+## [2026-10-14] update | Captions de los 5 clips de reserva del 027 (#2–#6) — blackicelabs
+Completados los 7 captions por red en [[episodio-junior-sin-ia]]. Los #2–#6 quedan sin fecha porque
+entrar en noviembre rebasa las 3/semana. El del #3 cita el 50%/90% como cifra que circula, sin afirmarla.
+
+## [2026-10-14] update | Captions de los 5 clips de reserva del 028 (#1, #2, #4, #6, #7) — blackicelabs
+Completados los 7 captions por red en [[episodio-028-patrones-agenticos]], sin fecha. Quedan marcados los
+cruces: el #1 repite la historia del reel del 04-sep y del short del 15-oct, el #4 se empalma con el
+#6 del [[episodio-junior-sin-ia]], y el #6 con el #3 de [[serie-fitexe-con-ia]] (Stripe).
+
+## [2026-10-15] ingest | YouTube Studio "Ask Studio": diagnóstico del short /compact y lectura del canal — blackicelabs
+Fuente nueva en `raw/blackicelabs/youtube-ask-studio-feedback-2026-10-15.md`, con confianza baja porque es una IA de la
+plataforma y no un export. En [[episodio-028-patrones-agenticos]]: el resultado del clip #7 (~54 vistas, 65 s). El video
+publicado no respeta el corte planeado. En [[absadev]]: 7,885 subs, 889K vistas de vida y una discrepancia sobre el
+origen de los subs (Ask Studio contra la API del 07-oct). En [[estrategia-contenido-absadev]]: sus 4 pilares mapeados a
+líneas que ya existían, el CTA de subs rechazado para noviembre y una regla de corte de clips nueva.
+
+## [2026-10-15] ingest | Ask Studio: Shorts 15-sep → 12-oct y largos de 90 días — blackicelabs
+Fuente nueva en `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`, con confianza alta porque cuadra con
+la API del 07-oct. Snapshot nuevo en [[absadev]] (short 0.22 contra largo 3.7 subs por cada 1,000; CTR del largo bajo la
+línea del canal), y con eso se resuelve la discrepancia de la mañana. Sexta lectura del embudo en
+[[estrategia-contenido-absadev]]: se marca refutada la doctrina de dos títulos y corregido a medias "el podcast no es
+motor", junto a los textos originales. Los 7 clips asentados quedan en [[episodio-024-carrera-de-la-rata]].

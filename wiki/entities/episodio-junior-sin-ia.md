@@ -3,7 +3,7 @@ title: "Episodio (número por definir) — Un junior no necesita aprender a prog
 type: entity
 domain: [blackicelabs, swe, reflections]
 created: 2026-10-06
-updated: 2026-10-07
+updated: 2026-10-14
 sources:
   - path: conversation (el usuario pega el run of show y pide descripción y tags, 2026-10-06)
     fact_date: 2026-08-20     # "fecha de registro" que trae el propio guion
@@ -271,6 +271,321 @@ Van a las 3 redes y cada uno liga **el episodio completo** como video relacionad
 
 Los otros 5 clips quedan como **reserva**. Noviembre no tiene espacio para ellos sin rebasar las 3
 publicaciones por semana.
+
+## Captions por red, listos para programar (2026-10-14)
+
+**Feedback que se aplica**, todo ya registrado en [[absadev]] y [[estrategia-contenido-absadev]]:
+- **Dos CTA por video, uno de comentario y otro de share.** La pregunta sola trae comentarios pero no
+  shares (Referral −87% el 10-ago), y TikTok pidió CTAs explícitos para compartir (27-ago).
+- **El clip empuja al episodio largo.** En YouTube los clips del 024 hicieron 0 subs en 3,166 vistas,
+  mientras el largo convierte ~3–5 por cada 1,000. Cada Short lleva el episodio como video relacionado.
+- **Búsqueda primero** en títulos y en la primera línea del caption (Búsqueda = 33.4% del canal).
+- **Sin "suscríbete"** y **sin promoción pagada** en noviembre, para no contaminar la medición del 2-dic.
+- **Horarios:** TikTok a las **21:00**, pico medido de 19 a 22 h. Instagram a las **9:00**: los
+  seguidores están activos de 6 a.m. a 6 p.m. y bajan de noche, con el bloque más alto a las 9 a.m.
+  YouTube a las **20:00**: ⚠️ sin dato propio, se extrapola de TikTok.
+- **Facebook no se programa aparte:** el cross-post de Instagram ya trajo 19,453 de 81,528 vistas.
+  Basta con dejarlo activado.
+- Los **subtítulos corregidos** de la tabla de arriba van quemados en el video.
+
+### Clip #1 — miércoles 4-nov (identidad)
+
+**Texto en pantalla (0–3 s):** `¿Contratarías a un junior hoy?`
+
+**TikTok (21:00)**
+```
+¿Contratarías a un programador junior hoy? 🤔
+Cada vez veo menos vacantes para juniors… y mis hermanos quieren entrar a este campo. ¿Dónde van a quedar?
+
+👇 ¿Tu empresa sigue contratando juniors? Sí / No / Ya no
+📤 Mándaselo a alguien que está buscando su primera chamba de dev.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#programadorjunior #programacion #inteligenciaartificial #trabajoentech
+```
+
+**Instagram Reels (9:00), con cross-post a Facebook activado**
+```
+¿Contratarías a un programador junior hoy?
+
+Cada vez veo menos vacantes para juniors. Y mis hermanos quieren entrar a este campo… ¿dónde van a quedar los que todavía no tienen experiencia?
+
+👇 Cuéntame: ¿tu empresa sigue contratando juniors? Sí / No / Ya no
+📤 Compártelo con alguien que esté buscando su primer trabajo de programador.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#programadorjunior #programacion #desarrolladores #inteligenciaartificial #empleotech
+```
+
+**YouTube Shorts (20:00)**
+- **Título:** ¿Contratarías a un programador junior hoy?
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+Cada vez hay menos vacantes para programadores junior. ¿Dónde van a quedar los que apenas empiezan?
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a alguien que esté buscando su primer trabajo de dev.
+#programadorjunior #programacion #ia
+```
+- **Comentario fijado:** *"¿Tu empresa sigue contratando juniors? Sí / No / Ya no."*
+
+### Clips #2 a #6 — reserva (captions escritos el 2026-10-14, sin fecha)
+
+Siguen fuera del calendario de noviembre porque meterlos rebasa las 3 publicaciones por semana
+([[estrategia-contenido-absadev]]). Se aplica lo mismo que en el #1 y el #7. Cuando entren, mismos
+horarios: TikTok 21:00, IG 9:00, YouTube 20:00.
+
+#### Clip #2 — "Si te midieran por tickets, la IA ya ganó" (ambas)
+
+**Texto en pantalla (0–3 s):** `Si te miden por tickets, la IA ya ganó`
+
+**TikTok**
+```
+Si a un programador lo midieran solo por tickets cerrados… la IA ya ganó 🎟️
+Pero si la ingeniería fuera solo escribir sintaxis, este video terminaría aquí.
+
+👇 ¿A ti te miden por tickets cerrados? ¿Es justo?
+📤 Mándaselo a tu scrum master (o a tu jefe).
+
+Episodio completo en Black Ice Labs (link en perfil).
+#programacion #inteligenciaartificial #scrum #desarrolladores
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Si a un programador lo midieran solo por tickets cerrados, la IA ya ganó.
+
+Te ayuda a cerrar puntos de historia, a entregar pantallas, y al cliente le encanta ver el burndown bajando. Pero si la ingeniería fuera solo escribir sintaxis, este video terminaría aquí. El trabajo de un programador nunca fue solo teclear código.
+
+👇 ¿A ti te miden por tickets cerrados? ¿Es justo?
+📤 Compártelo con tu scrum master (o con tu jefe).
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#programacion #inteligenciaartificial #scrum #desarrolladores #agile
+```
+
+**YouTube Shorts**
+- **Título:** ¿La IA ya le ganó a los programadores? Depende de cómo te midan
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+Si al programador lo midieran solo por tickets cerrados, la IA ya ganó. Pero la ingeniería no es solo escribir sintaxis.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a tu scrum master.
+#programacion #ia #scrum
+```
+- **Comentario fijado:** *"¿A ti te miden por tickets cerrados? ¿Es justo?"*
+
+#### Clip #3 — la cifra del 50% como punto de anclaje (ambas)
+
+⚠️ El caption **no afirma** el 50% ni el 90%: los cita como lo que se repite por ahí, que es justo
+la tesis del clip.
+
+**Texto en pantalla (0–3 s):** `"El 50% del código ya lo escribe la IA"`
+
+**TikTok**
+```
+"El 50% del código ya lo escribe la IA" 🤨
+¿De dónde sale ese número? Tu cerebro prefiere agarrarse a una cifra redonda que pensar en lo complejo que es el mundo real.
+
+👇 ¿Dónde leíste la última cifra así? ¿Tenía fuente?
+📤 Mándaselo a quien comparte estas cifras en LinkedIn.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#inteligenciaartificial #programacion #programadorjunior #linkedin
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+"El 50% del código ya lo escribe la IA, y en tres años el 90% de los juniors no serán necesarios."
+
+Seguro lo has leído. Yo no repito esas cifras: son un punto de anclaje. Tu cerebro prefiere agarrarse a un número redondo antes que evaluar lo complejo que es el mundo real.
+
+👇 ¿Dónde leíste la última cifra así? ¿Tenía fuente?
+📤 Compártelo con quien comparte estas cifras sin revisarlas.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#inteligenciaartificial #programacion #programadorjunior #desarrolladores #pensamientocritico
+```
+
+**YouTube Shorts**
+- **Título:** ¿La IA ya escribe el 50% del código? Por qué no creo en esa cifra
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+"El 50% del código ya lo escribe la IA." ¿De dónde sale? Por qué las cifras redondas te convencen sin fuente.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a quien comparte estas cifras sin revisarlas.
+#ia #programacion #programadorjunior
+```
+- **Comentario fijado:** *"¿Dónde leíste la última cifra así? ¿Tenía fuente?"*
+
+#### Clip #4 — el problema del pavo (valor)
+
+**Texto en pantalla (0–3 s):** `1,000 días de datos perfectos 🦃`
+
+**TikTok**
+```
+Al pavo lo alimentan 1,000 días seguidos. Su modelo predice que lo quieren. El día 1,001 es Acción de Gracias 🦃
+Así suenan las predicciones de "lo que va a necesitar un programador en 4 años".
+
+👇 ¿Qué tan seguro estás de lo que pedirán a un programador en 4 años?
+📤 Mándaselo a quien ya dio por muerta la profesión.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#inteligenciaartificial #programacion #futurodeltrabajo #programadorjunior
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+1,000 días de datos perfectos… y el día 1,001 es Acción de Gracias. 🦃
+
+Al pavo le dan de comer todos los días. Su modelo es impecable: "los humanos me quieren, mi bienestar sube cada día". Hasta que llega el día 1,001. Quien hoy te dice con certeza qué va a necesitar un programador en 4 años solo está extrapolando una racha. Nadie te da una barra de error.
+
+👇 ¿Qué tan seguro estás de lo que pedirán a un programador en 4 años?
+📤 Guárdalo, o compártelo con quien ya dio por muerta la profesión.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#inteligenciaartificial #programacion #futurodeltrabajo #desarrolladores #programadorjunior
+```
+
+**YouTube Shorts**
+- **Título:** ¿La IA va a reemplazar a los programadores? El problema del pavo
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+1,000 días de datos perfectos y el día 1,001 es Acción de Gracias. Por qué nadie puede predecir con certeza qué necesitará un programador en 4 años.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a quien ya dio por muerta la profesión.
+#ia #programacion #futurodeltrabajo
+```
+- **Comentario fijado:** *"¿Qué tan seguro estás de lo que pedirán a un programador en 4 años?"*
+
+#### Clip #5 — producir no es comprender, y regresar al papel (ambas)
+
+**Texto en pantalla (0–3 s):** `Regresé al papel por culpa de la IA`
+
+**TikTok**
+```
+Tuve que regresar al papel 📓
+La IA acelera la producción, pero no acelera la comprensión. Y sentí que mi atención y mi concentración bajaron.
+
+👇 ¿Te ha pasado? ¿Sientes que piensas menos desde que usas IA?
+📤 Mándaselo a quien ya no puede trabajar sin el chat abierto.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#inteligenciaartificial #programacion #productividad #concentracion
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Tuve que regresar al papel.
+
+La IA acelera la producción, pero no necesariamente acelera la comprensión. Lo notas cuando el código se rompe o cuando te genera más archivos de los que puedes leer. Yo sentí que mi atención y mi concentración bajaron, así que volví a anotar mis ideas y mis dudas en una libreta antes de cada junta.
+
+👇 ¿Te ha pasado? ¿Sientes que piensas menos desde que usas IA?
+📤 Compártelo con quien ya no puede trabajar sin el chat abierto.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#inteligenciaartificial #productividad #concentracion #programacion #desarrolladores
+```
+
+**YouTube Shorts**
+- **Título:** ¿La IA te hace pensar menos? Por qué regresé al papel
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+La IA acelera la producción, pero no la comprensión. Sentí que mi atención bajó y regresé a la libreta.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a quien ya no puede trabajar sin el chat abierto.
+#ia #productividad #programacion
+```
+- **Comentario fijado:** *"¿Te ha pasado? ¿Sientes que piensas menos desde que usas IA?"*
+
+#### Clip #6 — tienes que leer lo que genera la IA (valor)
+
+**Texto en pantalla (0–3 s):** `¿Lees lo que te genera la IA?`
+
+**TikTok**
+```
+Si haces lo que todos, tu código termina en espagueti 🍝
+Tienes que leer lo que genera la IA. Da hueva, sí. Pero el tiempo que ya no tecleas es para planear y ver dónde está alucinando.
+
+👇 ¿Lees todo lo que te genera la IA, o lo aceptas?
+📤 Mándaselo a quien le da "aceptar todo" sin leer.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#inteligenciaartificial #programacion #cleancode #desarrolladores
+```
+
+**Instagram Reels, con cross-post a Facebook activado**
+```
+Si haces lo que todos hacen con la IA, tu código termina en espagueti.
+
+Tienes que sentarte a leer lo que genera. Da hueva, sí. Pero el tiempo que ya no pasas tecleando lo puedes usar para planear, entender el proceso y ver dónde está alucinando o dónde se perdió.
+
+👇 ¿Lees todo lo que te genera la IA, o lo aceptas?
+📤 Guárdalo, o compártelo con quien le da "aceptar todo" sin leer.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#inteligenciaartificial #programacion #cleancode #desarrolladores #codereview
+```
+
+**YouTube Shorts**
+- **Título:** ¿Lees el código que te genera la IA? Deberías
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+Si aceptas todo lo que genera la IA, tu código termina en espagueti. El tiempo que no tecleas es para leer y planear.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo a quien le da "aceptar todo" sin leer.
+#ia #programacion #cleancode
+```
+- **Comentario fijado:** *"¿Lees todo lo que te genera la IA, o lo aceptas?"*
+
+### Clip #7 — miércoles 18-nov (argumento)
+
+**Texto en pantalla (0–3 s):** `La IA es una calculadora`
+
+**TikTok (21:00)**
+```
+La IA es una calculadora. Si no sabes sumar, solo te ayuda a equivocarte más rápido 🧮
+No digo que apagues Copilot. Yo lo uso todos los días.
+
+👇 3 a.m., la base de datos en deadlock: ¿le das el servidor a alguien que nunca debuggeó sin IA?
+📤 Mándaselo al que dice que ya no hace falta aprender a programar.
+
+Episodio completo en Black Ice Labs (link en perfil).
+#programacion #inteligenciaartificial #copilot #programadorjunior
+```
+
+**Instagram Reels (9:00), con cross-post a Facebook activado**
+```
+La IA es una calculadora (y eso es un problema).
+
+No te digo que apagues Copilot. Yo lo uso todos los días, y negarse a usarlo es igual de absurdo. Pero no hay que confundir la herramienta con la disciplina: si no sabes sumar, la calculadora solo te ayuda a equivocarte más rápido… y con más seguridad.
+
+👇 3 a.m., tu base de datos en deadlock y perdiendo dinero por minuto. ¿Le das el servidor a alguien que nunca debuggeó sin IA?
+📤 Compártelo con quien dice que ya no hace falta aprender a programar.
+
+🎙️ Episodio completo de Black Ice Labs: link en bio.
+#programacion #inteligenciaartificial #desarrolladores #copilot #aprenderaprogramar
+```
+
+**YouTube Shorts (20:00)**
+- **Título:** La IA es una calculadora (y eso es un problema)
+- **Video relacionado:** el episodio completo del 027.
+- **Descripción:**
+```
+No digo que apagues Copilot. Digo que si no sabes sumar, la calculadora solo te ayuda a equivocarte más rápido.
+Episodio completo: ¿Un programador junior todavía necesita aprender a programar sin IA?
+📤 Mándaselo al que dice que ya no hace falta aprender a programar.
+#programacion #ia #copilot
+```
+- **Comentario fijado:** *"3 a.m., la base de datos en deadlock: ¿le das el servidor a alguien que nunca debuggeó sin IA?"*
+
+⚠️ **Antes de programar:** el episodio largo tiene que estar publicado para poder ligarlo, y su
+descripción todavía promete el incidente del pool de conexiones (ver arriba).
 
 ## Related
 

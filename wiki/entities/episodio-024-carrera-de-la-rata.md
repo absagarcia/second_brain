@@ -3,7 +3,7 @@ title: "Episodio 024 — La carrera de la rata del programador moderno"
 type: entity
 domain: [blackicelabs]
 created: 2026-09-07
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: raw/blackicelabs/episodio-024-carrera-de-la-rata-transcript-2026-09-04.md
     fact_date: 2026-09-04
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-09-04
     ingest_date: 2026-09-07
     confidence: high
+  - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (Ask Studio: Shorts 15-sep → 12-oct con % eligió verlo, + largos de 90 días con impresiones/CTR)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
 ---
 
 # Episodio 024 — La carrera de la rata del programador moderno
@@ -175,6 +179,29 @@ funcionan"* de *"se saturó el canal"*. En YouTube sí hay una pista: los shorts
 clips, en la misma ventana, convirtieron ~1 sub por cada 1,000 vistas, y estos 0. Con n=6
 y un solo estilo de corte, aplica a clips de confesión de este episodio, no a todo clip.
 Detalle en [[absadev]].
+
+### Actualización 2026-10-15: los 7 clips asentados, más el "% eligió verlo"
+
+Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`. ⚠️ Cifras de **vida corta**.
+
+| Clip | % eligió verlo | Vistas | Subs |
+|---|---:|---:|---:|
+| ¿Aguantas un layoff? | 30.8% | 1,021 | 0 |
+| Oxxo | 27.3% | 927 | 0 |
+| Cuánto gastas comiendo en la oficina | 53.5% | 805 | 0 |
+| LinkedIn | 27.5% | 716 | 0 |
+| Cuántos "lujos" | 29.2% | 482 | 0 |
+| Tu próximo aumento | 22.7% | 450 | 0 |
+| Subí de sueldo y seguí igual | 43.9% | 387 | 0 |
+
+- **Los 7 clips: 4,788 vistas y 0 subs.** La mediana de "eligió verlo" es 29%, contra 52% en los shorts
+  grabados a propósito de la misma ventana.
+- El único clip que retiene como un short normal es **el de la aritmética de la comida** (53.5%). Es el
+  único que abre con una cuenta concreta en vez de una confesión, y aun así hizo 0 subs.
+- **El episodio largo** suma +3 con 748 vistas (CTR 2.83%): es **el que más suscriptores dio** entre los
+  4 largos de 90 días.
+- La lectura del 07-oct se mantiene y se refuerza con n=7. Ver [[absadev]] y
+  [[estrategia-contenido-absadev]], sexta lectura.
 
 ## Related
 
