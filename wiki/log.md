@@ -3137,3 +3137,10 @@ la API del 07-oct. Snapshot nuevo en [[absadev]] (short 0.22 contra largo 3.7 su
 línea del canal), y con eso se resuelve la discrepancia de la mañana. Sexta lectura del embudo en
 [[estrategia-contenido-absadev]]: se marca refutada la doctrina de dos títulos y corregido a medias "el podcast no es
 motor", junto a los textos originales. Los 7 clips asentados quedan en [[episodio-024-carrera-de-la-rata]].
+
+## [2026-10-15] ingest | Ask Studio: CTR por fuente, Shorts → largo, retención, audiencia — blackicelabs
+Fuente nueva en `raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md`. Corrige la sexta lectura
+de esta mañana: el CTR del largo en Browse está bien, lo que falta son impresiones (Búsqueda 1–2%, Shorts 0). Las correcciones
+quedan anotadas junto a los textos originales en [[absadev]] y [[estrategia-contenido-absadev]] (séptima lectura). Primer
+dato de edad del canal (35% tiene 45+). Resultados de retención en [[episodio-024-carrera-de-la-rata]] y
+[[episodio-026-flujo-freelance-claude]].

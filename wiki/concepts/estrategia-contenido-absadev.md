@@ -69,6 +69,10 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Ask Studio: CTR por fuente de tráfico, Shorts→largo, retención del arranque, fechas/comentarios de shorts, audiencia 28d)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
 ---
 
 # Estrategia de contenido — Absadev
@@ -2461,6 +2465,8 @@ afirmación.** Se aplica a los clips de reserva del 027 y del 028 sin costo extr
 - **Retention**, el muro, **no es un problema de todo el canal: es de formato.** El largo sí retiene;
   el short no.
 - El cuello de botella del largo está antes de Retention, **en el clic**: es Acquisition del largo.
+  > ⚠️ **Corregido por la tarde** (séptima lectura): en Browse el CTR está bien (4.2–4.5%). Lo que
+  > falta son impresiones, no clics.
 
 ### ⚠️ La doctrina de dos títulos (19-ago) cumple su condición de refutación
 
@@ -2484,6 +2490,9 @@ reescribe"*. **Ninguno de los 4 la supera.** Y el dato es peor que eso:
 ### Qué cambia (son recomendaciones; la decisión es del usuario)
 
 1. **El dinero está en el empaque del largo, no en hacer más shorts.**
+   > ⚠️ **Corregido por la tarde:** la premisa (CTR bajo = empaque malo) era falsa, porque el CTR
+   > bajo es efecto de la mezcla de fuentes. Se mantiene la otra mitad, "no hacer más shorts". Ver la
+   > séptima lectura.
    - Con las mismas impresiones, pasar del ~2.3% al 3.9% del canal serían ~70% más vistas largas, y
      esas vistas ya convierten. Es aritmética mía, no un pronóstico.
    - Además **resta horas en vez de sumarlas**: cuesta menos cortar 7 clips por episodio y dedicar ese
@@ -2500,9 +2509,64 @@ reescribe"*. **Ninguno de los 4 la supera.** Y el dato es peor que eso:
    - Y usar como referencia los **0.47** de los shorts grabados a propósito, no el 1.7.
    - **No lo cambio sin que el usuario lo confirme.**
 
-**Vida larga (regla que sale de aquí, n todavía chico):** en este canal, **el short sirve para alcance y
+**Vida larga (regla que sale de aquí, n todavía chico; ⚠️ sustituida por la tarde, ver la séptima lectura):** en este canal, **el short sirve para alcance y
 el largo para comunidad.** Se juzgan con métricas distintas: % eligió verlo en el short, CTR más subs por
 cada 1,000 en el largo.
+
+## [2026-10-15, tarde] El embudo, séptima lectura: al largo le faltan impresiones, no clics
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md`. El detalle
+> está en [[absadev]]. **Corrige partes de la sexta lectura** (escrita esta misma mañana); las
+> correcciones van anotadas allá, junto a cada punto.
+
+**Hechos que cambian la lectura:**
+- En Browse, el CTR del largo ya asentado está en **4.2–4.5%**, por encima del 3.86% del canal. El CTR
+  total sale bajo por las impresiones de Sugeridos.
+- **Búsqueda le da al largo nuevo el 1–2% de sus impresiones, y Shorts el 0%.**
+- **Retención:** ~60% sigue viendo a los 30 s, **con y sin cold open**.
+- **Audiencia:** **35% tiene 45 o más y 1.7% tiene entre 18 y 24.** Las vistas son 77% de gente nueva.
+
+**El embudo, actualizado:** en el largo, **el problema es Acquisition**: le llegan pocas impresiones y
+casi todas de quien ya conoce el canal. Activation (el clic) y Retention (los subs) están bien.
+
+### La doctrina de dos títulos, otra vez: la premisa se cae
+
+- La refutación de la mañana (CTR por debajo del canal) **se queda corta**. El problema de fondo es que
+  la doctrina daba por hecho que el largo llega por Búsqueda (*"frío, llegando por búsqueda"*).
+- Para los episodios de opinión **eso no pasa**: llegan por Browse, a gente que ya conoce el canal.
+- Un título armado para la consulta de búsqueda está optimizando una superficie que no le manda
+  impresiones a estos videos.
+- **La doctrina sigue siendo válida sólo para temas que alguien busca.** El único caso con dato es
+  Flutter vs RN, con 6.58% de CTR.
+
+### Recomendación (la decisión es del usuario)
+
+1. **Los próximos largos, del pool de comparaciones** ([[podcast-comparaciones-moviles-guiones]]: ya
+   hay 6 guiones, A–F).
+   - Es la única línea con dato de que **Búsqueda la encuentra**: el catálogo de Flutter vs RN sigue
+     dando subs meses después.
+   - Es la forma que el usuario dijo que más se siente él (pilar 2, 16-jul).
+   - Ya está escrita, así que **no suma horas**.
+   - Los episodios de opinión no se dejan: siguen siendo los que convierten en Browse. Se trata de
+     alternar.
+2. **Clips del podcast en YouTube: bajarlos a 0–1 por episodio.** Llevan 0 subs, 0 vistas mandadas al
+   largo y 0 comentarios. Las horas que liberan van al punto 1.
+   - En TikTok e Instagram el balance es otro (alcance) y **no se decide aquí**.
+3. **La medición de noviembre** sigue con la propuesta de la mañana, pendiente del usuario. Se le suma
+   un dato: los shorts tienen ~0 comentarios, así que en YouTube la Serie FitExe no se puede medir por
+   Activation.
+
+### ⚠️ La edad: dato que no decide nada por sí solo
+
+- 35% tiene 45 o más y casi no hay juniors. Pesa sobre temas pensados para juniors: el 027 se le habla a
+  alguien que casi no está en el canal.
+- Pero **el dato dice quién llega, no a quién quiere hablarle el usuario** (trampa #1 de la skill de
+  analytics, el caso San Gabriel). Se registra, no se convierte en regla.
+- Con esto se cierra la pregunta abierta del 19-ago.
+
+**Vida larga (sustituye la regla de la sexta lectura):** en este canal, el short da alcance sin comunidad.
+El largo de opinión convierte, pero sólo llega por Browse. **El único formato que trae gente nueva al
+largo es el que alguien busca.**
 
 ## Serie 11 — "Nunca reescribas desde cero" (guionizada 2026-09-21)
 
