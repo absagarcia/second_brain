@@ -85,6 +85,10 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Ask Studio: CTR por fuente de tráfico, Shorts→largo, retención del arranque, fechas/comentarios de shorts, audiencia 28d)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
 ---
 
 # Absadev
@@ -1094,7 +1098,10 @@ wiki todavía.
   - ⚠️ **Confusión con el volumen:** los clips también son los que más vistas recibieron. Cuando un
     video llega a público más frío, el % que eligió verlo baja, igual que pasa con el CTR.
   - Aun así, que convierta 0 contra 0.47 no lo explica el volumen.
-- **Inferencia:** en el largo, el cuello de botella es **el empaque, no el contenido**. Quien entra se
+- **Inferencia:** en el largo, el cuello de botella es **el empaque, no el contenido**.
+  - ⚠️ **Corregido el mismo día** (snapshot de abajo): en Browse el CTR está en 4.2–4.5%, por encima
+    del canal. El CTR total bajo lo arrastran las impresiones de Sugeridos. El cuello es cuántas
+    impresiones llegan, no el clic, así que **la cuenta del "~70% más vistas" de abajo ya no aplica**. Quien entra se
   suscribe a un ritmo de 3–4 por cada 1,000 vistas, por encima del 3.0 que la tabla del §6 llama
   "cambio de escalón". Pero solo 2–3% de quienes ven la miniatura hace clic.
   - Subir el CTR de 2.3% a 3.9% (el promedio del canal) con las mismas impresiones serían ~70% más
@@ -1108,6 +1115,85 @@ wiki todavía.
   mezcla Siri, Swift, FitExe y los dos de origen desconocido.
 - **Sigue sin dato:** cuántas vistas del largo vienen desde Shorts, la retención del largo antes y
   después del segundo 30, y la audiencia por edad y país.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (2026-10-15, tercera respuesta de Ask Studio: tráfico, retención y audiencia)
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md`. Cierra los
+> huecos que dejó el snapshot de arriba. **Corrige una inferencia de ese mismo snapshot**; la
+> corrección está anotada junto al texto original.
+
+### CTR por fuente: el empaque del largo no era el problema
+
+| Video | Browse: impr. / CTR | Sugeridos: impr. / CTR | Búsqueda: impr. / CTR |
+|---|---|---|---|
+| La carrera de la rata | 2,031 / **4.19%** | 3,677 / 1.93% | 32 / 6.25% |
+| ¿Alcanza el plan de $20? (026) | 912 / **4.39%** | 3,870 / 1.01% | 107 / 4.67% |
+| Un junior… (027, 3 días) | 2,367 / 2.45% | 122 / 0.00% | 36 / 2.78% |
+| Cuánto cobrar por tu side project | 863 / **4.52%** | 1,789 / 0.67% | 31 / 0.00% |
+
+- **Hecho:** en Browse (Inicio), los 3 largos ya asentados tienen CTR de 4.2–4.5%, **por encima del
+  3.86% del canal**. El CTR total sale bajo porque ~60% de las impresiones caen en Sugeridos, donde
+  hacen clic muy pocos en cualquier canal.
+- **Hecho:** **Búsqueda casi no existe para los largos nuevos.** Son entre 31 y 107 impresiones, apenas
+  el 1–2% del total.
+  - El 35% de tráfico por Búsqueda que justificó la doctrina de dos títulos viene del **catálogo**:
+    Flutter vs RN, con 6.58% de CTR.
+  - Los episodios de opinión no se buscan.
+- **Hecho:** en Sugeridos, la rata saca **2 a 3 veces** el CTR de los otros (1.93% contra 0.67–1.01%).
+  Es el único con título de tipo declarativo. Es n=1, así que no se toma como regla.
+
+### Shorts → largo: cero
+
+- **0 vistas** de los 4 largos llegaron desde el feed de Shorts, y apenas **1** desde "Related Shorts".
+- Junto con los 0 subs de los 7 clips, **en YouTube los clips del podcast no tienen ningún efecto medido
+  más allá del alcance.**
+
+### Retención del arranque (primer dato de curva del canal)
+
+| Video | Arranque | A los 30 s | Al minuto 2 | Duración media vista |
+|---|---|---:|---:|---|
+| La rata (16:24) | con cold open | 60.4% | 37.1% | 3:48 (21.5%) |
+| $20 de Claude (13:10) | con intro de ~24 s | 59.3% | 44.1% | 3:52 (28.6%) |
+
+- **Hecho:** ~40% se va antes del segundo 30 en los dos.
+- **Inferencia (débil):** **el cold open no hizo diferencia a los 30 s** (60.4 contra 59.3). Lo que se
+  pierde en el arranque no se explica por la intro.
+  - Es n=2 y no hay referencia propia, porque es la primera curva que entra al wiki.
+  - No se importa un umbral de fuera.
+
+### Shorts: fechas y comentarios
+
+- **2 comentarios en 17 shorts** en 4 semanas: Swift y "cuánto gastas". **Los shorts no aportan nada a
+  Activation.**
+- Con las fechas se descarta el sesgo de edad: los shorts de precio de FitExe (16, 19 y 23-sep) y el de
+  Swift (15-sep) son de los **más viejos** de la ventana y aun así tienen 19–109 vistas. **No es que
+  sean jóvenes: YouTube no los distribuyó.**
+- *"No soportarías"* y *"De paso te casas con el"* (20-sep, 13 y 18 s) son los únicos que dieron subs.
+  ⚠️ Ask Studio no tiene transcripción de ellos; lo de "humor de oficina / texto en pantalla" es **su
+  inferencia**. El contenido real lo tiene que confirmar el usuario.
+
+### Audiencia (28 días)
+
+- **Edad:** 25–34 38.0% · 35–44 25.3% · **45+ 35.1%** (45–54 16.5, 55–64 11.6, 65+ 7.0) · **18–24 1.7%**.
+  Es el primer dato de edad. Cierra la pregunta abierta desde el 19-ago (el espectador de 60+ no-dev):
+  **más de un tercio del canal tiene 45 o más, y casi no hay estudiantes ni juniors.**
+- **País:** México 54.5%. Le siguen Argentina 1.1%, España 0.7% y EE. UU. 0.1%. El resto (~42%) no viene
+  desglosado.
+- **Nuevos 76.8% / recurrentes 19.1%** (de las vistas). Es el muro de Retention medido de otra forma.
+
+### Lo que dice este snapshot
+
+- **Corrección:** el cuello del largo **no es el clic**. Es la **cantidad de impresiones**: el largo nuevo
+  recibe 2.5–6K, y casi todas son de Browse (de quien ya te conoce) o de Sugeridos.
+  - Ni Búsqueda ni Shorts le mandan gente.
+  - El largo empaqueta bien, retiene igual con o sin cold open, y convierte alto. Le falta **llegar a
+    más gente**.
+- **Inferencia:** las dos fuentes de impresiones que hoy no funcionan tienen arreglos distintos:
+  - **Búsqueda** sólo trae gente a temas que alguien busca: el catálogo de Flutter vs RN, con 6.58% de
+    CTR. Los episodios de opinión no la usan, y no la van a usar.
+  - **Shorts → largo** está en 0, y nada en los datos dice que se vaya a mover.
+- **Ruido descartado:** el 2.45% en Browse del 027 (3 días) y el 6.25% de Búsqueda de la rata (32
+  impresiones) son muestras demasiado chicas.
 
 ## Related
 

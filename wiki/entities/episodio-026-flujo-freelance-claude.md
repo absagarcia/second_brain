@@ -3,7 +3,7 @@ title: "Episodio 026 — Mi flujo freelance con Claude"
 type: entity
 domain: [blackicelabs, freelance, swe]
 created: 2026-09-28
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: raw/blackicelabs/episodio-026-flujo-freelance-claude-transcript-2026-09-28.md
     fact_date: 2026-09-28
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-09-28
     ingest_date: 2026-09-28
     confidence: high
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Ask Studio: CTR por fuente de tráfico, Shorts→largo, retención del arranque, fechas/comentarios de shorts, audiencia 28d)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
 ---
 
 # Episodio 026 — Mi flujo freelance con Claude
@@ -599,6 +603,19 @@ de 8-10 min, igual que el 024 (16:24) y el 027 (13:46). Tres de tres. La prueba
 de duración del 19-ago sigue sin una lectura limpia; si ninguna grabación entra
 en el rango, **la prueba no se está haciendo**, y conviene decidirlo en vez de
 seguir anotándolo.
+
+## Resultado en YouTube (Ask Studio, 2026-10-15)
+
+⚠️ Cifras de **vida corta**. Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md` y
+`raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md`.
+
+- **Totales:** 452 vistas, **+2 subs**, 4,983 impresiones y CTR total de 1.75%.
+- **Por fuente:** Browse 912 impresiones con **4.39%** de CTR · Sugeridos 3,870 con 1.01% · Búsqueda 107
+  con 4.67%. Desde Shorts, 0.
+- **Retención:** 59.3% a los 30 s (después de la intro de ~24 s) y 44.1% al minuto 2. Duración media
+  vista 3:52 (28.6%). La caída más fuerte es entre 0:48 y 1:05 (−9.6%).
+- **Lectura:** el empaque funciona en Browse. El CTR total bajo es por la mezcla de fuentes. Ver
+  [[absadev]] y [[estrategia-contenido-absadev]] (séptima lectura).
 
 ## Related
 

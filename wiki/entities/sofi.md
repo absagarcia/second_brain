@@ -3,7 +3,7 @@ title: Sofi
 type: entity
 domain: [reflections, finance]
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-10-19
 sources:
   - path: raw/reflections/journal-2026-09-08.md
     fact_date: 2026-09-08
@@ -27,6 +27,13 @@ ocupan la cabeza — no está registrado si la inversión sería conjunta, solo
 de ella, o si ya está decidida. **Sin cifra de retorno ni plazo**, y sin
 relación conocida con las finanzas de [[finanzas-personales-2026-2027]] (los
 100,000 no aparecen ahí como compromiso).
+
+**2026-10-19:** el usuario trae a revisión las finanzas del estudio de barre
+[[baika-barre]] (feb–jul 2026) y una propuesta de estudio nuevo,
+[[grow-studio]], que describe como "independiente". **No se ha confirmado** si alguno de
+los dos es el estudio en el que Sofi invertiría. Si es Grow, la revisión del
+2026-10-19 encontró que la proyección (114.8k/mes) pide unas 2.3 veces la venta directa
+real de Baika y no incluye costos.
 
 ## Tensión anotada: "vida de calidad en pareja"
 
@@ -52,3 +59,4 @@ se pregunte también su versión.
 - [[absa-garcia]] — donde vive el material personal/de pareja del usuario
 - [[objetivos-vida-2026-2027]] — objetivo 10 (Japón "con su esposa")
 - [[finanzas-personales-2026-2027]] — donde no aparece todavía la inversión del estudio de barre
+- [[baika-barre]] / [[grow-studio]] — finanzas de un estudio real y la propuesta revisada el 2026-10-19

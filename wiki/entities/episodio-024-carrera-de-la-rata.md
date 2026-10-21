@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Ask Studio: CTR por fuente de tráfico, Shorts→largo, retención del arranque, fechas/comentarios de shorts, audiencia 28d)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
 ---
 
 # Episodio 024 — La carrera de la rata del programador moderno
@@ -202,6 +206,10 @@ Fuente: `raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md`. ⚠
   4 largos de 90 días.
 - La lectura del 07-oct se mantiene y se refuerza con n=7. Ver [[absadev]] y
   [[estrategia-contenido-absadev]], sexta lectura.
+
+- **Retención del largo (2026-10-15, tarde):** 60.4% a los 30 s y 37.1% al minuto 2. La duración
+  media vista es 3:48 (21.5%), y la caída más fuerte es en el primer minuto (−49%) **aunque arranca
+  con cold open**. CTR en Browse 4.19%; ningún clip le mandó vistas. Ver [[absadev]].
 
 ## Related
 

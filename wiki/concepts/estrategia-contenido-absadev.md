@@ -69,6 +69,10 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; las vistas de los clips del 024 cuadran con la API del 07-oct (±1%)
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Ask Studio: CTR por fuente de tráfico, Shorts→largo, retención del arranque, fechas/comentarios de shorts, audiencia 28d)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
 ---
 
 # Estrategia de contenido — Absadev
@@ -2246,6 +2250,10 @@ una — condición ya anotada arriba, no nueva.
 
 ## [2026-10-07] Serie de noviembre — "FitExe con IA" (8 shorts) + calendario del 2 al 27-nov
 
+> ⚠️ **2026-10-15: reemplazada por completo, sin haberse grabado.** Lo decidió el usuario. Noviembre ahora es el
+> [[batch-noviembre-2026-shorts]]: 12 shorts en tres ramas (humor, identidad y utilidad), todos con material de
+> los episodios 026–028, y sin clips en el calendario. Esta sección queda como estaba, como registro y como banco.
+
 **Pedido del usuario (2026-10-07):** hacer la siguiente serie partiendo del video de OpenSpec en
 FitExe (*"a este video le fue muy bien"*), y dejar noviembre programado desde octubre porque en
 noviembre *"solo tengo boda"*.
@@ -2337,8 +2345,27 @@ entienden sin el episodio y no repiten historias de la serie.
 ### Cómo se mide (corte el 2-dic)
 
 - **Sin promoción pagada en noviembre.** Si no, se repite la contaminación del 9-sep.
-- **YouTube:** `yt_report.py` sobre la ventana del 2 al 29-nov. Éxito: SPV ≥ 1.7; cambio de escalón:
-  ≥ 3.0. Más la comparación I vs U a misma edad.
+- ~~**YouTube:** `yt_report.py` sobre la ventana del 2 al 29-nov. Éxito: SPV ≥ 1.7; cambio de escalón:
+  ≥ 3.0. Más la comparación I vs U a misma edad.~~ *(criterio del 07-oct, sustituido el 15-oct; ver abajo)*
+- **YouTube, criterio vigente (decidido por el usuario el 2026-10-15):** se comparan **los shorts entre sí**,
+  ya no las métricas del canal.
+  - **Por qué cambia:** el SPV del canal lo mueven los largos y el catálogo, porque el largo convierte
+    ~17 veces más que el short. Con ese criterio, la serie no se podía medir. Ver la sexta y la séptima
+    lectura.
+  - **Qué se mide:** para cada uno de los 8 shorts, en sus **primeros 7 días**: *% eligió verlo*, subs
+    netos por cada 1,000 vistas, vistas y comentarios. Se pide a Ask Studio o al export de Studio.
+  - **La comparación:** las medianas de los 4 de identidad contra los 4 de utilidad.
+  - **La referencia** son los shorts del 15-sep al 12-oct grabados a propósito: **52% eligió verlo y
+    0.47 subs por cada 1,000**. El piso son los clips de podcast: 29% y 0.
+  - **Éxito:** la serie supera la referencia. **Cambio de escalón:** el doble (≥ 0.9 subs por cada
+    1,000).
+  - ⚠️ **Los subs por short van a ser 0 o 1**, así que ese número es ruidoso. La señal más estable es
+    el % eligió verlo, y es la que pesa si las dos no coinciden.
+  - **Fecha de lectura: 4-dic**, no 2-dic, para que el último short (27-nov) complete sus 7 días.
+  - `yt_report.py` del canal se sigue corriendo como contexto, pero ya no decide nada.
+  - ⚠️ **Mismo día, más tarde:** la serie FitExe se reemplazó por el [[batch-noviembre-2026-shorts]]. El método
+    no cambia, pero se aplica a **tres ramas de 4** (H, I, U), y se agrega la comparación de U1 contra el clip de
+    /compact.
 - **TikTok e Instagram:** el export no trae seguidores, así que hace falta la captura de
   **nuevos seguidores por video** (TikTok) y de **follows por reel** (Instagram) de los 12.
 - **Lo que decide:** si un registro convierte el doble que el otro en dos redes, se adopta. Si no hay
@@ -2461,6 +2488,8 @@ afirmación.** Se aplica a los clips de reserva del 027 y del 028 sin costo extr
 - **Retention**, el muro, **no es un problema de todo el canal: es de formato.** El largo sí retiene;
   el short no.
 - El cuello de botella del largo está antes de Retention, **en el clic**: es Acquisition del largo.
+  > ⚠️ **Corregido por la tarde** (séptima lectura): en Browse el CTR está bien (4.2–4.5%). Lo que
+  > falta son impresiones, no clics.
 
 ### ⚠️ La doctrina de dos títulos (19-ago) cumple su condición de refutación
 
@@ -2484,6 +2513,9 @@ reescribe"*. **Ninguno de los 4 la supera.** Y el dato es peor que eso:
 ### Qué cambia (son recomendaciones; la decisión es del usuario)
 
 1. **El dinero está en el empaque del largo, no en hacer más shorts.**
+   > ⚠️ **Corregido por la tarde:** la premisa (CTR bajo = empaque malo) era falsa, porque el CTR
+   > bajo es efecto de la mezcla de fuentes. Se mantiene la otra mitad, "no hacer más shorts". Ver la
+   > séptima lectura.
    - Con las mismas impresiones, pasar del ~2.3% al 3.9% del canal serían ~70% más vistas largas, y
      esas vistas ya convierten. Es aritmética mía, no un pronóstico.
    - Además **resta horas en vez de sumarlas**: cuesta menos cortar 7 clips por episodio y dedicar ese
@@ -2500,9 +2532,93 @@ reescribe"*. **Ninguno de los 4 la supera.** Y el dato es peor que eso:
    - Y usar como referencia los **0.47** de los shorts grabados a propósito, no el 1.7.
    - **No lo cambio sin que el usuario lo confirme.**
 
-**Vida larga (regla que sale de aquí, n todavía chico):** en este canal, **el short sirve para alcance y
+**Vida larga (regla que sale de aquí, n todavía chico; ⚠️ sustituida por la tarde, ver la séptima lectura):** en este canal, **el short sirve para alcance y
 el largo para comunidad.** Se juzgan con métricas distintas: % eligió verlo en el short, CTR más subs por
 cada 1,000 en el largo.
+
+## [2026-10-15, tarde] El embudo, séptima lectura: al largo le faltan impresiones, no clics
+
+> Fuente: `raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md`. El detalle
+> está en [[absadev]]. **Corrige partes de la sexta lectura** (escrita esta misma mañana); las
+> correcciones van anotadas allá, junto a cada punto.
+
+**Hechos que cambian la lectura:**
+- En Browse, el CTR del largo ya asentado está en **4.2–4.5%**, por encima del 3.86% del canal. El CTR
+  total sale bajo por las impresiones de Sugeridos.
+- **Búsqueda le da al largo nuevo el 1–2% de sus impresiones, y Shorts el 0%.**
+- **Retención:** ~60% sigue viendo a los 30 s, **con y sin cold open**.
+- **Audiencia:** **35% tiene 45 o más y 1.7% tiene entre 18 y 24.** Las vistas son 77% de gente nueva.
+
+**El embudo, actualizado:** en el largo, **el problema es Acquisition**: le llegan pocas impresiones y
+casi todas de quien ya conoce el canal. Activation (el clic) y Retention (los subs) están bien.
+
+### La doctrina de dos títulos, otra vez: la premisa se cae
+
+- La refutación de la mañana (CTR por debajo del canal) **se queda corta**. El problema de fondo es que
+  la doctrina daba por hecho que el largo llega por Búsqueda (*"frío, llegando por búsqueda"*).
+- Para los episodios de opinión **eso no pasa**: llegan por Browse, a gente que ya conoce el canal.
+- Un título armado para la consulta de búsqueda está optimizando una superficie que no le manda
+  impresiones a estos videos.
+- **La doctrina sigue siendo válida sólo para temas que alguien busca.** El único caso con dato es
+  Flutter vs RN, con 6.58% de CTR.
+
+### Recomendación (la decisión es del usuario)
+
+1. **Los próximos largos, del pool de comparaciones** ([[podcast-comparaciones-moviles-guiones]]: ya
+   hay 6 guiones, A–F).
+   - Es la única línea con dato de que **Búsqueda la encuentra**: el catálogo de Flutter vs RN sigue
+     dando subs meses después.
+   - Es la forma que el usuario dijo que más se siente él (pilar 2, 16-jul).
+   - Ya está escrita, así que **no suma horas**.
+   - Los episodios de opinión no se dejan: siguen siendo los que convierten en Browse. Se trata de
+     alternar.
+2. **Clips del podcast en YouTube: bajarlos a 0–1 por episodio.** Llevan 0 subs, 0 vistas mandadas al
+   largo y 0 comentarios. Las horas que liberan van al punto 1.
+   - En TikTok e Instagram el balance es otro (alcance) y **no se decide aquí**.
+3. **La medición de noviembre** sigue con la propuesta de la mañana, pendiente del usuario. Se le suma
+   un dato: los shorts tienen ~0 comentarios, así que en YouTube la Serie FitExe no se puede medir por
+   Activation.
+
+### ⚠️ La edad: dato que no decide nada por sí solo
+
+- 35% tiene 45 o más y casi no hay juniors. Pesa sobre temas pensados para juniors: el 027 se le habla a
+  alguien que casi no está en el canal.
+- Pero **el dato dice quién llega, no a quién quiere hablarle el usuario** (trampa #1 de la skill de
+  analytics, el caso San Gabriel). Se registra, no se convierte en regla.
+- Con esto se cierra la pregunta abierta del 19-ago.
+
+**Vida larga (sustituye la regla de la sexta lectura):** en este canal, el short da alcance sin comunidad.
+El largo de opinión convierte, pero sólo llega por Browse. **El único formato que trae gente nueva al
+largo es el que alguien busca.**
+
+## [2026-10-15, noche] Batch de largos: las 6 comparaciones, 2 por mes desde diciembre
+
+**Pedido del usuario:** *"hagamos un nuevo batch de videos largos con todo lo que sabes ahora"*, después de
+preguntar si los shorts lo acercan a los 10K. La respuesta a eso fue no: unos 3–6 subs por los 12 shorts.
+
+**Decisión:** el batch no es nuevo, es **el pool de comparaciones A–F con los ajustes v2**
+([[podcast-comparaciones-moviles-guiones]]). La séptima lectura dice que es la única línea larga con
+evidencia de que la Búsqueda la encuentra. Inventar temas nuevos con los guiones ya escritos sería la
+sobreextensión de siempre.
+
+- **Cadencia:** el podcast pasa de 1 a **2 episodios por mes**. Las horas salen de dejar de cortar clips
+  para YouTube.
+- **Orden:** C → E → A → B → D → F, del 9-dic al 17-feb. A va en enero para salir como *"2027"*.
+- **Grabación por adelantado** (corrección del usuario, el mismo día): C, E, A y B se graban en **una sola sesión
+  ~25-oct**, para tener 2 meses de colchón y grabar con menos estrés. Editar va aparte, en bloques, antes de cada
+  publicación.
+- **Ajustes de la v2:**
+  - Los primeros 30 s responden la búsqueda.
+  - El intro de podcast sale de la versión de YouTube.
+  - Capítulos por ronda.
+  - Términos definidos en una línea.
+  - El cierre anuncia la siguiente comparación y pide la suscripción por eso.
+- **Medición:** % de impresiones desde Búsqueda ≥ 10% y subs sostenidos del día 29 al 90. Primera
+  lectura a mediados de febrero.
+- **Aritmética de por qué esta línea** (ilustrativa, n=1): si cada comparación se comporta como Flutter vs
+  RN 2026 (+5 subs al mes, meses después), 10 episodios llevarían el ritmo de +22 a ~+70 cada 28 días. Eso
+  baja los 10K de ~7 años a ~2.5. **No es un pronóstico**: es el argumento de por qué vale la pena medir
+  esto antes que cualquier otra cosa.
 
 ## Serie 11 — "Nunca reescribas desde cero" (guionizada 2026-09-21)
 

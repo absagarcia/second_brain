@@ -3,7 +3,7 @@ title: "Podcast — Comparaciones móviles A–F (guiones de grabación)"
 type: entity
 domain: [blackicelabs, fitexe, swe]
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: ~/Documents/Proyects/app_fitexe (repo: pubspec, documentation/, openspec/, git log; revisado el 2026-10-07)
     fact_date: 2026-09-22
@@ -16,6 +16,14 @@ sources:
   - path: raw/blackicelabs/absadev-youtube-api-2026-10-07.md (por qué esta línea: Flutter vs RN sigue convirtiendo)
     fact_date: 2026-10-04
     ingest_date: 2026-10-07
+    confidence: high
+  - path: raw/blackicelabs/youtube-ask-studio-trafico-retencion-audiencia-2026-10-15.md (Búsqueda 1–2% en largos de opinión, retención del arranque, edad)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
+    confidence: high
+  - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (el largo convierte 3.7 subs por cada 1,000 vistas)
+    fact_date: 2026-10-12
+    ingest_date: 2026-10-15
     confidence: high
 ---
 
@@ -33,6 +41,169 @@ con el desarrollo en **5 rondas**: cada ronda es un clip ya marcado. Duración o
 tiendas.
 
 **Orden de grabación:** A (diciembre) → C → B → D → E → F. El F solo si hay experiencia real con Bloc.
+*(⚠️ Sustituido el 2026-10-15 por C → E → A → B → D → F; ver la sección v2.)*
+
+---
+
+> 📄 **Guiones completos para grabar (texto hablado, v2 aplicada, ⚠️ VERIFICAR resueltos):**
+> [[comparaciones-moviles-guiones-sesion-25-oct]], con C, E, A, B y D. Las rondas en viñetas de abajo quedan como v1.
+
+## v2: ajustes del 2026-10-15 con los datos de Ask Studio (aplican a los 6)
+
+> El usuario pidió *"un nuevo batch de videos largos con todo lo que sabes ahora"*. Las rondas de abajo
+> **no se tocan**: el criterio y los artefactos siguen valiendo. Lo que cambia es **cómo abre, cómo
+> cierra, el orden y cómo se mide**, por cuatro datos del 15-oct (detalle en [[absadev]] y en la séptima
+> lectura de [[estrategia-contenido-absadev]]):
+>
+> 1. Los largos de opinión reciben **1–2% de sus impresiones desde Búsqueda**. Flutter vs RN (catálogo)
+>    vive de Búsqueda, con 6.58% de CTR, y en septiembre todavía daba subs: **este batch existe por eso.**
+> 2. Quien llega por Búsqueda trae una pregunta. **~40% se va antes del segundo 30, con o sin cold open**
+>    (n=2).
+> 3. El largo convierte **3.7 subs por cada 1,000 vistas**. Los clips de Shorts le mandan **0 vistas**.
+> 4. **35% de la audiencia tiene 45 o más**, y casi no hay juniors.
+
+### Qué cambia en los 6
+
+1. **Los primeros 30 segundos responden la búsqueda.** Primero la pregunta del título, luego la promesa
+   de las 5 rondas con veredicto, y al final la credencial (la app en producción). La historia personal
+   que abría cada hook pasa al segundo 20–30.
+2. **El intro del podcast sale de la versión de YouTube.** El "Bienvenidos… Soy Absa Garcia", el guiño
+   al café y la transición Lo-Fi se quedan en Spotify, o se mueven después de la ronda 1.
+   - El 026 cae −9.6% entre 0:48 y 1:05, en la zona de transición. Es n=1, pero quitarlo no cuesta nada.
+3. **Capítulos por ronda en la descripción.** Quien busca "rendimiento" salta directo a esa ronda.
+   Mejor que se quede viendo esa parte a que se vaya del video.
+4. **Cada término técnico se define una vez, en una línea** (RLS, Edge Function, Impeller, provider…).
+   Esto es por el 45+, sin bajar el nivel.
+5. **El cierre anuncia la siguiente comparación por nombre y pide la suscripción por esa razón.**
+   - Es el mecanismo central del diagnóstico de julio: *nadie se suscribe a un video, se suscribe a que
+     haya uno siguiente*.
+   - No choca con la medición de noviembre, porque esa es solo de shorts.
+   - Plantilla: *"La siguiente comparación es **[X vs Y]**, con la misma app en producción. Si te sirvió
+     esta, suscríbete para que te llegue."* Después va el cierre de marca de siempre.
+   - ⚠️ **Handle por confirmar:** los cierres dicen *"absa.ai"*, que viene de la skill del podcast, pero el
+     canal es @Absadev y el TikTok absa.dev. Hay que decidir cuál se dice en cámara.
+6. **Clips en YouTube: ninguno.** Si se cortan para TikTok o Instagram, que sean como mucho 2 por
+   episodio, con la regla de entrar con sujeto y salir en una afirmación.
+7. **Miniatura:** copiar el patrón de *"Flutter vs React Native 2026"*, que tiene 6.58% de CTR.
+   ✏️ El usuario tiene que confirmar cómo es esa miniatura (el wiki no la tiene), y hacer 2–3 variantes
+   para *Test & Compare*.
+8. **Duración:** se queda en ~12 min. La retención se estabiliza después del minuto 2; el problema está
+   en el arranque, no en la duración.
+
+### Títulos finales (búsqueda primero, sin año salvo en A)
+
+| # | Título de YouTube | Por qué así |
+|---|---|---|
+| C | Supabase vs Firebase para Flutter: por qué mi app usa los dos | la consulta va al inicio |
+| E | ¿Aprender Swift si ya sabes Flutter? Flutter vs SwiftUI con una app real | pregunta de búsqueda + credencial |
+| A | Flutter vs React Native 2027: lo que aprendí con una app en producción | repite la consulta con año que ya funciona; sale en enero, cuando se busca "2027" |
+| B | Flutter web vs React: por qué mi portal no está en Flutter | sin cambio |
+| D | Stripe vs pagos in-app: cómo cobrar suscripciones en tu app Flutter | sin cambio de fondo |
+| F | Riverpod vs Bloc en Flutter: cuál usar en una app real | sin cambio; sigue siendo condicional |
+
+El sufijo *"| Black Ice Labs"* se quita del título y va en la descripción. Le quita caracteres a la consulta.
+
+### Aperturas nuevas (0:00–0:30, versión YouTube)
+
+**C — Supabase vs Firebase**
+> «¿Supabase o Firebase para tu app en Flutter? Mi app usa los dos, y no es un error: Supabase para todos
+> los datos y Firebase solo para mandarte la notificación. En cinco rondas te digo cuándo conviene cada
+> uno, y al final, la regla que yo uso para decidir. Todo con FitExe, una app de gimnasios con atletas
+> reales reservando clases.»
+
+**E — Flutter vs SwiftUI**
+> «¿Vale la pena aprender Swift si ya sabes Flutter? Mi app está hecha en Flutter, y aun así, si quiero que
+> funcione en un Apple Watch, mi propio plan dice: nativo. En cinco rondas te digo dónde alcanza Flutter y
+> dónde se acaba. Y no, no vengo a prometer que voy a aprender Swift.»
+
+**A — Flutter vs React Native 2027**
+> «¿Flutter o React Native en 2027? Te respondo con una app en producción: ✏️[número de commits al día de
+> grabar, con `git log`] y atletas reales usándola. Cinco rondas (rendimiento, experiencia, costo,
+> ecosistema y lo que me arrepiento) y mi veredicto al final. Spoiler: el rendimiento no es lo que decide.
+> En febrero de 2026 hice la primera versión de esta comparación; hoy les digo qué sigue siendo cierto.»
+
+**B — Flutter web vs React**
+> «¿Flutter web o React para la web de tu app? Soy dev de Flutter, y el portal de mi app está en React. La
+> app de los atletas es Flutter, el portal de coaches es React con Vite y la landing es Astro. En cinco
+> rondas: cuándo Flutter sí llega a la web y cuándo no. Y por qué yo elegí ✏️[la razón real].»
+
+**D — Stripe vs in-app**
+> «¿Stripe o pagos dentro de la app? Depende de una sola pregunta: ¿qué estás vendiendo? Mi app cobra
+> membresías de gimnasio, y el coach recibe el pago con Stripe. En cinco rondas te explico cuándo Apple y
+> Google se quedan con su parte, y cuándo no.» ⚠️ Sin verificar las reglas actuales de las tiendas, no se
+> graba.
+
+**F — Riverpod vs Bloc** *(sólo si hay experiencia real con Bloc)*
+> «¿Riverpod o Bloc para tu app Flutter? En mi app, cambiabas de fecha y los entrenamientos no cambiaban:
+> una sola línea de Riverpod. En cinco rondas te digo por qué ese bug es el mejor argumento a favor… y en
+> contra.»
+
+### Orden y calendario: grabar por adelantado (cambio del mismo día)
+
+> ⚠️ **Corrección del usuario, 2026-10-15:** *"no tengo que grabar para mantener la consistencia… sería mejor si ya
+> tengo contenido por adelantado y así estresarme menos por grabar videos del podcast"*.
+> - El calendario de abajo tenía las grabaciones pegadas a cada publicación (sesiones en dic, ene y fin de ene).
+>   Eso contradecía la regla que el wiki ya tenía desde julio: **la racha se mide en días de colchón programado, no
+>   en si se publicó hoy** ([[estrategia-contenido-absadev]], cadencia del 28-jul).
+> - Se cambia a **una sola sesión en octubre**. La versión anterior se conserva abajo, tachada.
+
+| Episodio | Grabar | Editar (a más tardar) | Publicar | Su cierre anuncia |
+|---|---|---|---|---|
+| C — Supabase vs Firebase | **sesión única, ~sáb 25-oct** | 5-dic | ~mié 9-dic | E |
+| E — Flutter vs SwiftUI | **sesión única** | 18-dic | ~mié 23-dic | A |
+| A — Flutter vs RN 2027 | **sesión única** | 2-ene | ~mié 6-ene | B |
+| B — Flutter web vs React | **sesión única** | 15-ene | ~mié 20-ene | D |
+| D — Stripe vs in-app | sesión única **si la verificación de tiendas está lista**; si no, enero | 29-ene | ~mié 3-feb | F (o el siguiente del pool) |
+| F — Riverpod vs Bloc | sólo si hay experiencia real con Bloc | 12-feb | ~mié 17-feb | — |
+
+- **Con 4 episodios grabados en octubre, el colchón del 9-dic es de 4 episodios: 2 meses** sin tener que grabar un
+  largo. Se separa grabar de editar: grabar es lo que estresa, y editar se puede hacer en bloques chicos.
+- **Sesión de ~4 h** con el mismo set. Va en un fin de semana distinto a las sesiones del
+  [[batch-noviembre-2026-shorts]], o el mismo si conviene más.
+- ⚠️ **Costo, dicho:** octubre queda con 3 sesiones de grabación, a tres semanas del maratón (8-nov). Si algo se
+  cae, **se cae D**, nunca el sueño ni las salidas largas.
+- **Requisito: llenar los ✏️ de C, E, A y B antes de la sesión.** Sin eso se graba con huecos.
+- **Regla para contenido que sale 2–4 meses después de grabarse:** nada de "hoy", "esta semana" ni "el mes
+  pasado". Tampoco precios, versiones ni reglas de tiendas sin decir "al momento de grabar".
+  - A es la excepción: se graba pensando en el título *"2027"*. Decir "en febrero de 2026 hice la primera versión"
+    funciona igual en enero.
+- A sigue yendo en enero por la consulta con año (ver el razonamiento de la versión anterior).
+
+<details><summary>Versión anterior (mismo día, superada): grabar justo antes de publicar</summary>
+
+**Orden y calendario (tentativo: 2 por mes, desde diciembre)**
+
+| Episodio | Grabar | Publicar | Su cierre anuncia |
+|---|---|---|---|
+| C — Supabase vs Firebase | sesión 1, ~5–6 dic | ~mié 9-dic | E |
+| E — Flutter vs SwiftUI | sesión 1, ~5–6 dic | ~mié 23-dic | A |
+| A — Flutter vs RN 2027 | sesión 2, ~2–3 ene | ~mié 6-ene | B |
+| B — Flutter web vs React | sesión 2, ~2–3 ene | ~mié 20-ene | D |
+| D — Stripe vs in-app | sesión 3, fin de ene | ~mié 3-feb | F (o el siguiente del pool) |
+| F — Riverpod vs Bloc | sesión 3, fin de ene | ~mié 17-feb | — |
+
+- **¿Por qué A no va primero?** Lo que funcionó del original fue la consulta con año (*"2026"*, publicado
+  en febrero). Si A sale en diciembre con "2026" caduca en semanas; si sale con "2027", se adelanta a la
+  búsqueda. Enero cubre las dos cosas. Es juicio, no dato: si el usuario prefiere A primero, se cambia.
+- **Dos episodios por sesión de grabación**, con el mismo set. Nada se graba antes de la boda: octubre ya
+  tiene las dos sesiones del [[batch-noviembre-2026-shorts]].
+- **Horas:** cada episodio son ~5 h (preparar, grabar, editar y miniatura). Dos por mes son ~10 h de las
+  ~20 h mensuales, y caben porque se dejan de cortar clips para YouTube.
+- ⚠️ Las fechas son **tentativas**. Si hay luna de miel o viaje después del 28-nov, todo se recorre.
+
+
+</details>
+
+### Cómo se mide (por episodio, a los 28 y a los 90 días)
+
+| Métrica | Referencia | Éxito |
+|---|---|---|
+| % de impresiones desde Búsqueda | 1–2% en los largos de opinión | **≥ 10%**; si no, el tema no se busca |
+| Subs por cada 1,000 vistas | 3.7 (largos de 90 días) | igual o más |
+| Subs entre el día 29 y el 90 | ~0 en los largos de opinión; Flutter vs RN 2026 da +5 en 28 días al mes 8 | **> 0 y sostenido**: es la prueba de que acumula |
+
+**Primera lectura: mediados de febrero**, cuando C y E cumplan 60 días. Si ninguno pasa de 10% en
+Búsqueda, la hipótesis de "comparación = búsqueda" se cae con n=2, y se renegocia antes de grabar D y F.
 
 ---
 
@@ -359,4 +530,5 @@ tiendas.
 - [[estrategia-contenido-absadev]] — el pool, el porqué con datos y el orden
 - [[blackicelabs-podcast]] — el show
 - [[fitexe]] — de donde sale todo el material
+- [[comparaciones-moviles-guiones-sesion-25-oct]] — los guiones completos para la sesión del 25-oct
 - [[serie-fitexe-con-ia]] — los shorts que comparten historias (reset de contraseña, webhook de Stripe, contrato)
