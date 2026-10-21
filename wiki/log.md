@@ -3144,3 +3144,71 @@ de esta mañana: el CTR del largo en Browse está bien, lo que falta son impresi
 quedan anotadas junto a los textos originales en [[absadev]] y [[estrategia-contenido-absadev]] (séptima lectura). Primer
 dato de edad del canal (35% tiene 45+). Resultados de retención en [[episodio-024-carrera-de-la-rata]] y
 [[episodio-026-flujo-freelance-claude]].
+
+## [2026-10-15] decision | La medición de noviembre se hace entre shorts — blackicelabs
+El usuario aprueba el cambio. En [[estrategia-contenido-absadev]] ("Cómo se mide"), el criterio del 07-oct (SPV del canal
+≥ 1.7) queda tachado pero visible. El nuevo compara los 8 shorts de [[serie-fitexe-con-ia]] en sus primeros 7 días (% eligió
+verlo y subs por cada 1,000), identidad contra utilidad, contra la referencia de 52% y 0.47. La lectura pasa del 2-dic al 4-dic.
+
+## [2026-10-15] create | Batch de noviembre: 12 shorts en lugar de la Serie FitExe — blackicelabs, swe, freelance
+Página nueva [[batch-noviembre-2026-shorts]]. El usuario reemplazó por completo la [[serie-fitexe-con-ia]], que no se grabó, y
+confirmó que los 2 shorts que dieron subs eran humor de oficina. Hay tres ramas de 4 (humor de 13–18 s sin voz, identidad y
+utilidad), con guiones por beats sacados de citas reales del 026, 027 y 028, más la app de notch. Los clips de reserva salen del
+calendario. La medición del 4-dic pasa a tres ramas, y U1 (/compact nativo) se compara contra el clip de 54 vistas.
+También se pasó a Apple Notes: 12 notas en la carpeta "Notes", una por short y en orden de calendario, con la etiqueta como
+texto (falta volver a escribirla a mano para que la carpeta inteligente las tome).
+
+## [2026-10-15] update | Batch de largos: las comparaciones A–F con ajustes v2 — blackicelabs, swe, fitexe
+Sección v2 en [[podcast-comparaciones-moviles-guiones]]: aperturas nuevas de 30 s que responden la búsqueda, intro de podcast
+fuera de YouTube, capítulos, CTA de "la siguiente comparación", títulos finales, calendario de 2 por mes del 9-dic al 17-feb y
+medición por % de Búsqueda. Las rondas v1 no se tocan. La decisión y la aritmética quedan en [[estrategia-contenido-absadev]].
+Queda pendiente el handle (absa.ai contra absa.dev).
+
+## [2026-10-15] update | Largos: grabar todo por adelantado — blackicelabs
+El usuario corrige el plan: no hace falta grabar para mantener la constancia, y prefiere tener colchón para estresarse menos.
+En [[podcast-comparaciones-moviles-guiones]], C, E, A y B pasan a una sola sesión ~25-oct, y la edición se separa en bloques
+antes de cada publicación. La versión anterior queda en un bloque plegado. Si octubre se aprieta antes del maratón, el primero
+que se cae es D.
+
+## [2026-10-15] create | Guiones completos de C, E, A, B y D para la sesión del 25-oct — blackicelabs, fitexe, swe
+Página nueva [[comparaciones-moviles-guiones-sesion-25-oct]] con los guiones en texto hablado y la v2 aplicada. Quedan resueltos
+con búsqueda web los ⚠️ VERIFICAR: Apple 3.1.3(e) y Google Play (las membresías de gimnasio son servicio físico), Supabase sin push
+propio, Flutter web en canvas y watchOS sin soporte oficial. El dato de Stripe MX queda para confirmar. Del repo se agregan 130
+commits al 13-oct y que el portal en React empezó antes que la app (31-may contra 22-jul-2025). Siguen pendientes los ✏️ y el handle.
+También se pasó a Apple Notes: 5 notas en la carpeta "Notes" ("Sesión 25-oct · N de 5"), en orden de grabación. "Podcast  Black Ice labs" es
+carpeta inteligente, así que no se pudo crear ahí, y falta saber su etiqueta.
+
+## [2026-10-19] ingest | Finanzas Barre 2026 (Baika) + propuesta Grow Studio — finance
+Fuentes nuevas en `raw/finance/`: el Excel `finanzas-barre-baika-2026.xlsx` (feb–jul), dos capturas de la propuesta y su
+transcripción `grow-studio-propuesta-2026-10-19.md`. Páginas nuevas: [[baika-barre]] (estado de resultados, ingresos por canal,
+precios vigentes, caída de ocupación y margen de 6% en julio) y [[grow-studio]] (menú, proyección de 114.8k y revisión: pide ~2.3x la venta
+directa real, no trae costos, 7 huecos del modelo y un escenario alternativo de ~83k). Se actualiza [[sofi]], aunque no se sabe si alguno de los dos es su estudio.
+Los nombres de personas del Excel no se pasaron al wiki.
+
+## [2026-10-19] ingest | Grow Studio — gastos estimados mensuales — finance
+Nueva fuente `raw/finance/grow-studio-gastos-estimados-2026-10-19.md` (+ png): 80,705/mes. Se actualiza [[grow-studio]] con la tabla de
+costos contra [[baika-barre]] (+20–30k al mes), los escenarios pesimista/base/plan (−14.7k / ≈0 / +34k) y los costos que faltan en el estimado
+(Stripe, impuestos, mantenimiento, recuperación de la inversión). El hueco 1 ("no hay costos") queda anotado como cerrado el mismo día, sin borrarlo.
+
+## [2026-10-19] ingest | Grow Studio — capacidad por clase — finance
+Nueva fuente `raw/finance/grow-studio-capacidad-2026-10-19.md` (dicho por el usuario: 12 tapetes por clase). [[grow-studio]] gana la sección
+"Capacidad y ocupación": ~828 lugares al mes; el equilibrio pide ~54% de ocupación y el plan ~77%; ~6.5 asistentes por clase para que se pague.
+
+## [2026-10-19] correct | Grow Studio — tarifa real de coaches — finance
+El usuario corrige la tarifa inferida (~420 por clase): es **250 y 375 si la clase se llena** (`raw/finance/grow-studio-tarifa-coaches-2026-10-19.md`).
+Se rehace "Capacidad y ocupación" en [[grow-studio]]: la nómina alcanza para ~100–116 clases al mes, el plan pide ~50% de ocupación (no ~77%) y
+una clase se paga con ~4.3 clientas (no ~6.5). Las cifras viejas quedan anotadas como superadas. En [[baika-barre]] se aclara que los renglones de nómina no son por clase.
+
+## [2026-10-20] ingest | Chat de Grow Studio — comisiones y pronto pago — finance
+Fuente nueva: `raw/finance/grow-studio-chat-pronto-pago-2026-10-19.md`. [[grow-studio]] gana la sección "Comisiones y pronto pago": una socia absorbe hoy
+las comisiones de tarjeta (Baika nunca las contó, lo que confirma el hueco 3), la meta inmediata es salir tablas y se evalúa el pronto pago propuesto
+por el usuario. Conclusión: como descuento resta; al estilo Totalplay (precio de lista más alto) cubre comisiones; solo para membresías. En el wiki van iniciales, no nombres.
+
+## [2026-10-20] ingest | Chat de Grow Studio — seguimiento de pronto pago — finance
+Fuente nueva: `raw/finance/grow-studio-chat-pronto-pago-2026-10-20.md`. En [[grow-studio]]: D. agrega las comisiones a los gastos operativos, y M. plantea que
+la liquidez justifica perder margen. La evaluación le da razón en el principio, pero propone otro instrumento: prepago de varios meses en vez de descuento mensual.
+
+## [2026-10-20] analysis | Grow Studio — menú de paquetes v2 — finance
+En [[grow-studio]] se agrega "Menú propuesto v2", a pedido del usuario: el precio publicado es con tarjeta y la transferencia paga ~4% menos;
+Limitless con pronto pago estilo Totalplay (2,799 / 2,599); prepago de 3 meses; Founders con cupo de 20 y cobro por adelantado; Power 20 pasa a 60 días; Pulse baja a 740.
+Es análisis sin validar (confianza baja).

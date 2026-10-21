@@ -3,7 +3,7 @@ title: "Serie FitExe con IA — 8 guiones de producción (noviembre 2026)"
 type: entity
 domain: [blackicelabs, fitexe, swe]
 created: 2026-10-07
-updated: 2026-10-07
+updated: 2026-10-15
 sources:
   - path: ~/Documents/Proyects/app_fitexe (repo, revisado el 2026-10-07; openspec/, documentation/, lib/features/, git log)
     fact_date: 2026-09-22     # último commit revisado
@@ -20,6 +20,11 @@ sources:
 ---
 
 # Serie "FitExe con IA" — 8 guiones de producción
+
+> ⚠️ **2026-10-15: no se grabó y salió de noviembre.** El usuario la reemplazó por el
+> [[batch-noviembre-2026-shorts]]. Un dato del mismo día pesa en contra del tema: los 3 shorts de precio de FitExe
+> (16–23 sep) fueron de los más viejos de la ventana y juntaron 19–109 vistas, porque YouTube no los distribuyó. Los
+> guiones quedan como banco.
 
 Es la **Serie 7 "IA en mi chamba real"** aplicada a [[fitexe]], con nombre y número. El plan, el
 porqué y el calendario están en [[estrategia-contenido-absadev]] (sección del 2026-10-07). Formato
