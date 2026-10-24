@@ -3212,3 +3212,8 @@ la liquidez justifica perder margen. La evaluación le da razón en el principio
 En [[grow-studio]] se agrega "Menú propuesto v2", a pedido del usuario: el precio publicado es con tarjeta y la transferencia paga ~4% menos;
 Limitless con pronto pago estilo Totalplay (2,799 / 2,599); prepago de 3 meses; Founders con cupo de 20 y cobro por adelantado; Power 20 pasa a 60 días; Pulse baja a 740.
 Es análisis sin validar (confianza baja).
+
+## [2026-10-23] ingest | YouTube — Month in Review de septiembre (Absadev) — blackicelabs
+Fuente nueva: `raw/blackicelabs/absadev-youtube-month-in-review-2026-09.md`. [[absadev]] gana un snapshot de septiembre: 6,507 vistas (3,681 de Shorts),
+6,947 minutos (~116 h, primer dato de minutos), 24 subs y 36 videos. Choca ×2.7 con la API del 07-oct; queda abierta como discrepancia, sin mezclar las series.
+El hueco de monetización del 25-ago sigue abierto: subs cubiertos, horas no al ritmo actual, y el estado real del YPP queda por confirmar en Studio.
