@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-15
+updated: 2026-10-23
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -89,6 +89,10 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
+  - path: raw/blackicelabs/absadev-youtube-month-in-review-2026-09.md (correo "September Creator Month in Review" de YouTube, pegado por el usuario)
+    fact_date: 2026-09-30
+    ingest_date: 2026-10-23
+    confidence: medium        # primera parte pero resumen de correo: no define si "views" son vistas o vistas comprometidas, y choca con la API (ver sección)
 ---
 
 # Absadev
@@ -1194,6 +1198,47 @@ wiki todavía.
   - **Shorts → largo** está en 0, y nada en los datos dice que se vaya a mover.
 - **Ruido descartado:** el 2.45% en Browse del 027 (3 días) y el 6.25% de Búsqueda de la rata (32
   impresiones) son muestras demasiado chicas.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (septiembre 2026, resumen mensual de YouTube)
+
+> Fuente: `raw/blackicelabs/absadev-youtube-month-in-review-2026-09.md`, el correo "Month in Review"
+> (01 → 30-sep), pegado el 2026-10-23. Es el **primer dato de minutos vistos** del canal en el wiki.
+
+| Métrica (septiembre) | Valor |
+|---|---:|
+| Vistas totales | 6,507 |
+| — de Shorts | 3,681 (80 likes, 3 comentarios, 7 shares) |
+| — resto (por resta, largos) | ~2,826 |
+| Minutos vistos | 6,947 (**~116 horas**) |
+| Suscriptores nuevos | 24 |
+| Videos subidos | 36 |
+| Más visto | "No soportarías" |
+
+- **Hecho:** 36 videos en el mes, en línea con los 33 en 28 días que midió `yt_report.py` el 07-oct.
+  YouTube mismo agregó al correo *"remember to keep your well-being in mind and establish a sustainable
+  schedule"*. Son ~180 vistas y ~0.7 subs por video.
+- **Hecho:** "No soportarías" es el más visto del mes. Cuadra con el 15-oct, donde era uno de los dos
+  únicos shorts que dieron subs.
+- ⚠️ **Discrepancia sin resolver con la API del 07-oct.** La API dio **17,621 vistas** del 07-sep al
+  04-oct; este correo da **6,507** del 01 al 30-sep. Las ventanas se traslapan en 24 días, así que la
+  diferencia (×2.7) no se explica por el calendario.
+  - Hipótesis (no verificada): el correo cuenta otra definición de vista en Shorts (vistas comprometidas
+    en lugar de reproducciones, que YouTube separó en 2025).
+  - Hasta resolverlo, **no se mezclan las dos series**. Este correo se compara contra el de octubre, y la
+    API contra la API.
+  - Los 24 suscriptores nuevos sí son del mismo orden que los +34 brutos de la API.
+- **Monetización (sigue sin dato).** El hueco del 25-ago no se cierra: el correo no dice si el canal está
+  en el YPP. Lo que sí aporta:
+  - Con 7,885 subs (15-oct), el requisito de suscriptores de cualquier nivel del YPP está cubierto.
+  - El requisito de horas (3,000 en 12 meses, según lo que se conocía a jun-2026) **no se alcanza a este
+    ritmo**: ~116 h al mes son ~1,400 al año, y en las horas del YPP no cuentan las de Shorts. Las ~116 h
+    incluyen Shorts, así que las horas largas son menos.
+  - El correo enlaza un video sobre *"Changes to the YouTube Partner Program"*. Los requisitos podrían ser
+    otros.
+  - Si el canal **ya** está monetizado (la meta de "200 MXN/mes" de agosto lo sugeriría), esta cuenta no
+    aplica. Es la pregunta que hay que cerrar en la pestaña "Ingresos" de Studio.
+
+**Vida de este dato:** corta. Es un mes de métricas y una regla del YPP que YouTube ya avisó que cambió.
 
 ## Related
 
