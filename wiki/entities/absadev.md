@@ -3,7 +3,7 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-23
+updated: 2026-10-29
 sources:
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
@@ -93,6 +93,10 @@ sources:
     fact_date: 2026-09-30
     ingest_date: 2026-10-23
     confidence: medium        # primera parte pero resumen de correo: no define si "views" son vistas o vistas comprometidas, y choca con la API (ver sección)
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-29
+    confidence: medium   # datos de la API de YouTube obtenidos por el agente de WhatsApp del usuario y pegados en el chat; el cruce con el wiki lo hizo ese agente
 ---
 
 # Absadev
@@ -1239,6 +1243,32 @@ wiki todavía.
     aplica. Es la pregunta que hay que cerrar en la pestaña "Ingresos" de Studio.
 
 **Vida de este dato:** corta. Es un mes de métricas y una regla del YPP que YouTube ya avisó que cambió.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (YouTube 29-sep → 26-oct, API vía el Taco de WhatsApp)
+
+Reporte que el usuario le pidió a su agente de WhatsApp y que pegó en el chat el
+29-oct. Comparado con 01 → 28-sep:
+
+| Métrica | Valor |
+|---|---|
+| Suscriptores | 7,880 (+18 / −11 = **+7 netos**) |
+| Vistas | 11,326 (**−31%**) |
+| Subs por cada 1,000 vistas | **0.62** (referencia sana ~1.7) |
+| Comentarios | **2** (−83%) |
+| Shares / likes | 14 / 94 |
+| Duración media vista | 1m13s (25.9%) |
+| Fuentes de vistas | feed de Shorts 60%, Búsqueda 18%, Suscripciones 13%, **Sugeridos 0.0%** |
+| Quién ve | 90% no suscritos |
+| Publicados | 17, más **15 programados** del 30-oct al 24-nov |
+
+- **En los primeros 14 días:** "$20 de Claude" 4.47 subs/1k, "La carrera de la rata"
+  3.07, "Junior sin IA" 2.64. Los shorts de LinkedIn, Oxxo, aumento de sueldo y "día
+  laboral" quedaron en 0.00.
+- **Lo que el agente lee:** los shorts dan vistas, no suscriptores. Los largos
+  convierten, pero no les llegan impresiones. Sugeridos sigue en 0.0% desde julio. Se
+  publica por encima del techo de 3.5 por semana.
+- **Sin resolver:** la discrepancia ×2.7 entre el resumen mensual de septiembre y la API
+  sigue abierta. Este snapshot no se mezcla con el resumen mensual.
 
 ## Related
 

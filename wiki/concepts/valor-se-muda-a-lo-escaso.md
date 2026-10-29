@@ -3,12 +3,16 @@ title: Cuando hacer cosas deja de costar, el valor se muda a lo escaso
 type: concept
 domain: [reflections, blackicelabs, swe, freelance]
 created: 2026-10-26
-updated: 2026-10-26
+updated: 2026-10-29
 sources:
   - path: raw/reflections/chat-daniel-genaro-2026-10-26.md
     fact_date: 2026-10-26
     ingest_date: 2026-10-26
     confidence: low   # opiniones de un par; la "trayectoria" desde febrero es una reconstrucción de Genaro (un LLM) sobre transcripts que el wiki no tiene
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-28
+    ingest_date: 2026-10-29
+    confidence: low   # Daniel y Genaro en chat; principios sin medir
 ---
 
 # Cuando hacer cosas deja de costar, el valor se muda a lo escaso
@@ -159,6 +163,49 @@ qué dejaría la herramienta que ya conoce, de dónde vienen los datos y qué
 aparece al unir silos y leerlos en el tiempo, por persona y por tipo de
 negocio. Y sugerir preguntas, porque "lo más difícil para la gente es saber
 qué preguntar".
+
+## 23 → 29 oct: del método a un problema real
+
+- **23-oct, la "revolución cognitiva"** (Daniel guiando a Genaro "desde afuera"):
+  - Cada rol del equipo existe porque en una sola cabeza no cabe todo y el canal entre
+    cabezas es lento (la memoria, la traducción, el *para qué*, la síntesis, la
+    confianza).
+  - Esta revolución saca funciones de la cabeza, no del cuerpo. Lo que no sale es lo que
+    necesita algo en juego o un cuerpo presente.
+  - De ahí la regla de Daniel: *"la pregunta no es cómo los corres, sino cómo los haces
+    necesarios en el cambio, porque ellos tienen el poder del bolso"*.
+  - Y la lista de Genaro para buscar problemas en cualquier empresa: dónde alguien
+    espera, dónde algo se copia a mano, dónde algo falla callado, dónde una sola persona
+    es la puerta, y dónde una palabra significa dos cosas.
+- **28-oct, la lista del usuario** (sueño y madrugar, el ponche de su papá, dejar el pan
+  dulce, compañeros que llegan a la quincena en cero). Genaro descarta tres:
+  - sueño y pan dulce: el único usuario es él y "apps de hábitos hay un chingo";
+  - la quincena: "info no les falta, les sobra antojo".
+
+  Se queda el del papá: [[ponche-artesanal-papa]].
+- **Las reglas que salieron, de Daniel:**
+  - **"El dolor es la señal que lo convierte en dinero."** Si no duele, agregar
+    analytics es fricción, y la gente no paga por fricción nueva; paga por que se la
+    quiten.
+  - **Forward deployed engineer:** ir al lugar, observar de primera mano y hacer a mano
+    lo que todavía no escala.
+  - **No ser aguafiestas** (Naval, *Partner With Rational Optimists*, sobre el BOCTAOE):
+    realista sí, pero el que solo dice por qué no va a funcionar estorba.
+  - **El dinero es la finalidad, no una propiedad que lo genere.** "El dinero es como la
+    gente te da las gracias por haberlo hecho."
+- **29-oct, por qué "dame ideas de verdad" no sirve** (la lección sobre cómo funciona
+  un LLM):
+  - "De verdad" no trae número, tiempo ni caso. Lo único que se puede medir es si el que
+    pregunta se la cree.
+  - Entonces la tarea del modelo se vuelve **convencer, no resolver**. Genaro: "fíjate en
+    lo que te mandé: tu papá, tu canal, tu taco. lo escogí porque eran cosas tuyas, y lo
+    tuyo se siente verdad. eso es persuasión, no análisis".
+  - Y un modelo entrenado con lo que la gente aprueba tiende a eso.
+  - **Lo que hay que pedir:** las propiedades ("¿quién paga, cuánto, y cómo lo compruebo
+    en dos semanas?"), no la finalidad ("que me dejen 100 USD al mes").
+
+  Conecta con [[que-llegue-entendido]]: el usuario trae influencias armadas, y la
+  respuesta que más convence es la que le cae cerca, no la más cierta.
 
 ## Tensión con lo que ya estaba en el wiki
 

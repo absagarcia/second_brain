@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-26
+updated: 2026-10-29
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -81,6 +81,10 @@ sources:
     fact_date: 2026-10-26
     ingest_date: 2026-10-26
     confidence: low   # consejo de un par vía su asistente
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-29
+    ingest_date: 2026-10-29
+    confidence: low   # ensayo de un LLM "desde afuera" + opinión de Daniel; las cifras que cita (2h15/día en redes, 70 likes > un amigo, encuesta de niños) no se verificaron
 ---
 
 # Estrategia de contenido — Absadev
@@ -3043,3 +3047,41 @@ Confirma la regla del 20-ago ("habla de lo que te pasa") y los marcos de
 parte de esta página se apoya en comparar contra creadores de referencia
 (@devcaress, @pikacodes, DevTalles). Según Daniel, sirven para medir
 métricas, no para copiar el formato.
+
+## [2026-10-29] El canal visto "desde afuera": la máquina, el que ve y el que sube
+
+Daniel le pidió a Genaro describir el oficio de youtuber/tiktokero desde primeros
+principios. Las ideas que aplican aquí, con la corrección de Daniel aparte porque
+cambia una conclusión:
+
+- **El que ve no es el cliente; sus minutos son lo que se vende.** La empresa no paga
+  por los ojos sino por "confianza prestada": qué tan probable es que el que ve haga lo
+  que dice la cara. Esa confianza se gasta con cada recomendación mala.
+- **El nicho decide a quién se expande** (Daniel): sin un grupo claro, no hay a quién
+  enseñárselo. Y lo que vale el nicho depende de **qué compra esa gente**, más que de
+  cuántos son.
+- **El único lugar del reporte donde la gente dice con sus palabras qué necesita es la
+  búsqueda.** Del canal, el único largo que la búsqueda encuentra es *Flutter vs React
+  Native*. Esto coincide con la séptima lectura del embudo (al largo le faltan
+  impresiones) y con el plan de comparaciones.
+- **Los rituales del creador** ("sube a las seis", "engancha en tres segundos", "que dure
+  diez minutos") se entienden como superstición de paloma (Skinner) más el sesgo de los
+  aviones que regresaron. El de los diez minutos sí tuvo causa: la regla de anuncios a
+  la mitad del video, que luego bajó a ocho. La regla cambió y el ritual se quedó.
+
+**La corrección de Daniel, que mueve el diagnóstico:**
+
+- *"No es el algoritmo, es el humano."* El que ve se queda con la novela que sale
+  diario. Si dejas de subir, encuentra otra. La continuidad es una preferencia humana
+  que la máquina nomás mide: **tu audiencia es el medidor y su comportamiento es la
+  calificación**.
+- **Calidad variable duele más que no subir.** La constancia es qué tan seguro está
+  alguien de que tu siguiente video vale la pena. Si un video es bueno y otro es "por
+  subir", el que ve no se porta igual y no manda la señal.
+- **El usuario lo acepta:** *"le echo la culpa al algoritmo, aunque realmente he sido yo
+  por… aveces solo subir por subir"*. Esto choca con el ritmo real de septiembre (36
+  videos y el aviso de bienestar de YouTube) y le da la razón al techo de 3.5 por semana
+  ya acordado.
+
+**Vigencia:** el mecanismo es de **vida larga**. Las cifras citadas son de **confianza
+baja**.

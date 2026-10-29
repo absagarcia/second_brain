@@ -3238,3 +3238,15 @@ Actualizadas: [[patron-de-terminacion]] ("lo haré" y el plan como avance, compa
 ## [2026-10-26] ingest | Katie Steckly — 5 hábitos de contenido (resumen) — blackicelabs
 Fuente nueva: `raw/blackicelabs/katie-steckly-5-habitos-contenido-2026-10-26.md` (resumen de otra herramienta, confianza baja). En [[estrategia-contenido-absadev]], cada hábito contra los datos del canal:
 el cross-post idéntico choca con la decisión 1 vs 7 del 027, y "regrabar del guion en vertical" se propone como alternativa a los clips recortados (0 subs). Se agrega también "róbale a otro oficio" de Daniel.
+
+## [2026-10-29] ingest | Chat de Teams con Daniel, Genaro y Karen (21 → 23 sep) — reflections, swe
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md`. **Muy parcial**: el paste se cortó a los 50k caracteres y solo trae 21–23 sep de un export de 3090 mensajes. ID de conversación e IP redactados.
+Páginas nuevas: [[prs-a-la-primera]] (crítica de OpenSpec, el framework alternativo de Genaro y el contrapunto de Karen) y [[taco-agente-teams]] (por qué no arrancaba el agente del usuario).
+Actualizadas: [[daniel]] (Karen, Genaro como reviewer, "mi hoy empezó el viernes", ingenieros como product people), [[nunca-reescribas-desde-cero]] (migración a Redux), [[patrones-diseno-agenticos]], [[fitexe]], [[vibecoding-y-spec-driven-design]]. Quedan fuera: los picks de NFL (2/4, de Genaro), la plática del equipo sobre colegas del cliente, y los 13 km del 20-sep (mejor tomarlos de Strava).
+
+## [2026-10-29] ingest | Chat de Teams con Daniel y Genaro — export completo (21-sep → 29-oct) — reflections, swe, blackicelabs, finance
+Fuente nueva: `raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md` (3,090 mensajes; copia de ~/Downloads con el ID de conversación, la IP, los números SAP y la org de SFDC redactados). Cubre lo que el paste truncado no traía. Se traslapa con los raw del 26-oct, ya ingeridos.
+Páginas nuevas: [[ingles-de-trabajo]] y [[ponche-artesanal-papa]].
+Actualizadas: [[prs-a-la-primera]] (el ciclo real, la skill del usuario, evals), [[taco-agente-teams]], [[slalom]] (recorte Q1 2027, confianza baja), [[daniel]], [[valor-se-muda-a-lo-escaso]], [[estrategia-contenido-absadev]] y [[absadev]] (snapshot vía el Taco de WhatsApp).
+Fuera a propósito: la plática del equipo sobre colegas con nombre, los detalles técnicos del cliente por card (números de card, PR y caso), las recomendaciones de LLM local (sin probar), el viaje a Seattle, las apuestas, y el pipeline de voz del 21-oct (era parte de una broma generada por IA, no un hecho).
+

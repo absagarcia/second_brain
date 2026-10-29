@@ -3,7 +3,7 @@ title: FitExe
 type: entity
 domain: [fitexe, swe, blackicelabs]
 created: 2026-07-29
-updated: 2026-10-07
+updated: 2026-10-29
 sources:
   - path: /Users/absagarcia/Documents/Proyects/app_fitexe   # first-party repo, read directly (not in raw/)
     fact_date: 2026-07-21      # last commit at time of scan
@@ -29,6 +29,10 @@ sources:
     fact_date: 2026-09-10
     ingest_date: 2026-09-10
     confidence: medium         # transcripción de episodio con timestamps, sin verificar contra el original
+  - path: raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md
+    fact_date: 2026-09-23
+    ingest_date: 2026-10-29
+    confidence: low   # crítica de OpenSpec hecha por un asistente de IA para el contexto del cliente, no para FitExe
 ---
 
 # FitExe
@@ -283,6 +287,14 @@ Angles ranked by fit with what the week-1 data actually rewarded:
    > el wiki no lo había visto. Los dos casos, más el bug de Stripe documentado en
    > `documentation/stripe_bug_context_export.md`, son el material de la serie "FitExe con IA" de
    > noviembre en [[estrategia-contenido-absadev]].
+   >
+   > **Contrapunto del 2026-09-23 (ingerido el 2026-10-29):** en el cliente, Genaro (el asistente
+   > de [[daniel]]) le recomendó al usuario **no adoptar OpenSpec entero**, porque allá el
+   > ticket ya es la spec, y porque su `verify` es el modelo revisando su propia prosa sin correr
+   > nada. Propuso a cambio checklist del ticket, EXPLAIN a todo SQL, tests que se ponen rojos al
+   > romper el código a mano y un archivo de "cosas que parecen ciertas y no lo son". La primera
+   > objeción no aplica a FitExe (aquí no hay ticket ni ADO); la segunda sí. Ver
+   > [[prs-a-la-primera]].
 
 **New angle unlocked by the revenue (2026-07-29), and the strongest of the
 lot:** *"Tenemos un gimnasio pagándonos por nuestra app"* — the first-paying-

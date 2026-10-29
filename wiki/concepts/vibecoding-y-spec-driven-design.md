@@ -3,12 +3,16 @@ title: Vibecoding y el diseño por especificación
 type: concept
 domain: [swe, blackicelabs, reflections]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-10-29
 sources:
   - path: raw/blackicelabs/devtalles-catalogo-fernando-herrera-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: low     # informe sintetizado sin verificar; el fenómeno es público, las cifras que cita no lo son
+  - path: raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md
+    fact_date: 2026-09-23
+    ingest_date: 2026-10-29
+    confidence: low   # chat de Teams, truncado; la mayoría de los mensajes técnicos son de sus asistentes de IA
 ---
 
 # Vibecoding y el diseño por especificación
@@ -83,3 +87,4 @@ herramienta** (Claude Code, OpenSpec, MCP) son de **vida corta**. La cifra del
 - [[fitexe]] — el repo donde la pregunta se puede contestar de verdad
 - [[estrategia-contenido-absadev]] — de aquí sale material que sí pasa el filtro del canal
 - [[pendulo-arquitectonico-cliente-servidor]] — el otro vector del mismo catálogo
+- [[prs-a-la-primera]] — 2026-09-23: "el código no tiene dominio, lo tiene el que lo escribe" (Karen) contra el archivo de creencias falsas (Genaro)
