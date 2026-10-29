@@ -3,7 +3,7 @@ title: "Episodio (número por definir) — Un junior no necesita aprender a prog
 type: entity
 domain: [blackicelabs, swe, reflections]
 created: 2026-10-06
-updated: 2026-10-14
+updated: 2026-10-26
 sources:
   - path: conversation (el usuario pega el run of show y pide descripción y tags, 2026-10-06)
     fact_date: 2026-08-20     # "fecha de registro" que trae el propio guion
@@ -586,6 +586,25 @@ Episodio completo: ¿Un programador junior todavía necesita aprender a programa
 
 ⚠️ **Antes de programar:** el episodio largo tiene que estar publicado para poder ligarlo, y su
 descripción todavía promete el incidente del pool de conexiones (ver arriba).
+
+## Miniaturas verticales (2026-10-26)
+
+7 portadas 1080×1920 con el mismo diseño que las de
+[[episodio-026-flujo-freelance-claude]], en dos versiones: **con fondo** y **transparente**
+(para montarla sobre un frame del video). Viven **fuera del repo**, en
+`~/Downloads/black-ice-labs-027-miniaturas/`, con `editable/gen.py`, que genera las del 027
+y el 028 juntas. Las que salen en noviembre son las de los clips **#1 (4-nov) y #7 (18-nov)**; las demás
+quedan con su clip en reserva.
+
+| # | Etiqueta | Texto grande |
+|---|---|---|
+| 1 | 🔥 polémica | JUNIORS SIN VACANTES |
+| 2 | 💡🔥 ambas | LA IA YA GANÓ |
+| 3 | 💡🔥 ambas | EL 50% LO HACE LA IA |
+| 4 | 💡 aprende | EL PROBLEMA DEL PAVO |
+| 5 | 💡🔥 ambas | PRODUCIR NO ES COMPRENDER |
+| 6 | 💡 aprende | LEE LO QUE GENERA LA IA |
+| 7 | 🔥 polémica | LA IA ES UNA CALCULADORA |
 
 ## Related
 

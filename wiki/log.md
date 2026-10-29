@@ -3217,3 +3217,24 @@ Es análisis sin validar (confianza baja).
 Fuente nueva: `raw/blackicelabs/absadev-youtube-month-in-review-2026-09.md`. [[absadev]] gana un snapshot de septiembre: 6,507 vistas (3,681 de Shorts),
 6,947 minutos (~116 h, primer dato de minutos), 24 subs y 36 videos. Choca ×2.7 con la API del 07-oct; queda abierta como discrepancia, sin mezclar las series.
 El hueco de monetización del 25-ago sigue abierto: subs cubiertos, horas no al ritmo actual, y el estado real del YPP queda por confirmar en Studio.
+
+## [2026-10-26] query | Miniaturas verticales de los clips del 027 (junior sin IA) y del 028 (patrones agénticos) — blackicelabs
+28 PNG 1080×1920 (7 por episodio, con fondo y transparentes) con el
+mismo diseño que el 026, guardados fuera del repo en
+~/Downloads/black-ice-labs-027-miniaturas/ y -028-miniaturas/. Tabla
+de textos añadida a [[episodio-junior-sin-ia]] y
+[[episodio-028-patrones-agenticos]], marcando cuáles salen en
+noviembre (027: #1 y #7; 028: #3 y #5).
+
+## [2026-10-26] ingest | Chat de Teams con Daniel y "Genaro" — reflections
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-10-26.md` (8 bloques pegados más uno posterior; truncado a los 50k caracteres; números de orden SAP del cliente redactados).
+Páginas nuevas: [[valor-se-muda-a-lo-escaso]] (la tesis, los 7 patrones, el método y los problemas candidatos) y [[corte-ventas-agencias-autos]] (el caso del suegro, sin validar).
+Actualizadas: [[daniel]] (Genaro, mismo cliente), [[pattern-recognition-professions]] y [[end-of-the-app-store]] (extensiones). La trayectoria desde febrero es reconstrucción de un LLM y queda marcada como no verificada.
+
+## [2026-10-26] ingest | Chat de Teams con Daniel y Genaro, parte 2 (tarde y noche) — reflections
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md`. Página nueva: [[que-llegue-entendido]] (el "no entendí" disfrazado, el co-host, guardar ≠ entregar, el perfil del usuario deducido por un LLM).
+Actualizadas: [[patron-de-terminacion]] ("lo haré" y el plan como avance, compatible con la regla de estructura), [[second-brain-epistemic-design]] (guardar ≠ entregar), [[daniel]], [[valor-se-muda-a-lo-escaso]].
+
+## [2026-10-26] ingest | Katie Steckly — 5 hábitos de contenido (resumen) — blackicelabs
+Fuente nueva: `raw/blackicelabs/katie-steckly-5-habitos-contenido-2026-10-26.md` (resumen de otra herramienta, confianza baja). En [[estrategia-contenido-absadev]], cada hábito contra los datos del canal:
+el cross-post idéntico choca con la decisión 1 vs 7 del 027, y "regrabar del guion en vertical" se propone como alternativa a los clips recortados (0 subs). Se agrega también "róbale a otro oficio" de Daniel.

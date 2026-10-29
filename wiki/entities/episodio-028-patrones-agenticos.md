@@ -3,7 +3,7 @@ title: "Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude t
 type: entity
 domain: [blackicelabs, swe, fitexe]
 created: 2026-10-05
-updated: 2026-10-15
+updated: 2026-10-26
 sources:
   - path: raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv
     fact_date: 2026-09-04
@@ -814,6 +814,25 @@ Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute 
 ⚠️ **Antes de programar:** el episodio largo tiene que estar publicado para ligarlo, y su
 descripción y capítulos todavía prometen multiagente y Circuit Breaker. El subtítulo quemado del
 #5 debe decir *Claude*, no *Cloud*.
+
+## Miniaturas verticales (2026-10-26)
+
+7 portadas 1080×1920 con el mismo diseño que las de
+[[episodio-026-flujo-freelance-claude]], en dos versiones: **con fondo** y **transparente**
+(para montarla sobre un frame del video). Viven **fuera del repo**, en
+`~/Downloads/black-ice-labs-028-miniaturas/`, con `editable/gen.py`, que genera las del 027
+y el 028 juntas. Las que salen en noviembre son las de los clips **#3 (11-nov) y #5 (25-nov)**; las demás
+quedan con su clip en reserva.
+
+| # | Etiqueta | Texto grande |
+|---|---|---|
+| 1 | 💡🔥 ambas | SE TE ROMPE PRODUCCIÓN |
+| 2 | 💡 aprende | DEPURAR CON BREAKPOINTS |
+| 3 | 💡 aprende | QUE LA IA NO IMPROVISE |
+| 4 | 🔥 polémica | SI NO LEES, VAS A CHOCAR |
+| 5 | 💡🔥 ambas | ¿QUIÉN REVISA A TU IA? |
+| 6 | 🔥 polémica | LO QUE JAMÁS LE DELEGO A CLAUDE |
+| 7 | 💡 aprende | COMPACTAR NO ES RESUMIR |
 
 ## Related
 

@@ -3,7 +3,7 @@ title: "Empiezo muchas y termino pocas" — el patrón real, según sus propios 
 type: concept
 domain: [reflections, blackicelabs, fitness, swe, books]
 created: 2026-08-26
-updated: 2026-10-11
+updated: 2026-10-26
 sources:
   - path: raw/reflections/patron-terminacion-2026-08-26.md
     fact_date: 2026-08-26
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-03-27 → 2026-08-26
     ingest_date: 2026-08-26
     confidence: high     # series medidas, no impresiones
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low   # lectura de Genaro (LLM) sobre el chat; el estudio que cita no se verificó aquí
 ---
 
 # "Empiezo muchas y termino pocas" — el patrón real
@@ -202,6 +206,34 @@ mismas 4-6 h/semana. Volverá cuando el 14 lleve tres meses cumpliéndose.
 4. **Listar qué libros están empezados.** El objetivo 6 no puede tener testigo
    sin lista, y el expediente sugiere que está mejor de lo que cree: **hay 30+
    libros con notas**.
+
+## 2026-10-26 — "lo haré": el anuncio que cobra el premio por adelantado
+
+Lectura de Genaro (el asistente de [[daniel]]), confianza baja. Cuando el
+usuario escribió "ok, lo haré", Genaro desarmó el patrón que veía:
+
+- Lo que promete va **en futuro, sin hora ni fecha** ("mañana lo despierto",
+  "deja le mando un whats"). Cuando no pasa, la excusa llega **en pasado**
+  ("se me pasó, ayer tuve un día largo"). En presente casi nunca hay nada.
+- **El plan da la sensación de ya ir avanzando**: listas numeradas, el plan
+  quirúrgico, el Parte 1 anunciado, Swift.
+- Cita a Gollwitzer (2009): anunciar una meta da parte de la satisfacción de
+  cumplirla, y después se le echa menos ganas. El wiki no verificó el
+  estudio.
+- Genaro lo extendió a los tres: "el plan, el sermón y el 'lo haré' son la
+  misma cosa: **cobrar el avance antes de que exista**". Daniel con sus
+  sermones, Genaro con planes en markdown que salieron con huecos sin
+  probar.
+
+**Encaja con lo que esta página ya decía, no lo contradice:** lo que sostiene
+tiene fecha y testigo, lo que abandona no. La contramedida que propone
+Genaro es la misma regla en chiquito: no preguntar "¿lo vas a hacer?" (la
+respuesta siempre es sí, en futuro), sino **"¿a qué hora?"**. Primer caso
+abierto: el mensaje al suegro para la sesión de Claude (ver
+[[corte-ventas-agencias-autos]]).
+
+El usuario contestó que el patrón real era otro: "al patrón sí le hablas
+diferente, y hasta con miedo". Queda anotado sin resolver.
 
 ## Vida útil
 

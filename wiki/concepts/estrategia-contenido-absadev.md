@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-15
+updated: 2026-10-26
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -73,6 +73,14 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
+  - path: raw/blackicelabs/katie-steckly-5-habitos-contenido-2026-10-26.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low   # resumen de un resumen: sin URL, sin fecha del video, comprimido por otra herramienta
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low   # consejo de un par vía su asistente
 ---
 
 # Estrategia de contenido — Absadev
@@ -2986,3 +2994,52 @@ grabar #5**, o suavizar esa parte a lo que sí es cierto.
 ⚠️ **Mismo límite de fuente que la v1:** los tres casos históricos y las cifras de cuota de mercado
 (80%, 90%) vienen del ensayo de Spolsky sin verificación de primera mano — ver
 [[nunca-reescribas-desde-cero]].
+
+## [2026-10-26] Katie Steckly, 5 hábitos — contra lo que ya midió este canal
+
+Fuente: un resumen del video (no el video), confianza baja. Cada hábito
+comparado con lo que ya está en esta página:
+
+1. **Filmar B-roll antes de tener ideas.** Coincide con la regla de grabar
+   por lotes para tener colchón. Es barato y no choca con nada.
+2. **Cámara del iPhone en 9:16 para Stories.** Táctico. Las Stories no son
+   un canal medido aquí.
+3. **Carruseles educativos desde el carrete.** Formato nuevo para el canal,
+   sin dato propio. Si se prueba, entra como n=1.
+4. **Mismo short en Reels, TikTok y Shorts, sin estrategia separada.**
+   **Choca con una decisión basada en datos:** el 027 pasó a "1 clip en
+   YouTube Shorts contra 7 en TikTok/IG" ([[episodio-junior-sin-ia]]),
+   porque el muro de Retention es de YouTube. El cross-post de IG a Facebook
+   sí coincide y ya funciona. Se conserva la decisión propia: el dato del
+   canal pesa más que un consejo general.
+5. **De largo a corto sin recortar: volver al guion, escribir gancho y CTA,
+   y filmar el segmento en vertical.** Es el más relevante. Los clips
+   recortados del podcast llevan **0 subs y 29% "eligió verlo"** (lectura del
+   15-oct), y la recomendación era bajarlos a 0–1 por episodio. Este hábito
+   es la alternativa que faltaba: el short sale del guion del largo, pero se
+   graba como short. Cuesta una sesión de grabación, que entraría en el lote
+   del batch. **Propuesta sin decidir.**
+
+## [2026-10-26] "Róbale a otro oficio, no al de enfrente" ([[daniel]] / Genaro)
+
+El usuario proponía analizar a otros youtubers para inspirarse. Daniel lo
+llamó **anti-patrón**. Lo que propuso Genaro:
+
+- Copiar al vecino te hace parecido y compites en su cancha. Copiar de otro
+  oficio "se ve nuevo".
+- Formas para tomar prestadas:
+  - **mecánico**: del "hace un ruidito" a la causa, con un bug real o el
+    caso del suegro;
+  - **comentarista de fútbol**: repetición en cámara lenta de un PR o una
+    decisión que salió mal;
+  - **telenovela**: cada capítulo deja algo pendiente. Exige subir el
+    siguiente, y eso choca con [[patron-de-terminacion]].
+- La parte que no se copia es quién lo cuenta: la chamba con clientes de
+  verdad, el caso del suegro ([[corte-ventas-agencias-autos]]), el bot de la
+  boda.
+
+Confirma la regla del 20-ago ("habla de lo que te pasa") y los marcos de
+[[valor-se-muda-a-lo-escaso]]. **Tensión con la práctica actual:** gran
+parte de esta página se apoya en comparar contra creadores de referencia
+(@devcaress, @pikacodes, DevTalles). Según Daniel, sirven para medir
+métricas, no para copiar el formato.
