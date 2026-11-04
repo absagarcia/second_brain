@@ -3,8 +3,12 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-29
+updated: 2026-11-02
 sources:
+  - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
+    fact_date: 2026-11-01
+    ingest_date: 2026-11-02
+    confidence: medium
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
     ingest_date: 2026-07-16
@@ -1269,6 +1273,30 @@ Reporte que el usuario le pidió a su agente de WhatsApp y que pegó en el chat 
   publica por encima del techo de 3.5 por semana.
 - **Sin resolver:** la discrepancia ×2.7 entre el resumen mensual de septiembre y la API
   sigue abierta. Este snapshot no se mezcla con el resumen mensual.
+
+## [2026-11-02] NoviembreSprint26: el sprint de monetización llega sobre el hueco que sigue abierto
+
+Fuente: `raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md`. Es un anuncio de un sprint de 30 días que
+arrancó el 1-nov. No dice quién lo manda ni a cuál de los dos canales llegó. Tiene dos condiciones:
+1. **≥ 6 videos en noviembre** (~2 por semana). **Ya se cumple con lo planeado.** [[batch-noviembre-2026-shorts]]
+   publica 12 shorts los lunes, miércoles y viernes del 2 al 27-nov. Además salen los 2 clips del 027 (4 y 18-nov).
+2. **Probar ≥ 2 funciones de monetización**: etiquetas de Shopping, Membresías, Financiamiento de Fans
+   o Alianzas con Marcas. **Esta condición depende de la pregunta que el expediente no ha cerrado desde
+   el 25-ago: ¿el canal está en el YPP?** El anuncio no dice qué se necesita para entrar. Según lo que se
+   conocía a jun-2026 (no viene de esta fuente), las cuatro funciones piden estar dentro del programa.
+   Si el canal no está dentro, el sprint no se puede cumplir, publique lo que publique.
+
+**Choque con la medición de noviembre.** El 4-dic se van a comparar las ramas H/I/U del batch entre sí.
+Si a algunos shorts se les ponen etiquetas de Shopping y a otros no, aparece una variable que no se
+controla. Es el mismo tipo de contaminación que dejó la promoción pagada en la lectura del 9-sep. Las
+Membresías y el Financiamiento de Fans son del canal entero y no tocan un short en particular, así que
+son las que menos ensucian la comparación.
+
+**Choque con la estrategia.** [[estrategia-contenido-absadev]] decidió *"primero comunidad; la
+monetización llega por otra puerta"*. El sprint propone justo lo contrario para noviembre. Decidir si
+se participa le toca al usuario; el wiki no lo decide.
+
+**Vida de este dato:** muy corta. Es un evento que termina el 30-nov.
 
 ## Related
 

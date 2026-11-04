@@ -3,8 +3,12 @@ title: Objetivos de vida 2026-2027
 type: entity
 domain: [finance, fitness, blackicelabs, swe, fitexe, books, reflections]
 created: 2026-08-25
-updated: 2026-10-07
+updated: 2026-11-02
 sources:
+  - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
+    fact_date: 2026-11-01
+    ingest_date: 2026-11-02
+    confidence: medium
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
@@ -430,3 +434,9 @@ Al planear el contenido de noviembre, el usuario dijo *"en noviembre solo tengo 
 explícitamente que no lo corre**, así que la decisión sigue sin registrarse. Queda anotada
 la frase como la primera señal, con fecha, y la colisión maratón/boda de arriba se conserva
 como se escribió.
+
+## [2026-11-02] La pregunta 4 (¿está monetizado el canal?) ahora tiene fecha
+
+Llegó el anuncio de NoviembreSprint26, que pide probar 2 funciones de monetización de YouTube durante
+noviembre (ver [[absadev]]). Para el objetivo 9 es la primera ocasión concreta de cerrar la pregunta 4.
+Si el canal no está en el YPP, el sprint no se puede cumplir. Noviembre sigue siendo el mes de la boda.

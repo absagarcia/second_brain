@@ -3,8 +3,12 @@ title: "Batch de noviembre 2026 — 12 shorts (humor, identidad, utilidad)"
 type: entity
 domain: [blackicelabs, swe, freelance]
 created: 2026-10-15
-updated: 2026-10-15
+updated: 2026-11-03
 sources:
+  - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
+    fact_date: 2026-11-01
+    ingest_date: 2026-11-02
+    confidence: medium
   - path: raw/blackicelabs/youtube-ask-studio-shorts-y-largos-2026-10-15.md (% eligió verlo y subs por short; la referencia del batch)
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
@@ -295,6 +299,20 @@ ramas en lugar de dos**:
 **Vida del contenido:** las ideas de cada short son de vida larga (leer lo que genera la IA, planear antes
 de ejecutar, documentar la junta). Las herramientas que se nombran (Claude Code, /compact) son de vida
 corta.
+
+## [2026-11-02] Encaja con NoviembreSprint26 (en cantidad, no en monetización)
+
+El calendario de este batch (12 shorts, del 2 al 27-nov) ya cumple el mínimo de 6 videos del sprint de
+monetización de YouTube que se anunció el 1-nov (ver [[absadev]]). El sprint también pide probar 2 funciones
+de monetización. **Si se ponen etiquetas de Shopping en algunos shorts del batch, la comparación H/I/U del
+4-dic queda contaminada**: habría que ponerlas en todos o en ninguno, o anotar en cuáles van.
+
+## [2026-11-03] Los 7 clips del 028 vuelven a TikTok/IG
+
+El usuario decide publicar los 7 clips del [[episodio-028-patrones-agenticos]]. Eso revierte, para el 028,
+lo de arriba (*"salen del calendario"*). Tres se cruzan con este batch: #1↔H2, #3↔U4 y #7↔U1. Para que
+la lectura del 4-dic se pueda interpretar, cada clip debería salir **después** de su short nativo, y
+hay que anotar en qué fecha salió.
 
 ## Related
 

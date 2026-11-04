@@ -3250,3 +3250,12 @@ Páginas nuevas: [[ingles-de-trabajo]] y [[ponche-artesanal-papa]].
 Actualizadas: [[prs-a-la-primera]] (el ciclo real, la skill del usuario, evals), [[taco-agente-teams]], [[slalom]] (recorte Q1 2027, confianza baja), [[daniel]], [[valor-se-muda-a-lo-escaso]], [[estrategia-contenido-absadev]] y [[absadev]] (snapshot vía el Taco de WhatsApp).
 Fuera a propósito: la plática del equipo sobre colegas con nombre, los detalles técnicos del cliente por card (números de card, PR y caso), las recomendaciones de LLM local (sin probar), el viaje a Seattle, las apuestas, y el pipeline de voz del 21-oct (era parte de una broma generada por IA, no un hecho).
 
+
+## [2026-11-02] ingest | Anuncio "NoviembreSprint26" (sprint de monetización de YouTube) — blackicelabs
+Fuente nueva: `raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md` (pegado sin remitente, canal destinatario ni requisitos de elegibilidad; confianza media). No se le hizo página propia porque es un evento de 30 días.
+Actualizadas: [[absadev]] (la condición de 6 videos ya se cumple con el batch; la de 2 funciones de monetización depende del YPP, que sigue sin confirmar; choca con "comunidad primero"), [[batch-noviembre-2026-shorts]] (riesgo de que Shopping contamine la lectura H/I/U del 4-dic) y [[objetivos-vida-2026-2027]] (la pregunta 4 ya tiene fecha).
+
+## [2026-11-03] decisión | Los 7 clips del 028 a TikTok/IG — blackicelabs
+Fuente: conversación. El usuario publica los 7 clips, no solo #3 y #5. Captions: los del 14-oct, sin cambios.
+Actualizadas: [[episodio-028-patrones-agenticos]] y [[batch-noviembre-2026-shorts]]. Se marca el choque con la nota del 15-oct, que los sacaba del calendario, y que tres clips repiten shorts nativos (#1↔H2, #3↔U4, #7↔U1).
+Pendiente: los títulos del 027 que el usuario cambió en YouTube no están en el wiki.

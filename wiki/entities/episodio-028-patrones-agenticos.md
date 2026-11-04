@@ -3,7 +3,7 @@ title: "Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude t
 type: entity
 domain: [blackicelabs, swe, fitexe]
 created: 2026-10-05
-updated: 2026-10-26
+updated: 2026-11-03
 sources:
   - path: raw/blackicelabs/absadev-reels-2026-09-04-open-spec.csv
     fact_date: 2026-09-04
@@ -29,6 +29,10 @@ sources:
     fact_date: 2026-10-15
     ingest_date: 2026-10-15
     confidence: low           # interpretación generada por IA de la plataforma, sin export ni ventana; las cifras sueltas (7,885 subs, 889K vistas, ~54 vistas, 65 s) son de primera parte
+  - path: conversation (el usuario decide publicar los 7 clips en TikTok/IG, 2026-11-03)
+    fact_date: 2026-11-03
+    ingest_date: 2026-11-03
+    confidence: high
 ---
 
 # Episodio 028 — Patrones agénticos: lo que pasa debajo cuando Claude trabaja en mi app
@@ -814,6 +818,26 @@ Episodio completo: Claude Code en una app Flutter real: ReAct, Plan and Execute 
 ⚠️ **Antes de programar:** el episodio largo tiene que estar publicado para ligarlo, y su
 descripción y capítulos todavía prometen multiagente y Circuit Breaker. El subtítulo quemado del
 #5 debe decir *Claude*, no *Cloud*.
+
+## [2026-11-03] Decisión: salen los 7 clips en TikTok e Instagram
+
+El usuario decide publicar **los 7 clips** (#1–#7), no solo el #3 y el #5. Los captions de TikTok e IG
+son los del 14-oct (arriba), sin cambios. Esta decisión **contradice** lo que se anotó el 15-oct en
+[[batch-noviembre-2026-shorts]] (*"los clips de reserva del 027 y del 028 salen del calendario"*). No se
+borra esa nota: este es el estado nuevo.
+
+⚠️ **Tres clips repiten un short nativo del batch:**
+- El **#1** (arquitectura que no pedí) es el mismo tema que **H2**, del 13-nov.
+- El **#3** (plan como migración) es el mismo tema que **U4**, del 27-nov.
+- El **#7** (/compact) es el mismo tema que **U1**, del 6-nov. Además, en YouTube ya salió con el corte
+  malo del 15-oct: para TikTok e IG conviene recortarlo (entrar con sujeto, salir con una afirmación).
+
+Publicar clip y short nativo del mismo tema en la misma ventana repite contenido en el perfil, y además
+mezcla las dos versiones en la lectura del 4-dic, que compara shorts entre sí. Si el clip sale después
+del nativo, la comparación nativo-contra-clip sigue siendo legible.
+
+🕐 **Pendiente:** el usuario dice que cambió títulos del 027 en YouTube para que despegaran. El wiki no
+tiene cuáles ni con qué resultado, así que todavía no se aplica nada a estos captions.
 
 ## Miniaturas verticales (2026-10-26)
 
