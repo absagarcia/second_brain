@@ -3270,3 +3270,7 @@ Fuente nueva: `raw/fitness/strava-historial-completo-2026-11-10/` (941 actividad
 Página nueva: [[historial-running-2024-2026]] (290 carreras, 1,772.9 km en 25 meses; la curva completa, comparación solo de exterior, huecos, medios maratones previos, equipo).
 Actualizadas: [[medio-maraton-atlas-2026]] (el 6-sep Strava solo tiene 9.23 km a 6:49; corrección: no hubiera sido su primer medio), [[objetivos-carrera-2026-2027]] (8-nov fue un relevo de 9.99 km; la tirada más larga era 21.49 km y no 12.02; el 2:15 pasa a "en el filo"), [[bloque-entrenamiento-running-2026]] (fue la recuperación de una regresión; el plan de 7:18 no se puede verificar), [[patron-de-terminacion]], [[objetivos-vida-2026-2027]], [[absa-garcia]].
 Contradicciones marcadas, sin borrar: "distancia más larga de su vida" y "tirada máxima 12.02 km" eran ciertas solo para el export anterior. Queda abierto: si corrió el Atlas, qué fue Anaheim y el plan del coach (Xavier).
+
+## [2026-11-10] decisión | Respuestas sobre el Atlas y Anaheim — fitness
+Fuente: conversación. El 6-sep la lluvia no lo dejó llegar a la salida del Atlas y corrió 9 km por su cuenta. Los 21.49 km de Anaheim del 1-feb fueron el Medio Maratón de Disney 2026, su único medio; el segundo "pegado" no lo corrió.
+Actualizadas: [[medio-maraton-atlas-2026]] (preguntas cerradas y sección de cierre), [[historial-running-2024-2026]], [[objetivos-carrera-2026-2027]].

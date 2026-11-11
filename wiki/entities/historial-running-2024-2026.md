@@ -5,6 +5,10 @@ domain: [fitness]
 created: 2026-11-10
 updated: 2026-11-10
 sources:
+  - path: conversation (el usuario, 2026-11-10)
+    fact_date: 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # primera mano: qué pasó el 6-sep y qué fue Anaheim
   - path: raw/fitness/strava-historial-completo-2026-11-10/
     fact_date: 2024-10-27 → 2026-11-10 (sin 2026-03-01 → 08-23)
     ingest_date: 2026-11-10
@@ -98,10 +102,10 @@ Carreras al aire libre de 9 km o más, más los 5K de referencia:
 | 2025-09-28 | 5.01 | 7:22 | "Mi primer 5km en mi era runner" |
 | 2025-11-02 | 15.16 | 7:39 | **Adidas Splits 15K 2025** (Strava, con tiempo total: 9:14/km) |
 | 2026-01-11 | 16.01 | 8:00 | *"No me siento listo para 2 medios maratones pegados"* |
-| **2026-02-01** | **21.49** | 8:01 | **Anaheim, California** — distancia de medio maratón (3h08' en total) |
+| **2026-02-01** | **21.49** | 8:01 | **Medio Maratón de Disney, Anaheim** — su único medio (3h08' en total) |
 | 2026-07-12 | 11.87 | 7:15 | Andares Lululemon 12K |
 | 2026-08-02 | 10.13 | 6:59 | Dolphy 2026 |
-| 2026-09-06 | 9.23 | 6:49 | el día del Atlas — ver [[medio-maraton-atlas-2026]] |
+| 2026-09-06 | 9.23 | 6:49 | el día del Atlas; no llegó a la salida por la lluvia — ver [[medio-maraton-atlas-2026]] |
 | 2026-10-04 | 15.05 | **6:58** | **Adidas Splits 15K 2026** — *"Logré mi PR, ya bajé de 7 minutos el pace"* |
 | 2026-10-18 | 9.94 | 6:56 | Carrera Leones Negros |
 | **2026-11-08** | 9.99 | **6:36** | **Relevos del Maratón de GDL** — su mejor ritmo en carrera |
@@ -122,11 +126,12 @@ está en **agosto → noviembre de 2026** (7:15 → 6:36 en cuatro meses).
   maratones pegados"*. O sea que en enero de 2026 estaba inscrito a **dos
   medios maratones seguidos**.
 - **2026-02-01, Anaheim:** **21.49 km a 8:01/km en movimiento, 3h08' en total**,
-  473 de effort (el más alto de toda la historia). Por la fecha y el lugar parece
-  una carrera, pero **Strava no le pone nombre**: el wiki no afirma cuál fue.
-  Del segundo medio "pegado" no hay registro.
+  473 de effort (el más alto de toda la historia). **Confirmado por él el
+  2026-11-10: fue el Medio Maratón de Disney (Disneyland, 2026)**, y **es el único
+  medio maratón que ha corrido**. El segundo de los "2 medios pegados" no lo
+  corrió.
 
-**Así que el 6-sep-2026 no hubiera sido su primer medio maratón.** Ver la
+**Así que el 6-sep-2026 no hubiera sido su primer medio maratón.** Y al final no lo corrió: la lluvia no lo dejó llegar a la salida (dicho por él el 2026-11-10). Ver la
 corrección en [[medio-maraton-atlas-2026]].
 
 ## Huecos
@@ -178,7 +183,6 @@ La de jul-2025 (*"desconectarme de todo"*) es el antecedente más viejo de
   actividad. El plan del 2026-09-08 (easy runs a 7:18/km en zona 2, ver
   [[bloque-entrenamiento-running-2026]]) **no se puede verificar con esto**.
 - Si las carreras tenían chip oficial: los tiempos son del reloj.
-- Qué fue Anaheim y cuál era el segundo medio.
 
 ## Vida útil
 

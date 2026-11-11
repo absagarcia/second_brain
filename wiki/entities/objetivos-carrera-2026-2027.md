@@ -5,6 +5,10 @@ domain: [fitness]
 created: 2026-08-25
 updated: 2026-11-10
 sources:
+  - path: conversation (el usuario, 2026-11-10)
+    fact_date: 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # primera mano: qué pasó el 6-sep y qué fue Anaheim
   - path: raw/fitness/strava-historial-completo-2026-11-10/
     fact_date: 2024-10-27 → 2026-11-10
     ingest_date: 2026-11-10
@@ -278,9 +282,10 @@ FC.
 
 ### Preguntas abiertas nuevas
 
-- ¿Qué fue el 21.49 km de Anaheim (2026-02-01)? ¿Y el segundo de los "2 medios
-  maratones pegados" del 11-ene?
-- ¿Corrió el Atlas el 6-sep? Strava solo registra 9.23 km ese día (ver
-  [[medio-maraton-atlas-2026]]).
+- ~~¿Qué fue el 21.49 km de Anaheim?~~ **✅ (2026-11-10):** el Medio Maratón de
+  Disney 2026, **su único medio maratón**; el segundo "pegado" no lo corrió.
+- ~~¿Corrió el Atlas el 6-sep?~~ **✅ (2026-11-10):** no; la lluvia no lo dejó
+  llegar a la salida y corrió 9.23 km por su cuenta. **Su única referencia real
+  sobre 21.1 km sigue siendo Disney: ≈3h08 en total**, de cuando corría a ~8:00/km.
 - ¿Sigue en pie el Medio de Guadalajara el 28-feb-2027 como objetivo, ahora
   que noviembre ya pasó?

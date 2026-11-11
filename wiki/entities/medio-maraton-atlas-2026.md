@@ -5,6 +5,10 @@ domain: [fitness, blackicelabs]
 created: 2026-08-25
 updated: 2026-11-10
 sources:
+  - path: conversation (el usuario, 2026-11-10)
+    fact_date: 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # primera mano: qué pasó el 6-sep y qué fue Anaheim
   - path: raw/fitness/strava-historial-completo-2026-11-10/
     fact_date: 2024-10-27 → 2026-11-10
     ingest_date: 2026-11-10
@@ -178,8 +182,9 @@ territorio nuevo.**
 
 ## Preguntas abiertas
 
-- ~~**¿Qué pasó el 6-sep?**~~ **Parcial (2026-11-10):** Strava registra 9.23 km
-  a 6:49/km y ningún 21.1 km. Falta que él diga si corrió la carrera.
+- ~~**¿Qué pasó el 6-sep?**~~ **✅ Cerrada (2026-11-10), por él:** *"9km porque
+  la lluvia no me permitió llegar a la salida de la carrera"*. Ver la sección de
+  abajo.
 - El **plan del coach** (nombre que aparece el 2026-11-08: **Xavier**) sigue sin registrar, y es lo que decide el ritmo de
   salida del domingo. (La parte de la nutrióloga entró el 2026-08-25 —
   [[margarita-posada]] — pero **son mediciones, no un plan**: el campo
@@ -192,3 +197,25 @@ territorio nuevo.**
   discrepancia: los 93.5 kg del perfil de Strava son la medición del 28-jul; el
   peso vigente son **95.0 kg** (18-ago), con la grasa en **27.3%** y bajando sin
   un solo retroceso en las 8 mediciones.
+
+## 2026-11-10 — respuesta: la lluvia no lo dejó llegar a la salida
+
+> *"siu pero 9km porque la lluvia no me permitió llegar a la salida de la
+> carrera"* — el usuario, 2026-11-10.
+
+**El Medio Maratón del Atlas no se corrió.** La lluvia le impidió llegar a la
+salida, y en su lugar corrió **9.23 km a 6:49/km** por su cuenta (el registro de
+Strava de arriba). No fue un retiro ni una lesión: fue un problema logístico
+el día de la carrera.
+
+Esto deja el cierre de la página así:
+
+- **La aritmética del sub-2h no llegó a ponerse a prueba.** Lo escrito antes
+  de la carrera (brecha de 5:41 contra 6:59/km) no se confirmó ni se desmintió.
+- **La función de "calibración" sí se cumplió, a medias.** No hubo un tiempo de
+  21.1 km, pero los 9.23 km a 6:49/km dieron la mejor lectura en exterior hasta
+  esa fecha.
+- **Para el arco de contenido de [[absa-garcia]]**, el "desenlace agendado"
+  terminó siendo un clima que no deja llegar, no un tiempo. Es el caso que la
+  sección de arriba no previó: ni el sub-2h ni el fallo, sino una carrera que
+  no ocurrió.
