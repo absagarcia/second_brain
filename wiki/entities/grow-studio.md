@@ -3,7 +3,7 @@ title: Grow Studio (propuesta de barre)
 type: entity
 domain: [finance]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-08
 sources:
   - path: raw/finance/grow-studio-propuesta-2026-10-19.md
     fact_date: 2026-10-19      # fecha en que llegó; no se sabe cuándo se elaboró
@@ -235,8 +235,53 @@ original, salvo los cambios marcados.
 
 **Reglas operativas:** Limitless y Founders, máximo 1 clase al día. Fitpass, máximo 2 lugares por clase en hora pico.
 
+## Oferta de sociedad a Sofi y valuación (2026-11-08)
+
+Fuente: conversación con el usuario (2026-11-08), sin documento en `raw/`; confianza media,
+porque es lo que él cuenta y no se ha visto la oferta por escrito.
+
+**Lo que se confirmó ese día:**
+- Este **es** el estudio en el que [[sofi]] (la esposa del usuario) invertiría los **100,000 MXN**.
+  La dueña es **Dafne**, que también es la dueña de [[baika-barre]] (probablemente la "D." del
+  chat de comisiones, sin confirmar).
+- **La oferta:** 100k por el **30%**. Dafne dice que el negocio "vale 400k" y **basa la cifra en
+  Baika**. Los 100k se usarían para construir y mejorar Grow, no para pagarle a ella.
+- Según Dafne, ella **nunca sacó un peso** de Baika. Por ahora Sofi solo ganaría si atiende el
+  front desk o da clases.
+- **Grow arranca desde cero:** sin clientas, sin paquetes activos y solo con preventa. De Baika se
+  trae el equipo (muebles, tapetes, pesas, círculos) y algunas coaches, pero **ninguna clienta**.
+
+**Evaluación (análisis del asistente, confianza media; los precios de equipo son estimados sin cotizar):**
+- **Las cuentas de la oferta se contradicen:** 100k = 30% pone al negocio en 233k antes de la
+  inversión, no en 400k. Si fueran 400k antes de la inversión, 100k comprarían el 20%.
+- **Valuar Grow con Baika está mal por dos razones.** (1) Un estudio vale por sus clientas
+  activas y su flujo, y Grow no hereda ninguna de las dos. (2) Ni siquiera Baika vale 400k
+  según sus propios números: en feb–jul sumó ~84k de "utilidad" (~168k al año), con tendencia
+  a la baja (julio, 3.7k, equivale a ~45k al año), antes de los renglones "Wellhub/Apps [nombre]",
+  y la dueña nunca retiró nada. Con un múltiplo de 1x, lo más generoso que se le puede dar,
+  Baika valdría ~170k o menos.
+- **Valor de Grow por sus activos:** equipo usado (estimado ~30–60k, falta cotizar), más el
+  depósito de renta si ya se pagó (hasta ~49k), más la obra y la marca ya pagadas y comprobables,
+  más la caja neta de la preventa (que también es una deuda: son clases que se deben dar). Un
+  bono para la fundadora por experiencia y coaches es razonable, pero tiene que ir explícito.
+- **Techo:** lo que costaría montar un estudio de 12 lugares nuevo. Nadie racional paga más que
+  eso por uno sin clientas.
+- **Implicación:** salvo que existan comprobantes de ~233k ya invertidos, el 30% se queda corto.
+  Con un valor antes de la inversión de 100–150k, a Sofi le tocaría 40–50%.
+- **El porcentaje no arregla el modelo:** 50% de cero sigue siendo cero. Para Sofi pesan más las
+  condiciones (recuperar su dinero primero, sueldo aparte, entregar el dinero por tramos ligados a
+  la preventa) que el porcentaje.
+
+**Abierto:** comprobantes de lo que puso Dafne; en qué se van a gastar los 100k (obra que se
+queda en el local frente a equipo que se puede sacar); contrato de renta; si existe o se va a
+crear una sociedad formal; resultado de la preventa de Buen Fin.
+
+> **Vigencia:** la oferta y las cifras son **de corta vida** (dependen de la negociación y de la
+> preventa). El principio de que **un negocio sin clientas vale sus activos y no el historial de
+> otro negocio** es **de larga vida**.
+
 ## Related
 
 - [[baika-barre]] — los números reales contra los que se revisó
-- [[sofi]] — posible relación con su plan de invertir en un estudio de barre
+- [[sofi]] — confirmado el 2026-11-08: es el estudio en el que invertiría 100k por 30%
 - [[finanzas-personales-2026-2027]] — donde aterrizaría una inversión si fuera del hogar

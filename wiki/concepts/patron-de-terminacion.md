@@ -3,8 +3,12 @@ title: "Empiezo muchas y termino pocas" — el patrón real, según sus propios 
 type: concept
 domain: [reflections, blackicelabs, fitness, swe, books]
 created: 2026-08-26
-updated: 2026-10-26
+updated: 2026-11-10
 sources:
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high
   - path: raw/reflections/patron-terminacion-2026-08-26.md
     fact_date: 2026-08-26
     ingest_date: 2026-08-26
@@ -43,6 +47,17 @@ No son impresiones. Son series medidas, todas de los últimos cinco meses:
 **Eso no es el historial de alguien que no termina cosas.** Es el historial de
 alguien con una constancia notable — cinco meses de mejora física **sin una sola
 regresión** es algo que la mayoría no consigue nunca.
+
+> **2026-11-10 — el historial completo lo matiza y lo refuerza.** Con toda la
+> cuenta de Strava ([[historial-running-2024-2026]]) correr deja de ser un
+> compromiso de 5 meses: son **25 meses, 290 carreras y 1,772.9 km**, y en todo
+> ese tiempo **solo tres veces pasó dos semanas o más sin correr**. Eso refuerza
+> la tesis de la página. Lo que matiza es el "sin una sola regresión": visto
+> completo, **hubo una regresión de cinco meses (oct-2025 → feb-2026)** y el
+> bloque de mar→ago fue su recuperación. La lectura más exacta no es "nunca
+> retrocede", es **"retrocede y vuelve sin abandonar"**. Para esta página eso
+> es más fuerte: lo que tiene estructura (coach, carreras con fecha) aguanta
+> incluso un mal semestre.
 
 ## Lo que sí abandona
 

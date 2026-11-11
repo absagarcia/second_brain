@@ -3259,3 +3259,14 @@ Actualizadas: [[absadev]] (la condición de 6 videos ya se cumple con el batch; 
 Fuente: conversación. El usuario publica los 7 clips, no solo #3 y #5. Captions: los del 14-oct, sin cambios.
 Actualizadas: [[episodio-028-patrones-agenticos]] y [[batch-noviembre-2026-shorts]]. Se marca el choque con la nota del 15-oct, que los sacaba del calendario, y que tres clips repiten shorts nativos (#1↔H2, #3↔U4, #7↔U1).
 Pendiente: los títulos del 027 que el usuario cambió en YouTube no están en el wiki.
+
+## [2026-11-08] decisión | Oferta de sociedad en Grow (100k por 30%) y valuación — finance
+Fuente: conversación. Se confirma que Sofi es la esposa, que Dafne es dueña de Baika y de Grow, y que Grow no hereda clientas (solo equipo y algunas coaches). Dafne lo valúa en 400k con base en Baika.
+Actualizadas: [[grow-studio]] (sección nueva de oferta y valuación: activos frente al historial de Baika; el 30% implica 233k), [[sofi]] (queda cerrada la relación que estaba sin confirmar) y [[baika-barre]] (dueña y "nunca sacó un peso").
+Agregado el mismo día: el trabajo de Sofi (maestra en la UAG de 7 a 15 y terapia de piso pélvico a ~600 por sesión, máximo 3 por semana) y la comparación de pago por hora contra Grow, en [[sofi]].
+
+## [2026-11-10] ingest | Strava — historial completo (oct 2024 → nov 2026) — fitness
+Fuente nueva: `raw/fitness/strava-historial-completo-2026-11-10/` (941 actividades vía MCP de Strava; complementa el export de mar→ago 2026, sin traslape).
+Página nueva: [[historial-running-2024-2026]] (290 carreras, 1,772.9 km en 25 meses; la curva completa, comparación solo de exterior, huecos, medios maratones previos, equipo).
+Actualizadas: [[medio-maraton-atlas-2026]] (el 6-sep Strava solo tiene 9.23 km a 6:49; corrección: no hubiera sido su primer medio), [[objetivos-carrera-2026-2027]] (8-nov fue un relevo de 9.99 km; la tirada más larga era 21.49 km y no 12.02; el 2:15 pasa a "en el filo"), [[bloque-entrenamiento-running-2026]] (fue la recuperación de una regresión; el plan de 7:18 no se puede verificar), [[patron-de-terminacion]], [[objetivos-vida-2026-2027]], [[absa-garcia]].
+Contradicciones marcadas, sin borrar: "distancia más larga de su vida" y "tirada máxima 12.02 km" eran ciertas solo para el export anterior. Queda abierto: si corrió el Atlas, qué fue Anaheim y el plan del coach (Xavier).

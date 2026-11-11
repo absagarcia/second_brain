@@ -3,8 +3,12 @@ title: Medio Maratón del Atlas 2026
 type: entity
 domain: [fitness, blackicelabs]
 created: 2026-08-25
-updated: 2026-09-08
+updated: 2026-11-10
 sources:
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # incluye la actividad del 2026-09-06 y el historial previo a mar-2026
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
     ingest_date: 2026-07-22
@@ -89,6 +93,12 @@ Ambas frases ya están disponibles hoy, y por eso ninguna vale.
 sería la distancia más larga de su vida por un margen del 75%. Ese es el
 hecho que la carrera puede producir.
 
+> ⚠️ **Corrección 2026-11-10.** Lo de "la distancia más larga de su vida"
+> era cierto **para el export de mar→ago 2026, que era todo lo que había**, y
+> falso para su historia: el **2026-02-01 corrió 21.49 km en Anaheim** y el
+> 2025-02-16, 18.01 km. Ver [[historial-running-2024-2026]]. La frase se deja
+> como se escribió el 25-ago.
+
 Y con el reencuadre del maratón, ese hecho vale más de lo que parecía: **el
 tiempo del domingo es el mejor dato disponible para calibrar
 [[objetivos-carrera-2026-2027]]**, mucho mejor que el 10K de Dolphy. Cruzar la
@@ -131,11 +141,46 @@ página no tiene, a la fecha de esta nota, ni el tiempo ni la distancia
 finalmente corrida. Vale la pena preguntar directamente y cerrar el
 [[objetivos-carrera-2026-2027]] con el dato real en vez de con la proyección.
 
+## 2026-11-10 — lo que registra Strava del 6-sep
+
+El export completo ([[historial-running-2024-2026]]) tiene **una sola carrera
+ese domingo**:
+
+| | |
+|---|---|
+| Hora | 08:21, Guadalajara |
+| Distancia | **9.23 km** |
+| Tiempo | 1h02'57" en movimiento, sin pausas (1h03'01" total) |
+| Ritmo | **6:49/km** |
+| Desnivel | 71.6 m |
+| PRs | **11** · effort 182 |
+| Después | caminata de 1.37 km en Zapopan (09:52) |
+
+**Coincide con el journal del 8-sep** (*"casi 10km... el domingo a 6:50"*):
+la nota de arriba ya no tiene discrepancia entre fuentes. La que queda es con
+la carrera: **ese día no hay una actividad de 21.1 km**. Lo que sí está medido
+es que **el 6-sep no completó un medio maratón registrado en Strava**.
+
+Lo que no se sabe: si llegó a la salida y se retiró, si corrió otra distancia
+o si no fue. **Esto lo tiene que decir él.**
+
+Lo que sí da el dato, y era para lo que esta página reencuadró la carrera
+(calibración): **6:49/km sobre 9.23 km, 18 días después de reportar la lesión
+de ingle**, su mejor ritmo en exterior hasta esa fecha. Por Riegel
+proyecta **≈2h31** a 21.1 km, contra ≈2h34 desde Dolphy el 2-ago.
+
+**Corrección del contexto (2026-11-10):** esta página trató el Atlas como su
+primer medio maratón. No lo era: el **2026-02-01 corrió 21.49 km en Anaheim**
+(8:01/km en movimiento, 3h08' en total). Y el 2026-01-11 escribió *"No me
+siento listo para 2 medios maratones pegados"*. La aritmética de arriba
+(sub-2h ≠ 6:59/km) sigue en pie; **lo que cambia es que la distancia no era
+territorio nuevo.**
+
 ## Preguntas abiertas
 
-- **¿Qué pasó el 6-sep?** Ver nota arriba — el desenlace de esta página
-  sigue sin dato propio, dos días después de la fecha.
-- El **plan del coach** sigue sin registrar, y es lo que decide el ritmo de
+- ~~**¿Qué pasó el 6-sep?**~~ **Parcial (2026-11-10):** Strava registra 9.23 km
+  a 6:49/km y ningún 21.1 km. Falta que él diga si corrió la carrera.
+- El **plan del coach** (nombre que aparece el 2026-11-08: **Xavier**) sigue sin registrar, y es lo que decide el ritmo de
   salida del domingo. (La parte de la nutrióloga entró el 2026-08-25 —
   [[margarita-posada]] — pero **son mediciones, no un plan**: el campo
   "observaciones" viene vacío en las 8 evaluaciones.)

@@ -3,7 +3,7 @@ title: Sofi
 type: entity
 domain: [reflections, finance]
 created: 2026-09-08
-updated: 2026-10-19
+updated: 2026-11-08
 sources:
   - path: raw/reflections/journal-2026-09-08.md
     fact_date: 2026-09-08
@@ -35,6 +35,23 @@ los dos es el estudio en el que Sofi invertiría. Si es Grow, la revisión del
 2026-10-19 encontró que la proyección (114.8k/mes) pide unas 2.3 veces la venta directa
 real de Baika y no incluye costos.
 
+**2026-11-08 (conversación):** confirmado. Sofi es la esposa del usuario y el estudio es
+[[grow-studio]], de **Dafne** (la misma dueña de [[baika-barre]]). La oferta es **100k por 30%**,
+y Dafne valúa el negocio en 400k con base en Baika. Los 100k serían para construir Grow. Por ahora
+Sofi solo ganaría trabajando en el front desk o dando clases, y Dafne dice que nunca sacó un peso
+de Baika. La evaluación (en [[grow-studio]]) concluye que, como Grow no hereda clientas, se debe
+valuar por sus activos y no por Baika, y que el 30% probablemente se queda corto.
+
+**2026-11-08 (conversación), su trabajo actual y la comparación con Grow:** es **maestra en la
+Universidad Autónoma de Guadalajara de 7:00 a 15:00**. Además da **terapias de piso pélvico**
+(el usuario escribió "peso pérmico"; se asume que es piso pélvico, sin confirmar), cobra **~600 por
+sesión** y puede vender paquetes. Para cuidar el tiempo en pareja, su tope sería **~3 pacientes a
+la semana, uno por día**. En Grow le tocaría, al salir de la universidad, front desk, clases, head
+coach y seguimiento. **Comparación (análisis, confianza media; las horas en Grow son supuestas):**
+las terapias dejan ~7.8k al mes por ~13 h (~600/h) sin invertir nada. Grow le pagaría ~6–9k al mes
+por ~45–100 h (~90–130/h), más 100k invertidos con utilidades ≈ 0 a corto plazo, y se come las
+tardes, que es justo el tiempo de pareja que ella quiere proteger. Detalle en [[grow-studio]].
+
 ## Tensión anotada: "vida de calidad en pareja"
 
 Sofi menciona con frecuencia el tema, según el usuario, pero él mismo anota
@@ -59,4 +76,4 @@ se pregunte también su versión.
 - [[absa-garcia]] — donde vive el material personal/de pareja del usuario
 - [[objetivos-vida-2026-2027]] — objetivo 10 (Japón "con su esposa")
 - [[finanzas-personales-2026-2027]] — donde no aparece todavía la inversión del estudio de barre
-- [[baika-barre]] / [[grow-studio]] — finanzas de un estudio real y la propuesta revisada el 2026-10-19
+- [[grow-studio]] — el estudio de la oferta (confirmado el 2026-11-08) · [[baika-barre]] — el negocio anterior de Dafne
