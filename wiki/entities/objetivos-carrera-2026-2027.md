@@ -34,7 +34,7 @@ Declarados por [[eliecer-garcia-romo]] el 2026-08-25.
 ## La escalera
 
 | # | Carrera | Fecha | Faltan | Objetivo declarado | Ritmo exigido |
-|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- |
 | 1 | [[medio-maraton-atlas-2026]] | 2026-09-06 | 12 días | (sub-2h en el perfil de Strava) | 5:41/km |
 | 2 | Maratón | **2026-11-08** | 75 días | 4 horas — *"lo veo complicado"* | 5:41/km |
 | 3 | Medio Maratón de Guadalajara | **2027-02-28** (último domingo de feb) | 187 días | **2:15** — *"objetivo más real"* | **6:23/km** |
@@ -48,7 +48,7 @@ maratón**.
 Y por un margen cómodo.
 
 | | Mejora necesaria | Por mes |
-|---|---|---|
+| --- | --- | --- |
 | Medio 2:15 en feb-2027 | 6:59 → 6:23/km = **52 s/km** en 6.2 meses | **8.5 s/km** |
 | *(comparación)* medio sub-2h en esa misma fecha | 78 s/km | 12.6 s/km |
 | **Ritmo de mejora que ya lleva demostrado** | 8:35 → 7:44/km en 5 meses | **~10 s/km** |
@@ -174,7 +174,7 @@ en 2 horas en el 2026"**.
 día.** Se anota, no se resuelve:
 
 | Dicho el 2026-08-25 | Meta | Ritmo exigido |
-|---|---|---|
+| --- | --- | --- |
 | Esta página | medio en **2:15 el 28-feb-2027** — *"objetivo más real"* | 6:23/km |
 | Lista de objetivos de vida | medio en **2:00 durante 2026** | 5:41/km |
 
@@ -261,7 +261,7 @@ En su descripción aparece por primera vez el nombre del coach: **Xavier**.
 ### El 2:15 del 28-feb-2027, con los datos de hoy
 
 | Base (carrera real) | Fecha | Proyección a 21.1 km (Riegel) |
-|---|---|---|
+| --- | --- | --- |
 | Dolphy 10K, 6:59/km | 2026-08-02 | ≈ 2h34 *(la que tenía esta página)* |
 | 6-sep, 9.23 km a 6:49 | 2026-09-06 | ≈ 2h31 |
 | **Adidas Splits 15K, 6:58/km** | 2026-10-04 | **≈ 2h30** |
@@ -289,3 +289,77 @@ FC.
   sobre 21.1 km sigue siendo Disney: ≈3h08 en total**, de cuando corría a ~8:00/km.
 - ¿Sigue en pie el Medio de Guadalajara el 28-feb-2027 como objetivo, ahora
   que noviembre ya pasó?
+
+## 2026-11-10 — confirmado: Medio Maratón de Guadalajara, **21 de febrero de 2027**
+
+> El usuario confirma que **sigue siendo la meta** y que la fecha es **el
+> 2027-02-21**, no el 28-feb que esta página supuso desde el 25-ago (por ser
+> el último domingo de febrero). Las menciones anteriores al "28-feb" se dejan
+> como se escribieron; **la fecha válida es el 21-feb**.
+
+Recalculado con la fecha real (una semana menos):
+
+| | Valor |
+| --- | --- |
+| Días desde los Relevos (8-nov) | **105** (≈3.4 meses) |
+| Proyección actual (Riegel) | ≈2h25 desde el 10K · ≈2h30 desde el 15K |
+| Le falta para 2:15 | ≈10.5 min (base 10K) · ≈15 min (base 15K) |
+| Ritmo de mejora necesario | **≈3.1 min/mes** · **≈4.4 min/mes** |
+| Mejora demostrada (2-ago → 8-nov, base 10K) | **≈2.8 min/mes** (2h34 → 2h25) |
+
+**El cambio de fecha aprieta la meta, sin cambiar el veredicto:** desde el 10K
+pide un poco más de lo que ya ha mejorado; desde el 15K, bastante más. Sigue
+"en el filo", ahora un poco más del lado difícil. Lo que más mueve la cuenta
+no es la fecha, sino que **su única referencia real a 21.1 km es el Medio de
+Disney (≈3h08 en total, a ~8:00/km)**: todo lo demás es proyección desde
+distancias más cortas.
+
+Las proyecciones al 20% de grasa de [[composicion-corporal-2026]] (≈16-nov y
+≈18-dic) siguen cayendo antes de la carrera, con unos dos meses de margen.
+
+> **2026-11-10 — peso para la carrera:** con 93.3 kg y 25.3% de grasa hoy, al ritmo
+> actual llegaría al 21-feb en **≈90.5 kg y ≈23%** (ver [[composicion-corporal-2026]]).
+> La línea de arriba ("caen antes de la carrera") ya no se cumple para el 20%, pero sí
+> para los ≈90 kg de báscula.
+
+## 2026-11-10 — DECISIÓN: la meta del Medio de Guadalajara pasa a **2:20**
+
+> *"2:20 se me haría un excelente tiempo para el medio maratón"* — el usuario, 2026-11-10.
+
+Sustituye al 2:15 del 25-ago (que se queda arriba como se escribió). Ese mismo día
+se habló también de 2:30; **la meta que queda es 2:20**.
+
+| | 2:15 (anterior) | **2:20 (vigente)** |
+| --- | --- | --- |
+| Ritmo | 6:23/km | **6:38/km** |
+| Faltan desde la proyección por el 10K (≈2h25) | ≈10.5 min | **≈5 min** |
+| Faltan desde la proyección por el 15K (≈2h30) | ≈15 min | **≈10 min** |
+| Mejora necesaria (105 días) | 3.1–4.4 min/mes | **≈1.5–2.9 min/mes** |
+| Mejora demostrada (ago → nov) | ≈2.8 min/mes | ≈2.8 min/mes |
+
+**Por primera vez la meta de esta carrera queda en tendencia tomando cualquiera de las
+dos bases.** Desde el 10K le sobra margen y desde el 15K cabe justo. Su 10K más reciente
+(6:36/km) ya es más rápido que el ritmo meta; lo que falta es **sostenerlo el doble de
+distancia**, y su única experiencia a 21 km es Disney a 8:01/km.
+
+### Plan propuesto (2026-11-10, para revisar con Xavier)
+
+Salió de la conversación de ese día y se apoya en [[the-science-of-running]].
+**No es el plan del coach**, que sigue sin registrarse.
+
+| Periodo | Tirada larga (exterior, suave ~7:50–8:10) | Énfasis |
+| --- | --- | --- |
+| 10 → 27-nov | 12–14 km | mantener |
+| Semana de la boda | corta o nada | descarga deliberada |
+| Diciembre | 14 → 16 km | 1 sesión de calidad/semana (umbral 15 → 25 min) |
+| Enero | 16 → 18 → 19–20 km | los últimos 4–6 km de la larga a ~6:40 |
+| 1 → 14-feb | 16 km con 8 km a ritmo meta | último entrenamiento específico, 10–14 días antes |
+| 15 → 21-feb | 8–10 km + strides | taper |
+
+Semana tipo: larga + calidad (exterior, con subidas) + 2 suaves (caminadora sirve) +
+2 de fuerza de corredor ([[fuerza-sin-hipertrofia-corredor]]). **Prueba a mediados de
+enero** (10K o 15–18 km con el último tercio a ritmo meta) para recalibrar.
+
+Composición: déficit en días suaves, sin déficit en días de larga y calidad; proteína
+alta y repartida; mantener (no bajar) en diciembre. Sigue pendiente la fecha del 20%
+(¿febrero o primavera de 2027?) — ver [[composicion-corporal-2026]].

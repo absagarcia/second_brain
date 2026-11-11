@@ -456,3 +456,11 @@ La señal del 7-oct (*"en noviembre solo tengo boda"*) resultó correcta.
 Para el **objetivo 3** (medio sub-2h, movido a 2027): la proyección desde sus carreras de
 oct-nov da un medio en **≈2h25–2h30**. El escalón intermedio (2:15 el 28-feb-2027) está en
 el filo, ver [[objetivos-carrera-2026-2027]].
+
+> **2026-11-10:** confirma que el Medio Maratón de Guadalajara sigue siendo la meta, con
+> fecha **2027-02-21** (no 28-feb). Ver [[objetivos-carrera-2026-2027]].
+
+> **2026-11-10 — objetivo 4 (20% de grasa al 31-dic):** reporta **93.3 kg y 25.3%**. La
+> pérdida de grasa se frenó a menos de la mitad desde agosto (≈−0.7 pts/mes) y a ese ritmo
+> llega a ≈24% el 31-dic y al 20% hacia fines de junio de 2027. **Deja de estar en tendencia:
+> ya no es el único objetivo verificado en camino.** Ver [[composicion-corporal-2026]].

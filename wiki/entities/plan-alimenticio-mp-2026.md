@@ -3,7 +3,7 @@ title: Plan alimenticio Sistema MP 2026
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-11-10
 sources:
   - path: raw/fitness/meal plan/meal-plan.png
     fact_date: 2026-08-25      # sin fecha propia; captura de la app, se asume vigente al ingerir
@@ -148,3 +148,9 @@ información, no error.
 [[margarita-posada]] · [[composicion-corporal-2026]] ·
 [[objetivos-carrera-2026-2027]] · [[bloque-entrenamiento-running-2026]] ·
 [[absa-garcia]]
+
+> **2026-11-10 — [[the-science-of-running]]:** Magness propone repartir la proteína en
+> ~5 tomas de ~20 g y una dosis grande antes de dormir para mantener alta la síntesis,
+> también de noche. Con ~106 g/día el plan ya da para ~5 tomas; lo que no consta es la
+> toma de la noche. Y para el bloque del 21-feb (más de 2 h de carrera) el glucógeno
+> pasa a ser factor de carrera, no solo de entrenamiento. Temas para [[margarita-posada]].

@@ -3274,3 +3274,23 @@ Contradicciones marcadas, sin borrar: "distancia más larga de su vida" y "tirad
 ## [2026-11-10] decisión | Respuestas sobre el Atlas y Anaheim — fitness
 Fuente: conversación. El 6-sep la lluvia no lo dejó llegar a la salida del Atlas y corrió 9 km por su cuenta. Los 21.49 km de Anaheim del 1-feb fueron el Medio Maratón de Disney 2026, su único medio; el segundo "pegado" no lo corrió.
 Actualizadas: [[medio-maraton-atlas-2026]] (preguntas cerradas y sección de cierre), [[historial-running-2024-2026]], [[objetivos-carrera-2026-2027]].
+
+## [2026-11-10] decisión | Medio Maratón de Guadalajara: sigue la meta, fecha 2027-02-21 — fitness
+Fuente: conversación. El usuario confirma la meta y corrige la fecha que el wiki suponía (28-feb, por ser el último domingo de febrero) a **2027-02-21**.
+Actualizadas: [[objetivos-carrera-2026-2027]] (recalculo con 105 días: pide ≈3.1–4.4 min/mes contra ≈2.8 demostrados), [[composicion-corporal-2026]] y [[objetivos-vida-2026-2027]] (nota de fecha). Las menciones viejas al 28-feb se quedan como se escribieron.
+
+## [2026-11-10] decisión | Peso y grasa actuales: 93.3 kg / 25.3% — fitness
+Fuente: conversación (sin pliegues ni masa muscular; no consta si es medición de la nutrióloga o báscula). Se registra fuera de la serie medida.
+Actualizadas: [[composicion-corporal-2026]] (−2.3 kg de grasa y +0.6 de masa libre de grasa en 84 días, pero a menos de la mitad del ritmo anterior; las proyecciones al 20% del 25-ago ya no se cumplen), [[objetivos-vida-2026-2027]] (el objetivo 4 deja de estar en tendencia) y [[objetivos-carrera-2026-2027]] (≈90.5 kg el día de la carrera).
+Agregado el mismo día: el usuario subraya que viene de 36%. Se añade a [[composicion-corporal-2026]] el cuadro completo (−10.6 pts y −12.5 kg de grasa desde el 27-mar, +5.2 kg de masa libre de grasa) para que el frenado no se lea fuera de contexto.
+
+## [2026-11-10] ingest | The Science of Running (Steve Magness, 2014) — books, fitness
+Fuente nueva: `raw/books/The Science of Running: How to find your limit and train to maximize your performance.md` (subrayados de Kindle). Ángulo de compresión: el Medio de GDL del 21-feb-2027 y la pregunta de bajar masa muscular.
+Páginas nuevas: [[the-science-of-running]] y [[fuerza-sin-hipertrofia-corredor]].
+Actualizadas: [[objetivos-carrera-2026-2027]] (**decisión: la meta pasa a 2:20**, en tendencia; plan propuesto para revisar con el coach), [[composicion-corporal-2026]] (objetivo nuevo de bajar masa muscular), [[plan-alimenticio-mp-2026]], [[stress-rest-growth-equation]], [[maximo-rendimiento]] y [[haz-cosas-dificiles]] (mismo autor, no se cuenta como convergencia).
+Pendiente: la fecha del 20% de grasa.
+
+## [2026-11-10] ingest | Strava — zonas y FC de dos rodajes + plan del Medio GDL 2027 — fitness
+Fuente nueva: `raw/fitness/strava-fc-zonas-y-rodajes-2026-11-10.md` (zonas de Strava y FC por minuto de los rodajes del 3-nov, exterior, y del 4-nov, caminadora).
+Página nueva: [[plan-medio-gdl-2027]] (propuesta para la meta de 2:20 sobre la estructura que ya tiene con su coach: martes en pista, miércoles y jueves en caminadora porque corre de 3 a 6 pm, larga en exterior; fuerza, pliometría, zona 2 y día de carrera). Copiada a Apple Notas como "Plan Medio GDL 2027 — 2:20". Pendiente de revisión con Xavier.
+Agregado el mismo día: dos notas más en Apple Notas para usar en el gimnasio, "Lunes — Fuerza A (pesada)" y "Viernes — Fuerza B (potencia + pliometría)", con calentamiento, series, descansos y la progresión de [[plan-medio-gdl-2027]]. No agregan contenido nuevo al wiki.

@@ -3,7 +3,7 @@ title: Haz cosas difíciles (Do Hard Things)
 type: entity
 domain: [books, reflections, athletix]
 created: 2026-07-23
-updated: 2026-07-28
+updated: 2026-11-10
 sources:
   - path: raw/books/Haz cosas difíciles.md
     fact_date: 2022-01-01        # recalled: Steve Magness, Do Hard Things
@@ -79,3 +79,7 @@ Decisión." Four pillars:
   goals just beyond capacity, meaning as what lets you endure — that is **one
   voice restating itself, not independent convergence**. Anywhere this wiki
   counts confirming sources, count Magness once.
+
+> **2026-11-10:** ingerido [[the-science-of-running]] (2014), el libro técnico del mismo
+> Magness. Las coincidencias con este libro son del mismo autor, no convergencia
+> independiente.

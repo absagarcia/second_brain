@@ -3,7 +3,7 @@ title: Composición corporal 2026
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-11-10
 sources:
   - path: raw/fitness/meal plan/
     fact_date: 2026-03-27 → 2026-08-18   # 8 evaluaciones antropométricas fechadas
@@ -14,6 +14,10 @@ sources:
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
     confidence: medium  # recordado de memoria; la serie medida corrigió dos cifras
+  - path: conversation (el usuario, 2026-11-10)
+    fact_date: 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: medium  # cifra dicha por él; sin pliegues ni masa muscular, instrumento sin confirmar
 ---
 
 # Composición corporal 2026
@@ -40,6 +44,11 @@ Proceso corporal de [[eliecer-garcia-romo]] con [[margarita-posada]]
 
 Deltas en 144 días: peso **−5.7 kg** · grasa **−10.2 kg** · pliegues
 **−66.8 mm (−33.6%)** · masa muscular medida **−2.0 kg**.
+
+> **2026-11-10 — dato nuevo, fuera de la serie:** el usuario reporta **93.3 kg y
+> 25.3% de grasa**. No se agrega a la tabla porque no trae pliegues ni masa
+> muscular y no consta que venga de una cita con [[margarita-posada]]. Análisis
+> en la sección del 2026-11-10 al final.
 
 ## ⚠️ Correcciones a lo que este wiki decía esta misma mañana
 
@@ -243,3 +252,105 @@ Esta página **registra y hace aritmética**. No prescribe: el plan es de
 [[margarita-posada]] y está transcrito, no evaluado, en
 [[plan-alimenticio-mp-2026]]. Las 8 imágenes de esta serie siguen siendo
 **mediciones** — el campo "observaciones" viene vacío en las 8.
+
+> **2026-11-10:** la fecha del Medio Maratón de Guadalajara es el **2027-02-21**
+> (confirmada por el usuario), no el 28-feb que se usó arriba. Las proyecciones
+> al 20% siguen cayendo antes de la carrera. Ver [[objetivos-carrera-2026-2027]].
+
+## 2026-11-10 — 93.3 kg y 25.3%: sigue bajando, pero a la mitad de velocidad
+
+> *"actualmente ya peso 93.3kg y con % de grasa al 25.3"* — el usuario, 2026-11-10.
+
+⚠️ **Instrumento sin confirmar.** Esta página ya registró que la báscula de casa
+y la de la nutrióloga no dan lo mismo. Si el 25.3% viene de una báscula de
+bioimpedancia y no de pliegues, **no se compara uno a uno con la serie**. Las
+cuentas de abajo suponen que sí es comparable.
+
+### Contra la última medición (2026-08-18, 84 días antes)
+
+| | 18-ago | 10-nov | Cambio |
+|---|---|---|---|
+| Peso | 95.0 kg | **93.3 kg** | −1.7 kg |
+| % grasa | 27.3% | **25.3%** | −2.0 pts |
+| Grasa (kg) | 25.9 | **23.6** | **−2.3 kg** |
+| Masa libre de grasa | 69.1 | **69.7** | **+0.6 kg** |
+
+**Lo bueno:** bajó grasa y **no perdió masa libre de grasa**, incluso subió un
+poco. Es lo contrario de la pérdida de músculo que preocupaba en agosto (ver la
+sección de proteína arriba), y en los mismos tres meses su ritmo en carrera bajó
+de 6:59 a 6:36/km ([[historial-running-2024-2026]]). **Pesa 1.7 kg menos y corre
+23 s/km más rápido.**
+
+**Lo que cambió: el ritmo de pérdida de grasa cayó a menos de la mitad.**
+
+| Tramo | Grasa por semana | % por mes |
+|---|---|---|
+| 27-mar → 18-ago (serie medida) | −0.50 kg | ≈ −1.8 pts |
+| 18-ago → 10-nov | **−0.19 kg** | **≈ −0.7 pts** |
+
+### Las proyecciones al 20%, corregidas
+
+Las del 25-ago (≈16-nov por pliegues, ≈18-dic por grasa) **ya no se cumplen**:
+hoy, 10-nov, va en 25.3%. Se dejan arriba como se escribieron.
+
+Al ritmo actual:
+
+| Fecha | % grasa proyectado | Peso (con la masa libre de grasa de hoy) |
+|---|---|---|
+| **31-dic-2026** (objetivo 4) | **≈24%** | ≈92 kg |
+| **21-feb-2027** (Medio de GDL) | **≈23%** | **≈90.5 kg** |
+| 20% | **≈ fines de junio de 2027** | ≈87 kg |
+
+- **El objetivo 4 (20% al 31-dic) deja de estar en tendencia.** Le faltan 5.3
+  puntos en 51 días: a su ritmo actual son unos 7 meses. Era el único de los 17
+  objetivos "en tendencia verificada" ([[objetivos-vida-2026-2027]]); con este
+  dato deja de serlo.
+- **Para la carrera, en cambio, cuadra:** llegaría al 21-feb en ≈90 kg, la cifra
+  de báscula que él mismo quería.
+
+⚠️ Tres meses no son una tendencia limpia: el tramo incluye el arranque del
+bloque de septiembre (129 km, el mes más rápido) y llega a dos semanas de la
+boda. Que la pérdida se frene con más volumen y menos déficit es lo esperable,
+y puede ser deliberado (plan de [[margarita-posada]] o del coach). **No consta
+si el plan cambió.**
+
+### Preguntas abiertas
+
+- ¿El 25.3% es de una cita con [[margarita-posada]] (pliegues) o de báscula?
+  Si es de cita, ¿cuáles son los pliegues y la masa muscular? Con eso se
+  arbitra también la proyección por pliegues.
+- ¿Cambió el plan alimenticio desde agosto ([[plan-alimenticio-mp-2026]])?
+- ¿Sigue en pie el 20% al 31-dic, o se mueve como se movió el sub-2h?
+
+### El cuadro completo (lo que él subraya, 2026-11-10)
+
+> *"antes tenía 36% de grasa, considero que ya fue un brinco demasiado importante"*
+
+Tiene razón, y la sección de arriba se leía peor de lo que es:
+
+| | 27-mar-2026 | 10-nov-2026 | Cambio |
+|---|---|---|---|
+| % grasa | 35.9% | 25.3% | **−10.6 pts** |
+| Grasa (kg) | 36.2 | 23.6 | **−12.5 kg (−35%)** |
+| Peso | 100.7 kg | 93.3 kg | −7.4 kg |
+| Masa libre de grasa | 64.5 | 69.7 | **+5.2 kg** |
+
+**En 7.5 meses perdió un tercio de su grasa y ganó masa libre de grasa.** Es el
+cambio más grande medido en todo el expediente. El frenado desde agosto no lo
+contradice: **cuanto menos grasa queda, más lento baja** (el mismo déficit
+saca menos porcentaje), así que una curva que se aplana después de −10 puntos
+es lo esperable y no una señal de que algo falle. Lo único que cambia es la
+**fecha** del 20%, no la dirección.
+
+## 2026-11-10 — objetivo nuevo: bajar masa muscular
+
+> *"la idea también es bajar masa muscular porque eso pesa, y no es necesaria tanta en
+> tiradas largas"* — el usuario.
+
+Es el giro contrario al de agosto (*"a cualquier estímulo recupero masa muscular"*,
+dicho como algo bueno). Encaja con el Hallazgo 3 de esta página: **54.0 kg de masa
+muscular contra una referencia de 45.4 kg para corredor**. El método propuesto (fuerza
+de corredor, pesas antes del cardio, proteína alta y repartida, no quitar comida) está
+en [[fuerza-sin-hipertrofia-corredor]], con base en [[the-science-of-running]]. Se mide
+con las citas de [[margarita-posada]]: si baja masa muscular sin que baje el ritmo en
+carrera, funciona.
