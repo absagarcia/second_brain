@@ -3,12 +3,16 @@ title: Second Brain / Wiki Epistemic Design Principles
 type: concept
 domain: [reflections]
 created: 2026-07-14
-updated: 2026-07-15
+updated: 2026-10-26
 sources:
   - path: raw/notes-ai/call-daniel-2026-07-XX.vtt
     fact_date: 2026-07-XX
     ingest_date: 2026-07-14
     confidence: medium
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low
 ---
 
 # Second Brain / Wiki Epistemic Design Principles
@@ -85,3 +89,16 @@ view: the narrative fallacy ([[falacia-narrativa-y-pruebas-silenciosas]]) says
 explanation *is* compression, and compression is exactly where the randomness
 and the discarded alternatives go. Practical consequence for this wiki: a page
 that states no lens has not avoided having one.
+
+## Guardar ≠ entregar (2026-10-26)
+
+[[daniel]] y su asistente llegaron a una distinción que le falta a este
+esquema. La regla "no resumas" (Daniel, 12-ago: "el resumen es el arma de
+la perdición") vale para **lo que se guarda**: `raw/` inmutable, nada
+resumido ni limpiado. **No vale para lo que se le entrega a una persona**,
+que sí se traduce a lo que ella ya sabe. Mezclar las dos cosas llevó a
+Genaro a negarle resúmenes al usuario. Detalle en [[que-llegue-entendido]].
+
+Para este wiki: el riesgo 2 (el punto de vista del compresor) aplica a las
+páginas que se guardan. Una respuesta corta al usuario en una consulta no
+viola nada mientras el registro siga completo.

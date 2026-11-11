@@ -3,12 +3,16 @@ title: Nunca reescribas desde cero
 type: concept
 domain: [swe, blackicelabs]
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-29
 sources:
   - path: raw/blackicelabs/joel-spolsky-things-you-should-never-do-2026-09-21.md
     fact_date: 2000
     ingest_date: 2026-09-21
     confidence: medium   # ensayo de blog, sin peer review, pero cita casos verificables (Netscape, Borland, Word/Pyramid) y es referencia clásica de la industria
+  - path: raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md
+    fact_date: 2026-09-23
+    ingest_date: 2026-10-29
+    confidence: low   # chat de Teams, truncado; la mayoría de los mensajes técnicos son de sus asistentes de IA
 ---
 
 # Nunca reescribas desde cero
@@ -59,6 +63,22 @@ backend Go/Echo y la app móvil no se tocan), así que ilustra la
 (la reescritura total) — la nota en el guion 5 lo aclara así, sin forzar la
 comparación.
 
+## Cómo lo leyeron Daniel y el usuario (2026-09-21)
+
+[[daniel]] le había pasado al usuario este ensayo. El usuario dice que lo
+"dejó pensando muchas cosas sobre refactorizar y hacer todo desde cero".
+Daniel lo conecta con un caso propio: **"todos los side effects y bugs que
+resurgieron cuando cambiamos un chingos de cosas a Redux"** en el proyecto
+del cliente. El usuario: "pudo ser peor". El caso no es una reescritura
+total sino una migración grande de una sola capa (el estado), y aun así
+reaparecieron bugs que ya estaban resueltos: es la parte del ensayo sobre el
+conocimiento escondido en el código viejo, a menor escala. Sin más detalle en
+la fuente (no se sabe qué se migró, cuándo ni cuántos bugs).
+
+Ese mismo día Daniel le pasa el siguiente: *The Development Abstraction
+Layer* (Spolsky, 2006), por el argumento de que el ingeniero no sirve como
+product owner. **Solo el link, sin ingerir.**
+
 ## Related
 
 - [[sistema-mp-app]] — el caso real usado como ancla
@@ -68,3 +88,4 @@ comparación.
   guiones, un video por página, para grabar
 - [[clean-architecture-feature-first]] — el otro lado de la moneda: cómo
   estructurar código nuevo para que el refactor incremental sea barato
+- [[daniel]] — quien pasó el ensayo; el caso de la migración a Redux

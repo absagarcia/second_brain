@@ -3,7 +3,7 @@ title: Slalom
 type: entity
 domain: [swe, freelance, finance]
 created: 2026-08-25
-updated: 2026-09-10
+updated: 2026-10-29
 sources:
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
@@ -17,6 +17,10 @@ sources:
     fact_date: 2026-09-10
     ingest_date: 2026-09-10
     confidence: medium   # primera mano pero sin detalle del curso (proveedor, duración, contenido exacto)
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-27
+    ingest_date: 2026-10-29
+    confidence: low   # segunda mano: resumen de Genaro de una llamada Bryan–Daniel, más la lectura de Daniel; nada decidido por escrito
 ---
 
 # Slalom
@@ -103,6 +107,39 @@ expediente pesa más que eso, por dos razones:
 - [[typescript-5-design-patterns]], [[system-design-interview]] y
   [[clean-architecture-feature-first]] son la parte técnica del expediente que
   alimenta este objetivo.
+
+## 2026-10-27 — el cliente pide recortar el equipo para Q1 2027
+
+Según el resumen de Genaro de una llamada entre el lead del equipo y [[daniel]]:
+
+- El cliente le pidió a Slalom **bajar gente para el primer trimestre de 2027**. Lo más
+  probable es que queden **dos devs**, y todavía no se sabe cuáles.
+- El plan del lead, si Daniel no se queda: **que el usuario se quede con el trabajo de
+  JSForce** (las escrituras directas a Salesforce), trabajando con Daniel lo que queda
+  de Q4 para que se lo pase.
+  - Esto lo dijo como plan, no como decisión.
+  - Genaro deduce que en ese escenario el usuario es uno de los dos que se quedan. Lo
+    marca como deducción suya.
+- **Daniel lo lee como ya decidido** por el cambio de tiempo verbal: al principio era
+  "vamos a tratar de quedarnos contigo" y al final "I'm gonna learn more before you go".
+  Él sospecha que el recorte es solo él. Daniel tiene ~2 semanas de vacaciones en
+  diciembre.
+- La propuesta de Daniel al lead: buscar lo que ya está roto en producción y ponerle
+  número a lo que le cuesta al cliente.
+
+**Por qué importa aquí:**
+
+- **Ingreso:** Slalom es el 93.8% del ingreso conocido.
+- **Objetivo 5 (Senior en dic-2026):** quedarse con un componente crítico es justo el
+  tipo de evidencia que, se supone, cuenta para el ascenso. Es una inferencia del wiki,
+  igual que lo demás de esta página: los criterios siguen sin conocerse.
+- **Dependencia:** buena parte de la velocidad reciente del usuario viene de Genaro
+  (ver [[prs-a-la-primera]]), y Genaro se va con Daniel ("venimos en paquete").
+
+**Vigencia:** muy corta. Se sabría "en un par de semanas" desde el 27-oct.
+
+Otros datos del mismo chat: Slalom da al usuario un curso de comunicación en inglés
+(ver [[ingles-de-trabajo]]), y el 6-oct tuvo un curso interno de Slalom.
 
 ## Vida útil
 

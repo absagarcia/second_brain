@@ -3,8 +3,12 @@ title: Absa Garcia (absa.garcia)
 type: entity
 domain: [blackicelabs]
 created: 2026-07-22
-updated: 2026-10-05
+updated: 2026-11-10
 sources:
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high
   - path: conversation (advisor session with the user, 2026-07-22)
     fact_date: 2026-07-22
     ingest_date: 2026-07-22
@@ -659,3 +663,23 @@ compite con Absadev por tema, compite por horas.
 ⚠️ La "pregunta deliberadamente aplazada" de julio (¿el running/boda es apuesta
 de contenido o vida que se graba?) **sigue aplazada**, y el objetivo 13 la hace
 más urgente, no menos.
+
+## 2026-11-10 — el arco de running, con el historial completo
+
+El export completo de Strava ([[historial-running-2024-2026]]) cambia el arco
+que esta página planteó en julio ("camino al medio maratón"):
+
+- **El medio maratón no era la meta pendiente del arco: ya lo había corrido.**
+  El 2026-02-01 hizo 21.49 km en Anaheim, antes de que empezara el bloque.
+- **El 6-sep, el día del Atlas, Strava solo registra 9.23 km a 6:49/km.** El
+  "desenlace agendado" del arco quedó sin el dato que esta página esperaba; si
+  corrió o no la carrera no consta ([[medio-maraton-atlas-2026]]).
+- **El momento con más historia del arco llegó después**: la Adidas Splits 15K
+  corrida dos veces (7:39 → 6:58/km en 11 meses) y los Relevos del Maratón de GDL
+  el 8-nov a 6:36/km, con su propia frase: *"corría antes de 7:30 a 6:36 el km
+  what fuck fue un chingo lo que baje mi ritmo"*. Es el tipo de hecho vivido,
+  con un antes y después medido, que pide la regla de guion de
+  [[estrategia-contenido-absadev]].
+
+La pregunta aplazada de julio (¿apuesta de contenido o vida que se graba?)
+sigue aplazada. Ahora al menos tiene material medido para cualquiera de las dos.

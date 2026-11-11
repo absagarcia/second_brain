@@ -3,11 +3,15 @@ title: Pattern-Recognition Professions and the Abstraction Ladder
 type: concept
 domain: [reflections]
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-10-26
 sources:
   - path: raw/notes-ai/call-daniel-2026-07-XX.vtt
     fact_date: 2026-07-XX
     ingest_date: 2026-07-14
+    confidence: low
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
     confidence: low
 ---
 
@@ -61,3 +65,7 @@ analogy — reasoning up from physical constraints instead of matching the
 nearest known pattern. The two framings bound each other: pattern-recognition
 is fast and usually right; first-principles is what you switch to when the
 inherited pattern makes the goal look impossible.
+
+## 2026-10-26 — la misma idea, vista como economía
+
+Daniel retoma la tesis en [[valor-se-muda-a-lo-escaso]]: cuando algo se vuelve abundante, el valor se va a lo que queda escaso a su lado. Subir un escalón de abstracción es un caso de esa ley. Lo nuevo es el giro de octubre: de "qué habilidades no perder" a "no te enfoques en no perder".

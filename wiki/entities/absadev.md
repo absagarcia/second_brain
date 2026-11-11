@@ -3,8 +3,12 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-23
+updated: 2026-11-02
 sources:
+  - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
+    fact_date: 2026-11-01
+    ingest_date: 2026-11-02
+    confidence: medium
   - path: conversation (advisor session with the user, screenshots of YouTube Studio + TikTok analytics)
     fact_date: 2026-07-16
     ingest_date: 2026-07-16
@@ -93,6 +97,10 @@ sources:
     fact_date: 2026-09-30
     ingest_date: 2026-10-23
     confidence: medium        # primera parte pero resumen de correo: no define si "views" son vistas o vistas comprometidas, y choca con la API (ver sección)
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-29
+    confidence: medium   # datos de la API de YouTube obtenidos por el agente de WhatsApp del usuario y pegados en el chat; el cruce con el wiki lo hizo ese agente
 ---
 
 # Absadev
@@ -1239,6 +1247,56 @@ wiki todavía.
     aplica. Es la pregunta que hay que cerrar en la pestaña "Ingresos" de Studio.
 
 **Vida de este dato:** corta. Es un mes de métricas y una regla del YPP que YouTube ya avisó que cambió.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (YouTube 29-sep → 26-oct, API vía el Taco de WhatsApp)
+
+Reporte que el usuario le pidió a su agente de WhatsApp y que pegó en el chat el
+29-oct. Comparado con 01 → 28-sep:
+
+| Métrica | Valor |
+|---|---|
+| Suscriptores | 7,880 (+18 / −11 = **+7 netos**) |
+| Vistas | 11,326 (**−31%**) |
+| Subs por cada 1,000 vistas | **0.62** (referencia sana ~1.7) |
+| Comentarios | **2** (−83%) |
+| Shares / likes | 14 / 94 |
+| Duración media vista | 1m13s (25.9%) |
+| Fuentes de vistas | feed de Shorts 60%, Búsqueda 18%, Suscripciones 13%, **Sugeridos 0.0%** |
+| Quién ve | 90% no suscritos |
+| Publicados | 17, más **15 programados** del 30-oct al 24-nov |
+
+- **En los primeros 14 días:** "$20 de Claude" 4.47 subs/1k, "La carrera de la rata"
+  3.07, "Junior sin IA" 2.64. Los shorts de LinkedIn, Oxxo, aumento de sueldo y "día
+  laboral" quedaron en 0.00.
+- **Lo que el agente lee:** los shorts dan vistas, no suscriptores. Los largos
+  convierten, pero no les llegan impresiones. Sugeridos sigue en 0.0% desde julio. Se
+  publica por encima del techo de 3.5 por semana.
+- **Sin resolver:** la discrepancia ×2.7 entre el resumen mensual de septiembre y la API
+  sigue abierta. Este snapshot no se mezcla con el resumen mensual.
+
+## [2026-11-02] NoviembreSprint26: el sprint de monetización llega sobre el hueco que sigue abierto
+
+Fuente: `raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md`. Es un anuncio de un sprint de 30 días que
+arrancó el 1-nov. No dice quién lo manda ni a cuál de los dos canales llegó. Tiene dos condiciones:
+1. **≥ 6 videos en noviembre** (~2 por semana). **Ya se cumple con lo planeado.** [[batch-noviembre-2026-shorts]]
+   publica 12 shorts los lunes, miércoles y viernes del 2 al 27-nov. Además salen los 2 clips del 027 (4 y 18-nov).
+2. **Probar ≥ 2 funciones de monetización**: etiquetas de Shopping, Membresías, Financiamiento de Fans
+   o Alianzas con Marcas. **Esta condición depende de la pregunta que el expediente no ha cerrado desde
+   el 25-ago: ¿el canal está en el YPP?** El anuncio no dice qué se necesita para entrar. Según lo que se
+   conocía a jun-2026 (no viene de esta fuente), las cuatro funciones piden estar dentro del programa.
+   Si el canal no está dentro, el sprint no se puede cumplir, publique lo que publique.
+
+**Choque con la medición de noviembre.** El 4-dic se van a comparar las ramas H/I/U del batch entre sí.
+Si a algunos shorts se les ponen etiquetas de Shopping y a otros no, aparece una variable que no se
+controla. Es el mismo tipo de contaminación que dejó la promoción pagada en la lectura del 9-sep. Las
+Membresías y el Financiamiento de Fans son del canal entero y no tocan un short en particular, así que
+son las que menos ensucian la comparación.
+
+**Choque con la estrategia.** [[estrategia-contenido-absadev]] decidió *"primero comunidad; la
+monetización llega por otra puerta"*. El sprint propone justo lo contrario para noviembre. Decidir si
+se participa le toca al usuario; el wiki no lo decide.
+
+**Vida de este dato:** muy corta. Es un evento que termina el 30-nov.
 
 ## Related
 

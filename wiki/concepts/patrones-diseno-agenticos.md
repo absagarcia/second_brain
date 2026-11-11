@@ -3,7 +3,7 @@ title: Patrones de diseño agénticos
 type: concept
 domain: [swe, blackicelabs, fitexe]
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-10-29
 sources:
   - path: raw/blackicelabs/devtalles-269-patrones-agenticos-2026-09-10.md
     fact_date: 2026-09-10
@@ -13,6 +13,10 @@ sources:
     fact_date: 2026-09-09
     ingest_date: 2026-09-10
     confidence: low      # síntesis propia, no una fuente primaria de cada patrón
+  - path: raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md
+    fact_date: 2026-09-23
+    ingest_date: 2026-10-29
+    confidence: low   # chat de Teams, truncado; la mayoría de los mensajes técnicos son de sus asistentes de IA
 ---
 
 # Patrones de diseño agénticos
@@ -101,6 +105,14 @@ campo se mueve rápido y en un año pueden existir nombres nuevos para lo mismo.
   agente, definidos de antemano (no una aprobación puntual, sino una cerca
   permanente). Los `openspec/changes/` que delimitan qué archivos y reglas de
   negocio puede tocar Claude en FitExe son, en esencia, rails.
+  Otro caso, de 2026-09-23: [[taco-agente-teams]] no publica nada en Teams
+  mientras `EIM_AGENT_ALLOW_WRITES` no sea `true`. Es un rail por defecto
+  que, sin documentar, se confunde con un agente roto.
+- *Límite de Reflection sin ejecución* (2026-09-23, ver [[prs-a-la-primera]]):
+  Genaro observa que el `verify` de OpenSpec es "el modelo revisándose contra
+  su propia prosa". Nunca corre la query ni el código, así que no caza bugs
+  de ejecución. Un paso de reflexión vale lo que valga la evidencia que
+  consulta.
 - **Circuit Breaker** — un mecanismo que corta la ejecución del agente si
   detecta una condición de falla repetida (loops, errores consecutivos, gasto
   desproporcionado), en vez de dejarlo seguir intentando indefinidamente. Es
@@ -134,3 +146,5 @@ campo se mueve rápido y en un año pueden existir nombres nuevos para lo mismo.
 - [[estrategia-contenido-absadev]] — el batch de shorts y el podcast que usan
   esta página como guion
 - [[episodio-028-patrones-agenticos]] — el guion de podcast escrito sobre esta taxonomía (2026-10-05)
+- [[prs-a-la-primera]] — crítica de OpenSpec y framework alternativo (índice chico + delta = Context Offloading)
+- [[taco-agente-teams]] — el rail de escritura en un agente real

@@ -3,8 +3,16 @@ title: Objetivos de carrera 2026-2027
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-11-10
 sources:
+  - path: conversation (el usuario, 2026-11-10)
+    fact_date: 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # primera mano: qué pasó el 6-sep y qué fue Anaheim
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high
   - path: conversation (el usuario, 2026-08-25)
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
@@ -221,3 +229,63 @@ queda alineada con la tendencia medida.**
    escalón que esta página señaló como el que sobra —tirada máxima de 12.02 km,
    lesión de ingle del 19-ago, plan alimenticio al 30-40% del carbohidrato de un
    bloque de maratón, y ahora la boda 20 días después— y **sigue sin decisión**.
+
+## 2026-11-10 — el historial completo de Strava corrige dos premisas y cierra el 8-nov
+
+Fuente: [[historial-running-2024-2026]] (toda la cuenta, oct-2024 → nov-2026).
+
+### Lo que se corrige (sin borrar lo de arriba)
+
+1. **"Tirada más larga jamás registrada: 12.02 km"** (en "La escalera está
+   invertida") era cierto para el export de mar→ago 2026, que era todo lo que
+   había. **Su tirada más larga real es de 21.49 km (2026-02-01, Anaheim)**, y
+   antes había corrido 18.01 (feb-2025), 16.01 (ene-2026) y 15.16 (nov-2025). El
+   argumento contra el maratón de noviembre era más fuerte de lo justo en ese
+   punto: el salto no era 12 → 42 km, era 21.5 → 42.
+2. **"~10 s/km al mes de mejora demostrada"** salía de un bloque que, visto
+   completo, **era la recuperación de una regresión** (oct-2025 → feb-2026). En
+   exterior, el ritmo de carrera casi no se movió de ago-2025 a jul-2026 (7:19 →
+   7:15) y después bajó de golpe a 6:36 en cuatro meses. La "tasa por mes" no es
+   constante; viene en escalones.
+
+### El maratón del 8-nov: cerrado
+
+Ese día corrió los **Relevos del Maratón de Guadalajara 2026**: un tramo de
+**9.99 km a 6:36/km**, 9 PRs, su mejor ritmo en carrera hasta hoy. **No corrió
+los 42.195 km.** La pregunta que esta página dejó abierta desde el 25-ago
+("sigue sin decisión") queda resuelta por los hechos: el escalón que sobraba
+no se corrió, y la boda del 28-nov ya no carga la fatiga de un maratón.
+
+En su descripción aparece por primera vez el nombre del coach: **Xavier**.
+
+### El 2:15 del 28-feb-2027, con los datos de hoy
+
+| Base (carrera real) | Fecha | Proyección a 21.1 km (Riegel) |
+|---|---|---|
+| Dolphy 10K, 6:59/km | 2026-08-02 | ≈ 2h34 *(la que tenía esta página)* |
+| 6-sep, 9.23 km a 6:49 | 2026-09-06 | ≈ 2h31 |
+| **Adidas Splits 15K, 6:58/km** | 2026-10-04 | **≈ 2h30** |
+| **Relevos GDL 10K, 6:36/km** | 2026-11-08 | **≈ 2h25** |
+
+- Desde el 10K: bajó **≈9 minutos en 3 meses** (2h34 → 2h25), unos 3 min/mes.
+  Le faltan **≈10.5 min en los 3.7 meses** que quedan al 28-feb: casi
+  exactamente su ritmo de mejora demostrado.
+- Desde el 15K, la base más parecida a un medio: le faltan **≈15 min**, unos
+  4 min/mes, **más rápido de lo que ha mejorado**.
+
+**Lectura: el 2:15 sigue siendo alcanzable, pero ya no "con margen cómodo"
+como decía esta página el 25-ago; está en el filo.** Riegel suele ser
+optimista para corredores con poco volumen largo, y la proyección desde el 15K
+(2h30) es probablemente la más honesta. ⚠️ Es una heurística de orden de
+magnitud, no un pronóstico. Las proyecciones salen de una carrera cada una, sin
+FC.
+
+### Preguntas abiertas nuevas
+
+- ~~¿Qué fue el 21.49 km de Anaheim?~~ **✅ (2026-11-10):** el Medio Maratón de
+  Disney 2026, **su único medio maratón**; el segundo "pegado" no lo corrió.
+- ~~¿Corrió el Atlas el 6-sep?~~ **✅ (2026-11-10):** no; la lluvia no lo dejó
+  llegar a la salida y corrió 9.23 km por su cuenta. **Su única referencia real
+  sobre 21.1 km sigue siendo Disney: ≈3h08 en total**, de cuando corría a ~8:00/km.
+- ¿Sigue en pie el Medio de Guadalajara el 28-feb-2027 como objetivo, ahora
+  que noviembre ya pasó?

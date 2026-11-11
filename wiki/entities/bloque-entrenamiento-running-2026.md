@@ -3,8 +3,12 @@ title: Bloque de entrenamiento running — mar → ago 2026
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-09-08
+updated: 2026-11-10
 sources:
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high   # el historial antes y después de este bloque
   - path: raw/fitness/strava-2026-03-01-a-2026-08-25/
     fact_date: 2026-03-01 → 2026-08-25
     ingest_date: 2026-08-25
@@ -216,3 +220,34 @@ las 8 mediciones sin una sola excepción.
 - **Larga (años):** la forma del bloque — cross-training > carrera en
   minutos, fisio preventiva desde antes de la lesión, meta escrita y
   verificada 21 días después. Eso es un método, y sobrevive a los números.
+
+## 2026-11-10 — el bloque visto desde el historial completo
+
+Entró el export de toda la cuenta ([[historial-running-2024-2026]]). Cambia el
+marco de esta página, no sus números:
+
+- **El bloque no fue el principio.** Corre desde ene-2025 y en 2025 hizo
+  **1,033.6 km**, tres veces lo de este bloque. El 8:35/km de marzo de 2026 es
+  el punto bajo de una **regresión de oct-2025 a feb-2026** (de ~8:00 en el
+  verano de 2025 a 8:42 en diciembre). **"Cinco meses de mejora sin una sola
+  regresión" sigue siendo cierto dentro del bloque; visto completo, es una
+  recuperación.**
+- **"Ninguna llegó a 13 km" vale solo para este bloque.** Antes había corrido
+  21.49 km (2026-02-01), 18.01, 16.01 y dos de 15.
+- **Agosto → noviembre de 2026 es la mejora nueva de verdad**: en exterior pasó
+  de 7:15/km (Andares, jul) a 6:36/km (Relevos GDL, 8-nov). Nunca antes había
+  bajado de 7:19 en una carrera.
+
+### El plan de los easy runs a 7:18/km (2026-09-08): lo que se puede ver
+
+Sin FC por actividad, **la parte de zona 2 no se puede verificar**. Lo que sí se
+ve:
+
+- Del 25-ago al 9-sep las carreras de caminadora salen a **7:29-7:51/km**:
+  más lentas que el 7:18 declarado.
+- Desde el 10-sep la caminadora salta a **5:43-6:10/km** (10.0 km a 6:06, 9.7 a
+  5:45, 14.9 a 5:56) mientras en exterior va a 6:49-7:41. Esa diferencia apunta
+  a la calibración de la caminadora y no a un cambio de forma, igual que pasó en
+  mayo de 2025 (5:17/km en caminadora contra 7:19 en exterior).
+- **Conclusión: no hay forma de decir si cumplió el plan.** Para eso hace falta
+  la FC de las sesiones (`get_activity_performance`) o comparar solo exterior.

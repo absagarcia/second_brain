@@ -3,7 +3,7 @@ title: Baika (estudio de barre)
 type: entity
 domain: [finance]
 created: 2026-10-19
-updated: 2026-10-19
+updated: 2026-11-08
 sources:
   - path: raw/finance/finanzas-barre-baika-2026.xlsx
     fact_date: 2026-07-31      # cubre feb–jul 2026
@@ -22,6 +22,11 @@ Las dos preguntas quedan abiertas.
 > **Vigencia:** las cifras de abajo son **de corta vida**, es decir, la foto de seis meses
 > de un negocio chico. Lo que dura más es el patrón de la última sección (costos casi
 > todos fijos y ocupación por clase como palanca).
+
+**2026-11-08 (conversación):** la dueña es **Dafne**, que ahora abre [[grow-studio]] y usa Baika
+para valuar Grow en 400k. Según ella, **nunca sacó un peso** de Baika, lo que cuadra con la
+utilidad que se ve en la tabla de abajo. Grow se lleva el equipo y algunas coaches, pero
+**ninguna clienta**.
 
 ## Estado de resultados mensual (feb–jul 2026)
 

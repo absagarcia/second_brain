@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-15
+updated: 2026-10-29
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -73,6 +73,18 @@ sources:
     fact_date: 2026-10-12
     ingest_date: 2026-10-15
     confidence: high          # cifras de primera parte; la descripción de "No soportarías"/"De paso te casas" es inferencia de la IA (sin transcripción) → baja
+  - path: raw/blackicelabs/katie-steckly-5-habitos-contenido-2026-10-26.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low   # resumen de un resumen: sin URL, sin fecha del video, comprimido por otra herramienta
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
+    confidence: low   # consejo de un par vía su asistente
+  - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
+    fact_date: 2026-10-29
+    ingest_date: 2026-10-29
+    confidence: low   # ensayo de un LLM "desde afuera" + opinión de Daniel; las cifras que cita (2h15/día en redes, 70 likes > un amigo, encuesta de niños) no se verificaron
 ---
 
 # Estrategia de contenido — Absadev
@@ -2986,3 +2998,90 @@ grabar #5**, o suavizar esa parte a lo que sí es cierto.
 ⚠️ **Mismo límite de fuente que la v1:** los tres casos históricos y las cifras de cuota de mercado
 (80%, 90%) vienen del ensayo de Spolsky sin verificación de primera mano — ver
 [[nunca-reescribas-desde-cero]].
+
+## [2026-10-26] Katie Steckly, 5 hábitos — contra lo que ya midió este canal
+
+Fuente: un resumen del video (no el video), confianza baja. Cada hábito
+comparado con lo que ya está en esta página:
+
+1. **Filmar B-roll antes de tener ideas.** Coincide con la regla de grabar
+   por lotes para tener colchón. Es barato y no choca con nada.
+2. **Cámara del iPhone en 9:16 para Stories.** Táctico. Las Stories no son
+   un canal medido aquí.
+3. **Carruseles educativos desde el carrete.** Formato nuevo para el canal,
+   sin dato propio. Si se prueba, entra como n=1.
+4. **Mismo short en Reels, TikTok y Shorts, sin estrategia separada.**
+   **Choca con una decisión basada en datos:** el 027 pasó a "1 clip en
+   YouTube Shorts contra 7 en TikTok/IG" ([[episodio-junior-sin-ia]]),
+   porque el muro de Retention es de YouTube. El cross-post de IG a Facebook
+   sí coincide y ya funciona. Se conserva la decisión propia: el dato del
+   canal pesa más que un consejo general.
+5. **De largo a corto sin recortar: volver al guion, escribir gancho y CTA,
+   y filmar el segmento en vertical.** Es el más relevante. Los clips
+   recortados del podcast llevan **0 subs y 29% "eligió verlo"** (lectura del
+   15-oct), y la recomendación era bajarlos a 0–1 por episodio. Este hábito
+   es la alternativa que faltaba: el short sale del guion del largo, pero se
+   graba como short. Cuesta una sesión de grabación, que entraría en el lote
+   del batch. **Propuesta sin decidir.**
+
+## [2026-10-26] "Róbale a otro oficio, no al de enfrente" ([[daniel]] / Genaro)
+
+El usuario proponía analizar a otros youtubers para inspirarse. Daniel lo
+llamó **anti-patrón**. Lo que propuso Genaro:
+
+- Copiar al vecino te hace parecido y compites en su cancha. Copiar de otro
+  oficio "se ve nuevo".
+- Formas para tomar prestadas:
+  - **mecánico**: del "hace un ruidito" a la causa, con un bug real o el
+    caso del suegro;
+  - **comentarista de fútbol**: repetición en cámara lenta de un PR o una
+    decisión que salió mal;
+  - **telenovela**: cada capítulo deja algo pendiente. Exige subir el
+    siguiente, y eso choca con [[patron-de-terminacion]].
+- La parte que no se copia es quién lo cuenta: la chamba con clientes de
+  verdad, el caso del suegro ([[corte-ventas-agencias-autos]]), el bot de la
+  boda.
+
+Confirma la regla del 20-ago ("habla de lo que te pasa") y los marcos de
+[[valor-se-muda-a-lo-escaso]]. **Tensión con la práctica actual:** gran
+parte de esta página se apoya en comparar contra creadores de referencia
+(@devcaress, @pikacodes, DevTalles). Según Daniel, sirven para medir
+métricas, no para copiar el formato.
+
+## [2026-10-29] El canal visto "desde afuera": la máquina, el que ve y el que sube
+
+Daniel le pidió a Genaro describir el oficio de youtuber/tiktokero desde primeros
+principios. Las ideas que aplican aquí, con la corrección de Daniel aparte porque
+cambia una conclusión:
+
+- **El que ve no es el cliente; sus minutos son lo que se vende.** La empresa no paga
+  por los ojos sino por "confianza prestada": qué tan probable es que el que ve haga lo
+  que dice la cara. Esa confianza se gasta con cada recomendación mala.
+- **El nicho decide a quién se expande** (Daniel): sin un grupo claro, no hay a quién
+  enseñárselo. Y lo que vale el nicho depende de **qué compra esa gente**, más que de
+  cuántos son.
+- **El único lugar del reporte donde la gente dice con sus palabras qué necesita es la
+  búsqueda.** Del canal, el único largo que la búsqueda encuentra es *Flutter vs React
+  Native*. Esto coincide con la séptima lectura del embudo (al largo le faltan
+  impresiones) y con el plan de comparaciones.
+- **Los rituales del creador** ("sube a las seis", "engancha en tres segundos", "que dure
+  diez minutos") se entienden como superstición de paloma (Skinner) más el sesgo de los
+  aviones que regresaron. El de los diez minutos sí tuvo causa: la regla de anuncios a
+  la mitad del video, que luego bajó a ocho. La regla cambió y el ritual se quedó.
+
+**La corrección de Daniel, que mueve el diagnóstico:**
+
+- *"No es el algoritmo, es el humano."* El que ve se queda con la novela que sale
+  diario. Si dejas de subir, encuentra otra. La continuidad es una preferencia humana
+  que la máquina nomás mide: **tu audiencia es el medidor y su comportamiento es la
+  calificación**.
+- **Calidad variable duele más que no subir.** La constancia es qué tan seguro está
+  alguien de que tu siguiente video vale la pena. Si un video es bueno y otro es "por
+  subir", el que ve no se porta igual y no manda la señal.
+- **El usuario lo acepta:** *"le echo la culpa al algoritmo, aunque realmente he sido yo
+  por… aveces solo subir por subir"*. Esto choca con el ritmo real de septiembre (36
+  videos y el aviso de bienestar de YouTube) y le da la razón al techo de 3.5 por semana
+  ya acordado.
+
+**Vigencia:** el mecanismo es de **vida larga**. Las cifras citadas son de **confianza
+baja**.

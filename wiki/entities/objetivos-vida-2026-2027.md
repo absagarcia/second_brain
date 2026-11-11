@@ -3,8 +3,16 @@ title: Objetivos de vida 2026-2027
 type: entity
 domain: [finance, fitness, blackicelabs, swe, fitexe, books, reflections]
 created: 2026-08-25
-updated: 2026-10-07
+updated: 2026-11-10
 sources:
+  - path: raw/fitness/strava-historial-completo-2026-11-10/
+    fact_date: 2024-10-27 → 2026-11-10
+    ingest_date: 2026-11-10
+    confidence: high
+  - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
+    fact_date: 2026-11-01
+    ingest_date: 2026-11-02
+    confidence: medium
   - path: raw/reflections/objetivos-vida-2026-08-25.md
     fact_date: 2026-08-25
     ingest_date: 2026-08-25
@@ -430,3 +438,21 @@ Al planear el contenido de noviembre, el usuario dijo *"en noviembre solo tengo 
 explícitamente que no lo corre**, así que la decisión sigue sin registrarse. Queda anotada
 la frase como la primera señal, con fecha, y la colisión maratón/boda de arriba se conserva
 como se escribió.
+
+## [2026-11-02] La pregunta 4 (¿está monetizado el canal?) ahora tiene fecha
+
+Llegó el anuncio de NoviembreSprint26, que pide probar 2 funciones de monetización de YouTube durante
+noviembre (ver [[absadev]]). Para el objetivo 9 es la primera ocasión concreta de cerrar la pregunta 4.
+Si el canal no está en el YPP, el sprint no se puede cumplir. Noviembre sigue siendo el mes de la boda.
+
+## [2026-11-10] El maratón del 8-nov no se corrió: corrió un relevo
+
+Con el export completo de Strava ([[historial-running-2024-2026]]): el 8-nov corrió
+los **Relevos del Maratón de Guadalajara**, un tramo de **9.99 km a 6:36/km** (su mejor
+ritmo en carrera). **No corrió los 42 km.** La colisión maratón/boda de arriba se queda
+como se escribió, pero ya no ocurre: la boda del 28-nov llega sin la fatiga de un maratón.
+La señal del 7-oct (*"en noviembre solo tengo boda"*) resultó correcta.
+
+Para el **objetivo 3** (medio sub-2h, movido a 2027): la proyección desde sus carreras de
+oct-nov da un medio en **≈2h25–2h30**. El escalón intermedio (2:15 el 28-feb-2027) está en
+el filo, ver [[objetivos-carrera-2026-2027]].

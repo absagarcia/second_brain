@@ -3217,3 +3217,60 @@ Es análisis sin validar (confianza baja).
 Fuente nueva: `raw/blackicelabs/absadev-youtube-month-in-review-2026-09.md`. [[absadev]] gana un snapshot de septiembre: 6,507 vistas (3,681 de Shorts),
 6,947 minutos (~116 h, primer dato de minutos), 24 subs y 36 videos. Choca ×2.7 con la API del 07-oct; queda abierta como discrepancia, sin mezclar las series.
 El hueco de monetización del 25-ago sigue abierto: subs cubiertos, horas no al ritmo actual, y el estado real del YPP queda por confirmar en Studio.
+
+## [2026-10-26] query | Miniaturas verticales de los clips del 027 (junior sin IA) y del 028 (patrones agénticos) — blackicelabs
+28 PNG 1080×1920 (7 por episodio, con fondo y transparentes) con el
+mismo diseño que el 026, guardados fuera del repo en
+~/Downloads/black-ice-labs-027-miniaturas/ y -028-miniaturas/. Tabla
+de textos añadida a [[episodio-junior-sin-ia]] y
+[[episodio-028-patrones-agenticos]], marcando cuáles salen en
+noviembre (027: #1 y #7; 028: #3 y #5).
+
+## [2026-10-26] ingest | Chat de Teams con Daniel y "Genaro" — reflections
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-10-26.md` (8 bloques pegados más uno posterior; truncado a los 50k caracteres; números de orden SAP del cliente redactados).
+Páginas nuevas: [[valor-se-muda-a-lo-escaso]] (la tesis, los 7 patrones, el método y los problemas candidatos) y [[corte-ventas-agencias-autos]] (el caso del suegro, sin validar).
+Actualizadas: [[daniel]] (Genaro, mismo cliente), [[pattern-recognition-professions]] y [[end-of-the-app-store]] (extensiones). La trayectoria desde febrero es reconstrucción de un LLM y queda marcada como no verificada.
+
+## [2026-10-26] ingest | Chat de Teams con Daniel y Genaro, parte 2 (tarde y noche) — reflections
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-10-26-parte-2.md`. Página nueva: [[que-llegue-entendido]] (el "no entendí" disfrazado, el co-host, guardar ≠ entregar, el perfil del usuario deducido por un LLM).
+Actualizadas: [[patron-de-terminacion]] ("lo haré" y el plan como avance, compatible con la regla de estructura), [[second-brain-epistemic-design]] (guardar ≠ entregar), [[daniel]], [[valor-se-muda-a-lo-escaso]].
+
+## [2026-10-26] ingest | Katie Steckly — 5 hábitos de contenido (resumen) — blackicelabs
+Fuente nueva: `raw/blackicelabs/katie-steckly-5-habitos-contenido-2026-10-26.md` (resumen de otra herramienta, confianza baja). En [[estrategia-contenido-absadev]], cada hábito contra los datos del canal:
+el cross-post idéntico choca con la decisión 1 vs 7 del 027, y "regrabar del guion en vertical" se propone como alternativa a los clips recortados (0 subs). Se agrega también "róbale a otro oficio" de Daniel.
+
+## [2026-10-29] ingest | Chat de Teams con Daniel, Genaro y Karen (21 → 23 sep) — reflections, swe
+Fuente nueva: `raw/reflections/chat-daniel-genaro-2026-09-21-al-23.md`. **Muy parcial**: el paste se cortó a los 50k caracteres y solo trae 21–23 sep de un export de 3090 mensajes. ID de conversación e IP redactados.
+Páginas nuevas: [[prs-a-la-primera]] (crítica de OpenSpec, el framework alternativo de Genaro y el contrapunto de Karen) y [[taco-agente-teams]] (por qué no arrancaba el agente del usuario).
+Actualizadas: [[daniel]] (Karen, Genaro como reviewer, "mi hoy empezó el viernes", ingenieros como product people), [[nunca-reescribas-desde-cero]] (migración a Redux), [[patrones-diseno-agenticos]], [[fitexe]], [[vibecoding-y-spec-driven-design]]. Quedan fuera: los picks de NFL (2/4, de Genaro), la plática del equipo sobre colegas del cliente, y los 13 km del 20-sep (mejor tomarlos de Strava).
+
+## [2026-10-29] ingest | Chat de Teams con Daniel y Genaro — export completo (21-sep → 29-oct) — reflections, swe, blackicelabs, finance
+Fuente nueva: `raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md` (3,090 mensajes; copia de ~/Downloads con el ID de conversación, la IP, los números SAP y la org de SFDC redactados). Cubre lo que el paste truncado no traía. Se traslapa con los raw del 26-oct, ya ingeridos.
+Páginas nuevas: [[ingles-de-trabajo]] y [[ponche-artesanal-papa]].
+Actualizadas: [[prs-a-la-primera]] (el ciclo real, la skill del usuario, evals), [[taco-agente-teams]], [[slalom]] (recorte Q1 2027, confianza baja), [[daniel]], [[valor-se-muda-a-lo-escaso]], [[estrategia-contenido-absadev]] y [[absadev]] (snapshot vía el Taco de WhatsApp).
+Fuera a propósito: la plática del equipo sobre colegas con nombre, los detalles técnicos del cliente por card (números de card, PR y caso), las recomendaciones de LLM local (sin probar), el viaje a Seattle, las apuestas, y el pipeline de voz del 21-oct (era parte de una broma generada por IA, no un hecho).
+
+
+## [2026-11-02] ingest | Anuncio "NoviembreSprint26" (sprint de monetización de YouTube) — blackicelabs
+Fuente nueva: `raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md` (pegado sin remitente, canal destinatario ni requisitos de elegibilidad; confianza media). No se le hizo página propia porque es un evento de 30 días.
+Actualizadas: [[absadev]] (la condición de 6 videos ya se cumple con el batch; la de 2 funciones de monetización depende del YPP, que sigue sin confirmar; choca con "comunidad primero"), [[batch-noviembre-2026-shorts]] (riesgo de que Shopping contamine la lectura H/I/U del 4-dic) y [[objetivos-vida-2026-2027]] (la pregunta 4 ya tiene fecha).
+
+## [2026-11-03] decisión | Los 7 clips del 028 a TikTok/IG — blackicelabs
+Fuente: conversación. El usuario publica los 7 clips, no solo #3 y #5. Captions: los del 14-oct, sin cambios.
+Actualizadas: [[episodio-028-patrones-agenticos]] y [[batch-noviembre-2026-shorts]]. Se marca el choque con la nota del 15-oct, que los sacaba del calendario, y que tres clips repiten shorts nativos (#1↔H2, #3↔U4, #7↔U1).
+Pendiente: los títulos del 027 que el usuario cambió en YouTube no están en el wiki.
+
+## [2026-11-08] decisión | Oferta de sociedad en Grow (100k por 30%) y valuación — finance
+Fuente: conversación. Se confirma que Sofi es la esposa, que Dafne es dueña de Baika y de Grow, y que Grow no hereda clientas (solo equipo y algunas coaches). Dafne lo valúa en 400k con base en Baika.
+Actualizadas: [[grow-studio]] (sección nueva de oferta y valuación: activos frente al historial de Baika; el 30% implica 233k), [[sofi]] (queda cerrada la relación que estaba sin confirmar) y [[baika-barre]] (dueña y "nunca sacó un peso").
+Agregado el mismo día: el trabajo de Sofi (maestra en la UAG de 7 a 15 y terapia de piso pélvico a ~600 por sesión, máximo 3 por semana) y la comparación de pago por hora contra Grow, en [[sofi]].
+
+## [2026-11-10] ingest | Strava — historial completo (oct 2024 → nov 2026) — fitness
+Fuente nueva: `raw/fitness/strava-historial-completo-2026-11-10/` (941 actividades vía MCP de Strava; complementa el export de mar→ago 2026, sin traslape).
+Página nueva: [[historial-running-2024-2026]] (290 carreras, 1,772.9 km en 25 meses; la curva completa, comparación solo de exterior, huecos, medios maratones previos, equipo).
+Actualizadas: [[medio-maraton-atlas-2026]] (el 6-sep Strava solo tiene 9.23 km a 6:49; corrección: no hubiera sido su primer medio), [[objetivos-carrera-2026-2027]] (8-nov fue un relevo de 9.99 km; la tirada más larga era 21.49 km y no 12.02; el 2:15 pasa a "en el filo"), [[bloque-entrenamiento-running-2026]] (fue la recuperación de una regresión; el plan de 7:18 no se puede verificar), [[patron-de-terminacion]], [[objetivos-vida-2026-2027]], [[absa-garcia]].
+Contradicciones marcadas, sin borrar: "distancia más larga de su vida" y "tirada máxima 12.02 km" eran ciertas solo para el export anterior. Queda abierto: si corrió el Atlas, qué fue Anaheim y el plan del coach (Xavier).
+
+## [2026-11-10] decisión | Respuestas sobre el Atlas y Anaheim — fitness
+Fuente: conversación. El 6-sep la lluvia no lo dejó llegar a la salida del Atlas y corrió 9 km por su cuenta. Los 21.49 km de Anaheim del 1-feb fueron el Medio Maratón de Disney 2026, su único medio; el segundo "pegado" no lo corrió.
+Actualizadas: [[medio-maraton-atlas-2026]] (preguntas cerradas y sección de cierre), [[historial-running-2024-2026]], [[objetivos-carrera-2026-2027]].

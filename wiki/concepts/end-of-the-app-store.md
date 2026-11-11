@@ -3,11 +3,15 @@ title: End of the App Store (LLM-generated software thesis)
 type: concept
 domain: [reflections]
 created: 2026-07-14
-updated: 2026-07-15
+updated: 2026-10-26
 sources:
   - path: raw/notes-ai/call-daniel-2026-07-XX.vtt
     fact_date: 2026-07-XX
     ingest_date: 2026-07-14
+    confidence: low
+  - path: raw/reflections/chat-daniel-genaro-2026-10-26.md
+    fact_date: 2026-10-26
+    ingest_date: 2026-10-26
     confidence: low
 ---
 
@@ -53,3 +57,7 @@ effects as a moat — see [[network-effects-as-moat]], which also draws on
 page remains the only unsourced/speculative one of the four (an opinion
 from a conversation, not a book), so it's linked from that page rather
 than treated as equally authoritative.
+
+## 2026-10-26 — extensión
+
+Si generar la app ya no cuesta, tampoco diferencia. [[valor-se-muda-a-lo-escaso]] lleva la idea hacia el producto: "nadie paga por una app, pagan por dejar de hacer algo que odian". Aplicado a la app de un primo del usuario, se lee como "un ChatGPT con plugin".
