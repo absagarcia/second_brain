@@ -1,7 +1,7 @@
 ---
 title: First-Principles Thinking & "The Algorithm" (delete before you optimize)
 type: concept
-domain: [books, swe, athletix, reflections]
+domain: [books, swe, reflections]
 created: 2026-07-23
 updated: 2026-07-23
 # 2026-07-23: added `swe` — the Algorithm is an engineering method (question/
@@ -60,8 +60,6 @@ algorithm with a strict sequence — the added value here is the *order*.
 
 ## Relevance
 
-- [[athletix-ai]] — a concrete lens for scope/spec decisions (question the
-  requirement, delete before automating). A lens, not a claim about current process.
 - Related but distinct: [[pattern-recognition-professions]] (expertise as
   templates) — first-principles is the counter-move to over-relying on templated
   analogy.

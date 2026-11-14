@@ -1,11 +1,10 @@
 ---
 title: System Design Scalability Building Blocks
 type: concept
-domain: [books, swe, athletix]
+domain: [books, swe]
 created: 2026-07-15
 updated: 2026-07-23
-# 2026-07-23: added `swe` — general scalability craft; athletix kept for the
-# applied infra tie.
+# 2026-07-23: added `swe` — general scalability craft.
 sources:
   - path: "raw/books/System Design Interview I.md"
     fact_date: 2020
@@ -43,11 +42,5 @@ systems techniques (not book-specific or time-sensitive), per
 
 ## Relevance to this wiki
 
-Directly applicable as a lens on [[athletix-ai]]'s described
-infrastructure — AWS cloud, multi-tenant architecture, time-series
-storage, and a real-time predictive ML pipeline. Nothing here asserts
-that ATHLETIX AI has applied or needs any specific one of these
-techniques; it's flagged as relevant background for thinking through
-their scaling decisions (biometric time-series data specifically maps
-onto the caching/sharding tradeoffs above), not a claim about their
-current architecture choices.
+General background for scaling decisions in any backend the user builds
+(e.g. [[fitexe]] if it grows) — not a claim about a current architecture.

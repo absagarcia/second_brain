@@ -35,7 +35,7 @@ casi todo lo que [[absadev]] cuenta — y estaba fuera del sistema.
 
 ## Lo que se sabe (2026-08-25)
 
-- Es donde trabaja [[eliecer-garcia-romo]].
+- Es donde trabaja el usuario.
 - Su puesto actual es **Software Engineer**.
 - Su objetivo es **subir a Senior en diciembre de 2026**
   ([[objetivos-vida-2026-2027]], objetivo 5).

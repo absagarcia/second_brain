@@ -11,13 +11,6 @@ where type is `ingest`, `query`, or `lint`.
 
 ## [2026-07-08] setup | Initial second brain creation
 
-## [2026-07-10] ingest | ATHLETIX AI pitch deck — athletix
-Created entity pages for ATHLETIX AI, Hyper Bots, and founders Eliecer
-Absalón García Romo and Humberto García Romo. Created concept page for
-the sports-tech market opportunity (also tagged finance domain). All
-figures (market size, survey stats) are self-reported by the deck with
-no methodology given — flagged as such in the pages.
-
 ## [2026-07-14] ingest | Call with Daniel (notes-ai) — reflections
 Created entity page for Daniel (dev friend/colleague, own second-brain
 builder). Created three concept pages: End of the App Store (LLM
@@ -31,18 +24,15 @@ and epistemic integrity" section just added to this repo's CLAUDE.md).
 Synthesized from a long, unstructured spoken conversation — cleaned up
 into discrete ideas rather than transcribing the raw dialogue.
 
-## [2026-07-15] ingest | How to Build a Billion Dollar App — books, athletix
+## [2026-07-15] ingest | How to Build a Billion Dollar App — books
 Created entity page for the book (Kindle highlights export, no title-page
 metadata — author attribution flagged as recalled knowledge, not
 source-traceable). Created concept page for AARRR growth metrics + viral
-coefficient (K = X×Y×Z), tagged books/athletix since it's a reusable
-framework relevant to ATHLETIX AI's future growth thinking. Added a
-cross-reference from the [[athletix-ai]] page noting the framework as an
-outside lens, not something the company has adopted. Note: source is a
+coefficient (K = X×Y×Z), since it's a reusable framework. Note: source is a
 personal highlights export — a compression of the book by the user's own
 highlighting choices, then compressed again here.
 
-## [2026-07-15] ingest | Creando Unicornios — books, athletix
+## [2026-07-15] ingest | Creando Unicornios — books
 Created entity page for the book (Mexican startup/unicorn ecosystem +
 founder profiles: Clip, Bitso, Kavak, Stori, Nowports, Merama, Clara,
 Konfío, Incode). Created concept page for "unicorn" as a startup
@@ -52,9 +42,7 @@ proptech startup cited as a cautionary counter-example (overexpansion,
 underinvestment in HR, founder burnout) — flagged low confidence since
 it's a single secondhand retelling. Created concept page for founder
 mental health as a recurring startup risk factor (appears independently
-across Clip, Bitso, Casai, and Nowports founders in this book), and
-cross-linked it from [[eliecer-garcia-romo]] and [[humberto-garcia-romo]]
-as a pattern worth being aware of — not a claim about either of them.
+across Clip, Bitso, Casai, and Nowports founders in this book).
 Cross-linked the new book entity to [[how-to-build-a-billion-dollar-app]].
 
 ## [2026-07-15] ingest | Vida 3.0 (Life 3.0) — books, masters
@@ -66,8 +54,7 @@ framework itself isn't even in the highlighted text). Created concept
 page for "Intelligence as Goal-Achieving Capacity" (Tegmark's
 substrate-agnostic definition), loosely cross-referenced to
 [[pattern-recognition-professions]] as a related but distinct framing of
-expertise/intelligence. No connection found to athletix — tagged
-`masters` instead.
+expertise/intelligence. Tagged `masters`.
 
 ## [2026-07-15] ingest | Hábitos para ser millonario — books, reflections
 Created entity page for the book (likely Brian Tracy's "Million Dollar
@@ -93,17 +80,14 @@ daily-written-goals ritual — recorded as an unresolved tension between
 two self-help books, not adjudicated. Cross-linked both book entity pages
 to the comparison.
 
-## [2026-07-15] ingest | System Design Interview (Vol. I) — books, athletix, masters
+## [2026-07-15] ingest | System Design Interview (Vol. I) — books, masters
 Created entity page for the book (Alex Xu, recalled attribution, not
 stated in the raw file). Source is sparse (9 highlights across chapters
 1, 3, 4, 8, 9 — flagged explicitly as scattered pointers, not full chapter
 summaries; the URL shortener/rate limiter/web crawler designs are named
 but not detailed in what's highlighted). Created concept page for
 scalability building blocks (caching, CDN fallback, stateless web tier,
-message queues, sharding-key selection) and cross-linked it from
-[[athletix-ai]]'s infrastructure section as a relevant lens for its AWS/
-multi-tenant/time-series setup — not a claim about what the team has
-actually implemented.
+message queues, sharding-key selection).
 
 ## [2026-07-15] ingest | Esencialismo (Essentialism) — books, reflections
 Created entity page for the book (Greg McKeown, recalled attribution, not
@@ -128,10 +112,9 @@ less, automate savings"). Cross-linked into
 frugality rule) and into [[goal-setting-vs-systems-based-habits]] (the
 "automate savings" mechanism as a concrete real-world instance landing on
 Clear's systems side, a third independent book pointing the same
-direction). First book tagged `finance` rather than `athletix` — personal
-investing, not startup finance.
+direction). First book tagged `finance` — personal investing, not startup finance.
 
-## [2026-07-15] ingest | Deep Work + De cero a uno (Zero to One) — books, reflections, athletix
+## [2026-07-15] ingest | Deep Work + De cero a uno (Zero to One) — books, reflections
 Created entity page for Deep Work (Cal Newport, recalled attribution).
 No new standalone concept page — its ideas (Deep Work Hypothesis,
 busyness-as-proxy-for-productivity, ritual-based willpower reduction)
@@ -144,7 +127,6 @@ cero a uno (Peter Thiel, recalled attribution) and concept page for
 [[monopoly-vs-competition-zero-to-one]] (creative monopoly vs.
 competition, 10x-better-tech rule, narrow-niche-first go-to-market,
 power law of startup returns). Cross-linked the monopoly framework into
-[[athletix-ai]]'s differentiation table and into
 [[unicorn-startup-status]]; noted a difference in emphasis (not a
 contradiction) between Thiel's "secret/monopoly first" framing and
 [[creando-unicornios]]'s "gana el que ejecuta."
@@ -208,8 +190,7 @@ Python read after the normal Read tool failed to match the path).
   necessities" observation to [[essentialism-less-but-better]] and
   [[habitos-para-ser-millonario]].
 - [[the-saas-playbook]] (Rob Walling) — flagged as the most directly
-  applicable business book to [[athletix-ai]]'s actual stage found so
-  far; added a SaaS-metrics addendum to [[aarrr-growth-metrics]] (CAC,
+  applicable business book for an early-stage SaaS; added a SaaS-metrics addendum to [[aarrr-growth-metrics]] (CAC,
   ACV, expansion revenue) and a second independent founder-burnout
   reinforcement to [[founder-mental-health-startup-risk]].
 - [[sin-esfuerzo]] (McKeown's sequel to [[esencialismo]]) + concept
@@ -251,10 +232,6 @@ review, to the user's own judgment as originally framed).
   [[mindset-la-actitud-del-exito]], [[sin-esfuerzo]]). Updated all six
   pages' existing scattered cross-references to point to this
   consolidated page instead.
-- Resolved the [[piensa-como-amazon]] near-orphan by adding a reciprocal
-  link from [[athletix-ai]]'s Team section (small-team/high-ownership,
-  "leaders as designers" as a lens, not a claim about the team's actual
-  structure).
 - Added the reverse link from [[21-lecciones-siglo-xxi]] to [[sapiens]]
   (same author), and cross-linked its "naciones y religiones son clubes
   de fútbol con esteroides" line to [[imagined-orders-shared-fictions]].
@@ -283,7 +260,7 @@ User clarified "apply everything suggested" was meant to include items
   forgiveness chapters).
 
 ## [2026-07-16] advisor | Content strategy for Absadev — blackicelabs
-First `blackicelabs`-domain content and first non-book/non-athletix
+First `blackicelabs`-domain content and first non-book
 material in the wiki. Advisor session (not a raw ingest): built a social-
 media growth strategy from the user's own account + shared YouTube Studio
 and TikTok analytics screenshots. Created entity [[absadev]] (personal
@@ -294,9 +271,7 @@ concept [[estrategia-contenido-absadev]] (v1 strategy, `medium` confidence
 own words: 9 years of content but "nunca he sido consistente" (→ #1 lever)
 and a conversation problem (1 comment / 60 days on TikTok). Signature
 format identified: comparisons (Flutter vs React Native — top-3 by views
-AND the video that felt most like him). Confirmed the Absadev creator is
-the same person as [[eliecer-garcia-romo]] and added a reciprocal link
-from that page. Locked constraints: Spanish/LatAm, community+monetization,
+AND the video that felt most like him). Locked constraints: Spanish/LatAm, community+monetization,
 YouTube+repurpose, 4-6 h/week.
 
 ## [2026-07-16] advisor | Absadev — first batch defined + anecdote captured — blackicelabs
@@ -485,19 +460,17 @@ product (patterns, architecture, SOLID, languages, tooling, scalability).
 Boundaries written into CLAUDE.md: product-specific engineering → the product
 domain; AI/ML coursework → `masters`; dev-as-content-topic (Absadev) →
 `blackicelabs`. This resolves the lingering "the SWE books have no real home
-domain" issue better than the `athletix`-as-proxy patch from the earlier lint fix.
+domain" issue.
 
 Seed pages tagged `swe`:
-- [[typescript-5-design-patterns]] → `books, swe` (athletix dropped — was only a
-  loose lens; the [[athletix-ai]] cross-link stays in the body).
-- [[system-design-interview]] → `books, swe, athletix` (athletix kept: real infra tie).
-- [[system-design-scalability-building-blocks]] → `books, swe, athletix`.
-- [[first-principles-and-the-algorithm]] → `books, swe, athletix, reflections`
+- [[typescript-5-design-patterns]] → `books, swe`.
+- [[system-design-interview]] → `books, swe`.
+- [[system-design-scalability-building-blocks]] → `books, swe`.
+- [[first-principles-and-the-algorithm]] → `books, swe, reflections`
   (the Algorithm is an engineering method).
 
 Considered and deliberately left OUT: [[pattern-recognition-professions]] (primary
-subject is professions/AI generally, dev is just one example), [[eliecer-garcia-romo]]
-(person page), and the Absadev pages (dev-as-content = `blackicelabs`, per the
+subject is professions/AI generally, dev is just one example) and the Absadev pages (dev-as-content = `blackicelabs`, per the
 boundary). `index.md` domain lines updated.
 
 ## [2026-07-23] fix | Applied all 2026-07-23 lint items (user-confirmed "haz todo")
@@ -526,8 +499,6 @@ User confirmed applying everything actionable in the report. Done:
   [[attention-economy-and-pleasure-pain]] (thin tie); kept the light cross-links to
   the creator pages. La Guerra del Arte, Hazlo tan bien, and Murakami keep the tag
   (stronger, load-bearing ties).
-- **Item 3 (athletix inbound-only lenses):** accepted as-is per the report's lean —
-  not bloating [[athletix-ai]] with four reciprocal lens-links.
 
 Two new concept pages added to `index.md`; retagged domain lines updated there too.
 
@@ -546,7 +517,7 @@ being general SWE — inconsistent with the 2026-07-16 read-write-own retag); an
 pseudoscience in [[piense-y-hagase-rico]] is correctly quarantined. Nothing fixed
 automatically — awaiting user confirmation per the lint workflow.
 
-## [2026-07-23] ingest | 12 books (largest batch): War of Art, Murakami, So Good, Think and Grow Rich, Dalio, TypeScript Design Patterns, Musk, Courage to Be Disliked, Dopamine Nation, Digital Minimalism, Art of Spending Money, Do Hard Things — books, reflections, finance, athletix, blackicelabs
+## [2026-07-23] ingest | 12 books (largest batch): War of Art, Murakami, So Good, Think and Grow Rich, Dalio, TypeScript Design Patterns, Musk, Courage to Be Disliked, Dopamine Nation, Digital Minimalism, Art of Spending Money, Do Hard Things — books, reflections, finance, blackicelabs
 
 Largest single ingest so far (12 sources → 12 entity pages + 3 concept pages).
 All recalled-attribution (no title-page metadata in the highlight exports),
@@ -765,7 +736,7 @@ batch #5 — no reabrir el #4 por eso.
 
 Agregado el dominio **`fitexe`** a `CLAUDE.md` (con sus límites: la artesanía
 general de ingeniería lleva también `swe`; si resulta ser trabajo de cliente,
-`freelance`; y **separado de `athletix`** a propósito). Escaneado el repo
+`freelance`). Escaneado el repo
 `~/Documents/Proyects/app_fitexe` — código y docs propios, fuente de primera
 mano, `confidence: high` sobre lo que existe.
 
@@ -782,18 +753,10 @@ interesante: el gate no es elegir plan, es *confirmar el pago*; el atleta queda
 en `pending_confirmation` y no se le cierra la app, se le retiene la rutina del
 coach — justo lo que fue a buscar.
 
-**Pregunta abierta y deliberadamente no asumida:** ¿tiene relación con
-[[athletix-ai]]? El repo **nunca** menciona ATHLETIX ni [[hyper-bots]], y el
-comprador es distinto (academias que pagan por atleta vs. atletas que pagan la
-membresía de su coach). Mercado adyacente, producto distinto. Tampoco está claro
-si es suyo, sociedad o cliente: aparece un **segundo colaborador** en el
+**Pregunta abierta:** no está claro si es suyo, sociedad o cliente: aparece un **segundo colaborador** en el
 historial. Marcado en ambas páginas.
 
-**Dos convergencias útiles registradas**: el análisis de wearables de FitExe
-(Apple Watch por ROI; Garmin vía **puente de Strava + Supabase Edge Functions**)
-es insumo reutilizable para el roadmap de wearables de [[athletix-ai]] — el mismo
-problema abordado dos veces, mejor compararlo que resolverlo doble. Y
-[[typescript-5-design-patterns]] deja de ser solo un lente: este repo es la
+**Convergencia registrada**: [[typescript-5-design-patterns]] deja de ser solo un lente: este repo es la
 **primera instancia corriendo** de inversión de dependencias/DDD/atomic design en
 el wiki — y la primera prueba real de su advertencia de no sobre-ingenierizar.
 Tensión registrada, no resuelta.
@@ -807,13 +770,9 @@ confirme. Y nunca mostrar `.env` ni llaves en cámara. No va al batch #4.
 
 ## [2026-07-29] update | FitExe: sociedad confirmada y primer cliente pagando — fitexe
 
-Dos preguntas abiertas de hoy, cerradas por el usuario:
+Pregunta abierta de hoy, cerrada por el usuario:
 
-1. **¿Relación con [[athletix-ai]]?** *"NADA QUE VER."* Mismo mercado, productos
-   y compradores separados. La pregunta se conserva escrita en [[fitexe]] con su
-   razonamiento (el repo nunca menciona ATHLETIX), marcada como cerrada — la
-   evidencia que llevó a preguntarla sigue siendo la forma correcta de llegar ahí.
-2. **¿Suyo, sociedad o cliente?** **Sociedad.** Creada [[carlos-emilio-blanco]]
+- **¿Suyo, sociedad o cliente?** **Sociedad.** Creada [[carlos-emilio-blanco]]
    ("Emilio"), socio 50/50, 19 commits en el repo.
 
 **El hecho más importante del día: FitExe ya tiene un cliente pagando.** Un
@@ -836,11 +795,6 @@ Tres cosas que el número expone, anotadas en [[fitexe]]:
   bootstrapped, y ~US$32/mes por un gimnasio entero es muy bajo. Si es tarifa de
   primer cliente, es una jugada normal e inteligente; si es lista, es lo de
   mayor palanca a revisar antes del #2.
-
-Nota registrada en [[athletix-ai]]: su hito 2026 es "MVP y validación con
-academias/clubes", mientras el producto adyacente **ya le cobra a alguien por el
-problema de casi la misma persona compradora**. No es argumento para fusionarlos;
-es argumento para mirar qué enseñó ese trato antes de pitchear academias.
 
 Contenido ([[estrategia-contenido-absadev]]): se desbloquea el ángulo más fuerte
 del canal — *"tenemos un gimnasio pagándonos por nuestra app"*, mitad pikacodes
@@ -1377,32 +1331,6 @@ Studio sin jalar desde el 10-ago). Y que el video de FitExe **requiere ok de
 Emilio** — comunicación pública sobre revenue es decisión conjunta
 ([[carlos-emilio-blanco]]).
 
-## [2026-08-19] corrección | ATHLETIX AI ya no existe — athletix
-
-El usuario reporta en sesión que **[[athletix-ai]] ya no existe**. Añadido un
-banner de corrección al inicio de la página, **sin borrar nada** del contenido
-anterior: lo documentado el 2026-07-10 desde el pitch deck sigue siendo un
-registro fiel de lo que se planeaba entonces, y ahora se lee como histórico.
-Actualizado `index.md`.
-
-**Por qué importa más allá de esa página:** el dominio `athletix` está definido
-en `CLAUDE.md` como proyecto en curso, [[hyper-bots]] figura como el estudio que
-lo construye, [[eliecer-garcia-romo]] y [[humberto-garcia-romo]] como
-co-fundadores activos, y **al menos 12 páginas de libros** (De cero a uno, The
-SaaS Playbook, Piensa como Amazon, Zero to One, Creando Unicornios…) usan
-ATHLETIX como su caso de aplicación. Todas esas lecturas quedan apuntando a un
-proyecto muerto.
-
-❓ **Abierto y no inferido:** fecha de cierre, causa, estado de [[hyper-bots]], y
-qué pasó con la sociedad entre los hermanos. El usuario declaró el hecho, no el
-contexto. **No se toca nada más hasta tener respuesta** — la regla del wiki es
-presentar y esperar confirmación, no corregir en cascada por cuenta propia.
-
-⚠️ **Cómo se destapó:** salió porque una propuesta de contenido iba a mandar a
-grabar un episodio sobre la startup. Es el caso de libro de por qué un wiki sin
-mantenimiento de estado se vuelve peligroso — no por estar incompleto, sino por
-seguir afirmando con confianza algo que dejó de ser cierto.
-
 ## [2026-08-20] ingest | Consejo de Daniel sobre el guion de los shorts — blackicelabs
 
 El usuario reporta que [[daniel]] le dice que **hable de lo que le pasa en vez de
@@ -1592,7 +1520,7 @@ Cambios:
 
 - **Nuevo dominio `fitness`** en `CLAUDE.md`, con sus fronteras escritas: el
   entrenamiento propio va aquí; el contenido *sobre* correr sigue en
-  `blackicelabs`; el software deportivo para terceros es `athletix`/`fitexe`;
+  `blackicelabs`; el software deportivo para terceros es `fitexe`;
   las ideas de libros sobre esfuerzo y descanso siguen en `books`+`reflections`
   y sólo ganan `fitness` cuando se aplican a datos medidos suyos.
 - `raw/blackicelabs/strava-2026-03-01-a-2026-08-25/` → **`raw/fitness/…`**, con
@@ -2185,7 +2113,7 @@ gimnasios = objetivo cumplido.
 **Alternativas descartadas, con razón registrada:** producto para devs (su
 audiencia sí encaja, pero el mercado paga poco y él mismo declara en el objetivo
 15 que aún no es el experto que quiere ser), app de running/fitness (B2C contra
-lo gratis, y **[[athletix-ai]] —SaaS de rendimiento deportivo— ya no existe**),
+lo gratis),
 marca de café (negocio distinto, no resuelve el 16). **Las tres empiezan en cero
 clientes; FitExe empieza en uno.** Con 4-6 h/semana ya disputadas, empezar de
 cero no es caro: es imposible.
@@ -2249,8 +2177,7 @@ Atlas del 6-sep, la boda del 28-nov y dos podcasts, no cabe.
 
 **Descartadas con razón registrada:** producto para devs (única con distribución
 gratis, pero mercado que paga poco y **él mismo declara que aún no es el experto
-del objetivo 15** — carta de 2027); app de running (B2C contra lo gratis, y
-[[athletix-ai]] ya no existe); café (otro negocio).
+del objetivo 15** — carta de 2027); app de running (B2C contra lo gratis); café (otro negocio).
 
 **Calibración que la página usa como ancla:** FitExe necesitó **115 commits y
 una v1.0.17 para llegar a un cliente que paga 600**. Ése es su ritmo real de
@@ -3294,3 +3221,7 @@ Pendiente: la fecha del 20% de grasa.
 Fuente nueva: `raw/fitness/strava-fc-zonas-y-rodajes-2026-11-10.md` (zonas de Strava y FC por minuto de los rodajes del 3-nov, exterior, y del 4-nov, caminadora).
 Página nueva: [[plan-medio-gdl-2027]] (propuesta para la meta de 2:20 sobre la estructura que ya tiene con su coach: martes en pista, miércoles y jueves en caminadora porque corre de 3 a 6 pm, larga en exterior; fuerza, pliometría, zona 2 y día de carrera). Copiada a Apple Notas como "Plan Medio GDL 2027 — 2:20". Pendiente de revisión con Xavier.
 Agregado el mismo día: dos notas más en Apple Notas para usar en el gimnasio, "Lunes — Fuerza A (pesada)" y "Viernes — Fuerza B (potencia + pliometría)", con calentamiento, series, descansos y la progresión de [[plan-medio-gdl-2027]]. No agregan contenido nuevo al wiki.
+
+## [2026-11-13] mantenimiento | Retiro de un dominio de proyecto cerrado — a pedido del usuario
+Por decisión explícita del usuario se borraron 5 páginas (la empresa, el estudio, la ficha del usuario como cofundador, la del otro cofundador y la del tamaño de mercado), el dominio salió de `CLAUDE.md`, y se limpiaron sus menciones en ~45 páginas de libros/conceptos, en `index.md`, en tres reportes de lint y en entradas anteriores de este log (excepción deliberada a la regla append-only, autorizada por el usuario).
+Los enlaces a la ficha del usuario ahora dicen "el usuario" en texto plano. `raw/` no se tocó: la fuente original sigue ahí y el historial de git conserva todo lo borrado.

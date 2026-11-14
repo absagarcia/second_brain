@@ -105,9 +105,7 @@ sources:
 
 # Absadev
 
-Personal dev-content brand of the user
-([[eliecer-garcia-romo]] — same person, the full-stack dev / ATHLETIX AI
-co-founder). Umbrella brand from which `blackicelabs` (podcast / content /
+Personal dev-content brand of the user (a full-stack dev). Umbrella brand from which `blackicelabs` (podcast / content /
 social-media work) derives. Spanish-language, LatAm audience.
 
 - YouTube: **@Absadev** — https://www.youtube.com/@Absadev
@@ -1307,4 +1305,3 @@ se participa le toca al usuario; el wiki no lo decide.
 - [[slalom]] — el trabajo del que sale casi todo el material real
 - [[daniel]] — el par dev que dio el feedback de guion del 20-ago
 - [[absa-garcia]] — the sibling non-tech lifestyle/running brand
-- [[eliecer-garcia-romo]] — the person behind the channel

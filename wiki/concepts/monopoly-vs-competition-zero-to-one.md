@@ -1,7 +1,7 @@
 ---
 title: Monopoly vs. Competition (Zero to One)
 type: concept
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -57,13 +57,6 @@ of their founding narrative, not an afterthought.
 
 ## Relevance to this wiki
 
-- Directly comparable to [[athletix-ai]]'s own self-reported
-  differentiation table (accessible vs. costly, predictive AI vs. basic
-  analytics, intuitive vs. hard to implement, performance+recovery+sleep
-  vs. single-purpose competitors) — worth evaluating against Thiel's "10x
-  better on some dimension" bar and "narrow niche first" go-to-market
-  logic, though nothing here asserts that evaluation has been done; it's
-  a lens, not a verdict.
 - Comparable to [[unicorn-startup-status]]'s critique that valuation
   isn't the real marker of success — Thiel's framing would locate the
   real marker earlier, in whether a genuine monopoly position exists at

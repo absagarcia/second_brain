@@ -681,7 +681,7 @@ agentes trabajen en tu repo**, which rides the *Camino a AI Engineer* positionin
 with something he actually does.
 
 **Resolved 2026-07-29 — and it got better.** FitExe is a **partnership** with
-[[carlos-emilio-blanco]], unrelated to [[athletix-ai]], and **a gym already pays
+[[carlos-emilio-blanco]], and **a gym already pays
 for it** (MX$600/month, split 300/300). That adds the strongest angle of all:
 
 > **"Tenemos un gimnasio pagándonos por nuestra app."**
@@ -1191,7 +1191,6 @@ reviewed with the user before picking the next 3. Baseline stats live on
 ## Related
 
 - [[absadev]] — the brand/channel + current stats baseline
-- [[eliecer-garcia-romo]] — the creator
 
 
 ## Batch #7 — 14 → 30 sep, día sí día no, y el primer test deliberado de "nivel de entrada" (2026-08-19)

@@ -1,7 +1,7 @@
 ---
 title: Sin Esfuerzo (Effortless)
 type: entity
-domain: [books, reflections, athletix]
+domain: [books, reflections]
 created: 2026-07-15
 updated: 2026-07-16
 sources:
@@ -66,8 +66,6 @@ concept given the volume of practical technique, see
 
 ## Relevance to this wiki
 
-Tagged `athletix` alongside `books, reflections` for the same reason as
-[[esencialismo]] — a relevant lens for founders, not a claim about
-current practice. Its startup-mythology critique is the most directly
+Its startup-mythology critique is the most directly
 quotable addition to the existing tension around
 [[habitos-para-ser-millonario]].

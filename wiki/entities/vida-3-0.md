@@ -65,7 +65,6 @@ text, so it isn't described here).
 
 ## Relevance to this wiki
 
-Fits the `masters` domain (AI coursework/reading) more than `athletix` —
-no direct tie to ATHLETIX AI's work found in these highlights. Worth
+Fits the `masters` domain (AI coursework/reading). Worth
 revisiting if more of the book gets highlighted/ingested later, since the
 current excerpt is too thin to represent the book's actual thesis.

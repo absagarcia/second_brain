@@ -1,7 +1,7 @@
 ---
 title: Career Capital & the Craftsman Mindset (don't follow your passion)
 type: concept
-domain: [books, reflections, blackicelabs, athletix]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-23
 updated: 2026-07-23
 sources:

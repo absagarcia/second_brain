@@ -29,7 +29,7 @@ sources:
 > 2026-08-25. Se renombró el mismo día: el sujeto dejó de ser una meta suelta
 > y pasó a ser **una escalera de metas con fechas**.
 
-Declarados por [[eliecer-garcia-romo]] el 2026-08-25.
+Declarados por el usuario el 2026-08-25.
 
 ## La escalera
 

@@ -25,7 +25,7 @@ sources:
 
 # Objetivos de vida 2026-2027
 
-Los **17 objetivos** que [[eliecer-garcia-romo]] dictó el 2026-08-25. Es el
+Los **17 objetivos** que el usuario dictó el 2026-08-25. Es el
 primer documento del expediente que pone **todas** sus metas en una misma
 hoja: hasta hoy el wiki tenía las de running ([[objetivos-carrera-2026-2027]]),
 las de cuerpo ([[composicion-corporal-2026]]) y las de canal

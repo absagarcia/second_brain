@@ -25,7 +25,7 @@ sources:
 
 # Margarita Posada
 
-**Nutrición y Deporte.** La nutrióloga de [[eliecer-garcia-romo]] desde el
+**Nutrición y Deporte.** La nutrióloga del usuario desde el
 **2026-03-27**, y la fuente de toda la serie de [[composicion-corporal-2026]].
 
 Citada por primera vez sin nombre el 2026-08-02, en la descripción que el

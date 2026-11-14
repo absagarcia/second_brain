@@ -29,7 +29,7 @@ sources:
 
 # BLACK ICE LABS (podcast)
 
-El podcast dev de [[eliecer-garcia-romo]] bajo la marca Black Ice Labs.
+El podcast dev del usuario bajo la marca Black Ice Labs.
 **23 episodios**, del **2025-08-21** al **2026-06-08**, en español, temática de
 desarrollo (Flutter, IA, mercado laboral, side projects, salud mental del dev).
 
@@ -380,6 +380,5 @@ grabarse. Detalle y paquete de publicación en su página.
 - [[absadev]] — la marca dev de video; mismo público objetivo, mismos pilares
 - [[absa-garcia]] — la historia de podcasts anterior (Café con Absa, Absa con Café)
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
-- [[eliecer-garcia-romo]] — el creador
 - [[devtalles]] — el podcast de referencia; su catálogo cruzado contra este show
 - [[episodio-026-flujo-freelance-claude]] — el 026 grabado (fuera del slate) y el conteo de 503 plays

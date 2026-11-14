@@ -1,7 +1,7 @@
 ---
 title: Essentialism ("Less but Better") as a Prioritization Discipline
 type: concept
-domain: [books, reflections, athletix]
+domain: [books, reflections]
 created: 2026-07-15
 updated: 2026-07-23
 sources:
@@ -67,9 +67,6 @@ point, so it doesn't decay the way a stat or valuation would.
   keeps recurring across future ingests, not created yet since it would
   overlap heavily with the existing
   [[goal-setting-vs-systems-based-habits]] comparison.
-- No direct evidence in the [[athletix-ai]] pitch-deck ingest of the team
-  applying this — tagged `athletix` only as a relevant lens for founders,
-  not a claim about current practice.
 - Independently reinforced by [[deep-work]]'s emphasis on *intensity of
   focus* over volume of hours, and its explicit naming of "busyness as
   proxy for productivity" as a trap — a third independent source pointing

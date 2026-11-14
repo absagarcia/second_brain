@@ -13,7 +13,7 @@ sources:
 
 # Sofi
 
-La pareja del usuario ([[eliecer-garcia-romo]]) — hasta este ingesta referida
+La pareja del usuario — hasta este ingesta referida
 solo genéricamente como "la novia/esposa" en [[boda-2026]] y
 [[objetivos-vida-2026-2027]] (objetivo 10, viajar a Japón "con su esposa").
 Este es el primer registro del wiki con su nombre.

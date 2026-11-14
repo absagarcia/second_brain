@@ -22,7 +22,7 @@ sources:
 
 # Composición corporal 2026
 
-Proceso corporal de [[eliecer-garcia-romo]] con [[margarita-posada]]
+Proceso corporal del usuario con [[margarita-posada]]
 (nutrición y deporte), desde el **2026-03-27**. Sustrato físico de
 [[bloque-entrenamiento-running-2026]] y variable que condiciona
 [[objetivos-carrera-2026-2027]].

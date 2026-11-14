@@ -117,10 +117,7 @@ jugar en 2027, no ahora.
 **Una app de running/fitness personal.** Es el terreno que mejor conoce
 ([[bloque-entrenamiento-running-2026]], [[composicion-corporal-2026]]) y donde
 tiene la historia. Pero es B2C de consumo compitiendo con Strava y con lo
-gratis. **Y el expediente tiene evidencia directa de ese mercado:
-[[athletix-ai]], SaaS de rendimiento deportivo, ya no existe.** No es prueba de
-que sea imposible; sí es un dato que el wiki debe poner sobre la mesa antes de
-volver a entrar por ahí.
+gratis.
 
 **La marca de café (objetivo 17).** Es un negocio distinto: inventario,
 márgenes, logística, sin tiendas de apps. No compite con el 16; convive con él,
@@ -171,5 +168,4 @@ Vale la pena hacerlo. No vale la pena hacerlo con prisa.
 - [[finanzas-personales-2026-2027]] — por qué esto no es urgente
 - [[the-saas-playbook]] — el marco de precios que aplica
 - [[carlos-emilio-blanco]] — el socio con quien se decide el precio
-- [[athletix-ai]] — la evidencia sobre el mercado adyacente
 - [[career-capital-craftsman-mindset]] — por qué hacerlo igual

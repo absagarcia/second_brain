@@ -26,8 +26,8 @@ sources:
 > sujeto de la página es **el entrenamiento**, no el contenido que salga de
 > él. Ver la entrada de corrección en `log.md`.
 
-El registro medido de los seis meses de entrenamiento de
-[[eliecer-garcia-romo]] que sostienen el arco de contenido declarado en
+El registro medido de los seis meses de entrenamiento del
+usuario que sostienen el arco de contenido declarado en
 [[absa-garcia]] ("el año que estoy viviendo": -10 kg, medio maratón, boda,
 fin de la maestría). Hasta hoy ese arco existía **como intención declarada
 en conversación**; esta es la primera vez que entra al wiki **con datos**.

@@ -56,8 +56,6 @@ This book's "systems over goals" thesis directly contrasts with
 
 ## Relevance to this wiki
 
-Tagged `books, reflections` — no direct tie found to `athletix` or
-`masters` in this excerpt, though the systems-vs-goals framing (see
-[[goal-setting-vs-systems-based-habits]]) is a plausible lens for
-[[athletix-ai]]'s own year-by-year growth targets (not asserted as
-something the team has applied — just flagged as relevant).
+Tagged `books, reflections` — no direct tie found to `masters` in this
+excerpt; see [[goal-setting-vs-systems-based-habits]] for the systems-vs-goals
+framing.

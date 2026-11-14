@@ -1,7 +1,7 @@
 ---
 title: Máximo rendimiento (Peak Performance)
 type: entity
-domain: [books, reflections, athletix, blackicelabs]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-28
 updated: 2026-11-10
 sources:
@@ -112,9 +112,6 @@ something to attach to.
   of intensity; and *dar es un antídoto contra el agotamiento* — teaching
   publicly as burnout prevention is a direct argument for the content work
   itself, not just an audience play. See [[estrategia-contenido-absadev]].
-- **[[athletix-ai]]:** the most on-domain book in the wiki alongside
-  [[haz-cosas-dificiles]] — load management, overtraining, recovery as trainable
-  variables. A **lens on the problem space**, not a product claim.
 
 ## Cross-references
 

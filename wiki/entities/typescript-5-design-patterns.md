@@ -5,8 +5,7 @@ domain: [books, swe]
 created: 2026-07-23
 updated: 2026-07-23
 # 2026-07-23: masters dropped (general SWE, not AI coursework); moved to the new
-# `swe` domain. athletix dropped too — the tie was only a loose "lens," not an
-# applied product decision; the [[athletix-ai]] cross-link stays in the body.
+# `swe` domain.
 sources:
   - path: raw/books/TypeScript 5 Design Patterns and Best Practices.md
     fact_date: 2024-01-01        # recalled: Packt, TypeScript 5 era
@@ -18,8 +17,7 @@ sources:
 
 Packt technical book (TypeScript 5 era). The **first real software-engineering
 book** in the wiki, and the densest-highlighted of this batch. Directly relevant
-to [[eliecer-garcia-romo]]'s CTO / full-stack role and to any [[athletix-ai]]
-codebase decisions. **Long-lived**: the GoF patterns and SOLID principles have
+to the user's full-stack work. **Long-lived**: the GoF patterns and SOLID principles have
 been stable for decades; only the TS-5-specific syntax notes will age.
 
 > Compression note: this is a reference book, not an argument. The highlights are
@@ -63,8 +61,6 @@ incluirlas"). Recorded as a cross-domain resonance, not a claim the book cites t
 - [[system-design-interview]] — complementary lens: that book is
   system/infrastructure scale, this one is class/module design. Together they
   bracket the engineering reading in the wiki.
-- [[athletix-ai]] — relevant to code-level architecture decisions (kept as a
-  lens, not a claim about the current codebase).
 - [[fitexe]] / [[clean-architecture-feature-first]] (added 2026-07-29) — **no
   longer just a lens**: the FitExe repo runs dependency inversion (repository
   interfaces in `domain/`, Supabase implementations in `data/`), DDD-ish

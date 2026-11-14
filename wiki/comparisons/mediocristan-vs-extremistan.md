@@ -68,8 +68,7 @@ de una teoría en la ciencia social es el contagio, no su validez."
   are a Mediocristán tool pointed at an Extremistán quantity; the bucket
   strategy's security bucket is, in effect, a hedge against exactly that.
 - **Sports outcomes.** Match results are closer to Mediocristán than views are,
-  but tournament *outcomes* are not — relevant to any prediction work under
-  [[athletix-ai]].
+  but tournament *outcomes* are not — relevant to any sports-prediction work.
 
 ## Cross-references
 

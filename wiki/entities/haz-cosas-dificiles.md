@@ -1,7 +1,7 @@
 ---
 title: Haz cosas difíciles (Do Hard Things)
 type: entity
-domain: [books, reflections, athletix]
+domain: [books, reflections]
 created: 2026-07-23
 updated: 2026-11-10
 sources:
@@ -16,8 +16,7 @@ sources:
 Steve Magness (recalled attribution), ~2022 — a running coach / sport scientist
 redefining "toughness" against the macho model. Given Magness's background and
 the exercise-based practices, this is the most **sports-performance**-adjacent
-book in the wiki after [[system-design-interview]]'s infra content — relevant to
-[[athletix-ai]]'s domain. **Long-lived** (principles + drills).
+book in the wiki. **Long-lived** (principles + drills).
 
 ## Real toughness ≠ false bravado
 
@@ -69,8 +68,6 @@ Decisión." Four pillars:
 - [[atrevete-a-no-gustar]] / [[el-arte-de-gastar-dinero]] — silent ego.
 - [[internal-scorecard]] — primary source for "silent ego" and "improve your
   best average" (compete with your past self).
-- [[athletix-ai]] — sport-psychology lens on performance/recovery (a lens, not a
-  product claim).
 - [[maximo-rendimiento]] (added 2026-07-28) — **same author, earlier book**
   (Stulberg & Magness, 2017). Read as one arc: the 2017 book builds the
   load/recovery architecture ([[stress-rest-growth-equation]]) and the purpose

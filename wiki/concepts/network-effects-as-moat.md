@@ -1,7 +1,7 @@
 ---
 title: Network Effects as a Competitive Moat
 type: concept
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-16
 sources:
@@ -66,14 +66,12 @@ related points about what makes a network defensible.
 
 ## Relevance to this wiki
 
-Directly relevant to [[athletix-ai]]'s own moat question: as a B2B SaaS
-platform without a large consumer user-network, the
-[[the-saas-playbook]] framing (integrations as the realistic moat for
+For a small B2B SaaS without a large consumer user-network (e.g. [[fitexe]]),
+the [[the-saas-playbook]] framing (integrations as the realistic moat for
 smaller SaaS companies) is more applicable than Dixon's or Thiel's
-consumer-network-scale framing — not asserted as something the team has
-evaluated, just the most relevant lens among the three.
+consumer-network-scale framing.
 
 **Domain note (2026-07-16)**: dropped `masters` from this page's tags
 following [[read-write-own]]'s retag away from `masters` (see that page)
-— this page's own subject (competitive moats) fits `books, athletix`
+— this page's own subject (competitive moats) fits `books`
 better than a coursework-adjacent domain anyway.

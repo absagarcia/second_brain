@@ -1,7 +1,7 @@
 ---
 title: Founder Mental Health as a Startup Risk Factor
 type: concept
-domain: [books, athletix, reflections]
+domain: [books, reflections]
 created: 2026-07-15
 updated: 2026-07-23
 sources:
@@ -56,10 +56,7 @@ companies profiled in the book:
 
 ## Relevance to this wiki
 
-Directly relevant to [[eliecer-garcia-romo]] and [[humberto-garcia-romo]]
-as founders of [[athletix-ai]] — flagged here as a pattern worth being
-aware of, not because anything in the ATHLETIX AI ingest so far indicates
-a problem. Also connects to [[creando-unicornios]]'s own conclusion that
+Connects to [[creando-unicornios]]'s own conclusion that
 valuation status is not what these founders say actually mattered in
 hindsight.
 

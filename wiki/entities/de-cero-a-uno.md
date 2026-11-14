@@ -1,7 +1,7 @@
 ---
 title: De cero a uno (Zero to One)
 type: entity
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -33,8 +33,7 @@ what already works (horizontal/extensive progress, i.e. globalization).
 
 Extracted as its own concept, see
 [[monopoly-vs-competition-zero-to-one]], since it's the book's most
-reusable framework and directly overlaps with how [[athletix-ai]]
-positions itself against competitors.
+reusable framework.
 
 ## Other recurring arguments (as highlighted)
 
@@ -84,8 +83,7 @@ positions itself against competitors.
 ## Relevance to this wiki
 
 The monopoly-vs-competition framework and the "success is never
-accidental" argument are the most transferable pieces to
-[[athletix-ai]]'s own competitive positioning — see
+accidental" argument are the most transferable pieces — see
 [[monopoly-vs-competition-zero-to-one]] for the cross-link. Also worth
 noting a difference in emphasis (not a hard contradiction) with
 [[creando-unicornios]]: Clip's founder is quoted there as "gana el que
@@ -110,6 +108,6 @@ Neither page is edited to accommodate the other. Taleb would read Thiel's
 successful-founder evidence as survivorship bias
 ([[falacia-narrativa-y-pruebas-silenciosas]]); Thiel would read Taleb's
 tinkering as the indefinite optimism he blames for stagnation. The live
-question for [[athletix-ai]] and [[fitexe]] is which regime a given bet is
+question for [[fitexe]] is which regime a given bet is
 in — a plannable one or a tail-driven one — not which author is right in
 general.

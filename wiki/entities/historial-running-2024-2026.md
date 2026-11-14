@@ -21,7 +21,7 @@ sources:
 
 # Historial de running — oct 2024 → nov 2026
 
-Toda la vida de [[eliecer-garcia-romo]] en Strava, de la primera actividad
+Toda la vida del usuario en Strava, de la primera actividad
 (**2024-10-27**) a la última (**2026-11-10**). Junta los dos exports: este
 complementa a [[bloque-entrenamiento-running-2026]], que cubre marzo → agosto de
 2026 y que hasta hoy era **todo lo que el wiki sabía de su running**.
