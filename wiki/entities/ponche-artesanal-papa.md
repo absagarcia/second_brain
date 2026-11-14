@@ -3,7 +3,7 @@ title: El ponche de mi papá — problema candidato (inventario y cuadre de un v
 type: entity
 domain: [reflections, finance]
 created: 2026-10-29
-updated: 2026-10-29
+updated: 2026-11-14
 sources:
   - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
     fact_date: 2026-10-28
@@ -103,9 +103,39 @@ ve la escena desde otro lado:
   en los mismos bazares.
 - **Consentimiento:** grabar a clientes en el puesto requiere aviso (un letrero).
 
+## 2026-11-14 — candidato a proyecto del hackatón
+
+[[daniel]] lo propone para el [[hackaton-mexico-2026]]: un QR por sabor, y cada pago avisa qué se vendió.
+Esa propuesta **choca con la regla de esta misma página**, "cero tareas nuevas en el puesto":
+- El cliente tendría que pagar por un canal nuevo.
+- El efectivo y Mercado Pago seguirían sin sabor.
+- Un QR por sabor no resuelve las compras mixtas.
+
+La variante que lo respeta es que quien cobra (los hijos) marque "granada ×2" en vez de teclear el monto, y que el registro valga para cualquier medio de pago. Es lectura de Claude, sin probar.
+
+Contexto regulatorio en [[pagos-digitales-mexico-2026]]:
+- Desde el 14-dic, cualquier app bancaria genera un QR para recibir con concepto.
+- El ticket de ~380 pesos cae en el 85% de operaciones de menos de 500 pesos que todavía son efectivo.
+- La cuenta Nivel 2 Bis podría ser la vía para que el dinero entre a nombre del papá. Sin verificar.
+
+**Aclaración del usuario (2026-11-14):** el papá usa Mercado Pago porque "es lo que les han dado a los artesanos". De ahí sale la idea de usar **el API de pey** (CoDi). En una primera versión de esta nota Claude escribió por error "el API de Mercado Pago"; el usuario lo corrigió el mismo día.
+- No consta quién se lo dio (¿un programa, el bazar, una asociación?).
+- **Tiene terminal de Mercado Pago** (confirmado el 14-nov).
+- **Idea del usuario (14-nov):** registrar en pey la **CLABE de la cuenta de Mercado Pago del papá** como destino de los cobros CoDi. Así lo cobrado con terminal y lo cobrado con CoDi caen en la misma cuenta.
+- Según docs.pey.mx (`raw/swe/pey-docs-resumen-2026-11-14.md`):
+  - Pey liquida en "la cuenta con la que ya operas" y se describe "agnóstico" a la institución, pero **no confirma que acepte una CLABE de fintech**.
+  - El QR lleva `concept` y `numRef`, y el webhook `codi.qr.payment_received` devuelve ambos. **El sabor puede viajar en `concept`.**
+- **Restricción de las reglas del hackatón** ([[hackaton-mexico-2026]]):
+  - La CLABE de producción tiene que ser **del titular de las credenciales**, y cobrar a cuentas ajenas está prohibido.
+  - Si la CLABE es del papá, **el papá tiene que ser la Integradora**: integrante del equipo, con actividad empresarial o persona moral. No consta su situación fiscal.
+
+Según la documentación de Mercado Pago (búsqueda del 14-nov, sin probar), la intención de pago de Point lleva monto, descripción y `external_reference`. Mercado Pago está migrando Point a una Orders API nueva.
+
 ## Related
 
 - [[valor-se-muda-a-lo-escaso]] — el método del que sale, y la regla "el dolor es la señal"
 - [[corte-ventas-agencias-autos]] — el otro candidato, del mismo patrón (un Excel que no cuadra)
 - [[taco-agente-teams]] — el agente que haría la chamba por WhatsApp
 - [[daniel]] — las correcciones de método
+- [[hackaton-mexico-2026]] — donde se volvió candidato a proyecto
+- [[pagos-digitales-mexico-2026]] — la ley y la circular que cambian cómo cobra un puesto

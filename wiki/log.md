@@ -3225,3 +3225,21 @@ Agregado el mismo día: dos notas más en Apple Notas para usar en el gimnasio, 
 ## [2026-11-13] mantenimiento | Retiro de un dominio de proyecto cerrado — a pedido del usuario
 Por decisión explícita del usuario se borraron 5 páginas (la empresa, el estudio, la ficha del usuario como cofundador, la del otro cofundador y la del tamaño de mercado), el dominio salió de `CLAUDE.md`, y se limpiaron sus menciones en ~45 páginas de libros/conceptos, en `index.md`, en tres reportes de lint y en entradas anteriores de este log (excepción deliberada a la regla append-only, autorizada por el usuario).
 Los enlaces a la ficha del usuario ahora dicen "el usuario" en texto plano. `raw/` no se tocó: la fuente original sigue ahí y el historial de git conserva todo lo borrado.
+
+## [2026-11-14] ingest | Hackatón México 2026: sitio y reglas — swe, blackicelabs, reflections
+Fuente nueva: `raw/swe/hackaton-mexico-2026-sitio-y-reglas-2026-11-14.md` (portada y /reglas de hackatonmexico.com, reglas actualizadas el 4-nov; capturadas vía WebFetch). Primera fuente en `raw/swe/`. El usuario decide participar ese mismo día.
+Página nueva: [[hackaton-mexico-2026]] (calendario, requisito de cobro CoDi real en producción, criterios, premios y bounties, giros; preguntas abiertas: equipo, persona con actividad empresarial, idea, semanas alrededor de la boda).
+Actualizadas (backlinks): [[patron-de-terminacion]], [[boda-2026]] (el 28-nov cae a la mitad del periodo), [[app-notch-macos]] (choque con el MVP de diciembre).
+
+## [2026-11-14] ingest | Ley de Economía Digital y Circular 9/2026 de Banxico — finance, swe
+Fuentes nuevas: `raw/finance/banxico-circular-9-2026-dof-2026-06-17.pdf` (DOF, oficial, leída completa) y `raw/finance/ley-economia-digital-y-circular-9-2026-investigacion-2026-11-14.md` (prensa y blogs vía búsqueda web, confianza media).
+Página nueva: [[pagos-digitales-mexico-2026]]. Corrige el supuesto del usuario: la ley entró en vigor el 5-nov; lo del 14-dic es la circular de Banxico (bancos, no comercios).
+Actualizadas: [[hackaton-mexico-2026]] (aclaración de las "nuevas reglas de CoDi"; Daniel entra al equipo y propone el ponche), [[ponche-artesanal-papa]] (candidato del hackatón; choque del QR por sabor con "cero tareas nuevas en el puesto").
+
+## [2026-11-14] decisión | El papá cobra con Mercado Pago porque es lo que les dieron a los artesanos — reflections, finance
+Fuente: conversación. De ahí sale la idea de usar el API de pey (corregido el mismo día: Claude había escrito "API de Mercado Pago").
+Actualizada: [[ponche-artesanal-papa]]. Abierto: quién se lo dio y qué producto es (Point, QR o link).
+
+## [2026-11-14] ingest | Documentación del API de pey (portada) — swe
+Fuente nueva: `raw/swe/pey-docs-resumen-2026-11-14.md`. El papá tiene terminal de Mercado Pago, y el usuario propone usar su CLABE de Mercado Pago como destino de los cobros de pey.
+Actualizadas: [[ponche-artesanal-papa]] y [[hackaton-mexico-2026]]. Abierto: ¿pey acepta CLABE de Mercado Pago? ¿El papá tiene actividad empresarial?

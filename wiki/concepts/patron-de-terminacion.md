@@ -3,7 +3,7 @@ title: "Empiezo muchas y termino pocas" — el patrón real, según sus propios 
 type: concept
 domain: [reflections, blackicelabs, fitness, swe, books]
 created: 2026-08-26
-updated: 2026-11-10
+updated: 2026-11-14
 sources:
   - path: raw/fitness/strava-historial-completo-2026-11-10/
     fact_date: 2024-10-27 → 2026-11-10
@@ -273,3 +273,4 @@ diferente, y hasta con miedo". Queda anotado sin resolver.
 - [[bloque-entrenamiento-running-2026]] / [[composicion-corporal-2026]] — la evidencia de lo que sí sostiene
 - [[daniel]] — el testigo candidato para las metas de contenido
 - [[slalom]] — el objetivo a un paso de estar estructurado
+- [[hackaton-mexico-2026]] — **2026-11-14:** compromiso nuevo *con* estructura (fecha inmovible 12-dic + equipo + jurado); el riesgo no es él, es lo que compita con él

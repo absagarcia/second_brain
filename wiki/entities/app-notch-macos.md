@@ -3,7 +3,7 @@ title: App de notch para Mac (proyecto sin nombre)
 type: entity
 domain: [swe, blackicelabs, reflections]
 created: 2026-10-11
-updated: 2026-10-11
+updated: 2026-11-14
 sources:
   - path: raw/reflections/app-notch-idea-2026-10-11.md
     fact_date: 2026-10-11
@@ -108,3 +108,4 @@ de noviembre de [[serie-fitexe-con-ia]] (es decir, diciembre).
 - [[minimalismo-digital]] — la promesa de "desconectar" de las dos referencias
 - [[slalom]] — la restricción del módulo de Teams
 - [[absa-con-cafe-005-regreso]] — la marca con la que rima el registro de café
+- [[hackaton-mexico-2026]] — **2026-11-14:** el hackatón ocupa diciembre hasta el 12; activarlos a la vez rompe la regla de un objetivo sin estructura
