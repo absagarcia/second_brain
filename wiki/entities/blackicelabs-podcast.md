@@ -382,3 +382,4 @@ grabarse. Detalle y paquete de publicación en su página.
 - [[estrategia-contenido-absadev]] — la estrategia que este export toca directamente
 - [[devtalles]] — el podcast de referencia; su catálogo cruzado contra este show
 - [[episodio-026-flujo-freelance-claude]] — el 026 grabado (fuera del slate) y el conteo de 503 plays
+- [[episodio-029-supabase-vs-firebase]] — el 029 (Supabase vs Firebase) y sus 7 clips verticales

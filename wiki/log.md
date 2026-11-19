@@ -3243,3 +3243,14 @@ Actualizada: [[ponche-artesanal-papa]]. Abierto: quién se lo dio y qué product
 ## [2026-11-14] ingest | Documentación del API de pey (portada) — swe
 Fuente nueva: `raw/swe/pey-docs-resumen-2026-11-14.md`. El papá tiene terminal de Mercado Pago, y el usuario propone usar su CLABE de Mercado Pago como destino de los cobros de pey.
 Actualizadas: [[ponche-artesanal-papa]] y [[hackaton-mexico-2026]]. Abierto: ¿pey acepta CLABE de Mercado Pago? ¿El papá tiene actividad empresarial?
+
+## [2026-11-18] ingest | Episodio 029 — Supabase vs Firebase: transcript y 7 clips verticales — blackicelabs
+Fuente nueva: `raw/blackicelabs/episodio-029-supabase-vs-firebase-transcript-2026-11-18.md` (Whisper local con tiempos por palabra, sobre `podcast terminado/029.mp4`).
+Página nueva: [[episodio-029-supabase-vs-firebase]]. Tiene los 7 clips 1080×1920 con captions, cortados con las reglas del 028 y del batch de noviembre (hook en pantalla, entrar con sujeto y salir con una afirmación, cada término explicado en una línea), sus captions por red y el fact-check de Google Play (pago único de US$25).
+Los MP4 viven en `media/clips/029/`. Se agregó `media/` a `.gitignore` para no versionar video. Backlink en [[blackicelabs-podcast]].
+
+## [2026-11-18] update | Miniaturas de los 7 clips del 029 — blackicelabs
+Se hicieron las portadas 1080×1920 con la paleta morada del ícono de Final Cut Pro (pedido del usuario), en tres versiones (con cara, con fondo y transparente), en `media/clips/029/miniaturas/`. Sección nueva en [[episodio-029-supabase-vs-firebase]].
+
+## [2026-11-19] update | Títulos, descripciones y captions por red de los 7 clips del 029 — blackicelabs
+Se reemplazó la versión corta del 18-nov (Obsidian había convertido sus hashtags en encabezados) por los textos de YouTube Shorts (título, descripción y comentario fijado), TikTok e Instagram, en bloques de código. El título del episodio largo queda como propuesta hasta que el usuario lo confirme. Ver [[episodio-029-supabase-vs-firebase]].
