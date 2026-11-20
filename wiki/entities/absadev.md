@@ -3,8 +3,16 @@ title: Absadev
 type: entity
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-11-02
+updated: 2026-11-19
 sources:
+  - path: raw/blackicelabs/absadev-yt-report-2026-11-19.txt (yt_report.py, ventana 20-oct → 16-nov, más métricas por video consultadas por ID hasta el 18-nov)
+    fact_date: 2026-11-16
+    ingest_date: 2026-11-19
+    confidence: high   # API de primera parte
+  - path: raw/blackicelabs/youtube-ask-studio-28d-2026-11-19.md (Ask Studio, "últimos 28 días")
+    fact_date: 2026-11-17
+    ingest_date: 2026-11-19
+    confidence: low   # IA de YouTube; su +11 neto choca con el 0 de la API
   - path: raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md (anuncio del sprint de monetización, sin remitente ni requisitos)
     fact_date: 2026-11-01
     ingest_date: 2026-11-02
@@ -108,7 +116,7 @@ sources:
 Personal dev-content brand of the user (a full-stack dev). Umbrella brand from which `blackicelabs` (podcast / content /
 social-media work) derives. Spanish-language, LatAm audience.
 
-- YouTube: **@Absadev** — https://www.youtube.com/@Absadev
+- YouTube: **@Absadev** — <https://www.youtube.com/@Absadev>
 - TikTok: **absa.dev** — bio *"Documentando mi camino de Dev a AI Engineer"*
 
 ## Creator profile (what drives the content)
@@ -154,6 +162,7 @@ TikTok/Reels; sustainable time budget **4-6 h/week**.
 > [[estrategia-contenido-absadev]] is the long-lived part.
 
 **YouTube @Absadev (last 28 days):**
+
 - 7,856 subscribers (+7 in period, ↓ vs usual)
 - 3,926 views — flagged **below the channel's own norm of 14,900–24,000
   views / 28 days** (a slump, not a baseline)
@@ -163,6 +172,7 @@ TikTok/Reels; sustainable time budget **4-6 h/week**.
   *"Flutter vs React Native 20…"* (26)
 
 **TikTok absa.dev (last 60 days):**
+
 - 4.5K followers, 78K total likes, following 90
 - 34.5K video views (**−56.8%**), 238 profile views, 964 likes,
   **1 comment (−98.8%)**, 147 shares, $0 rewards
@@ -181,7 +191,7 @@ time (flat), **MX$28.53** revenue (↓ from $33.02).
 **The three videos of batch #1** (published 23 / 25 / 27 jul, every 2 days):
 
 | Video | YouTube | TikTok (2 days earlier) |
-|---|---|---|
+| --- | --- | --- |
 | React Native vs Flutter en 2026 | 183 views, 4 likes, **0 comments** | 670 plays, 40 likes, 0 comments |
 | Amo Flutter… y aun así voy a aprender Swift | 200 views, 2 likes, **2 comments** | 732 plays, 55 likes, **9 comments** |
 | El error de los devs latinos al hablar inglés | **686 views, 20 likes, 5 comments**, 43.3% avg viewed, ranking 4 of 10 | 699 plays, 42 likes, 3 comments |
@@ -257,7 +267,7 @@ intended one actually meet.
 **Canal (@absadev, ventana de 28 días):**
 
 | Métrica | Valor | vs. periodo anterior |
-|---|---:|---|
+| --- | ---: | --- |
 | Suscriptores totales | **7,850** | ↓ desde 7,861 (28-jul) |
 | Altas / bajas | **+17 / −16 = +1 neto** | +8 neto el 28-jul |
 | **SPV** (subs netos / 1.000 vistas) | **0.21** | 1.67 (28-jul), 1.78 (16-jul) |
@@ -288,7 +298,7 @@ Sugeridos + Browse **8.8%** · Suscripciones 5% · resto <3% c/u.
 3. **Alcance y conversión van al revés** (comparación a misma edad, 14 días):
 
    | Video | Vistas | SPV | Coment. |
-   |---|---:|---:|---:|
+   | --- | ---: | ---: | ---: |
    | Amo Flutter… voy a aprender Swift | 211 | **9.48** | 1 |
    | Ya estoy haciendo la tesis | 182 | **5.49** | 2 |
    | La garantía de Xiaomi tarda mucho | 890 | 1.12 | 3 |
@@ -331,6 +341,7 @@ de la ventana todavía no tienen 14 días cumplidos y quedan sin juzgar.
 > (el 08 se corta a las 17 h).
 >
 > ⚠️ **Caveats del export, antes de leer nada:**
+>
 > 1. **Los CSV no traen año.** Para las series diarias es inequívoco (2026), pero
 >    en `Content.csv` la columna *Post time* dice "April 3", "September 14",
 >    "December 6", "March 25" — de años anteriores, sin decir cuál. Los IDs de
@@ -348,7 +359,7 @@ de la ventana todavía no tienen 14 días cumplidos y quedan sin juzgar.
 · 33 comentarios · 78 shares.
 
 | Métrica | 10-jun → 09-jul | 10-jul → 08-ago | Δ |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | Vistas/día | 397 | **681** | **+72%** |
 | Comentarios | **−6** (netos) | **39** | ⬆️ |
 | Shares por 1.000 vistas | 5.37 | **0.69** | **−87%** |
@@ -373,7 +384,7 @@ de recurrentes **subió a lo largo de la ventana**: ~16% el 02–03 ago, 43% el
 **Videos (`Content.csv`, acumulado de por vida, ordenado por vistas):**
 
 | Vistas | Likes | Com. | Sh. | Eng. | Publicado | Video |
-|---:|---:|---:|---:|---:|---|---|
+| ---: | ---: | ---: | ---: | ---: | --- | --- |
 | **139,473** | 759 | 14 | 45 | 0.59% | 3 abr (≈2023) | ¿Qué significa GM? (cripto/web3) |
 | 10,072 | 244 | 5 | 4 | 2.51% | 14 sep | ¿El iPad ya sirve para programar? |
 | 7,865 | 228 | 6 | 8 | 3.08% | 12 may | Café Juan de Chapultepec (vibecodear) |
@@ -507,7 +518,7 @@ el contenido.
 No cambia ningún número —no hay números que cambiar— pero **sí cambia qué medir
 después**: no existe línea base de Instagram (alcance, seguidores, franja
 horaria, ni conversión a perfil), así que los horarios de publicación del batch
-#5 en esa plataforma están puestos por default, no por medición. Petición de dato
+# 5 en esa plataforma están puestos por default, no por medición. Petición de dato
 pendiente, del mismo tipo que el export de Studio abierto desde el 10-ago.
 
 ⚠️ Es **un solo DM**. Basta para nombrar el hueco de medición; no basta para
@@ -576,7 +587,7 @@ espectador de 60+ del 19-ago, están en [[estrategia-contenido-absadev]].
 De [[objetivos-vida-2026-2027]] (dictado por el usuario, 2026-08-25):
 
 | Meta | Hito intermedio | Último dato | Ritmo medido | Lectura |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | 10K subs YouTube | **8K** (*"faltan como 140"*) | 7,850 (10-ago) | **−11 en 28 días** | 🔴 signo contrario |
 | 10K seguidores TikTok | **5K** (*"faltan como 430"*) | 4,535 (08-ago) | **+11 en 7 días** | 🟡 ≈ may-2027 |
 | Ingreso de YouTube | **200 MXN/mes** → 1,000 | — | monetización sin confirmar | ❓ |
@@ -608,7 +619,7 @@ RPM supuesto*, no un dato: se marca como tal y no se planifica sobre ello.
 **Canal (28 días):**
 
 | Métrica | Valor | vs. periodo anterior |
-|---|---:|---|
+| --- | ---: | --- |
 | Suscriptores totales | **7,850** | — |
 | Altas / bajas | **+17 / −21 = −4 neto** | +1 neto (ventana 07-08→10-08) |
 | **SPV** | **−1.11** | 0.21 (10-ago), 1.67 (28-jul), 1.78 (16-jul) |
@@ -679,7 +690,7 @@ usuario eligió el 20-ago (*opinión/criterio*, no confesión). Resultado del d�
 **+5 seguidores**, repartidos **4 / 1**.
 
 | Short | Ángulo | Seguidores ganados |
-|---|---|---|
+| --- | --- | --- |
 | *"Tu inglés está bien. Tu pregunta no."* — la pregunta que pide una firma vs. la que pide averiguar | idioma / dinámica de trabajo | **4** |
 | *"OpenClaw 2: lo que prendieron y lo que dejaron apagado"* — los defaults del release | herramienta / criterio técnico | **1** |
 
@@ -770,7 +781,7 @@ sabe sobre cuántas semanas).
 **Tres videos con cifras reales, y dos cierran preguntas abiertas:**
 
 | Video | Vistas | Likes | Com. | Sh. | Identifica |
-|---|---:|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | ---: | --- |
 | "¿Qué significa GM? Good morning!" | 141,430 | 767 | 14 | 46 | el mismo video cripto de 2023 — 139,473 vistas de por vida en el export del 10-ago; +1,957 desde entonces, catálogo viejo sigue rindiendo |
 | "Última de las 7 👋 ¿Qué habilidades están pidiendo…?" | 18,267 | 1,171 | 12 | 17 | **cierra el batch #5** (7 shorts nacidos del DM de Instagram, ver arriba) — ep. 7, publicado 01-sep |
 | "Acepté el trabajo que no quería…" | 10,315 | 602 | 24 | 13 | **es "El trabajo que no quería"**, Serie 5, del batch grabado 18-ago (ver [[estrategia-contenido-absadev]]) |
@@ -809,6 +820,7 @@ referencia.
 >
 > ✅ **Confirmado el mismo día** (`raw/blackicelabs/absadev-tiktok-videos-promocionados-2026-10-07.md`):
 > los dos promocionados son **exactamente estos dos**. Por eso:
+>
 > - **Las dos cifras estrella de esta tabla traen alcance pagado:** la tasa de likes de 6.4% y
 >   los 24 comentarios. Ya no son evidencia limpia de que el registro de identidad funcione.
 > - **La hipótesis identidad > utilidad no muere, pero pierde sus dos datos más fuertes.**
@@ -822,7 +834,7 @@ Reportado en conversación, **sin export de plataforma**: cifras aproximadas
 ("más de", "como"), no exactas.
 
 | Video | Vistas | Seguidores nuevos | Tasa (por 1.000 vistas) | Nota |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | OpenSpec en FitExe (grabado 2026-09-04, ver [[fitexe]]) | **más de 2,000** | **más de 8** | **≥4.0** | "generó muchos comentarios" |
 | "Mi trabajo ideal" | **más de 1,500** (orgánico) | **≈12** | **≈8.0** | "ayudó mucho ese tráfico" — sin precisar a qué |
 
@@ -949,7 +961,7 @@ confirmado con una segunda medición.
 ### TikTok (60 días, 07-ago → 05-oct)
 
 | Tramo | Vistas/día | Visitas al perfil/día | Comentarios |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | 07–20 ago | 508 | 6.3 | 15 / 14 d |
 | 03–09 sep (picos) | 5,993 | 32.0 | 62 / 7 d |
 | 10–23 sep | 1,809 | 13.4 | 28 / 14 d |
@@ -965,10 +977,10 @@ confirmado con una segunda medición.
   lista 15 videos.
 - "GM" (cripto, 2023) sigue en 143,650 (+2,220 desde el 9-sep). El catálogo viejo sigue rindiendo.
 
-
 ### Mismo día: la promoción, los seguidores de TikTok y la primera línea base de Instagram
 
 **TikTok: casi todo el crecimiento de los últimos 60 días fue pagado.**
+
 - 5,197 seguidores al 07-oct contra 4,535 al 08-ago: **+662 en ~60 días**.
 - El usuario dice que la promoción trajo **"como 600"** por **"como 1,200 MXN"**, unos 2 MXN por
   seguidor. Así que el crecimiento orgánico fue de **~60 en 60 días**, ~1 al día. Es menos que el
@@ -990,6 +1002,7 @@ confirmado con una segunda medición.
   la meta de comunidad, y deja la medición de TikTok igual de contaminada que el 9-sep.
 
 **Instagram: primera línea base** (`raw/blackicelabs/absadev-instagram-insights-2026-10-07.md`)
+
 - **1,936 seguidores.** Es la superficie más chica de las tres, y hasta hoy no tenía ningún dato.
 - 81,528 vistas: 68.9% de no-seguidores, 62,075 desde Instagram y 19,453 desde Facebook por el
   cross-post. 25,549 cuentas alcanzadas. El 84.7% de las vistas son Reels.
@@ -1024,6 +1037,7 @@ confirmado con una segunda medición.
 > primera parte. Los snapshots anteriores quedan como se escribieron.
 
 **Cifras (⚠️ vida corta):**
+
 - **7,885 subs** contra 7,880 el 07-oct: **+5 en ~8 días**. Faltan **2,115** para 10K. A ese ritmo
   (≈ +17.5 cada 28 días) serían ~8.7 años. Es una semana suelta, así que es **ruido** como tendencia; la
   conclusión del 07-oct no cambia: hace falta un cambio de escalón.
@@ -1037,6 +1051,7 @@ de tráfico, AVD, curva de retención ni CTR. Todo eso queda **no disponible** p
 no significa que el empaque esté bien.
 
 **Qué confirma lo ya registrado:**
+
 - **Flutter vs React Native sigue siendo el ancla.** Ask Studio dice que los videos más vistos de la
   historia del canal son de Flutter y que *"Flutter vs React Native 2026: La Verdad sobre Rendimiento y
   Salarios"* juntó decenas de comentarios. Coincide con el +5 subs en 684 vistas del 07-oct y con el
@@ -1071,7 +1086,7 @@ wiki todavía.
 ### Shorts: 17 videos, 9,083 vistas, +2 suscriptores netos
 
 | Grupo | Videos | Vistas | Subs netos | Subs / 1,000 | % eligió verlo (mediana) |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | Clips del 024 (layoff, Oxxo, comida, LinkedIn, lujos, aumento, subí de sueldo) | 7 | 4,788 | **0** | **0.00** | **29%** |
 | Resto de shorts | 10 | 4,295 | +2 | 0.47 | 52% |
 
@@ -1087,7 +1102,7 @@ wiki todavía.
 ### Videos largos: 4 videos, 2,137 vistas, +8 suscriptores netos
 
 | Video | Publicado | Impresiones | CTR | Vistas | Subs netos | Subs / 1,000 |
-|---|---|---:|---:|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
 | Cuánto cobrar por tu side project | 31-ago | 2,864 | 2.03% | 312 | +1 | 3.2 |
 | La carrera de la rata | 14-sep | 5,931 | 2.83% | 748 | +3 | 4.0 |
 | ¿Alcanza el plan de $20 de Claude? (026) | 28-sep | 4,983 | **1.75%** | 452 | +2 | 4.4 |
@@ -1135,7 +1150,7 @@ wiki todavía.
 ### CTR por fuente: el empaque del largo no era el problema
 
 | Video | Browse: impr. / CTR | Sugeridos: impr. / CTR | Búsqueda: impr. / CTR |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | La carrera de la rata | 2,031 / **4.19%** | 3,677 / 1.93% | 32 / 6.25% |
 | ¿Alcanza el plan de $20? (026) | 912 / **4.39%** | 3,870 / 1.01% | 107 / 4.67% |
 | Un junior… (027, 3 días) | 2,367 / 2.45% | 122 / 0.00% | 36 / 2.78% |
@@ -1161,7 +1176,7 @@ wiki todavía.
 ### Retención del arranque (primer dato de curva del canal)
 
 | Video | Arranque | A los 30 s | Al minuto 2 | Duración media vista |
-|---|---|---:|---:|---|
+| --- | --- | ---: | ---: | --- |
 | La rata (16:24) | con cold open | 60.4% | 37.1% | 3:48 (21.5%) |
 | $20 de Claude (13:10) | con intro de ~24 s | 59.3% | 44.1% | 3:52 (28.6%) |
 
@@ -1211,7 +1226,7 @@ wiki todavía.
 > (01 → 30-sep), pegado el 2026-10-23. Es el **primer dato de minutos vistos** del canal en el wiki.
 
 | Métrica (septiembre) | Valor |
-|---|---:|
+| --- | ---: |
 | Vistas totales | 6,507 |
 | — de Shorts | 3,681 (80 likes, 3 comentarios, 7 shares) |
 | — resto (por resta, largos) | ~2,826 |
@@ -1252,7 +1267,7 @@ Reporte que el usuario le pidió a su agente de WhatsApp y que pegó en el chat 
 29-oct. Comparado con 01 → 28-sep:
 
 | Métrica | Valor |
-|---|---|
+| --- | --- |
 | Suscriptores | 7,880 (+18 / −11 = **+7 netos**) |
 | Vistas | 11,326 (**−31%**) |
 | Subs por cada 1,000 vistas | **0.62** (referencia sana ~1.7) |
@@ -1276,6 +1291,7 @@ Reporte que el usuario le pidió a su agente de WhatsApp y que pegó en el chat 
 
 Fuente: `raw/blackicelabs/youtube-noviembresprint26-2026-11-02.md`. Es un anuncio de un sprint de 30 días que
 arrancó el 1-nov. No dice quién lo manda ni a cuál de los dos canales llegó. Tiene dos condiciones:
+
 1. **≥ 6 videos en noviembre** (~2 por semana). **Ya se cumple con lo planeado.** [[batch-noviembre-2026-shorts]]
    publica 12 shorts los lunes, miércoles y viernes del 2 al 27-nov. Además salen los 2 clips del 027 (4 y 18-nov).
 2. **Probar ≥ 2 funciones de monetización**: etiquetas de Shopping, Membresías, Financiamiento de Fans
@@ -1295,6 +1311,53 @@ monetización llega por otra puerta"*. El sprint propone justo lo contrario para
 se participa le toca al usuario; el wiki no lo decide.
 
 **Vida de este dato:** muy corta. Es un evento que termina el 30-nov.
+
+## Stats snapshot — ⚠️ SHORT-LIVED DATA (2026-11-19: API 20-oct → 16-nov + Ask Studio "últimos 28 días")
+
+Fuentes: `raw/blackicelabs/absadev-yt-report-2026-11-19.txt` (`yt_report.py`, ventana 20-oct → 16-nov
+contra 22-sep → 19-oct) y `raw/blackicelabs/youtube-ask-studio-28d-2026-11-19.md` (Ask Studio, pegado
+por el usuario). Las métricas por video se consultaron por ID hasta el 18-nov. Se les dan dos lecturas
+separadas porque no cuadran (ver abajo).
+
+| Métrica | API (20-oct → 16-nov) | Ask Studio (28d al ~17-nov) |
+| --- | --- | --- |
+| Vistas | 13,893 (+42%) | 13,680 (+19.4%) |
+| Subs | +16 / −16 = **0 netos** | **+11 netos** (vs. 8) |
+| Subs por 1,000 vistas | **0.00** | 0.80 |
+| Tiempo visto | 4,101 min (~68 h) | 66.7 h (−23.6%, debajo de su rango de 80–160) |
+| Duración media | 49 s (antes 84 s) | — |
+| Comentarios | 7 (antes 3) | — |
+| Videos publicados | 27 en la ventana; 31 públicos del 20-oct al 19-nov | 32 (antes 16) |
+| Fuentes | feed de Shorts 73%, Búsqueda 14%, Suscripciones 6%, **Sugeridos 0.0%**, Browse 1.6% | Shorts 73.3%; Búsqueda 13.9% de vistas pero **31.3% del tiempo visto** |
+| Quién ve | 88% no suscritos | — |
+
+**Los videos del periodo (hecho, API por video, hasta el 18-nov):**
+
+- **31 videos públicos, 11,509 vistas, 8 subs ganados, 6 comentarios.** 23 de los 27 de la ventana no ganaron un solo suscriptor.
+- **Los que dieron subs:** "¿Contratarías a un programador junior hoy?" **+4** (1,271 vistas). Con +1 cada uno: "Así se ve un día mío" (1,057), "¿$20 de IA al mes…?" (793), "Lo que nadie te dice sobre aceptar código de IA sin leerlo" (145) y "¿El lugar perfecto para trabajar a distancia en un café?" (229).
+- **Los que dieron vistas sin subs:**
+  - "Tenemos nuevo CEO de Nvidia": 1,287 vistas, 0 subs. Es noticia.
+  - "Cambiar el ramen en Shinjuku por un aguachile" (9 s): 1,184 vistas, 0 subs.
+  - "Un modelo más chico alucina menos": 909 vistas, 0 subs.
+  - Los 4 de #CruisingIntoTheHolidays (11 y 17-nov): 0 subs.
+- **El 11-nov salieron 5 videos el mismo día.**
+- **Largos:**
+  - "Patrones agénticos: lo que pasa debajo cuando Claude trabaja" (18 min, 26-oct): 238 vistas, 0 subs, se vio en promedio el **9.4%** del video.
+  - "Supabase vs Firebase para Flutter" (13 min, 16-nov): 85 vistas en 2 días, todavía no se puede juzgar.
+- **Programados:** 9 videos, del 21-nov al 7-dic.
+
+**Lo que dice esta ventana:**
+
+- **Hecho:** se publicaron ~31 videos en 28 días (~7.7 por semana), más del doble del techo de 3.5 por semana. El [[batch-noviembre-2026-shorts]] planeaba 12 shorts más 2 clips; el resto (noticias, viajes, hashtags de temporada, "MacBook", "teclado") no estaba en ningún plan del wiki.
+- **Inferencia:** con el doble de videos, las vistas subieron entre 19 y 42% y las horas vistas bajaron. Las vistas que trajeron los extras no se convirtieron en subs: es alcance prestado, igual que el Mundial en [[absa-garcia]]. Es la medición del "subir por subir" que el usuario admitió el 29-oct ([[estrategia-contenido-absadev]]).
+- **Hecho:** Sugeridos sigue en 0.0%, como desde julio. Los comentarios pasan de 3 a 7, pero en 31 videos eso sigue siendo casi nada, así que la fuga de Activation no se cierra.
+- **Inferencia (n=1):** el primer largo después de la séptima lectura ("Patrones agénticos") no repite el "el largo convierte 17 veces más" del 15-oct. Sin impresiones no se sabe si fue falta de distribución o de retención: solo se vio el 9.4%.
+- ⚠️ **Discrepancia sin resolver:** la API da **0 netos** (+16/−16) y Ask Studio **+11**, con ventanas casi iguales. No se elige entre las dos. Se suma a la discrepancia ×2.7 de septiembre entre el correo y la API.
+- ⚠️ **Cambio de medición (Ask Studio):** desde el **16-nov** una vista de Short se cuenta en cuanto empieza a reproducirse. Afecta la lectura del 4-dic (ver [[estrategia-contenido-absadev]], "Cómo se mide").
+- **Lo que Ask Studio recomienda:** más largos de Flutter/IA, y convertir comentarios en videos. **Ya estaba decidido:** el pool de comparaciones va a 2 por mes desde diciembre, y lo de los comentarios es la Serie 4. Un comentario del periodo (*"…ahora los tokens se deben gestionar mejor y pensar en arquitectura para tener eficiencia"*) ya es material para la Serie 4.
+- **No disponible:** impresiones y CTR (falta el export de Studio) y si los comentarios se contestaron.
+
+**Vida de este dato:** corta. Son 28 días de métricas, y además la definición de vista de Shorts cambió a mitad de la ventana.
 
 ## Related
 

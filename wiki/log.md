@@ -3254,3 +3254,8 @@ Se hicieron las portadas 1080×1920 con la paleta morada del ícono de Final Cut
 
 ## [2026-11-19] update | Títulos, descripciones y captions por red de los 7 clips del 029 — blackicelabs
 Se reemplazó la versión corta del 18-nov (Obsidian había convertido sus hashtags en encabezados) por los textos de YouTube Shorts (título, descripción y comentario fijado), TikTok e Instagram, en bloques de código. El título del episodio largo queda como propuesta hasta que el usuario lo confirme. Ver [[episodio-029-supabase-vs-firebase]].
+
+## [2026-11-19] ingest | YouTube: API 28d (20-oct → 16-nov) + Ask Studio "últimos 28 días" — blackicelabs
+Fuentes nuevas: `raw/blackicelabs/absadev-yt-report-2026-11-19.txt` y `raw/blackicelabs/youtube-ask-studio-28d-2026-11-19.md`. Snapshot nuevo en [[absadev]] con la tabla de los 31 videos: ~31 en 28 días; 0 netos por API contra +11 de Ask Studio (sin resolver); los extras dan vistas sin subs; Sugeridos sigue en 0.0%.
+En [[estrategia-contenido-absadev]], nota sobre el cambio en la definición de vista de Shorts del 16-nov, que afecta la lectura del 4-dic (propuesta pendiente del usuario).
+Herramienta: se corrigió `per_video` en `wa-agent/skills/youtube-analytics`. Ordenaba por subs y se quedaba con los primeros 50, así que cortaba al azar los videos con 0 subs (se perdía "Nvidia", con 1,287 vistas). Ahora consulta por ID todos los videos de la ventana, y la sección 1 del reporte los lista completos.

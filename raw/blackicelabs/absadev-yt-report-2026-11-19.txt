@@ -1,0 +1,98 @@
+*REPORTE — Absalon Garcia*
+Ventana: 2026-10-20 a 2026-11-16 (28 dias)
+Comparada contra: 2026-09-22 a 2026-10-19 (28 dias)
+Cierra 3 dias antes de hoy: las cifras mas recientes aun se revisan.
+
+*1. La racha — que se publico* (§5.1, la palanca #1)
+*27 videos publicados* en 28 dias.
+  · 2026-10-20 — Así se ve un día mío — 1.057 v, +1/-0 subs, 0 coment.
+  · 2026-10-20 — ¿$20 de IA al mes te alcanzan para programar? — 791 v, +1/-0 subs, 0 coment.
+  · 2026-10-22 — MacBook Pro touch en 2026? — 61 v, +0/-0 subs, 0 coment.
+  · 2026-10-22 — Cambiar el ramen en Shinjuku por un aguachile — 1.184 v, +0/-0 subs, 0 coment.
+  · 2026-10-22 — Vibecoding solo hace spaghetti — 365 v, +0/-0 subs, 0 coment.
+  · 2026-10-24 — Porque ya nadie usa el teclado? — 510 v, +0/-0 subs, 0 coment.
+  · 2026-10-26 — Patrones agénticos: lo que pasa debajo cuando — 238 v, +0/-0 subs, 0 coment.
+  · 2026-10-26 — Porque ChatGPT genera mierda — 335 v, +0/-0 subs, 0 coment.
+  · 2026-10-29 — Un modelo más chico alucina menos — 909 v, +0/-0 subs, 0 coment.
+  · 2026-10-30 — ¿Contratarías a un programador junior hoy? — 1.271 v, +4/-0 subs, 0 coment.
+  · 2026-10-31 — ¿Ya dependes de la IA para programar? — 239 v, +0/-0 subs, 0 coment.
+  · 2026-11-01 — ¿La IA ya le ganó a los programadores? Depend — 104 v, +0/-0 subs, 1 coment.
+  · 2026-11-01 — Ser freelancer en tiempos de claude es otro p — 292 v, +0/-0 subs, 0 coment.
+  · 2026-11-03 — ¿La IA ya escribe el 50% del código? Por qué  — 396 v, +0/-0 subs, 0 coment.
+  · 2026-11-04 — Cuánto gasto al mes en lA en vez de usar mode — 339 v, +0/-0 subs, 1 coment.
+  · 2026-11-05 — ¿La IA va a reemplazar a los programadores? E — 161 v, +0/-0 subs, 1 coment.
+  · 2026-11-07 — ¿La IA te hace pensar menos? Por qué regresé  — 146 v, +0/-0 subs, 0 coment.
+  · 2026-11-10 — Lo que nadie te dice sobre aceptar código de  — 145 v, +1/-0 subs, 0 coment.
+  · 2026-11-11 — Si Santa no me trae esto, no quiero nada #Cru — 196 v, +0/-0 subs, 1 coment.
+  · 2026-11-11 — Palabra del señor ChatGPT #cruisingintoholida — 342 v, +0/-0 subs, 0 coment.
+  · 2026-11-11 — La IA es una calculadora (y eso es un problem — 59 v, +0/-0 subs, 0 coment.
+  · 2026-11-11 — El nuevo botón para grabar pantalla en Mac (m — 156 v, +0/-0 subs, 1 coment.
+  · 2026-11-11 — @DevByMike nos cuenta como hace prompting par — 126 v, +0/-0 subs, 0 coment.
+  · 2026-11-12 — Tenemos nuevo CEO de Nvidia — 1.287 v, +0/-0 subs, 1 coment.
+  · 2026-11-13 — Lo que pasa cuando dejas a Claude Code en pil — 170 v, +0/-0 subs, 0 coment.
+  · 2026-11-16 — Programar con IA en piloto automático: así es — 142 v, +0/-0 subs, 0 coment.
+  · 2026-11-16 — Supabase vs Firebase para Flutter: por qué mi — 59 v, +0/-0 subs, 0 coment.
+  23 de 27 no ganaron ni un suscriptor.
+Programados (aun privados, no cuentan): 9, del 2026-11-21 al 2026-12-07.
+
+*2. Meta: 10.000 subs* (el marcador, no el premio — §3)
+Subs actuales: 7.900 — faltan 2.100
+En el periodo: +16 / -16 = *+0 neto*
+Neto <= 0: no hay ritmo que proyectar. El canal pierde a quien ya estaba.
+
+*SPV: 0.00 subs netos por cada 1.000 vistas*
+Referencias del propio canal (§6) — el mas cercano es *absa.garcia 28d a 2026-07-21*:
+  · Absadev 2026-07-16: 1.78
+  · Absadev 2026-07-28: 1.67
+  · absa.garcia 28d a 2026-07-21: 0.11  <-- aqui
+
+*3. El embudo AARRR* (§4 — el diagnostico ya hecho)
+Acquisition — vistas: 13.893 (+42% vs. periodo anterior)
+  ⚠️ La norma del canal es 14.900-24.000 vistas/28d. Esto sigue siendo el bache documentado, no la linea base (§6).
+*Activation — comentarios: 7* (+133% vs. periodo anterior)  ← la fuga diagnosticada, y lo unico que el se controla (§5.2)
+Retention — subs netos: +0  ← el muro (§4)
+Referral — shares: 12
+Likes: 131
+
+Minutos vistos: 4.101 · duracion media 0m 49s (28.4% del video)
+
+*4. De donde vienen las vistas*
+*Sugeridos: 0.0%* — si sube, el algoritmo te distribuye (§5.4)
+*Browse: 1.6%* (-21% vs. periodo anterior)
+Sugeridos + Browse combinado: 7.2% (-64% vs. periodo anterior)
+*Busqueda: 13.8%* — el unico trafico que se acumula (§5.5)
+  · Feed de Shorts: 10.185 (73%)
+  · Busqueda YouTube: 1.917 (14%)
+  · Feed / Suscripciones: 783 (6%)
+  · YT_OTHER_PAGE: 354 (3%)
+  · Pagina del canal: 221 (2%)
+  · Notificaciones: 134 (1%)
+
+*5. Nuevos vs recurrentes*
+  · No suscritos: 12.208 (88%)
+  · Suscritos: 1.683 (12%)
+
+*6. Videos comparados a la misma edad* (§7)
+Primeros 7 dias de cada uno, por SPV. Comparar vistas de por vida seria ordenar por fecha de publicacion disfrazado.
+  · Lo que nadie te dice sobre aceptar código de  — 117 vistas, 8.55 SPV, 0 coment.
+  · ¿Contratarías a un programador junior hoy? — 1.265 vistas, 3.16 SPV, 0 coment.
+  · Un junior no necesita aprender a programar si — 737 vistas, 2.71 SPV, 0 coment.
+  · ¿$20 de IA al mes te alcanzan para programar? — 789 vistas, 1.27 SPV, 0 coment.
+  · Así se ve un día mío — 1.055 vistas, 0.95 SPV, 0 coment.
+  · ¿La IA te hace pensar menos? Por qué regresé  — 146 vistas, 0.00 SPV, 0 coment.
+  · ¿La IA va a reemplazar a los programadores? E — 159 vistas, 0.00 SPV, 1 coment.
+  · Cuánto gasto al mes en lA en vez de usar mode — 334 vistas, 0.00 SPV, 1 coment.
+
+Aun no juzgables (13), ventana incompleta:
+  · ¿Quién revisa el código que escribe tu IA? — evaluable el 2026-11-28
+  · Plan and Execute: no dejes que la IA improvis — evaluable el 2026-11-26
+  · ¿El lugar perfecto para trabajar a distancia  — evaluable el 2026-11-26
+  · ¿Escuchas "MCP" en todos lados? Te lo explico — evaluable el 2026-11-26
+
+*6. Empaquetado — impresiones y CTR* (§5.8)
+No disponible.
+
+*NO DISPONIBLE* — huecos en el argumento, no valores neutros
+  · impresiones y CTR no los expone la API de Analytics. Leelos a mano en YouTube Studio -> Contenido -> [video] -> Alcance. Sin ellos la pregunta de empaquetado queda SIN RESPONDER, no resuelta.
+
+_Todo lo anterior es capa HECHO. El diagnostico, que serie alimentar (§9) y el write-back al second brain (§10) se escriben aparte. Antes de recomendar: contrastalo con lo que el ha dicho que quiere hacer (§7)._
