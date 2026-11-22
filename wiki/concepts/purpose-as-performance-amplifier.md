@@ -1,7 +1,7 @@
 ---
 title: Purpose as a Performance Amplifier (Self-Transcendent Purpose)
 type: concept
-domain: [books, reflections, blackicelabs, athletix]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-28
 updated: 2026-07-28
 sources:

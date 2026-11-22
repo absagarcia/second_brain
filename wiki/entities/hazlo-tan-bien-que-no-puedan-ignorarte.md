@@ -1,7 +1,7 @@
 ---
 title: Hazlo tan bien que no puedan ignorarte (So Good They Can't Ignore You)
 type: entity
-domain: [books, reflections, blackicelabs, athletix]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-23
 updated: 2026-07-23
 sources:

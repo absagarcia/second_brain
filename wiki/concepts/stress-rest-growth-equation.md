@@ -1,9 +1,9 @@
 ---
 title: "Esfuerzo + descanso = crecimiento (Stress + Rest = Growth)"
 type: concept
-domain: [books, reflections, athletix, blackicelabs]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-11-10
 sources:
   - path: "raw/books/maximo rendimiento.md"
     fact_date: 2017
@@ -105,6 +105,8 @@ as productive as an extra session.
   flagged there is exactly the dose failure this page describes.
 - **Content / [[absadev]]:** batch recording in 50–90 min blocks; schedule the
   down-week *after* a shipping batch rather than pushing straight into the next.
-- **[[athletix-ai]]:** load-vs-recovery as trainable, measurable variables — the
-  conceptual frame behind injury-prevention products (a lens, not a claim about
-  the product).
+
+> **2026-11-10:** [[the-science-of-running]] (mismo Magness, 2014) da la versión
+> técnica: *estímulo → adaptación, dada recuperación y nutrición adecuadas*, con tres
+> preguntas (¿qué adaptación?, ¿qué estímulo?, ¿cuánto basta?), y aplicada al medio
+> maratón del usuario en [[objetivos-carrera-2026-2027]].

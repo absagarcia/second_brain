@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Flutter MCP Carrusel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=block" rel="stylesheet">
+<style>
+:root{
+  --bg:#131316; --card:#1c1b21; --line:#2c2b34; --white:#f4f4f6; --grey:#b3b1c2; --dim:#8e8c9c;
+  --purple:#a08dfb; --orange:#f7a787; --pink:#ec5079;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;background:var(--bg);overflow:hidden}
+.slide{display:none;position:relative;width:1080px;height:1350px;background:var(--bg);color:var(--white);
+  font-family:Inter,sans-serif;padding:0 80px;overflow:hidden}
+.slide.on{display:block}
+.top{position:absolute;top:80px;left:80px;right:80px;display:flex;justify-content:space-between;
+  font-family:'JetBrains Mono',monospace;font-size:25px;letter-spacing:.14em}
+.brand{color:var(--purple)} .num{color:var(--grey);letter-spacing:.04em}
+.bottom{position:absolute;bottom:80px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:29px}
+.handle{font-weight:600;color:var(--white)} .swipe{color:var(--grey)}
+.body{position:absolute;left:80px;right:80px;top:210px}
+.kicker{font-family:'JetBrains Mono',monospace;color:var(--orange);font-size:27px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:40px}
+h1{font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:84px;line-height:1.08;letter-spacing:-.025em;margin-bottom:40px}
+h1 em{font-style:normal;color:var(--purple)}
+.lead{font-size:34px;line-height:1.5;color:var(--grey);margin-bottom:40px}
+.card{background:var(--card);border:2px solid var(--line);border-radius:28px;padding:34px 42px;margin-bottom:22px}
+.card.hl{border-color:var(--purple)}
+.card .t{font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:38px;color:var(--purple);margin-bottom:10px}
+.card .t span{font-family:Inter;font-weight:500;font-size:28px;color:var(--orange);margin-left:12px}
+.card p{font-size:28px;line-height:1.45;color:var(--grey)}
+.code{font-family:'JetBrains Mono',monospace;font-size:25px;line-height:1.7;color:var(--white)}
+.code b{color:var(--purple);font-weight:500}
+.steps{margin-top:34px}
+.step{display:flex;gap:44px;align-items:flex-start;margin-bottom:28px;font-size:33px;font-weight:500;line-height:1.35}
+.step .n{font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:52px;color:var(--pink);width:40px;line-height:1}
+.step code{font-family:'JetBrains Mono',monospace;color:var(--purple);font-size:28px}
+.note{font-size:26px;line-height:1.5;color:var(--dim);margin-top:10px}
+.note code{font-family:'JetBrains Mono',monospace;color:var(--purple)}
+.pill{display:flex;align-items:center;gap:30px;border:2px solid var(--purple);background:var(--card);border-radius:60px;padding:28px 44px;font-size:30px;font-weight:600;line-height:1.35}
+.pill.box{border-radius:28px;padding:38px 44px;font-size:33px}
+.pill em{font-style:normal;color:var(--purple);font-weight:500}
+.bm{flex:none;width:22px;height:30px;border:3.5px solid var(--purple);border-bottom:none;position:relative}
+.bm:after{content:"";position:absolute;left:-1px;bottom:-7px;width:13px;height:13px;border-left:3.5px solid var(--purple);border-top:3.5px solid var(--purple);transform:rotate(45deg) skew(8deg,8deg);transform-origin:0 0;display:none}
+.bm svg{display:block}
+.row{display:flex;gap:20px}
+.chip{flex:1;text-align:center;background:var(--card);border:2px solid var(--line);border-radius:28px;padding:34px 10px;
+  font-family:'Hanken Grotesk',sans-serif;font-weight:700;font-size:36px}
+.chip small{display:block;font-family:Inter;font-weight:500;font-size:24px;color:var(--orange);margin-top:8px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.grid .card{margin:0;padding:32px 36px}
+.grid .card .t{font-size:34px}
+.grid .card p{font-size:26px}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.vs .card{margin:0}
+.vs .lbl{font-family:'JetBrains Mono',monospace;font-size:23px;letter-spacing:.14em;margin-bottom:14px}
+.card p.quote,.quote{font-size:34px;line-height:1.45;color:var(--white);font-weight:500}
+.rings{position:absolute;right:-210px;bottom:-250px;width:680px;height:680px}
+</style>
+</head>
+<body>
+
+<!-- 01 Portada -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">01/09</span></div>
+  <svg class="rings" viewBox="0 0 680 680" fill="none" stroke-width="2.2">
+    <circle cx="340" cy="340" r="300" stroke="#5a6bd6" opacity=".75"/>
+    <circle cx="340" cy="340" r="225" stroke="#7d6fd9" opacity=".75"/>
+    <circle cx="340" cy="340" r="145" stroke="#c98a6e" opacity=".8"/>
+    <circle cx="340" cy="340" r="66" stroke="#c84a6b" opacity=".9"/>
+  </svg>
+  <div class="body" style="top:345px">
+    <div class="kicker">Para principiantes · Flutter</div>
+    <h1 style="font-size:104px;line-height:1.04">¿No sabes nada de apps? <em>No hace falta.</em></h1>
+    <p class="lead" style="font-size:38px">El MCP oficial de Dart y Flutter le enseña a tu agente de IA a construir apps por ti.</p>
+    <div class="pill"><svg width="22" height="30" viewBox="0 0 22 30" fill="none" stroke="#a08dfb" stroke-width="3.2" stroke-linejoin="round"><path d="M2 2h18v26l-9-7-9 7z"/></svg>
+      Guárdalo: en la slide 7 están los 2 comandos para instalarlo</div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 02 El problema -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">02/09</span></div>
+  <div class="body" style="top:270px">
+    <div class="kicker">01 · El problema</div>
+    <h1>Tu agente hace apps <em>a ciegas</em></h1>
+    <p class="lead">Escribe el código, pero no ve los errores, no corre la app y no sabe si funciona.</p>
+    <div class="card">
+      <div class="t" style="color:var(--orange);font-size:30px;font-family:'JetBrains Mono';font-weight:500;letter-spacing:.1em">EL CICLO DE SIEMPRE</div>
+      <div class="steps" style="margin-top:20px">
+        <div class="step"><span class="n">1</span><span>Le pides una pantalla</span></div>
+        <div class="step"><span class="n">2</span><span>Te da código y lo corres</span></div>
+        <div class="step"><span class="n">3</span><span>Truena. Le copias el error</span></div>
+        <div class="step" style="margin-bottom:0"><span class="n">4</span><span>Repite… hasta que te rindes</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 03 Qué es MCP -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">03/09</span></div>
+  <div class="body" style="top:300px">
+    <div class="kicker">02 · ¿Qué es MCP?</div>
+    <h1>Darle <em>herramientas</em> a tu agente</h1>
+    <p class="lead">MCP es la forma estándar de conectar tu IA con herramientas reales. Sin MCP solo lee y adivina. Con MCP, las usa.</p>
+    <div class="vs">
+      <div class="card"><div class="lbl" style="color:var(--dim)">SIN MCP</div><p>Te pasa código y cruza los dedos.</p></div>
+      <div class="card hl"><div class="lbl" style="color:var(--purple)">CON MCP</div><p style="color:var(--white)">Lo revisa, lo prueba y lo arregla.</p></div>
+    </div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 04 El kit -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">04/09</span></div>
+  <div class="body" style="top:320px">
+    <div class="kicker">03 · El kit</div>
+    <h1>Dart &amp; Flutter <em>MCP Server</em></h1>
+    <p class="lead">Lo hace el equipo oficial de Dart y Flutter. Conecta a tu agente directo con el SDK, la caja de herramientas con la que se hacen las apps.</p>
+    <div class="row">
+      <div class="chip">Oficial<small>equipo de Flutter</small></div>
+      <div class="chip">Gratis<small>$0</small></div>
+      <div class="chip">Open source<small>código abierto</small></div>
+    </div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 05 Qué te da -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">05/09</span></div>
+  <div class="body" style="top:380px">
+    <div class="kicker">04 · Qué gana tu agente</div>
+    <h1>Ahora tu agente <em>sí ve</em></h1>
+    <div class="grid">
+      <div class="card"><div class="t">Errores<span>· ojos</span></div><p>Ve los errores de tu código en tiempo real.</p></div>
+      <div class="card"><div class="t">Tu código<span>· mapa</span></div><p>Entiende dónde está cada pieza de tu app.</p></div>
+      <div class="card"><div class="t">Tests<span>· red</span></div><p>Corre las pruebas por ti.</p></div>
+      <div class="card"><div class="t">App viva<span>· lupa</span></div><p>Revisa la app mientras está corriendo.</p></div>
+    </div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 06 Compatible -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">06/09</span></div>
+  <div class="body" style="top:330px">
+    <div class="kicker">05 · Compatible</div>
+    <h1>Con tu agente <em>favorito</em></h1>
+    <p class="lead">Funciona con Claude Code, Cursor o cualquier agente que soporte MCP.</p>
+    <div class="card hl">
+      <div class="t">En Claude Code<span>· plugin oficial</span></div>
+      <p>Viene como plugin: trae el servidor y las skills oficiales de Flutter en un solo paquete.</p>
+    </div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 07 Instalación -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">07/09</span></div>
+  <div class="body" style="top:290px">
+    <div class="kicker">06 · Instalación</div>
+    <h1>Dos comandos y <em>listo</em></h1>
+    <div class="card hl" style="padding:36px 42px">
+      <div class="code"><b>$</b> claude plugin marketplace add flutter/agent-plugins<br><br><b>$</b> claude plugin install dart-flutter@dart-flutter</div>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><span>Instala Flutter (trae el comando <code>dart</code>)</span></div>
+      <div class="step"><span class="n">2</span><span>Corre los dos comandos en tu terminal</span></div>
+      <div class="step"><span class="n">3</span><span>Abre Claude Code y pídele tu app</span></div>
+    </div>
+    <p class="note">¿Otro agente? Agrega <code>dart mcp-server</code> como servidor MCP.</p>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 08 Pruébalo -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">08/09</span></div>
+  <div class="body" style="top:270px">
+    <div class="kicker">07 · Pruébalo</div>
+    <h1>Pídeselo <em>así</em></h1>
+    <div class="card hl" style="padding:40px 44px">
+      <p class="quote">“Hazme una app de lista de pendientes en Flutter, córrela y arregla cualquier error que salga.”</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><span>Tu agente programa</span></div>
+      <div class="step"><span class="n">2</span><span>Ve los errores él solo</span></div>
+      <div class="step"><span class="n">3</span><span>Los corrige sin que copies nada</span></div>
+    </div>
+    <p class="note" style="font-size:30px;color:var(--grey)">Tú solo le dices qué quieres.</p>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span><span class="swipe">Desliza →</span></div>
+</section>
+
+<!-- 09 Cierre -->
+<section class="slide">
+  <div class="top"><span class="brand">BLACK ICE LABS</span><span class="num">09/09</span></div>
+  <div class="body" style="top:330px">
+    <div class="kicker">08 · Tu turno</div>
+    <h1>¿Qué app <em>quieres construir?</em></h1>
+    <p class="lead">Para empezar ya no necesitas saber de apps. Necesitas una idea.</p>
+    <div class="card" style="margin-bottom:40px">
+      <p style="font-size:28px">Documentación oficial</p>
+      <p class="code" style="color:var(--purple);font-size:31px;margin-top:8px">docs.flutter.dev/ai/mcp-server</p>
+    </div>
+    <div class="pill box"><svg width="26" height="36" viewBox="0 0 22 30" fill="none" stroke="#a08dfb" stroke-width="3" stroke-linejoin="round"><path d="M2 2h18v26l-9-7-9 7z"/></svg>
+      <span>Guárdalo y comenta: <em>¿qué app harías primero?</em></span></div>
+  </div>
+  <div class="bottom"><span class="handle">@absa.ai</span></div>
+</section>
+
+<script>
+const n = parseInt(new URLSearchParams(location.search).get('s') || '1', 10);
+document.querySelectorAll('.slide')[n-1].classList.add('on');
+</script>
+</body>
+</html>

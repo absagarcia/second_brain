@@ -1,7 +1,7 @@
 ---
 title: How to Build a Billion Dollar App
 type: entity
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -54,7 +54,7 @@ Recurring themes across the highlighted passages:
 
 ## Relevance to this wiki
 
-Read in the context of building [[athletix-ai]]. The AARRR/viral-coefficient
+The AARRR/viral-coefficient
 framework is the most directly reusable piece — see [[aarrr-growth-metrics]]
 for that extracted separately, since it's a general concept, not specific to
 this book.

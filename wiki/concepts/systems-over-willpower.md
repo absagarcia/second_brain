@@ -125,8 +125,7 @@ was added 2026-07-23.
 A general-purpose lens for any future ingest touching habit formation,
 productivity, or personal finance — before treating "just have more
 willpower/discipline" as a real solution recommended by any single
-source, check this page first. Also relevant to [[eliecer-garcia-romo]]
-and [[humberto-garcia-romo]] alongside
+source, check this page first. Also relevant alongside
 [[founder-mental-health-startup-risk]]: several of the tensions recorded
 against [[habitos-para-ser-millonario]] in this wiki trace back to that
 book's reliance on repeated self-talk/goal-affirmation rather than

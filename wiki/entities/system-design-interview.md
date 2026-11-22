@@ -1,12 +1,10 @@
 ---
 title: System Design Interview (Vol. I)
 type: entity
-domain: [books, swe, athletix]
+domain: [books, swe]
 created: 2026-07-15
 updated: 2026-07-23
 # 2026-07-23: masters dropped (general SWE, not AI coursework); added `swe`.
-# athletix kept — the scalability building blocks map to a real infra tie, not
-# just a lens.
 sources:
   - path: "raw/books/System Design Interview I.md"
     fact_date: 2020
@@ -32,8 +30,8 @@ detailed in what's highlighted).
 
 - **Scalability building blocks** — cache, CDN fallback, stateless web
   tier, message queues, database sharding — extracted as its own concept,
-  see [[system-design-scalability-building-blocks]], since it's directly
-  relevant to how [[athletix-ai]]'s own infrastructure is described.
+  see [[system-design-scalability-building-blocks]], since it's the
+  most reusable part of the book.
 - **System design interview method** (Ch. 3): the book frames asking good
   clarifying questions as itself an evaluated skill, not just a means to
   an end. Suggested questions before designing anything: what specific
@@ -51,9 +49,7 @@ detailed in what's highlighted).
 ## Relevance to this wiki
 
 The scalability building blocks are the most directly transferable piece
-to [[athletix-ai]]'s own described infrastructure (AWS cloud, multi-tenant
-architecture, time-series storage, ML pipeline for real-time predictive
-analysis) — see the cross-reference added to that page. The interview-
+(see [[system-design-scalability-building-blocks]]). The interview-
 framework content is more career-prep oriented and doesn't currently tie
 to any domain in this wiki beyond `books`.
 

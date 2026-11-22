@@ -163,9 +163,7 @@ títulos por episodio, series numeradas) que hoy vive en notas.
 ### 4. App de running / entrenamiento personal — *descartada, con evidencia*
 
 El terreno que mejor conoce ([[bloque-entrenamiento-running-2026]]), y aun así:
-B2C de consumo contra Strava y contra lo gratis, y **el propio expediente
-registra que [[athletix-ai]] —SaaS de rendimiento deportivo— ya no existe.** No
-prueba que sea imposible; sí obliga a explicar qué sería distinto esta vez.
+B2C de consumo contra Strava y contra lo gratis.
 
 ### 5. Algo alrededor del café (objetivo 17) — *no es este objetivo*
 
@@ -217,6 +215,5 @@ que sí cabe ahora son las tres conversaciones de abajo, que no cuestan código.
 - [[sistema-mp-app]] — el desarrollo real que llegó el 07-sep, y en qué difiere de esta hipótesis
 - [[boda-2026]] — la ventana de distribución que expira el 28-nov
 - [[absadev]] / [[absa-garcia]] — la distribución que tiene y para quién sirve
-- [[athletix-ai]] — la evidencia sobre el mercado descartado
 - [[the-saas-playbook]] — el marco de precios y de B2B bootstrapped
 - [[app-notch-macos]] — **2026-10-11:** idea nueva de app (isla en el notch de la Mac); no cumple *recurrente > pago único* ni es 100% negocio — se registra como herramienta/aprendizaje, no como candidata de esta página

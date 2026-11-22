@@ -1,7 +1,7 @@
 ---
 title: Unicorn (Startup Valuation Status)
 type: concept
-domain: [books, athletix, finance]
+domain: [books, finance]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -63,10 +63,8 @@ i.e. premature scale before the business fundamentals are ready.
 
 ## Relevance to this wiki
 
-Useful vocabulary/frame when discussing [[athletix-ai]]'s growth
-trajectory, but nothing in the ATHLETIX AI pitch-deck ingest frames the
-company in "unicorn" terms — this is background context, not something
-the company has claimed or targeted.
+Background vocabulary for startup-ecosystem reading (see
+[[creando-unicornios]]), not a target for any project in this wiki.
 
 [[de-cero-a-uno]] pushes this critique further: Peter Thiel's
 [[monopoly-vs-competition-zero-to-one]] argues the real marker of success

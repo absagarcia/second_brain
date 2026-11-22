@@ -1,7 +1,7 @@
 ---
 title: Effortless Action Principles
 type: concept
-domain: [books, reflections, athletix]
+domain: [books, reflections]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -50,6 +50,3 @@ heuristics, not tied to any market/data point.
   [[code-method-second-brain]]'s "Express" step (finishing/shipping small
   units rather than starting things that never conclude), another
   independent convergence.
-- No direct evidence [[athletix-ai]] applies these — tagged `athletix`
-  only as a relevant lens, consistent with how [[esencialismo]] is
-  tagged.

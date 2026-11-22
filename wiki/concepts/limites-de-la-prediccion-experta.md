@@ -1,7 +1,7 @@
 ---
 title: Los límites de la predicción experta
 type: concept
-domain: [books, reflections, swe, finance, athletix]
+domain: [books, reflections, swe, finance]
 created: 2026-08-19
 updated: 2026-08-19
 sources:
@@ -100,12 +100,12 @@ known gap rather than guessed at.
   cleanest available statement of why software estimates slip, and it pairs with
   [[first-principles-and-the-algorithm]]'s "delete before you optimize": the
   most reliable way to hit a date is to remove scope, not to re-estimate.
-  Relevant to [[fitexe]] and [[athletix-ai]] roadmaps.
+  Relevant to the [[fitexe]] roadmap.
 - **Content projections.** [[estrategia-contenido-absadev]] extrapolates from
   28-day windows; [[youtube-shorts-distribucion]] is platform doctrine from an
   interested party. Both are exactly the kind of forecast that needs a stated
   error band.
-- **Sports prediction ([[athletix-ai]]).** Any injury-risk or outcome model
+- **Sports prediction.** Any injury-risk or outcome model
   should carry Tetlock's warning in its confidence claims — the honest ceiling
   of the domain, not the model's training accuracy.
 - **Finance.** [[dinero-domina-el-juego]] and [[principios-nuevo-orden-mundial]]

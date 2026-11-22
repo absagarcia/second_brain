@@ -59,10 +59,6 @@ intent, not shipped behavior**. Marked per item below.
 
 ## Ownership & first revenue — confirmed by the user 2026-07-29
 
-- **Not related to [[athletix-ai]] at all.** Asked directly; his answer: *"NADA
-  QUE VER."* The question below is **closed** — the two products share a market
-  and nothing else. Kept as written because the code-level evidence that led to
-  the question is still the right way to have reached it.
 - **Partnership.** [[carlos-emilio-blanco]] ("Emilio") is his **socio** in
   FitExe — not a contributor or contractor. That makes business decisions and
   publishing decisions **jointly owned**.
@@ -101,23 +97,6 @@ customer, as of 2026-07-29.
    See also [[monopoly-vs-competition-zero-to-one]] on differentiation as the
    thing that earns pricing power.
 
-## (Closed 2026-07-29) Open question — is this related to [[athletix-ai]]?
-
-**Answered: no relation.** Preserved for the reasoning, not the conclusion.
-Both are LatAm sports/fitness products by the same person, and both plan wearable
-integration — but **the FitExe repo never mentions ATHLETIX or [[hyper-bots]]**,
-and the business models differ:
-
-| | [[athletix-ai]] | FitExe |
-|---|---|---|
-| Sells to | Academies, clubs, federations (B2B SaaS) | Athletes subscribing to *their coach's* plans |
-| Money flow | Org pays per athlete managed | Athlete → coach membership, per-coach plans |
-| Core promise | Injury prevention via predictive AI | Training delivery + tracking + coach relationship |
-
-So: **adjacent market, different product and different buyer.** Tagged `fitexe`
-rather than folded into `athletix`. ✅ Both confirmed by the user 2026-07-29 —
-unrelated products, and the second contributor is his **partner**, not a client.
-
 ## Product model (from `documentation/subscriptions-business-rules.md` — *borrador*)
 
 The commercial spine, in the repo's own words:
@@ -155,9 +134,6 @@ Roadmap items that are **documented but not shipped** (labeled as such in-repo):
   Apple Watch rated highest ROI (WatchConnectivity + HKWorkoutBuilder, 2–4
   weeks); Garmin history via a **Strava bridge + Supabase Edge Functions**
   (1–2 days) rather than direct integration; Samsung via Health Services API.
-  Note this **converges with [[athletix-ai]]'s stated Apple Watch/Garmin
-  roadmap** — same integration problem approached twice, worth comparing rather
-  than solving twice.
 - **Workout calendar widget**, email-server research, membership-expiration
   notifications (has a plan + discovery-findings doc).
 
@@ -349,8 +325,6 @@ la primera pregunta que vale la pena hacerse.
 - [[objetivos-vida-2026-2027]] — de dónde sale la meta de 13,000 MXN/mes.
 - [[finanzas-personales-2026-2027]] — el cuadro de dinero donde encaja.
 - [[typescript-5-design-patterns]] — where those patterns were read about.
-- [[athletix-ai]] — adjacent product, explicitly *not* assumed to be related.
-- [[eliecer-garcia-romo]] — the developer.
 - [[absadev]] / [[estrategia-contenido-absadev]] — the content use.
 - [[system-design-scalability-building-blocks]] — a lens if the backend grows;
   nothing here yet claims scale.

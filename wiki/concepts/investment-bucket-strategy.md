@@ -44,10 +44,8 @@ buckets without relying on ongoing willpower.
 
 ## Relevance to this wiki
 
-Complements [[sports-tech-market]] and any future `finance`-domain pages
-as a general personal-finance allocation heuristic. No direct tie to
-[[athletix-ai]] — this is personal investing, not startup/business
-finance.
+A general personal-finance allocation heuristic — personal investing, not
+startup/business finance.
 
 Finance cluster (expanded 2026-07-23): the Security bucket's "invincible,
 unsinkable" framing is Ray Dalio's All-Weather idea — [[principios-nuevo-orden-mundial]]

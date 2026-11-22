@@ -1,7 +1,7 @@
 ---
 title: Elon Musk (biografía de Isaacson)
 type: entity
-domain: [books, athletix, reflections]
+domain: [books, reflections]
 created: 2026-07-23
 updated: 2026-07-23
 sources:
@@ -67,8 +67,6 @@ the reason it earns its own concept page: [[first-principles-and-the-algorithm]]
 ## Cross-references
 
 - Concept: [[first-principles-and-the-algorithm]].
-- [[athletix-ai]] — the algorithm + "question the requirement" as a product/
-  engineering lens (not a claim about how the team works).
 - Tension with [[founder-mental-health-startup-risk]]: the book also shows the
   personal cost ("mi nivel de angustia está en la siguiente dimensión") — a data
   point on the founder-intensity vs. sustainability thread, not a resolution.

@@ -1,7 +1,7 @@
 ---
 title: AARRR Growth Metrics (Pirate Metrics) and Viral Coefficient
 type: concept
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -50,13 +50,9 @@ acquisition, marketing).
 
 ## Relevance to this wiki
 
-Directly applicable to how [[athletix-ai]] should think about its own
-growth loop once it has users (academies/clubs), since B2B SaaS
-onboarding maps naturally onto Acquisition → Activation → Retention, and
-referral-driven expansion between academies/federations maps onto the
-viral coefficient. No claim here that ATHLETIX AI has adopted this
-framework — it's not mentioned in the pitch-deck ingest — just flagging
-it as a relevant lens.
+A general lens for any product's growth loop: B2B SaaS onboarding maps
+naturally onto Acquisition → Activation → Retention, and referral-driven
+expansion between customers maps onto the viral coefficient.
 
 ## SaaS-specific metrics addendum (2026-07-15)
 
@@ -65,4 +61,4 @@ that are more B2B-SaaS-specific: CAC (cost to acquire a customer), ACV
 recommended over LTV as the key tracked metric, and expansion revenue
 (existing customers paying more as they get more value) — relevant
 alongside Acquisition/Retention/Revenue above for a subscription-priced
-platform like [[athletix-ai]].
+platform like [[fitexe]].

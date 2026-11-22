@@ -90,5 +90,4 @@ third, independent book.
 No resolution attempted here — these are self-help/personal-finance books
 without a shared evidence base, and the point of recording this
 comparison is to keep both framings visible rather than silently adopting
-one. Worth revisiting if [[athletix-ai]]'s own year-by-year growth targets
-ever get evaluated against either framing.
+one.

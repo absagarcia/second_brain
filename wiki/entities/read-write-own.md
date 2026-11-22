@@ -83,6 +83,4 @@ AI, papers, class notes" — unlike [[vida-3-0]] and
 economics with no tie to the user's actual coursework. Retagged `books,
 reflections` — general tech/economics reading that crosses projects,
 which matches the `reflections` domain's own definition more closely than
-`masters` does. No direct tie found to `athletix` in this excerpt —
-ATHLETIX AI's own infrastructure is described as conventional AWS cloud,
-not blockchain-based.
+`masters` does.

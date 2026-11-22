@@ -154,5 +154,5 @@ specific on these two points than this book is.
 
 Thin connections to the rest of the wiki — mostly stands on its own as a
 `books` page. Tagged `reflections` only because of the direct tension with
-the founder-mental-health theme; no tie to `athletix`, `masters`, or
+the founder-mental-health theme; no tie to `masters` or
 `finance` beyond the generic frugality-rule mention.

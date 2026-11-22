@@ -50,8 +50,7 @@ sources:
 # Absa Garcia (absa.garcia)
 
 The user's **personal / lifestyle** creator brand — the non-tech
-counterpart to [[absadev]]. Same person behind both
-([[eliecer-garcia-romo]]).
+counterpart to [[absadev]]. Same person behind both.
 
 - Instagram: https://www.instagram.com/absa.garcia/
 - YouTube: https://www.youtube.com/@absagarcia
@@ -549,7 +548,6 @@ de sumar esa tercera reclamación.
 - [[absadev]] — the tech/dev sibling brand
 - [[estrategia-contenido-absadev]] — the active strategy (Series 8
   boundary interacts with this page)
-- [[eliecer-garcia-romo]] — the person behind both brands
 - [[bloque-entrenamiento-running-2026]] — los datos que sostienen el arco
 - [[medio-maraton-atlas-2026]] — el capítulo del 6-sep (ya no el desenlace)
 - [[objetivos-carrera-2026-2027]] — la escalera de metas con fechas hasta feb-2027

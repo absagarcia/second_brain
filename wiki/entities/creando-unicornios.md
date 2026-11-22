@@ -1,7 +1,7 @@
 ---
 title: Creando Unicornios
 type: entity
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -82,7 +82,6 @@ success story: **Casai**, a proptech startup that no longer exists — see
 
 ## Relevance to this wiki
 
-Read alongside [[athletix-ai]]'s own journey as a Mexico-based startup
-(Zapopan). The founder-mental-health thread and the "valuation isn't the
+The founder-mental-health thread and the "valuation isn't the
 goal" conclusion are the most transferable lessons; the unicorn-specific
 stats are more about ecosystem context than direct operational advice.

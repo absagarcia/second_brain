@@ -1,9 +1,9 @@
 ---
 title: Máximo rendimiento (Peak Performance)
 type: entity
-domain: [books, reflections, athletix, blackicelabs]
+domain: [books, reflections, blackicelabs]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-11-10
 sources:
   - path: "raw/books/maximo rendimiento.md"
     fact_date: 2017          # Peak Performance, Stulberg & Magness; authorship IS stated in the raw file
@@ -112,9 +112,6 @@ something to attach to.
   of intensity; and *dar es un antídoto contra el agotamiento* — teaching
   publicly as burnout prevention is a direct argument for the content work
   itself, not just an audience play. See [[estrategia-contenido-absadev]].
-- **[[athletix-ai]]:** the most on-domain book in the wiki alongside
-  [[haz-cosas-dificiles]] — load management, overtraining, recovery as trainable
-  variables. A **lens on the problem space**, not a product claim.
 
 ## Cross-references
 
@@ -126,3 +123,7 @@ something to attach to.
 - [[attention-economy-and-pleasure-pain]] / [[generacion-dopamina]]
 - [[la-guerra-del-arte]] — cited inside this book (the walking passage).
 - [[de-que-hablo-cuando-hablo-de-correr]] — the lived version of the same rhythm.
+
+> **2026-11-10:** ingerido [[the-science-of-running]] (2014), el libro técnico del mismo
+> Magness. Las coincidencias con este libro son del mismo autor, no convergencia
+> independiente.

@@ -1,7 +1,7 @@
 ---
 title: Piensa como Amazon (Think Like Amazon)
 type: entity
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -51,8 +51,5 @@ highlighted.
 
 ## Relevance to this wiki
 
-Tagged `athletix` as general leadership/culture reading relevant to
-[[athletix-ai]]'s own team structure, though nothing here is asserted as
-something the team has adopted. The "small team, high-ownership" idea and
-"leaders as designers" both echo (independently) the kind of
-founder-led, hands-on team structure ATHLETIX AI's pitch deck describes.
+General leadership/culture reading. The "small team, high-ownership" idea
+and "leaders as designers" are the most transferable pieces.

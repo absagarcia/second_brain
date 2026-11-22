@@ -1,7 +1,7 @@
 ---
 title: The SaaS Playbook
 type: entity
-domain: [books, athletix]
+domain: [books]
 created: 2026-07-15
 updated: 2026-07-15
 sources:
@@ -23,8 +23,8 @@ double-compression caveat as the other book pages in this wiki. Dense,
 broad coverage: Market, Pricing, Marketing, Team, Metrics, and Mindset
 sections.
 
-**Notably the most directly applicable book so far to [[athletix-ai]]'s
-actual situation** — a B2B SaaS platform in early stages — more than the
+**Notably the most directly applicable book so far to an early-stage B2B
+SaaS** — more than the
 general startup books already in this wiki
 ([[how-to-build-a-billion-dollar-app]], [[creando-unicornios]],
 [[de-cero-a-uno]]), since this one is specifically about bootstrapped
@@ -105,9 +105,7 @@ Bootstrappers don't run out of money; they run out of motivation."
 
 ## Relevance to this wiki
 
-The most operationally relevant book yet for [[athletix-ai]]: the
-bootstrapped-SaaS moat framing (integrations), the PMF interview
+The most operationally relevant book yet for a small SaaS like [[fitexe]]:
+the bootstrapped-SaaS moat framing (integrations), the PMF interview
 questions, and the CAC/ACV/expansion-revenue metrics are all directly
-applicable lenses for a B2B SaaS platform at ATHLETIX AI's stage — not
-asserted as adopted practice, just the most relevant match found so far
-among this wiki's book ingests.
+applicable lenses — not asserted as adopted practice.

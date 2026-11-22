@@ -41,6 +41,4 @@ a verified post-mortem — no independent source is cross-checked here.
 
 Cited in [[creando-unicornios]] alongside
 [[founder-mental-health-startup-risk]] as one of the concrete examples
-behind that theme. No connection to [[athletix-ai]] beyond being a
-general cautionary lesson from the same book — not implying any parallel
-beyond that.
+behind that theme.

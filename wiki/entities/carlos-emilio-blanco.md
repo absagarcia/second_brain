@@ -24,7 +24,7 @@ a client.
 - **Revenue split: 50/50.** The one paying gym pays MX$600/month; each partner
   takes MX$300.
 - **Contributes code.** 19 commits in the `app_fitexe` history against
-  [[eliecer-garcia-romo]]'s ~96 (GitHub handle `emilioblanco01`), over the
+  the user's ~96 (GitHub handle `emilioblanco01`), over the
   2025-07 → 2026-07 span.
 
 ## Why this page exists
@@ -46,4 +46,3 @@ coach portal specifically.
 ## Related
 
 - [[fitexe]] — the shared product.
-- [[eliecer-garcia-romo]] — the other partner.

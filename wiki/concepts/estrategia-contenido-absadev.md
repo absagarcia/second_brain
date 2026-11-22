@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-10-29
+updated: 2026-11-19
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -681,7 +681,7 @@ agentes trabajen en tu repo**, which rides the *Camino a AI Engineer* positionin
 with something he actually does.
 
 **Resolved 2026-07-29 — and it got better.** FitExe is a **partnership** with
-[[carlos-emilio-blanco]], unrelated to [[athletix-ai]], and **a gym already pays
+[[carlos-emilio-blanco]], and **a gym already pays
 for it** (MX$600/month, split 300/300). That adds the strongest angle of all:
 
 > **"Tenemos un gimnasio pagándonos por nuestra app."**
@@ -1191,7 +1191,6 @@ reviewed with the user before picking the next 3. Baseline stats live on
 ## Related
 
 - [[absadev]] — the brand/channel + current stats baseline
-- [[eliecer-garcia-romo]] — the creator
 
 
 ## Batch #7 — 14 → 30 sep, día sí día no, y el primer test deliberado de "nivel de entrada" (2026-08-19)
@@ -2374,6 +2373,11 @@ entienden sin el episodio y no repiten historias de la serie.
   - ⚠️ **Los subs por short van a ser 0 o 1**, así que ese número es ruidoso. La señal más estable es
     el % eligió verlo, y es la que pesa si las dos no coinciden.
   - **Fecha de lectura: 4-dic**, no 2-dic, para que el último short (27-nov) complete sus 7 días.
+  - ⚠️ **[2026-11-19] Cambio de medición a mitad del batch** (Ask Studio, `raw/blackicelabs/youtube-ask-studio-28d-2026-11-19.md`).
+    Desde el **16-nov** una vista de Short cuenta en cuanto empieza a reproducirse. Por eso los shorts del 2 al 13-nov
+    y los del 16 al 27-nov no se cuentan igual en vistas ni en subs por cada 1,000. **Propuesta (pendiente del usuario):**
+    que decida el % eligió verlo, que ya era la señal que pesaba más, y comparar las ramas solo dentro de la misma semana.
+    Otro factor que no se controla: en la ventana salieron ~31 videos, no los 12 del plan (ver el snapshot del 19-nov en [[absadev]]).
   - `yt_report.py` del canal se sigue corriendo como contexto, pero ya no decide nada.
   - ⚠️ **Mismo día, más tarde:** la serie FitExe se reemplazó por el [[batch-noviembre-2026-shorts]]. El método
     no cambia, pero se aplica a **tres ramas de 4** (H, I, U), y se agrega la comparación de U1 contra el clip de
