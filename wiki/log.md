@@ -3259,3 +3259,8 @@ Se reemplazó la versión corta del 18-nov (Obsidian había convertido sus hasht
 Fuentes nuevas: `raw/blackicelabs/absadev-yt-report-2026-11-19.txt` y `raw/blackicelabs/youtube-ask-studio-28d-2026-11-19.md`. Snapshot nuevo en [[absadev]] con la tabla de los 31 videos: ~31 en 28 días; 0 netos por API contra +11 de Ask Studio (sin resolver); los extras dan vistas sin subs; Sugeridos sigue en 0.0%.
 En [[estrategia-contenido-absadev]], nota sobre el cambio en la definición de vista de Shorts del 16-nov, que afecta la lectura del 4-dic (propuesta pendiente del usuario).
 Herramienta: se corrigió `per_video` en `wa-agent/skills/youtube-analytics`. Ordenaba por subs y se quedaba con los primeros 50, así que cortaba al azar los videos con 0 subs (se perdía "Nvidia", con 1,287 vistas). Ahora consulta por ID todos los videos de la ventana, y la sección 1 del reporte los lista completos.
+
+## [2026-11-22] ingest | Hackatón México 2026 — segunda captura del sitio (delta) — swe
+Fuente nueva: `raw/swe/hackaton-mexico-2026-sitio-delta-2026-11-22.md`, con portada completa (incluye #por-que-ahora), /ideas, /blog y la estructura de /reglas. Lo nuevo: el pitch "pagos sin comisión", el jurado (Pey, AI Builders, Mau Barón), los mentores, Utopía como organizador, 20 ideas sugeridas y los ganadores de los encuentros del 7 y el 14-nov. El Documento de Premios y los bounties siguen sin publicarse.
+Corrección de fuente: las reglas tienen 18 secciones. La captura del 14-nov se saltó "Definiciones" y recorrió los números; el texto no cambió y sigue fechado al 4-nov.
+Actualizadas: [[hackaton-mexico-2026]] (secciones nuevas y preguntas abiertas 6–7) y [[ponche-artesanal-papa]] (Abarpay ya ganó con un POS CoDi; la diferencia estaría en el sabor y el cuadre).

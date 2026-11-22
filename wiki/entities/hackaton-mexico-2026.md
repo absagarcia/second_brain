@@ -3,8 +3,12 @@ title: Hackatón México 2026 (CoDi + API de pey)
 type: entity
 domain: [swe, blackicelabs, reflections]
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-22
 sources:
+  - path: raw/swe/hackaton-mexico-2026-sitio-delta-2026-11-22.md
+    fact_date: 2026-11-22      # captura del sitio; las reglas siguen fechadas al 4-nov
+    ingest_date: 2026-11-22
+    confidence: medium         # sitio oficial, pero parafraseado por subagente; §13–18 de las reglas vienen de un resumen del modelo
   - path: raw/swe/hackaton-mexico-2026-sitio-y-reglas-2026-11-14.md
     fact_date: 2026-11-04      # última actualización de las reglas según la página
     ingest_date: 2026-11-14
@@ -36,15 +40,28 @@ del equipo, la idea ni quién será Representante. Están en las preguntas abier
 
 Son cuatro semanas para construir una experiencia de pago digital con **CoDi**
 (cobro digital de Banco de México) a través del **API de pey**. Organizan pey,
-AI Builders México y SpaceXAI; SEDECO CDMX es aliado institucional. Es gratis y
+AI Builders México y SpaceXAI; SEDECO CDMX es aliado institucional. (Al 22-nov
+la portada también pone a **Utopía**, de obras CDMX, entre los organizadores.) Es gratis y
 abierto a personas físicas de todo México. Los equipos son de 1 a 5 personas.
 El registro y el portal están en `pey.build`. Habrá kickoff presencial en siete
 ciudades, entre ellas **Guadalajara**, pero ir no da ventaja.
 
+## Por qué ahora (el argumento del sitio, captura del 22-nov)
+
+El pitch del sitio es **"Los pagos sin comisión llegan a todo México"**: CoDi
+cobra y paga al instante entre cuentas, sin comisión por transacción, y las
+nuevas reglas nacionales entran en vigor el **14-dic**. Ese día es también el de
+resultados, así que el hackatón está pensado para tener herramientas listas
+cuando los bancos tengan que cumplir con la Circular 9/2026 (ver
+[[pagos-digitales-mexico-2026]]). Las etiquetas del sitio son "0% de comisión",
+"pagos instantáneos entre cuentas" y "nuevas reglas: 14 de diciembre". El
+"0% de comisión" es la tesis del sitio. El wiki no ha verificado si pey cobra
+algo por su API después del hackatón; durante el hackatón es gratis.
+
 ## Calendario (hora de CDMX)
 
 | Fecha | Hito | Días desde hoy |
-|---|---|---|
+| --- | --- | --- |
 | 14-nov | Arranque e inicio de construcción | 0 |
 | 28-nov | **Boda** ([[boda-2026]]) | 14 |
 | 30-nov | Límite para publicar bounties | 16 |
@@ -74,7 +91,7 @@ ciudades, entre ellas **Guadalajara**, pero ir no da ventaja.
 ## Cómo se evalúa
 
 | Criterio | Peso |
-|---|---|
+| --- | --- |
 | Uso de CoDi y del API de pey | **30%** (y es el primer desempate) |
 | Impacto y relevancia | 25% (segundo desempate) |
 | Ejecución técnica | 15% |
@@ -82,6 +99,7 @@ ciudades, entre ellas **Guadalajara**, pero ir no da ventaja.
 | Originalidad | 15% |
 
 **Entrega obligatoria:**
+
 - Descripción de hasta 500 palabras.
 - Demo pública sin invitación.
 - **Video de hasta 3 minutos con un cobro completo.**
@@ -93,6 +111,16 @@ Si falta una pieza, o si la demo o el video no funcionan al cierre, la entrega
 cuenta como no entregada. Los organizadores **recomiendan entregar temprano y
 actualizar** después.
 
+## Jurado y mentores (captura del 22-nov)
+
+- **Jurado en la portada:** Pey, AI Builders México y **Mau Barón**. Las reglas
+  (§11) piden al menos dos jurados por proyecto y que la lista completa se
+  publique antes del cierre de entregas, así que puede crecer.
+- **Mentores:** Scale AI, ADTD, OpenBank y Primero AI.
+- El jurado está dominado por el propio pey. Eso es coherente con que "uso de
+  CoDi y del API" pese 30% y sea el primer desempate (lectura de Claude,
+  confianza baja).
+
 ## Premios
 
 Hay más de **$1M MXN en valor**, entre efectivo, créditos de IA y créditos de
@@ -102,6 +130,9 @@ monto fijo a cambio de **ceder los derechos del entregable**, así que conviene
 construir esa parte como componente separable. Fuera de los bounties, el equipo
 conserva la propiedad intelectual. El reparto interno de premios se recomienda
 **pactarlo por escrito desde el inicio**.
+
+> **Al 22-nov:** el Documento de Premios **sigue sin publicarse** y **no hay
+> ningún bounty publicado**. Faltan 8 días para el límite del 30-nov.
 
 ## Giros
 
@@ -136,6 +167,45 @@ conserva la propiedad intelectual. El reparto interno de premios se recomienda
 
   Material posible para [[estrategia-contenido-absadev]]. No hay nada decidido.
 
+## Ideas sugeridas y ganadores previos (captura del 22-nov)
+
+El sitio publica **20 ideas en 4 caminos** en `/ideas`. Son sugerencias, no
+retos oficiales; no hay retos obligatorios. La consigna es demostrar un flujo
+completo: un cobro, una acción y un resultado visible.
+
+- **Negocios que cobran y entregan:** Del QR a la solicitud de pago, Pedidos por
+  WhatsApp, Cotización que arranca el trabajo, Anticipo que confirma una cita,
+  Cobro al entregar.
+- **Servicios que se activan solos:** Imprime al pagar, Cabina de retratos,
+  Tiempo de uso, Casillero de recogida, Acceso por sesión.
+- **Experiencias para una demo en vivo:** La historia que paga el público, Mural
+  colectivo, Música que responde al dinero, Un robot por turno, Fábrica de
+  encargos con IA.
+- **Coordinación y control:** Cuenta entre varias personas, Regalo colectivo,
+  Taller con lugares pagados, Facturas que se concilian solas, Comidas
+  patrocinadas.
+
+Los consejos técnicos son confirmar el pago **en el servidor** sin cobrar dos
+veces y probar las notificaciones del banco antes de la demo. Es el mismo
+patrón de idempotencia y webhook que ya tiene [[fitexe]].
+
+**Este hackatón es la serie de 8 encuentros.** Los arranques del 14-nov en 7
+ciudades fueron el "Cursor Hackatón México", y antes hubo un OpenAI DevDay
+Exchange (7-nov). Entre los dos suman 1,000 asistentes y 200 proyectos.
+Ganadores en CDMX:
+
+| Evento | 1.º | 2.º | 3.º |
+| --- | --- | --- | --- |
+| OpenAI DevDay Exchange (7-nov) | Varísimo: cobro CoDi por WhatsApp | Barrio: pedidos de barrio | Transfiereme: cobro CoDi para vendedores |
+| Cursor Hackatón México (14-nov) | **Abarpay: punto de venta CoDi para tienditas** | Nonco: herramientas dev sobre pey (CLI, x402) | Coperacha: regalos en grupo con CoDi |
+
+**Por qué importa para la idea (lectura de Claude, confianza baja).** Varias
+ideas "obvias" ya tienen un ganador previo: el POS para tienditas (Abarpay), el
+cobro por WhatsApp (Varísimo) y el regalo colectivo (Coperacha). La originalidad
+pesa 15%. El ponche ([[ponche-artesanal-papa]]) se parece a Abarpay en la
+superficie (cobrar en un puesto chico). Lo que lo diferenciaría es **el registro
+del sabor al cobrar y el cuadre automático del domingo**, no el cobro en sí.
+
 ## Equipo e idea (2026-11-14, chat de WhatsApp pegado en la conversación)
 
 - **[[daniel]] acepta** ("pa' cuatro semanas de chamba ahí sí soy team").
@@ -162,3 +232,16 @@ conserva la propiedad intelectual. El reparto interno de premios se recomienda
    CoDi nueva?
 4. ¿Cómo se reparten las semanas alrededor del 28-nov?
 5. ¿Se documenta para contenido de [[absadev]]?
+
+**Agregadas el 22-nov:**
+
+1. ¿Qué hace distinto al proyecto frente a Abarpay, Varísimo y Coperacha, que ya
+   ganaron con ideas parecidas?
+2. ¿Se publica algún bounty antes del 30-nov que valga la pena?
+
+> **Nota de fuente (22-nov).** La captura del 14-nov numeraba las reglas en 17
+> secciones. Son **18**: esa captura se saltó la sección 2 ("Definiciones"). Las
+> referencias "regla 7" (credenciales del API) de esta página siguen la
+> numeración vieja; en el sitio es **§8**. El jurado está en §11, los premios en
+> §14 y los bounties en §15. El texto de las reglas no cambió: sigue fechado al
+> 4-nov.

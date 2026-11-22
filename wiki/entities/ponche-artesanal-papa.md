@@ -3,7 +3,7 @@ title: El ponche de mi papá — problema candidato (inventario y cuadre de un v
 type: entity
 domain: [reflections, finance]
 created: 2026-10-29
-updated: 2026-11-14
+updated: 2026-11-22
 sources:
   - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
     fact_date: 2026-10-28
@@ -128,6 +128,8 @@ Contexto regulatorio en [[pagos-digitales-mexico-2026]]:
 - **Restricción de las reglas del hackatón** ([[hackaton-mexico-2026]]):
   - La CLABE de producción tiene que ser **del titular de las credenciales**, y cobrar a cuentas ajenas está prohibido.
   - Si la CLABE es del papá, **el papá tiene que ser la Integradora**: integrante del equipo, con actividad empresarial o persona moral. No consta su situación fiscal.
+
+**2026-11-22, competencia previa** (captura del sitio, `raw/swe/hackaton-mexico-2026-sitio-delta-2026-11-22.md`): en el Cursor Hackatón México del 14-nov, el 1.er lugar fue **Abarpay, un punto de venta CoDi para tienditas**. Cobrar con CoDi en un puesto chico ya ganó una vez. Lectura de Claude (confianza baja): lo que diferencia al ponche es **el sabor registrado al cobrar y el cuadre del domingo sin contar**, no el QR. Ver [[hackaton-mexico-2026]].
 
 Según la documentación de Mercado Pago (búsqueda del 14-nov, sin probar), la intención de pago de Point lleva monto, descripción y `external_reference`. Mercado Pago está migrando Point a una Orders API nueva.
 
