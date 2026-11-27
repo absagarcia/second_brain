@@ -1,14 +1,22 @@
 ---
 title: El ponche de mi papá — problema candidato (inventario y cuadre de un vendedor de bazar)
 type: entity
-domain: [reflections, finance]
+domain: [reflections, finance, freelance]
 created: 2026-10-29
-updated: 2026-11-22
+updated: 2026-11-24
 sources:
   - path: raw/reflections/chat-daniel-genaro-export-completo-2026-10-29.md
     fact_date: 2026-10-28
     ingest_date: 2026-10-29
     confidence: medium   # los hechos del negocio los da el usuario (primera mano, sin datos medidos); las propuestas son de Genaro y Daniel, sin validar
+  - path: raw/freelance/diagnostico-marketing-ponche-san-gabriel-2026-10.pdf
+    fact_date: 2026-10-31
+    ingest_date: 2026-11-24
+    confidence: medium
+  - path: raw/freelance/ponchesangabriel-auditoria-publica-2026-11-24.md
+    fact_date: 2026-11-24
+    ingest_date: 2026-11-24
+    confidence: high
 ---
 
 # El ponche de mi papá
@@ -133,6 +141,16 @@ Contexto regulatorio en [[pagos-digitales-mexico-2026]]:
 
 Según la documentación de Mercado Pago (búsqueda del 14-nov, sin probar), la intención de pago de Point lleva monto, descripción y `external_reference`. Mercado Pago está migrando Point a una Orders API nueva.
 
+## 2026-11-24: diagnóstico de marketing (Zapopan, programa de exportación a LA)
+
+Detalle en [[diagnostico-marketing-ponche-san-gabriel]]. Lo que agrega a esta página:
+- **La marca es Ponche San Gabriel**, con tienda en ponchesangabriel.com (el usuario es el admin), "Hecho en Zapopan", tercera generación, **300 L al mes**, seis sabores, y el papá habla inglés avanzado.
+- **Un tercero confirma el dolor:** área "Medición" en *Oportunidad* para México y EE.UU., "sin datos por sabor ni evento".
+- **Pero su remedio es la hoja de cálculo** que se descartó aquí el 28-oct. Sirve como lista de *qué* medir (sabor, evento, WhatsApp, recompra, margen), no como el *cómo*.
+- **Discrepancia de presentación — resuelta el 24-nov:** aquí decía "litro y medio a ~380" (usuario, 28-oct). El sitio vende **1 L a 380 y 500 ml a 200**. El papá confirmó el 24-nov que **no existe botella de 1.5 L**: el dato del 28-oct estaba mal. También confirmó que el mazapán es de **780 g** (el sitio decía 750 ml).
+- **Nombre del producto (24-nov):** el papá eligió **"Licor de agave"**. Lo vende como "ponche" y la etiqueta solo dice el sabor.
+- **Sabor héroe: granada.** Coincide con los más vendidos que veía el usuario, aunque el deck la elige por anaquel (5 años), no por ventas.
+
 ## Related
 
 - [[valor-se-muda-a-lo-escaso]] — el método del que sale, y la regla "el dolor es la señal"
@@ -141,3 +159,4 @@ Según la documentación de Mercado Pago (búsqueda del 14-nov, sin probar), la 
 - [[daniel]] — las correcciones de método
 - [[hackaton-mexico-2026]] — donde se volvió candidato a proyecto
 - [[pagos-digitales-mexico-2026]] — la ley y la circular que cambian cómo cobra un puesto
+- [[diagnostico-marketing-ponche-san-gabriel]] — diagnóstico externo de oct-2026 y los cambios al sitio

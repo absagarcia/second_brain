@@ -3,7 +3,7 @@ title: Sistema MP (la app)
 type: entity
 domain: [freelance, swe]
 created: 2026-09-07
-updated: 2026-09-09
+updated: 2026-11-24
 sources:
   - path: raw/freelance/sistema-mp-traspaso-2026-09-07.md
     fact_date: 2026-09-07
@@ -140,6 +140,20 @@ redundantes a las que ya pidió el mensaje a Williams.
   por una vía distinta (ella ya tenía el problema resuelto con otro
   desarrollador, y ahora cambia de manos).
 
+## 2026-11-12 (ingerido el 2026-11-24) — Margarita quiere además una app nueva
+
+El usuario cuenta que Margarita quiere "sí o sí" una **app nueva directa al consumidor** y que el
+plan es **cotizar y hacer un MVP** (Flutter, backend Node/TypeScript en AWS). Es un producto
+distinto de esta app; todo el detalle está en [[app-nueva-sistema-mp]]. Fuente:
+`raw/freelance/app-nueva-sistema-mp-conversacion-2026-11-12.md`.
+
+Qué cambia y qué no, sin borrar lo anterior:
+
+- La relación ya no es solo mantenimiento por hora de esta app: ahora hay también **cotización de un producto nuevo**. No consta cómo se cobra ni quién es dueño del código y los datos.
+- El usuario dice tener **acceso a la base de producción** (futbolistas y todos los tipos de paciente). Según el traspaso del 07-sep, esa base es PostgreSQL. Usar esos datos para validar el producto nuevo no consta que esté autorizado por Margarita.
+- El informe origen confirma el identificador de Google Play `com.sistemaap.v2` y dice que la app actual tiene "más de 50 descargas", es decir, funciona como visor para pacientes de un especialista, no como producto de adquisición directa.
+- Pregunta abierta: el backend actual es Go y el propuesto para la app nueva es Node/TypeScript; no consta si conviven, se conectan o se reemplaza uno.
+
 ## Related
 
 - [[margarita-posada]] — la dueña de la app y paciente/cliente cero
@@ -147,3 +161,4 @@ redundantes a las que ya pidió el mensaje a Williams.
 - [[fitexe]] — el stack que el usuario ya domina (Flutter/Supabase), distinto del de Sistema MP (React Native/Go/PostgreSQL en AWS)
 - [[nunca-reescribas-desde-cero]] — la migración de la app web (CRA → Next.js, "en migración, sin publicar") se usa como el ancla real de la Serie 11 de [[estrategia-contenido-absadev]] (2026-09-21)
 - [[serie11-video5-migrando-sistema-mp]] — el guion de producción que usa esta migración como caso real; el mecanismo técnico que describe (Strangler Fig/`rewrites`) está pendiente de confirmar contra esta página
+- [[app-nueva-sistema-mp]] — el producto B2C nuevo que Margarita quiere (2026-11-12): alcance de MVP, riesgos y preguntas abiertas

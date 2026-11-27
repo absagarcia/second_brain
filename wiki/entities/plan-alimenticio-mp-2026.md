@@ -3,7 +3,7 @@ title: Plan alimenticio Sistema MP 2026
 type: entity
 domain: [fitness]
 created: 2026-08-25
-updated: 2026-11-10
+updated: 2026-11-24
 sources:
   - path: raw/fitness/meal plan/meal-plan.png
     fact_date: 2026-08-25      # sin fecha propia; captura de la app, se asume vigente al ingerir
@@ -154,3 +154,9 @@ información, no error.
 > también de noche. Con ~106 g/día el plan ya da para ~5 tomas; lo que no consta es la
 > toma de la noche. Y para el bloque del 21-feb (más de 2 h de carrera) el glucógeno
 > pasa a ser factor de carrera, no solo de entrenamiento. Temas para [[margarita-posada]].
+
+> **2026-11-24 — [[motor-dietocalculo-mp]]:** al ingerir el informe de la app nueva se cruzó este plan
+> (≈1,460–1,760 kcal, derivación) con el candado propuesto de 30 kcal/kg de masa libre de grasa
+> (≈2,070 kcal para 95.0 kg y 27.3 % de grasa, derivación): el candado lo marcaría como insuficiente.
+> No es un hallazgo sobre el plan, es una pregunta de calibración para Margarita. Ver
+> [[app-nueva-sistema-mp]].

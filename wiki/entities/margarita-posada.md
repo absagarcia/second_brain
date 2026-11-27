@@ -3,7 +3,7 @@ title: Margarita Posada
 type: entity
 domain: [fitness, freelance, swe]
 created: 2026-08-25
-updated: 2026-09-08
+updated: 2026-11-24
 sources:
   - path: raw/fitness/meal plan/
     fact_date: 2026-03-27 → 2026-08-18
@@ -21,6 +21,10 @@ sources:
     fact_date: 2026-09-08
     ingest_date: 2026-09-08
     confidence: low    # idea propia del usuario, sin negociar con ella todavía
+  - path: raw/freelance/app-nueva-sistema-mp-reporte-investigacion-2026-11-12.txt
+    fact_date: 2026-11-12
+    ingest_date: 2026-11-24
+    confidence: medium   # perfil armado por un informe de IA con fuentes web públicas; cifras sin verificar una por una
 ---
 
 # Margarita Posada
@@ -155,7 +159,23 @@ hora" (ambas ya medidas arriba) a un tercer modelo, de suscripción. **Vida
 corta:** es una cifra propuesta, no negociada ni cobrada — no confundir con
 los datos medidos de esta página, que sí son hechos.
 
+## 2026-11-24 — perfil profesional y la app nueva
+
+Datos que el wiki no tenía, del informe de investigación del 2026-11-12 (fuentes web públicas;
+confianza media):
+
+- **Formación:** Licenciatura en Nutrición y Ciencia de los Alimentos (Ibero, 1986–1991); Maestría en Nutrición Deportiva (Universidad de Stirling, 2017); Diploma en Nutrición Deportiva del COI (2015); **Antropometrista ISAK Nivel 3 desde 2012**.
+- **Trayectoria:** más de 30 años de práctica; dirigió el departamento de nutrición deportiva de Chivas (nov-2008 a feb-2018) y fue la nutrióloga de las selecciones mexicanas de fútbol durante una década; desde 2019 está en San José Earthquakes (MLS); lleva el servicio de nutrición de la Clínica Medyarthros (Guadalajara).
+- **Corredora:** más de 20 maratones y marca de **2:56:50** (según el informe).
+- **Clasifica a sus pacientes en tres perfiles:** Elite, Comprometido y Deportista en proceso. Esto complementa lo ya anotado de que registra por posición deportiva.
+
+Y lo que importa para el producto: según el usuario, **quiere "sí o sí" una app nueva directa al
+consumidor** basada en su metodología. Detalle en [[app-nueva-sistema-mp]], con las reglas de su
+cálculo en [[motor-dietocalculo-mp]]. Cualquier regla que el motor tome de ella (por ejemplo el
+umbral de energía mínima) debe confirmarla ella, no inferirse.
+
 ## Related
 
 - [[sistema-mp-app]] — su app, la arquitectura y el traspaso de accesos
 - [[segunda-app-candidatas]] — la hipótesis de producto que este traspaso reabre
+- [[app-nueva-sistema-mp]] — la app B2C nueva que quiere; [[motor-dietocalculo-mp]] — sus reglas de cálculo, propuestas, sin validar con ella

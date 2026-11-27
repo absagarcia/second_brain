@@ -3264,3 +3264,37 @@ Herramienta: se corrigió `per_video` en `wa-agent/skills/youtube-analytics`. Or
 Fuente nueva: `raw/swe/hackaton-mexico-2026-sitio-delta-2026-11-22.md`, con portada completa (incluye #por-que-ahora), /ideas, /blog y la estructura de /reglas. Lo nuevo: el pitch "pagos sin comisión", el jurado (Pey, AI Builders, Mau Barón), los mentores, Utopía como organizador, 20 ideas sugeridas y los ganadores de los encuentros del 7 y el 14-nov. El Documento de Premios y los bounties siguen sin publicarse.
 Corrección de fuente: las reglas tienen 18 secciones. La captura del 14-nov se saltó "Definiciones" y recorrió los números; el texto no cambió y sigue fechado al 4-nov.
 Actualizadas: [[hackaton-mexico-2026]] (secciones nuevas y preguntas abiertas 6–7) y [[ponche-artesanal-papa]] (Abarpay ya ganó con un POS CoDi; la diferencia estaría en el sabor y el cuadre).
+
+## [2026-11-23] ingest | Carrusel @absa.ai: 6 servidores MCP nuevos — blackicelabs, swe
+Fuentes nuevas: `raw/blackicelabs/medium-10-latest-mcp-servers-2026-11-14.md` (artículo pegado por el usuario, confianza baja) y `raw/blackicelabs/mcp-servers-nuevos-verificacion-github-2026-11-23.md` (API de GitHub y README de los 10 repos).
+Página nueva: [[carrusel-mcp-nuevos]], con el contenido de las 9 slides, el caption y lo que se dejó fuera. Dos errores del artículo quedan anotados: Poki ya no es MCP y Three-Live no es producto oficial de Google. El usuario confirma que se subirá a redes; falta la fecha y los números.
+Actualizada: [[estrategia-contenido-absadev]] (nota sobre el primer carrusel en formato lista).
+
+## [2026-11-24] ingest | Diagnóstico de marketing Ponche San Gabriel (oct-2026) + auditoría pública del sitio — freelance
+Fuentes nuevas: `raw/freelance/diagnostico-marketing-ponche-san-gabriel-2026-10.pdf` (deck de 15 páginas, programa de exportación a LA de Zapopan, EAB y HB 360°) y `raw/freelance/ponchesangabriel-auditoria-publica-2026-11-24.md` (REST API pública, solo lectura).
+Página nueva: [[diagnostico-marketing-ponche-san-gabriel]]. Actualizada: [[ponche-artesanal-papa]] (marca, 300 L/mes, el dolor de medición confirmado por un tercero, choque con la hoja de cálculo y discrepancia de presentaciones: 1.5 L contra 1 L/500 ml).
+Trabajo en el sitio: cambio de OpenSpec en `~/Documents/Proyects/ponche_san_gabriel_web/`. No hay MCP de WordPress configurado; nada del sitio se ha modificado.
+
+## [2026-11-24] decision | Sitio de Ponche San Gabriel: REST API ahora, MCP después — freelance
+El usuario prefería el MCP de WordPress. La verificación mostró que el MCP Adapter 0.7.2 pide WordPress ≥ 6.9 (el sitio está en 6.8.13) y que las abilities de producto de WooCommerce piden WooCommerce 11.3 sobre WordPress 7.0 (el sitio tiene 9.8.7). Además, el MCP no cubre páginas, medios ni redirecciones. Decisión: aplicar el diagnóstico por REST API con Application Password, y dejar la actualización y el MCP como un cambio de OpenSpec aparte. Ver [[diagnostico-marketing-ponche-san-gabriel]].
+
+## [2026-11-24] update | ponchesangabriel.com: primeros cambios en vivo y la causa del salto al cargar — freelance
+- Acceso por REST API: el usuario es admin. Respaldo JSON en `ponche_san_gabriel_web/backups/2026-11-24/`. Yoast es Free, así que las redirecciones 301 necesitarán el plugin Redirection.
+- PageSpeed (medido por el usuario): la portada da 97 en móvil y 100 en escritorio, con CLS 0. **La tienda da 78, con CLS 0.56 en móvil y 0.60 en escritorio.** Ahí estaba el problema del diagnóstico. La causa es que el Critical CSS de LiteSpeed no incluye la cuadrícula de WooCommerce. El usuario lo corrige en wp-admin.
+- Primer cambio en vivo: los 8 productos en "Uncategorized" pasan a las categorías de sus hermanos, y se crea la categoría "Mezcal artesanal" para los productos 293 y 324. La plantilla de nombres para la decisión del papá queda en `propuestas/nombres-productos.md`. Ver [[diagnostico-marketing-ponche-san-gabriel]].
+
+## [2026-11-24] update | ponchesangabriel.com: nombre "Licor de agave" aplicado — freelance
+Respuestas del papá: el producto se llama "Licor de agave" (lo vende como ponche y la etiqueta dice el sabor), el mazapán es de 780 g y **no existe botella de 1.5 L**. Esto resuelve la discrepancia de [[ponche-artesanal-papa]].
+En vivo: 11 productos renombrados, slugs limpios con 301 (las hace WordPress, sin plugin), categoría "Licor de agave" única y "Ponche" borrada. Pendiente: las frases de las descripciones que mencionan el mezcal como ingrediente, el tamaño del mezcal 293, las fotos, la página en inglés y la de mayoreo. Ver [[diagnostico-marketing-ponche-san-gabriel]].
+
+## [2026-11-24] update | ponchesangabriel.com: páginas "For importers" y "Mayoreo" publicadas — freelance
+Las dos se hicieron en Elementor (con el estilo de la portada), se publicaron y quedaron enlazadas en el menú principal. Mayoreo muestra "A cotizar" en lugar de precios: decisión del usuario, el precio se entrega por cotización vía WhatsApp. La página para importadores solo usa datos del diagnóstico (no incluye grado de alcohol, FDA, precios ni la palabra "mezcal").
+Lección técnica: si se escribe `_elementor_data` por REST, Elementor no regenera su CSS. Hay que llamar `DELETE /wp-json/elementor/v1/cache` (el script `scripts/elementor_pages.py` ya lo hace). Ver [[diagnostico-marketing-ponche-san-gabriel]].
+
+## [2026-11-24] update | ponchesangabriel.com: "todo es licor de agave" — freelance
+El papá confirmó que la base de los licores de fruta es licor de agave, no mezcal. Se reescribieron las frases que describían el mezcal como ingrediente ("ahumado del mezcal", "mezcal de agave", "alma del mezcal"): 11 descripciones de producto, el SEO de Yoast de cada una y 3 textos de la portada. "Mezcal" queda solo en los 2 productos que sí son mezcal artesanal. Ver [[diagnostico-marketing-ponche-san-gabriel]].
+
+## [2026-11-24] ingest | App nueva Sistema MP — informe de investigación y conversación del 2026-11-12 — freelance
+Fuentes nuevas (raw, sin tocar): `raw/freelance/app-nueva-sistema-mp-reporte-investigacion-2026-11-12.txt` (informe de IA, íntegro) y `raw/freelance/app-nueva-sistema-mp-conversacion-2026-11-12.md` (lo que dijo el usuario, separado de la evaluación y las propuestas de Claude).
+Páginas nuevas: [[app-nueva-sistema-mp]], [[motor-dietocalculo-mp]], [[escaner-corporal-optico-validacion]], [[sincronizacion-healthkit-health-connect]], [[sistema-mp-vs-avena-vs-avocado]]. Actualizadas: [[sistema-mp-app]], [[margarita-posada]], [[plan-alimenticio-mp-2026]].
+Ángulo de compresión asumido (no se preguntó): qué decidir y construir para cotizar un MVP; quedaron fuera la fisiología del sueño y la bibliografía. Hallazgo para confirmar con Margarita: el candado de 30 kcal/kg MLG marcaría su propio plan como insuficiente (derivación). Sin datos de pacientes en el wiki; la base de producción no se tocó.

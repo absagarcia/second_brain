@@ -3,7 +3,7 @@ title: Estrategia de contenido — Absadev
 type: concept
 domain: [blackicelabs]
 created: 2026-07-16
-updated: 2026-11-19
+updated: 2026-11-23
 sources:
   - path: conversation (advisor session with the user, 2026-07-16)
     fact_date: 2026-07-16
@@ -3089,3 +3089,14 @@ cambia una conclusión:
 
 **Vigencia:** el mecanismo es de **vida larga**. Las cifras citadas son de **confianza
 baja**.
+
+## [2026-11-23] Carruseles: primer carrusel en formato lista
+
+[[carrusel-mcp-nuevos]] usa la plantilla fija de @absa.ai para una lista de 6 servidores MCP, en
+vez de una sola herramienta oficial. El usuario confirma que se subirá a redes. Al leerlo, hay que
+recordar que cambian el tema y la estructura a la vez, así que un resultado distinto no dice cuál de
+los dos lo causó. Sigue en n bajo, como anticipaba el hábito 3 del 26-oct ("si se prueba, entra como
+n=1").
+
+**Vigencia:** la regla de leerlo con cuidado es de vida larga; los números, cuando lleguen, serán de
+vida corta.
